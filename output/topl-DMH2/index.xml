@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/">
+  <fr:frontmatter>
+    <fr:authors />
+    <fr:date>
+      <fr:year>2025</fr:year>
+      <fr:month>6</fr:month>
+      <fr:day>8</fr:day>
+    </fr:date>
+    <fr:uri>https://www.my-great-forest.net/topl-DMH2/</fr:uri>
+    <fr:display-uri>topl-DMH2</fr:display-uri>
+    <fr:route>/topl-DMH2/</fr:route>
+    <fr:title text="Retrocompact subspaces">Retrocompact subspaces</fr:title>
+    <fr:taxon>Definition</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <html:p>
+  We say a subspace <fr:tex display="inline"><![CDATA[Y]]></fr:tex> of <fr:tex display="inline"><![CDATA[X]]></fr:tex> is <html:em>retrocompact</html:em>, if the inclusion <fr:tex display="inline"><![CDATA[Y \to  X]]></fr:tex> is <html:em>compact</html:em>.
+</html:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>8</fr:day>
+            </fr:date>
+            <fr:uri>https://www.my-great-forest.net/topl-F1KS/</fr:uri>
+            <fr:display-uri>topl-F1KS</fr:display-uri>
+            <fr:route>/topl-F1KS/</fr:route>
+            <fr:title text="Constructible topology">Constructible topology</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  We say a subset <fr:tex display="inline"><![CDATA[Y]]></fr:tex> of <fr:tex display="inline"><![CDATA[X]]></fr:tex> is <html:em>constructible</html:em>, if it is a finite union of subsets of the form <fr:tex display="inline"><![CDATA[U \cap  \overline {V}]]></fr:tex>, where <fr:tex display="inline"><![CDATA[U,V]]></fr:tex> are <fr:link href="/topl-DMH2/" title="Retrocompact subspaces" uri="https://www.my-great-forest.net/topl-DMH2/" display-uri="topl-DMH2" type="local">retrocompact</fr:link>. The <html:em>constructible topology</html:em> on <fr:tex display="inline"><![CDATA[X]]></fr:tex> is the one obtained by taking the constructible subsets as a basis.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>8</fr:day>
+            </fr:date>
+            <fr:uri>https://www.my-great-forest.net/idem-comm-CJ99/</fr:uri>
+            <fr:display-uri>idem-comm-CJ99</fr:display-uri>
+            <fr:route>/idem-comm-CJ99/</fr:route>
+            <fr:title text="Retrocompact subsets in spectra">Retrocompact subsets in spectra</fr:title>
+            <fr:taxon>Lemma</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>
+  An open subset <fr:tex display="inline"><![CDATA[X]]></fr:tex> of <fr:tex display="inline"><![CDATA[\operatorname {Spec} D]]></fr:tex> is <fr:link href="/topl-DMH2/" title="Retrocompact subspaces" uri="https://www.my-great-forest.net/topl-DMH2/" display-uri="topl-DMH2" type="local">retrocompact</fr:link> iff it is compact. 
+</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>8</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  This is just due to the fact that spectra are also <fr:link href="/topl-GW93/" title="Quasi-separated spaces" uri="https://www.my-great-forest.net/topl-GW93/" display-uri="topl-GW93" type="local">quasi-separated</fr:link>.
+</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

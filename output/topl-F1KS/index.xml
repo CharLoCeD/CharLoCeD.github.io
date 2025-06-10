@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/">
+  <fr:frontmatter>
+    <fr:authors />
+    <fr:date>
+      <fr:year>2025</fr:year>
+      <fr:month>6</fr:month>
+      <fr:day>8</fr:day>
+    </fr:date>
+    <fr:uri>https://www.my-great-forest.net/topl-F1KS/</fr:uri>
+    <fr:display-uri>topl-F1KS</fr:display-uri>
+    <fr:route>/topl-F1KS/</fr:route>
+    <fr:title text="Constructible topology">Constructible topology</fr:title>
+    <fr:taxon>Definition</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <html:p>
+  We say a subset <fr:tex display="inline"><![CDATA[Y]]></fr:tex> of <fr:tex display="inline"><![CDATA[X]]></fr:tex> is <html:em>constructible</html:em>, if it is a finite union of subsets of the form <fr:tex display="inline"><![CDATA[U \cap  \overline {V}]]></fr:tex>, where <fr:tex display="inline"><![CDATA[U,V]]></fr:tex> are <fr:link href="/topl-DMH2/" title="Retrocompact subspaces" uri="https://www.my-great-forest.net/topl-DMH2/" display-uri="topl-DMH2" type="local">retrocompact</fr:link>. The <html:em>constructible topology</html:em> on <fr:tex display="inline"><![CDATA[X]]></fr:tex> is the one obtained by taking the constructible subsets as a basis.
+</html:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>8</fr:day>
+            </fr:date>
+            <fr:uri>https://www.my-great-forest.net/idem-comm-XNIE/</fr:uri>
+            <fr:display-uri>idem-comm-XNIE</fr:display-uri>
+            <fr:route>/idem-comm-XNIE/</fr:route>
+            <fr:title text="Constructible sets compute Booleanisation">Constructible sets compute Booleanisation</fr:title>
+            <fr:taxon>Proposition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>
+  For a distributive lattice <fr:tex display="inline"><![CDATA[D]]></fr:tex>, the poset of constructible subsets of <fr:tex display="inline"><![CDATA[\operatorname {Spec} D]]></fr:tex> is isomorphic to the Booleanisation of <fr:tex display="inline"><![CDATA[D]]></fr:tex>, i.e. the free Boolean algebra associated to <fr:tex display="inline"><![CDATA[D]]></fr:tex>. In particular, the <fr:link href="/topl-F1KS/" title="Constructible topology" uri="https://www.my-great-forest.net/topl-F1KS/" display-uri="topl-F1KS" type="local">constructible topology</fr:link> on <fr:tex display="inline"><![CDATA[\operatorname {Spec} D]]></fr:tex> is the Priestley topology.
+</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>8</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  This is evident from construction.
+</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>8</fr:day>
+            </fr:date>
+            <fr:uri>https://www.my-great-forest.net/idem-comm-ZPKE/</fr:uri>
+            <fr:display-uri>idem-comm-ZPKE</fr:display-uri>
+            <fr:route>/idem-comm-ZPKE/</fr:route>
+            <fr:title text="Constructible sets of spectra">Constructible sets of spectra</fr:title>
+            <fr:taxon>Lemma</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>
+  The <fr:link href="/topl-F1KS/" title="Constructible topology" uri="https://www.my-great-forest.net/topl-F1KS/" display-uri="topl-F1KS" type="local">constructible sets</fr:link> on <fr:tex display="inline"><![CDATA[\operatorname {Spec} D]]></fr:tex> are finite unions of subsets of the form <fr:tex display="inline"><![CDATA[O_a \cap  C_b]]></fr:tex> for <fr:tex display="inline"><![CDATA[a,b \in  D]]></fr:tex>.
+</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>8</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  This is a direct consequence of <fr:link href="/idem-comm-CJ99/" title="Retrocompact subsets in spectra" uri="https://www.my-great-forest.net/idem-comm-CJ99/" display-uri="idem-comm-CJ99" type="local">Lemma <fr:contextual-number uri="https://www.my-great-forest.net/idem-comm-CJ99/" display-uri="idem-comm-CJ99" /></fr:link>, and that all compact opens are of the form <fr:tex display="inline"><![CDATA[O_a]]></fr:tex> for some <fr:tex display="inline"><![CDATA[a\in  D]]></fr:tex>, with its complement being <fr:tex display="inline"><![CDATA[C_a]]></fr:tex>.
+</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>8</fr:day>
+            </fr:date>
+            <fr:uri>https://www.my-great-forest.net/topl-XT5Y/</fr:uri>
+            <fr:display-uri>topl-XT5Y</fr:display-uri>
+            <fr:route>/topl-XT5Y/</fr:route>
+            <fr:title text="Maps preserving constructible sets">Maps preserving constructible sets</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  We say a map <fr:tex display="inline"><![CDATA[Y \to  X]]></fr:tex> <html:em>preserves <fr:link href="/topl-F1KS/" title="Constructible topology" uri="https://www.my-great-forest.net/topl-F1KS/" display-uri="topl-F1KS" type="local">constructible sets</fr:link></html:em> if the image of a constructible subsets of <fr:tex display="inline"><![CDATA[Y]]></fr:tex> is again constructible.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>8</fr:day>
+            </fr:date>
+            <fr:uri>https://www.my-great-forest.net/topl-DMH2/</fr:uri>
+            <fr:display-uri>topl-DMH2</fr:display-uri>
+            <fr:route>/topl-DMH2/</fr:route>
+            <fr:title text="Retrocompact subspaces">Retrocompact subspaces</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  We say a subspace <fr:tex display="inline"><![CDATA[Y]]></fr:tex> of <fr:tex display="inline"><![CDATA[X]]></fr:tex> is <html:em>retrocompact</html:em>, if the inclusion <fr:tex display="inline"><![CDATA[Y \to  X]]></fr:tex> is <html:em>compact</html:em>.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

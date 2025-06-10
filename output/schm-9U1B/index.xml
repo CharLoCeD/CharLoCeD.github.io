@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/">
+  <fr:frontmatter>
+    <fr:authors />
+    <fr:date>
+      <fr:year>2025</fr:year>
+      <fr:month>6</fr:month>
+      <fr:day>9</fr:day>
+    </fr:date>
+    <fr:uri>https://www.my-great-forest.net/schm-9U1B/</fr:uri>
+    <fr:display-uri>schm-9U1B</fr:display-uri>
+    <fr:route>/schm-9U1B/</fr:route>
+    <fr:title text="Integral schemes">Integral schemes</fr:title>
+    <fr:taxon>Definition</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <html:p>
+  A <fr:link href="/schm-86OJ/" title="Scheme" uri="https://www.my-great-forest.net/schm-86OJ/" display-uri="schm-86OJ" type="local">scheme</fr:link> <fr:tex display="inline"><![CDATA[X]]></fr:tex> is <html:em>integral</html:em>, if it is non-empty, and for every non-empty affine open <fr:tex display="inline"><![CDATA[\operatorname {Spec} A]]></fr:tex> of <fr:tex display="inline"><![CDATA[X]]></fr:tex>, <fr:tex display="inline"><![CDATA[A]]></fr:tex> is <fr:link href="/idem-comm-487K/" title="Integral distributive lattices" uri="https://www.my-great-forest.net/idem-comm-487K/" display-uri="idem-comm-487K" type="local">integral</fr:link>.
+</html:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>9</fr:day>
+            </fr:date>
+            <fr:uri>https://www.my-great-forest.net/schm-7J9T/</fr:uri>
+            <fr:display-uri>schm-7J9T</fr:display-uri>
+            <fr:route>/schm-7J9T/</fr:route>
+            <fr:title text="A scheme is integral iff it is irreducible">A scheme is integral iff it is irreducible</fr:title>
+            <fr:taxon>Theorem</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  A scheme <fr:tex display="inline"><![CDATA[X]]></fr:tex> is <fr:link href="/schm-9U1B/" title="Integral schemes" uri="https://www.my-great-forest.net/schm-9U1B/" display-uri="schm-9U1B" type="local">integral</fr:link> iff it is <fr:link href="/topl-0001/" title="Irreducible space" uri="https://www.my-great-forest.net/topl-0001/" display-uri="topl-0001" type="local">irreducible</fr:link>.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>9</fr:day>
+            </fr:date>
+            <fr:uri>https://www.my-great-forest.net/idem-comm-487K/</fr:uri>
+            <fr:display-uri>idem-comm-487K</fr:display-uri>
+            <fr:route>/idem-comm-487K/</fr:route>
+            <fr:title text="Integral distributive lattices">Integral distributive lattices</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  A distributive lattice <fr:tex display="inline"><![CDATA[D]]></fr:tex> is <html:em>integral</html:em> if <fr:tex display="inline"><![CDATA[D^{\mathrm {op}}]]></fr:tex> is <fr:link href="/idem-comm-75C1/" title="Local distributive lattice" uri="https://www.my-great-forest.net/idem-comm-75C1/" display-uri="idem-comm-75C1" type="local">local</fr:link>.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>8</fr:day>
+            </fr:date>
+            <fr:uri>https://www.my-great-forest.net/schm-86OJ/</fr:uri>
+            <fr:display-uri>schm-86OJ</fr:display-uri>
+            <fr:route>/schm-86OJ/</fr:route>
+            <fr:title text="Scheme">Scheme</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  A <fr:link href="/schm-V16H/" title="Locally distributed space" uri="https://www.my-great-forest.net/schm-V16H/" display-uri="schm-V16H" type="local">locally distributed space</fr:link> <fr:tex display="inline"><![CDATA[(X,\mathcal {O}_{X})]]></fr:tex> is a <html:em>scheme</html:em>, if for any <fr:tex display="inline"><![CDATA[x\in  X]]></fr:tex> there is an open neighbourhood <fr:tex display="inline"><![CDATA[U]]></fr:tex> of <fr:tex display="inline"><![CDATA[x]]></fr:tex>, such that <fr:tex display="inline"><![CDATA[(U,\mathcal {O}_{X}|_U)]]></fr:tex> is an <fr:link href="/schm-IFX1/" title="Affine scheme" uri="https://www.my-great-forest.net/schm-IFX1/" display-uri="schm-IFX1" type="local">affine scheme</fr:link>. The full subcategory of schemes will be denoted as <fr:tex display="inline"><![CDATA[\mathbf {Sch}_{\mathbb {D}}]]></fr:tex>.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

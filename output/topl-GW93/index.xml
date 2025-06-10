@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/">
+  <fr:frontmatter>
+    <fr:authors />
+    <fr:date>
+      <fr:year>2025</fr:year>
+      <fr:month>6</fr:month>
+      <fr:day>8</fr:day>
+    </fr:date>
+    <fr:uri>https://www.my-great-forest.net/topl-GW93/</fr:uri>
+    <fr:display-uri>topl-GW93</fr:display-uri>
+    <fr:route>/topl-GW93/</fr:route>
+    <fr:title text="Quasi-separated spaces">Quasi-separated spaces</fr:title>
+    <fr:taxon>Definition</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <html:p>
+  A topological space <fr:tex display="inline"><![CDATA[X]]></fr:tex> is <html:em>quasi-separated</html:em> if compact opens are closed under intersections.
+</html:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>9</fr:day>
+            </fr:date>
+            <fr:uri>https://www.my-great-forest.net/schm-H9PK/</fr:uri>
+            <fr:display-uri>schm-H9PK</fr:display-uri>
+            <fr:route>/schm-H9PK/</fr:route>
+            <fr:title text="Quasi-compact and quasi-separated schemes">Quasi-compact and quasi-separated schemes</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  We say a <fr:link href="/schm-86OJ/" title="Scheme" uri="https://www.my-great-forest.net/schm-86OJ/" display-uri="schm-86OJ" type="local">scheme</fr:link> is <html:em>quasi-separated</html:em> if its underlying topological space is <fr:link href="/topl-GW93/" title="Quasi-separated spaces" uri="https://www.my-great-forest.net/topl-GW93/" display-uri="topl-GW93" type="local">quasi-separated</fr:link>. We say it is <html:em>quasi-compact</html:em> if its underlying space is <html:em>compact</html:em>. The two conditions are often combined together and written as <html:em>qcqs</html:em>.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>8</fr:day>
+            </fr:date>
+            <fr:uri>https://www.my-great-forest.net/schm-80MC/</fr:uri>
+            <fr:display-uri>schm-80MC</fr:display-uri>
+            <fr:route>/schm-80MC/</fr:route>
+            <fr:title text="A scheme is affine iff it is spectral">A scheme is affine iff it is spectral</fr:title>
+            <fr:taxon>Theorem</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>
+  A scheme <fr:tex display="inline"><![CDATA[X]]></fr:tex> is affine iff its underlying topological space is <fr:link href="/topl-VV9N/" title="Spectral spaces" uri="https://www.my-great-forest.net/topl-VV9N/" display-uri="topl-VV9N" type="local">spectral</fr:link>, i.e. iff it is <html:em>compact</html:em> and <fr:link href="/topl-GW93/" title="Quasi-separated spaces" uri="https://www.my-great-forest.net/topl-GW93/" display-uri="topl-GW93" type="local">quasi-separated</fr:link>.
+</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>8</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  Let <fr:tex display="inline"><![CDATA[X]]></fr:tex> be a scheme whose underlying topological space is spectral. Let <fr:tex display="inline"><![CDATA[D]]></fr:tex> be the distributive lattice of compact open subsets of <fr:tex display="inline"><![CDATA[X]]></fr:tex>. Let <fr:tex display="inline"><![CDATA[\{U_i\}_{i\in  I}]]></fr:tex> be a finite family of affine open covers of <fr:tex display="inline"><![CDATA[X]]></fr:tex>. For any <fr:tex display="inline"><![CDATA[U_i]]></fr:tex>, since <fr:tex display="inline"><![CDATA[U_i]]></fr:tex> is affine, and affine schemes are determined by their underlying topological space (see <fr:link href="/schm-1I73/" title="Affine schemes are determined by topology" uri="https://www.my-great-forest.net/schm-1I73/" display-uri="schm-1I73" type="local">Remark <fr:contextual-number uri="https://www.my-great-forest.net/schm-1I73/" display-uri="schm-1I73" /></fr:link>), we must have <fr:tex display="inline"><![CDATA[\mathcal {O}_{U_i} \cong  D_i]]></fr:tex> where <fr:tex display="inline"><![CDATA[D_i]]></fr:tex> is the principle quotient of <fr:tex display="inline"><![CDATA[D]]></fr:tex> corresponding to the compact open <fr:tex display="inline"><![CDATA[U_i]]></fr:tex>. This way, <fr:tex display="inline"><![CDATA[\mathcal {O}_{X}]]></fr:tex> and <fr:tex display="inline"><![CDATA[\mathcal {O}_{D}]]></fr:tex> agree on this open cover, which implies that <fr:tex display="inline"><![CDATA[\mathcal {O}_{X} \cong  \mathcal {O}_{D}]]></fr:tex>.
+</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>8</fr:day>
+            </fr:date>
+            <fr:uri>https://www.my-great-forest.net/idem-comm-CJ99/</fr:uri>
+            <fr:display-uri>idem-comm-CJ99</fr:display-uri>
+            <fr:route>/idem-comm-CJ99/</fr:route>
+            <fr:title text="Retrocompact subsets in spectra">Retrocompact subsets in spectra</fr:title>
+            <fr:taxon>Lemma</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>
+  An open subset <fr:tex display="inline"><![CDATA[X]]></fr:tex> of <fr:tex display="inline"><![CDATA[\operatorname {Spec} D]]></fr:tex> is <fr:link href="/topl-DMH2/" title="Retrocompact subspaces" uri="https://www.my-great-forest.net/topl-DMH2/" display-uri="topl-DMH2" type="local">retrocompact</fr:link> iff it is compact. 
+</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>8</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  This is just due to the fact that spectra are also <fr:link href="/topl-GW93/" title="Quasi-separated spaces" uri="https://www.my-great-forest.net/topl-GW93/" display-uri="topl-GW93" type="local">quasi-separated</fr:link>.
+</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>8</fr:day>
+            </fr:date>
+            <fr:uri>https://www.my-great-forest.net/schm-269K/</fr:uri>
+            <fr:display-uri>schm-269K</fr:display-uri>
+            <fr:route>/schm-269K/</fr:route>
+            <fr:title text="Topology of a general scheme">Topology of a general scheme</fr:title>
+            <fr:taxon>Remark</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  It is well-known that if <fr:tex display="inline"><![CDATA[X]]></fr:tex> is a <fr:link href="/schm-86OJ/" title="Scheme" uri="https://www.my-great-forest.net/schm-86OJ/" display-uri="schm-86OJ" type="local">scheme</fr:link>, then as a topological space it is <fr:link href="/topl-FII1/" title="Sober spaces" uri="https://www.my-great-forest.net/topl-FII1/" display-uri="topl-FII1" type="local">sober</fr:link> and <html:em>locally compact</html:em>. However, it may fail to be <fr:link href="/topl-GW93/" title="Quasi-separated spaces" uri="https://www.my-great-forest.net/topl-GW93/" display-uri="topl-GW93" type="local">quasi-separated</fr:link> or compact.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>7</fr:day>
+            </fr:date>
+            <fr:uri>https://www.my-great-forest.net/topl-VV9N/</fr:uri>
+            <fr:display-uri>topl-VV9N</fr:display-uri>
+            <fr:route>/topl-VV9N/</fr:route>
+            <fr:title text="Spectral spaces">Spectral spaces</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  A topological space <fr:tex display="inline"><![CDATA[X]]></fr:tex> is <html:em>locally spectral</html:em>, if
+  <html:ol><html:li>It is <fr:link href="/topl-FII1/" title="Sober spaces" uri="https://www.my-great-forest.net/topl-FII1/" display-uri="topl-FII1" type="local">sober</fr:link>.</html:li>
+    <html:li>It is <fr:link href="/topl-GW93/" title="Quasi-separated spaces" uri="https://www.my-great-forest.net/topl-GW93/" display-uri="topl-GW93" type="local">quasi-separated</fr:link>.</html:li>
+    <html:li>Compact opens form a basis of <fr:tex display="inline"><![CDATA[X]]></fr:tex>.</html:li></html:ol></html:p>
+            <html:p>
+  We say <fr:tex display="inline"><![CDATA[X]]></fr:tex> is <html:em>spectral</html:em> if furthermore <fr:tex display="inline"><![CDATA[X]]></fr:tex> is compact.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/">
+  <fr:frontmatter>
+    <fr:authors />
+    <fr:date>
+      <fr:year>2025</fr:year>
+      <fr:month>6</fr:month>
+      <fr:day>7</fr:day>
+    </fr:date>
+    <fr:uri>https://www.my-great-forest.net/topl-0001/</fr:uri>
+    <fr:display-uri>topl-0001</fr:display-uri>
+    <fr:route>/topl-0001/</fr:route>
+    <fr:title text="Irreducible space">Irreducible space</fr:title>
+    <fr:taxon>Definition</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <html:p>
+  A topological space <fr:tex display="inline"><![CDATA[X]]></fr:tex> is <html:em>irreducible</html:em> if it is not the union of two proper closed subspaces. More generally, we can talk about when a subset of <fr:tex display="inline"><![CDATA[X]]></fr:tex> is irreducible.
+</html:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>9</fr:day>
+            </fr:date>
+            <fr:uri>https://www.my-great-forest.net/schm-7J9T/</fr:uri>
+            <fr:display-uri>schm-7J9T</fr:display-uri>
+            <fr:route>/schm-7J9T/</fr:route>
+            <fr:title text="A scheme is integral iff it is irreducible">A scheme is integral iff it is irreducible</fr:title>
+            <fr:taxon>Theorem</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  A scheme <fr:tex display="inline"><![CDATA[X]]></fr:tex> is <fr:link href="/schm-9U1B/" title="Integral schemes" uri="https://www.my-great-forest.net/schm-9U1B/" display-uri="schm-9U1B" type="local">integral</fr:link> iff it is <fr:link href="/topl-0001/" title="Irreducible space" uri="https://www.my-great-forest.net/topl-0001/" display-uri="topl-0001" type="local">irreducible</fr:link>.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>7</fr:day>
+            </fr:date>
+            <fr:uri>https://www.my-great-forest.net/idem-comm-W1VU/</fr:uri>
+            <fr:display-uri>idem-comm-W1VU</fr:display-uri>
+            <fr:route>/idem-comm-W1VU/</fr:route>
+            <fr:title text="Irreducible closed subsets of spectra">Irreducible closed subsets of spectra</fr:title>
+            <fr:taxon>Proposition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>
+  Under the isomorphism in <fr:link href="/idem-comm-HLDT/" title="Frame of opens of spectra" uri="https://www.my-great-forest.net/idem-comm-HLDT/" display-uri="idem-comm-HLDT" type="local">Proposition <fr:contextual-number uri="https://www.my-great-forest.net/idem-comm-HLDT/" display-uri="idem-comm-HLDT" /></fr:link>, a closed subset <fr:tex display="inline"><![CDATA[C_I]]></fr:tex> of <fr:tex display="inline"><![CDATA[\operatorname {Spec} D]]></fr:tex> corresponding to an ideal <fr:tex display="inline"><![CDATA[I]]></fr:tex> of <fr:tex display="inline"><![CDATA[D]]></fr:tex> is <fr:link href="/topl-0001/" title="Irreducible space" uri="https://www.my-great-forest.net/topl-0001/" display-uri="topl-0001" type="local">irreducible</fr:link> iff <fr:tex display="inline"><![CDATA[I]]></fr:tex> is a prime ideal.
+</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>7</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <html:p>
+    Suppose <fr:tex display="inline"><![CDATA[C_I]]></fr:tex> is irreducible. If <fr:tex display="inline"><![CDATA[p \wedge  q \in  I]]></fr:tex>, then <fr:tex display="inline"><![CDATA[C_I \subseteq  C_{p \wedge  q} = C_p \cup  C_q]]></fr:tex>. By irreducibility, either <fr:tex display="inline"><![CDATA[p\in  I]]></fr:tex> or <fr:tex display="inline"><![CDATA[q\in  I]]></fr:tex>, which implies <fr:tex display="inline"><![CDATA[I]]></fr:tex> is a prime ideal. 
+  </html:p>
+
+  <html:p>
+    On the other hand, suppose <fr:tex display="inline"><![CDATA[I]]></fr:tex> is prime. If <fr:tex display="inline"><![CDATA[C_I]]></fr:tex> is not irreducible, then we can find ideals <fr:tex display="inline"><![CDATA[J,K]]></fr:tex> that <fr:tex display="inline"><![CDATA[C_I \subseteq  C_J \cup  C_K = C_{J \cap  K}]]></fr:tex>, or equivalently <fr:tex display="inline"><![CDATA[J \cap  K \subseteq  I]]></fr:tex>, and <fr:tex display="inline"><![CDATA[J \not \subseteq  I]]></fr:tex> and <fr:tex display="inline"><![CDATA[K \not \subseteq  I]]></fr:tex>. This way, pick <fr:tex display="inline"><![CDATA[p\in  J-I]]></fr:tex> and <fr:tex display="inline"><![CDATA[q\in  K-I]]></fr:tex>, we get <fr:tex display="inline"><![CDATA[p \wedge  q\in  I]]></fr:tex> but <fr:tex display="inline"><![CDATA[p \not \in  I]]></fr:tex> and <fr:tex display="inline"><![CDATA[q\not \in  I]]></fr:tex>, contradictory. Hence, <fr:tex display="inline"><![CDATA[C_I]]></fr:tex> must be irreducible.
+  </html:p>
+</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>7</fr:day>
+            </fr:date>
+            <fr:uri>https://www.my-great-forest.net/topl-FII1/</fr:uri>
+            <fr:display-uri>topl-FII1</fr:display-uri>
+            <fr:route>/topl-FII1/</fr:route>
+            <fr:title text="Sober spaces">Sober spaces</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  A topological space <fr:tex display="inline"><![CDATA[X]]></fr:tex> is <html:em>sober</html:em> if every <fr:link href="/topl-0001/" title="Irreducible space" uri="https://www.my-great-forest.net/topl-0001/" display-uri="topl-0001" type="local">irreducible</fr:link> closed subset is the closure of a <html:em>unique</html:em> point.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

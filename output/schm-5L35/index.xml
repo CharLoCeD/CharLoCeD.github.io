@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/">
+  <fr:frontmatter>
+    <fr:authors />
+    <fr:date>
+      <fr:year>2025</fr:year>
+      <fr:month>6</fr:month>
+      <fr:day>8</fr:day>
+    </fr:date>
+    <fr:uri>https://www.my-great-forest.net/schm-5L35/</fr:uri>
+    <fr:display-uri>schm-5L35</fr:display-uri>
+    <fr:route>/schm-5L35/</fr:route>
+    <fr:title text="Structural sheaf on a general open">Structural sheaf on a general open</fr:title>
+    <fr:taxon>Proposition</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter><html:p>
+  For any distributive lattice <fr:tex display="inline"><![CDATA[D]]></fr:tex>, we use <fr:tex display="inline"><![CDATA[I]]></fr:tex> to denote the open set <fr:tex display="inline"><![CDATA[O_I]]></fr:tex> via <fr:link href="/idem-comm-HLDT/" title="Frame of opens of spectra" uri="https://www.my-great-forest.net/idem-comm-HLDT/" display-uri="idem-comm-HLDT" type="local">Proposition <fr:contextual-number uri="https://www.my-great-forest.net/idem-comm-HLDT/" display-uri="idem-comm-HLDT" /></fr:link>. Then <fr:tex display="inline"><![CDATA[\mathcal {O}_{D}(I) \cong  D_I]]></fr:tex>.
+</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>8</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  By the sheaf condition, <fr:tex display="inline"><![CDATA[\mathcal {O}_{D}(I)]]></fr:tex> is the following equaliser,
+  
+  <html:figure><fr:resource hash="e3fd1b8471c13076bf30652b422c6972"><fr:resource-content><html:img src="/e3fd1b8471c13076bf30652b422c6972.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[\usepackage {tikz-cd}\usepackage {quiver}]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+    \begin {tikzcd}
+      \mathcal  O_{D}(I) \ar [r, tail] & \prod _{p\in  I} D/p \ar [r, shift left] \ar [r, shift right] & \prod _{p,q\in  I} D/p\wedge  q
+    \end {tikzcd}
+  ]]></fr:resource-source></fr:resource></html:figure>
+
+  Hence, an element <fr:tex display="inline"><![CDATA[u\in \mathcal {O}_{D}(I)]]></fr:tex> is exactly a function <fr:tex display="inline"><![CDATA[u : I \to  D]]></fr:tex> such that
+  <html:ol><html:li><fr:tex display="inline"><![CDATA[u(i) \le  i]]></fr:tex> for all <fr:tex display="inline"><![CDATA[i\in  I]]></fr:tex>;</html:li>
+    <html:li><fr:tex display="inline"><![CDATA[u(i) \wedge  j = u(i \wedge  j)]]></fr:tex> for all <fr:tex display="inline"><![CDATA[i,j\in  I]]></fr:tex>.</html:li></html:ol>
+  This gives an <fr:tex display="inline"><![CDATA[I]]></fr:tex>-element, since for any <fr:tex display="inline"><![CDATA[a\in  D]]></fr:tex>,
+  <fr:tex display="block"><![CDATA[ u(i \wedge  a) = u(i \wedge  i \wedge  a) = u(i) \wedge  i \wedge  a = u(i) \wedge  a. ]]></fr:tex>
+  On the other hand, it suffices to show an <fr:tex display="inline"><![CDATA[I]]></fr:tex>-element is always contractive. But this is easy, since
+  <fr:tex display="block"><![CDATA[ u(i) = u(i \wedge  i) = u(i) \wedge  i. ]]></fr:tex>
+  Hence, <fr:tex display="inline"><![CDATA[\mathcal {O}_{D}(I)]]></fr:tex> is the set of all <fr:tex display="inline"><![CDATA[I]]></fr:tex>-elements of <fr:tex display="inline"><![CDATA[D]]></fr:tex>.
+</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/lingyuan/" title="Lingyuan Ye" uri="https://www.my-great-forest.net/lingyuan/" display-uri="lingyuan" type="local">Lingyuan Ye</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>8</fr:day>
+            </fr:date>
+            <fr:uri>https://www.my-great-forest.net/schm-DDII/</fr:uri>
+            <fr:display-uri>schm-DDII</fr:display-uri>
+            <fr:route>/schm-DDII/</fr:route>
+            <fr:title text="Structural sheaf for spectra">Structural sheaf for spectra</fr:title>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>8</fr:day>
+                </fr:date>
+                <fr:uri>https://www.my-great-forest.net/schm-AGNC/</fr:uri>
+                <fr:display-uri>schm-AGNC</fr:display-uri>
+                <fr:route>/schm-AGNC/</fr:route>
+                <fr:title text="Structural sheaf on spectra">Structural sheaf on spectra</fr:title>
+                <fr:taxon>Definition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+  For a distributive lattice <fr:tex display="inline"><![CDATA[D]]></fr:tex>, the structural sheaf <fr:tex display="inline"><![CDATA[\mathcal {O}_{D}]]></fr:tex> on <fr:tex display="inline"><![CDATA[\operatorname {Spec} D]]></fr:tex> is given as follows: For each <fr:link href="/idem-comm-CU42/" title="Zariski topology" uri="https://www.my-great-forest.net/idem-comm-CU42/" display-uri="idem-comm-CU42" type="local">basic open</fr:link> <fr:tex display="inline"><![CDATA[O_p]]></fr:tex> of <fr:tex display="inline"><![CDATA[\operatorname {Spec} D]]></fr:tex>, which we may simply write as <fr:tex display="inline"><![CDATA[p]]></fr:tex>, we define
+  <fr:tex display="block"><![CDATA[ \mathcal {O}_{D}(p) := D/p. ]]></fr:tex>
+  For <fr:tex display="inline"><![CDATA[q \le  p]]></fr:tex>, we put the restriction map to be
+  <fr:tex display="block"><![CDATA[ q \wedge  - : \mathcal {O}_{D}(p) \cong  D/p \twoheadrightarrow  D/q \cong  \mathcal {O}_{D}(q). ]]></fr:tex></html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>8</fr:day>
+                </fr:date>
+                <fr:uri>https://www.my-great-forest.net/schm-B6QO/</fr:uri>
+                <fr:display-uri>schm-B6QO</fr:display-uri>
+                <fr:route>/schm-B6QO/</fr:route>
+                <fr:title text="Stalk for structural sheaf">Stalk for structural sheaf</fr:title>
+                <fr:taxon>Remark</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+  If <fr:tex display="inline"><![CDATA[\mathcal {O}_{D}]]></fr:tex> is a sheaf, then at each prime filter <fr:tex display="inline"><![CDATA[x\in \operatorname {Spec} D]]></fr:tex>, the stalk of <fr:tex display="inline"><![CDATA[\mathcal {O}_{D}]]></fr:tex> at <fr:tex display="inline"><![CDATA[x]]></fr:tex> is given by
+  <fr:tex display="block"><![CDATA[ \mathcal {O}_{D,x} \cong  \operatorname {colim}_{p\in  x}D/p \cong  D/x. ]]></fr:tex>
+  As a distributive lattice this is <fr:link href="/idem-comm-75C1/" title="Local distributive lattice" uri="https://www.my-great-forest.net/idem-comm-75C1/" display-uri="idem-comm-75C1" type="local">local</fr:link> by <fr:link href="/idem-comm-EV8L/" title="Quotient of prime filters are local" uri="https://www.my-great-forest.net/idem-comm-EV8L/" display-uri="idem-comm-EV8L" type="local">Proposition <fr:contextual-number uri="https://www.my-great-forest.net/idem-comm-EV8L/" display-uri="idem-comm-EV8L" /></fr:link>.
+</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>8</fr:day>
+                </fr:date>
+                <fr:uri>https://www.my-great-forest.net/schm-ZBG1/</fr:uri>
+                <fr:display-uri>schm-ZBG1</fr:display-uri>
+                <fr:route>/schm-ZBG1/</fr:route>
+                <fr:title text="Structural sheaf is a sheaf for Zariski topology">Structural sheaf is a sheaf for Zariski topology</fr:title>
+                <fr:taxon>proposition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter><html:p><fr:tex display="inline"><![CDATA[\mathcal {O}_{D}]]></fr:tex> is a sheaf of distributive lattices on <fr:tex display="inline"><![CDATA[\operatorname {Spec} D]]></fr:tex>, which is <fr:link href="/idem-comm-75C1/" title="Local distributive lattice" uri="https://www.my-great-forest.net/idem-comm-75C1/" display-uri="idem-comm-75C1" type="local">local</fr:link> as an internal distributive lattice.
+</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>8</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  We verify the sheaf condition. Again since <fr:tex display="inline"><![CDATA[O_p \cong  \operatorname {Spec} D/p]]></fr:tex>, we only need to verify the sheaf condition on the total space <fr:tex display="inline"><![CDATA[\operatorname {Spec} D]]></fr:tex>. By compactness, let us consider a finite union
+  <fr:tex display="block"><![CDATA[ \operatorname {Spec} D = \bigcup _{i\le  n}O_{p_i} = O_{\bigvee _{i\le  n}p_i}, ]]></fr:tex>
+  which is equivalent to the fact that <fr:tex display="inline"><![CDATA[\bigvee _{i\le  n}p_i = 1]]></fr:tex>. Now suppose we have a compatible family of elements <fr:tex display="inline"><![CDATA[q_i \in  D_{p_i}]]></fr:tex> for all <fr:tex display="inline"><![CDATA[i]]></fr:tex>. Compatibility means
+  <fr:tex display="block"><![CDATA[ q_i \wedge  p_j = q_j \wedge  p_i, ]]></fr:tex>
+  for all <fr:tex display="inline"><![CDATA[i,j\le  n]]></fr:tex>. This way, we construct the element
+  <fr:tex display="block"><![CDATA[ q := \bigvee _{i\le  n} q_i. ]]></fr:tex>
+  Firstly, indeed we have
+  <fr:tex display="block"><![CDATA[ q \wedge  p_j = \bigvee _{i\le  n}q_i \wedge  p_j = \bigvee _{i\le  n} q_j \wedge  p_i = q_j \wedge  \bigvee _{i\le  n}p_i = q_j. ]]></fr:tex>
+  Thus <fr:tex display="inline"><![CDATA[q]]></fr:tex> is indeed an amalgamation of <fr:tex display="inline"><![CDATA[\{q_i\}_{i\le  n}]]></fr:tex>. For uniqueness, suppose we have <fr:tex display="inline"><![CDATA[q']]></fr:tex> with <fr:tex display="inline"><![CDATA[q' \wedge  p_i = q_i]]></fr:tex> for all <fr:tex display="inline"><![CDATA[i]]></fr:tex>. Then we have
+  <fr:tex display="block"><![CDATA[ q' = \bigvee _{i\le  n} q' \wedge  p_i = \bigvee _{i\le  n} q \wedge  p_i = q. ]]></fr:tex>
+  Hence, <fr:tex display="inline"><![CDATA[\mathcal {O}_{D}]]></fr:tex> is a sheaf. It is local as an internal distributive lattice because at each point <fr:tex display="inline"><![CDATA[x\in \operatorname {Spec} D]]></fr:tex>, the stalk by <fr:link href="/schm-B6QO/" title="Stalk for structural sheaf" uri="https://www.my-great-forest.net/schm-B6QO/" display-uri="schm-B6QO" type="local">Remark <fr:contextual-number uri="https://www.my-great-forest.net/schm-B6QO/" display-uri="schm-B6QO" /></fr:link> is <fr:tex display="inline"><![CDATA[\mathcal {O}_{D,x} \cong  D/x]]></fr:tex>, thus local.
+</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>8</fr:day>
+                </fr:date>
+                <fr:uri>https://www.my-great-forest.net/schm-1Y0Q/</fr:uri>
+                <fr:display-uri>schm-1Y0Q</fr:display-uri>
+                <fr:route>/schm-1Y0Q/</fr:route>
+                <fr:title text="Partial element of a distributive lattice">Partial element of a distributive lattice</fr:title>
+                <fr:taxon>Definition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+  For a distributive lattice <fr:tex display="inline"><![CDATA[D]]></fr:tex> and an ideal <fr:tex display="inline"><![CDATA[I]]></fr:tex>, an <html:em><fr:tex display="inline"><![CDATA[I]]></fr:tex>-element</html:em> of <fr:tex display="inline"><![CDATA[D]]></fr:tex> is a function <fr:tex display="inline"><![CDATA[u : I \to  D]]></fr:tex> satisfying for any <fr:tex display="inline"><![CDATA[i\in  I]]></fr:tex> and <fr:tex display="inline"><![CDATA[a\in  D]]></fr:tex>,
+  <fr:tex display="block"><![CDATA[ u(i \wedge  a) = u(i) \wedge  a. ]]></fr:tex>
+  The set of <fr:tex display="inline"><![CDATA[I]]></fr:tex>-elements of <fr:tex display="inline"><![CDATA[D]]></fr:tex> will be denoted as <fr:tex display="inline"><![CDATA[D_I]]></fr:tex>.
+</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>8</fr:day>
+                </fr:date>
+                <fr:uri>https://www.my-great-forest.net/schm-5L35/</fr:uri>
+                <fr:display-uri>schm-5L35</fr:display-uri>
+                <fr:route>/schm-5L35/</fr:route>
+                <fr:title text="Structural sheaf on a general open">Structural sheaf on a general open</fr:title>
+                <fr:taxon>Proposition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter><html:p>
+  For any distributive lattice <fr:tex display="inline"><![CDATA[D]]></fr:tex>, we use <fr:tex display="inline"><![CDATA[I]]></fr:tex> to denote the open set <fr:tex display="inline"><![CDATA[O_I]]></fr:tex> via <fr:link href="/idem-comm-HLDT/" title="Frame of opens of spectra" uri="https://www.my-great-forest.net/idem-comm-HLDT/" display-uri="idem-comm-HLDT" type="local">Proposition <fr:contextual-number uri="https://www.my-great-forest.net/idem-comm-HLDT/" display-uri="idem-comm-HLDT" /></fr:link>. Then <fr:tex display="inline"><![CDATA[\mathcal {O}_{D}(I) \cong  D_I]]></fr:tex>.
+</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>8</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  By the sheaf condition, <fr:tex display="inline"><![CDATA[\mathcal {O}_{D}(I)]]></fr:tex> is the following equaliser,
+  
+  <html:figure><fr:resource hash="e3fd1b8471c13076bf30652b422c6972"><fr:resource-content><html:img src="/e3fd1b8471c13076bf30652b422c6972.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[\usepackage {tikz-cd}\usepackage {quiver}]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+    \begin {tikzcd}
+      \mathcal  O_{D}(I) \ar [r, tail] & \prod _{p\in  I} D/p \ar [r, shift left] \ar [r, shift right] & \prod _{p,q\in  I} D/p\wedge  q
+    \end {tikzcd}
+  ]]></fr:resource-source></fr:resource></html:figure>
+
+  Hence, an element <fr:tex display="inline"><![CDATA[u\in \mathcal {O}_{D}(I)]]></fr:tex> is exactly a function <fr:tex display="inline"><![CDATA[u : I \to  D]]></fr:tex> such that
+  <html:ol><html:li><fr:tex display="inline"><![CDATA[u(i) \le  i]]></fr:tex> for all <fr:tex display="inline"><![CDATA[i\in  I]]></fr:tex>;</html:li>
+    <html:li><fr:tex display="inline"><![CDATA[u(i) \wedge  j = u(i \wedge  j)]]></fr:tex> for all <fr:tex display="inline"><![CDATA[i,j\in  I]]></fr:tex>.</html:li></html:ol>
+  This gives an <fr:tex display="inline"><![CDATA[I]]></fr:tex>-element, since for any <fr:tex display="inline"><![CDATA[a\in  D]]></fr:tex>,
+  <fr:tex display="block"><![CDATA[ u(i \wedge  a) = u(i \wedge  i \wedge  a) = u(i) \wedge  i \wedge  a = u(i) \wedge  a. ]]></fr:tex>
+  On the other hand, it suffices to show an <fr:tex display="inline"><![CDATA[I]]></fr:tex>-element is always contractive. But this is easy, since
+  <fr:tex display="block"><![CDATA[ u(i) = u(i \wedge  i) = u(i) \wedge  i. ]]></fr:tex>
+  Hence, <fr:tex display="inline"><![CDATA[\mathcal {O}_{D}(I)]]></fr:tex> is the set of all <fr:tex display="inline"><![CDATA[I]]></fr:tex>-elements of <fr:tex display="inline"><![CDATA[D]]></fr:tex>.
+</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+            </fr:tree>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>8</fr:day>
+            </fr:date>
+            <fr:uri>https://www.my-great-forest.net/schm-LRJP/</fr:uri>
+            <fr:display-uri>schm-LRJP</fr:display-uri>
+            <fr:route>/schm-LRJP/</fr:route>
+            <fr:title text="The Rieger-Nishimura scheme">The Rieger-Nishimura scheme</fr:title>
+            <fr:taxon>Example</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  Let <fr:tex display="inline"><![CDATA[\mathbb {H}[x]]]></fr:tex> be the free Heyting algebra with one generator. The spectrum <fr:tex display="inline"><![CDATA[\operatorname {Spec}\mathbb {H}[x]]]></fr:tex> as a topological space is the Rieger-Nishimura laddar,
+  
+  <html:figure><fr:resource hash="60df66fe9011fe0e2aa3524d84c026e9"><fr:resource-content><html:img src="/60df66fe9011fe0e2aa3524d84c026e9.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[\usepackage {tikz-cd}\usepackage {quiver}]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+  \begin {tikzcd}
+    \bullet  && \bullet  \\
+    \bullet  && \bullet  \\
+    \bullet  && \bullet  \\
+    \bullet  && \bullet  \\
+    \vdots  && \vdots  \\
+    & \bullet 
+    \arrow [from=2-1, to=1-1]
+    \arrow [from=2-1, to=1-3]
+    \arrow [from=2-3, to=1-3]
+    \arrow [from=3-1, to=2-1]
+    \arrow [from=3-1, to=2-3]
+    \arrow [from=3-3, to=1-1]
+    \arrow [from=3-3, to=2-3]
+    \arrow [from=4-1, to=3-1]
+    \arrow [from=4-1, to=3-3]
+    \arrow [from=4-3, to=2-1]
+    \arrow [from=4-3, to=3-3]
+    \arrow [from=5-1, to=4-1]
+    \arrow [from=5-1, to=4-3]
+    \arrow [from=5-3, to=3-1]
+    \arrow [from=5-3, to=4-3]
+    \arrow [from=6-2, to=5-1]
+    \arrow [from=6-2, to=5-3]
+  \end {tikzcd}
+  ]]></fr:resource-source></fr:resource></html:figure>
+
+  It has a unique non-standard <fr:link href="/schm-8ES8/" title="Open subschemes and open immersion" uri="https://www.my-great-forest.net/schm-8ES8/" display-uri="schm-8ES8" type="local">open subscheme</fr:link>, which we denote as <fr:tex display="inline"><![CDATA[\operatorname {Spec}\mathbb {H}[x]_+ = \operatorname {Spec}\mathbb {H}[x]-\{\bot \}]]></fr:tex>, where <fr:tex display="inline"><![CDATA[\bot ]]></fr:tex> is the generic point of <fr:tex display="inline"><![CDATA[\operatorname {Spec}\mathbb {H}[x]]]></fr:tex>. The open subscheme <fr:tex display="inline"><![CDATA[\operatorname {Spec}\mathbb {H}[x]]]></fr:tex> is <html:em>not compact</html:em>, hence it is not affine.
+</html:p>
+            <html:p>
+  In fact, we can compute the global section of <fr:tex display="inline"><![CDATA[\operatorname {Spec}\mathbb {H}[x]_+]]></fr:tex>. Under <fr:link href="/idem-comm-HLDT/" title="Frame of opens of spectra" uri="https://www.my-great-forest.net/idem-comm-HLDT/" display-uri="idem-comm-HLDT" type="local">Proposition <fr:contextual-number uri="https://www.my-great-forest.net/idem-comm-HLDT/" display-uri="idem-comm-HLDT" /></fr:link>, it as an open subset corresponds to the maximal ideal <fr:tex display="inline"><![CDATA[M = \mathbb {H}[x]-\{1\}]]></fr:tex>. This way under <fr:link href="/schm-5L35/" title="Structural sheaf on a general open" uri="https://www.my-great-forest.net/schm-5L35/" display-uri="schm-5L35" type="local">Proposition <fr:contextual-number uri="https://www.my-great-forest.net/schm-5L35/" display-uri="schm-5L35" /></fr:link>,
+  <fr:tex display="block"><![CDATA[ \Gamma \mathcal {O}_{\operatorname {Spec}\mathbb {H}[x]_+} \cong  \mathbb {H}[x]_M \cong  \mathbb {H}[x]. ]]></fr:tex>
+  The final isomorphism is an easy exercise. This means the open immersion <fr:tex display="inline"><![CDATA[\operatorname {Spec}\mathbb {H}[x]_+ \hookrightarrow  \operatorname {Spec}\mathbb {H}[x]]]></fr:tex> induces an isomorphism on global section. 
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>7</fr:day>
+            </fr:date>
+            <fr:uri>https://www.my-great-forest.net/idem-comm-HLDT/</fr:uri>
+            <fr:display-uri>idem-comm-HLDT</fr:display-uri>
+            <fr:route>/idem-comm-HLDT/</fr:route>
+            <fr:title text="Frame of opens of spectra">Frame of opens of spectra</fr:title>
+            <fr:taxon>Proposition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>
+  There is a bijection of frame of opens of <fr:tex display="inline"><![CDATA[\operatorname {Spec} D]]></fr:tex> with the frame <fr:tex display="inline"><![CDATA[\mathrm {Idl}(D)]]></fr:tex> of ideals of <fr:tex display="inline"><![CDATA[D]]></fr:tex>. For any ideal <fr:tex display="inline"><![CDATA[I]]></fr:tex>, the open subset <fr:tex display="inline"><![CDATA[O_I]]></fr:tex> it corresponds to is
+  <fr:tex display="block"><![CDATA[ O_I := \{x\in \operatorname {Spec} D\mid \exists  p \in  I.\  x \models  p\} = \bigcup _{p\in  I}O_p. ]]></fr:tex></html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>7</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  For simplicity, we construct a dual equivalence between closed sets and ideals of <fr:tex display="inline"><![CDATA[D]]></fr:tex>. By construction, let <fr:tex display="inline"><![CDATA[C_p]]></fr:tex> be the complement of <fr:tex display="inline"><![CDATA[O_p]]></fr:tex>, then the closed set <fr:tex display="inline"><![CDATA[C_I]]></fr:tex> corresponding to <fr:tex display="inline"><![CDATA[I]]></fr:tex> is given by 
+  <fr:tex display="block"><![CDATA[ C_I = \overline {O_I} = \bigcap _{p\in  I}C_p. ]]></fr:tex>
+  On the other hand, given any closed set <fr:tex display="inline"><![CDATA[C]]></fr:tex> we construct an ideal
+  <fr:tex display="block"><![CDATA[ I_C := \{p\in  D\mid \forall  x\in  C.\ x \not \models  p\}. ]]></fr:tex>
+  Verification is routine.
+</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

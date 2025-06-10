@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="/lingyuan/" title="Lingyuan Ye" uri="https://www.my-great-forest.net/lingyuan/" display-uri="lingyuan" type="local">Lingyuan Ye</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:date>
+      <fr:year>2025</fr:year>
+      <fr:month>6</fr:month>
+      <fr:day>7</fr:day>
+    </fr:date>
+    <fr:uri>https://www.my-great-forest.net/idem-comm-OBAP/</fr:uri>
+    <fr:display-uri>idem-comm-OBAP</fr:display-uri>
+    <fr:route>/idem-comm-OBAP/</fr:route>
+    <fr:title text="Congruence for pro-open quotients">Congruence for pro-open quotients</fr:title>
+    <fr:taxon>Lemma</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter><html:p>
+  Let <fr:tex display="inline"><![CDATA[F]]></fr:tex> be a filter of a distributive lattice <fr:tex display="inline"><![CDATA[D]]></fr:tex>. Then the congruence for the <fr:link href="/idem-comm-0002/" title="Pro-open quotients" uri="https://www.my-great-forest.net/idem-comm-0002/" display-uri="idem-comm-0002" type="local">Pro-open quotients</fr:link> <fr:tex display="inline"><![CDATA[D \twoheadrightarrow  F]]></fr:tex> is given as follows:
+  <fr:tex display="block"><![CDATA[x \sim _F y \Leftrightarrow  \exists  u \in  F.\  x \wedge  u = y \wedge  u]]></fr:tex></html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/lingyuan/" title="Lingyuan Ye" uri="https://www.my-great-forest.net/lingyuan/" display-uri="lingyuan" type="local">Lingyuan Ye</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>7</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <html:p>This is evident.</html:p>
+</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/lingyuan/" title="Lingyuan Ye" uri="https://www.my-great-forest.net/lingyuan/" display-uri="lingyuan" type="local">Lingyuan Ye</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>7</fr:day>
+            </fr:date>
+            <fr:uri>https://www.my-great-forest.net/idem-comm-DFG4/</fr:uri>
+            <fr:display-uri>idem-comm-DFG4</fr:display-uri>
+            <fr:route>/idem-comm-DFG4/</fr:route>
+            <fr:title text="Orthogonal factorisation system: (pro-open, t-conservative)">Orthogonal factorisation system: (pro-open, t-conservative)</fr:title>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/lingyuan/" title="Lingyuan Ye" uri="https://www.my-great-forest.net/lingyuan/" display-uri="lingyuan" type="local">Lingyuan Ye</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>7</fr:day>
+                </fr:date>
+                <fr:uri>https://www.my-great-forest.net/idem-comm-0002/</fr:uri>
+                <fr:display-uri>idem-comm-0002</fr:display-uri>
+                <fr:route>/idem-comm-0002/</fr:route>
+                <fr:title text="Pro-open quotients">Pro-open quotients</fr:title>
+                <fr:taxon>definition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+  The <html:em>pro-open</html:em> quotient of a distributive lattice <fr:tex display="inline"><![CDATA[D]]></fr:tex> is a a quotient of the form <fr:tex display="inline"><![CDATA[D \twoheadrightarrow  D/F]]></fr:tex> for some filter <fr:tex display="inline"><![CDATA[F]]></fr:tex> of <fr:tex display="inline"><![CDATA[D]]></fr:tex>.
+</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>7</fr:day>
+                </fr:date>
+                <fr:uri>https://www.my-great-forest.net/idem-comm-89WP/</fr:uri>
+                <fr:display-uri>idem-comm-89WP</fr:display-uri>
+                <fr:route>/idem-comm-89WP/</fr:route>
+                <fr:title text="Quotients of Heyting algebras">Quotients of Heyting algebras</fr:title>
+                <fr:taxon>Remark</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+  All quotients of Heyting algebras are <fr:link href="/idem-comm-0002/" title="Pro-open quotients" uri="https://www.my-great-forest.net/idem-comm-0002/" display-uri="idem-comm-0002" type="local">pro-open</fr:link>.
+</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/lingyuan/" title="Lingyuan Ye" uri="https://www.my-great-forest.net/lingyuan/" display-uri="lingyuan" type="local">Lingyuan Ye</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>7</fr:day>
+                </fr:date>
+                <fr:uri>https://www.my-great-forest.net/idem-comm-OBAP/</fr:uri>
+                <fr:display-uri>idem-comm-OBAP</fr:display-uri>
+                <fr:route>/idem-comm-OBAP/</fr:route>
+                <fr:title text="Congruence for pro-open quotients">Congruence for pro-open quotients</fr:title>
+                <fr:taxon>Lemma</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter><html:p>
+  Let <fr:tex display="inline"><![CDATA[F]]></fr:tex> be a filter of a distributive lattice <fr:tex display="inline"><![CDATA[D]]></fr:tex>. Then the congruence for the <fr:link href="/idem-comm-0002/" title="Pro-open quotients" uri="https://www.my-great-forest.net/idem-comm-0002/" display-uri="idem-comm-0002" type="local">Pro-open quotients</fr:link> <fr:tex display="inline"><![CDATA[D \twoheadrightarrow  F]]></fr:tex> is given as follows:
+  <fr:tex display="block"><![CDATA[x \sim _F y \Leftrightarrow  \exists  u \in  F.\  x \wedge  u = y \wedge  u]]></fr:tex></html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/lingyuan/" title="Lingyuan Ye" uri="https://www.my-great-forest.net/lingyuan/" display-uri="lingyuan" type="local">Lingyuan Ye</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>7</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <html:p>This is evident.</html:p>
+</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>7</fr:day>
+                </fr:date>
+                <fr:uri>https://www.my-great-forest.net/idem-comm-Q53H/</fr:uri>
+                <fr:display-uri>idem-comm-Q53H</fr:display-uri>
+                <fr:route>/idem-comm-Q53H/</fr:route>
+                <fr:title text="Pro-open congruence for Heyting algebras">Pro-open congruence for Heyting algebras</fr:title>
+                <fr:taxon>Remark</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+  Notice that this description also applies to Heyting algebras.
+</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>7</fr:day>
+                </fr:date>
+                <fr:uri>https://www.my-great-forest.net/idem-comm-W57Q/</fr:uri>
+                <fr:display-uri>idem-comm-W57Q</fr:display-uri>
+                <fr:route>/idem-comm-W57Q/</fr:route>
+                <fr:title text="Prime ideals of pro-open quotient">Prime ideals of pro-open quotient</fr:title>
+                <fr:taxon>Proposition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter><html:p>
+  For a distributive lattice <fr:tex display="inline"><![CDATA[D]]></fr:tex> the pro-open quotient <fr:tex display="inline"><![CDATA[q: D \twoheadrightarrow  D/F]]></fr:tex>, induce a bijection between prime filters in <fr:tex display="inline"><![CDATA[D/F]]></fr:tex> and those in <fr:tex display="inline"><![CDATA[D]]></fr:tex> containing <fr:tex display="inline"><![CDATA[F]]></fr:tex>.
+</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>7</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <html:p>
+    It suffices to show that any prime filter <fr:tex display="inline"><![CDATA[P]]></fr:tex> in <fr:tex display="inline"><![CDATA[D]]></fr:tex> containing <fr:tex display="inline"><![CDATA[F]]></fr:tex> is mapped by <fr:tex display="inline"><![CDATA[q]]></fr:tex> to a prime filter <fr:tex display="inline"><![CDATA[q[P]]]></fr:tex> in <fr:tex display="inline"><![CDATA[D/F]]></fr:tex>, and <fr:tex display="inline"><![CDATA[q^{-1} q[P] = P]]></fr:tex>. Now <fr:tex display="inline"><![CDATA[q[P]]]></fr:tex> is evidently a filter. Suppose now we have <fr:tex display="inline"><![CDATA[x,y\in  D/F]]></fr:tex> with <fr:tex display="inline"><![CDATA[x\vee  y = q(p)]]></fr:tex> with <fr:tex display="inline"><![CDATA[p\in  P]]></fr:tex>. Pick <fr:tex display="inline"><![CDATA[a,b]]></fr:tex> with <fr:tex display="inline"><![CDATA[q(a) = x]]></fr:tex> and <fr:tex display="inline"><![CDATA[q(b) = y]]></fr:tex>, this means that we have <fr:tex display="inline"><![CDATA[u \in  F]]></fr:tex> with <fr:tex display="inline"><![CDATA[(a \vee  b) \wedge  u = p \wedge  u \in  P]]></fr:tex>. Since <fr:tex display="inline"><![CDATA[P]]></fr:tex> is prime, it follows that <fr:tex display="inline"><![CDATA[a \wedge  u \in  P]]></fr:tex> or <fr:tex display="inline"><![CDATA[b \wedge  u \in  P]]></fr:tex>, which implies <fr:tex display="inline"><![CDATA[x \in  q[P]]]></fr:tex> or <fr:tex display="inline"><![CDATA[y\in  q[P]]]></fr:tex>. Hence, <fr:tex display="inline"><![CDATA[q[P]]]></fr:tex> is prime. 
+  </html:p>
+  <html:p>
+    Now suppose <fr:tex display="inline"><![CDATA[q(a) \in  q[P]]]></fr:tex>, i.e. <fr:tex display="inline"><![CDATA[a \sim _F p]]></fr:tex> for some <fr:tex display="inline"><![CDATA[p\in  P]]></fr:tex>. From <fr:link href="/idem-comm-OBAP/" title="Congruence for pro-open quotients" uri="https://www.my-great-forest.net/idem-comm-OBAP/" display-uri="idem-comm-OBAP" type="local">Lemma <fr:contextual-number uri="https://www.my-great-forest.net/idem-comm-OBAP/" display-uri="idem-comm-OBAP" /></fr:link> we know that <fr:tex display="inline"><![CDATA[a \wedge  u = p \wedge  u]]></fr:tex> for some <fr:tex display="inline"><![CDATA[u\in  F]]></fr:tex>. Hence, <fr:tex display="inline"><![CDATA[a \wedge  u \in  P]]></fr:tex>, and by upward closeness, <fr:tex display="inline"><![CDATA[a\in  P]]></fr:tex> as well. 
+  </html:p>
+</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>7</fr:day>
+                </fr:date>
+                <fr:uri>https://www.my-great-forest.net/idem-comm-QQEF/</fr:uri>
+                <fr:display-uri>idem-comm-QQEF</fr:display-uri>
+                <fr:route>/idem-comm-QQEF/</fr:route>
+                <fr:title text="T-conservative maps">T-conservative maps</fr:title>
+                <fr:taxon>Definition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+  A map <fr:tex display="inline"><![CDATA[f : D \to  E]]></fr:tex> between distributive lattices is <html:em>t-conservative</html:em> iff it reflect truth, i.e. <fr:tex display="inline"><![CDATA[f(p) = 1]]></fr:tex> implies <fr:tex display="inline"><![CDATA[p = 1]]></fr:tex> for all <fr:tex display="inline"><![CDATA[p\in  D]]></fr:tex>.
+</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>7</fr:day>
+                </fr:date>
+                <fr:uri>https://www.my-great-forest.net/idem-comm-B7DD/</fr:uri>
+                <fr:display-uri>idem-comm-B7DD</fr:display-uri>
+                <fr:route>/idem-comm-B7DD/</fr:route>
+                <fr:title text="t-conservative maps are not injective">t-conservative maps are not injective</fr:title>
+                <fr:taxon>Remark</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+  Note that t-conservative maps are not necessarily <html:em>injective</html:em>. The following is such an example:
+  
+  
+  <html:figure><fr:resource hash="2f5a7de2d528d08d09ba8bdb9ca1463b"><fr:resource-content><html:img src="/2f5a7de2d528d08d09ba8bdb9ca1463b.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[\usepackage {tikz-cd}\usepackage {quiver}]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+    \begin {tikzcd}
+      \bullet  \ar [r, dashed] & \bullet  \\
+      \bullet  \ar [u] \ar [dr, dashed] & \\ 
+      \bullet  \ar [u] \ar [r, dashed] & \bullet  \ar [uu]
+    \end {tikzcd}
+  ]]></fr:resource-source></fr:resource></html:figure></html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>7</fr:day>
+                </fr:date>
+                <fr:uri>https://www.my-great-forest.net/idem-comm-XNUV/</fr:uri>
+                <fr:display-uri>idem-comm-XNUV</fr:display-uri>
+                <fr:route>/idem-comm-XNUV/</fr:route>
+                <fr:title text="t-conservativity coincide with injectivity for Heyting algebras">t-conservativity coincide with injectivity for Heyting algebras</fr:title>
+                <fr:taxon>Remark</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+  However, a Heyting algebra morphism <fr:tex display="inline"><![CDATA[f : H \to  E]]></fr:tex> is <fr:link href="/idem-comm-QQEF/" title="T-conservative maps" uri="https://www.my-great-forest.net/idem-comm-QQEF/" display-uri="idem-comm-QQEF" type="local">t-conservative</fr:link> iff it is <html:em>injective</html:em>.
+</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>7</fr:day>
+                </fr:date>
+                <fr:uri>https://www.my-great-forest.net/idem-comm-V39C/</fr:uri>
+                <fr:display-uri>idem-comm-V39C</fr:display-uri>
+                <fr:route>/idem-comm-V39C/</fr:route>
+                <fr:title text="Orthogonal factorisation: (pro-open, t-conservative)">Orthogonal factorisation: (pro-open, t-conservative)</fr:title>
+                <fr:taxon>Theorem</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter><html:p>
+  Pro-open quotients and truthfully conservative maps form an orthogonal factorisation system in the category <html:strong>DL</html:strong> of distributive lattices.
+</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>7</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <html:p>For any morphism <fr:tex display="inline"><![CDATA[f : D \to  E]]></fr:tex> between distributive lattices, it can be factored as follows,</html:p>
+  
+  
+  <html:figure><fr:resource hash="f315b74319580acb271b5895bf622cb5"><fr:resource-content><html:img src="/f315b74319580acb271b5895bf622cb5.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[\usepackage {tikz-cd}\usepackage {quiver}]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+    \begin {tikzcd}
+    D \ar [dr, "f"] \ar [d, two heads] &  \\ 
+    D/f^{-1}(1) \ar [r] & E
+    \end {tikzcd}
+  ]]></fr:resource-source></fr:resource></html:figure>
+
+
+  <html:p>which by construction <fr:tex display="inline"><![CDATA[D \twoheadrightarrow  D/f^{-1}(1)]]></fr:tex> is pro-open and <fr:tex display="inline"><![CDATA[D/f^{-1}(1) \to  E]]></fr:tex> is truthfully conservative. They are in fact orthogonal to each other in <html:strong>DL</html:strong>, since whenever we have a situation as below with <fr:tex display="inline"><![CDATA[f]]></fr:tex> truthfully conservative,</html:p>
+
+  
+  <html:figure><fr:resource hash="3eafe76385f478f6e4502fc533b214f7"><fr:resource-content><html:img src="/3eafe76385f478f6e4502fc533b214f7.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[\usepackage {tikz-cd}\usepackage {quiver}]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+    \begin {tikzcd}
+      D & E \\
+      {D/F} & G
+      \arrow ["u", from=1-1, to=1-2]
+      \arrow ["q"', two heads, from=1-1, to=2-1]
+      \arrow ["f", from=1-2, to=2-2]
+      \arrow [dashed, from=2-1, to=1-2]
+      \arrow ["v"', from=2-1, to=2-2]
+    \end {tikzcd}
+  ]]></fr:resource-source></fr:resource></html:figure>
+
+
+  <html:p><fr:tex display="inline"><![CDATA[u]]></fr:tex> must factors through <fr:tex display="inline"><![CDATA[D/F]]></fr:tex>: For any <fr:tex display="inline"><![CDATA[a\in  F]]></fr:tex>, <fr:tex display="inline"><![CDATA[fu(a) = vq(u) = 1]]></fr:tex>, which implies <fr:tex display="inline"><![CDATA[u(a) = 1]]></fr:tex> since <fr:tex display="inline"><![CDATA[f]]></fr:tex> is truthfully conservative.</html:p>
+</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+            </fr:tree>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>9</fr:day>
+            </fr:date>
+            <fr:uri>https://www.my-great-forest.net/schm-9YD5/</fr:uri>
+            <fr:display-uri>schm-9YD5</fr:display-uri>
+            <fr:route>/schm-9YD5/</fr:route>
+            <fr:title text="Closed quotient commutes with taking stalks">Closed quotient commutes with taking stalks</fr:title>
+            <fr:taxon>Lemma</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>
+  Let <fr:tex display="inline"><![CDATA[X]]></fr:tex> be a topological space and <fr:tex display="inline"><![CDATA[\mathcal {O}_{X}]]></fr:tex> be a sheaf of distributive lattice on <fr:tex display="inline"><![CDATA[X]]></fr:tex>. Let <fr:tex display="inline"><![CDATA[\mathcal {I}]]></fr:tex> be a sheaf of ideal of <fr:tex display="inline"><![CDATA[\mathcal {O}_{X}]]></fr:tex>. For any <fr:tex display="inline"><![CDATA[x\in  X]]></fr:tex>, we have 
+  <fr:tex display="block"><![CDATA[ (\mathcal {I}/\mathcal {O}_{X})_x \cong  \mathcal {I}_x/\mathcal {O}_{X,x} ]]></fr:tex></html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>9</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+   This holds essentially due to the fact that the closed quotient <fr:tex display="inline"><![CDATA[\mathcal {I}/\mathcal {O}_{X}]]></fr:tex> is a <html:em>geometric construction</html:em>. By the dual statement of <fr:link href="/idem-comm-OBAP/" title="Congruence for pro-open quotients" uri="https://www.my-great-forest.net/idem-comm-OBAP/" display-uri="idem-comm-OBAP" type="local">Lemma <fr:contextual-number uri="https://www.my-great-forest.net/idem-comm-OBAP/" display-uri="idem-comm-OBAP" /></fr:link>, the following is a coequaliser in <fr:tex display="inline"><![CDATA[\mathrm {Sh}(X)]]></fr:tex>, 
+  
+  <html:figure><fr:resource hash="6d8ebe730ef21fa9341850ebbf50caac"><fr:resource-content><html:img src="/6d8ebe730ef21fa9341850ebbf50caac.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[\usepackage {tikz-cd}\usepackage {quiver}]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+    \begin {tikzcd}
+    \{ a,b \in  \mathcal {O}_{X} \mid  \exists  i\in \mathcal {I}.\, a \vee  i = b \vee  i \} \ar [r, shift left] \ar [r, shift right] & \mathcal  O_{X} \ar [r, two heads] & \mathcal  I/\mathcal  O
+    \end {tikzcd}
+  ]]></fr:resource-source></fr:resource></html:figure>
+
+  Since the stalk functor <fr:tex display="inline"><![CDATA[(-)_x]]></fr:tex> is the inverse image of a geometric morphism, it preserves geometric formulas and coequalisers. It follows that we have a coequaliser 
+  
+  <html:figure><fr:resource hash="e57515b974ae452d0e45819604f18a00"><fr:resource-content><html:img src="/e57515b974ae452d0e45819604f18a00.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[\usepackage {tikz-cd}\usepackage {quiver}]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+    \begin {tikzcd}
+    \{ a,b \in  \mathcal {O}_{X,x} \mid  \exists  i\in \mathcal {I}_x.\, a \vee  i = b \vee  i \} \ar [r, shift left] \ar [r, shift right] & \mathcal  O_{X,x} \ar [r, two heads] & (\mathcal  I/\mathcal  O)_x
+    \end {tikzcd}
+  ]]></fr:resource-source></fr:resource></html:figure>
+
+  which implies <fr:tex display="inline"><![CDATA[(\mathcal {I}/\mathcal {O}_{X})_x \cong  \mathcal {I}_x/\mathcal {O}_{X,x}]]></fr:tex>.
+</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>7</fr:day>
+            </fr:date>
+            <fr:uri>https://www.my-great-forest.net/idem-comm-W57Q/</fr:uri>
+            <fr:display-uri>idem-comm-W57Q</fr:display-uri>
+            <fr:route>/idem-comm-W57Q/</fr:route>
+            <fr:title text="Prime ideals of pro-open quotient">Prime ideals of pro-open quotient</fr:title>
+            <fr:taxon>Proposition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>
+  For a distributive lattice <fr:tex display="inline"><![CDATA[D]]></fr:tex> the pro-open quotient <fr:tex display="inline"><![CDATA[q: D \twoheadrightarrow  D/F]]></fr:tex>, induce a bijection between prime filters in <fr:tex display="inline"><![CDATA[D/F]]></fr:tex> and those in <fr:tex display="inline"><![CDATA[D]]></fr:tex> containing <fr:tex display="inline"><![CDATA[F]]></fr:tex>.
+</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>7</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <html:p>
+    It suffices to show that any prime filter <fr:tex display="inline"><![CDATA[P]]></fr:tex> in <fr:tex display="inline"><![CDATA[D]]></fr:tex> containing <fr:tex display="inline"><![CDATA[F]]></fr:tex> is mapped by <fr:tex display="inline"><![CDATA[q]]></fr:tex> to a prime filter <fr:tex display="inline"><![CDATA[q[P]]]></fr:tex> in <fr:tex display="inline"><![CDATA[D/F]]></fr:tex>, and <fr:tex display="inline"><![CDATA[q^{-1} q[P] = P]]></fr:tex>. Now <fr:tex display="inline"><![CDATA[q[P]]]></fr:tex> is evidently a filter. Suppose now we have <fr:tex display="inline"><![CDATA[x,y\in  D/F]]></fr:tex> with <fr:tex display="inline"><![CDATA[x\vee  y = q(p)]]></fr:tex> with <fr:tex display="inline"><![CDATA[p\in  P]]></fr:tex>. Pick <fr:tex display="inline"><![CDATA[a,b]]></fr:tex> with <fr:tex display="inline"><![CDATA[q(a) = x]]></fr:tex> and <fr:tex display="inline"><![CDATA[q(b) = y]]></fr:tex>, this means that we have <fr:tex display="inline"><![CDATA[u \in  F]]></fr:tex> with <fr:tex display="inline"><![CDATA[(a \vee  b) \wedge  u = p \wedge  u \in  P]]></fr:tex>. Since <fr:tex display="inline"><![CDATA[P]]></fr:tex> is prime, it follows that <fr:tex display="inline"><![CDATA[a \wedge  u \in  P]]></fr:tex> or <fr:tex display="inline"><![CDATA[b \wedge  u \in  P]]></fr:tex>, which implies <fr:tex display="inline"><![CDATA[x \in  q[P]]]></fr:tex> or <fr:tex display="inline"><![CDATA[y\in  q[P]]]></fr:tex>. Hence, <fr:tex display="inline"><![CDATA[q[P]]]></fr:tex> is prime. 
+  </html:p>
+  <html:p>
+    Now suppose <fr:tex display="inline"><![CDATA[q(a) \in  q[P]]]></fr:tex>, i.e. <fr:tex display="inline"><![CDATA[a \sim _F p]]></fr:tex> for some <fr:tex display="inline"><![CDATA[p\in  P]]></fr:tex>. From <fr:link href="/idem-comm-OBAP/" title="Congruence for pro-open quotients" uri="https://www.my-great-forest.net/idem-comm-OBAP/" display-uri="idem-comm-OBAP" type="local">Lemma <fr:contextual-number uri="https://www.my-great-forest.net/idem-comm-OBAP/" display-uri="idem-comm-OBAP" /></fr:link> we know that <fr:tex display="inline"><![CDATA[a \wedge  u = p \wedge  u]]></fr:tex> for some <fr:tex display="inline"><![CDATA[u\in  F]]></fr:tex>. Hence, <fr:tex display="inline"><![CDATA[a \wedge  u \in  P]]></fr:tex>, and by upward closeness, <fr:tex display="inline"><![CDATA[a\in  P]]></fr:tex> as well. 
+  </html:p>
+</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/lingyuan/" title="Lingyuan Ye" uri="https://www.my-great-forest.net/lingyuan/" display-uri="lingyuan" type="local">Lingyuan Ye</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>7</fr:day>
+            </fr:date>
+            <fr:uri>https://www.my-great-forest.net/idem-comm-0002/</fr:uri>
+            <fr:display-uri>idem-comm-0002</fr:display-uri>
+            <fr:route>/idem-comm-0002/</fr:route>
+            <fr:title text="Pro-open quotients">Pro-open quotients</fr:title>
+            <fr:taxon>definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  The <html:em>pro-open</html:em> quotient of a distributive lattice <fr:tex display="inline"><![CDATA[D]]></fr:tex> is a a quotient of the form <fr:tex display="inline"><![CDATA[D \twoheadrightarrow  D/F]]></fr:tex> for some filter <fr:tex display="inline"><![CDATA[F]]></fr:tex> of <fr:tex display="inline"><![CDATA[D]]></fr:tex>.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

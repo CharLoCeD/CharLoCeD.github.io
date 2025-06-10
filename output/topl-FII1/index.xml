@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/">
+  <fr:frontmatter>
+    <fr:authors />
+    <fr:date>
+      <fr:year>2025</fr:year>
+      <fr:month>6</fr:month>
+      <fr:day>7</fr:day>
+    </fr:date>
+    <fr:uri>https://www.my-great-forest.net/topl-FII1/</fr:uri>
+    <fr:display-uri>topl-FII1</fr:display-uri>
+    <fr:route>/topl-FII1/</fr:route>
+    <fr:title text="Sober spaces">Sober spaces</fr:title>
+    <fr:taxon>Definition</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <html:p>
+  A topological space <fr:tex display="inline"><![CDATA[X]]></fr:tex> is <html:em>sober</html:em> if every <fr:link href="/topl-0001/" title="Irreducible space" uri="https://www.my-great-forest.net/topl-0001/" display-uri="topl-0001" type="local">irreducible</fr:link> closed subset is the closure of a <html:em>unique</html:em> point.
+</html:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>8</fr:day>
+            </fr:date>
+            <fr:uri>https://www.my-great-forest.net/schm-269K/</fr:uri>
+            <fr:display-uri>schm-269K</fr:display-uri>
+            <fr:route>/schm-269K/</fr:route>
+            <fr:title text="Topology of a general scheme">Topology of a general scheme</fr:title>
+            <fr:taxon>Remark</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  It is well-known that if <fr:tex display="inline"><![CDATA[X]]></fr:tex> is a <fr:link href="/schm-86OJ/" title="Scheme" uri="https://www.my-great-forest.net/schm-86OJ/" display-uri="schm-86OJ" type="local">scheme</fr:link>, then as a topological space it is <fr:link href="/topl-FII1/" title="Sober spaces" uri="https://www.my-great-forest.net/topl-FII1/" display-uri="topl-FII1" type="local">sober</fr:link> and <html:em>locally compact</html:em>. However, it may fail to be <fr:link href="/topl-GW93/" title="Quasi-separated spaces" uri="https://www.my-great-forest.net/topl-GW93/" display-uri="topl-GW93" type="local">quasi-separated</fr:link> or compact.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>7</fr:day>
+            </fr:date>
+            <fr:uri>https://www.my-great-forest.net/idem-comm-EA6S/</fr:uri>
+            <fr:display-uri>idem-comm-EA6S</fr:display-uri>
+            <fr:route>/idem-comm-EA6S/</fr:route>
+            <fr:title text="Spectra are spectral spaces">Spectra are spectral spaces</fr:title>
+            <fr:taxon>Theorem</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>
+  For any distributive lattice <fr:tex display="inline"><![CDATA[D]]></fr:tex>, <fr:tex display="inline"><![CDATA[\operatorname {Spec} D]]></fr:tex> is <fr:link href="/topl-VV9N/" title="Spectral spaces" uri="https://www.my-great-forest.net/topl-VV9N/" display-uri="topl-VV9N" type="local">spectral</fr:link>. This gives us a functor
+  <fr:tex display="block"><![CDATA[ \operatorname {Spec} : \mathbf {DL}^{\mathrm {op}} \to  \mathbf {Spec} ]]></fr:tex>
+  from distributive lattices to spectral spaces.
+</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>7</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <html:p>
+    Notice that we have a homeomorphism
+    <fr:tex display="block"><![CDATA[ O_p \cong  \operatorname {Spec} D/p, ]]></fr:tex>
+    where <fr:tex display="inline"><![CDATA[O_p]]></fr:tex> is viewed as an open subspace of <fr:tex display="inline"><![CDATA[\operatorname {Spec} D]]></fr:tex>. Hence, we only need to show <fr:tex display="inline"><![CDATA[\operatorname {Spec} D]]></fr:tex> is compact and sober for all <fr:tex display="inline"><![CDATA[D]]></fr:tex>. Let <fr:tex display="inline"><![CDATA[C_p]]></fr:tex> be the complement of <fr:tex display="inline"><![CDATA[O_p]]></fr:tex> for any <fr:tex display="inline"><![CDATA[p\in  D]]></fr:tex>, and suppose we have
+    <fr:tex display="block"><![CDATA[ \bigcap _{i\in  I}C_{p_i} = \emptyset . ]]></fr:tex>
+    This means that the family <fr:tex display="inline"><![CDATA[\{p_i\}_{i\in  I}]]></fr:tex> is inconsistent, thus by compactness, finitely many of them is already inconsistent. Thus <fr:tex display="inline"><![CDATA[\operatorname {Spec} D]]></fr:tex> is compact, and compact opens in <fr:tex display="inline"><![CDATA[\operatorname {Spec} D]]></fr:tex> are all of the form <fr:tex display="inline"><![CDATA[O_p]]></fr:tex> for some <fr:tex display="inline"><![CDATA[p\in  D]]></fr:tex>.
+  </html:p>
+  <html:p>
+    To show <fr:tex display="inline"><![CDATA[\operatorname {Spec} D]]></fr:tex> is <fr:link href="/topl-FII1/" title="Sober spaces" uri="https://www.my-great-forest.net/topl-FII1/" display-uri="topl-FII1" type="local">sober</fr:link>, by <fr:link href="/idem-comm-W1VU/" title="Irreducible closed subsets of spectra" uri="https://www.my-great-forest.net/idem-comm-W1VU/" display-uri="idem-comm-W1VU" type="local">Proposition <fr:contextual-number uri="https://www.my-great-forest.net/idem-comm-W1VU/" display-uri="idem-comm-W1VU" /></fr:link> any irreducible closed set <fr:tex display="inline"><![CDATA[C_I]]></fr:tex> corresponds to some prime ideal <fr:tex display="inline"><![CDATA[I]]></fr:tex>. This way, let <fr:tex display="inline"><![CDATA[x\in \operatorname {Spec} D]]></fr:tex> be the complement of <fr:tex display="inline"><![CDATA[I]]></fr:tex>. We now have <fr:tex display="inline"><![CDATA[C_I = \overline {\{x\}}]]></fr:tex>, because
+    <fr:tex display="block"><![CDATA[ x \not \in  O_p \Leftrightarrow  x \in  C_p \Leftrightarrow  x \not \models  p \Leftrightarrow  p \in  I. ]]></fr:tex>
+    Thus we indeed have <fr:tex display="inline"><![CDATA[C_I = \bigcap _{p\in  I}C_p = \bigcap _{x\not \in  O_p}C_p = \overline {\{x\}}]]></fr:tex>.
+  </html:p>
+  <html:p>
+    Finally to show a map <fr:tex display="inline"><![CDATA[f : D \to  E]]></fr:tex> induces a continuous map
+    <fr:tex display="block"><![CDATA[ \operatorname {Spec} f : \operatorname {Spec} E \to  \operatorname {Spec} D, ]]></fr:tex>
+    it suffices to note that, set-theoretically, <fr:tex display="inline"><![CDATA[\operatorname {Spec} fx = f^{-1} x]]></fr:tex>, which is a prime filter in <fr:tex display="inline"><![CDATA[D]]></fr:tex>. Now we have 
+    <fr:tex display="block"><![CDATA[ (\operatorname {Spec} f)^{-1}(O_a) = O_{fa} ]]></fr:tex>
+    for any <fr:tex display="inline"><![CDATA[a \in  D]]></fr:tex>, hence this is a spectral map.
+  </html:p>
+</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>7</fr:day>
+            </fr:date>
+            <fr:uri>https://www.my-great-forest.net/topl-VV9N/</fr:uri>
+            <fr:display-uri>topl-VV9N</fr:display-uri>
+            <fr:route>/topl-VV9N/</fr:route>
+            <fr:title text="Spectral spaces">Spectral spaces</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  A topological space <fr:tex display="inline"><![CDATA[X]]></fr:tex> is <html:em>locally spectral</html:em>, if
+  <html:ol><html:li>It is <fr:link href="/topl-FII1/" title="Sober spaces" uri="https://www.my-great-forest.net/topl-FII1/" display-uri="topl-FII1" type="local">sober</fr:link>.</html:li>
+    <html:li>It is <fr:link href="/topl-GW93/" title="Quasi-separated spaces" uri="https://www.my-great-forest.net/topl-GW93/" display-uri="topl-GW93" type="local">quasi-separated</fr:link>.</html:li>
+    <html:li>Compact opens form a basis of <fr:tex display="inline"><![CDATA[X]]></fr:tex>.</html:li></html:ol></html:p>
+            <html:p>
+  We say <fr:tex display="inline"><![CDATA[X]]></fr:tex> is <html:em>spectral</html:em> if furthermore <fr:tex display="inline"><![CDATA[X]]></fr:tex> is compact.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>7</fr:day>
+            </fr:date>
+            <fr:uri>https://www.my-great-forest.net/topl-0001/</fr:uri>
+            <fr:display-uri>topl-0001</fr:display-uri>
+            <fr:route>/topl-0001/</fr:route>
+            <fr:title text="Irreducible space">Irreducible space</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  A topological space <fr:tex display="inline"><![CDATA[X]]></fr:tex> is <html:em>irreducible</html:em> if it is not the union of two proper closed subspaces. More generally, we can talk about when a subset of <fr:tex display="inline"><![CDATA[X]]></fr:tex> is irreducible.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

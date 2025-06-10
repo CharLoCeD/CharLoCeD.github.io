@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/">
+  <fr:frontmatter>
+    <fr:authors />
+    <fr:date>
+      <fr:year>2025</fr:year>
+      <fr:month>6</fr:month>
+      <fr:day>8</fr:day>
+    </fr:date>
+    <fr:uri>https://www.my-great-forest.net/schm-1I73/</fr:uri>
+    <fr:display-uri>schm-1I73</fr:display-uri>
+    <fr:route>/schm-1I73/</fr:route>
+    <fr:title text="Affine schemes are determined by topology">Affine schemes are determined by topology</fr:title>
+    <fr:taxon>Remark</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <html:p>
+  Since <fr:tex display="inline"><![CDATA[\operatorname {Spec} : \mathbf {DL}^{\mathrm {op}} \to  \mathbf {Spec}]]></fr:tex> is an <html:em>equivalence</html:em>, affine schemes are determined by their underlying topological spaces.
+</html:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/lingyuan/" title="Lingyuan Ye" uri="https://www.my-great-forest.net/lingyuan/" display-uri="lingyuan" type="local">Lingyuan Ye</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>8</fr:day>
+            </fr:date>
+            <fr:uri>https://www.my-great-forest.net/schm-AJFW/</fr:uri>
+            <fr:display-uri>schm-AJFW</fr:display-uri>
+            <fr:route>/schm-AJFW/</fr:route>
+            <fr:title text="Affine schemes">Affine schemes</fr:title>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>8</fr:day>
+                </fr:date>
+                <fr:uri>https://www.my-great-forest.net/schm-IFX1/</fr:uri>
+                <fr:display-uri>schm-IFX1</fr:display-uri>
+                <fr:route>/schm-IFX1/</fr:route>
+                <fr:title text="Affine scheme">Affine scheme</fr:title>
+                <fr:taxon>Definition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+  We will denote the objects of <fr:tex display="inline"><![CDATA[\mathbf {Top}_{\mathbb {D}}]]></fr:tex> that lies in the image of <fr:tex display="inline"><![CDATA[\operatorname {Spec}]]></fr:tex> as <html:em>affine schemes</html:em>.
+</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>8</fr:day>
+                </fr:date>
+                <fr:uri>https://www.my-great-forest.net/schm-1I73/</fr:uri>
+                <fr:display-uri>schm-1I73</fr:display-uri>
+                <fr:route>/schm-1I73/</fr:route>
+                <fr:title text="Affine schemes are determined by topology">Affine schemes are determined by topology</fr:title>
+                <fr:taxon>Remark</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+  Since <fr:tex display="inline"><![CDATA[\operatorname {Spec} : \mathbf {DL}^{\mathrm {op}} \to  \mathbf {Spec}]]></fr:tex> is an <html:em>equivalence</html:em>, affine schemes are determined by their underlying topological spaces.
+</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>8</fr:day>
+                </fr:date>
+                <fr:uri>https://www.my-great-forest.net/schm-R3J8/</fr:uri>
+                <fr:display-uri>schm-R3J8</fr:display-uri>
+                <fr:route>/schm-R3J8/</fr:route>
+                <fr:title text="Affine schemes of free distributive lattices">Affine schemes of free distributive lattices</fr:title>
+                <fr:taxon>Example</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+  For the free distributive lattice <fr:tex display="inline"><![CDATA[2[I]]]></fr:tex> over a poset <fr:tex display="inline"><![CDATA[I]]></fr:tex>, recall from <fr:link href="/idem-comm-ZATP/" title="Prime spectra of free distributive lattices" uri="https://www.my-great-forest.net/idem-comm-ZATP/" display-uri="idem-comm-ZATP" type="local">Example <fr:contextual-number uri="https://www.my-great-forest.net/idem-comm-ZATP/" display-uri="idem-comm-ZATP" /></fr:link> <fr:tex display="inline"><![CDATA[\operatorname {Spec} 2[I] \cong  \mathcal {U}(I)]]></fr:tex>. For any <fr:tex display="inline"><![CDATA[x\in \mathcal {U}(I)]]></fr:tex>,
+  <fr:tex display="block"><![CDATA[ \mathcal {O}_{2[I],x} \cong  2[I]/x \cong  2[I-x]. ]]></fr:tex>
+  Hence, the stalks of <fr:tex display="inline"><![CDATA[\operatorname {Spec} 2[I]]]></fr:tex> are also free.
+</html:p>
+                <html:p>
+  For a more concrete example, consider the free distributive lattice <fr:tex display="inline"><![CDATA[2[x]]]></fr:tex> generated by a single element. The space <fr:tex display="inline"><![CDATA[\operatorname {Spec} 2[x] \cong  2]]></fr:tex> is the Sierpinski space, with the stalks
+  
+  <html:figure><fr:resource hash="026f68624cd6f88a0b69f836d7b8b61f"><fr:resource-content><html:img src="/026f68624cd6f88a0b69f836d7b8b61f.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[\usepackage {tikz-cd}\usepackage {quiver}]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+    \begin {tikzcd}
+      {2[x]} \ar [r, "x = 1"] & 2 \\
+      \bullet  & \bullet 
+      \arrow [dashed, no head, from=1-1, to=2-1]
+      \arrow [dashed, no head, from=1-2, to=2-2]
+      \arrow [from=2-1, to=2-2]
+    \end {tikzcd}
+  ]]></fr:resource-source></fr:resource></html:figure></html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>8</fr:day>
+                </fr:date>
+                <fr:uri>https://www.my-great-forest.net/schm-8NAJ/</fr:uri>
+                <fr:display-uri>schm-8NAJ</fr:display-uri>
+                <fr:route>/schm-8NAJ/</fr:route>
+                <fr:title text="Affine schemes of bounded linear distributive lattices">Affine schemes of bounded linear distributive lattices</fr:title>
+                <fr:taxon>Example</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+  For a bounded linear order <fr:tex display="inline"><![CDATA[L]]></fr:tex>, recall from <fr:link href="/idem-comm-2XKS/" title="Prime spectra of linear lattices" uri="https://www.my-great-forest.net/idem-comm-2XKS/" display-uri="idem-comm-2XKS" type="local">Example <fr:contextual-number uri="https://www.my-great-forest.net/idem-comm-2XKS/" display-uri="idem-comm-2XKS" /></fr:link> <fr:tex display="inline"><![CDATA[\operatorname {Spec} L \cong  \mathcal {U}_+(L)]]></fr:tex>. For any upward closed subset <fr:tex display="inline"><![CDATA[x]]></fr:tex> of <fr:tex display="inline"><![CDATA[L]]></fr:tex>, we have
+  <fr:tex display="block"><![CDATA[ \mathcal {O}_{L,x} \cong  \operatorname {colim}_{p\in  x}L/p \cong  L/x, ]]></fr:tex>
+  where <fr:tex display="inline"><![CDATA[L/x]]></fr:tex> is simply the quotient of <fr:tex display="inline"><![CDATA[L]]></fr:tex> by identifying <fr:tex display="inline"><![CDATA[x]]></fr:tex> with <fr:tex display="inline"><![CDATA[1]]></fr:tex> and the others remaining the same. In particular, each stalk is again a linear lattice. 
+</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>8</fr:day>
+                </fr:date>
+                <fr:uri>https://www.my-great-forest.net/schm-OJ8K/</fr:uri>
+                <fr:display-uri>schm-OJ8K</fr:display-uri>
+                <fr:route>/schm-OJ8K/</fr:route>
+                <fr:title text="Affine scheme for natural numbers under division">Affine scheme for natural numbers under division</fr:title>
+                <fr:taxon>Example</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+  For the distributive lattice <fr:tex display="inline"><![CDATA[\mathbb {N}]]></fr:tex> given in <fr:link href="/idem-comm-WV5M/" title="Prime spectrum of natural numbers under division" uri="https://www.my-great-forest.net/idem-comm-WV5M/" display-uri="idem-comm-WV5M" type="local">Example <fr:contextual-number uri="https://www.my-great-forest.net/idem-comm-WV5M/" display-uri="idem-comm-WV5M" /></fr:link>, recall its prime spectral corresponds to prime power <fr:tex display="inline"><![CDATA[p^k]]></fr:tex>, and <fr:tex display="inline"><![CDATA[0]]></fr:tex>. The corresponding prime filter <fr:tex display="inline"><![CDATA[F_{p^k}]]></fr:tex> is the set of numbers <html:em>not</html:em> containing <fr:tex display="inline"><![CDATA[p^k]]></fr:tex> as a factor, and <fr:tex display="inline"><![CDATA[F_0]]></fr:tex> is the set of positive numbers. This way, we have
+  <fr:tex display="block"><![CDATA[ \mathcal {O}_{\mathbb {N},p^k} \cong  \mathbb {N} /F_{p^k} \cong  \{0 < \cdots  < p^{k+2} < p^{k+1} < p^{k} < 1\} \cong  \overline {\omega }^{\mathrm {op}}. ]]></fr:tex>
+  consisting of the infinite descending sequence of powers of <fr:tex display="inline"><![CDATA[p]]></fr:tex>, and
+  <fr:tex display="block"><![CDATA[ \mathcal {O}_{\mathbb {N},0} \cong  \mathbb {N} /F_{0} \cong  2. ]]></fr:tex>
+  Notice that all the stalks are <html:em>linear</html:em>. Since linearity is a <html:em>geometric condition</html:em>, it follows that <fr:tex display="inline"><![CDATA[\mathcal {O}_{\mathbb {N}}]]></fr:tex> is a <html:em>linear distributive lattice</html:em> over <fr:tex display="inline"><![CDATA[\operatorname {Spec}\mathbb {N}]]></fr:tex>. However, <fr:tex display="inline"><![CDATA[\mathbb {N}]]></fr:tex> is by no means linear.
+</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>8</fr:day>
+                </fr:date>
+                <fr:uri>https://www.my-great-forest.net/schm-VPJK/</fr:uri>
+                <fr:display-uri>schm-VPJK</fr:display-uri>
+                <fr:route>/schm-VPJK/</fr:route>
+                <fr:title text="Affine scheme for primes under division">Affine scheme for primes under division</fr:title>
+                <fr:taxon>Example</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+  For the sub distributive lattice <fr:tex display="inline"><![CDATA[\mathbb {P}]]></fr:tex> of <fr:tex display="inline"><![CDATA[\mathbb {N}]]></fr:tex> described in <fr:link href="/idem-comm-14GL/" title="Prime spectrum of primes under division" uri="https://www.my-great-forest.net/idem-comm-14GL/" display-uri="idem-comm-14GL" type="local">Example <fr:contextual-number uri="https://www.my-great-forest.net/idem-comm-14GL/" display-uri="idem-comm-14GL" /></fr:link>, its prime spectrum can be identified as primes, plus <fr:tex display="inline"><![CDATA[0]]></fr:tex>. For any prime <fr:tex display="inline"><![CDATA[p]]></fr:tex> the stalk now kills of all higher powers of <fr:tex display="inline"><![CDATA[p]]></fr:tex> and is simply given by
+  <fr:tex display="block"><![CDATA[ \mathcal {O}_{\mathbb {P},p} \cong  \{0 < p < 1\} \cong  2[x], ]]></fr:tex>
+  and we also have 
+  <fr:tex display="block"><![CDATA[ \mathcal {O}_{\mathbb {P},0} \cong  2. ]]></fr:tex>
+  <fr:tex display="inline"><![CDATA[\mathcal {O}_{\mathbb {P}}]]></fr:tex> is thus again a <html:em>linear</html:em> distributive lattice.
+</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>8</fr:day>
+                </fr:date>
+                <fr:uri>https://www.my-great-forest.net/schm-4VTL/</fr:uri>
+                <fr:display-uri>schm-4VTL</fr:display-uri>
+                <fr:route>/schm-4VTL/</fr:route>
+                <fr:title text="Affine glueing of affine schemes">Affine glueing of affine schemes</fr:title>
+                <fr:taxon>Theorem</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter><html:p>
+  If we glue two affine schemes <fr:tex display="inline"><![CDATA[X,Y]]></fr:tex> together along some standard opens <fr:tex display="inline"><![CDATA[U \subseteq  X]]></fr:tex> and <fr:tex display="inline"><![CDATA[V \subseteq  Y]]></fr:tex> with <fr:tex display="inline"><![CDATA[U \cong  V]]></fr:tex>, then the union <fr:tex display="inline"><![CDATA[X \cup  Y]]></fr:tex> is again affine.
+</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>8</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  Suppose <fr:tex display="inline"><![CDATA[X \cong  \operatorname {Spec} D]]></fr:tex> and <fr:tex display="inline"><![CDATA[Y \cong  \operatorname {Spec} E]]></fr:tex> with <fr:tex display="inline"><![CDATA[U = p]]></fr:tex> and <fr:tex display="inline"><![CDATA[V = q]]></fr:tex> for some <fr:tex display="inline"><![CDATA[p\in  D]]></fr:tex> and <fr:tex display="inline"><![CDATA[q\in  E]]></fr:tex>, with an isomorphism <fr:tex display="inline"><![CDATA[u : D/p \cong  E/q]]></fr:tex>. This way, the global section <fr:tex display="inline"><![CDATA[A]]></fr:tex> of <fr:tex display="inline"><![CDATA[X \cup  Y]]></fr:tex> by the sheaf condition is given by the following pullback,
+  
+  <html:figure><fr:resource hash="940ab8df8c57cd772794c8593181cc5c"><fr:resource-content><html:img src="/940ab8df8c57cd772794c8593181cc5c.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[\usepackage {tikz-cd}\usepackage {quiver}]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+    \begin {tikzcd}
+      A \ar [r, "f"] \ar [d, "g"'] \ar [dr, "\lrcorner "{anchor = center, pos = 0.125}, draw = none] & D \ar [d] \\ 
+      E \ar [r] & E/q \cong  D/p
+    \end {tikzcd}
+  ]]></fr:resource-source></fr:resource></html:figure>
+
+  We show that the map <fr:tex display="inline"><![CDATA[f : A \to  D]]></fr:tex> is isomorphic to <fr:tex display="inline"><![CDATA[A \to  A/(q,1)]]></fr:tex>. First since by construction <fr:tex display="inline"><![CDATA[f(q,1) = 1]]></fr:tex>, there is a factorisation
+  
+  <html:figure><fr:resource hash="5280ab813e963119a541d29f54f4efbf"><fr:resource-content><html:img src="/5280ab813e963119a541d29f54f4efbf.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[\usepackage {tikz-cd}\usepackage {quiver}]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+    \begin {tikzcd}
+      A \ar [r, "f"] \ar [d, two heads] & D \\ 
+      A/(q,1) \ar [ur, dashed, "f"']
+    \end {tikzcd}
+  ]]></fr:resource-source></fr:resource></html:figure>
+
+  <fr:tex display="inline"><![CDATA[f : A/(q,1) \to  D]]></fr:tex> must be surjective: For any <fr:tex display="inline"><![CDATA[d\in  D]]></fr:tex>, along the isomorphism <fr:tex display="inline"><![CDATA[u D/p \cong  E/q]]></fr:tex> we know that <fr:tex display="inline"><![CDATA[(u(d\wedge  p),d) \in  A]]></fr:tex>, whose image under <fr:tex display="inline"><![CDATA[f]]></fr:tex> is <fr:tex display="inline"><![CDATA[d]]></fr:tex>. On the other hand, it must also be injective: For any <fr:tex display="inline"><![CDATA[(e,d),(e',d')\in  A/(q,1)]]></fr:tex>, suppose <fr:tex display="inline"><![CDATA[d = d']]></fr:tex>. By construction, we must then have <fr:tex display="inline"><![CDATA[ud = e]]></fr:tex> and <fr:tex display="inline"><![CDATA[ud' = e']]></fr:tex>, which implies <fr:tex display="inline"><![CDATA[e = e']]></fr:tex>. Hence, <fr:tex display="inline"><![CDATA[(e,d) = (e',d')]]></fr:tex> in <fr:tex display="inline"><![CDATA[A/(q,1)]]></fr:tex>. Similarly, <fr:tex display="inline"><![CDATA[g : A \to  E]]></fr:tex> will be isomorphic to <fr:tex display="inline"><![CDATA[A \to  A/(1,p)]]></fr:tex>.
+
+  This way, by <fr:link href="/schm-X3M9/" title="Universal property of spectra" uri="https://www.my-great-forest.net/schm-X3M9/" display-uri="schm-X3M9" type="local">Theorem <fr:contextual-number uri="https://www.my-great-forest.net/schm-X3M9/" display-uri="schm-X3M9" /></fr:link> we get a canonical function
+  <fr:tex display="block"><![CDATA[ X \cup  Y \to  \operatorname {Spec} A ]]></fr:tex>
+  We show this is an isomorphism. It suffices to show it is a homeomorphism of topological spaces, because the sheaves are glued together. But this is the same as stating prime filters in <fr:tex display="inline"><![CDATA[A]]></fr:tex> are either prime filters in <fr:tex display="inline"><![CDATA[D]]></fr:tex> or <fr:tex display="inline"><![CDATA[E]]></fr:tex>, modulo the identification. This follows from <fr:link href="/idem-comm-W57Q/" title="Prime ideals of pro-open quotient" uri="https://www.my-great-forest.net/idem-comm-W57Q/" display-uri="idem-comm-W57Q" type="local">Proposition <fr:contextual-number uri="https://www.my-great-forest.net/idem-comm-W57Q/" display-uri="idem-comm-W57Q" /></fr:link>.
+</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+            </fr:tree>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>8</fr:day>
+            </fr:date>
+            <fr:uri>https://www.my-great-forest.net/schm-80MC/</fr:uri>
+            <fr:display-uri>schm-80MC</fr:display-uri>
+            <fr:route>/schm-80MC/</fr:route>
+            <fr:title text="A scheme is affine iff it is spectral">A scheme is affine iff it is spectral</fr:title>
+            <fr:taxon>Theorem</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>
+  A scheme <fr:tex display="inline"><![CDATA[X]]></fr:tex> is affine iff its underlying topological space is <fr:link href="/topl-VV9N/" title="Spectral spaces" uri="https://www.my-great-forest.net/topl-VV9N/" display-uri="topl-VV9N" type="local">spectral</fr:link>, i.e. iff it is <html:em>compact</html:em> and <fr:link href="/topl-GW93/" title="Quasi-separated spaces" uri="https://www.my-great-forest.net/topl-GW93/" display-uri="topl-GW93" type="local">quasi-separated</fr:link>.
+</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>8</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  Let <fr:tex display="inline"><![CDATA[X]]></fr:tex> be a scheme whose underlying topological space is spectral. Let <fr:tex display="inline"><![CDATA[D]]></fr:tex> be the distributive lattice of compact open subsets of <fr:tex display="inline"><![CDATA[X]]></fr:tex>. Let <fr:tex display="inline"><![CDATA[\{U_i\}_{i\in  I}]]></fr:tex> be a finite family of affine open covers of <fr:tex display="inline"><![CDATA[X]]></fr:tex>. For any <fr:tex display="inline"><![CDATA[U_i]]></fr:tex>, since <fr:tex display="inline"><![CDATA[U_i]]></fr:tex> is affine, and affine schemes are determined by their underlying topological space (see <fr:link href="/schm-1I73/" title="Affine schemes are determined by topology" uri="https://www.my-great-forest.net/schm-1I73/" display-uri="schm-1I73" type="local">Remark <fr:contextual-number uri="https://www.my-great-forest.net/schm-1I73/" display-uri="schm-1I73" /></fr:link>), we must have <fr:tex display="inline"><![CDATA[\mathcal {O}_{U_i} \cong  D_i]]></fr:tex> where <fr:tex display="inline"><![CDATA[D_i]]></fr:tex> is the principle quotient of <fr:tex display="inline"><![CDATA[D]]></fr:tex> corresponding to the compact open <fr:tex display="inline"><![CDATA[U_i]]></fr:tex>. This way, <fr:tex display="inline"><![CDATA[\mathcal {O}_{X}]]></fr:tex> and <fr:tex display="inline"><![CDATA[\mathcal {O}_{D}]]></fr:tex> agree on this open cover, which implies that <fr:tex display="inline"><![CDATA[\mathcal {O}_{X} \cong  \mathcal {O}_{D}]]></fr:tex>.
+</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/">
+  <fr:frontmatter>
+    <fr:authors />
+    <fr:date>
+      <fr:year>2025</fr:year>
+      <fr:month>6</fr:month>
+      <fr:day>8</fr:day>
+    </fr:date>
+    <fr:uri>https://www.my-great-forest.net/idem-comm-H042/</fr:uri>
+    <fr:display-uri>idem-comm-H042</fr:display-uri>
+    <fr:route>/idem-comm-H042/</fr:route>
+    <fr:title text="P-morphism and q-morphism between posets">P-morphism and q-morphism between posets</fr:title>
+    <fr:taxon>Definition</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <html:p>
+  We say a map <fr:tex display="inline"><![CDATA[f : P \to  Q]]></fr:tex> between two posets is a <html:em>p-morphism</html:em>, if 
+  <fr:tex display="block"><![CDATA[ \forall  p \in  P.\ \forall  q \in  Q.\  fp \le  q \Rightarrow  \exists  p' \in  P.\  p \le  p' \wedge  fp' = q. ]]></fr:tex>
+  A map <fr:tex display="inline"><![CDATA[f : P \to  Q]]></fr:tex> is a <html:em>q-morphism</html:em> if <fr:tex display="inline"><![CDATA[f^{\mathrm {op}} : P^{\mathrm {op}} \to  Q^{\mathrm {op}}]]></fr:tex> is a p-map.
+</html:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>8</fr:day>
+            </fr:date>
+            <fr:uri>https://www.my-great-forest.net/idem-comm-SQ5X/</fr:uri>
+            <fr:display-uri>idem-comm-SQ5X</fr:display-uri>
+            <fr:route>/idem-comm-SQ5X/</fr:route>
+            <fr:title text="P-maps and q-maps">P-maps and q-maps</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  We say a map <fr:tex display="inline"><![CDATA[D \to  E]]></fr:tex> between distributive lattices is a <html:em>p-map/q-map</html:em>, if the induced map <fr:tex display="inline"><![CDATA[\operatorname {Spec} E \to  \operatorname {Spec} D]]></fr:tex> is a <fr:link href="/idem-comm-H042/" title="P-morphism and q-morphism between posets" uri="https://www.my-great-forest.net/idem-comm-H042/" display-uri="idem-comm-H042" type="local">p-morphism/q-morphism</fr:link>.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

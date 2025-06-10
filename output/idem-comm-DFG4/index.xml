@@ -1,0 +1,1834 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="/lingyuan/" title="Lingyuan Ye" uri="https://www.my-great-forest.net/lingyuan/" display-uri="lingyuan" type="local">Lingyuan Ye</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:date>
+      <fr:year>2025</fr:year>
+      <fr:month>6</fr:month>
+      <fr:day>7</fr:day>
+    </fr:date>
+    <fr:uri>https://www.my-great-forest.net/idem-comm-DFG4/</fr:uri>
+    <fr:display-uri>idem-comm-DFG4</fr:display-uri>
+    <fr:route>/idem-comm-DFG4/</fr:route>
+    <fr:title text="Orthogonal factorisation system: (pro-open, t-conservative)">Orthogonal factorisation system: (pro-open, t-conservative)</fr:title>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <fr:tree show-metadata="false">
+      <fr:frontmatter>
+        <fr:authors>
+          <fr:author>
+            <fr:link href="/lingyuan/" title="Lingyuan Ye" uri="https://www.my-great-forest.net/lingyuan/" display-uri="lingyuan" type="local">Lingyuan Ye</fr:link>
+          </fr:author>
+        </fr:authors>
+        <fr:date>
+          <fr:year>2025</fr:year>
+          <fr:month>6</fr:month>
+          <fr:day>7</fr:day>
+        </fr:date>
+        <fr:uri>https://www.my-great-forest.net/idem-comm-0002/</fr:uri>
+        <fr:display-uri>idem-comm-0002</fr:display-uri>
+        <fr:route>/idem-comm-0002/</fr:route>
+        <fr:title text="Pro-open quotients">Pro-open quotients</fr:title>
+        <fr:taxon>definition</fr:taxon>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <html:p>
+  The <html:em>pro-open</html:em> quotient of a distributive lattice <fr:tex display="inline"><![CDATA[D]]></fr:tex> is a a quotient of the form <fr:tex display="inline"><![CDATA[D \twoheadrightarrow  D/F]]></fr:tex> for some filter <fr:tex display="inline"><![CDATA[F]]></fr:tex> of <fr:tex display="inline"><![CDATA[D]]></fr:tex>.
+</html:p>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:date>
+          <fr:year>2025</fr:year>
+          <fr:month>6</fr:month>
+          <fr:day>7</fr:day>
+        </fr:date>
+        <fr:uri>https://www.my-great-forest.net/idem-comm-89WP/</fr:uri>
+        <fr:display-uri>idem-comm-89WP</fr:display-uri>
+        <fr:route>/idem-comm-89WP/</fr:route>
+        <fr:title text="Quotients of Heyting algebras">Quotients of Heyting algebras</fr:title>
+        <fr:taxon>Remark</fr:taxon>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <html:p>
+  All quotients of Heyting algebras are <fr:link href="/idem-comm-0002/" title="Pro-open quotients" uri="https://www.my-great-forest.net/idem-comm-0002/" display-uri="idem-comm-0002" type="local">pro-open</fr:link>.
+</html:p>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false">
+      <fr:frontmatter>
+        <fr:authors>
+          <fr:author>
+            <fr:link href="/lingyuan/" title="Lingyuan Ye" uri="https://www.my-great-forest.net/lingyuan/" display-uri="lingyuan" type="local">Lingyuan Ye</fr:link>
+          </fr:author>
+        </fr:authors>
+        <fr:date>
+          <fr:year>2025</fr:year>
+          <fr:month>6</fr:month>
+          <fr:day>7</fr:day>
+        </fr:date>
+        <fr:uri>https://www.my-great-forest.net/idem-comm-OBAP/</fr:uri>
+        <fr:display-uri>idem-comm-OBAP</fr:display-uri>
+        <fr:route>/idem-comm-OBAP/</fr:route>
+        <fr:title text="Congruence for pro-open quotients">Congruence for pro-open quotients</fr:title>
+        <fr:taxon>Lemma</fr:taxon>
+      </fr:frontmatter>
+      <fr:mainmatter><html:p>
+  Let <fr:tex display="inline"><![CDATA[F]]></fr:tex> be a filter of a distributive lattice <fr:tex display="inline"><![CDATA[D]]></fr:tex>. Then the congruence for the <fr:link href="/idem-comm-0002/" title="Pro-open quotients" uri="https://www.my-great-forest.net/idem-comm-0002/" display-uri="idem-comm-0002" type="local">Pro-open quotients</fr:link> <fr:tex display="inline"><![CDATA[D \twoheadrightarrow  F]]></fr:tex> is given as follows:
+  <fr:tex display="block"><![CDATA[x \sim _F y \Leftrightarrow  \exists  u \in  F.\  x \wedge  u = y \wedge  u]]></fr:tex></html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/lingyuan/" title="Lingyuan Ye" uri="https://www.my-great-forest.net/lingyuan/" display-uri="lingyuan" type="local">Lingyuan Ye</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>7</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <html:p>This is evident.</html:p>
+</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:date>
+          <fr:year>2025</fr:year>
+          <fr:month>6</fr:month>
+          <fr:day>7</fr:day>
+        </fr:date>
+        <fr:uri>https://www.my-great-forest.net/idem-comm-Q53H/</fr:uri>
+        <fr:display-uri>idem-comm-Q53H</fr:display-uri>
+        <fr:route>/idem-comm-Q53H/</fr:route>
+        <fr:title text="Pro-open congruence for Heyting algebras">Pro-open congruence for Heyting algebras</fr:title>
+        <fr:taxon>Remark</fr:taxon>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <html:p>
+  Notice that this description also applies to Heyting algebras.
+</html:p>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:date>
+          <fr:year>2025</fr:year>
+          <fr:month>6</fr:month>
+          <fr:day>7</fr:day>
+        </fr:date>
+        <fr:uri>https://www.my-great-forest.net/idem-comm-W57Q/</fr:uri>
+        <fr:display-uri>idem-comm-W57Q</fr:display-uri>
+        <fr:route>/idem-comm-W57Q/</fr:route>
+        <fr:title text="Prime ideals of pro-open quotient">Prime ideals of pro-open quotient</fr:title>
+        <fr:taxon>Proposition</fr:taxon>
+      </fr:frontmatter>
+      <fr:mainmatter><html:p>
+  For a distributive lattice <fr:tex display="inline"><![CDATA[D]]></fr:tex> the pro-open quotient <fr:tex display="inline"><![CDATA[q: D \twoheadrightarrow  D/F]]></fr:tex>, induce a bijection between prime filters in <fr:tex display="inline"><![CDATA[D/F]]></fr:tex> and those in <fr:tex display="inline"><![CDATA[D]]></fr:tex> containing <fr:tex display="inline"><![CDATA[F]]></fr:tex>.
+</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>7</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <html:p>
+    It suffices to show that any prime filter <fr:tex display="inline"><![CDATA[P]]></fr:tex> in <fr:tex display="inline"><![CDATA[D]]></fr:tex> containing <fr:tex display="inline"><![CDATA[F]]></fr:tex> is mapped by <fr:tex display="inline"><![CDATA[q]]></fr:tex> to a prime filter <fr:tex display="inline"><![CDATA[q[P]]]></fr:tex> in <fr:tex display="inline"><![CDATA[D/F]]></fr:tex>, and <fr:tex display="inline"><![CDATA[q^{-1} q[P] = P]]></fr:tex>. Now <fr:tex display="inline"><![CDATA[q[P]]]></fr:tex> is evidently a filter. Suppose now we have <fr:tex display="inline"><![CDATA[x,y\in  D/F]]></fr:tex> with <fr:tex display="inline"><![CDATA[x\vee  y = q(p)]]></fr:tex> with <fr:tex display="inline"><![CDATA[p\in  P]]></fr:tex>. Pick <fr:tex display="inline"><![CDATA[a,b]]></fr:tex> with <fr:tex display="inline"><![CDATA[q(a) = x]]></fr:tex> and <fr:tex display="inline"><![CDATA[q(b) = y]]></fr:tex>, this means that we have <fr:tex display="inline"><![CDATA[u \in  F]]></fr:tex> with <fr:tex display="inline"><![CDATA[(a \vee  b) \wedge  u = p \wedge  u \in  P]]></fr:tex>. Since <fr:tex display="inline"><![CDATA[P]]></fr:tex> is prime, it follows that <fr:tex display="inline"><![CDATA[a \wedge  u \in  P]]></fr:tex> or <fr:tex display="inline"><![CDATA[b \wedge  u \in  P]]></fr:tex>, which implies <fr:tex display="inline"><![CDATA[x \in  q[P]]]></fr:tex> or <fr:tex display="inline"><![CDATA[y\in  q[P]]]></fr:tex>. Hence, <fr:tex display="inline"><![CDATA[q[P]]]></fr:tex> is prime. 
+  </html:p>
+  <html:p>
+    Now suppose <fr:tex display="inline"><![CDATA[q(a) \in  q[P]]]></fr:tex>, i.e. <fr:tex display="inline"><![CDATA[a \sim _F p]]></fr:tex> for some <fr:tex display="inline"><![CDATA[p\in  P]]></fr:tex>. From <fr:link href="/idem-comm-OBAP/" title="Congruence for pro-open quotients" uri="https://www.my-great-forest.net/idem-comm-OBAP/" display-uri="idem-comm-OBAP" type="local">Lemma <fr:contextual-number uri="https://www.my-great-forest.net/idem-comm-OBAP/" display-uri="idem-comm-OBAP" /></fr:link> we know that <fr:tex display="inline"><![CDATA[a \wedge  u = p \wedge  u]]></fr:tex> for some <fr:tex display="inline"><![CDATA[u\in  F]]></fr:tex>. Hence, <fr:tex display="inline"><![CDATA[a \wedge  u \in  P]]></fr:tex>, and by upward closeness, <fr:tex display="inline"><![CDATA[a\in  P]]></fr:tex> as well. 
+  </html:p>
+</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:date>
+          <fr:year>2025</fr:year>
+          <fr:month>6</fr:month>
+          <fr:day>7</fr:day>
+        </fr:date>
+        <fr:uri>https://www.my-great-forest.net/idem-comm-QQEF/</fr:uri>
+        <fr:display-uri>idem-comm-QQEF</fr:display-uri>
+        <fr:route>/idem-comm-QQEF/</fr:route>
+        <fr:title text="T-conservative maps">T-conservative maps</fr:title>
+        <fr:taxon>Definition</fr:taxon>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <html:p>
+  A map <fr:tex display="inline"><![CDATA[f : D \to  E]]></fr:tex> between distributive lattices is <html:em>t-conservative</html:em> iff it reflect truth, i.e. <fr:tex display="inline"><![CDATA[f(p) = 1]]></fr:tex> implies <fr:tex display="inline"><![CDATA[p = 1]]></fr:tex> for all <fr:tex display="inline"><![CDATA[p\in  D]]></fr:tex>.
+</html:p>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:date>
+          <fr:year>2025</fr:year>
+          <fr:month>6</fr:month>
+          <fr:day>7</fr:day>
+        </fr:date>
+        <fr:uri>https://www.my-great-forest.net/idem-comm-B7DD/</fr:uri>
+        <fr:display-uri>idem-comm-B7DD</fr:display-uri>
+        <fr:route>/idem-comm-B7DD/</fr:route>
+        <fr:title text="t-conservative maps are not injective">t-conservative maps are not injective</fr:title>
+        <fr:taxon>Remark</fr:taxon>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <html:p>
+  Note that t-conservative maps are not necessarily <html:em>injective</html:em>. The following is such an example:
+  
+  
+  <html:figure><fr:resource hash="2f5a7de2d528d08d09ba8bdb9ca1463b"><fr:resource-content><html:img src="/2f5a7de2d528d08d09ba8bdb9ca1463b.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[\usepackage {tikz-cd}\usepackage {quiver}]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+    \begin {tikzcd}
+      \bullet  \ar [r, dashed] & \bullet  \\
+      \bullet  \ar [u] \ar [dr, dashed] & \\ 
+      \bullet  \ar [u] \ar [r, dashed] & \bullet  \ar [uu]
+    \end {tikzcd}
+  ]]></fr:resource-source></fr:resource></html:figure></html:p>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:date>
+          <fr:year>2025</fr:year>
+          <fr:month>6</fr:month>
+          <fr:day>7</fr:day>
+        </fr:date>
+        <fr:uri>https://www.my-great-forest.net/idem-comm-XNUV/</fr:uri>
+        <fr:display-uri>idem-comm-XNUV</fr:display-uri>
+        <fr:route>/idem-comm-XNUV/</fr:route>
+        <fr:title text="t-conservativity coincide with injectivity for Heyting algebras">t-conservativity coincide with injectivity for Heyting algebras</fr:title>
+        <fr:taxon>Remark</fr:taxon>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <html:p>
+  However, a Heyting algebra morphism <fr:tex display="inline"><![CDATA[f : H \to  E]]></fr:tex> is <fr:link href="/idem-comm-QQEF/" title="T-conservative maps" uri="https://www.my-great-forest.net/idem-comm-QQEF/" display-uri="idem-comm-QQEF" type="local">t-conservative</fr:link> iff it is <html:em>injective</html:em>.
+</html:p>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:date>
+          <fr:year>2025</fr:year>
+          <fr:month>6</fr:month>
+          <fr:day>7</fr:day>
+        </fr:date>
+        <fr:uri>https://www.my-great-forest.net/idem-comm-V39C/</fr:uri>
+        <fr:display-uri>idem-comm-V39C</fr:display-uri>
+        <fr:route>/idem-comm-V39C/</fr:route>
+        <fr:title text="Orthogonal factorisation: (pro-open, t-conservative)">Orthogonal factorisation: (pro-open, t-conservative)</fr:title>
+        <fr:taxon>Theorem</fr:taxon>
+      </fr:frontmatter>
+      <fr:mainmatter><html:p>
+  Pro-open quotients and truthfully conservative maps form an orthogonal factorisation system in the category <html:strong>DL</html:strong> of distributive lattices.
+</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>7</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <html:p>For any morphism <fr:tex display="inline"><![CDATA[f : D \to  E]]></fr:tex> between distributive lattices, it can be factored as follows,</html:p>
+  
+  
+  <html:figure><fr:resource hash="f315b74319580acb271b5895bf622cb5"><fr:resource-content><html:img src="/f315b74319580acb271b5895bf622cb5.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[\usepackage {tikz-cd}\usepackage {quiver}]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+    \begin {tikzcd}
+    D \ar [dr, "f"] \ar [d, two heads] &  \\ 
+    D/f^{-1}(1) \ar [r] & E
+    \end {tikzcd}
+  ]]></fr:resource-source></fr:resource></html:figure>
+
+
+  <html:p>which by construction <fr:tex display="inline"><![CDATA[D \twoheadrightarrow  D/f^{-1}(1)]]></fr:tex> is pro-open and <fr:tex display="inline"><![CDATA[D/f^{-1}(1) \to  E]]></fr:tex> is truthfully conservative. They are in fact orthogonal to each other in <html:strong>DL</html:strong>, since whenever we have a situation as below with <fr:tex display="inline"><![CDATA[f]]></fr:tex> truthfully conservative,</html:p>
+
+  
+  <html:figure><fr:resource hash="3eafe76385f478f6e4502fc533b214f7"><fr:resource-content><html:img src="/3eafe76385f478f6e4502fc533b214f7.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[\usepackage {tikz-cd}\usepackage {quiver}]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+    \begin {tikzcd}
+      D & E \\
+      {D/F} & G
+      \arrow ["u", from=1-1, to=1-2]
+      \arrow ["q"', two heads, from=1-1, to=2-1]
+      \arrow ["f", from=1-2, to=2-2]
+      \arrow [dashed, from=2-1, to=1-2]
+      \arrow ["v"', from=2-1, to=2-2]
+    \end {tikzcd}
+  ]]></fr:resource-source></fr:resource></html:figure>
+
+
+  <html:p><fr:tex display="inline"><![CDATA[u]]></fr:tex> must factors through <fr:tex display="inline"><![CDATA[D/F]]></fr:tex>: For any <fr:tex display="inline"><![CDATA[a\in  F]]></fr:tex>, <fr:tex display="inline"><![CDATA[fu(a) = vq(u) = 1]]></fr:tex>, which implies <fr:tex display="inline"><![CDATA[u(a) = 1]]></fr:tex> since <fr:tex display="inline"><![CDATA[f]]></fr:tex> is truthfully conservative.</html:p>
+</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+    </fr:tree>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:contributor>
+                <fr:link href="/lingyuan/" title="Lingyuan Ye" uri="https://www.my-great-forest.net/lingyuan/" display-uri="lingyuan" type="local">Lingyuan Ye</fr:link>
+              </fr:contributor>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>7</fr:day>
+            </fr:date>
+            <fr:uri>https://www.my-great-forest.net/idem-comm-0001/</fr:uri>
+            <fr:display-uri>idem-comm-0001</fr:display-uri>
+            <fr:route>/idem-comm-0001/</fr:route>
+            <fr:title text="Idempotent Commutative Algebra">Idempotent Commutative Algebra</fr:title>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>By <html:em>idempotent algebra</html:em>, we mean the study of the algebraic theory of <html:em>distributive lattices</html:em>.</html:p>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/lingyuan/" title="Lingyuan Ye" uri="https://www.my-great-forest.net/lingyuan/" display-uri="lingyuan" type="local">Lingyuan Ye</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>7</fr:day>
+                </fr:date>
+                <fr:uri>https://www.my-great-forest.net/idem-comm-DFG4/</fr:uri>
+                <fr:display-uri>idem-comm-DFG4</fr:display-uri>
+                <fr:route>/idem-comm-DFG4/</fr:route>
+                <fr:title text="Orthogonal factorisation system: (pro-open, t-conservative)">Orthogonal factorisation system: (pro-open, t-conservative)</fr:title>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors>
+                      <fr:author>
+                        <fr:link href="/lingyuan/" title="Lingyuan Ye" uri="https://www.my-great-forest.net/lingyuan/" display-uri="lingyuan" type="local">Lingyuan Ye</fr:link>
+                      </fr:author>
+                    </fr:authors>
+                    <fr:date>
+                      <fr:year>2025</fr:year>
+                      <fr:month>6</fr:month>
+                      <fr:day>7</fr:day>
+                    </fr:date>
+                    <fr:uri>https://www.my-great-forest.net/idem-comm-0002/</fr:uri>
+                    <fr:display-uri>idem-comm-0002</fr:display-uri>
+                    <fr:route>/idem-comm-0002/</fr:route>
+                    <fr:title text="Pro-open quotients">Pro-open quotients</fr:title>
+                    <fr:taxon>definition</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p>
+  The <html:em>pro-open</html:em> quotient of a distributive lattice <fr:tex display="inline"><![CDATA[D]]></fr:tex> is a a quotient of the form <fr:tex display="inline"><![CDATA[D \twoheadrightarrow  D/F]]></fr:tex> for some filter <fr:tex display="inline"><![CDATA[F]]></fr:tex> of <fr:tex display="inline"><![CDATA[D]]></fr:tex>.
+</html:p>
+                  </fr:mainmatter>
+                </fr:tree>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors />
+                    <fr:date>
+                      <fr:year>2025</fr:year>
+                      <fr:month>6</fr:month>
+                      <fr:day>7</fr:day>
+                    </fr:date>
+                    <fr:uri>https://www.my-great-forest.net/idem-comm-89WP/</fr:uri>
+                    <fr:display-uri>idem-comm-89WP</fr:display-uri>
+                    <fr:route>/idem-comm-89WP/</fr:route>
+                    <fr:title text="Quotients of Heyting algebras">Quotients of Heyting algebras</fr:title>
+                    <fr:taxon>Remark</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p>
+  All quotients of Heyting algebras are <fr:link href="/idem-comm-0002/" title="Pro-open quotients" uri="https://www.my-great-forest.net/idem-comm-0002/" display-uri="idem-comm-0002" type="local">pro-open</fr:link>.
+</html:p>
+                  </fr:mainmatter>
+                </fr:tree>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors>
+                      <fr:author>
+                        <fr:link href="/lingyuan/" title="Lingyuan Ye" uri="https://www.my-great-forest.net/lingyuan/" display-uri="lingyuan" type="local">Lingyuan Ye</fr:link>
+                      </fr:author>
+                    </fr:authors>
+                    <fr:date>
+                      <fr:year>2025</fr:year>
+                      <fr:month>6</fr:month>
+                      <fr:day>7</fr:day>
+                    </fr:date>
+                    <fr:uri>https://www.my-great-forest.net/idem-comm-OBAP/</fr:uri>
+                    <fr:display-uri>idem-comm-OBAP</fr:display-uri>
+                    <fr:route>/idem-comm-OBAP/</fr:route>
+                    <fr:title text="Congruence for pro-open quotients">Congruence for pro-open quotients</fr:title>
+                    <fr:taxon>Lemma</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter><html:p>
+  Let <fr:tex display="inline"><![CDATA[F]]></fr:tex> be a filter of a distributive lattice <fr:tex display="inline"><![CDATA[D]]></fr:tex>. Then the congruence for the <fr:link href="/idem-comm-0002/" title="Pro-open quotients" uri="https://www.my-great-forest.net/idem-comm-0002/" display-uri="idem-comm-0002" type="local">Pro-open quotients</fr:link> <fr:tex display="inline"><![CDATA[D \twoheadrightarrow  F]]></fr:tex> is given as follows:
+  <fr:tex display="block"><![CDATA[x \sim _F y \Leftrightarrow  \exists  u \in  F.\  x \wedge  u = y \wedge  u]]></fr:tex></html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/lingyuan/" title="Lingyuan Ye" uri="https://www.my-great-forest.net/lingyuan/" display-uri="lingyuan" type="local">Lingyuan Ye</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>7</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <html:p>This is evident.</html:p>
+</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+                </fr:tree>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors />
+                    <fr:date>
+                      <fr:year>2025</fr:year>
+                      <fr:month>6</fr:month>
+                      <fr:day>7</fr:day>
+                    </fr:date>
+                    <fr:uri>https://www.my-great-forest.net/idem-comm-Q53H/</fr:uri>
+                    <fr:display-uri>idem-comm-Q53H</fr:display-uri>
+                    <fr:route>/idem-comm-Q53H/</fr:route>
+                    <fr:title text="Pro-open congruence for Heyting algebras">Pro-open congruence for Heyting algebras</fr:title>
+                    <fr:taxon>Remark</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p>
+  Notice that this description also applies to Heyting algebras.
+</html:p>
+                  </fr:mainmatter>
+                </fr:tree>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors />
+                    <fr:date>
+                      <fr:year>2025</fr:year>
+                      <fr:month>6</fr:month>
+                      <fr:day>7</fr:day>
+                    </fr:date>
+                    <fr:uri>https://www.my-great-forest.net/idem-comm-W57Q/</fr:uri>
+                    <fr:display-uri>idem-comm-W57Q</fr:display-uri>
+                    <fr:route>/idem-comm-W57Q/</fr:route>
+                    <fr:title text="Prime ideals of pro-open quotient">Prime ideals of pro-open quotient</fr:title>
+                    <fr:taxon>Proposition</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter><html:p>
+  For a distributive lattice <fr:tex display="inline"><![CDATA[D]]></fr:tex> the pro-open quotient <fr:tex display="inline"><![CDATA[q: D \twoheadrightarrow  D/F]]></fr:tex>, induce a bijection between prime filters in <fr:tex display="inline"><![CDATA[D/F]]></fr:tex> and those in <fr:tex display="inline"><![CDATA[D]]></fr:tex> containing <fr:tex display="inline"><![CDATA[F]]></fr:tex>.
+</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>7</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <html:p>
+    It suffices to show that any prime filter <fr:tex display="inline"><![CDATA[P]]></fr:tex> in <fr:tex display="inline"><![CDATA[D]]></fr:tex> containing <fr:tex display="inline"><![CDATA[F]]></fr:tex> is mapped by <fr:tex display="inline"><![CDATA[q]]></fr:tex> to a prime filter <fr:tex display="inline"><![CDATA[q[P]]]></fr:tex> in <fr:tex display="inline"><![CDATA[D/F]]></fr:tex>, and <fr:tex display="inline"><![CDATA[q^{-1} q[P] = P]]></fr:tex>. Now <fr:tex display="inline"><![CDATA[q[P]]]></fr:tex> is evidently a filter. Suppose now we have <fr:tex display="inline"><![CDATA[x,y\in  D/F]]></fr:tex> with <fr:tex display="inline"><![CDATA[x\vee  y = q(p)]]></fr:tex> with <fr:tex display="inline"><![CDATA[p\in  P]]></fr:tex>. Pick <fr:tex display="inline"><![CDATA[a,b]]></fr:tex> with <fr:tex display="inline"><![CDATA[q(a) = x]]></fr:tex> and <fr:tex display="inline"><![CDATA[q(b) = y]]></fr:tex>, this means that we have <fr:tex display="inline"><![CDATA[u \in  F]]></fr:tex> with <fr:tex display="inline"><![CDATA[(a \vee  b) \wedge  u = p \wedge  u \in  P]]></fr:tex>. Since <fr:tex display="inline"><![CDATA[P]]></fr:tex> is prime, it follows that <fr:tex display="inline"><![CDATA[a \wedge  u \in  P]]></fr:tex> or <fr:tex display="inline"><![CDATA[b \wedge  u \in  P]]></fr:tex>, which implies <fr:tex display="inline"><![CDATA[x \in  q[P]]]></fr:tex> or <fr:tex display="inline"><![CDATA[y\in  q[P]]]></fr:tex>. Hence, <fr:tex display="inline"><![CDATA[q[P]]]></fr:tex> is prime. 
+  </html:p>
+  <html:p>
+    Now suppose <fr:tex display="inline"><![CDATA[q(a) \in  q[P]]]></fr:tex>, i.e. <fr:tex display="inline"><![CDATA[a \sim _F p]]></fr:tex> for some <fr:tex display="inline"><![CDATA[p\in  P]]></fr:tex>. From <fr:link href="/idem-comm-OBAP/" title="Congruence for pro-open quotients" uri="https://www.my-great-forest.net/idem-comm-OBAP/" display-uri="idem-comm-OBAP" type="local">Lemma <fr:contextual-number uri="https://www.my-great-forest.net/idem-comm-OBAP/" display-uri="idem-comm-OBAP" /></fr:link> we know that <fr:tex display="inline"><![CDATA[a \wedge  u = p \wedge  u]]></fr:tex> for some <fr:tex display="inline"><![CDATA[u\in  F]]></fr:tex>. Hence, <fr:tex display="inline"><![CDATA[a \wedge  u \in  P]]></fr:tex>, and by upward closeness, <fr:tex display="inline"><![CDATA[a\in  P]]></fr:tex> as well. 
+  </html:p>
+</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+                </fr:tree>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors />
+                    <fr:date>
+                      <fr:year>2025</fr:year>
+                      <fr:month>6</fr:month>
+                      <fr:day>7</fr:day>
+                    </fr:date>
+                    <fr:uri>https://www.my-great-forest.net/idem-comm-QQEF/</fr:uri>
+                    <fr:display-uri>idem-comm-QQEF</fr:display-uri>
+                    <fr:route>/idem-comm-QQEF/</fr:route>
+                    <fr:title text="T-conservative maps">T-conservative maps</fr:title>
+                    <fr:taxon>Definition</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p>
+  A map <fr:tex display="inline"><![CDATA[f : D \to  E]]></fr:tex> between distributive lattices is <html:em>t-conservative</html:em> iff it reflect truth, i.e. <fr:tex display="inline"><![CDATA[f(p) = 1]]></fr:tex> implies <fr:tex display="inline"><![CDATA[p = 1]]></fr:tex> for all <fr:tex display="inline"><![CDATA[p\in  D]]></fr:tex>.
+</html:p>
+                  </fr:mainmatter>
+                </fr:tree>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors />
+                    <fr:date>
+                      <fr:year>2025</fr:year>
+                      <fr:month>6</fr:month>
+                      <fr:day>7</fr:day>
+                    </fr:date>
+                    <fr:uri>https://www.my-great-forest.net/idem-comm-B7DD/</fr:uri>
+                    <fr:display-uri>idem-comm-B7DD</fr:display-uri>
+                    <fr:route>/idem-comm-B7DD/</fr:route>
+                    <fr:title text="t-conservative maps are not injective">t-conservative maps are not injective</fr:title>
+                    <fr:taxon>Remark</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p>
+  Note that t-conservative maps are not necessarily <html:em>injective</html:em>. The following is such an example:
+  
+  
+  <html:figure><fr:resource hash="2f5a7de2d528d08d09ba8bdb9ca1463b"><fr:resource-content><html:img src="/2f5a7de2d528d08d09ba8bdb9ca1463b.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[\usepackage {tikz-cd}\usepackage {quiver}]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+    \begin {tikzcd}
+      \bullet  \ar [r, dashed] & \bullet  \\
+      \bullet  \ar [u] \ar [dr, dashed] & \\ 
+      \bullet  \ar [u] \ar [r, dashed] & \bullet  \ar [uu]
+    \end {tikzcd}
+  ]]></fr:resource-source></fr:resource></html:figure></html:p>
+                  </fr:mainmatter>
+                </fr:tree>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors />
+                    <fr:date>
+                      <fr:year>2025</fr:year>
+                      <fr:month>6</fr:month>
+                      <fr:day>7</fr:day>
+                    </fr:date>
+                    <fr:uri>https://www.my-great-forest.net/idem-comm-XNUV/</fr:uri>
+                    <fr:display-uri>idem-comm-XNUV</fr:display-uri>
+                    <fr:route>/idem-comm-XNUV/</fr:route>
+                    <fr:title text="t-conservativity coincide with injectivity for Heyting algebras">t-conservativity coincide with injectivity for Heyting algebras</fr:title>
+                    <fr:taxon>Remark</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p>
+  However, a Heyting algebra morphism <fr:tex display="inline"><![CDATA[f : H \to  E]]></fr:tex> is <fr:link href="/idem-comm-QQEF/" title="T-conservative maps" uri="https://www.my-great-forest.net/idem-comm-QQEF/" display-uri="idem-comm-QQEF" type="local">t-conservative</fr:link> iff it is <html:em>injective</html:em>.
+</html:p>
+                  </fr:mainmatter>
+                </fr:tree>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors />
+                    <fr:date>
+                      <fr:year>2025</fr:year>
+                      <fr:month>6</fr:month>
+                      <fr:day>7</fr:day>
+                    </fr:date>
+                    <fr:uri>https://www.my-great-forest.net/idem-comm-V39C/</fr:uri>
+                    <fr:display-uri>idem-comm-V39C</fr:display-uri>
+                    <fr:route>/idem-comm-V39C/</fr:route>
+                    <fr:title text="Orthogonal factorisation: (pro-open, t-conservative)">Orthogonal factorisation: (pro-open, t-conservative)</fr:title>
+                    <fr:taxon>Theorem</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter><html:p>
+  Pro-open quotients and truthfully conservative maps form an orthogonal factorisation system in the category <html:strong>DL</html:strong> of distributive lattices.
+</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>7</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <html:p>For any morphism <fr:tex display="inline"><![CDATA[f : D \to  E]]></fr:tex> between distributive lattices, it can be factored as follows,</html:p>
+  
+  
+  <html:figure><fr:resource hash="f315b74319580acb271b5895bf622cb5"><fr:resource-content><html:img src="/f315b74319580acb271b5895bf622cb5.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[\usepackage {tikz-cd}\usepackage {quiver}]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+    \begin {tikzcd}
+    D \ar [dr, "f"] \ar [d, two heads] &  \\ 
+    D/f^{-1}(1) \ar [r] & E
+    \end {tikzcd}
+  ]]></fr:resource-source></fr:resource></html:figure>
+
+
+  <html:p>which by construction <fr:tex display="inline"><![CDATA[D \twoheadrightarrow  D/f^{-1}(1)]]></fr:tex> is pro-open and <fr:tex display="inline"><![CDATA[D/f^{-1}(1) \to  E]]></fr:tex> is truthfully conservative. They are in fact orthogonal to each other in <html:strong>DL</html:strong>, since whenever we have a situation as below with <fr:tex display="inline"><![CDATA[f]]></fr:tex> truthfully conservative,</html:p>
+
+  
+  <html:figure><fr:resource hash="3eafe76385f478f6e4502fc533b214f7"><fr:resource-content><html:img src="/3eafe76385f478f6e4502fc533b214f7.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[\usepackage {tikz-cd}\usepackage {quiver}]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+    \begin {tikzcd}
+      D & E \\
+      {D/F} & G
+      \arrow ["u", from=1-1, to=1-2]
+      \arrow ["q"', two heads, from=1-1, to=2-1]
+      \arrow ["f", from=1-2, to=2-2]
+      \arrow [dashed, from=2-1, to=1-2]
+      \arrow ["v"', from=2-1, to=2-2]
+    \end {tikzcd}
+  ]]></fr:resource-source></fr:resource></html:figure>
+
+
+  <html:p><fr:tex display="inline"><![CDATA[u]]></fr:tex> must factors through <fr:tex display="inline"><![CDATA[D/F]]></fr:tex>: For any <fr:tex display="inline"><![CDATA[a\in  F]]></fr:tex>, <fr:tex display="inline"><![CDATA[fu(a) = vq(u) = 1]]></fr:tex>, which implies <fr:tex display="inline"><![CDATA[u(a) = 1]]></fr:tex> since <fr:tex display="inline"><![CDATA[f]]></fr:tex> is truthfully conservative.</html:p>
+</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+                </fr:tree>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/lingyuan/" title="Lingyuan Ye" uri="https://www.my-great-forest.net/lingyuan/" display-uri="lingyuan" type="local">Lingyuan Ye</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>7</fr:day>
+                </fr:date>
+                <fr:uri>https://www.my-great-forest.net/idem-comm-IHKN/</fr:uri>
+                <fr:display-uri>idem-comm-IHKN</fr:display-uri>
+                <fr:route>/idem-comm-IHKN/</fr:route>
+                <fr:title text="Local algebra">Local algebra</fr:title>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors />
+                    <fr:date>
+                      <fr:year>2025</fr:year>
+                      <fr:month>6</fr:month>
+                      <fr:day>7</fr:day>
+                    </fr:date>
+                    <fr:uri>https://www.my-great-forest.net/idem-comm-75C1/</fr:uri>
+                    <fr:display-uri>idem-comm-75C1</fr:display-uri>
+                    <fr:route>/idem-comm-75C1/</fr:route>
+                    <fr:title text="Local distributive lattice">Local distributive lattice</fr:title>
+                    <fr:taxon>Definition</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p><fr:tex display="inline"><![CDATA[D]]></fr:tex> is a <html:em>local</html:em> distributive lattice if (1) <fr:tex display="inline"><![CDATA[0 \neq  1]]></fr:tex> in <fr:tex display="inline"><![CDATA[D]]></fr:tex>; (2) for any <fr:tex display="inline"><![CDATA[a,b]]></fr:tex> in <fr:tex display="inline"><![CDATA[D]]></fr:tex>, <fr:tex display="inline"><![CDATA[a \vee  b = 1]]></fr:tex> iff <fr:tex display="inline"><![CDATA[a = 1]]></fr:tex> or <fr:tex display="inline"><![CDATA[b = 1]]></fr:tex>.
+</html:p>
+                  </fr:mainmatter>
+                </fr:tree>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors />
+                    <fr:date>
+                      <fr:year>2025</fr:year>
+                      <fr:month>6</fr:month>
+                      <fr:day>7</fr:day>
+                    </fr:date>
+                    <fr:uri>https://www.my-great-forest.net/idem-comm-E2I8/</fr:uri>
+                    <fr:display-uri>idem-comm-E2I8</fr:display-uri>
+                    <fr:route>/idem-comm-E2I8/</fr:route>
+                    <fr:title text="Equivalent formulation of locality">Equivalent formulation of locality</fr:title>
+                    <fr:taxon>Remark</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p>
+  The following are equivalent for a distributive lattice <fr:tex display="inline"><![CDATA[D]]></fr:tex>:
+  <html:ol><html:li><fr:tex display="inline"><![CDATA[D]]></fr:tex> is <fr:link href="/idem-comm-75C1/" title="Local distributive lattice" uri="https://www.my-great-forest.net/idem-comm-75C1/" display-uri="idem-comm-75C1" type="local">local</fr:link>.</html:li>
+    <html:li>The map <fr:tex display="inline"><![CDATA[(-)=1 : D \to  2]]></fr:tex> is a distributive lattice homomorphism.</html:li>
+    <html:li>There is a unique maximal ideal of <fr:tex display="inline"><![CDATA[D]]></fr:tex>.</html:li>
+    <html:li>There is a unique minimal filter of <fr:tex display="inline"><![CDATA[D]]></fr:tex>.</html:li></html:ol></html:p>
+                  </fr:mainmatter>
+                </fr:tree>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors />
+                    <fr:date>
+                      <fr:year>2025</fr:year>
+                      <fr:month>6</fr:month>
+                      <fr:day>7</fr:day>
+                    </fr:date>
+                    <fr:uri>https://www.my-great-forest.net/idem-comm-4UND/</fr:uri>
+                    <fr:display-uri>idem-comm-4UND</fr:display-uri>
+                    <fr:route>/idem-comm-4UND/</fr:route>
+                    <fr:title text="Linear distributive lattices are local">Linear distributive lattices are local</fr:title>
+                    <fr:taxon>Example</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p>
+  Any bounded <html:em>linear</html:em> order is a distributive lattice, in fact a Heyting algebra. All non-trivial bounded linear orders are local.
+</html:p>
+                  </fr:mainmatter>
+                </fr:tree>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors />
+                    <fr:date>
+                      <fr:year>2025</fr:year>
+                      <fr:month>6</fr:month>
+                      <fr:day>7</fr:day>
+                    </fr:date>
+                    <fr:uri>https://www.my-great-forest.net/idem-comm-EV8L/</fr:uri>
+                    <fr:display-uri>idem-comm-EV8L</fr:display-uri>
+                    <fr:route>/idem-comm-EV8L/</fr:route>
+                    <fr:title text="Quotient of prime filters are local">Quotient of prime filters are local</fr:title>
+                    <fr:taxon>Proposition</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter><html:p>
+  For any filter <fr:tex display="inline"><![CDATA[F]]></fr:tex> on a distributive lattice <fr:tex display="inline"><![CDATA[D]]></fr:tex>: <fr:tex display="inline"><![CDATA[D/F]]></fr:tex> is <fr:link href="/idem-comm-75C1/" title="Local distributive lattice" uri="https://www.my-great-forest.net/idem-comm-75C1/" display-uri="idem-comm-75C1" type="local">local</fr:link> iff <fr:tex display="inline"><![CDATA[F]]></fr:tex> is prime; <fr:tex display="inline"><![CDATA[D/F]]></fr:tex> is <fr:tex display="inline"><![CDATA[2]]></fr:tex> iff <fr:tex display="inline"><![CDATA[F]]></fr:tex> is maximal.
+</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>7</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  By <fr:link href="/idem-comm-W57Q/" title="Prime ideals of pro-open quotient" uri="https://www.my-great-forest.net/idem-comm-W57Q/" display-uri="idem-comm-W57Q" type="local">Proposition <fr:contextual-number uri="https://www.my-great-forest.net/idem-comm-W57Q/" display-uri="idem-comm-W57Q" /></fr:link>, the inverse image of the quotient <fr:tex display="inline"><![CDATA[f : D \twoheadrightarrow  D/F]]></fr:tex> gives a one-to-one correspondence between prime filters in <fr:tex display="inline"><![CDATA[D/F]]></fr:tex> and prime filters containing <fr:tex display="inline"><![CDATA[F]]></fr:tex>. This way, <fr:tex display="inline"><![CDATA[D/F]]></fr:tex> is local iff <fr:tex display="inline"><![CDATA[\{1\}]]></fr:tex> is prime, in which case <fr:tex display="inline"><![CDATA[F]]></fr:tex> must be prime. The case for maximality follows from the fact that <fr:tex display="inline"><![CDATA[2]]></fr:tex> is the only distributive lattice with only one prime filter.
+</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+                </fr:tree>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors />
+                    <fr:date>
+                      <fr:year>2025</fr:year>
+                      <fr:month>6</fr:month>
+                      <fr:day>7</fr:day>
+                    </fr:date>
+                    <fr:uri>https://www.my-great-forest.net/idem-comm-E7E2/</fr:uri>
+                    <fr:display-uri>idem-comm-E7E2</fr:display-uri>
+                    <fr:route>/idem-comm-E7E2/</fr:route>
+                    <fr:title text="Boolean algebras only have maximal ideals">Boolean algebras only have maximal ideals</fr:title>
+                    <fr:taxon>Remark</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p>
+  By <fr:link href="/idem-comm-EV8L/" title="Quotient of prime filters are local" uri="https://www.my-great-forest.net/idem-comm-EV8L/" display-uri="idem-comm-EV8L" type="local">Proposition <fr:contextual-number uri="https://www.my-great-forest.net/idem-comm-EV8L/" display-uri="idem-comm-EV8L" /></fr:link> a distributive lattice <fr:tex display="inline"><![CDATA[D]]></fr:tex> is a <html:em>Boolean algebra</html:em> iff all prime ideals of <fr:tex display="inline"><![CDATA[D]]></fr:tex> are maximal.
+</html:p>
+                  </fr:mainmatter>
+                </fr:tree>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/lingyuan/" title="Lingyuan Ye" uri="https://www.my-great-forest.net/lingyuan/" display-uri="lingyuan" type="local">Lingyuan Ye</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>7</fr:day>
+                </fr:date>
+                <fr:uri>https://www.my-great-forest.net/idem-comm-I6PM/</fr:uri>
+                <fr:display-uri>idem-comm-I6PM</fr:display-uri>
+                <fr:route>/idem-comm-I6PM/</fr:route>
+                <fr:title text="Prime spectrum">Prime spectrum</fr:title>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors />
+                    <fr:date>
+                      <fr:year>2025</fr:year>
+                      <fr:month>6</fr:month>
+                      <fr:day>7</fr:day>
+                    </fr:date>
+                    <fr:uri>https://www.my-great-forest.net/idem-comm-ZAQZ/</fr:uri>
+                    <fr:display-uri>idem-comm-ZAQZ</fr:display-uri>
+                    <fr:route>/idem-comm-ZAQZ/</fr:route>
+                    <fr:title text="Prime spectrum of a distributive lattice">Prime spectrum of a distributive lattice</fr:title>
+                    <fr:taxon>Definition</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p>
+  For any distributive lattice <fr:tex display="inline"><![CDATA[D]]></fr:tex>, we use <fr:tex display="inline"><![CDATA[\operatorname {Spec} D]]></fr:tex> to denote the poset of prime filters of <fr:tex display="inline"><![CDATA[D]]></fr:tex>. Equivalently, this is the poset of <html:em>models</html:em> of <fr:tex display="inline"><![CDATA[D]]></fr:tex>.
+</html:p>
+                  </fr:mainmatter>
+                </fr:tree>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors />
+                    <fr:date>
+                      <fr:year>2025</fr:year>
+                      <fr:month>6</fr:month>
+                      <fr:day>7</fr:day>
+                    </fr:date>
+                    <fr:uri>https://www.my-great-forest.net/idem-comm-2V10/</fr:uri>
+                    <fr:display-uri>idem-comm-2V10</fr:display-uri>
+                    <fr:route>/idem-comm-2V10/</fr:route>
+                    <fr:title text="Local satisfaction relation">Local satisfaction relation</fr:title>
+                    <fr:taxon>Definition</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p>
+  For a distributive lattice <fr:tex display="inline"><![CDATA[D]]></fr:tex>, we define the <html:em>satisfaction relation</html:em> as follows: For <fr:tex display="inline"><![CDATA[x\in \operatorname {Spec} D]]></fr:tex> and <fr:tex display="inline"><![CDATA[a\in  D]]></fr:tex>, we define
+  <fr:tex display="block"><![CDATA[ x \models  a \Leftrightarrow  a \in  x. ]]></fr:tex>
+  In other words, <fr:tex display="inline"><![CDATA[x \models  a]]></fr:tex> iff <fr:tex display="inline"><![CDATA[a = 1]]></fr:tex> in the <fr:link href="/idem-comm-IHKN/" title="Local algebra" uri="https://www.my-great-forest.net/idem-comm-IHKN/" display-uri="idem-comm-IHKN" type="local">local algebra</fr:link> <fr:tex display="inline"><![CDATA[D/x]]></fr:tex>.
+</html:p>
+                  </fr:mainmatter>
+                </fr:tree>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors />
+                    <fr:date>
+                      <fr:year>2025</fr:year>
+                      <fr:month>6</fr:month>
+                      <fr:day>7</fr:day>
+                    </fr:date>
+                    <fr:uri>https://www.my-great-forest.net/idem-comm-59IF/</fr:uri>
+                    <fr:display-uri>idem-comm-59IF</fr:display-uri>
+                    <fr:route>/idem-comm-59IF/</fr:route>
+                    <fr:title text="Set-level duality between spectra and algebra">Set-level duality between spectra and algebra</fr:title>
+                    <fr:taxon>Proposition</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter><html:p>
+  For any map <fr:tex display="inline"><![CDATA[f : D \to  E]]></fr:tex> between distributive lattices:
+  <html:ol><html:li><fr:tex display="inline"><![CDATA[f]]></fr:tex> is injective iff <fr:tex display="inline"><![CDATA[\operatorname {Spec} E \twoheadrightarrow  \operatorname {Spec} D]]></fr:tex> is surjective.</html:li>
+    <html:li><fr:tex display="inline"><![CDATA[f]]></fr:tex> is surjective iff <fr:tex display="inline"><![CDATA[\operatorname {Spec} E \subseteq  \operatorname {Spec} D]]></fr:tex> is a full subposet.</html:li></html:ol></html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>7</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  The first statement is an easy consequence of completeness. For the second statement, since <fr:tex display="inline"><![CDATA[\operatorname {Spec}]]></fr:tex> takes regular epis in <html:strong>DL</html:strong> to regular monos in <html:strong>Pos</html:strong>, thus the only if direction holds. For the if direction, take a map <fr:tex display="inline"><![CDATA[f : D \to  E]]></fr:tex>, we can factor it as a surjection <fr:tex display="inline"><![CDATA[q : D \twoheadrightarrow  E']]></fr:tex> followed by an injection <fr:tex display="inline"><![CDATA[i : E' \rightarrowtail  E]]></fr:tex>. This induces a factorisation on posets <fr:tex display="inline"><![CDATA[q : \operatorname {Spec} E' \to  \operatorname {Spec} D]]></fr:tex>, a regular mono, and <fr:tex display="inline"><![CDATA[i : \operatorname {Spec} E \to  \operatorname {Spec} E']]></fr:tex>, which is surjective by (1). Hence, if the composite <fr:tex display="inline"><![CDATA[iq]]></fr:tex> is a regular mono, so is <fr:tex display="inline"><![CDATA[i]]></fr:tex>, which implies <fr:tex display="inline"><![CDATA[i]]></fr:tex> is an isomorphism. This way, <fr:tex display="inline"><![CDATA[f]]></fr:tex> must be a quotient.
+</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+                </fr:tree>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors />
+                    <fr:date>
+                      <fr:year>2025</fr:year>
+                      <fr:month>6</fr:month>
+                      <fr:day>7</fr:day>
+                    </fr:date>
+                    <fr:uri>https://www.my-great-forest.net/idem-comm-CU42/</fr:uri>
+                    <fr:display-uri>idem-comm-CU42</fr:display-uri>
+                    <fr:route>/idem-comm-CU42/</fr:route>
+                    <fr:title text="Zariski topology">Zariski topology</fr:title>
+                    <fr:taxon>Definition</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p>
+  The <html:em>Zariski topology</html:em> on <fr:tex display="inline"><![CDATA[\operatorname {Spec} D]]></fr:tex> is induced by a basis <fr:tex display="inline"><![CDATA[O_p]]></fr:tex> for each <fr:tex display="inline"><![CDATA[p\in  D]]></fr:tex>,
+  <fr:tex display="block"><![CDATA[ O_p := \{x\in  \operatorname {Spec} D\mid p \in  x\}. ]]></fr:tex>
+  It is easy to verify that
+  <fr:tex display="block"><![CDATA[ O_1 = \operatorname {Spec} D, \quad  O_0 = \emptyset , \quad  O_{p \wedge  q} = O_p \cap  O_q, \quad  O_{p \vee  q} = O_p \cup  O_q,]]></fr:tex>
+  thus this indeed forms a basis.
+</html:p>
+                  </fr:mainmatter>
+                </fr:tree>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors />
+                    <fr:date>
+                      <fr:year>2025</fr:year>
+                      <fr:month>6</fr:month>
+                      <fr:day>7</fr:day>
+                    </fr:date>
+                    <fr:uri>https://www.my-great-forest.net/idem-comm-HLDT/</fr:uri>
+                    <fr:display-uri>idem-comm-HLDT</fr:display-uri>
+                    <fr:route>/idem-comm-HLDT/</fr:route>
+                    <fr:title text="Frame of opens of spectra">Frame of opens of spectra</fr:title>
+                    <fr:taxon>Proposition</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter><html:p>
+  There is a bijection of frame of opens of <fr:tex display="inline"><![CDATA[\operatorname {Spec} D]]></fr:tex> with the frame <fr:tex display="inline"><![CDATA[\mathrm {Idl}(D)]]></fr:tex> of ideals of <fr:tex display="inline"><![CDATA[D]]></fr:tex>. For any ideal <fr:tex display="inline"><![CDATA[I]]></fr:tex>, the open subset <fr:tex display="inline"><![CDATA[O_I]]></fr:tex> it corresponds to is
+  <fr:tex display="block"><![CDATA[ O_I := \{x\in \operatorname {Spec} D\mid \exists  p \in  I.\  x \models  p\} = \bigcup _{p\in  I}O_p. ]]></fr:tex></html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>7</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  For simplicity, we construct a dual equivalence between closed sets and ideals of <fr:tex display="inline"><![CDATA[D]]></fr:tex>. By construction, let <fr:tex display="inline"><![CDATA[C_p]]></fr:tex> be the complement of <fr:tex display="inline"><![CDATA[O_p]]></fr:tex>, then the closed set <fr:tex display="inline"><![CDATA[C_I]]></fr:tex> corresponding to <fr:tex display="inline"><![CDATA[I]]></fr:tex> is given by 
+  <fr:tex display="block"><![CDATA[ C_I = \overline {O_I} = \bigcap _{p\in  I}C_p. ]]></fr:tex>
+  On the other hand, given any closed set <fr:tex display="inline"><![CDATA[C]]></fr:tex> we construct an ideal
+  <fr:tex display="block"><![CDATA[ I_C := \{p\in  D\mid \forall  x\in  C.\ x \not \models  p\}. ]]></fr:tex>
+  Verification is routine.
+</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+                </fr:tree>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors />
+                    <fr:date>
+                      <fr:year>2025</fr:year>
+                      <fr:month>6</fr:month>
+                      <fr:day>7</fr:day>
+                    </fr:date>
+                    <fr:uri>https://www.my-great-forest.net/idem-comm-QVV9/</fr:uri>
+                    <fr:display-uri>idem-comm-QVV9</fr:display-uri>
+                    <fr:route>/idem-comm-QVV9/</fr:route>
+                    <fr:title text="Subspace of pro-open quotients">Subspace of pro-open quotients</fr:title>
+                    <fr:taxon>Remark</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p>
+  For a filter <fr:tex display="inline"><![CDATA[F]]></fr:tex>, via <fr:link href="/idem-comm-W57Q/" title="Prime ideals of pro-open quotient" uri="https://www.my-great-forest.net/idem-comm-W57Q/" display-uri="idem-comm-W57Q" type="local">Proposition <fr:contextual-number uri="https://www.my-great-forest.net/idem-comm-W57Q/" display-uri="idem-comm-W57Q" /></fr:link> the spectrum <fr:tex display="inline"><![CDATA[\operatorname {Spec} D/F]]></fr:tex> can be naturally seen as a subspace of <fr:tex display="inline"><![CDATA[\operatorname {Spec} D]]></fr:tex>, which is given by 
+  <fr:tex display="block"><![CDATA[ \operatorname {Spec} D/F = \{x\in \operatorname {Spec} D\mid \forall  a \in  F.\  x \models  a\} = \bigcap _{a\in  F}O_a, ]]></fr:tex>
+  This subspace will be <html:em>upward closed</html:em>, but in general may <html:em>fail</html:em> to be open in <fr:tex display="inline"><![CDATA[\operatorname {Spec} D]]></fr:tex>, since it is an infinite intersection of basic opens. This is the reason why we call quotients of the form <fr:tex display="inline"><![CDATA[D \twoheadrightarrow  D/F]]></fr:tex> <fr:link href="/idem-comm-0002/" title="Pro-open quotients" uri="https://www.my-great-forest.net/idem-comm-0002/" display-uri="idem-comm-0002" type="local">pro-open</fr:link>, rather than <html:em>open</html:em>.
+</html:p>
+                  </fr:mainmatter>
+                </fr:tree>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors />
+                    <fr:date>
+                      <fr:year>2025</fr:year>
+                      <fr:month>6</fr:month>
+                      <fr:day>7</fr:day>
+                    </fr:date>
+                    <fr:uri>https://www.my-great-forest.net/idem-comm-FMRA/</fr:uri>
+                    <fr:display-uri>idem-comm-FMRA</fr:display-uri>
+                    <fr:route>/idem-comm-FMRA/</fr:route>
+                    <fr:title text="Closed subspace of closed quotient">Closed subspace of closed quotient</fr:title>
+                    <fr:taxon>Remark</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p>
+  Dually, for an ideal <fr:tex display="inline"><![CDATA[I]]></fr:tex>, let us write the quotient obtained by taking all elements in <fr:tex display="inline"><![CDATA[I]]></fr:tex> to <fr:tex display="inline"><![CDATA[0]]></fr:tex> as <fr:tex display="inline"><![CDATA[D \twoheadrightarrow  \operatorname {Spec} I/D]]></fr:tex>. By the dual form of <fr:link href="/idem-comm-W57Q/" title="Prime ideals of pro-open quotient" uri="https://www.my-great-forest.net/idem-comm-W57Q/" display-uri="idem-comm-W57Q" type="local">Proposition <fr:contextual-number uri="https://www.my-great-forest.net/idem-comm-W57Q/" display-uri="idem-comm-W57Q" /></fr:link>, again we have a natural subspace <fr:tex display="inline"><![CDATA[\operatorname {Spec} I/D \subseteq  \operatorname {Spec} D]]></fr:tex>, which can be seen as 
+  <fr:tex display="block"><![CDATA[ \operatorname {Spec} I/D = \{x\in \operatorname {Spec} D\mid \forall  a \in  I.\  x \not \models  a\} = \bigcap _{a\in  I}C_a = C_I. ]]></fr:tex>
+  Thus, <fr:tex display="inline"><![CDATA[\operatorname {Spec} I/D]]></fr:tex> will indeed be <html:em>closed</html:em> in <fr:tex display="inline"><![CDATA[\operatorname {Spec} D]]></fr:tex>, hence we refer to quotients of the form <fr:tex display="inline"><![CDATA[I/D]]></fr:tex> as <html:em>closed quotients</html:em>. This also implies that a subspace of <fr:tex display="inline"><![CDATA[\operatorname {Spec} D]]></fr:tex> is closed iff it is downward closed.
+</html:p>
+                  </fr:mainmatter>
+                </fr:tree>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors />
+                    <fr:date>
+                      <fr:year>2025</fr:year>
+                      <fr:month>6</fr:month>
+                      <fr:day>7</fr:day>
+                    </fr:date>
+                    <fr:uri>https://www.my-great-forest.net/idem-comm-W1VU/</fr:uri>
+                    <fr:display-uri>idem-comm-W1VU</fr:display-uri>
+                    <fr:route>/idem-comm-W1VU/</fr:route>
+                    <fr:title text="Irreducible closed subsets of spectra">Irreducible closed subsets of spectra</fr:title>
+                    <fr:taxon>Proposition</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter><html:p>
+  Under the isomorphism in <fr:link href="/idem-comm-HLDT/" title="Frame of opens of spectra" uri="https://www.my-great-forest.net/idem-comm-HLDT/" display-uri="idem-comm-HLDT" type="local">Proposition <fr:contextual-number uri="https://www.my-great-forest.net/idem-comm-HLDT/" display-uri="idem-comm-HLDT" /></fr:link>, a closed subset <fr:tex display="inline"><![CDATA[C_I]]></fr:tex> of <fr:tex display="inline"><![CDATA[\operatorname {Spec} D]]></fr:tex> corresponding to an ideal <fr:tex display="inline"><![CDATA[I]]></fr:tex> of <fr:tex display="inline"><![CDATA[D]]></fr:tex> is <fr:link href="/topl-0001/" title="Irreducible space" uri="https://www.my-great-forest.net/topl-0001/" display-uri="topl-0001" type="local">irreducible</fr:link> iff <fr:tex display="inline"><![CDATA[I]]></fr:tex> is a prime ideal.
+</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>7</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <html:p>
+    Suppose <fr:tex display="inline"><![CDATA[C_I]]></fr:tex> is irreducible. If <fr:tex display="inline"><![CDATA[p \wedge  q \in  I]]></fr:tex>, then <fr:tex display="inline"><![CDATA[C_I \subseteq  C_{p \wedge  q} = C_p \cup  C_q]]></fr:tex>. By irreducibility, either <fr:tex display="inline"><![CDATA[p\in  I]]></fr:tex> or <fr:tex display="inline"><![CDATA[q\in  I]]></fr:tex>, which implies <fr:tex display="inline"><![CDATA[I]]></fr:tex> is a prime ideal. 
+  </html:p>
+
+  <html:p>
+    On the other hand, suppose <fr:tex display="inline"><![CDATA[I]]></fr:tex> is prime. If <fr:tex display="inline"><![CDATA[C_I]]></fr:tex> is not irreducible, then we can find ideals <fr:tex display="inline"><![CDATA[J,K]]></fr:tex> that <fr:tex display="inline"><![CDATA[C_I \subseteq  C_J \cup  C_K = C_{J \cap  K}]]></fr:tex>, or equivalently <fr:tex display="inline"><![CDATA[J \cap  K \subseteq  I]]></fr:tex>, and <fr:tex display="inline"><![CDATA[J \not \subseteq  I]]></fr:tex> and <fr:tex display="inline"><![CDATA[K \not \subseteq  I]]></fr:tex>. This way, pick <fr:tex display="inline"><![CDATA[p\in  J-I]]></fr:tex> and <fr:tex display="inline"><![CDATA[q\in  K-I]]></fr:tex>, we get <fr:tex display="inline"><![CDATA[p \wedge  q\in  I]]></fr:tex> but <fr:tex display="inline"><![CDATA[p \not \in  I]]></fr:tex> and <fr:tex display="inline"><![CDATA[q\not \in  I]]></fr:tex>, contradictory. Hence, <fr:tex display="inline"><![CDATA[C_I]]></fr:tex> must be irreducible.
+  </html:p>
+</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+                </fr:tree>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors />
+                    <fr:date>
+                      <fr:year>2025</fr:year>
+                      <fr:month>6</fr:month>
+                      <fr:day>7</fr:day>
+                    </fr:date>
+                    <fr:uri>https://www.my-great-forest.net/idem-comm-EA6S/</fr:uri>
+                    <fr:display-uri>idem-comm-EA6S</fr:display-uri>
+                    <fr:route>/idem-comm-EA6S/</fr:route>
+                    <fr:title text="Spectra are spectral spaces">Spectra are spectral spaces</fr:title>
+                    <fr:taxon>Theorem</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter><html:p>
+  For any distributive lattice <fr:tex display="inline"><![CDATA[D]]></fr:tex>, <fr:tex display="inline"><![CDATA[\operatorname {Spec} D]]></fr:tex> is <fr:link href="/topl-VV9N/" title="Spectral spaces" uri="https://www.my-great-forest.net/topl-VV9N/" display-uri="topl-VV9N" type="local">spectral</fr:link>. This gives us a functor
+  <fr:tex display="block"><![CDATA[ \operatorname {Spec} : \mathbf {DL}^{\mathrm {op}} \to  \mathbf {Spec} ]]></fr:tex>
+  from distributive lattices to spectral spaces.
+</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>7</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <html:p>
+    Notice that we have a homeomorphism
+    <fr:tex display="block"><![CDATA[ O_p \cong  \operatorname {Spec} D/p, ]]></fr:tex>
+    where <fr:tex display="inline"><![CDATA[O_p]]></fr:tex> is viewed as an open subspace of <fr:tex display="inline"><![CDATA[\operatorname {Spec} D]]></fr:tex>. Hence, we only need to show <fr:tex display="inline"><![CDATA[\operatorname {Spec} D]]></fr:tex> is compact and sober for all <fr:tex display="inline"><![CDATA[D]]></fr:tex>. Let <fr:tex display="inline"><![CDATA[C_p]]></fr:tex> be the complement of <fr:tex display="inline"><![CDATA[O_p]]></fr:tex> for any <fr:tex display="inline"><![CDATA[p\in  D]]></fr:tex>, and suppose we have
+    <fr:tex display="block"><![CDATA[ \bigcap _{i\in  I}C_{p_i} = \emptyset . ]]></fr:tex>
+    This means that the family <fr:tex display="inline"><![CDATA[\{p_i\}_{i\in  I}]]></fr:tex> is inconsistent, thus by compactness, finitely many of them is already inconsistent. Thus <fr:tex display="inline"><![CDATA[\operatorname {Spec} D]]></fr:tex> is compact, and compact opens in <fr:tex display="inline"><![CDATA[\operatorname {Spec} D]]></fr:tex> are all of the form <fr:tex display="inline"><![CDATA[O_p]]></fr:tex> for some <fr:tex display="inline"><![CDATA[p\in  D]]></fr:tex>.
+  </html:p>
+  <html:p>
+    To show <fr:tex display="inline"><![CDATA[\operatorname {Spec} D]]></fr:tex> is <fr:link href="/topl-FII1/" title="Sober spaces" uri="https://www.my-great-forest.net/topl-FII1/" display-uri="topl-FII1" type="local">sober</fr:link>, by <fr:link href="/idem-comm-W1VU/" title="Irreducible closed subsets of spectra" uri="https://www.my-great-forest.net/idem-comm-W1VU/" display-uri="idem-comm-W1VU" type="local">Proposition <fr:contextual-number uri="https://www.my-great-forest.net/idem-comm-W1VU/" display-uri="idem-comm-W1VU" /></fr:link> any irreducible closed set <fr:tex display="inline"><![CDATA[C_I]]></fr:tex> corresponds to some prime ideal <fr:tex display="inline"><![CDATA[I]]></fr:tex>. This way, let <fr:tex display="inline"><![CDATA[x\in \operatorname {Spec} D]]></fr:tex> be the complement of <fr:tex display="inline"><![CDATA[I]]></fr:tex>. We now have <fr:tex display="inline"><![CDATA[C_I = \overline {\{x\}}]]></fr:tex>, because
+    <fr:tex display="block"><![CDATA[ x \not \in  O_p \Leftrightarrow  x \in  C_p \Leftrightarrow  x \not \models  p \Leftrightarrow  p \in  I. ]]></fr:tex>
+    Thus we indeed have <fr:tex display="inline"><![CDATA[C_I = \bigcap _{p\in  I}C_p = \bigcap _{x\not \in  O_p}C_p = \overline {\{x\}}]]></fr:tex>.
+  </html:p>
+  <html:p>
+    Finally to show a map <fr:tex display="inline"><![CDATA[f : D \to  E]]></fr:tex> induces a continuous map
+    <fr:tex display="block"><![CDATA[ \operatorname {Spec} f : \operatorname {Spec} E \to  \operatorname {Spec} D, ]]></fr:tex>
+    it suffices to note that, set-theoretically, <fr:tex display="inline"><![CDATA[\operatorname {Spec} fx = f^{-1} x]]></fr:tex>, which is a prime filter in <fr:tex display="inline"><![CDATA[D]]></fr:tex>. Now we have 
+    <fr:tex display="block"><![CDATA[ (\operatorname {Spec} f)^{-1}(O_a) = O_{fa} ]]></fr:tex>
+    for any <fr:tex display="inline"><![CDATA[a \in  D]]></fr:tex>, hence this is a spectral map.
+  </html:p>
+</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+                </fr:tree>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors />
+                    <fr:date>
+                      <fr:year>2025</fr:year>
+                      <fr:month>6</fr:month>
+                      <fr:day>8</fr:day>
+                    </fr:date>
+                    <fr:uri>https://www.my-great-forest.net/idem-comm-BA70/</fr:uri>
+                    <fr:display-uri>idem-comm-BA70</fr:display-uri>
+                    <fr:route>/idem-comm-BA70/</fr:route>
+                    <fr:title text="Duality between distributive lattices and spectral spaces">Duality between distributive lattices and spectral spaces</fr:title>
+                    <fr:taxon>Remark</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p>
+  In fact, the functor in <fr:link href="/idem-comm-EA6S/" title="Spectra are spectral spaces" uri="https://www.my-great-forest.net/idem-comm-EA6S/" display-uri="idem-comm-EA6S" type="local">Theorem <fr:contextual-number uri="https://www.my-great-forest.net/idem-comm-EA6S/" display-uri="idem-comm-EA6S" /></fr:link> is an equivalence.
+</html:p>
+                  </fr:mainmatter>
+                </fr:tree>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors />
+                    <fr:date>
+                      <fr:year>2025</fr:year>
+                      <fr:month>6</fr:month>
+                      <fr:day>7</fr:day>
+                    </fr:date>
+                    <fr:uri>https://www.my-great-forest.net/idem-comm-WKAD/</fr:uri>
+                    <fr:display-uri>idem-comm-WKAD</fr:display-uri>
+                    <fr:route>/idem-comm-WKAD/</fr:route>
+                    <fr:title text="Spectra as classifying spaces">Spectra as classifying spaces</fr:title>
+                    <fr:taxon>Proposition</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter><html:p>
+  The space <fr:tex display="inline"><![CDATA[\operatorname {Spec} D]]></fr:tex> classifies the prime filters of <fr:tex display="inline"><![CDATA[D]]></fr:tex> in the following sense: For any topos <fr:tex display="inline"><![CDATA[\mathcal {X}]]></fr:tex>, we have
+  <fr:tex display="block"><![CDATA[ \mathbf {Topoi}(\mathcal {X},\operatorname {Spec} D) \simeq  \mathbf {DL}(D,\mathrm {Sub}_{\mathcal {X}}(1)). ]]></fr:tex></html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>7</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  By <fr:link href="/idem-comm-HLDT/" title="Frame of opens of spectra" uri="https://www.my-great-forest.net/idem-comm-HLDT/" display-uri="idem-comm-HLDT" type="local">Proposition <fr:contextual-number uri="https://www.my-great-forest.net/idem-comm-HLDT/" display-uri="idem-comm-HLDT" /></fr:link> <fr:tex display="inline"><![CDATA[\operatorname {Spec} D]]></fr:tex> as a frame is the coherent locale <fr:tex display="inline"><![CDATA[\mathrm {Idl}(D)]]></fr:tex> of <fr:tex display="inline"><![CDATA[D]]></fr:tex>. Thus we indeed have
+  <fr:tex display="block"><![CDATA[ \mathbf {Topoi}(\mathcal {X},\operatorname {Spec} D) \simeq  \mathbf {Frm}(\mathrm {Idl}(D),\mathrm {Sub}_{\mathcal {X}}(1)) \simeq  \mathbf {DL}(D,\mathrm {Sub}_{\mathcal {X}}(1)). ]]></fr:tex>
+  In particular, when <fr:tex display="inline"><![CDATA[\mathcal {X}]]></fr:tex> is two-valued, these are prime filters of <fr:tex display="inline"><![CDATA[D]]></fr:tex>.
+</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+                </fr:tree>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors />
+                    <fr:date>
+                      <fr:year>2025</fr:year>
+                      <fr:month>6</fr:month>
+                      <fr:day>7</fr:day>
+                    </fr:date>
+                    <fr:uri>https://www.my-great-forest.net/idem-comm-ZATP/</fr:uri>
+                    <fr:display-uri>idem-comm-ZATP</fr:display-uri>
+                    <fr:route>/idem-comm-ZATP/</fr:route>
+                    <fr:title text="Prime spectra of free distributive lattices">Prime spectra of free distributive lattices</fr:title>
+                    <fr:taxon>Example</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p>
+  For any poset <fr:tex display="inline"><![CDATA[I]]></fr:tex>, it generates a free distributive lattice <fr:tex display="inline"><![CDATA[2[I]]]></fr:tex>. When <fr:tex display="inline"><![CDATA[I]]></fr:tex> is finite <fr:tex display="inline"><![CDATA[2[I]]]></fr:tex> is a Heyting algebra, but it will never be Boolean expect when <fr:tex display="inline"><![CDATA[I]]></fr:tex> is empty. The spectrum
+  <fr:tex display="block"><![CDATA[ \operatorname {Spec} 2[I] \cong  \mathbf {Pos}(I,2) \cong  \mathcal {U}(I), ]]></fr:tex>
+  is the upward closed subsets of <fr:tex display="inline"><![CDATA[I]]></fr:tex>. 
+</html:p>
+                  </fr:mainmatter>
+                </fr:tree>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors />
+                    <fr:date>
+                      <fr:year>2025</fr:year>
+                      <fr:month>6</fr:month>
+                      <fr:day>7</fr:day>
+                    </fr:date>
+                    <fr:uri>https://www.my-great-forest.net/idem-comm-BF49/</fr:uri>
+                    <fr:display-uri>idem-comm-BF49</fr:display-uri>
+                    <fr:route>/idem-comm-BF49/</fr:route>
+                    <fr:title text="Prime spectra of Boolean algebras">Prime spectra of Boolean algebras</fr:title>
+                    <fr:taxon>Example</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p>
+  Let us consider a Boolean algebra <fr:tex display="inline"><![CDATA[B]]></fr:tex>. <fr:tex display="inline"><![CDATA[\operatorname {Spec} B]]></fr:tex> is the Stone space associated to <fr:tex display="inline"><![CDATA[B]]></fr:tex>. In particular, if <fr:tex display="inline"><![CDATA[\mathbb {B}[x]]]></fr:tex> is the free Boolean algebra generated by one element, then <fr:tex display="inline"><![CDATA[\operatorname {Spec}\mathbb {B}[x] \cong  2]]></fr:tex> where <fr:tex display="inline"><![CDATA[2]]></fr:tex> is the discrete set.
+</html:p>
+                  </fr:mainmatter>
+                </fr:tree>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors />
+                    <fr:date>
+                      <fr:year>2025</fr:year>
+                      <fr:month>6</fr:month>
+                      <fr:day>7</fr:day>
+                    </fr:date>
+                    <fr:uri>https://www.my-great-forest.net/idem-comm-2XKS/</fr:uri>
+                    <fr:display-uri>idem-comm-2XKS</fr:display-uri>
+                    <fr:route>/idem-comm-2XKS/</fr:route>
+                    <fr:title text="Prime spectra of linear lattices">Prime spectra of linear lattices</fr:title>
+                    <fr:taxon>Example</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p>
+  For a bounded linear order <fr:tex display="inline"><![CDATA[L]]></fr:tex>, which is a Heyting algebra, prime filters are the upward closed subsets containing <fr:tex display="inline"><![CDATA[1]]></fr:tex> but not <fr:tex display="inline"><![CDATA[0]]></fr:tex>,
+  <fr:tex display="block"><![CDATA[ \operatorname {Spec} L \cong  \mathcal {U}_+(L). ]]></fr:tex>
+  The topology on <fr:tex display="inline"><![CDATA[\mathcal {U}_+(L)]]></fr:tex> is generated by the following basis for <fr:tex display="inline"><![CDATA[p\in  L]]></fr:tex>,
+  <fr:tex display="block"><![CDATA[ O_p = \{U\in \mathcal {U}_+(L)\mid p \in  U\}. ]]></fr:tex>
+  For instance, for the poset <fr:tex display="inline"><![CDATA[\overline {\omega }]]></fr:tex>, its spectral space is simply <fr:tex display="inline"><![CDATA[\overline {\omega }^{\mathrm {op}}]]></fr:tex> with the Alexandroff topology,
+  
+  
+  <html:figure><fr:resource hash="cd94a92757930b493ba04cb20dd705ac"><fr:resource-content><html:img src="/cd94a92757930b493ba04cb20dd705ac.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[\usepackage {tikz-cd}\usepackage {quiver}]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+  \begin {tikzcd}
+    {\overline {\omega }} && {\mathrm {Spec}\ \overline {\omega }} \\
+    \bullet  && \bullet  \\
+    \vdots  && \bullet  \\
+    \bullet  && \vdots  \\
+    \bullet  && \bullet 
+    \arrow [from=3-1, to=2-1]
+    \arrow [from=3-3, to=2-3]
+    \arrow [from=4-1, to=3-1]
+    \arrow [from=4-3, to=3-3]
+    \arrow [from=5-1, to=4-1]
+    \arrow [from=5-3, to=4-3]
+  \end {tikzcd}
+  ]]></fr:resource-source></fr:resource></html:figure></html:p>
+                  </fr:mainmatter>
+                </fr:tree>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors />
+                    <fr:date>
+                      <fr:year>2025</fr:year>
+                      <fr:month>6</fr:month>
+                      <fr:day>9</fr:day>
+                    </fr:date>
+                    <fr:uri>https://www.my-great-forest.net/idem-comm-B6WQ/</fr:uri>
+                    <fr:display-uri>idem-comm-B6WQ</fr:display-uri>
+                    <fr:route>/idem-comm-B6WQ/</fr:route>
+                    <fr:title text="Prime spectrums from commutative rings">Prime spectrums from commutative rings</fr:title>
+                    <fr:taxon>Example</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p>
+  For any commutative ring <fr:tex display="inline"><![CDATA[R]]></fr:tex>, recall the classical Zariski spectrum <fr:tex display="inline"><![CDATA[\operatorname {Spec} R]]></fr:tex> has points <html:em>prime ideals</html:em> of <fr:tex display="inline"><![CDATA[R]]></fr:tex>. We will write <fr:tex display="inline"><![CDATA[D[R]]]></fr:tex> for the distributive lattice of compact opens of <fr:tex display="inline"><![CDATA[\operatorname {Spec} R]]></fr:tex>, and there is a natural map
+  <fr:tex display="block"><![CDATA[ R \to  D[R] ]]></fr:tex>
+  sending <fr:tex display="inline"><![CDATA[f \in  R]]></fr:tex> to the compact open <fr:tex display="inline"><![CDATA[D_f := \{x\in \operatorname {Spec} R\mid  f \not \in  x \}]]></fr:tex>. This is a <html:em>monoid morphism</html:em>, which takes finite products in <fr:tex display="inline"><![CDATA[R]]></fr:tex> to intersection in <fr:tex display="inline"><![CDATA[D[R]]]></fr:tex>. Furthermore, we know that they produce the same Zariski spectra,
+  <fr:tex display="block"><![CDATA[ \operatorname {Spec} R \cong  \operatorname {Spec} D[R] ]]></fr:tex>
+  Hence, sometimes we will also generate prime spectra directly from commutative rings.
+</html:p>
+                    <html:p>
+  For instance, this gives us the usual affine complex line 
+  <fr:tex display="block"><![CDATA[ \operatorname {Spec} \mathbb {C}[x] \cong  \mathbb {C} \cup  \{\infty \}, ]]></fr:tex>
+  where open sets are either empty, or a cofinite subset of <fr:tex display="inline"><![CDATA[\mathbb {C}]]></fr:tex> together with the generic point <fr:tex display="inline"><![CDATA[\infty ]]></fr:tex>.
+</html:p>
+                  </fr:mainmatter>
+                </fr:tree>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/lingyuan/" title="Lingyuan Ye" uri="https://www.my-great-forest.net/lingyuan/" display-uri="lingyuan" type="local">Lingyuan Ye</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>7</fr:day>
+                </fr:date>
+                <fr:uri>https://www.my-great-forest.net/idem-comm-9X72/</fr:uri>
+                <fr:display-uri>idem-comm-9X72</fr:display-uri>
+                <fr:route>/idem-comm-9X72/</fr:route>
+                <fr:title text="Noetherian condition">Noetherian condition</fr:title>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors />
+                    <fr:date>
+                      <fr:year>2025</fr:year>
+                      <fr:month>6</fr:month>
+                      <fr:day>7</fr:day>
+                    </fr:date>
+                    <fr:uri>https://www.my-great-forest.net/idem-comm-JOTR/</fr:uri>
+                    <fr:display-uri>idem-comm-JOTR</fr:display-uri>
+                    <fr:route>/idem-comm-JOTR/</fr:route>
+                    <fr:title text="Noetherian distributive lattice">Noetherian distributive lattice</fr:title>
+                    <fr:taxon>Definition</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p>
+  A distributive lattice is <html:em>Noetherian</html:em> if it satisfies the equivalent conditions in <fr:link href="/idem-comm-G598/" title="Equivalent Noetherian condition" uri="https://www.my-great-forest.net/idem-comm-G598/" display-uri="idem-comm-G598" type="local">Lemma <fr:contextual-number uri="https://www.my-great-forest.net/idem-comm-G598/" display-uri="idem-comm-G598" /></fr:link>.
+</html:p>
+                  </fr:mainmatter>
+                </fr:tree>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors />
+                    <fr:date>
+                      <fr:year>2025</fr:year>
+                      <fr:month>6</fr:month>
+                      <fr:day>7</fr:day>
+                    </fr:date>
+                    <fr:uri>https://www.my-great-forest.net/idem-comm-G598/</fr:uri>
+                    <fr:display-uri>idem-comm-G598</fr:display-uri>
+                    <fr:route>/idem-comm-G598/</fr:route>
+                    <fr:title text="Equivalent Noetherian condition">Equivalent Noetherian condition</fr:title>
+                    <fr:taxon>Lemma</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter><html:p>
+  For a distributive lattice <fr:tex display="inline"><![CDATA[D]]></fr:tex> the following are equivalent:
+  <html:ol><html:li>Every ascending chain of ideals is stationary.</html:li>
+    <html:li>Every ascending chain of elements is stationary.</html:li>
+    <html:li>Every decreasing chain of filters is stationary.</html:li></html:ol>
+  Similarly for the dual statements.
+</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>7</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  (1), (3) <fr:tex display="inline"><![CDATA[\Rightarrow ]]></fr:tex> (2) is evident: Any ascending chain of elements <fr:tex display="inline"><![CDATA[p_0 \le  p_1 \le  \cdots ]]></fr:tex> induces an ascending chain of principle ideals and a decreasing chain of principle filters. For (2) <fr:tex display="inline"><![CDATA[\Rightarrow ]]></fr:tex> (1), suppose otherwise we have a strictly ascending chain of ideals <fr:tex display="inline"><![CDATA[I_0 \subset  I_1 \subset  \cdots ]]></fr:tex>. Then we can choose a strictly ascending chain of elements:
+  <html:ul><html:li>Take <fr:tex display="inline"><![CDATA[p_0]]></fr:tex> to be an element in <fr:tex display="inline"><![CDATA[I_0]]></fr:tex>.</html:li>
+    <html:li>Suppose we have already constructed <fr:tex display="inline"><![CDATA[p_n\in  I_n]]></fr:tex>. Now let <fr:tex display="inline"><![CDATA[r_n]]></fr:tex> be an element in <fr:tex display="inline"><![CDATA[I_{n+1}\backslash  I_n]]></fr:tex>. Take <fr:tex display="inline"><![CDATA[p_{n+1}]]></fr:tex> to be <fr:tex display="inline"><![CDATA[p_n \vee  r_n]]></fr:tex>. This way, <fr:tex display="inline"><![CDATA[p_{n+1} \in  I_{n+1}]]></fr:tex>, and <fr:tex display="inline"><![CDATA[p_{n+1}\not \in  I_n]]></fr:tex> since <fr:tex display="inline"><![CDATA[r_n\not \in  I_n]]></fr:tex>. It follows that <fr:tex display="inline"><![CDATA[p_n < p_{n+1}]]></fr:tex>.</html:li></html:ul>
+  (2) <fr:tex display="inline"><![CDATA[\Rightarrow ]]></fr:tex> (3) is completely similar.
+</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+                </fr:tree>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors />
+                    <fr:date>
+                      <fr:year>2025</fr:year>
+                      <fr:month>6</fr:month>
+                      <fr:day>7</fr:day>
+                    </fr:date>
+                    <fr:uri>https://www.my-great-forest.net/idem-comm-SKN8/</fr:uri>
+                    <fr:display-uri>idem-comm-SKN8</fr:display-uri>
+                    <fr:route>/idem-comm-SKN8/</fr:route>
+                    <fr:title text="Closure properties of Noetherian distributive lattices">Closure properties of Noetherian distributive lattices</fr:title>
+                    <fr:taxon>Proposition</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter><html:p>
+  Noetherian distributive lattices are closed under finite limits, quotients, and polynomials. The latter means if <fr:tex display="inline"><![CDATA[D]]></fr:tex> is Noetherian, then so is <fr:tex display="inline"><![CDATA[D[x]]]></fr:tex>.
+</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>7</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  Closure under finite limits and quotients are evident from <fr:link href="/idem-comm-G598/" title="Equivalent Noetherian condition" uri="https://www.my-great-forest.net/idem-comm-G598/" display-uri="idem-comm-G598" type="local">Lemma <fr:contextual-number uri="https://www.my-great-forest.net/idem-comm-G598/" display-uri="idem-comm-G598" /></fr:link>. For the polynomial <fr:tex display="inline"><![CDATA[D[x]]]></fr:tex>, it is well-known that <fr:tex display="inline"><![CDATA[D[x] \cong  D \downarrow  D]]></fr:tex> is isomorphic to the order on <fr:tex display="inline"><![CDATA[D]]></fr:tex>, which is thus also Noetherian.
+</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+                </fr:tree>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors />
+                    <fr:date>
+                      <fr:year>2025</fr:year>
+                      <fr:month>6</fr:month>
+                      <fr:day>7</fr:day>
+                    </fr:date>
+                    <fr:uri>https://www.my-great-forest.net/idem-comm-ITAZ/</fr:uri>
+                    <fr:display-uri>idem-comm-ITAZ</fr:display-uri>
+                    <fr:route>/idem-comm-ITAZ/</fr:route>
+                    <fr:title text="Noetherian distributive lattices are exactly principle ideal domains">Noetherian distributive lattices are exactly principle ideal domains</fr:title>
+                    <fr:taxon>Proposition</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter><html:p><fr:tex display="inline"><![CDATA[D]]></fr:tex> is Noetherian iff every ideal in <fr:tex display="inline"><![CDATA[D]]></fr:tex> is principle.
+</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>7</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <html:p>Suppose <fr:tex display="inline"><![CDATA[D]]></fr:tex> is Noetherian. Let <fr:tex display="inline"><![CDATA[I]]></fr:tex> be an ideal in <fr:tex display="inline"><![CDATA[D]]></fr:tex>. To show <fr:tex display="inline"><![CDATA[I]]></fr:tex> is principle, we define a sequence of elements inductively:
+  <html:ul><html:li>Choose <fr:tex display="inline"><![CDATA[p_0 \in  I]]></fr:tex>.</html:li>
+    <html:li>Suppose we have chosen <fr:tex display="inline"><![CDATA[p_0 < \cdots  < p_n \in  I]]></fr:tex>. If <fr:tex display="inline"><![CDATA[I \neq  \downarrow  p_n]]></fr:tex>, then we can choose <fr:tex display="inline"><![CDATA[q\in  I]]></fr:tex> with <fr:tex display="inline"><![CDATA[q \not \le  p_n]]></fr:tex>. This way, take <fr:tex display="inline"><![CDATA[p_{n+1}]]></fr:tex> to be <fr:tex display="inline"><![CDATA[p_n \vee  q\in  I]]></fr:tex>. It follows that <fr:tex display="inline"><![CDATA[p_n < p_{n+1}]]></fr:tex>.</html:li></html:ul>
+  Now since <fr:tex display="inline"><![CDATA[D]]></fr:tex> is Noetherian, the sequence <fr:tex display="inline"><![CDATA[p_0 < p_1 < \cdots ]]></fr:tex> must stablise at some point, which implies <fr:tex display="inline"><![CDATA[I = \downarrow  p_n]]></fr:tex> for some <fr:tex display="inline"><![CDATA[n]]></fr:tex>. Hence, <fr:tex display="inline"><![CDATA[I]]></fr:tex> is principle.</html:p>
+
+  <html:p>On the other hand, suppose every ideal in <fr:tex display="inline"><![CDATA[D]]></fr:tex> is principle. If we have an increasing sequence <fr:tex display="inline"><![CDATA[p_0 \le  p_1 \le  \cdots ]]></fr:tex>, then consider the ideal <fr:tex display="inline"><![CDATA[I = \bigcup _{n\in \omega }\downarrow  p_n]]></fr:tex>. By construction this is an ideal, thus it is principle <fr:tex display="inline"><![CDATA[I = \downarrow  p]]></fr:tex>. By construction, <fr:tex display="inline"><![CDATA[p_n \le  p]]></fr:tex> for all <fr:tex display="inline"><![CDATA[n\in \omega ]]></fr:tex>. However, <fr:tex display="inline"><![CDATA[p\in \bigcup _{n\in \omega }\downarrow  p_n]]></fr:tex> also implies that <fr:tex display="inline"><![CDATA[p \le  p_n]]></fr:tex> for some <fr:tex display="inline"><![CDATA[n\in \omega ]]></fr:tex>. Thus, the sequence must stablise at some point, and <fr:tex display="inline"><![CDATA[D]]></fr:tex> is Noetherian.</html:p>
+</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+                </fr:tree>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors />
+                    <fr:date>
+                      <fr:year>2025</fr:year>
+                      <fr:month>6</fr:month>
+                      <fr:day>8</fr:day>
+                    </fr:date>
+                    <fr:uri>https://www.my-great-forest.net/idem-comm-65DL/</fr:uri>
+                    <fr:display-uri>idem-comm-65DL</fr:display-uri>
+                    <fr:route>/idem-comm-65DL/</fr:route>
+                    <fr:title text="Prime ideals in Noetherian distributive lattices">Prime ideals in Noetherian distributive lattices</fr:title>
+                    <fr:taxon>Theorem</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter><html:p>
+  In a Noetherian distributive lattice <fr:tex display="inline"><![CDATA[D]]></fr:tex>, prime ideals are in bijection with meet-irreducible elements, and any element is a finite intersection of them.
+</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>8</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  We first show every ideal <fr:tex display="inline"><![CDATA[I]]></fr:tex> in <fr:tex display="inline"><![CDATA[D]]></fr:tex> is a finite intersection of prime ideals. Suppose there is a counterexample. Then the set <fr:tex display="inline"><![CDATA[\Sigma ]]></fr:tex> of all such ideals are non-empty. By <fr:tex display="inline"><![CDATA[D]]></fr:tex> being Noetherian, <fr:tex display="inline"><![CDATA[\Sigma ]]></fr:tex> has a maximal element <fr:tex display="inline"><![CDATA[I]]></fr:tex>. Since <fr:tex display="inline"><![CDATA[I]]></fr:tex> itself cannot be prime, we can find <fr:tex display="inline"><![CDATA[x,y\not \in  I]]></fr:tex> with <fr:tex display="inline"><![CDATA[x \wedge  y \in  I]]></fr:tex>. This way, <fr:tex display="inline"><![CDATA[x \vee  I]]></fr:tex> and <fr:tex display="inline"><![CDATA[y \vee  I]]></fr:tex> are proper extensions of <fr:tex display="inline"><![CDATA[I]]></fr:tex> with <fr:tex display="inline"><![CDATA[(x \vee  I) \cap  (y \vee  I) = (x \wedge  y) \vee  I = I]]></fr:tex>. Since <fr:tex display="inline"><![CDATA[I]]></fr:tex> is maximal in <fr:tex display="inline"><![CDATA[\Sigma ]]></fr:tex>, both <fr:tex display="inline"><![CDATA[x \vee  I]]></fr:tex> and <fr:tex display="inline"><![CDATA[y \vee  I]]></fr:tex> has a prime factorisation, which actually implies <fr:tex display="inline"><![CDATA[(x \vee  I) \cap  (y \vee  I) = I]]></fr:tex> also has one, contradictory. Thus, <fr:tex display="inline"><![CDATA[\Sigma ]]></fr:tex> must be empty. Now the claim follows from <fr:link href="/idem-comm-ITAZ/" title="Noetherian distributive lattices are exactly principle ideal domains" uri="https://www.my-great-forest.net/idem-comm-ITAZ/" display-uri="idem-comm-ITAZ" type="local">Proposition <fr:contextual-number uri="https://www.my-great-forest.net/idem-comm-ITAZ/" display-uri="idem-comm-ITAZ" /></fr:link>.
+</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+                </fr:tree>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors />
+                    <fr:date>
+                      <fr:year>2025</fr:year>
+                      <fr:month>6</fr:month>
+                      <fr:day>7</fr:day>
+                    </fr:date>
+                    <fr:uri>https://www.my-great-forest.net/idem-comm-WV5M/</fr:uri>
+                    <fr:display-uri>idem-comm-WV5M</fr:display-uri>
+                    <fr:route>/idem-comm-WV5M/</fr:route>
+                    <fr:title text="Prime spectrum of natural numbers under division">Prime spectrum of natural numbers under division</fr:title>
+                    <fr:taxon>Example</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p>
+  Let <fr:tex display="inline"><![CDATA[\mathbb {N}]]></fr:tex> denote the distributive lattice defined by
+  <fr:tex display="block"><![CDATA[ n \le  m \Leftrightarrow  m \mid  n. ]]></fr:tex>
+  In this lattice, we have
+  <fr:tex display="block"><![CDATA[ n \wedge  m = \mathrm {lcm}(m,n), \quad  n \vee  m = \mathrm {gcd}(n,m). ]]></fr:tex>
+  Also, the top element is <fr:tex display="inline"><![CDATA[1]]></fr:tex>, and the bottom element is 0. <fr:tex display="inline"><![CDATA[\mathbb {N}]]></fr:tex> is in fact a <html:em>Heyting algebra</html:em>. 
+</html:p>
+                    <html:p> 
+  It is then easy to see <fr:tex display="inline"><![CDATA[\mathbb {N}]]></fr:tex> is <html:em>Noetherian</html:em>. Hence, by <fr:link href="/idem-comm-65DL/" title="Prime ideals in Noetherian distributive lattices" uri="https://www.my-great-forest.net/idem-comm-65DL/" display-uri="idem-comm-65DL" type="local">Theorem <fr:contextual-number uri="https://www.my-great-forest.net/idem-comm-65DL/" display-uri="idem-comm-65DL" /></fr:link> prime ideals in <fr:tex display="inline"><![CDATA[\mathbb {N}]]></fr:tex> are exactly meet-irreducible elements. According to this we can compute the spectrum of <fr:tex display="inline"><![CDATA[\mathbb {N}]]></fr:tex> as below
+  
+  <html:figure><fr:resource hash="18035f766e84d44e19a3327835427895"><fr:resource-content><html:img src="/18035f766e84d44e19a3327835427895.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[\usepackage {tikz-cd}\usepackage {quiver}]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+  \begin {tikzpicture}
+    \node  (2) at (0,0) {2};
+    \node  (3) at (1,0) {3};
+    \node  (5) at (2,0) {5};
+    \node  (p) at (3,0) {$\cdots $};
+
+    \node  (4) at (0,1) {4};
+    \node  (9) at (1,1) {9};
+    \node  (25) at (2,1) {25};
+    \node  (p2) at (3,1) {$\cdots $};
+
+    \node  (8) at (0,2) {$\vdots $};
+    \node  (27) at (1,2) {$\vdots $};
+    \node  (125) at (2,2) {$\vdots $};
+    \node  (pn) at (3,2) {$\vdots $};
+
+    \node  (0) at (1.5,3) {0};
+
+    \path [->] (2) edge (4);
+    \path [->] (4) edge (8);
+    \path [->] (8) edge (0);
+    
+    \path [->] (3) edge (9);
+    \path [->] (9) edge (27);
+    \path [->] (27) edge (0);
+
+    \path [->] (5) edge (25);
+    \path [->] (25) edge (125);
+    \path [->] (125) edge (0);
+
+    \path [->] (p) edge (p2);
+    \path [->] (p2) edge (pn);
+    \path [->] (pn) edge (0);
+  \end {tikzpicture}
+  ]]></fr:resource-source></fr:resource></html:figure>
+
+  where each number <fr:tex display="inline"><![CDATA[p]]></fr:tex> above corresponds to the prime filter of those elements <html:em>not</html:em> containing <fr:tex display="inline"><![CDATA[p]]></fr:tex> has a factor. Notice for any <fr:tex display="inline"><![CDATA[n\in \mathbb {N}]]></fr:tex>,
+  <fr:tex display="block"><![CDATA[ O_n = \{p^k\mid p^k\not {\mid } n\}. ]]></fr:tex>
+  Since each natural number only contains finitely many prime factors, it is easier to describe the closed sets,
+  <fr:tex display="block"><![CDATA[ C_n = \{p^k\mid p^k \mid  n\} = \downarrow  p_1^{k_1} \cup  \cdots  \cup  \downarrow  p_m^{k_m}, ]]></fr:tex>
+  where <fr:tex display="inline"><![CDATA[n = p_1^{k_1} \cdots  p_m^{k_m}]]></fr:tex> is the prime factorisation of <fr:tex display="inline"><![CDATA[n]]></fr:tex>. 
+</html:p>
+                  </fr:mainmatter>
+                </fr:tree>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors />
+                    <fr:date>
+                      <fr:year>2025</fr:year>
+                      <fr:month>6</fr:month>
+                      <fr:day>7</fr:day>
+                    </fr:date>
+                    <fr:uri>https://www.my-great-forest.net/idem-comm-14GL/</fr:uri>
+                    <fr:display-uri>idem-comm-14GL</fr:display-uri>
+                    <fr:route>/idem-comm-14GL/</fr:route>
+                    <fr:title text="Prime spectrum of primes under division">Prime spectrum of primes under division</fr:title>
+                    <fr:taxon>Example</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p><fr:tex display="inline"><![CDATA[\mathbb {N}]]></fr:tex> also contains a sub distributive lattice <fr:tex display="inline"><![CDATA[\mathbb {P}]]></fr:tex>, consisting of those numbers which does not contain a higher power of prime factor. By <fr:link href="/idem-comm-SKN8/" title="Closure properties of Noetherian distributive lattices" uri="https://www.my-great-forest.net/idem-comm-SKN8/" display-uri="idem-comm-SKN8" type="local">Proposition <fr:contextual-number uri="https://www.my-great-forest.net/idem-comm-SKN8/" display-uri="idem-comm-SKN8" /></fr:link> <fr:tex display="inline"><![CDATA[\mathbb {P}]]></fr:tex> is again Noetherian, and in fact a Heyting algebra again. The spectrum of <fr:tex display="inline"><![CDATA[\mathbb {P}]]></fr:tex> is obtained by throwing out all the higher powers of primes in the spectrum of <fr:tex display="inline"><![CDATA[\mathbb {N}]]></fr:tex>,
+  
+  <html:figure><fr:resource hash="7cf5777f200754368e8726d72a8ecf57"><fr:resource-content><html:img src="/7cf5777f200754368e8726d72a8ecf57.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[\usepackage {tikz-cd}\usepackage {quiver}]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+    \begin {tikzpicture}[scale=0.8]
+      \node  (2) at (0,0) {2};
+      \node  (3) at (1,0) {3};
+      \node  (5) at (2,0) {5};
+      \node  (p) at (3,0) {$\cdots $};
+
+      \node  (0) at (1.5,1) {0};
+
+      \path [->] (2) edge (0);
+      \path [->] (3) edge (0);
+      \path [->] (5) edge (0);
+      \path [->] (p) edge (0);
+    \end {tikzpicture}
+  ]]></fr:resource-source></fr:resource></html:figure>
+
+  <fr:tex display="inline"><![CDATA[\operatorname {Spec}\mathbb {P}]]></fr:tex> is homeomorphic to the usual ring spectrum <fr:tex display="inline"><![CDATA[\operatorname {Spec}\mathbb {Z}]]></fr:tex>, which is the one point compatification of the discrete space of natural numbers.
+</html:p>
+                  </fr:mainmatter>
+                </fr:tree>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors />
+                    <fr:date>
+                      <fr:year>2025</fr:year>
+                      <fr:month>6</fr:month>
+                      <fr:day>8</fr:day>
+                    </fr:date>
+                    <fr:uri>https://www.my-great-forest.net/idem-comm-IYD0/</fr:uri>
+                    <fr:display-uri>idem-comm-IYD0</fr:display-uri>
+                    <fr:route>/idem-comm-IYD0/</fr:route>
+                    <fr:title text="Lattices of cofinite subsets are Noetherian">Lattices of cofinite subsets are Noetherian</fr:title>
+                    <fr:taxon>Example</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p>
+  For any set <fr:tex display="inline"><![CDATA[X]]></fr:tex>, we can construct a Noetherian distributive lattice <fr:tex display="inline"><![CDATA[\wp ^{\omega }_{\bot }(X)]]></fr:tex> of cofinite subsets of <fr:tex display="inline"><![CDATA[X]]></fr:tex> with the bottom element <fr:tex display="inline"><![CDATA[\emptyset ]]></fr:tex> adjointed. This lattice is evidently Noetherian. In fact, the distributive lattice <fr:tex display="inline"><![CDATA[\mathbb {P}]]></fr:tex> in <fr:link href="/idem-comm-14GL/" title="Prime spectrum of primes under division" uri="https://www.my-great-forest.net/idem-comm-14GL/" display-uri="idem-comm-14GL" type="local">Example <fr:contextual-number uri="https://www.my-great-forest.net/idem-comm-14GL/" display-uri="idem-comm-14GL" /></fr:link> is isomorphic to <fr:tex display="inline"><![CDATA[\wp ^{\omega }_{\bot }(P)]]></fr:tex> where <fr:tex display="inline"><![CDATA[P]]></fr:tex> is the set of primes.
+</html:p>
+                  </fr:mainmatter>
+                </fr:tree>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/lingyuan/" title="Lingyuan Ye" uri="https://www.my-great-forest.net/lingyuan/" display-uri="lingyuan" type="local">Lingyuan Ye</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>8</fr:day>
+                </fr:date>
+                <fr:uri>https://www.my-great-forest.net/idem-comm-VFO1/</fr:uri>
+                <fr:display-uri>idem-comm-VFO1</fr:display-uri>
+                <fr:route>/idem-comm-VFO1/</fr:route>
+                <fr:title text="Constructible topology of spectra">Constructible topology of spectra</fr:title>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors />
+                    <fr:date>
+                      <fr:year>2025</fr:year>
+                      <fr:month>6</fr:month>
+                      <fr:day>8</fr:day>
+                    </fr:date>
+                    <fr:uri>https://www.my-great-forest.net/idem-comm-CJ99/</fr:uri>
+                    <fr:display-uri>idem-comm-CJ99</fr:display-uri>
+                    <fr:route>/idem-comm-CJ99/</fr:route>
+                    <fr:title text="Retrocompact subsets in spectra">Retrocompact subsets in spectra</fr:title>
+                    <fr:taxon>Lemma</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter><html:p>
+  An open subset <fr:tex display="inline"><![CDATA[X]]></fr:tex> of <fr:tex display="inline"><![CDATA[\operatorname {Spec} D]]></fr:tex> is <fr:link href="/topl-DMH2/" title="Retrocompact subspaces" uri="https://www.my-great-forest.net/topl-DMH2/" display-uri="topl-DMH2" type="local">retrocompact</fr:link> iff it is compact. 
+</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>8</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  This is just due to the fact that spectra are also <fr:link href="/topl-GW93/" title="Quasi-separated spaces" uri="https://www.my-great-forest.net/topl-GW93/" display-uri="topl-GW93" type="local">quasi-separated</fr:link>.
+</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+                </fr:tree>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors />
+                    <fr:date>
+                      <fr:year>2025</fr:year>
+                      <fr:month>6</fr:month>
+                      <fr:day>8</fr:day>
+                    </fr:date>
+                    <fr:uri>https://www.my-great-forest.net/idem-comm-ZPKE/</fr:uri>
+                    <fr:display-uri>idem-comm-ZPKE</fr:display-uri>
+                    <fr:route>/idem-comm-ZPKE/</fr:route>
+                    <fr:title text="Constructible sets of spectra">Constructible sets of spectra</fr:title>
+                    <fr:taxon>Lemma</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter><html:p>
+  The <fr:link href="/topl-F1KS/" title="Constructible topology" uri="https://www.my-great-forest.net/topl-F1KS/" display-uri="topl-F1KS" type="local">constructible sets</fr:link> on <fr:tex display="inline"><![CDATA[\operatorname {Spec} D]]></fr:tex> are finite unions of subsets of the form <fr:tex display="inline"><![CDATA[O_a \cap  C_b]]></fr:tex> for <fr:tex display="inline"><![CDATA[a,b \in  D]]></fr:tex>.
+</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>8</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  This is a direct consequence of <fr:link href="/idem-comm-CJ99/" title="Retrocompact subsets in spectra" uri="https://www.my-great-forest.net/idem-comm-CJ99/" display-uri="idem-comm-CJ99" type="local">Lemma <fr:contextual-number uri="https://www.my-great-forest.net/idem-comm-CJ99/" display-uri="idem-comm-CJ99" /></fr:link>, and that all compact opens are of the form <fr:tex display="inline"><![CDATA[O_a]]></fr:tex> for some <fr:tex display="inline"><![CDATA[a\in  D]]></fr:tex>, with its complement being <fr:tex display="inline"><![CDATA[C_a]]></fr:tex>.
+</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+                </fr:tree>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors />
+                    <fr:date>
+                      <fr:year>2025</fr:year>
+                      <fr:month>6</fr:month>
+                      <fr:day>8</fr:day>
+                    </fr:date>
+                    <fr:uri>https://www.my-great-forest.net/idem-comm-80H1/</fr:uri>
+                    <fr:display-uri>idem-comm-80H1</fr:display-uri>
+                    <fr:route>/idem-comm-80H1/</fr:route>
+                    <fr:title text="Finitely presented quotient induce constructible subsets">Finitely presented quotient induce constructible subsets</fr:title>
+                    <fr:taxon>Example</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p>
+  Let <fr:tex display="inline"><![CDATA[\{a_i\}_{i\in  I},\{b_i\}_{i\in  I} \in  D]]></fr:tex> be two finite lists of elements. The finitely presented quotient <fr:tex display="inline"><![CDATA[D \twoheadrightarrow  D/\langle a_i,b_i\rangle _{i\in  I}]]></fr:tex> induces a subset <fr:tex display="inline"><![CDATA[\operatorname {Spec} D/\langle a_i,b_i\rangle ]]></fr:tex> of <fr:tex display="inline"><![CDATA[\operatorname {Spec} D]]></fr:tex>. By definition, for any <fr:tex display="inline"><![CDATA[x\in \operatorname {Spec} D]]></fr:tex>,
+  <fr:tex display="block"><![CDATA[ x \in  \operatorname {Spec} D/\langle a_i,b_i\rangle  \Leftrightarrow  \forall  i \in  I.\  x \not \models  a_i \vee  x \models  b_i, ]]></fr:tex>
+  which means that 
+  <fr:tex display="block"><![CDATA[ \operatorname {Spec} D/\langle a_i,b_i\rangle  = \bigcap _{i\in  I} C_{a_i} \cup  O_{b_i}. ]]></fr:tex>
+  This way, <fr:tex display="inline"><![CDATA[\operatorname {Spec} D/\langle a_i,b_i\rangle ]]></fr:tex> will be constructible in <fr:tex display="inline"><![CDATA[\operatorname {Spec} D]]></fr:tex>.
+</html:p>
+                  </fr:mainmatter>
+                </fr:tree>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors />
+                    <fr:date>
+                      <fr:year>2025</fr:year>
+                      <fr:month>6</fr:month>
+                      <fr:day>8</fr:day>
+                    </fr:date>
+                    <fr:uri>https://www.my-great-forest.net/idem-comm-XNIE/</fr:uri>
+                    <fr:display-uri>idem-comm-XNIE</fr:display-uri>
+                    <fr:route>/idem-comm-XNIE/</fr:route>
+                    <fr:title text="Constructible sets compute Booleanisation">Constructible sets compute Booleanisation</fr:title>
+                    <fr:taxon>Proposition</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter><html:p>
+  For a distributive lattice <fr:tex display="inline"><![CDATA[D]]></fr:tex>, the poset of constructible subsets of <fr:tex display="inline"><![CDATA[\operatorname {Spec} D]]></fr:tex> is isomorphic to the Booleanisation of <fr:tex display="inline"><![CDATA[D]]></fr:tex>, i.e. the free Boolean algebra associated to <fr:tex display="inline"><![CDATA[D]]></fr:tex>. In particular, the <fr:link href="/topl-F1KS/" title="Constructible topology" uri="https://www.my-great-forest.net/topl-F1KS/" display-uri="topl-F1KS" type="local">constructible topology</fr:link> on <fr:tex display="inline"><![CDATA[\operatorname {Spec} D]]></fr:tex> is the Priestley topology.
+</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>8</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  This is evident from construction.
+</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+                </fr:tree>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors />
+                    <fr:date>
+                      <fr:year>2025</fr:year>
+                      <fr:month>6</fr:month>
+                      <fr:day>8</fr:day>
+                    </fr:date>
+                    <fr:uri>https://www.my-great-forest.net/idem-comm-Y25U/</fr:uri>
+                    <fr:display-uri>idem-comm-Y25U</fr:display-uri>
+                    <fr:route>/idem-comm-Y25U/</fr:route>
+                    <fr:title text="Finitely presented quotients preserve constructible sets">Finitely presented quotients preserve constructible sets</fr:title>
+                    <fr:taxon>Lemma</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter><html:p>
+  For a finite lists of elements <fr:tex display="inline"><![CDATA[a_i,b_i]]></fr:tex> in <fr:tex display="inline"><![CDATA[D]]></fr:tex>, the inclusion <fr:tex display="inline"><![CDATA[\operatorname {Spec} D/\langle a_i,b_i\rangle  \rightarrowtail  \operatorname {Spec} D]]></fr:tex> <fr:link href="/topl-XT5Y/" title="Maps preserving constructible sets" uri="https://www.my-great-forest.net/topl-XT5Y/" display-uri="topl-XT5Y" type="local">preserves constructible sets</fr:link>.
+</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>8</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  This is because the quotient <fr:tex display="inline"><![CDATA[D \twoheadrightarrow  D/\langle a_i,b_i\rangle ]]></fr:tex> is surjective, hence any constructible set in <fr:tex display="inline"><![CDATA[D/\langle a_i,b_i\rangle ]]></fr:tex> is the intersection of <fr:tex display="inline"><![CDATA[\operatorname {Spec} D/\langle a_i,b_i\rangle ]]></fr:tex> with a constructible set in <fr:tex display="inline"><![CDATA[\operatorname {Spec} D]]></fr:tex>. However, since <fr:tex display="inline"><![CDATA[\operatorname {Spec} D/\langle a_i,b_i\rangle ]]></fr:tex> is itself constructible by <fr:link href="/idem-comm-80H1/" title="Finitely presented quotient induce constructible subsets" uri="https://www.my-great-forest.net/idem-comm-80H1/" display-uri="idem-comm-80H1" type="local">Example <fr:contextual-number uri="https://www.my-great-forest.net/idem-comm-80H1/" display-uri="idem-comm-80H1" /></fr:link>, it follows that the intersection is constructible in <fr:tex display="inline"><![CDATA[\operatorname {Spec} D]]></fr:tex>.
+</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+                </fr:tree>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors />
+                    <fr:date>
+                      <fr:year>2025</fr:year>
+                      <fr:month>6</fr:month>
+                      <fr:day>8</fr:day>
+                    </fr:date>
+                    <fr:uri>https://www.my-great-forest.net/idem-comm-21XO/</fr:uri>
+                    <fr:display-uri>idem-comm-21XO</fr:display-uri>
+                    <fr:route>/idem-comm-21XO/</fr:route>
+                    <fr:title text="Polynomial projections preserve constructible sets">Polynomial projections preserve constructible sets</fr:title>
+                    <fr:taxon>Lemma</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter><html:p>
+  The map <fr:tex display="inline"><![CDATA[\operatorname {Spec} D[x] \to  \operatorname {Spec} D]]></fr:tex> takes a standard open to a standard open; similarly for standard closed sets. This in particular implies it <fr:link href="/topl-XT5Y/" title="Maps preserving constructible sets" uri="https://www.my-great-forest.net/topl-XT5Y/" display-uri="topl-XT5Y" type="local">preserves constructible subsets</fr:link>.
+</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>8</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  A point in <fr:tex display="inline"><![CDATA[\operatorname {Spec} D[x]]]></fr:tex> can be identified as a pair <fr:tex display="inline"><![CDATA[(i,x)]]></fr:tex> where <fr:tex display="inline"><![CDATA[i \in  \{0,1\}]]></fr:tex> and <fr:tex display="inline"><![CDATA[x \in  \operatorname {Spec} D]]></fr:tex>. This way, given any <fr:tex display="inline"><![CDATA[x\in \operatorname {Spec} D]]></fr:tex> and polynomial <fr:tex display="inline"><![CDATA[p\in  D[x]]]></fr:tex> with <fr:tex display="inline"><![CDATA[p = p_0 \vee  x \wedge  p_1]]></fr:tex>, we have
+  <fr:tex display="block"><![CDATA[ x \in  \operatorname {img}(O_p) \Leftrightarrow  (i,x) \in  O_p \Leftrightarrow  x\in  O_{p_i}. ]]></fr:tex>
+  In particular, this means that 
+  <fr:tex display="block"><![CDATA[ \operatorname {img}(O_p) = O_{p_0} \cup  O_{p_1} = O_{p_1}. ]]></fr:tex>
+  Completely similarly, we have 
+  <fr:tex display="block"><![CDATA[ \operatorname {img}(C_p) = C_{p_0} \cup  C_{p_1} = C_{p_0}. ]]></fr:tex>
+</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+                </fr:tree>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors />
+                    <fr:date>
+                      <fr:year>2025</fr:year>
+                      <fr:month>6</fr:month>
+                      <fr:day>8</fr:day>
+                    </fr:date>
+                    <fr:uri>https://www.my-great-forest.net/idem-comm-RYZ5/</fr:uri>
+                    <fr:display-uri>idem-comm-RYZ5</fr:display-uri>
+                    <fr:route>/idem-comm-RYZ5/</fr:route>
+                    <fr:title text="Chevalley's theorem">Chevalley's theorem</fr:title>
+                    <fr:taxon>Theorem</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter><html:p>
+  Suppose <fr:tex display="inline"><![CDATA[D \to  E]]></fr:tex> is finitely presented. Then <fr:tex display="inline"><![CDATA[\operatorname {Spec} E \to  \operatorname {Spec} D]]></fr:tex> takes a constructible set to a constructible set.
+</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>8</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <fr:tex display="inline"><![CDATA[E]]></fr:tex> will be of the form <fr:tex display="inline"><![CDATA[D[x_1,\cdots ,x_n]/\langle p_i,q_i\rangle ]]></fr:tex>. We may factor <fr:tex display="inline"><![CDATA[D \to  E]]></fr:tex> as
+  <fr:tex display="block"><![CDATA[ D \to  D[x_1] \to  \cdots  \to  D[x_1,\cdots ,x_n] \to  D[x_1,\cdots ,x_n]/\langle p_i,q_i\rangle , ]]></fr:tex>
+  where each map preserves constructible sets by <fr:link href="/idem-comm-21XO/" title="Polynomial projections preserve constructible sets" uri="https://www.my-great-forest.net/idem-comm-21XO/" display-uri="idem-comm-21XO" type="local">Lemma <fr:contextual-number uri="https://www.my-great-forest.net/idem-comm-21XO/" display-uri="idem-comm-21XO" /></fr:link> and <fr:link href="/idem-comm-Y25U/" title="Finitely presented quotients preserve constructible sets" uri="https://www.my-great-forest.net/idem-comm-Y25U/" display-uri="idem-comm-Y25U" type="local">Lemma <fr:contextual-number uri="https://www.my-great-forest.net/idem-comm-Y25U/" display-uri="idem-comm-Y25U" /></fr:link>.
+</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+                </fr:tree>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors />
+                    <fr:date>
+                      <fr:year>2025</fr:year>
+                      <fr:month>6</fr:month>
+                      <fr:day>8</fr:day>
+                    </fr:date>
+                    <fr:uri>https://www.my-great-forest.net/idem-comm-UARZ/</fr:uri>
+                    <fr:display-uri>idem-comm-UARZ</fr:display-uri>
+                    <fr:route>/idem-comm-UARZ/</fr:route>
+                    <fr:title text="Left adjoint for Booleanisation">Left adjoint for Booleanisation</fr:title>
+                    <fr:taxon>Remark</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p>
+  Algebraically, under <fr:link href="/idem-comm-XNIE/" title="Constructible sets compute Booleanisation" uri="https://www.my-great-forest.net/idem-comm-XNIE/" display-uri="idem-comm-XNIE" type="local">Proposition <fr:contextual-number uri="https://www.my-great-forest.net/idem-comm-XNIE/" display-uri="idem-comm-XNIE" /></fr:link>, <fr:link href="/idem-comm-RYZ5/" title="Chevalley's theorem" uri="https://www.my-great-forest.net/idem-comm-RYZ5/" display-uri="idem-comm-RYZ5" type="local">Theorem <fr:contextual-number uri="https://www.my-great-forest.net/idem-comm-RYZ5/" display-uri="idem-comm-RYZ5" /></fr:link> means that for any finitely presented morphism <fr:tex display="inline"><![CDATA[D \to  E]]></fr:tex>, its Booleanisation <fr:tex display="inline"><![CDATA[\lambda  D \to  \lambda  E]]></fr:tex> has a <html:em>left adjoint</html:em>,
+  
+  <html:figure><fr:resource hash="ec2968fd7d17f367d6503861fc3e1631"><fr:resource-content><html:img src="/ec2968fd7d17f367d6503861fc3e1631.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[\usepackage {tikz-cd}\usepackage {quiver}]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+  \begin {tikzcd}
+    D & E \\
+    {\lambda  D} & {\lambda  E}
+    \arrow [from=1-1, to=1-2]
+    \arrow [tail, from=1-1, to=2-1]
+    \arrow [tail, from=1-2, to=2-2]
+    \arrow [""{name=0, anchor=center, inner sep=0}, from=2-1, to=2-2]
+    \arrow [""{name=1, anchor=center, inner sep=0}, curve={height=15pt}, from=2-2, to=2-1]
+    \arrow ["\dashv "{anchor=center, rotate=-90}, draw=none, from=1, to=0]
+  \end {tikzcd}
+  ]]></fr:resource-source></fr:resource></html:figure>
+
+  given by taking the image of the constructible subset along <fr:tex display="inline"><![CDATA[\operatorname {Spec} E \to  \operatorname {Spec} D]]></fr:tex>. Furthermore, since image of a map preserves binary intersections and unions, the left adjoint also preserves them. Hence, it will be a distributive lattice morphism, except the possibility that it does not preserve the top element.
+</html:p>
+                  </fr:mainmatter>
+                </fr:tree>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/lingyuan/" title="Lingyuan Ye" uri="https://www.my-great-forest.net/lingyuan/" display-uri="lingyuan" type="local">Lingyuan Ye</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>8</fr:day>
+                </fr:date>
+                <fr:uri>https://www.my-great-forest.net/idem-comm-KHL4/</fr:uri>
+                <fr:display-uri>idem-comm-KHL4</fr:display-uri>
+                <fr:route>/idem-comm-KHL4/</fr:route>
+                <fr:title text="Going up and going down">Going up and going down</fr:title>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors />
+                    <fr:date>
+                      <fr:year>2025</fr:year>
+                      <fr:month>6</fr:month>
+                      <fr:day>8</fr:day>
+                    </fr:date>
+                    <fr:uri>https://www.my-great-forest.net/idem-comm-SQ5X/</fr:uri>
+                    <fr:display-uri>idem-comm-SQ5X</fr:display-uri>
+                    <fr:route>/idem-comm-SQ5X/</fr:route>
+                    <fr:title text="P-maps and q-maps">P-maps and q-maps</fr:title>
+                    <fr:taxon>Definition</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p>
+  We say a map <fr:tex display="inline"><![CDATA[D \to  E]]></fr:tex> between distributive lattices is a <html:em>p-map/q-map</html:em>, if the induced map <fr:tex display="inline"><![CDATA[\operatorname {Spec} E \to  \operatorname {Spec} D]]></fr:tex> is a <fr:link href="/idem-comm-H042/" title="P-morphism and q-morphism between posets" uri="https://www.my-great-forest.net/idem-comm-H042/" display-uri="idem-comm-H042" type="local">p-morphism/q-morphism</fr:link>.
+</html:p>
+                  </fr:mainmatter>
+                </fr:tree>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors />
+                    <fr:date>
+                      <fr:year>2025</fr:year>
+                      <fr:month>6</fr:month>
+                      <fr:day>8</fr:day>
+                    </fr:date>
+                    <fr:uri>https://www.my-great-forest.net/idem-comm-WE05/</fr:uri>
+                    <fr:display-uri>idem-comm-WE05</fr:display-uri>
+                    <fr:route>/idem-comm-WE05/</fr:route>
+                    <fr:title text="P-maps and q-maps are weak orthogonal classes">P-maps and q-maps are weak orthogonal classes</fr:title>
+                    <fr:taxon>Lemma</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter><html:p>
+  A map <fr:tex display="inline"><![CDATA[f : D \to  E]]></fr:tex> is a <fr:link href="/idem-comm-SQ5X/" title="P-maps and q-maps" uri="https://www.my-great-forest.net/idem-comm-SQ5X/" display-uri="idem-comm-SQ5X" type="local">p-map</fr:link> iff <fr:tex display="inline"><![CDATA[f]]></fr:tex> is weakly left orthogonal to <fr:tex display="inline"><![CDATA[0 : 2[x] \to  2]]></fr:tex>,
+  
+  <html:figure><fr:resource hash="387e87a59724857afbf8711b1ae45fbb"><fr:resource-content><html:img src="/387e87a59724857afbf8711b1ae45fbb.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[\usepackage {tikz-cd}\usepackage {quiver}]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+    \begin {tikzcd}
+      D \ar [d, "f"'] \ar [r] & {2[x]} \ar [d, "0"] \\ 
+      E \ar [r] \ar [ur, dashed, "\exists "description] & 2
+    \end {tikzcd}
+  ]]></fr:resource-source></fr:resource></html:figure>
+
+  Dually it is a <fr:link href="/idem-comm-SQ5X/" title="P-maps and q-maps" uri="https://www.my-great-forest.net/idem-comm-SQ5X/" display-uri="idem-comm-SQ5X" type="local">q-map</fr:link> iff it is weakly left orthogonal to <fr:tex display="inline"><![CDATA[1 : 2[x] \to  2]]></fr:tex>.
+</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>8</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  This is due to the fact that <fr:tex display="inline"><![CDATA[2[x]]]></fr:tex> classifies the order on <fr:tex display="inline"><![CDATA[2]]></fr:tex>, thus a map <fr:tex display="inline"><![CDATA[D \to  2[x]]]></fr:tex> corresponds exactly to a pair <fr:tex display="inline"><![CDATA[x,y\in \operatorname {Spec} D]]></fr:tex> that <fr:tex display="inline"><![CDATA[x\le  y]]></fr:tex>.
+</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+                </fr:tree>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors />
+                    <fr:date>
+                      <fr:year>2025</fr:year>
+                      <fr:month>6</fr:month>
+                      <fr:day>8</fr:day>
+                    </fr:date>
+                    <fr:uri>https://www.my-great-forest.net/idem-comm-UF37/</fr:uri>
+                    <fr:display-uri>idem-comm-UF37</fr:display-uri>
+                    <fr:route>/idem-comm-UF37/</fr:route>
+                    <fr:title text="Closure properties of p-maps and q-maps">Closure properties of p-maps and q-maps</fr:title>
+                    <fr:taxon>Lemma</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter><html:p><fr:link href="/idem-comm-SQ5X/" title="P-maps and q-maps" uri="https://www.my-great-forest.net/idem-comm-SQ5X/" display-uri="idem-comm-SQ5X" type="local">P-maps/q-maps</fr:link> are closed under pushouts.
+</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>8</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  This is a direct consequence of <fr:link href="/idem-comm-WE05/" title="P-maps and q-maps are weak orthogonal classes" uri="https://www.my-great-forest.net/idem-comm-WE05/" display-uri="idem-comm-WE05" type="local">Lemma <fr:contextual-number uri="https://www.my-great-forest.net/idem-comm-WE05/" display-uri="idem-comm-WE05" /></fr:link>.
+</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+                </fr:tree>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors />
+                    <fr:date>
+                      <fr:year>2025</fr:year>
+                      <fr:month>6</fr:month>
+                      <fr:day>8</fr:day>
+                    </fr:date>
+                    <fr:uri>https://www.my-great-forest.net/idem-comm-OUFJ/</fr:uri>
+                    <fr:display-uri>idem-comm-OUFJ</fr:display-uri>
+                    <fr:route>/idem-comm-OUFJ/</fr:route>
+                    <fr:title text="Closed image of a map">Closed image of a map</fr:title>
+                    <fr:taxon>Proposition</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter><html:p>
+  For any map <fr:tex display="inline"><![CDATA[f : D \to  E]]></fr:tex>, let <fr:tex display="inline"><![CDATA[D \twoheadrightarrow  I/D \to  E]]></fr:tex> be the dual of the <fr:link href="/idem-comm-V39C/" title="Orthogonal factorisation: (pro-open, t-conservative)" uri="https://www.my-great-forest.net/idem-comm-V39C/" display-uri="idem-comm-V39C" type="local">pro-open,t-conservative</fr:link> factorisation. The closed set <fr:tex display="inline"><![CDATA[C_I = \operatorname {Spec} I/D]]></fr:tex> (cf. <fr:link href="/idem-comm-FMRA/" title="Closed subspace of closed quotient" uri="https://www.my-great-forest.net/idem-comm-FMRA/" display-uri="idem-comm-FMRA" type="local">Remark <fr:contextual-number uri="https://www.my-great-forest.net/idem-comm-FMRA/" display-uri="idem-comm-FMRA" /></fr:link>) is the downward closure of the image of <fr:tex display="inline"><![CDATA[\operatorname {Spec} E]]></fr:tex> in <fr:tex display="inline"><![CDATA[\operatorname {Spec} D]]></fr:tex>, also the topological closure. In particular, the following are equivalent: 
+  <html:ol><html:li>The image of <fr:tex display="inline"><![CDATA[\operatorname {Spec} E]]></fr:tex> is downward closed;</html:li>
+    <html:li>The image of <fr:tex display="inline"><![CDATA[\operatorname {Spec} E]]></fr:tex> is closed;</html:li>
+    <html:li>The factorisation <fr:tex display="inline"><![CDATA[I/D \rightarrowtail  E]]></fr:tex> is injective.</html:li></html:ol></html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>8</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  Note by <fr:link href="/idem-comm-FMRA/" title="Closed subspace of closed quotient" uri="https://www.my-great-forest.net/idem-comm-FMRA/" display-uri="idem-comm-FMRA" type="local">Remark <fr:contextual-number uri="https://www.my-great-forest.net/idem-comm-FMRA/" display-uri="idem-comm-FMRA" /></fr:link>, a subset of <fr:tex display="inline"><![CDATA[\operatorname {Spec} D]]></fr:tex> is closed iff it is downward closed. Hence, <fr:tex display="inline"><![CDATA[C_I]]></fr:tex> is the smallest closed or downward closed subset of <fr:tex display="inline"><![CDATA[\operatorname {Spec} D]]></fr:tex> containing the image of <fr:tex display="inline"><![CDATA[\operatorname {Spec} E]]></fr:tex>.
+</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+                </fr:tree>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors />
+                    <fr:date>
+                      <fr:year>2025</fr:year>
+                      <fr:month>6</fr:month>
+                      <fr:day>8</fr:day>
+                    </fr:date>
+                    <fr:uri>https://www.my-great-forest.net/idem-comm-ODLS/</fr:uri>
+                    <fr:display-uri>idem-comm-ODLS</fr:display-uri>
+                    <fr:route>/idem-comm-ODLS/</fr:route>
+                    <fr:title text="Q-maps as closed maps">Q-maps as closed maps</fr:title>
+                    <fr:taxon>Theorem</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter><html:p>
+  For any <fr:tex display="inline"><![CDATA[f : D \to  E]]></fr:tex> between distributive lattices, the following are equivalent:
+  <html:ol><html:li><fr:tex display="inline"><![CDATA[f]]></fr:tex> is a <fr:link href="/idem-comm-SQ5X/" title="P-maps and q-maps" uri="https://www.my-great-forest.net/idem-comm-SQ5X/" display-uri="idem-comm-SQ5X" type="local">q-map</fr:link>;</html:li>
+    <html:li><fr:tex display="inline"><![CDATA[\operatorname {Spec} E \to  \operatorname {Spec} D]]></fr:tex> is a closed map between topological spaces.</html:li></html:ol></html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>8</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  (2) <fr:tex display="inline"><![CDATA[\Rightarrow ]]></fr:tex> (1) is trivial. For (1) <fr:tex display="inline"><![CDATA[\Rightarrow ]]></fr:tex> (2), suppose <fr:tex display="inline"><![CDATA[f]]></fr:tex> is a q-map. For any ideal <fr:tex display="inline"><![CDATA[I]]></fr:tex> in <fr:tex display="inline"><![CDATA[E]]></fr:tex>, we show that <fr:tex display="inline"><![CDATA[f[C_I]]]></fr:tex> is closed in <fr:tex display="inline"><![CDATA[\operatorname {Spec} D]]></fr:tex>. Notice that <fr:tex display="inline"><![CDATA[D \to  E \twoheadrightarrow  I/E]]></fr:tex> by assumption is a q-map, which by <fr:link href="/idem-comm-OUFJ/" title="Closed image of a map" uri="https://www.my-great-forest.net/idem-comm-OUFJ/" display-uri="idem-comm-OUFJ" type="local">Proposition <fr:contextual-number uri="https://www.my-great-forest.net/idem-comm-OUFJ/" display-uri="idem-comm-OUFJ" /></fr:link> it follows that the image of <fr:tex display="inline"><![CDATA[\operatorname {Spec} I/E]]></fr:tex> in <fr:tex display="inline"><![CDATA[\operatorname {Spec} D]]></fr:tex>, which is precisely <fr:tex display="inline"><![CDATA[f[C_I]]]></fr:tex>, is closed.
+</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+                </fr:tree>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors />
+                    <fr:date>
+                      <fr:year>2025</fr:year>
+                      <fr:month>6</fr:month>
+                      <fr:day>8</fr:day>
+                    </fr:date>
+                    <fr:uri>https://www.my-great-forest.net/idem-comm-SZN6/</fr:uri>
+                    <fr:display-uri>idem-comm-SZN6</fr:display-uri>
+                    <fr:route>/idem-comm-SZN6/</fr:route>
+                    <fr:title text="Characterisation of p-maps">Characterisation of p-maps</fr:title>
+                    <fr:taxon>Theorem</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter><html:p>
+  For a map <fr:tex display="inline"><![CDATA[f : D \to  E]]></fr:tex> the following are equivalent:
+  <html:ol><html:li><fr:tex display="inline"><![CDATA[f]]></fr:tex> is a p-map;</html:li>
+    <html:li>For any <fr:tex display="inline"><![CDATA[x\in \operatorname {Spec} E]]></fr:tex>, the induced map <fr:tex display="inline"><![CDATA[\uparrow  x \to  \uparrow  fx]]></fr:tex> is surjective;</html:li>
+    <html:li>For any <fr:tex display="inline"><![CDATA[x\in \operatorname {Spec} E]]></fr:tex>, it restricts to an injection at stalks,
+    
+  <html:figure><fr:resource hash="dc69889f82eafed1972f743466818e74"><fr:resource-content><html:img src="/dc69889f82eafed1972f743466818e74.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[\usepackage {tikz-cd}\usepackage {quiver}]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+      \begin {tikzcd}
+        D \ar [r, "f"] \ar [d, two heads] & E \ar [d, two heads] \\ 
+        D/f^{-1}(x) \ar [r, tail] & E/x
+      \end {tikzcd}
+    ]]></fr:resource-source></fr:resource></html:figure></html:li></html:ol></html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>8</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  The equivalence (1) <fr:tex display="inline"><![CDATA[\Leftrightarrow ]]></fr:tex> (2) is by definition. The equivalence (2) <fr:tex display="inline"><![CDATA[\Leftrightarrow ]]></fr:tex> (3) is obtained by the observation that the localisation <fr:tex display="inline"><![CDATA[E \twoheadrightarrow  E/x]]></fr:tex> exactly induces the inclusion
+  <fr:tex display="block"><![CDATA[ \operatorname {Spec} E/x = \{y\in \operatorname {Spec} E\mid x \le  y\} = \uparrow  x \subseteq  \operatorname {Spec} E. ]]></fr:tex>
+  Thus, the map <fr:tex display="inline"><![CDATA[\uparrow  x \to  \uparrow  fx]]></fr:tex> is induced by the induced map <fr:tex display="inline"><![CDATA[D/fx \to  E/x]]></fr:tex>, and it is surjective iff this is an injection by <fr:link href="/idem-comm-59IF/" title="Set-level duality between spectra and algebra" uri="https://www.my-great-forest.net/idem-comm-59IF/" display-uri="idem-comm-59IF" type="local">Proposition <fr:contextual-number uri="https://www.my-great-forest.net/idem-comm-59IF/" display-uri="idem-comm-59IF" /></fr:link>.
+</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+                </fr:tree>
+              </fr:mainmatter>
+            </fr:tree>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

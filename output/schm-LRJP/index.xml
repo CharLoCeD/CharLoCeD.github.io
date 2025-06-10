@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/">
+  <fr:frontmatter>
+    <fr:authors />
+    <fr:date>
+      <fr:year>2025</fr:year>
+      <fr:month>6</fr:month>
+      <fr:day>8</fr:day>
+    </fr:date>
+    <fr:uri>https://www.my-great-forest.net/schm-LRJP/</fr:uri>
+    <fr:display-uri>schm-LRJP</fr:display-uri>
+    <fr:route>/schm-LRJP/</fr:route>
+    <fr:title text="The Rieger-Nishimura scheme">The Rieger-Nishimura scheme</fr:title>
+    <fr:taxon>Example</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <html:p>
+  Let <fr:tex display="inline"><![CDATA[\mathbb {H}[x]]]></fr:tex> be the free Heyting algebra with one generator. The spectrum <fr:tex display="inline"><![CDATA[\operatorname {Spec}\mathbb {H}[x]]]></fr:tex> as a topological space is the Rieger-Nishimura laddar,
+  
+  <html:figure><fr:resource hash="60df66fe9011fe0e2aa3524d84c026e9"><fr:resource-content><html:img src="/60df66fe9011fe0e2aa3524d84c026e9.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[\usepackage {tikz-cd}\usepackage {quiver}]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+  \begin {tikzcd}
+    \bullet  && \bullet  \\
+    \bullet  && \bullet  \\
+    \bullet  && \bullet  \\
+    \bullet  && \bullet  \\
+    \vdots  && \vdots  \\
+    & \bullet 
+    \arrow [from=2-1, to=1-1]
+    \arrow [from=2-1, to=1-3]
+    \arrow [from=2-3, to=1-3]
+    \arrow [from=3-1, to=2-1]
+    \arrow [from=3-1, to=2-3]
+    \arrow [from=3-3, to=1-1]
+    \arrow [from=3-3, to=2-3]
+    \arrow [from=4-1, to=3-1]
+    \arrow [from=4-1, to=3-3]
+    \arrow [from=4-3, to=2-1]
+    \arrow [from=4-3, to=3-3]
+    \arrow [from=5-1, to=4-1]
+    \arrow [from=5-1, to=4-3]
+    \arrow [from=5-3, to=3-1]
+    \arrow [from=5-3, to=4-3]
+    \arrow [from=6-2, to=5-1]
+    \arrow [from=6-2, to=5-3]
+  \end {tikzcd}
+  ]]></fr:resource-source></fr:resource></html:figure>
+
+  It has a unique non-standard <fr:link href="/schm-8ES8/" title="Open subschemes and open immersion" uri="https://www.my-great-forest.net/schm-8ES8/" display-uri="schm-8ES8" type="local">open subscheme</fr:link>, which we denote as <fr:tex display="inline"><![CDATA[\operatorname {Spec}\mathbb {H}[x]_+ = \operatorname {Spec}\mathbb {H}[x]-\{\bot \}]]></fr:tex>, where <fr:tex display="inline"><![CDATA[\bot ]]></fr:tex> is the generic point of <fr:tex display="inline"><![CDATA[\operatorname {Spec}\mathbb {H}[x]]]></fr:tex>. The open subscheme <fr:tex display="inline"><![CDATA[\operatorname {Spec}\mathbb {H}[x]]]></fr:tex> is <html:em>not compact</html:em>, hence it is not affine.
+</html:p>
+    <html:p>
+  In fact, we can compute the global section of <fr:tex display="inline"><![CDATA[\operatorname {Spec}\mathbb {H}[x]_+]]></fr:tex>. Under <fr:link href="/idem-comm-HLDT/" title="Frame of opens of spectra" uri="https://www.my-great-forest.net/idem-comm-HLDT/" display-uri="idem-comm-HLDT" type="local">Proposition <fr:contextual-number uri="https://www.my-great-forest.net/idem-comm-HLDT/" display-uri="idem-comm-HLDT" /></fr:link>, it as an open subset corresponds to the maximal ideal <fr:tex display="inline"><![CDATA[M = \mathbb {H}[x]-\{1\}]]></fr:tex>. This way under <fr:link href="/schm-5L35/" title="Structural sheaf on a general open" uri="https://www.my-great-forest.net/schm-5L35/" display-uri="schm-5L35" type="local">Proposition <fr:contextual-number uri="https://www.my-great-forest.net/schm-5L35/" display-uri="schm-5L35" /></fr:link>,
+  <fr:tex display="block"><![CDATA[ \Gamma \mathcal {O}_{\operatorname {Spec}\mathbb {H}[x]_+} \cong  \mathbb {H}[x]_M \cong  \mathbb {H}[x]. ]]></fr:tex>
+  The final isomorphism is an easy exercise. This means the open immersion <fr:tex display="inline"><![CDATA[\operatorname {Spec}\mathbb {H}[x]_+ \hookrightarrow  \operatorname {Spec}\mathbb {H}[x]]]></fr:tex> induces an isomorphism on global section. 
+</html:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/lingyuan/" title="Lingyuan Ye" uri="https://www.my-great-forest.net/lingyuan/" display-uri="lingyuan" type="local">Lingyuan Ye</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>8</fr:day>
+            </fr:date>
+            <fr:uri>https://www.my-great-forest.net/schm-I8HM/</fr:uri>
+            <fr:display-uri>schm-I8HM</fr:display-uri>
+            <fr:route>/schm-I8HM/</fr:route>
+            <fr:title text="Schemes">Schemes</fr:title>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>8</fr:day>
+                </fr:date>
+                <fr:uri>https://www.my-great-forest.net/schm-86OJ/</fr:uri>
+                <fr:display-uri>schm-86OJ</fr:display-uri>
+                <fr:route>/schm-86OJ/</fr:route>
+                <fr:title text="Scheme">Scheme</fr:title>
+                <fr:taxon>Definition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+  A <fr:link href="/schm-V16H/" title="Locally distributed space" uri="https://www.my-great-forest.net/schm-V16H/" display-uri="schm-V16H" type="local">locally distributed space</fr:link> <fr:tex display="inline"><![CDATA[(X,\mathcal {O}_{X})]]></fr:tex> is a <html:em>scheme</html:em>, if for any <fr:tex display="inline"><![CDATA[x\in  X]]></fr:tex> there is an open neighbourhood <fr:tex display="inline"><![CDATA[U]]></fr:tex> of <fr:tex display="inline"><![CDATA[x]]></fr:tex>, such that <fr:tex display="inline"><![CDATA[(U,\mathcal {O}_{X}|_U)]]></fr:tex> is an <fr:link href="/schm-IFX1/" title="Affine scheme" uri="https://www.my-great-forest.net/schm-IFX1/" display-uri="schm-IFX1" type="local">affine scheme</fr:link>. The full subcategory of schemes will be denoted as <fr:tex display="inline"><![CDATA[\mathbf {Sch}_{\mathbb {D}}]]></fr:tex>.
+</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>8</fr:day>
+                </fr:date>
+                <fr:uri>https://www.my-great-forest.net/schm-269K/</fr:uri>
+                <fr:display-uri>schm-269K</fr:display-uri>
+                <fr:route>/schm-269K/</fr:route>
+                <fr:title text="Topology of a general scheme">Topology of a general scheme</fr:title>
+                <fr:taxon>Remark</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+  It is well-known that if <fr:tex display="inline"><![CDATA[X]]></fr:tex> is a <fr:link href="/schm-86OJ/" title="Scheme" uri="https://www.my-great-forest.net/schm-86OJ/" display-uri="schm-86OJ" type="local">scheme</fr:link>, then as a topological space it is <fr:link href="/topl-FII1/" title="Sober spaces" uri="https://www.my-great-forest.net/topl-FII1/" display-uri="topl-FII1" type="local">sober</fr:link> and <html:em>locally compact</html:em>. However, it may fail to be <fr:link href="/topl-GW93/" title="Quasi-separated spaces" uri="https://www.my-great-forest.net/topl-GW93/" display-uri="topl-GW93" type="local">quasi-separated</fr:link> or compact.
+</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>8</fr:day>
+                </fr:date>
+                <fr:uri>https://www.my-great-forest.net/schm-8ES8/</fr:uri>
+                <fr:display-uri>schm-8ES8</fr:display-uri>
+                <fr:route>/schm-8ES8/</fr:route>
+                <fr:title text="Open subschemes and open immersion">Open subschemes and open immersion</fr:title>
+                <fr:taxon>Example</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+  Let <fr:tex display="inline"><![CDATA[X]]></fr:tex> be a scheme, <fr:tex display="inline"><![CDATA[U]]></fr:tex> an open subset of <fr:tex display="inline"><![CDATA[X]]></fr:tex>. Then <fr:tex display="inline"><![CDATA[(U,\mathcal {O}_{X}|_U)]]></fr:tex> is again a scheme. There is a canonical inclusion <fr:tex display="inline"><![CDATA[U \hookrightarrow  X]]></fr:tex>. Morphisms of this form are called <html:em>open immersion</html:em>.
+</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>8</fr:day>
+                </fr:date>
+                <fr:uri>https://www.my-great-forest.net/schm-IKN8/</fr:uri>
+                <fr:display-uri>schm-IKN8</fr:display-uri>
+                <fr:route>/schm-IKN8/</fr:route>
+                <fr:title text="Coproducts of schemes">Coproducts of schemes</fr:title>
+                <fr:taxon>Example</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+  The disjoint union <fr:tex display="inline"><![CDATA[X \cong  \coprod _{i\in  I}X_i]]></fr:tex> of arbitrary schemes is again a scheme. The structural sheaf on an open <fr:tex display="inline"><![CDATA[U]]></fr:tex> is given by
+  <fr:tex display="block"><![CDATA[ \mathcal {O}_{X}(U) \cong  \prod _{i\in  I}\mathcal {O}_{X_i}(U \cap  X_i). ]]></fr:tex>
+  They are indeed the coproducts in <fr:tex display="inline"><![CDATA[\mathbf {Sch}_{\mathbb {D}}]]></fr:tex>.
+</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>8</fr:day>
+                </fr:date>
+                <fr:uri>https://www.my-great-forest.net/schm-LRJP/</fr:uri>
+                <fr:display-uri>schm-LRJP</fr:display-uri>
+                <fr:route>/schm-LRJP/</fr:route>
+                <fr:title text="The Rieger-Nishimura scheme">The Rieger-Nishimura scheme</fr:title>
+                <fr:taxon>Example</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+  Let <fr:tex display="inline"><![CDATA[\mathbb {H}[x]]]></fr:tex> be the free Heyting algebra with one generator. The spectrum <fr:tex display="inline"><![CDATA[\operatorname {Spec}\mathbb {H}[x]]]></fr:tex> as a topological space is the Rieger-Nishimura laddar,
+  
+  <html:figure><fr:resource hash="60df66fe9011fe0e2aa3524d84c026e9"><fr:resource-content><html:img src="/60df66fe9011fe0e2aa3524d84c026e9.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[\usepackage {tikz-cd}\usepackage {quiver}]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+  \begin {tikzcd}
+    \bullet  && \bullet  \\
+    \bullet  && \bullet  \\
+    \bullet  && \bullet  \\
+    \bullet  && \bullet  \\
+    \vdots  && \vdots  \\
+    & \bullet 
+    \arrow [from=2-1, to=1-1]
+    \arrow [from=2-1, to=1-3]
+    \arrow [from=2-3, to=1-3]
+    \arrow [from=3-1, to=2-1]
+    \arrow [from=3-1, to=2-3]
+    \arrow [from=3-3, to=1-1]
+    \arrow [from=3-3, to=2-3]
+    \arrow [from=4-1, to=3-1]
+    \arrow [from=4-1, to=3-3]
+    \arrow [from=4-3, to=2-1]
+    \arrow [from=4-3, to=3-3]
+    \arrow [from=5-1, to=4-1]
+    \arrow [from=5-1, to=4-3]
+    \arrow [from=5-3, to=3-1]
+    \arrow [from=5-3, to=4-3]
+    \arrow [from=6-2, to=5-1]
+    \arrow [from=6-2, to=5-3]
+  \end {tikzcd}
+  ]]></fr:resource-source></fr:resource></html:figure>
+
+  It has a unique non-standard <fr:link href="/schm-8ES8/" title="Open subschemes and open immersion" uri="https://www.my-great-forest.net/schm-8ES8/" display-uri="schm-8ES8" type="local">open subscheme</fr:link>, which we denote as <fr:tex display="inline"><![CDATA[\operatorname {Spec}\mathbb {H}[x]_+ = \operatorname {Spec}\mathbb {H}[x]-\{\bot \}]]></fr:tex>, where <fr:tex display="inline"><![CDATA[\bot ]]></fr:tex> is the generic point of <fr:tex display="inline"><![CDATA[\operatorname {Spec}\mathbb {H}[x]]]></fr:tex>. The open subscheme <fr:tex display="inline"><![CDATA[\operatorname {Spec}\mathbb {H}[x]]]></fr:tex> is <html:em>not compact</html:em>, hence it is not affine.
+</html:p>
+                <html:p>
+  In fact, we can compute the global section of <fr:tex display="inline"><![CDATA[\operatorname {Spec}\mathbb {H}[x]_+]]></fr:tex>. Under <fr:link href="/idem-comm-HLDT/" title="Frame of opens of spectra" uri="https://www.my-great-forest.net/idem-comm-HLDT/" display-uri="idem-comm-HLDT" type="local">Proposition <fr:contextual-number uri="https://www.my-great-forest.net/idem-comm-HLDT/" display-uri="idem-comm-HLDT" /></fr:link>, it as an open subset corresponds to the maximal ideal <fr:tex display="inline"><![CDATA[M = \mathbb {H}[x]-\{1\}]]></fr:tex>. This way under <fr:link href="/schm-5L35/" title="Structural sheaf on a general open" uri="https://www.my-great-forest.net/schm-5L35/" display-uri="schm-5L35" type="local">Proposition <fr:contextual-number uri="https://www.my-great-forest.net/schm-5L35/" display-uri="schm-5L35" /></fr:link>,
+  <fr:tex display="block"><![CDATA[ \Gamma \mathcal {O}_{\operatorname {Spec}\mathbb {H}[x]_+} \cong  \mathbb {H}[x]_M \cong  \mathbb {H}[x]. ]]></fr:tex>
+  The final isomorphism is an easy exercise. This means the open immersion <fr:tex display="inline"><![CDATA[\operatorname {Spec}\mathbb {H}[x]_+ \hookrightarrow  \operatorname {Spec}\mathbb {H}[x]]]></fr:tex> induces an isomorphism on global section. 
+</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>8</fr:day>
+                </fr:date>
+                <fr:uri>https://www.my-great-forest.net/schm-80MC/</fr:uri>
+                <fr:display-uri>schm-80MC</fr:display-uri>
+                <fr:route>/schm-80MC/</fr:route>
+                <fr:title text="A scheme is affine iff it is spectral">A scheme is affine iff it is spectral</fr:title>
+                <fr:taxon>Theorem</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter><html:p>
+  A scheme <fr:tex display="inline"><![CDATA[X]]></fr:tex> is affine iff its underlying topological space is <fr:link href="/topl-VV9N/" title="Spectral spaces" uri="https://www.my-great-forest.net/topl-VV9N/" display-uri="topl-VV9N" type="local">spectral</fr:link>, i.e. iff it is <html:em>compact</html:em> and <fr:link href="/topl-GW93/" title="Quasi-separated spaces" uri="https://www.my-great-forest.net/topl-GW93/" display-uri="topl-GW93" type="local">quasi-separated</fr:link>.
+</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>8</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  Let <fr:tex display="inline"><![CDATA[X]]></fr:tex> be a scheme whose underlying topological space is spectral. Let <fr:tex display="inline"><![CDATA[D]]></fr:tex> be the distributive lattice of compact open subsets of <fr:tex display="inline"><![CDATA[X]]></fr:tex>. Let <fr:tex display="inline"><![CDATA[\{U_i\}_{i\in  I}]]></fr:tex> be a finite family of affine open covers of <fr:tex display="inline"><![CDATA[X]]></fr:tex>. For any <fr:tex display="inline"><![CDATA[U_i]]></fr:tex>, since <fr:tex display="inline"><![CDATA[U_i]]></fr:tex> is affine, and affine schemes are determined by their underlying topological space (see <fr:link href="/schm-1I73/" title="Affine schemes are determined by topology" uri="https://www.my-great-forest.net/schm-1I73/" display-uri="schm-1I73" type="local">Remark <fr:contextual-number uri="https://www.my-great-forest.net/schm-1I73/" display-uri="schm-1I73" /></fr:link>), we must have <fr:tex display="inline"><![CDATA[\mathcal {O}_{U_i} \cong  D_i]]></fr:tex> where <fr:tex display="inline"><![CDATA[D_i]]></fr:tex> is the principle quotient of <fr:tex display="inline"><![CDATA[D]]></fr:tex> corresponding to the compact open <fr:tex display="inline"><![CDATA[U_i]]></fr:tex>. This way, <fr:tex display="inline"><![CDATA[\mathcal {O}_{X}]]></fr:tex> and <fr:tex display="inline"><![CDATA[\mathcal {O}_{D}]]></fr:tex> agree on this open cover, which implies that <fr:tex display="inline"><![CDATA[\mathcal {O}_{X} \cong  \mathcal {O}_{D}]]></fr:tex>.
+</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>8</fr:day>
+                </fr:date>
+                <fr:uri>https://www.my-great-forest.net/schm-DF6J/</fr:uri>
+                <fr:display-uri>schm-DF6J</fr:display-uri>
+                <fr:route>/schm-DF6J/</fr:route>
+                <fr:title text="Finite schemes are affine">Finite schemes are affine</fr:title>
+                <fr:taxon>Example</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+  As a corollary of <fr:link href="/schm-80MC/" title="A scheme is affine iff it is spectral" uri="https://www.my-great-forest.net/schm-80MC/" display-uri="schm-80MC" type="local">Theorem <fr:contextual-number uri="https://www.my-great-forest.net/schm-80MC/" display-uri="schm-80MC" /></fr:link>, if a scheme <fr:tex display="inline"><![CDATA[X]]></fr:tex> is finite, then it is affine, since finite sober spaces are all spectral.
+</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>8</fr:day>
+            </fr:date>
+            <fr:uri>https://www.my-great-forest.net/schm-8ES8/</fr:uri>
+            <fr:display-uri>schm-8ES8</fr:display-uri>
+            <fr:route>/schm-8ES8/</fr:route>
+            <fr:title text="Open subschemes and open immersion">Open subschemes and open immersion</fr:title>
+            <fr:taxon>Example</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  Let <fr:tex display="inline"><![CDATA[X]]></fr:tex> be a scheme, <fr:tex display="inline"><![CDATA[U]]></fr:tex> an open subset of <fr:tex display="inline"><![CDATA[X]]></fr:tex>. Then <fr:tex display="inline"><![CDATA[(U,\mathcal {O}_{X}|_U)]]></fr:tex> is again a scheme. There is a canonical inclusion <fr:tex display="inline"><![CDATA[U \hookrightarrow  X]]></fr:tex>. Morphisms of this form are called <html:em>open immersion</html:em>.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>8</fr:day>
+            </fr:date>
+            <fr:uri>https://www.my-great-forest.net/schm-5L35/</fr:uri>
+            <fr:display-uri>schm-5L35</fr:display-uri>
+            <fr:route>/schm-5L35/</fr:route>
+            <fr:title text="Structural sheaf on a general open">Structural sheaf on a general open</fr:title>
+            <fr:taxon>Proposition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>
+  For any distributive lattice <fr:tex display="inline"><![CDATA[D]]></fr:tex>, we use <fr:tex display="inline"><![CDATA[I]]></fr:tex> to denote the open set <fr:tex display="inline"><![CDATA[O_I]]></fr:tex> via <fr:link href="/idem-comm-HLDT/" title="Frame of opens of spectra" uri="https://www.my-great-forest.net/idem-comm-HLDT/" display-uri="idem-comm-HLDT" type="local">Proposition <fr:contextual-number uri="https://www.my-great-forest.net/idem-comm-HLDT/" display-uri="idem-comm-HLDT" /></fr:link>. Then <fr:tex display="inline"><![CDATA[\mathcal {O}_{D}(I) \cong  D_I]]></fr:tex>.
+</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>8</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  By the sheaf condition, <fr:tex display="inline"><![CDATA[\mathcal {O}_{D}(I)]]></fr:tex> is the following equaliser,
+  
+  <html:figure><fr:resource hash="e3fd1b8471c13076bf30652b422c6972"><fr:resource-content><html:img src="/e3fd1b8471c13076bf30652b422c6972.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[\usepackage {tikz-cd}\usepackage {quiver}]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+    \begin {tikzcd}
+      \mathcal  O_{D}(I) \ar [r, tail] & \prod _{p\in  I} D/p \ar [r, shift left] \ar [r, shift right] & \prod _{p,q\in  I} D/p\wedge  q
+    \end {tikzcd}
+  ]]></fr:resource-source></fr:resource></html:figure>
+
+  Hence, an element <fr:tex display="inline"><![CDATA[u\in \mathcal {O}_{D}(I)]]></fr:tex> is exactly a function <fr:tex display="inline"><![CDATA[u : I \to  D]]></fr:tex> such that
+  <html:ol><html:li><fr:tex display="inline"><![CDATA[u(i) \le  i]]></fr:tex> for all <fr:tex display="inline"><![CDATA[i\in  I]]></fr:tex>;</html:li>
+    <html:li><fr:tex display="inline"><![CDATA[u(i) \wedge  j = u(i \wedge  j)]]></fr:tex> for all <fr:tex display="inline"><![CDATA[i,j\in  I]]></fr:tex>.</html:li></html:ol>
+  This gives an <fr:tex display="inline"><![CDATA[I]]></fr:tex>-element, since for any <fr:tex display="inline"><![CDATA[a\in  D]]></fr:tex>,
+  <fr:tex display="block"><![CDATA[ u(i \wedge  a) = u(i \wedge  i \wedge  a) = u(i) \wedge  i \wedge  a = u(i) \wedge  a. ]]></fr:tex>
+  On the other hand, it suffices to show an <fr:tex display="inline"><![CDATA[I]]></fr:tex>-element is always contractive. But this is easy, since
+  <fr:tex display="block"><![CDATA[ u(i) = u(i \wedge  i) = u(i) \wedge  i. ]]></fr:tex>
+  Hence, <fr:tex display="inline"><![CDATA[\mathcal {O}_{D}(I)]]></fr:tex> is the set of all <fr:tex display="inline"><![CDATA[I]]></fr:tex>-elements of <fr:tex display="inline"><![CDATA[D]]></fr:tex>.
+</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>7</fr:day>
+            </fr:date>
+            <fr:uri>https://www.my-great-forest.net/idem-comm-HLDT/</fr:uri>
+            <fr:display-uri>idem-comm-HLDT</fr:display-uri>
+            <fr:route>/idem-comm-HLDT/</fr:route>
+            <fr:title text="Frame of opens of spectra">Frame of opens of spectra</fr:title>
+            <fr:taxon>Proposition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>
+  There is a bijection of frame of opens of <fr:tex display="inline"><![CDATA[\operatorname {Spec} D]]></fr:tex> with the frame <fr:tex display="inline"><![CDATA[\mathrm {Idl}(D)]]></fr:tex> of ideals of <fr:tex display="inline"><![CDATA[D]]></fr:tex>. For any ideal <fr:tex display="inline"><![CDATA[I]]></fr:tex>, the open subset <fr:tex display="inline"><![CDATA[O_I]]></fr:tex> it corresponds to is
+  <fr:tex display="block"><![CDATA[ O_I := \{x\in \operatorname {Spec} D\mid \exists  p \in  I.\  x \models  p\} = \bigcup _{p\in  I}O_p. ]]></fr:tex></html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>7</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  For simplicity, we construct a dual equivalence between closed sets and ideals of <fr:tex display="inline"><![CDATA[D]]></fr:tex>. By construction, let <fr:tex display="inline"><![CDATA[C_p]]></fr:tex> be the complement of <fr:tex display="inline"><![CDATA[O_p]]></fr:tex>, then the closed set <fr:tex display="inline"><![CDATA[C_I]]></fr:tex> corresponding to <fr:tex display="inline"><![CDATA[I]]></fr:tex> is given by 
+  <fr:tex display="block"><![CDATA[ C_I = \overline {O_I} = \bigcap _{p\in  I}C_p. ]]></fr:tex>
+  On the other hand, given any closed set <fr:tex display="inline"><![CDATA[C]]></fr:tex> we construct an ideal
+  <fr:tex display="block"><![CDATA[ I_C := \{p\in  D\mid \forall  x\in  C.\ x \not \models  p\}. ]]></fr:tex>
+  Verification is routine.
+</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>
