@@ -8,6 +8,7 @@
       <fr:month>6</fr:month>
       <fr:day>7</fr:day>
     </fr:date>
+    <fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/idem-comm-75C1.tree</fr:source-path>
     <fr:uri>https://charloced.github.io/idem-comm-75C1/</fr:uri>
     <fr:display-uri>idem-comm-75C1</fr:display-uri>
     <fr:route>/idem-comm-75C1/</fr:route>
@@ -44,6 +45,7 @@
               <fr:month>6</fr:month>
               <fr:day>7</fr:day>
             </fr:date>
+            <fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/idem-comm-IHKN.tree</fr:source-path>
             <fr:uri>https://charloced.github.io/idem-comm-IHKN/</fr:uri>
             <fr:display-uri>idem-comm-IHKN</fr:display-uri>
             <fr:route>/idem-comm-IHKN/</fr:route>
@@ -58,6 +60,7 @@
                   <fr:month>6</fr:month>
                   <fr:day>7</fr:day>
                 </fr:date>
+                <fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/idem-comm-75C1.tree</fr:source-path>
                 <fr:uri>https://charloced.github.io/idem-comm-75C1/</fr:uri>
                 <fr:display-uri>idem-comm-75C1</fr:display-uri>
                 <fr:route>/idem-comm-75C1/</fr:route>
@@ -77,6 +80,7 @@
                   <fr:month>6</fr:month>
                   <fr:day>7</fr:day>
                 </fr:date>
+                <fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/idem-comm-E2I8.tree</fr:source-path>
                 <fr:uri>https://charloced.github.io/idem-comm-E2I8/</fr:uri>
                 <fr:display-uri>idem-comm-E2I8</fr:display-uri>
                 <fr:route>/idem-comm-E2I8/</fr:route>
@@ -100,6 +104,7 @@
                   <fr:month>6</fr:month>
                   <fr:day>7</fr:day>
                 </fr:date>
+                <fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/idem-comm-4UND.tree</fr:source-path>
                 <fr:uri>https://charloced.github.io/idem-comm-4UND/</fr:uri>
                 <fr:display-uri>idem-comm-4UND</fr:display-uri>
                 <fr:route>/idem-comm-4UND/</fr:route>
@@ -120,6 +125,7 @@
                   <fr:month>6</fr:month>
                   <fr:day>7</fr:day>
                 </fr:date>
+                <fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/idem-comm-EV8L.tree</fr:source-path>
                 <fr:uri>https://charloced.github.io/idem-comm-EV8L/</fr:uri>
                 <fr:display-uri>idem-comm-EV8L</fr:display-uri>
                 <fr:route>/idem-comm-EV8L/</fr:route>
@@ -131,7 +137,7 @@
 </html:p>
  
    
-   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>7</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>7</fr:day></fr:date><fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/idem-comm-EV8L.tree</fr:source-path><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
   By <fr:link href="/idem-comm-W57Q/" title="Prime ideals of pro-open quotient" uri="https://charloced.github.io/idem-comm-W57Q/" display-uri="idem-comm-W57Q" type="local">Proposition <fr:contextual-number uri="https://charloced.github.io/idem-comm-W57Q/" display-uri="idem-comm-W57Q" /></fr:link>, the inverse image of the quotient <fr:tex display="inline"><![CDATA[f : D \twoheadrightarrow  D/F]]></fr:tex> gives a one-to-one correspondence between prime filters in <fr:tex display="inline"><![CDATA[D/F]]></fr:tex> and prime filters containing <fr:tex display="inline"><![CDATA[F]]></fr:tex>. This way, <fr:tex display="inline"><![CDATA[D/F]]></fr:tex> is local iff <fr:tex display="inline"><![CDATA[\{1\}]]></fr:tex> is prime, in which case <fr:tex display="inline"><![CDATA[F]]></fr:tex> must be prime. The case for maximality follows from the fact that <fr:tex display="inline"><![CDATA[2]]></fr:tex> is the only distributive lattice with only one prime filter.
 </fr:mainmatter></fr:tree>
  
@@ -145,6 +151,7 @@
                   <fr:month>6</fr:month>
                   <fr:day>7</fr:day>
                 </fr:date>
+                <fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/idem-comm-E7E2.tree</fr:source-path>
                 <fr:uri>https://charloced.github.io/idem-comm-E7E2/</fr:uri>
                 <fr:display-uri>idem-comm-E7E2</fr:display-uri>
                 <fr:route>/idem-comm-E7E2/</fr:route>
@@ -175,6 +182,7 @@
               <fr:month>6</fr:month>
               <fr:day>9</fr:day>
             </fr:date>
+            <fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/idem-comm-487K.tree</fr:source-path>
             <fr:uri>https://charloced.github.io/idem-comm-487K/</fr:uri>
             <fr:display-uri>idem-comm-487K</fr:display-uri>
             <fr:route>/idem-comm-487K/</fr:route>
@@ -195,6 +203,7 @@
               <fr:month>6</fr:month>
               <fr:day>8</fr:day>
             </fr:date>
+            <fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/schm-B6QO.tree</fr:source-path>
             <fr:uri>https://charloced.github.io/schm-B6QO/</fr:uri>
             <fr:display-uri>schm-B6QO</fr:display-uri>
             <fr:route>/schm-B6QO/</fr:route>
@@ -217,6 +226,7 @@
               <fr:month>6</fr:month>
               <fr:day>8</fr:day>
             </fr:date>
+            <fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/schm-ZBG1.tree</fr:source-path>
             <fr:uri>https://charloced.github.io/schm-ZBG1/</fr:uri>
             <fr:display-uri>schm-ZBG1</fr:display-uri>
             <fr:route>/schm-ZBG1/</fr:route>
@@ -227,7 +237,7 @@
 </html:p>
  
    
-   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>8</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>8</fr:day></fr:date><fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/schm-ZBG1.tree</fr:source-path><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
   We verify the sheaf condition. Again since <fr:tex display="inline"><![CDATA[O_p \cong  \operatorname {Spec} D/p]]></fr:tex>, we only need to verify the sheaf condition on the total space <fr:tex display="inline"><![CDATA[\operatorname {Spec} D]]></fr:tex>. By compactness, let us consider a finite union
   <fr:tex display="block"><![CDATA[ \operatorname {Spec} D = \bigcup _{i\le  n}O_{p_i} = O_{\bigvee _{i\le  n}p_i}, ]]></fr:tex>
   which is equivalent to the fact that <fr:tex display="inline"><![CDATA[\bigvee _{i\le  n}p_i = 1]]></fr:tex>. Now suppose we have a compatible family of elements <fr:tex display="inline"><![CDATA[q_i \in  D_{p_i}]]></fr:tex> for all <fr:tex display="inline"><![CDATA[i]]></fr:tex>. Compatibility means
@@ -251,6 +261,7 @@
               <fr:month>6</fr:month>
               <fr:day>7</fr:day>
             </fr:date>
+            <fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/idem-comm-E2I8.tree</fr:source-path>
             <fr:uri>https://charloced.github.io/idem-comm-E2I8/</fr:uri>
             <fr:display-uri>idem-comm-E2I8</fr:display-uri>
             <fr:route>/idem-comm-E2I8/</fr:route>
@@ -274,6 +285,7 @@
               <fr:month>6</fr:month>
               <fr:day>7</fr:day>
             </fr:date>
+            <fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/idem-comm-EV8L.tree</fr:source-path>
             <fr:uri>https://charloced.github.io/idem-comm-EV8L/</fr:uri>
             <fr:display-uri>idem-comm-EV8L</fr:display-uri>
             <fr:route>/idem-comm-EV8L/</fr:route>
@@ -285,7 +297,7 @@
 </html:p>
  
    
-   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>7</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>7</fr:day></fr:date><fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/idem-comm-EV8L.tree</fr:source-path><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
   By <fr:link href="/idem-comm-W57Q/" title="Prime ideals of pro-open quotient" uri="https://charloced.github.io/idem-comm-W57Q/" display-uri="idem-comm-W57Q" type="local">Proposition <fr:contextual-number uri="https://charloced.github.io/idem-comm-W57Q/" display-uri="idem-comm-W57Q" /></fr:link>, the inverse image of the quotient <fr:tex display="inline"><![CDATA[f : D \twoheadrightarrow  D/F]]></fr:tex> gives a one-to-one correspondence between prime filters in <fr:tex display="inline"><![CDATA[D/F]]></fr:tex> and prime filters containing <fr:tex display="inline"><![CDATA[F]]></fr:tex>. This way, <fr:tex display="inline"><![CDATA[D/F]]></fr:tex> is local iff <fr:tex display="inline"><![CDATA[\{1\}]]></fr:tex> is prime, in which case <fr:tex display="inline"><![CDATA[F]]></fr:tex> must be prime. The case for maximality follows from the fact that <fr:tex display="inline"><![CDATA[2]]></fr:tex> is the only distributive lattice with only one prime filter.
 </fr:mainmatter></fr:tree>
  

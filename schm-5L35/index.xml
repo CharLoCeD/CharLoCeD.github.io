@@ -8,6 +8,7 @@
       <fr:month>6</fr:month>
       <fr:day>8</fr:day>
     </fr:date>
+    <fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/schm-5L35.tree</fr:source-path>
     <fr:uri>https://charloced.github.io/schm-5L35/</fr:uri>
     <fr:display-uri>schm-5L35</fr:display-uri>
     <fr:route>/schm-5L35/</fr:route>
@@ -19,7 +20,7 @@
 </html:p>
  
    
-   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>8</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>8</fr:day></fr:date><fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/schm-5L35.tree</fr:source-path><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
   By the sheaf condition, <fr:tex display="inline"><![CDATA[\mathcal {O}_{D}(I)]]></fr:tex> is the following equaliser,
   
   <html:figure><fr:resource hash="e3fd1b8471c13076bf30652b422c6972"><fr:resource-content><html:img src="/e3fd1b8471c13076bf30652b422c6972.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[\usepackage {tikz-cd}\usepackage {quiver}]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
@@ -65,6 +66,7 @@
               <fr:month>6</fr:month>
               <fr:day>8</fr:day>
             </fr:date>
+            <fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/schm-DDII.tree</fr:source-path>
             <fr:uri>https://charloced.github.io/schm-DDII/</fr:uri>
             <fr:display-uri>schm-DDII</fr:display-uri>
             <fr:route>/schm-DDII/</fr:route>
@@ -79,6 +81,7 @@
                   <fr:month>6</fr:month>
                   <fr:day>8</fr:day>
                 </fr:date>
+                <fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/schm-AGNC.tree</fr:source-path>
                 <fr:uri>https://charloced.github.io/schm-AGNC/</fr:uri>
                 <fr:display-uri>schm-AGNC</fr:display-uri>
                 <fr:route>/schm-AGNC/</fr:route>
@@ -101,6 +104,7 @@
                   <fr:month>6</fr:month>
                   <fr:day>8</fr:day>
                 </fr:date>
+                <fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/schm-B6QO.tree</fr:source-path>
                 <fr:uri>https://charloced.github.io/schm-B6QO/</fr:uri>
                 <fr:display-uri>schm-B6QO</fr:display-uri>
                 <fr:route>/schm-B6QO/</fr:route>
@@ -123,6 +127,7 @@
                   <fr:month>6</fr:month>
                   <fr:day>8</fr:day>
                 </fr:date>
+                <fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/schm-ZBG1.tree</fr:source-path>
                 <fr:uri>https://charloced.github.io/schm-ZBG1/</fr:uri>
                 <fr:display-uri>schm-ZBG1</fr:display-uri>
                 <fr:route>/schm-ZBG1/</fr:route>
@@ -133,7 +138,7 @@
 </html:p>
  
    
-   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>8</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>8</fr:day></fr:date><fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/schm-ZBG1.tree</fr:source-path><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
   We verify the sheaf condition. Again since <fr:tex display="inline"><![CDATA[O_p \cong  \operatorname {Spec} D/p]]></fr:tex>, we only need to verify the sheaf condition on the total space <fr:tex display="inline"><![CDATA[\operatorname {Spec} D]]></fr:tex>. By compactness, let us consider a finite union
   <fr:tex display="block"><![CDATA[ \operatorname {Spec} D = \bigcup _{i\le  n}O_{p_i} = O_{\bigvee _{i\le  n}p_i}, ]]></fr:tex>
   which is equivalent to the fact that <fr:tex display="inline"><![CDATA[\bigvee _{i\le  n}p_i = 1]]></fr:tex>. Now suppose we have a compatible family of elements <fr:tex display="inline"><![CDATA[q_i \in  D_{p_i}]]></fr:tex> for all <fr:tex display="inline"><![CDATA[i]]></fr:tex>. Compatibility means
@@ -157,6 +162,7 @@
                   <fr:month>6</fr:month>
                   <fr:day>8</fr:day>
                 </fr:date>
+                <fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/schm-1Y0Q.tree</fr:source-path>
                 <fr:uri>https://charloced.github.io/schm-1Y0Q/</fr:uri>
                 <fr:display-uri>schm-1Y0Q</fr:display-uri>
                 <fr:route>/schm-1Y0Q/</fr:route>
@@ -179,6 +185,7 @@
                   <fr:month>6</fr:month>
                   <fr:day>8</fr:day>
                 </fr:date>
+                <fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/schm-5L35.tree</fr:source-path>
                 <fr:uri>https://charloced.github.io/schm-5L35/</fr:uri>
                 <fr:display-uri>schm-5L35</fr:display-uri>
                 <fr:route>/schm-5L35/</fr:route>
@@ -190,7 +197,7 @@
 </html:p>
  
    
-   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>8</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>8</fr:day></fr:date><fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/schm-5L35.tree</fr:source-path><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
   By the sheaf condition, <fr:tex display="inline"><![CDATA[\mathcal {O}_{D}(I)]]></fr:tex> is the following equaliser,
   
   <html:figure><fr:resource hash="e3fd1b8471c13076bf30652b422c6972"><fr:resource-content><html:img src="/e3fd1b8471c13076bf30652b422c6972.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[\usepackage {tikz-cd}\usepackage {quiver}]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
@@ -227,8 +234,68 @@
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>6</fr:month>
+              <fr:day>10</fr:day>
+            </fr:date>
+            <fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/schm-ISYJ.tree</fr:source-path>
+            <fr:uri>https://charloced.github.io/schm-ISYJ/</fr:uri>
+            <fr:display-uri>schm-ISYJ</fr:display-uri>
+            <fr:route>/schm-ISYJ/</fr:route>
+            <fr:title text="Structural sheaves of integral affine schemes have f-conservative transition maps">Structural sheaves of integral affine schemes have f-conservative transition maps</fr:title>
+            <fr:taxon>Lemma</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>
+  For an integral affine scheme <fr:tex display="inline"><![CDATA[\operatorname {Spec} D]]></fr:tex>, for two non-trivial ideals <fr:tex display="inline"><![CDATA[J \subseteq  I]]></fr:tex>, the restriction map (cf. <fr:link href="/schm-5L35/" title="Structural sheaf on a general open" uri="https://charloced.github.io/schm-5L35/" display-uri="schm-5L35" type="local">Proposition <fr:contextual-number uri="https://charloced.github.io/schm-5L35/" display-uri="schm-5L35" /></fr:link>) <fr:tex display="inline"><![CDATA[D_I \to  D_J]]></fr:tex> is <fr:link href="/idem-comm-QQEF/" title="T-conservative and f-conservative maps" uri="https://charloced.github.io/idem-comm-QQEF/" display-uri="idem-comm-QQEF" type="local">f-conservative</fr:link>.
+</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>10</fr:day></fr:date><fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/schm-ISYJ.tree</fr:source-path><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  Since <fr:tex display="inline"><![CDATA[J]]></fr:tex> is non-trivial, pick some <fr:tex display="inline"><![CDATA[j\in  J]]></fr:tex> with <fr:tex display="inline"><![CDATA[j\neq  0]]></fr:tex>. Now suppose <fr:tex display="inline"><![CDATA[u|_{O_J} = 0]]></fr:tex> for some <fr:tex display="inline"><![CDATA[u\in  D_I]]></fr:tex>. This way, for any <fr:tex display="inline"><![CDATA[i\in  I]]></fr:tex> we have
+  <fr:tex display="block"><![CDATA[ u(i) \wedge  j = u(i \wedge  j) = 0. ]]></fr:tex>
+  By <fr:tex display="inline"><![CDATA[D]]></fr:tex> being integral, it means <fr:tex display="inline"><![CDATA[u(i) = 0]]></fr:tex>, thus <fr:tex display="inline"><![CDATA[u = 0]]></fr:tex> in <fr:tex display="inline"><![CDATA[D_I]]></fr:tex>.
+</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>10</fr:day>
+            </fr:date>
+            <fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/schm-OYHY.tree</fr:source-path>
+            <fr:uri>https://charloced.github.io/schm-OYHY/</fr:uri>
+            <fr:display-uri>schm-OYHY</fr:display-uri>
+            <fr:route>/schm-OYHY/</fr:route>
+            <fr:title text="Affine schemes of integral distributive lattices are integral">Affine schemes of integral distributive lattices are integral</fr:title>
+            <fr:taxon>Lemma</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p><fr:tex display="inline"><![CDATA[D]]></fr:tex> is <fr:link href="/idem-comm-487K/" title="Integral distributive lattices" uri="https://charloced.github.io/idem-comm-487K/" display-uri="idem-comm-487K" type="local">integral</fr:link> iff <fr:tex display="inline"><![CDATA[\operatorname {Spec} D]]></fr:tex> is <fr:link href="/schm-9U1B/" title="Integral schemes" uri="https://charloced.github.io/schm-9U1B/" display-uri="schm-9U1B" type="local">integral</fr:link>.
+</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>10</fr:day></fr:date><fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/schm-OYHY.tree</fr:source-path><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  Suppose <fr:tex display="inline"><![CDATA[D]]></fr:tex> is integral. By <fr:link href="/schm-EREC/" title="Frame of opens of a general scheme" uri="https://charloced.github.io/schm-EREC/" display-uri="schm-EREC" type="local">Proposition <fr:contextual-number uri="https://charloced.github.io/schm-EREC/" display-uri="schm-EREC" /></fr:link> an arbitrary open subset corresponds to an ideal <fr:tex display="inline"><![CDATA[I]]></fr:tex>. Recall from <fr:link href="/schm-5L35/" title="Structural sheaf on a general open" uri="https://charloced.github.io/schm-5L35/" display-uri="schm-5L35" type="local">Proposition <fr:contextual-number uri="https://charloced.github.io/schm-5L35/" display-uri="schm-5L35" /></fr:link>, the value <fr:tex display="inline"><![CDATA[\mathcal {O}_{D}(O_I)]]></fr:tex> is <fr:tex display="inline"><![CDATA[D_I]]></fr:tex>, the lattice of <fr:link href="/schm-1Y0Q/" title="Partial element of a distributive lattice" uri="https://charloced.github.io/schm-1Y0Q/" display-uri="schm-1Y0Q" type="local"><fr:tex display="inline"><![CDATA[I]]></fr:tex>-elements</fr:link> of <fr:tex display="inline"><![CDATA[D]]></fr:tex>. Let <fr:tex display="inline"><![CDATA[u,v\in  D_I]]></fr:tex> with <fr:tex display="inline"><![CDATA[u \wedge  v = 0]]></fr:tex>. This means that for all <fr:tex display="inline"><![CDATA[i\in  I]]></fr:tex>, <fr:tex display="inline"><![CDATA[u(i) \wedge  v(i) = 0]]></fr:tex>. We show if <fr:tex display="inline"><![CDATA[u(i) \neq  0]]></fr:tex> for some <fr:tex display="inline"><![CDATA[i\in  I]]></fr:tex>, then <fr:tex display="inline"><![CDATA[v = 0]]></fr:tex>. For any <fr:tex display="inline"><![CDATA[j\in  I]]></fr:tex>, we have
+  <fr:tex display="block"><![CDATA[ v(j) \wedge  u(i) \le  j \wedge  u(i) = u(i \wedge  j). ]]></fr:tex>
+  Similarly,
+  <fr:tex display="block"><![CDATA[ v(j) \wedge  u(i) \le  v(j) \wedge  i = v(i\wedge  j), ]]></fr:tex>
+  which implies that 
+  <fr:tex display="block"><![CDATA[ v(j) \wedge  u(i) \le  u(i \wedge  j) \wedge  v(i \wedge  j) = (u \wedge  v)(i \wedge  j) = 0. ]]></fr:tex>
+  Hence, since <fr:tex display="inline"><![CDATA[D]]></fr:tex> is integral and <fr:tex display="inline"><![CDATA[u(i) \neq  0]]></fr:tex>, we must have <fr:tex display="inline"><![CDATA[v(j) = 0]]></fr:tex>, for all <fr:tex display="inline"><![CDATA[j\in  I]]></fr:tex>. This proves <fr:tex display="inline"><![CDATA[D_I]]></fr:tex> is also integral.
+</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
               <fr:day>8</fr:day>
             </fr:date>
+            <fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/schm-LRJP.tree</fr:source-path>
             <fr:uri>https://charloced.github.io/schm-LRJP/</fr:uri>
             <fr:display-uri>schm-LRJP</fr:display-uri>
             <fr:route>/schm-LRJP/</fr:route>
@@ -292,6 +359,7 @@
               <fr:month>6</fr:month>
               <fr:day>7</fr:day>
             </fr:date>
+            <fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/idem-comm-HLDT.tree</fr:source-path>
             <fr:uri>https://charloced.github.io/idem-comm-HLDT/</fr:uri>
             <fr:display-uri>idem-comm-HLDT</fr:display-uri>
             <fr:route>/idem-comm-HLDT/</fr:route>
@@ -303,7 +371,7 @@
   <fr:tex display="block"><![CDATA[ O_I := \{x\in \operatorname {Spec} D\mid \exists  p \in  I.\  x \models  p\} = \bigcup _{p\in  I}O_p. ]]></fr:tex></html:p>
  
    
-   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>7</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>7</fr:day></fr:date><fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/idem-comm-HLDT.tree</fr:source-path><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
   For simplicity, we construct a dual equivalence between closed sets and ideals of <fr:tex display="inline"><![CDATA[D]]></fr:tex>. By construction, let <fr:tex display="inline"><![CDATA[C_p]]></fr:tex> be the complement of <fr:tex display="inline"><![CDATA[O_p]]></fr:tex>, then the closed set <fr:tex display="inline"><![CDATA[C_I]]></fr:tex> corresponding to <fr:tex display="inline"><![CDATA[I]]></fr:tex> is given by 
   <fr:tex display="block"><![CDATA[ C_I = \overline {O_I} = \bigcap _{p\in  I}C_p. ]]></fr:tex>
   On the other hand, given any closed set <fr:tex display="inline"><![CDATA[C]]></fr:tex> we construct an ideal
