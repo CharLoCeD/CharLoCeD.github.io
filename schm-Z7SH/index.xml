@@ -8,7 +8,6 @@
       <fr:month>6</fr:month>
       <fr:day>10</fr:day>
     </fr:date>
-    <fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/schm-Z7SH.tree</fr:source-path>
     <fr:uri>https://charloced.github.io/schm-Z7SH/</fr:uri>
     <fr:display-uri>schm-Z7SH</fr:display-uri>
     <fr:route>/schm-Z7SH/</fr:route>
@@ -46,7 +45,6 @@
               <fr:month>6</fr:month>
               <fr:day>10</fr:day>
             </fr:date>
-            <fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/schm-DEM8.tree</fr:source-path>
             <fr:uri>https://charloced.github.io/schm-DEM8/</fr:uri>
             <fr:display-uri>schm-DEM8</fr:display-uri>
             <fr:route>/schm-DEM8/</fr:route>
@@ -61,7 +59,6 @@
                   <fr:month>6</fr:month>
                   <fr:day>9</fr:day>
                 </fr:date>
-                <fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/schm-H9PK.tree</fr:source-path>
                 <fr:uri>https://charloced.github.io/schm-H9PK/</fr:uri>
                 <fr:display-uri>schm-H9PK</fr:display-uri>
                 <fr:route>/schm-H9PK/</fr:route>
@@ -82,7 +79,6 @@
                   <fr:month>6</fr:month>
                   <fr:day>10</fr:day>
                 </fr:date>
-                <fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/schm-Z7SH.tree</fr:source-path>
                 <fr:uri>https://charloced.github.io/schm-Z7SH/</fr:uri>
                 <fr:display-uri>schm-Z7SH</fr:display-uri>
                 <fr:route>/schm-Z7SH/</fr:route>
@@ -120,7 +116,6 @@
               <fr:month>6</fr:month>
               <fr:day>9</fr:day>
             </fr:date>
-            <fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/schm-H9PK.tree</fr:source-path>
             <fr:uri>https://charloced.github.io/schm-H9PK/</fr:uri>
             <fr:display-uri>schm-H9PK</fr:display-uri>
             <fr:route>/schm-H9PK/</fr:route>
@@ -141,7 +136,6 @@
               <fr:month>6</fr:month>
               <fr:day>8</fr:day>
             </fr:date>
-            <fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/schm-LRJP.tree</fr:source-path>
             <fr:uri>https://charloced.github.io/schm-LRJP/</fr:uri>
             <fr:display-uri>schm-LRJP</fr:display-uri>
             <fr:route>/schm-LRJP/</fr:route>

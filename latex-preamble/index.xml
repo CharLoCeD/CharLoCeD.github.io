@@ -3,7 +3,6 @@
 <fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/">
   <fr:frontmatter>
     <fr:authors />
-    <fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/latex-preamble.tree</fr:source-path>
     <fr:uri>https://charloced.github.io/latex-preamble/</fr:uri>
     <fr:display-uri>latex-preamble</fr:display-uri>
     <fr:route>/latex-preamble/</fr:route>

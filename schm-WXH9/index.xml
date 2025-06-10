@@ -8,7 +8,6 @@
       <fr:month>6</fr:month>
       <fr:day>10</fr:day>
     </fr:date>
-    <fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/schm-WXH9.tree</fr:source-path>
     <fr:uri>https://charloced.github.io/schm-WXH9/</fr:uri>
     <fr:display-uri>schm-WXH9</fr:display-uri>
     <fr:route>/schm-WXH9/</fr:route>
@@ -20,7 +19,7 @@
 </html:p>
  
    
-   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>10</fr:day></fr:date><fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/schm-WXH9.tree</fr:source-path><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>10</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
   Since <fr:tex display="inline"><![CDATA[\operatorname {Spec} D]]></fr:tex> is <fr:link href="/topl-FII1/" title="Sober spaces" uri="https://charloced.github.io/topl-FII1/" display-uri="topl-FII1" type="local">sober</fr:link> by <fr:link href="/idem-comm-EA6S/" title="Spectra are spectral spaces" uri="https://charloced.github.io/idem-comm-EA6S/" display-uri="idem-comm-EA6S" type="local">Theorem <fr:contextual-number uri="https://charloced.github.io/idem-comm-EA6S/" display-uri="idem-comm-EA6S" /></fr:link>, it is irreducible iff it has a generic point, i.e. iff <fr:tex display="inline"><![CDATA[D]]></fr:tex> has a unique maximal filter. This holds iff <fr:tex display="inline"><![CDATA[D]]></fr:tex> is integral by the dual statement of <fr:link href="/idem-comm-EV8L/" title="Quotient of prime filters are local" uri="https://charloced.github.io/idem-comm-EV8L/" display-uri="idem-comm-EV8L" type="local">Proposition <fr:contextual-number uri="https://charloced.github.io/idem-comm-EV8L/" display-uri="idem-comm-EV8L" /></fr:link>.
 </fr:mainmatter></fr:tree>
  
@@ -51,7 +50,6 @@
               <fr:month>6</fr:month>
               <fr:day>10</fr:day>
             </fr:date>
-            <fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/schm-BVF7.tree</fr:source-path>
             <fr:uri>https://charloced.github.io/schm-BVF7/</fr:uri>
             <fr:display-uri>schm-BVF7</fr:display-uri>
             <fr:route>/schm-BVF7/</fr:route>
@@ -66,7 +64,6 @@
                   <fr:month>6</fr:month>
                   <fr:day>10</fr:day>
                 </fr:date>
-                <fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/schm-HKT4.tree</fr:source-path>
                 <fr:uri>https://charloced.github.io/schm-HKT4/</fr:uri>
                 <fr:display-uri>schm-HKT4</fr:display-uri>
                 <fr:route>/schm-HKT4/</fr:route>
@@ -87,7 +84,6 @@
                   <fr:month>6</fr:month>
                   <fr:day>10</fr:day>
                 </fr:date>
-                <fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/schm-WXH9.tree</fr:source-path>
                 <fr:uri>https://charloced.github.io/schm-WXH9/</fr:uri>
                 <fr:display-uri>schm-WXH9</fr:display-uri>
                 <fr:route>/schm-WXH9/</fr:route>
@@ -99,7 +95,7 @@
 </html:p>
  
    
-   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>10</fr:day></fr:date><fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/schm-WXH9.tree</fr:source-path><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>10</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
   Since <fr:tex display="inline"><![CDATA[\operatorname {Spec} D]]></fr:tex> is <fr:link href="/topl-FII1/" title="Sober spaces" uri="https://charloced.github.io/topl-FII1/" display-uri="topl-FII1" type="local">sober</fr:link> by <fr:link href="/idem-comm-EA6S/" title="Spectra are spectral spaces" uri="https://charloced.github.io/idem-comm-EA6S/" display-uri="idem-comm-EA6S" type="local">Theorem <fr:contextual-number uri="https://charloced.github.io/idem-comm-EA6S/" display-uri="idem-comm-EA6S" /></fr:link>, it is irreducible iff it has a generic point, i.e. iff <fr:tex display="inline"><![CDATA[D]]></fr:tex> has a unique maximal filter. This holds iff <fr:tex display="inline"><![CDATA[D]]></fr:tex> is integral by the dual statement of <fr:link href="/idem-comm-EV8L/" title="Quotient of prime filters are local" uri="https://charloced.github.io/idem-comm-EV8L/" display-uri="idem-comm-EV8L" type="local">Proposition <fr:contextual-number uri="https://charloced.github.io/idem-comm-EV8L/" display-uri="idem-comm-EV8L" /></fr:link>.
 </fr:mainmatter></fr:tree>
  
@@ -116,7 +112,6 @@
                   <fr:month>6</fr:month>
                   <fr:day>9</fr:day>
                 </fr:date>
-                <fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/schm-9U1B.tree</fr:source-path>
                 <fr:uri>https://charloced.github.io/schm-9U1B/</fr:uri>
                 <fr:display-uri>schm-9U1B</fr:display-uri>
                 <fr:route>/schm-9U1B/</fr:route>
@@ -137,7 +132,6 @@
                   <fr:month>6</fr:month>
                   <fr:day>10</fr:day>
                 </fr:date>
-                <fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/schm-7GOV.tree</fr:source-path>
                 <fr:uri>https://charloced.github.io/schm-7GOV/</fr:uri>
                 <fr:display-uri>schm-7GOV</fr:display-uri>
                 <fr:route>/schm-7GOV/</fr:route>
@@ -161,7 +155,6 @@
                   <fr:month>6</fr:month>
                   <fr:day>10</fr:day>
                 </fr:date>
-                <fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/schm-OYHY.tree</fr:source-path>
                 <fr:uri>https://charloced.github.io/schm-OYHY/</fr:uri>
                 <fr:display-uri>schm-OYHY</fr:display-uri>
                 <fr:route>/schm-OYHY/</fr:route>
@@ -172,7 +165,7 @@
 </html:p>
  
    
-   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>10</fr:day></fr:date><fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/schm-OYHY.tree</fr:source-path><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>10</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
   Suppose <fr:tex display="inline"><![CDATA[D]]></fr:tex> is integral. By <fr:link href="/schm-EREC/" title="Frame of opens of a general scheme" uri="https://charloced.github.io/schm-EREC/" display-uri="schm-EREC" type="local">Proposition <fr:contextual-number uri="https://charloced.github.io/schm-EREC/" display-uri="schm-EREC" /></fr:link> an arbitrary open subset corresponds to an ideal <fr:tex display="inline"><![CDATA[I]]></fr:tex>. Recall from <fr:link href="/schm-5L35/" title="Structural sheaf on a general open" uri="https://charloced.github.io/schm-5L35/" display-uri="schm-5L35" type="local">Proposition <fr:contextual-number uri="https://charloced.github.io/schm-5L35/" display-uri="schm-5L35" /></fr:link>, the value <fr:tex display="inline"><![CDATA[\mathcal {O}_{D}(O_I)]]></fr:tex> is <fr:tex display="inline"><![CDATA[D_I]]></fr:tex>, the lattice of <fr:link href="/schm-1Y0Q/" title="Partial element of a distributive lattice" uri="https://charloced.github.io/schm-1Y0Q/" display-uri="schm-1Y0Q" type="local"><fr:tex display="inline"><![CDATA[I]]></fr:tex>-elements</fr:link> of <fr:tex display="inline"><![CDATA[D]]></fr:tex>. Let <fr:tex display="inline"><![CDATA[u,v\in  D_I]]></fr:tex> with <fr:tex display="inline"><![CDATA[u \wedge  v = 0]]></fr:tex>. This means that for all <fr:tex display="inline"><![CDATA[i\in  I]]></fr:tex>, <fr:tex display="inline"><![CDATA[u(i) \wedge  v(i) = 0]]></fr:tex>. We show if <fr:tex display="inline"><![CDATA[u(i) \neq  0]]></fr:tex> for some <fr:tex display="inline"><![CDATA[i\in  I]]></fr:tex>, then <fr:tex display="inline"><![CDATA[v = 0]]></fr:tex>. For any <fr:tex display="inline"><![CDATA[j\in  I]]></fr:tex>, we have
   <fr:tex display="block"><![CDATA[ v(j) \wedge  u(i) \le  j \wedge  u(i) = u(i \wedge  j). ]]></fr:tex>
   Similarly,
@@ -192,7 +185,6 @@
                   <fr:month>6</fr:month>
                   <fr:day>10</fr:day>
                 </fr:date>
-                <fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/schm-ISYJ.tree</fr:source-path>
                 <fr:uri>https://charloced.github.io/schm-ISYJ/</fr:uri>
                 <fr:display-uri>schm-ISYJ</fr:display-uri>
                 <fr:route>/schm-ISYJ/</fr:route>
@@ -204,7 +196,7 @@
 </html:p>
  
    
-   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>10</fr:day></fr:date><fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/schm-ISYJ.tree</fr:source-path><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>10</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
   Since <fr:tex display="inline"><![CDATA[J]]></fr:tex> is non-trivial, pick some <fr:tex display="inline"><![CDATA[j\in  J]]></fr:tex> with <fr:tex display="inline"><![CDATA[j\neq  0]]></fr:tex>. Now suppose <fr:tex display="inline"><![CDATA[u|_{O_J} = 0]]></fr:tex> for some <fr:tex display="inline"><![CDATA[u\in  D_I]]></fr:tex>. This way, for any <fr:tex display="inline"><![CDATA[i\in  I]]></fr:tex> we have
   <fr:tex display="block"><![CDATA[ u(i) \wedge  j = u(i \wedge  j) = 0. ]]></fr:tex>
   By <fr:tex display="inline"><![CDATA[D]]></fr:tex> being integral, it means <fr:tex display="inline"><![CDATA[u(i) = 0]]></fr:tex>, thus <fr:tex display="inline"><![CDATA[u = 0]]></fr:tex> in <fr:tex display="inline"><![CDATA[D_I]]></fr:tex>.
@@ -220,7 +212,6 @@
                   <fr:month>6</fr:month>
                   <fr:day>9</fr:day>
                 </fr:date>
-                <fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/schm-7J9T.tree</fr:source-path>
                 <fr:uri>https://charloced.github.io/schm-7J9T/</fr:uri>
                 <fr:display-uri>schm-7J9T</fr:display-uri>
                 <fr:route>/schm-7J9T/</fr:route>
@@ -232,7 +223,7 @@
 </html:p>
  
    
-   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>9</fr:day></fr:date><fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/schm-7J9T.tree</fr:source-path><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>9</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
   <html:p>For <fr:tex display="inline"><![CDATA[\Leftarrow ]]></fr:tex>, if <fr:tex display="inline"><![CDATA[X]]></fr:tex> is not irreducible, then we can find two non-empty but disjoint opens <fr:tex display="inline"><![CDATA[U,V]]></fr:tex>. This way, <fr:tex display="inline"><![CDATA[\mathcal {O}_{X}(U \cup  V) \cong  \mathcal {O}_{X}(U) \times  \mathcal {O}_{X}(V)]]></fr:tex>, which is not integral.</html:p>
 
   <html:p>For <fr:tex display="inline"><![CDATA[\Rightarrow ]]></fr:tex>, if <fr:tex display="inline"><![CDATA[X]]></fr:tex> is irreducible then so is any affine open, and by <fr:link href="/schm-OYHY/" title="Affine schemes of integral distributive lattices are integral" uri="https://charloced.github.io/schm-OYHY/" display-uri="schm-OYHY" type="local">Lemma <fr:contextual-number uri="https://charloced.github.io/schm-OYHY/" display-uri="schm-OYHY" /></fr:link> they are all integral. For any open <fr:tex display="inline"><![CDATA[U]]></fr:tex>, to show <fr:tex display="inline"><![CDATA[\mathcal {O}_{X}(U)]]></fr:tex> is integral, we pick a non-empty affine open <fr:tex display="inline"><![CDATA[V\subseteq  U]]></fr:tex>. The restriction map <fr:tex display="inline"><![CDATA[\mathcal {O}_{X}(U) \to  \mathcal {O}_{X}(V)]]></fr:tex> is f-conservative by <fr:link href="/schm-ISYJ/" title="Structural sheaves of integral affine schemes have f-conservative transition maps" uri="https://charloced.github.io/schm-ISYJ/" display-uri="schm-ISYJ" type="local">Lemma <fr:contextual-number uri="https://charloced.github.io/schm-ISYJ/" display-uri="schm-ISYJ" /></fr:link>. Suppose we have <fr:tex display="inline"><![CDATA[a\in \mathcal {O}_{X}(U)]]></fr:tex> with <fr:tex display="inline"><![CDATA[a|_V = 0]]></fr:tex>. For any affine open <fr:tex display="inline"><![CDATA[W \subseteq  U]]></fr:tex>, we know the image of <fr:tex display="inline"><![CDATA[a|_W]]></fr:tex> in <fr:tex display="inline"><![CDATA[W \cap  V]]></fr:tex> is <fr:tex display="inline"><![CDATA[0]]></fr:tex>, By , <fr:tex display="inline"><![CDATA[a|_W]]></fr:tex> must also be <fr:tex display="inline"><![CDATA[0]]></fr:tex>. This shows <fr:tex display="inline"><![CDATA[a = 0]]></fr:tex> in <fr:tex display="inline"><![CDATA[\mathcal {O}_{X}(U)]]></fr:tex>.</html:p>
@@ -265,7 +256,6 @@
               <fr:month>6</fr:month>
               <fr:day>10</fr:day>
             </fr:date>
-            <fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/schm-HKT4.tree</fr:source-path>
             <fr:uri>https://charloced.github.io/schm-HKT4/</fr:uri>
             <fr:display-uri>schm-HKT4</fr:display-uri>
             <fr:route>/schm-HKT4/</fr:route>
@@ -286,7 +276,6 @@
               <fr:month>6</fr:month>
               <fr:day>9</fr:day>
             </fr:date>
-            <fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/idem-comm-487K.tree</fr:source-path>
             <fr:uri>https://charloced.github.io/idem-comm-487K/</fr:uri>
             <fr:display-uri>idem-comm-487K</fr:display-uri>
             <fr:route>/idem-comm-487K/</fr:route>
@@ -307,7 +296,6 @@
               <fr:month>6</fr:month>
               <fr:day>8</fr:day>
             </fr:date>
-            <fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/schm-IFX1.tree</fr:source-path>
             <fr:uri>https://charloced.github.io/schm-IFX1/</fr:uri>
             <fr:display-uri>schm-IFX1</fr:display-uri>
             <fr:route>/schm-IFX1/</fr:route>
@@ -328,7 +316,6 @@
               <fr:month>6</fr:month>
               <fr:day>7</fr:day>
             </fr:date>
-            <fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/idem-comm-EV8L.tree</fr:source-path>
             <fr:uri>https://charloced.github.io/idem-comm-EV8L/</fr:uri>
             <fr:display-uri>idem-comm-EV8L</fr:display-uri>
             <fr:route>/idem-comm-EV8L/</fr:route>
@@ -340,7 +327,7 @@
 </html:p>
  
    
-   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>7</fr:day></fr:date><fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/idem-comm-EV8L.tree</fr:source-path><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>7</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
   By <fr:link href="/idem-comm-W57Q/" title="Prime ideals of pro-open quotient" uri="https://charloced.github.io/idem-comm-W57Q/" display-uri="idem-comm-W57Q" type="local">Proposition <fr:contextual-number uri="https://charloced.github.io/idem-comm-W57Q/" display-uri="idem-comm-W57Q" /></fr:link>, the inverse image of the quotient <fr:tex display="inline"><![CDATA[f : D \twoheadrightarrow  D/F]]></fr:tex> gives a one-to-one correspondence between prime filters in <fr:tex display="inline"><![CDATA[D/F]]></fr:tex> and prime filters containing <fr:tex display="inline"><![CDATA[F]]></fr:tex>. This way, <fr:tex display="inline"><![CDATA[D/F]]></fr:tex> is local iff <fr:tex display="inline"><![CDATA[\{1\}]]></fr:tex> is prime, in which case <fr:tex display="inline"><![CDATA[F]]></fr:tex> must be prime. The case for maximality follows from the fact that <fr:tex display="inline"><![CDATA[2]]></fr:tex> is the only distributive lattice with only one prime filter.
 </fr:mainmatter></fr:tree>
  
@@ -354,7 +341,6 @@
               <fr:month>6</fr:month>
               <fr:day>7</fr:day>
             </fr:date>
-            <fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/topology/topl-FII1.tree</fr:source-path>
             <fr:uri>https://charloced.github.io/topl-FII1/</fr:uri>
             <fr:display-uri>topl-FII1</fr:display-uri>
             <fr:route>/topl-FII1/</fr:route>
@@ -375,7 +361,6 @@
               <fr:month>6</fr:month>
               <fr:day>7</fr:day>
             </fr:date>
-            <fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/idem-comm-EA6S.tree</fr:source-path>
             <fr:uri>https://charloced.github.io/idem-comm-EA6S/</fr:uri>
             <fr:display-uri>idem-comm-EA6S</fr:display-uri>
             <fr:route>/idem-comm-EA6S/</fr:route>
@@ -389,7 +374,7 @@
 </html:p>
  
    
-   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>7</fr:day></fr:date><fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/idem-comm-EA6S.tree</fr:source-path><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>7</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
   <html:p>
     Notice that we have a homeomorphism
     <fr:tex display="block"><![CDATA[ O_p \cong  \operatorname {Spec} D/p, ]]></fr:tex>

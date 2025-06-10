@@ -12,7 +12,6 @@
       <fr:month>6</fr:month>
       <fr:day>7</fr:day>
     </fr:date>
-    <fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/idem-comm-OBAP.tree</fr:source-path>
     <fr:uri>https://charloced.github.io/idem-comm-OBAP/</fr:uri>
     <fr:display-uri>idem-comm-OBAP</fr:display-uri>
     <fr:route>/idem-comm-OBAP/</fr:route>
@@ -24,7 +23,7 @@
   <fr:tex display="block"><![CDATA[x \sim _F y \Leftrightarrow  \exists  u \in  F.\  x \wedge  u = y \wedge  u]]></fr:tex></html:p>
  
    
-   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/lingyuan/" title="Lingyuan Ye" uri="https://charloced.github.io/lingyuan/" display-uri="lingyuan" type="local">Lingyuan Ye</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>7</fr:day></fr:date><fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/idem-comm-OBAP.tree</fr:source-path><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/lingyuan/" title="Lingyuan Ye" uri="https://charloced.github.io/lingyuan/" display-uri="lingyuan" type="local">Lingyuan Ye</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>7</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
   <html:p>This is evident.</html:p>
 </fr:mainmatter></fr:tree>
  
@@ -55,7 +54,6 @@
               <fr:month>6</fr:month>
               <fr:day>7</fr:day>
             </fr:date>
-            <fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/idem-comm-DFG4.tree</fr:source-path>
             <fr:uri>https://charloced.github.io/idem-comm-DFG4/</fr:uri>
             <fr:display-uri>idem-comm-DFG4</fr:display-uri>
             <fr:route>/idem-comm-DFG4/</fr:route>
@@ -74,7 +72,6 @@
                   <fr:month>6</fr:month>
                   <fr:day>7</fr:day>
                 </fr:date>
-                <fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/idem-comm-0002.tree</fr:source-path>
                 <fr:uri>https://charloced.github.io/idem-comm-0002/</fr:uri>
                 <fr:display-uri>idem-comm-0002</fr:display-uri>
                 <fr:route>/idem-comm-0002/</fr:route>
@@ -95,7 +92,6 @@
                   <fr:month>6</fr:month>
                   <fr:day>7</fr:day>
                 </fr:date>
-                <fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/idem-comm-89WP.tree</fr:source-path>
                 <fr:uri>https://charloced.github.io/idem-comm-89WP/</fr:uri>
                 <fr:display-uri>idem-comm-89WP</fr:display-uri>
                 <fr:route>/idem-comm-89WP/</fr:route>
@@ -120,7 +116,6 @@
                   <fr:month>6</fr:month>
                   <fr:day>7</fr:day>
                 </fr:date>
-                <fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/idem-comm-OBAP.tree</fr:source-path>
                 <fr:uri>https://charloced.github.io/idem-comm-OBAP/</fr:uri>
                 <fr:display-uri>idem-comm-OBAP</fr:display-uri>
                 <fr:route>/idem-comm-OBAP/</fr:route>
@@ -132,7 +127,7 @@
   <fr:tex display="block"><![CDATA[x \sim _F y \Leftrightarrow  \exists  u \in  F.\  x \wedge  u = y \wedge  u]]></fr:tex></html:p>
  
    
-   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/lingyuan/" title="Lingyuan Ye" uri="https://charloced.github.io/lingyuan/" display-uri="lingyuan" type="local">Lingyuan Ye</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>7</fr:day></fr:date><fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/idem-comm-OBAP.tree</fr:source-path><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/lingyuan/" title="Lingyuan Ye" uri="https://charloced.github.io/lingyuan/" display-uri="lingyuan" type="local">Lingyuan Ye</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>7</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
   <html:p>This is evident.</html:p>
 </fr:mainmatter></fr:tree>
  
@@ -146,7 +141,6 @@
                   <fr:month>6</fr:month>
                   <fr:day>7</fr:day>
                 </fr:date>
-                <fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/idem-comm-Q53H.tree</fr:source-path>
                 <fr:uri>https://charloced.github.io/idem-comm-Q53H/</fr:uri>
                 <fr:display-uri>idem-comm-Q53H</fr:display-uri>
                 <fr:route>/idem-comm-Q53H/</fr:route>
@@ -167,7 +161,6 @@
                   <fr:month>6</fr:month>
                   <fr:day>7</fr:day>
                 </fr:date>
-                <fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/idem-comm-W57Q.tree</fr:source-path>
                 <fr:uri>https://charloced.github.io/idem-comm-W57Q/</fr:uri>
                 <fr:display-uri>idem-comm-W57Q</fr:display-uri>
                 <fr:route>/idem-comm-W57Q/</fr:route>
@@ -179,7 +172,7 @@
 </html:p>
  
    
-   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>7</fr:day></fr:date><fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/idem-comm-W57Q.tree</fr:source-path><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>7</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
   <html:p>
     It suffices to show that any prime filter <fr:tex display="inline"><![CDATA[P]]></fr:tex> in <fr:tex display="inline"><![CDATA[D]]></fr:tex> containing <fr:tex display="inline"><![CDATA[F]]></fr:tex> is mapped by <fr:tex display="inline"><![CDATA[q]]></fr:tex> to a prime filter <fr:tex display="inline"><![CDATA[q[P]]]></fr:tex> in <fr:tex display="inline"><![CDATA[D/F]]></fr:tex>, and <fr:tex display="inline"><![CDATA[q^{-1} q[P] = P]]></fr:tex>. Now <fr:tex display="inline"><![CDATA[q[P]]]></fr:tex> is evidently a filter. Suppose now we have <fr:tex display="inline"><![CDATA[x,y\in  D/F]]></fr:tex> with <fr:tex display="inline"><![CDATA[x\vee  y = q(p)]]></fr:tex> with <fr:tex display="inline"><![CDATA[p\in  P]]></fr:tex>. Pick <fr:tex display="inline"><![CDATA[a,b]]></fr:tex> with <fr:tex display="inline"><![CDATA[q(a) = x]]></fr:tex> and <fr:tex display="inline"><![CDATA[q(b) = y]]></fr:tex>, this means that we have <fr:tex display="inline"><![CDATA[u \in  F]]></fr:tex> with <fr:tex display="inline"><![CDATA[(a \vee  b) \wedge  u = p \wedge  u \in  P]]></fr:tex>. Since <fr:tex display="inline"><![CDATA[P]]></fr:tex> is prime, it follows that <fr:tex display="inline"><![CDATA[a \wedge  u \in  P]]></fr:tex> or <fr:tex display="inline"><![CDATA[b \wedge  u \in  P]]></fr:tex>, which implies <fr:tex display="inline"><![CDATA[x \in  q[P]]]></fr:tex> or <fr:tex display="inline"><![CDATA[y\in  q[P]]]></fr:tex>. Hence, <fr:tex display="inline"><![CDATA[q[P]]]></fr:tex> is prime. 
   </html:p>
@@ -198,7 +191,6 @@
                   <fr:month>6</fr:month>
                   <fr:day>7</fr:day>
                 </fr:date>
-                <fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/idem-comm-QQEF.tree</fr:source-path>
                 <fr:uri>https://charloced.github.io/idem-comm-QQEF/</fr:uri>
                 <fr:display-uri>idem-comm-QQEF</fr:display-uri>
                 <fr:route>/idem-comm-QQEF/</fr:route>
@@ -219,7 +211,6 @@
                   <fr:month>6</fr:month>
                   <fr:day>7</fr:day>
                 </fr:date>
-                <fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/idem-comm-B7DD.tree</fr:source-path>
                 <fr:uri>https://charloced.github.io/idem-comm-B7DD/</fr:uri>
                 <fr:display-uri>idem-comm-B7DD</fr:display-uri>
                 <fr:route>/idem-comm-B7DD/</fr:route>
@@ -248,7 +239,6 @@
                   <fr:month>6</fr:month>
                   <fr:day>7</fr:day>
                 </fr:date>
-                <fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/idem-comm-XNUV.tree</fr:source-path>
                 <fr:uri>https://charloced.github.io/idem-comm-XNUV/</fr:uri>
                 <fr:display-uri>idem-comm-XNUV</fr:display-uri>
                 <fr:route>/idem-comm-XNUV/</fr:route>
@@ -269,7 +259,6 @@
                   <fr:month>6</fr:month>
                   <fr:day>7</fr:day>
                 </fr:date>
-                <fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/idem-comm-V39C.tree</fr:source-path>
                 <fr:uri>https://charloced.github.io/idem-comm-V39C/</fr:uri>
                 <fr:display-uri>idem-comm-V39C</fr:display-uri>
                 <fr:route>/idem-comm-V39C/</fr:route>
@@ -281,7 +270,7 @@
 </html:p>
  
    
-   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>7</fr:day></fr:date><fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/idem-comm-V39C.tree</fr:source-path><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>7</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
   <html:p>For any morphism <fr:tex display="inline"><![CDATA[f : D \to  E]]></fr:tex> between distributive lattices, it can be factored as follows,</html:p>
   
   
@@ -332,7 +321,6 @@
               <fr:month>6</fr:month>
               <fr:day>9</fr:day>
             </fr:date>
-            <fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/schm-9YD5.tree</fr:source-path>
             <fr:uri>https://charloced.github.io/schm-9YD5/</fr:uri>
             <fr:display-uri>schm-9YD5</fr:display-uri>
             <fr:route>/schm-9YD5/</fr:route>
@@ -344,7 +332,7 @@
   <fr:tex display="block"><![CDATA[ (\mathcal {I}/\mathcal {O}_{X})_x \cong  \mathcal {I}_x/\mathcal {O}_{X,x} ]]></fr:tex></html:p>
  
    
-   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>9</fr:day></fr:date><fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/schm-9YD5.tree</fr:source-path><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>9</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
    This holds essentially due to the fact that the closed quotient <fr:tex display="inline"><![CDATA[\mathcal {I}/\mathcal {O}_{X}]]></fr:tex> is a <html:em>geometric construction</html:em>. By the dual statement of <fr:link href="/idem-comm-OBAP/" title="Congruence for pro-open quotients" uri="https://charloced.github.io/idem-comm-OBAP/" display-uri="idem-comm-OBAP" type="local">Lemma <fr:contextual-number uri="https://charloced.github.io/idem-comm-OBAP/" display-uri="idem-comm-OBAP" /></fr:link>, the following is a coequaliser in <fr:tex display="inline"><![CDATA[\mathrm {Sh}(X)]]></fr:tex>, 
   
   <html:figure><fr:resource hash="6d8ebe730ef21fa9341850ebbf50caac"><fr:resource-content><html:img src="/6d8ebe730ef21fa9341850ebbf50caac.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[\usepackage {tikz-cd}\usepackage {quiver}]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
@@ -374,7 +362,6 @@
               <fr:month>6</fr:month>
               <fr:day>7</fr:day>
             </fr:date>
-            <fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/idem-comm-W57Q.tree</fr:source-path>
             <fr:uri>https://charloced.github.io/idem-comm-W57Q/</fr:uri>
             <fr:display-uri>idem-comm-W57Q</fr:display-uri>
             <fr:route>/idem-comm-W57Q/</fr:route>
@@ -386,7 +373,7 @@
 </html:p>
  
    
-   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>7</fr:day></fr:date><fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/idem-comm-W57Q.tree</fr:source-path><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>7</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
   <html:p>
     It suffices to show that any prime filter <fr:tex display="inline"><![CDATA[P]]></fr:tex> in <fr:tex display="inline"><![CDATA[D]]></fr:tex> containing <fr:tex display="inline"><![CDATA[F]]></fr:tex> is mapped by <fr:tex display="inline"><![CDATA[q]]></fr:tex> to a prime filter <fr:tex display="inline"><![CDATA[q[P]]]></fr:tex> in <fr:tex display="inline"><![CDATA[D/F]]></fr:tex>, and <fr:tex display="inline"><![CDATA[q^{-1} q[P] = P]]></fr:tex>. Now <fr:tex display="inline"><![CDATA[q[P]]]></fr:tex> is evidently a filter. Suppose now we have <fr:tex display="inline"><![CDATA[x,y\in  D/F]]></fr:tex> with <fr:tex display="inline"><![CDATA[x\vee  y = q(p)]]></fr:tex> with <fr:tex display="inline"><![CDATA[p\in  P]]></fr:tex>. Pick <fr:tex display="inline"><![CDATA[a,b]]></fr:tex> with <fr:tex display="inline"><![CDATA[q(a) = x]]></fr:tex> and <fr:tex display="inline"><![CDATA[q(b) = y]]></fr:tex>, this means that we have <fr:tex display="inline"><![CDATA[u \in  F]]></fr:tex> with <fr:tex display="inline"><![CDATA[(a \vee  b) \wedge  u = p \wedge  u \in  P]]></fr:tex>. Since <fr:tex display="inline"><![CDATA[P]]></fr:tex> is prime, it follows that <fr:tex display="inline"><![CDATA[a \wedge  u \in  P]]></fr:tex> or <fr:tex display="inline"><![CDATA[b \wedge  u \in  P]]></fr:tex>, which implies <fr:tex display="inline"><![CDATA[x \in  q[P]]]></fr:tex> or <fr:tex display="inline"><![CDATA[y\in  q[P]]]></fr:tex>. Hence, <fr:tex display="inline"><![CDATA[q[P]]]></fr:tex> is prime. 
   </html:p>
@@ -417,7 +404,6 @@
               <fr:month>6</fr:month>
               <fr:day>7</fr:day>
             </fr:date>
-            <fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/idem-comm-0002.tree</fr:source-path>
             <fr:uri>https://charloced.github.io/idem-comm-0002/</fr:uri>
             <fr:display-uri>idem-comm-0002</fr:display-uri>
             <fr:route>/idem-comm-0002/</fr:route>

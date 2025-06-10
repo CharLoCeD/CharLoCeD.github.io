@@ -8,7 +8,6 @@
       <fr:month>6</fr:month>
       <fr:day>8</fr:day>
     </fr:date>
-    <fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/schm-689A.tree</fr:source-path>
     <fr:uri>https://charloced.github.io/schm-689A/</fr:uri>
     <fr:display-uri>schm-689A</fr:display-uri>
     <fr:route>/schm-689A/</fr:route>
@@ -50,7 +49,6 @@
               <fr:month>6</fr:month>
               <fr:day>8</fr:day>
             </fr:date>
-            <fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/schm-SDP6.tree</fr:source-path>
             <fr:uri>https://charloced.github.io/schm-SDP6/</fr:uri>
             <fr:display-uri>schm-SDP6</fr:display-uri>
             <fr:route>/schm-SDP6/</fr:route>
@@ -65,7 +63,6 @@
                   <fr:month>6</fr:month>
                   <fr:day>8</fr:day>
                 </fr:date>
-                <fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/schm-V16H.tree</fr:source-path>
                 <fr:uri>https://charloced.github.io/schm-V16H/</fr:uri>
                 <fr:display-uri>schm-V16H</fr:display-uri>
                 <fr:route>/schm-V16H/</fr:route>
@@ -86,7 +83,6 @@
                   <fr:month>6</fr:month>
                   <fr:day>8</fr:day>
                 </fr:date>
-                <fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/schm-689A.tree</fr:source-path>
                 <fr:uri>https://charloced.github.io/schm-689A/</fr:uri>
                 <fr:display-uri>schm-689A</fr:display-uri>
                 <fr:route>/schm-689A/</fr:route>
@@ -111,7 +107,6 @@
                   <fr:month>6</fr:month>
                   <fr:day>8</fr:day>
                 </fr:date>
-                <fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/schm-BGJ9.tree</fr:source-path>
                 <fr:uri>https://charloced.github.io/schm-BGJ9/</fr:uri>
                 <fr:display-uri>schm-BGJ9</fr:display-uri>
                 <fr:route>/schm-BGJ9/</fr:route>
@@ -123,7 +118,7 @@
   <fr:tex display="block"><![CDATA[\operatorname {Spec} : \mathbf {DL}^{\mathrm {op}} \to  \mathbf {Top}_{\mathbb {D}}]]></fr:tex></html:p>
  
    
-   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>8</fr:day></fr:date><fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/schm-BGJ9.tree</fr:source-path><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>8</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
   Given a morphism 
   <fr:tex display="block"><![CDATA[ f_{\sharp } : E \to  D, ]]></fr:tex>
   it induces a morphism of locally distributed spaces
@@ -162,7 +157,6 @@
                   <fr:month>6</fr:month>
                   <fr:day>8</fr:day>
                 </fr:date>
-                <fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/schm-X3M9.tree</fr:source-path>
                 <fr:uri>https://charloced.github.io/schm-X3M9/</fr:uri>
                 <fr:display-uri>schm-X3M9</fr:display-uri>
                 <fr:route>/schm-X3M9/</fr:route>
@@ -184,7 +178,7 @@
 </html:p>
  
    
-   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>8</fr:day></fr:date><fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/schm-X3M9.tree</fr:source-path><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>8</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
   <html:p>Let <fr:tex display="inline"><![CDATA[(X,\mathcal {O}_{X})]]></fr:tex> be a locally distributed space and <fr:tex display="inline"><![CDATA[D]]></fr:tex> a distributive lattice. Given
   <fr:tex display="block"><![CDATA[ f_{\sharp } : D \to  \Gamma \mathcal {O}_{X}, ]]></fr:tex>
   we construct a morphism of locally distributed spaces
@@ -254,7 +248,6 @@
               <fr:month>6</fr:month>
               <fr:day>8</fr:day>
             </fr:date>
-            <fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/schm-V16H.tree</fr:source-path>
             <fr:uri>https://charloced.github.io/schm-V16H/</fr:uri>
             <fr:display-uri>schm-V16H</fr:display-uri>
             <fr:route>/schm-V16H/</fr:route>

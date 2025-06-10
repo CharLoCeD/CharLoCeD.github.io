@@ -8,7 +8,6 @@
       <fr:month>6</fr:month>
       <fr:day>7</fr:day>
     </fr:date>
-    <fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/idem-comm-JOTR.tree</fr:source-path>
     <fr:uri>https://charloced.github.io/idem-comm-JOTR/</fr:uri>
     <fr:display-uri>idem-comm-JOTR</fr:display-uri>
     <fr:route>/idem-comm-JOTR/</fr:route>
@@ -46,7 +45,6 @@
               <fr:month>6</fr:month>
               <fr:day>7</fr:day>
             </fr:date>
-            <fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/idem-comm-9X72.tree</fr:source-path>
             <fr:uri>https://charloced.github.io/idem-comm-9X72/</fr:uri>
             <fr:display-uri>idem-comm-9X72</fr:display-uri>
             <fr:route>/idem-comm-9X72/</fr:route>
@@ -61,7 +59,6 @@
                   <fr:month>6</fr:month>
                   <fr:day>7</fr:day>
                 </fr:date>
-                <fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/idem-comm-JOTR.tree</fr:source-path>
                 <fr:uri>https://charloced.github.io/idem-comm-JOTR/</fr:uri>
                 <fr:display-uri>idem-comm-JOTR</fr:display-uri>
                 <fr:route>/idem-comm-JOTR/</fr:route>
@@ -82,7 +79,6 @@
                   <fr:month>6</fr:month>
                   <fr:day>7</fr:day>
                 </fr:date>
-                <fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/idem-comm-G598.tree</fr:source-path>
                 <fr:uri>https://charloced.github.io/idem-comm-G598/</fr:uri>
                 <fr:display-uri>idem-comm-G598</fr:display-uri>
                 <fr:route>/idem-comm-G598/</fr:route>
@@ -98,7 +94,7 @@
 </html:p>
  
    
-   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>7</fr:day></fr:date><fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/idem-comm-G598.tree</fr:source-path><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>7</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
   (1), (3) <fr:tex display="inline"><![CDATA[\Rightarrow ]]></fr:tex> (2) is evident: Any ascending chain of elements <fr:tex display="inline"><![CDATA[p_0 \le  p_1 \le  \cdots ]]></fr:tex> induces an ascending chain of principle ideals and a decreasing chain of principle filters. For (2) <fr:tex display="inline"><![CDATA[\Rightarrow ]]></fr:tex> (1), suppose otherwise we have a strictly ascending chain of ideals <fr:tex display="inline"><![CDATA[I_0 \subset  I_1 \subset  \cdots ]]></fr:tex>. Then we can choose a strictly ascending chain of elements:
   <html:ul><html:li>Take <fr:tex display="inline"><![CDATA[p_0]]></fr:tex> to be an element in <fr:tex display="inline"><![CDATA[I_0]]></fr:tex>.</html:li>
     <html:li>Suppose we have already constructed <fr:tex display="inline"><![CDATA[p_n\in  I_n]]></fr:tex>. Now let <fr:tex display="inline"><![CDATA[r_n]]></fr:tex> be an element in <fr:tex display="inline"><![CDATA[I_{n+1}\backslash  I_n]]></fr:tex>. Take <fr:tex display="inline"><![CDATA[p_{n+1}]]></fr:tex> to be <fr:tex display="inline"><![CDATA[p_n \vee  r_n]]></fr:tex>. This way, <fr:tex display="inline"><![CDATA[p_{n+1} \in  I_{n+1}]]></fr:tex>, and <fr:tex display="inline"><![CDATA[p_{n+1}\not \in  I_n]]></fr:tex> since <fr:tex display="inline"><![CDATA[r_n\not \in  I_n]]></fr:tex>. It follows that <fr:tex display="inline"><![CDATA[p_n < p_{n+1}]]></fr:tex>.</html:li></html:ul>
@@ -115,7 +111,6 @@
                   <fr:month>6</fr:month>
                   <fr:day>7</fr:day>
                 </fr:date>
-                <fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/idem-comm-SKN8.tree</fr:source-path>
                 <fr:uri>https://charloced.github.io/idem-comm-SKN8/</fr:uri>
                 <fr:display-uri>idem-comm-SKN8</fr:display-uri>
                 <fr:route>/idem-comm-SKN8/</fr:route>
@@ -127,7 +122,7 @@
 </html:p>
  
    
-   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>7</fr:day></fr:date><fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/idem-comm-SKN8.tree</fr:source-path><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>7</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
   Closure under finite limits and quotients are evident from <fr:link href="/idem-comm-G598/" title="Equivalent Noetherian condition" uri="https://charloced.github.io/idem-comm-G598/" display-uri="idem-comm-G598" type="local">Lemma <fr:contextual-number uri="https://charloced.github.io/idem-comm-G598/" display-uri="idem-comm-G598" /></fr:link>. For the polynomial <fr:tex display="inline"><![CDATA[D[x]]]></fr:tex>, it is well-known that <fr:tex display="inline"><![CDATA[D[x] \cong  D \downarrow  D]]></fr:tex> is isomorphic to the order on <fr:tex display="inline"><![CDATA[D]]></fr:tex>, which is thus also Noetherian.
 </fr:mainmatter></fr:tree>
  
@@ -141,7 +136,6 @@
                   <fr:month>6</fr:month>
                   <fr:day>7</fr:day>
                 </fr:date>
-                <fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/idem-comm-ITAZ.tree</fr:source-path>
                 <fr:uri>https://charloced.github.io/idem-comm-ITAZ/</fr:uri>
                 <fr:display-uri>idem-comm-ITAZ</fr:display-uri>
                 <fr:route>/idem-comm-ITAZ/</fr:route>
@@ -152,7 +146,7 @@
 </html:p>
  
    
-   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>7</fr:day></fr:date><fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/idem-comm-ITAZ.tree</fr:source-path><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>7</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
   <html:p>Suppose <fr:tex display="inline"><![CDATA[D]]></fr:tex> is Noetherian. Let <fr:tex display="inline"><![CDATA[I]]></fr:tex> be an ideal in <fr:tex display="inline"><![CDATA[D]]></fr:tex>. To show <fr:tex display="inline"><![CDATA[I]]></fr:tex> is principle, we define a sequence of elements inductively:
   <html:ul><html:li>Choose <fr:tex display="inline"><![CDATA[p_0 \in  I]]></fr:tex>.</html:li>
     <html:li>Suppose we have chosen <fr:tex display="inline"><![CDATA[p_0 < \cdots  < p_n \in  I]]></fr:tex>. If <fr:tex display="inline"><![CDATA[I \neq  \downarrow  p_n]]></fr:tex>, then we can choose <fr:tex display="inline"><![CDATA[q\in  I]]></fr:tex> with <fr:tex display="inline"><![CDATA[q \not \le  p_n]]></fr:tex>. This way, take <fr:tex display="inline"><![CDATA[p_{n+1}]]></fr:tex> to be <fr:tex display="inline"><![CDATA[p_n \vee  q\in  I]]></fr:tex>. It follows that <fr:tex display="inline"><![CDATA[p_n < p_{n+1}]]></fr:tex>.</html:li></html:ul>
@@ -171,7 +165,6 @@
                   <fr:month>6</fr:month>
                   <fr:day>8</fr:day>
                 </fr:date>
-                <fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/idem-comm-65DL.tree</fr:source-path>
                 <fr:uri>https://charloced.github.io/idem-comm-65DL/</fr:uri>
                 <fr:display-uri>idem-comm-65DL</fr:display-uri>
                 <fr:route>/idem-comm-65DL/</fr:route>
@@ -183,7 +176,7 @@
 </html:p>
  
    
-   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>8</fr:day></fr:date><fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/idem-comm-65DL.tree</fr:source-path><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>8</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
   We first show every ideal <fr:tex display="inline"><![CDATA[I]]></fr:tex> in <fr:tex display="inline"><![CDATA[D]]></fr:tex> is a finite intersection of prime ideals. Suppose there is a counterexample. Then the set <fr:tex display="inline"><![CDATA[\Sigma ]]></fr:tex> of all such ideals are non-empty. By <fr:tex display="inline"><![CDATA[D]]></fr:tex> being Noetherian, <fr:tex display="inline"><![CDATA[\Sigma ]]></fr:tex> has a maximal element <fr:tex display="inline"><![CDATA[I]]></fr:tex>. Since <fr:tex display="inline"><![CDATA[I]]></fr:tex> itself cannot be prime, we can find <fr:tex display="inline"><![CDATA[x,y\not \in  I]]></fr:tex> with <fr:tex display="inline"><![CDATA[x \wedge  y \in  I]]></fr:tex>. This way, <fr:tex display="inline"><![CDATA[x \vee  I]]></fr:tex> and <fr:tex display="inline"><![CDATA[y \vee  I]]></fr:tex> are proper extensions of <fr:tex display="inline"><![CDATA[I]]></fr:tex> with <fr:tex display="inline"><![CDATA[(x \vee  I) \cap  (y \vee  I) = (x \wedge  y) \vee  I = I]]></fr:tex>. Since <fr:tex display="inline"><![CDATA[I]]></fr:tex> is maximal in <fr:tex display="inline"><![CDATA[\Sigma ]]></fr:tex>, both <fr:tex display="inline"><![CDATA[x \vee  I]]></fr:tex> and <fr:tex display="inline"><![CDATA[y \vee  I]]></fr:tex> has a prime factorisation, which actually implies <fr:tex display="inline"><![CDATA[(x \vee  I) \cap  (y \vee  I) = I]]></fr:tex> also has one, contradictory. Thus, <fr:tex display="inline"><![CDATA[\Sigma ]]></fr:tex> must be empty. Now the claim follows from <fr:link href="/idem-comm-ITAZ/" title="Noetherian distributive lattices are exactly principle ideal domains" uri="https://charloced.github.io/idem-comm-ITAZ/" display-uri="idem-comm-ITAZ" type="local">Proposition <fr:contextual-number uri="https://charloced.github.io/idem-comm-ITAZ/" display-uri="idem-comm-ITAZ" /></fr:link>.
 </fr:mainmatter></fr:tree>
  
@@ -197,7 +190,6 @@
                   <fr:month>6</fr:month>
                   <fr:day>7</fr:day>
                 </fr:date>
-                <fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/idem-comm-WV5M.tree</fr:source-path>
                 <fr:uri>https://charloced.github.io/idem-comm-WV5M/</fr:uri>
                 <fr:display-uri>idem-comm-WV5M</fr:display-uri>
                 <fr:route>/idem-comm-WV5M/</fr:route>
@@ -268,7 +260,6 @@
                   <fr:month>6</fr:month>
                   <fr:day>7</fr:day>
                 </fr:date>
-                <fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/idem-comm-14GL.tree</fr:source-path>
                 <fr:uri>https://charloced.github.io/idem-comm-14GL/</fr:uri>
                 <fr:display-uri>idem-comm-14GL</fr:display-uri>
                 <fr:route>/idem-comm-14GL/</fr:route>
@@ -306,7 +297,6 @@
                   <fr:month>6</fr:month>
                   <fr:day>8</fr:day>
                 </fr:date>
-                <fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/idem-comm-IYD0.tree</fr:source-path>
                 <fr:uri>https://charloced.github.io/idem-comm-IYD0/</fr:uri>
                 <fr:display-uri>idem-comm-IYD0</fr:display-uri>
                 <fr:route>/idem-comm-IYD0/</fr:route>
@@ -344,7 +334,6 @@
               <fr:month>6</fr:month>
               <fr:day>7</fr:day>
             </fr:date>
-            <fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/idem-comm-G598.tree</fr:source-path>
             <fr:uri>https://charloced.github.io/idem-comm-G598/</fr:uri>
             <fr:display-uri>idem-comm-G598</fr:display-uri>
             <fr:route>/idem-comm-G598/</fr:route>
@@ -360,7 +349,7 @@
 </html:p>
  
    
-   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>7</fr:day></fr:date><fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/idem-comm-G598.tree</fr:source-path><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>7</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
   (1), (3) <fr:tex display="inline"><![CDATA[\Rightarrow ]]></fr:tex> (2) is evident: Any ascending chain of elements <fr:tex display="inline"><![CDATA[p_0 \le  p_1 \le  \cdots ]]></fr:tex> induces an ascending chain of principle ideals and a decreasing chain of principle filters. For (2) <fr:tex display="inline"><![CDATA[\Rightarrow ]]></fr:tex> (1), suppose otherwise we have a strictly ascending chain of ideals <fr:tex display="inline"><![CDATA[I_0 \subset  I_1 \subset  \cdots ]]></fr:tex>. Then we can choose a strictly ascending chain of elements:
   <html:ul><html:li>Take <fr:tex display="inline"><![CDATA[p_0]]></fr:tex> to be an element in <fr:tex display="inline"><![CDATA[I_0]]></fr:tex>.</html:li>
     <html:li>Suppose we have already constructed <fr:tex display="inline"><![CDATA[p_n\in  I_n]]></fr:tex>. Now let <fr:tex display="inline"><![CDATA[r_n]]></fr:tex> be an element in <fr:tex display="inline"><![CDATA[I_{n+1}\backslash  I_n]]></fr:tex>. Take <fr:tex display="inline"><![CDATA[p_{n+1}]]></fr:tex> to be <fr:tex display="inline"><![CDATA[p_n \vee  r_n]]></fr:tex>. This way, <fr:tex display="inline"><![CDATA[p_{n+1} \in  I_{n+1}]]></fr:tex>, and <fr:tex display="inline"><![CDATA[p_{n+1}\not \in  I_n]]></fr:tex> since <fr:tex display="inline"><![CDATA[r_n\not \in  I_n]]></fr:tex>. It follows that <fr:tex display="inline"><![CDATA[p_n < p_{n+1}]]></fr:tex>.</html:li></html:ul>

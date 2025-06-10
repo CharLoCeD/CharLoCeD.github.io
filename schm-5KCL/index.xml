@@ -8,7 +8,6 @@
       <fr:month>6</fr:month>
       <fr:day>8</fr:day>
     </fr:date>
-    <fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/schm-5KCL.tree</fr:source-path>
     <fr:uri>https://charloced.github.io/schm-5KCL/</fr:uri>
     <fr:display-uri>schm-5KCL</fr:display-uri>
     <fr:route>/schm-5KCL/</fr:route>
@@ -60,7 +59,6 @@
               <fr:month>6</fr:month>
               <fr:day>8</fr:day>
             </fr:date>
-            <fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/schm-RAWC.tree</fr:source-path>
             <fr:uri>https://charloced.github.io/schm-RAWC/</fr:uri>
             <fr:display-uri>schm-RAWC</fr:display-uri>
             <fr:route>/schm-RAWC/</fr:route>
@@ -75,7 +73,6 @@
                   <fr:month>6</fr:month>
                   <fr:day>8</fr:day>
                 </fr:date>
-                <fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/schm-OMYR.tree</fr:source-path>
                 <fr:uri>https://charloced.github.io/schm-OMYR/</fr:uri>
                 <fr:display-uri>schm-OMYR</fr:display-uri>
                 <fr:route>/schm-OMYR/</fr:route>
@@ -97,7 +94,6 @@
                   <fr:month>6</fr:month>
                   <fr:day>8</fr:day>
                 </fr:date>
-                <fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/schm-5KCL.tree</fr:source-path>
                 <fr:uri>https://charloced.github.io/schm-5KCL/</fr:uri>
                 <fr:display-uri>schm-5KCL</fr:display-uri>
                 <fr:route>/schm-5KCL/</fr:route>
@@ -132,7 +128,6 @@
                   <fr:month>6</fr:month>
                   <fr:day>9</fr:day>
                 </fr:date>
-                <fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/schm-7QL9.tree</fr:source-path>
                 <fr:uri>https://charloced.github.io/schm-7QL9/</fr:uri>
                 <fr:display-uri>schm-7QL9</fr:display-uri>
                 <fr:route>/schm-7QL9/</fr:route>
@@ -171,7 +166,6 @@
                   <fr:month>6</fr:month>
                   <fr:day>9</fr:day>
                 </fr:date>
-                <fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/schm-MIV5.tree</fr:source-path>
                 <fr:uri>https://charloced.github.io/schm-MIV5/</fr:uri>
                 <fr:display-uri>schm-MIV5</fr:display-uri>
                 <fr:route>/schm-MIV5/</fr:route>
@@ -194,7 +188,6 @@
                   <fr:month>6</fr:month>
                   <fr:day>9</fr:day>
                 </fr:date>
-                <fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/schm-TCWT.tree</fr:source-path>
                 <fr:uri>https://charloced.github.io/schm-TCWT/</fr:uri>
                 <fr:display-uri>schm-TCWT</fr:display-uri>
                 <fr:route>/schm-TCWT/</fr:route>
@@ -215,7 +208,6 @@
                   <fr:month>6</fr:month>
                   <fr:day>9</fr:day>
                 </fr:date>
-                <fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/schm-2CQ4.tree</fr:source-path>
                 <fr:uri>https://charloced.github.io/schm-2CQ4/</fr:uri>
                 <fr:display-uri>schm-2CQ4</fr:display-uri>
                 <fr:route>/schm-2CQ4/</fr:route>
@@ -239,7 +231,7 @@
 </html:p>
  
    
-   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>9</fr:day></fr:date><fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/schm-2CQ4.tree</fr:source-path><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>9</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
   This is evident, since the condition exactly expresses that on each affine open <fr:tex display="inline"><![CDATA[\operatorname {Spec} A]]></fr:tex>, <fr:tex display="inline"><![CDATA[\mathcal {I}|_{\operatorname {Spec} A} = \widetilde {\mathcal {I}(\operatorname {Spec} A)}]]></fr:tex>.
 </fr:mainmatter></fr:tree>
  
@@ -256,7 +248,6 @@
                   <fr:month>6</fr:month>
                   <fr:day>9</fr:day>
                 </fr:date>
-                <fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/schm-EREC.tree</fr:source-path>
                 <fr:uri>https://charloced.github.io/schm-EREC/</fr:uri>
                 <fr:display-uri>schm-EREC</fr:display-uri>
                 <fr:route>/schm-EREC/</fr:route>
@@ -268,7 +259,7 @@
 </html:p>
  
    
-   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>9</fr:day></fr:date><fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/schm-EREC.tree</fr:source-path><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>9</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
   <html:p>
     Again we prove a dual equivalence between <fr:tex display="inline"><![CDATA[\mathrm {Idl}_Q(X)]]></fr:tex> and closed subsets of <fr:tex display="inline"><![CDATA[X]]></fr:tex>. For any (quasi-coherent) ideal <fr:tex display="inline"><![CDATA[\mathcal {I}]]></fr:tex> of <fr:tex display="inline"><![CDATA[\mathcal {O}_{X}]]></fr:tex>, <fr:link href="/schm-5KCL/" title="Sheaf of ideals generate quasi-closed immersions" uri="https://charloced.github.io/schm-5KCL/" display-uri="schm-5KCL" type="local">Construction <fr:contextual-number uri="https://charloced.github.io/schm-5KCL/" display-uri="schm-5KCL" /></fr:link> gives us a closed subset <fr:tex display="inline"><![CDATA[C_{\mathcal {I}}]]></fr:tex> already. Now for a closed subset <fr:tex display="inline"><![CDATA[Y]]></fr:tex> of <fr:tex display="inline"><![CDATA[X]]></fr:tex>, we construct an ideal <fr:tex display="inline"><![CDATA[\mathcal {I}_Y]]></fr:tex> such that for any open <fr:tex display="inline"><![CDATA[U]]></fr:tex> of <fr:tex display="inline"><![CDATA[X]]></fr:tex>,
     <fr:tex display="block"><![CDATA[ \mathcal {I}_Y(U) := \{a\in \mathcal {O}_{X}(U)\mid \forall  y \in  Y \cap  U.\  y \not \models  a\}.  ]]></fr:tex>
@@ -313,7 +304,6 @@
                   <fr:month>6</fr:month>
                   <fr:day>9</fr:day>
                 </fr:date>
-                <fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/schm-JBRX.tree</fr:source-path>
                 <fr:uri>https://charloced.github.io/schm-JBRX/</fr:uri>
                 <fr:display-uri>schm-JBRX</fr:display-uri>
                 <fr:route>/schm-JBRX/</fr:route>
@@ -325,7 +315,7 @@
 </html:p>
  
    
-   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>9</fr:day></fr:date><fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/schm-JBRX.tree</fr:source-path><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>9</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
   The case when <fr:tex display="inline"><![CDATA[X]]></fr:tex> is affine is clear. It is easy to see that when <fr:tex display="inline"><![CDATA[X = \operatorname {Spec} A]]></fr:tex> and <fr:tex display="inline"><![CDATA[\mathcal {I} = \widetilde {I}]]></fr:tex> for some ideal <fr:tex display="inline"><![CDATA[I]]></fr:tex> of <fr:tex display="inline"><![CDATA[A]]></fr:tex>, the closed immersion <fr:tex display="inline"><![CDATA[C_{\mathcal {I}} \hookrightarrow  \operatorname {Spec} A]]></fr:tex> is exactly <fr:tex display="inline"><![CDATA[\operatorname {Spec} I/A \hookrightarrow  \operatorname {Spec} A]]></fr:tex> induced by <fr:tex display="inline"><![CDATA[A \twoheadrightarrow  I/A]]></fr:tex> (cf. <fr:link href="/idem-comm-FMRA/" title="Closed subspace of closed quotient" uri="https://charloced.github.io/idem-comm-FMRA/" display-uri="idem-comm-FMRA" type="local">Remark <fr:contextual-number uri="https://charloced.github.io/idem-comm-FMRA/" display-uri="idem-comm-FMRA" /></fr:link>). The case for general schemes is then evident from this.
 </fr:mainmatter></fr:tree>
  
@@ -349,7 +339,6 @@
               <fr:month>6</fr:month>
               <fr:day>9</fr:day>
             </fr:date>
-            <fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/schm-7QL9.tree</fr:source-path>
             <fr:uri>https://charloced.github.io/schm-7QL9/</fr:uri>
             <fr:display-uri>schm-7QL9</fr:display-uri>
             <fr:route>/schm-7QL9/</fr:route>
@@ -385,7 +374,6 @@
               <fr:month>6</fr:month>
               <fr:day>9</fr:day>
             </fr:date>
-            <fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/schm-EREC.tree</fr:source-path>
             <fr:uri>https://charloced.github.io/schm-EREC/</fr:uri>
             <fr:display-uri>schm-EREC</fr:display-uri>
             <fr:route>/schm-EREC/</fr:route>
@@ -397,7 +385,7 @@
 </html:p>
  
    
-   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>9</fr:day></fr:date><fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/schm-EREC.tree</fr:source-path><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>9</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
   <html:p>
     Again we prove a dual equivalence between <fr:tex display="inline"><![CDATA[\mathrm {Idl}_Q(X)]]></fr:tex> and closed subsets of <fr:tex display="inline"><![CDATA[X]]></fr:tex>. For any (quasi-coherent) ideal <fr:tex display="inline"><![CDATA[\mathcal {I}]]></fr:tex> of <fr:tex display="inline"><![CDATA[\mathcal {O}_{X}]]></fr:tex>, <fr:link href="/schm-5KCL/" title="Sheaf of ideals generate quasi-closed immersions" uri="https://charloced.github.io/schm-5KCL/" display-uri="schm-5KCL" type="local">Construction <fr:contextual-number uri="https://charloced.github.io/schm-5KCL/" display-uri="schm-5KCL" /></fr:link> gives us a closed subset <fr:tex display="inline"><![CDATA[C_{\mathcal {I}}]]></fr:tex> already. Now for a closed subset <fr:tex display="inline"><![CDATA[Y]]></fr:tex> of <fr:tex display="inline"><![CDATA[X]]></fr:tex>, we construct an ideal <fr:tex display="inline"><![CDATA[\mathcal {I}_Y]]></fr:tex> such that for any open <fr:tex display="inline"><![CDATA[U]]></fr:tex> of <fr:tex display="inline"><![CDATA[X]]></fr:tex>,
     <fr:tex display="block"><![CDATA[ \mathcal {I}_Y(U) := \{a\in \mathcal {O}_{X}(U)\mid \forall  y \in  Y \cap  U.\  y \not \models  a\}.  ]]></fr:tex>
@@ -439,7 +427,6 @@
               <fr:month>6</fr:month>
               <fr:day>9</fr:day>
             </fr:date>
-            <fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/schm-JBRX.tree</fr:source-path>
             <fr:uri>https://charloced.github.io/schm-JBRX/</fr:uri>
             <fr:display-uri>schm-JBRX</fr:display-uri>
             <fr:route>/schm-JBRX/</fr:route>
@@ -451,7 +438,7 @@
 </html:p>
  
    
-   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>9</fr:day></fr:date><fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/schm-JBRX.tree</fr:source-path><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>9</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
   The case when <fr:tex display="inline"><![CDATA[X]]></fr:tex> is affine is clear. It is easy to see that when <fr:tex display="inline"><![CDATA[X = \operatorname {Spec} A]]></fr:tex> and <fr:tex display="inline"><![CDATA[\mathcal {I} = \widetilde {I}]]></fr:tex> for some ideal <fr:tex display="inline"><![CDATA[I]]></fr:tex> of <fr:tex display="inline"><![CDATA[A]]></fr:tex>, the closed immersion <fr:tex display="inline"><![CDATA[C_{\mathcal {I}} \hookrightarrow  \operatorname {Spec} A]]></fr:tex> is exactly <fr:tex display="inline"><![CDATA[\operatorname {Spec} I/A \hookrightarrow  \operatorname {Spec} A]]></fr:tex> induced by <fr:tex display="inline"><![CDATA[A \twoheadrightarrow  I/A]]></fr:tex> (cf. <fr:link href="/idem-comm-FMRA/" title="Closed subspace of closed quotient" uri="https://charloced.github.io/idem-comm-FMRA/" display-uri="idem-comm-FMRA" type="local">Remark <fr:contextual-number uri="https://charloced.github.io/idem-comm-FMRA/" display-uri="idem-comm-FMRA" /></fr:link>). The case for general schemes is then evident from this.
 </fr:mainmatter></fr:tree>
  
@@ -469,7 +456,6 @@
               <fr:month>6</fr:month>
               <fr:day>8</fr:day>
             </fr:date>
-            <fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/schm-RAWC.tree</fr:source-path>
             <fr:uri>https://charloced.github.io/schm-RAWC/</fr:uri>
             <fr:display-uri>schm-RAWC</fr:display-uri>
             <fr:route>/schm-RAWC/</fr:route>
@@ -484,7 +470,6 @@
                   <fr:month>6</fr:month>
                   <fr:day>8</fr:day>
                 </fr:date>
-                <fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/schm-OMYR.tree</fr:source-path>
                 <fr:uri>https://charloced.github.io/schm-OMYR/</fr:uri>
                 <fr:display-uri>schm-OMYR</fr:display-uri>
                 <fr:route>/schm-OMYR/</fr:route>
@@ -506,7 +491,6 @@
                   <fr:month>6</fr:month>
                   <fr:day>8</fr:day>
                 </fr:date>
-                <fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/schm-5KCL.tree</fr:source-path>
                 <fr:uri>https://charloced.github.io/schm-5KCL/</fr:uri>
                 <fr:display-uri>schm-5KCL</fr:display-uri>
                 <fr:route>/schm-5KCL/</fr:route>
@@ -541,7 +525,6 @@
                   <fr:month>6</fr:month>
                   <fr:day>9</fr:day>
                 </fr:date>
-                <fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/schm-7QL9.tree</fr:source-path>
                 <fr:uri>https://charloced.github.io/schm-7QL9/</fr:uri>
                 <fr:display-uri>schm-7QL9</fr:display-uri>
                 <fr:route>/schm-7QL9/</fr:route>
@@ -580,7 +563,6 @@
                   <fr:month>6</fr:month>
                   <fr:day>9</fr:day>
                 </fr:date>
-                <fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/schm-MIV5.tree</fr:source-path>
                 <fr:uri>https://charloced.github.io/schm-MIV5/</fr:uri>
                 <fr:display-uri>schm-MIV5</fr:display-uri>
                 <fr:route>/schm-MIV5/</fr:route>
@@ -603,7 +585,6 @@
                   <fr:month>6</fr:month>
                   <fr:day>9</fr:day>
                 </fr:date>
-                <fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/schm-TCWT.tree</fr:source-path>
                 <fr:uri>https://charloced.github.io/schm-TCWT/</fr:uri>
                 <fr:display-uri>schm-TCWT</fr:display-uri>
                 <fr:route>/schm-TCWT/</fr:route>
@@ -624,7 +605,6 @@
                   <fr:month>6</fr:month>
                   <fr:day>9</fr:day>
                 </fr:date>
-                <fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/schm-2CQ4.tree</fr:source-path>
                 <fr:uri>https://charloced.github.io/schm-2CQ4/</fr:uri>
                 <fr:display-uri>schm-2CQ4</fr:display-uri>
                 <fr:route>/schm-2CQ4/</fr:route>
@@ -648,7 +628,7 @@
 </html:p>
  
    
-   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>9</fr:day></fr:date><fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/schm-2CQ4.tree</fr:source-path><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>9</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
   This is evident, since the condition exactly expresses that on each affine open <fr:tex display="inline"><![CDATA[\operatorname {Spec} A]]></fr:tex>, <fr:tex display="inline"><![CDATA[\mathcal {I}|_{\operatorname {Spec} A} = \widetilde {\mathcal {I}(\operatorname {Spec} A)}]]></fr:tex>.
 </fr:mainmatter></fr:tree>
  
@@ -665,7 +645,6 @@
                   <fr:month>6</fr:month>
                   <fr:day>9</fr:day>
                 </fr:date>
-                <fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/schm-EREC.tree</fr:source-path>
                 <fr:uri>https://charloced.github.io/schm-EREC/</fr:uri>
                 <fr:display-uri>schm-EREC</fr:display-uri>
                 <fr:route>/schm-EREC/</fr:route>
@@ -677,7 +656,7 @@
 </html:p>
  
    
-   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>9</fr:day></fr:date><fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/schm-EREC.tree</fr:source-path><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>9</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
   <html:p>
     Again we prove a dual equivalence between <fr:tex display="inline"><![CDATA[\mathrm {Idl}_Q(X)]]></fr:tex> and closed subsets of <fr:tex display="inline"><![CDATA[X]]></fr:tex>. For any (quasi-coherent) ideal <fr:tex display="inline"><![CDATA[\mathcal {I}]]></fr:tex> of <fr:tex display="inline"><![CDATA[\mathcal {O}_{X}]]></fr:tex>, <fr:link href="/schm-5KCL/" title="Sheaf of ideals generate quasi-closed immersions" uri="https://charloced.github.io/schm-5KCL/" display-uri="schm-5KCL" type="local">Construction <fr:contextual-number uri="https://charloced.github.io/schm-5KCL/" display-uri="schm-5KCL" /></fr:link> gives us a closed subset <fr:tex display="inline"><![CDATA[C_{\mathcal {I}}]]></fr:tex> already. Now for a closed subset <fr:tex display="inline"><![CDATA[Y]]></fr:tex> of <fr:tex display="inline"><![CDATA[X]]></fr:tex>, we construct an ideal <fr:tex display="inline"><![CDATA[\mathcal {I}_Y]]></fr:tex> such that for any open <fr:tex display="inline"><![CDATA[U]]></fr:tex> of <fr:tex display="inline"><![CDATA[X]]></fr:tex>,
     <fr:tex display="block"><![CDATA[ \mathcal {I}_Y(U) := \{a\in \mathcal {O}_{X}(U)\mid \forall  y \in  Y \cap  U.\  y \not \models  a\}.  ]]></fr:tex>
@@ -722,7 +701,6 @@
                   <fr:month>6</fr:month>
                   <fr:day>9</fr:day>
                 </fr:date>
-                <fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/schm-JBRX.tree</fr:source-path>
                 <fr:uri>https://charloced.github.io/schm-JBRX/</fr:uri>
                 <fr:display-uri>schm-JBRX</fr:display-uri>
                 <fr:route>/schm-JBRX/</fr:route>
@@ -734,7 +712,7 @@
 </html:p>
  
    
-   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>9</fr:day></fr:date><fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/schm-JBRX.tree</fr:source-path><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>9</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
   The case when <fr:tex display="inline"><![CDATA[X]]></fr:tex> is affine is clear. It is easy to see that when <fr:tex display="inline"><![CDATA[X = \operatorname {Spec} A]]></fr:tex> and <fr:tex display="inline"><![CDATA[\mathcal {I} = \widetilde {I}]]></fr:tex> for some ideal <fr:tex display="inline"><![CDATA[I]]></fr:tex> of <fr:tex display="inline"><![CDATA[A]]></fr:tex>, the closed immersion <fr:tex display="inline"><![CDATA[C_{\mathcal {I}} \hookrightarrow  \operatorname {Spec} A]]></fr:tex> is exactly <fr:tex display="inline"><![CDATA[\operatorname {Spec} I/A \hookrightarrow  \operatorname {Spec} A]]></fr:tex> induced by <fr:tex display="inline"><![CDATA[A \twoheadrightarrow  I/A]]></fr:tex> (cf. <fr:link href="/idem-comm-FMRA/" title="Closed subspace of closed quotient" uri="https://charloced.github.io/idem-comm-FMRA/" display-uri="idem-comm-FMRA" type="local">Remark <fr:contextual-number uri="https://charloced.github.io/idem-comm-FMRA/" display-uri="idem-comm-FMRA" /></fr:link>). The case for general schemes is then evident from this.
 </fr:mainmatter></fr:tree>
  
@@ -758,7 +736,6 @@
               <fr:month>6</fr:month>
               <fr:day>9</fr:day>
             </fr:date>
-            <fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/schm-9YD5.tree</fr:source-path>
             <fr:uri>https://charloced.github.io/schm-9YD5/</fr:uri>
             <fr:display-uri>schm-9YD5</fr:display-uri>
             <fr:route>/schm-9YD5/</fr:route>
@@ -770,7 +747,7 @@
   <fr:tex display="block"><![CDATA[ (\mathcal {I}/\mathcal {O}_{X})_x \cong  \mathcal {I}_x/\mathcal {O}_{X,x} ]]></fr:tex></html:p>
  
    
-   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>9</fr:day></fr:date><fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/schm-9YD5.tree</fr:source-path><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>9</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
    This holds essentially due to the fact that the closed quotient <fr:tex display="inline"><![CDATA[\mathcal {I}/\mathcal {O}_{X}]]></fr:tex> is a <html:em>geometric construction</html:em>. By the dual statement of <fr:link href="/idem-comm-OBAP/" title="Congruence for pro-open quotients" uri="https://charloced.github.io/idem-comm-OBAP/" display-uri="idem-comm-OBAP" type="local">Lemma <fr:contextual-number uri="https://charloced.github.io/idem-comm-OBAP/" display-uri="idem-comm-OBAP" /></fr:link>, the following is a coequaliser in <fr:tex display="inline"><![CDATA[\mathrm {Sh}(X)]]></fr:tex>, 
   
   <html:figure><fr:resource hash="6d8ebe730ef21fa9341850ebbf50caac"><fr:resource-content><html:img src="/6d8ebe730ef21fa9341850ebbf50caac.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[\usepackage {tikz-cd}\usepackage {quiver}]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
@@ -800,7 +777,6 @@
               <fr:month>6</fr:month>
               <fr:day>9</fr:day>
             </fr:date>
-            <fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/topology/topl-6LIP.tree</fr:source-path>
             <fr:uri>https://charloced.github.io/topl-6LIP/</fr:uri>
             <fr:display-uri>topl-6LIP</fr:display-uri>
             <fr:route>/topl-6LIP/</fr:route>
@@ -835,7 +811,6 @@
               <fr:month>6</fr:month>
               <fr:day>8</fr:day>
             </fr:date>
-            <fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/schm-V16H.tree</fr:source-path>
             <fr:uri>https://charloced.github.io/schm-V16H/</fr:uri>
             <fr:display-uri>schm-V16H</fr:display-uri>
             <fr:route>/schm-V16H/</fr:route>

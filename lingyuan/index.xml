@@ -3,7 +3,6 @@
 <fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/">
   <fr:frontmatter>
     <fr:authors />
-    <fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/people/lingyuan.tree</fr:source-path>
     <fr:uri>https://charloced.github.io/lingyuan/</fr:uri>
     <fr:display-uri>lingyuan</fr:display-uri>
     <fr:route>/lingyuan/</fr:route>
@@ -47,7 +46,6 @@
                 <fr:link href="/lingyuan/" title="Lingyuan Ye" uri="https://charloced.github.io/lingyuan/" display-uri="lingyuan" type="local">Lingyuan Ye</fr:link>
               </fr:author>
             </fr:authors>
-            <fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/index.tree</fr:source-path>
             <fr:uri>https://charloced.github.io/index/</fr:uri>
             <fr:display-uri>index</fr:display-uri>
             <fr:route>/index/</fr:route>

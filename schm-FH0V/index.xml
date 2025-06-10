@@ -8,7 +8,6 @@
       <fr:month>6</fr:month>
       <fr:day>9</fr:day>
     </fr:date>
-    <fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/schm-FH0V.tree</fr:source-path>
     <fr:uri>https://charloced.github.io/schm-FH0V/</fr:uri>
     <fr:display-uri>schm-FH0V</fr:display-uri>
     <fr:route>/schm-FH0V/</fr:route>
@@ -56,7 +55,6 @@
               <fr:month>6</fr:month>
               <fr:day>9</fr:day>
             </fr:date>
-            <fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/schm-TCWT.tree</fr:source-path>
             <fr:uri>https://charloced.github.io/schm-TCWT/</fr:uri>
             <fr:display-uri>schm-TCWT</fr:display-uri>
             <fr:route>/schm-TCWT/</fr:route>
@@ -77,7 +75,6 @@
               <fr:month>6</fr:month>
               <fr:day>8</fr:day>
             </fr:date>
-            <fr:source-path>/Users/xielingyuan/Documents/GitHub/logical-geometry/trees/log-geo/schm-OMYR.tree</fr:source-path>
             <fr:uri>https://charloced.github.io/schm-OMYR/</fr:uri>
             <fr:display-uri>schm-OMYR</fr:display-uri>
             <fr:route>/schm-OMYR/</fr:route>
