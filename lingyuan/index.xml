@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/">
+  <fr:frontmatter>
+    <fr:authors />
+    <fr:uri>https://charloced.github.io/lingyuan/</fr:uri>
+    <fr:display-uri>lingyuan</fr:display-uri>
+    <fr:route>/lingyuan/</fr:route>
+    <fr:title text="Lingyuan Ye">Lingyuan Ye</fr:title>
+    <fr:taxon>Person</fr:taxon>
+    <fr:meta name="external">https://yelingyuan.fr</fr:meta>
+    <fr:meta name="institution">
+      <fr:link href="https://www.cst.cam.ac.uk/" type="external">ucam</fr:link>
+    </fr:meta>
+    <fr:meta name="orcid">0000-0002-8983-0099</fr:meta>
+    <fr:meta name="position">PhD student</fr:meta>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <html:p>PhD student working with <fr:link href="https://www.jonmsterling.com/index/index.xml" type="external">Jon Sterling</fr:link> on topos theory, type theory, and categorical logic.</html:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/lingyuan/" title="Lingyuan Ye" uri="https://charloced.github.io/lingyuan/" display-uri="lingyuan" type="local">Lingyuan Ye</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:uri>https://charloced.github.io/index/</fr:uri>
+            <fr:display-uri>index</fr:display-uri>
+            <fr:route>/index/</fr:route>
+            <fr:title text="Hello!">Hello!</fr:title>
+            <fr:meta name="external">https://yelingyuan.fr</fr:meta>
+            <fr:meta name="orcid">0000-0002-8983-0099</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  I'm Lingyuan Ye. This is my personal <fr:link href="https://www.forester-notes.org/index/index.xml" type="external">forester space</fr:link>. This is my <fr:link href="/lingyuan/" title="Lingyuan Ye" uri="https://charloced.github.io/lingyuan/" display-uri="lingyuan" type="local">bio</fr:link>.
+</html:p>
+            <html:p>
+  I mainly use this to host my <fr:link href="/log-geo-0001/" title="Logical Geometry" uri="https://charloced.github.io/log-geo-0001/" display-uri="log-geo-0001" type="local">logical-geometry note</fr:link>.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

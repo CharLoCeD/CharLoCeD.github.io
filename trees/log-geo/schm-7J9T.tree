@@ -1,8 +1,0 @@
-\date{2025-06-09}
-\taxon{Theorem}
-\title{A scheme is integral iff it is irreducible}
-\import{macro}
-
-\p{
-  A scheme #{X} is [integral](schm-9U1B) iff it is [irreducible](topl-0001).
-}

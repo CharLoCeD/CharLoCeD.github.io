@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/">
+  <fr:frontmatter>
+    <fr:authors />
+    <fr:date>
+      <fr:year>2025</fr:year>
+      <fr:month>6</fr:month>
+      <fr:day>8</fr:day>
+    </fr:date>
+    <fr:uri>https://charloced.github.io/schm-689A/</fr:uri>
+    <fr:display-uri>schm-689A</fr:display-uri>
+    <fr:route>/schm-689A/</fr:route>
+    <fr:title text="Morphisms of locally distributed spaces">Morphisms of locally distributed spaces</fr:title>
+    <fr:taxon>Definition</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <html:p>
+  A morphism <fr:tex display="inline"><![CDATA[f : (X,\mathcal {O}_{X}) \to  (Y,\mathcal {O}_{Y})]]></fr:tex> between <fr:link href="/schm-V16H/" title="Locally distributed space" uri="https://charloced.github.io/schm-V16H/" display-uri="schm-V16H" type="local">locally distributed spaces</fr:link> is a continuous function
+  <fr:tex display="block"><![CDATA[ f : X \to  Y, ]]></fr:tex>
+  together with a <html:em>local</html:em> morphism
+  <fr:tex display="block"><![CDATA[ f^{\sharp } : f^*\mathcal {O}_{Y} \to  \mathcal {O}_{X}. ]]></fr:tex>
+  Here <fr:tex display="inline"><![CDATA[f^{\sharp }]]></fr:tex> is local iff it is <html:em>t-conservative</html:em>. The category of locally distributed spaces will be denoted as <fr:tex display="inline"><![CDATA[\mathbf {Top}_{\mathbb {D}}]]></fr:tex>.
+</html:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/lingyuan/" title="Lingyuan Ye" uri="https://charloced.github.io/lingyuan/" display-uri="lingyuan" type="local">Lingyuan Ye</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>8</fr:day>
+            </fr:date>
+            <fr:uri>https://charloced.github.io/schm-SDP6/</fr:uri>
+            <fr:display-uri>schm-SDP6</fr:display-uri>
+            <fr:route>/schm-SDP6/</fr:route>
+            <fr:title text="Locally distributed spaces">Locally distributed spaces</fr:title>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>8</fr:day>
+                </fr:date>
+                <fr:uri>https://charloced.github.io/schm-V16H/</fr:uri>
+                <fr:display-uri>schm-V16H</fr:display-uri>
+                <fr:route>/schm-V16H/</fr:route>
+                <fr:title text="Locally distributed space">Locally distributed space</fr:title>
+                <fr:taxon>Definition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+  A <html:em>locally distributed space</html:em> is a pair <fr:tex display="inline"><![CDATA[(X,\mathcal {O}_{X})]]></fr:tex>, where <fr:tex display="inline"><![CDATA[X]]></fr:tex> is a topological space and <fr:tex display="inline"><![CDATA[\mathcal {O}_{X}]]></fr:tex> is a sheaf of local distributive lattice on <fr:tex display="inline"><![CDATA[X]]></fr:tex>.
+</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>8</fr:day>
+                </fr:date>
+                <fr:uri>https://charloced.github.io/schm-689A/</fr:uri>
+                <fr:display-uri>schm-689A</fr:display-uri>
+                <fr:route>/schm-689A/</fr:route>
+                <fr:title text="Morphisms of locally distributed spaces">Morphisms of locally distributed spaces</fr:title>
+                <fr:taxon>Definition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+  A morphism <fr:tex display="inline"><![CDATA[f : (X,\mathcal {O}_{X}) \to  (Y,\mathcal {O}_{Y})]]></fr:tex> between <fr:link href="/schm-V16H/" title="Locally distributed space" uri="https://charloced.github.io/schm-V16H/" display-uri="schm-V16H" type="local">locally distributed spaces</fr:link> is a continuous function
+  <fr:tex display="block"><![CDATA[ f : X \to  Y, ]]></fr:tex>
+  together with a <html:em>local</html:em> morphism
+  <fr:tex display="block"><![CDATA[ f^{\sharp } : f^*\mathcal {O}_{Y} \to  \mathcal {O}_{X}. ]]></fr:tex>
+  Here <fr:tex display="inline"><![CDATA[f^{\sharp }]]></fr:tex> is local iff it is <html:em>t-conservative</html:em>. The category of locally distributed spaces will be denoted as <fr:tex display="inline"><![CDATA[\mathbf {Top}_{\mathbb {D}}]]></fr:tex>.
+</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>8</fr:day>
+                </fr:date>
+                <fr:uri>https://charloced.github.io/schm-BGJ9/</fr:uri>
+                <fr:display-uri>schm-BGJ9</fr:display-uri>
+                <fr:route>/schm-BGJ9/</fr:route>
+                <fr:title text="Spec as a functor to locally distributed spaces">Spec as a functor to locally distributed spaces</fr:title>
+                <fr:taxon>Proposition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter><html:p>
+  The functor <fr:tex display="inline"><![CDATA[\operatorname {Spec} : \mathbf {DL}^{\mathrm {op}} \to  \mathbf {Spec}]]></fr:tex> given in <fr:link href="/idem-comm-EA6S/" title="Spectra are spectral spaces" uri="https://charloced.github.io/idem-comm-EA6S/" display-uri="idem-comm-EA6S" type="local">Theorem <fr:contextual-number uri="https://charloced.github.io/idem-comm-EA6S/" display-uri="idem-comm-EA6S" /></fr:link> can be extended to one
+  <fr:tex display="block"><![CDATA[\operatorname {Spec} : \mathbf {DL}^{\mathrm {op}} \to  \mathbf {Top}_{\mathbb {D}}]]></fr:tex></html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>8</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  Given a morphism 
+  <fr:tex display="block"><![CDATA[ f_{\sharp } : E \to  D, ]]></fr:tex>
+  it induces a morphism of locally distributed spaces
+  <fr:tex display="block"><![CDATA[ (f,f^{\sharp }) : \operatorname {Spec} D \to  \operatorname {Spec} E, ]]></fr:tex>
+  where the underlying continuous map <fr:tex display="inline"><![CDATA[f]]></fr:tex> sends a prime filter in <fr:tex display="inline"><![CDATA[D]]></fr:tex> to its preimage under <fr:tex display="inline"><![CDATA[f_{\sharp }]]></fr:tex>. This way, we have that for any <fr:tex display="inline"><![CDATA[e\in  E]]></fr:tex>,
+  <fr:tex display="block"><![CDATA[ f^{-1}(O_e) = \{x\in \operatorname {Spec} D\mid e \in  f_{\sharp }^{-1}(x)\} = \{e\in \operatorname {Spec} D\mid f_{\sharp } e \in  x\} = O_{f_{\sharp } e}. ]]></fr:tex>
+  Hence on <fr:tex display="inline"><![CDATA[e\in  E]]></fr:tex>, the induced map is the canonical map induced by <fr:tex display="inline"><![CDATA[f^*]]></fr:tex>,
+  
+  <html:figure><fr:resource hash="0a30ebd0e49d644b11ce707d486b1c8e"><fr:resource-content><html:img src="/0a30ebd0e49d644b11ce707d486b1c8e.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[\usepackage {tikz-cd}\usepackage {quiver}]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+    \begin {tikzcd}
+      \mathcal  O_E(1) \cong  E \ar [r, "f_{\sharp }"] \ar [d, two heads] & D \cong  \mathcal  O_D(1) \ar [d, two heads] \\ 
+      \mathcal  O_E(e) \cong  E/e \ar [r, dashed, "f_{\sharp }"'] & D/f_{\sharp } e \cong  \mathcal  O_D(f_{\sharp } e)
+    \end {tikzcd}
+  ]]></fr:resource-source></fr:resource></html:figure>
+
+  On each stalk <fr:tex display="inline"><![CDATA[x\in \operatorname {Spec} D]]></fr:tex>, we have
+  <fr:tex display="block"><![CDATA[ f^{\sharp }_x : (f^*\mathcal {O}_{E})_x \cong  \mathcal {O}_{E,fx} \cong  E/fx \to  D/x \cong  \mathcal {O}_{D,x} ]]></fr:tex>
+  which is t-conservative, because it arises as the following <fr:link href="/idem-comm-V39C/" title="Orthogonal factorisation: (pro-open, t-conservative)" uri="https://charloced.github.io/idem-comm-V39C/" display-uri="idem-comm-V39C" type="local">factorisation</fr:link>,
+  
+  <html:figure><fr:resource hash="ed771b220ab34e31e46d525432dccb32"><fr:resource-content><html:img src="/ed771b220ab34e31e46d525432dccb32.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[\usepackage {tikz-cd}\usepackage {quiver}]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+    \begin {tikzcd}
+      E \ar [r, "f_{\sharp }"] \ar [d, two heads] & D \ar [d, two heads] \\ 
+      E/f_{\sharp }^{-1}(x) \ar [r] & D/x
+    \end {tikzcd}
+  ]]></fr:resource-source></fr:resource></html:figure>
+
+</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>8</fr:day>
+                </fr:date>
+                <fr:uri>https://charloced.github.io/schm-X3M9/</fr:uri>
+                <fr:display-uri>schm-X3M9</fr:display-uri>
+                <fr:route>/schm-X3M9/</fr:route>
+                <fr:title text="Universal property of spectra">Universal property of spectra</fr:title>
+                <fr:taxon>Theorem</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter><html:p><fr:tex display="inline"><![CDATA[\operatorname {Spec}]]></fr:tex> is the right adjoint to the global section functor
+  
+  <html:figure><fr:resource hash="c3eb1b796da263a65ba30c0cfc277738"><fr:resource-content><html:img src="/c3eb1b796da263a65ba30c0cfc277738.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[\usepackage {tikz-cd}\usepackage {quiver}]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+  \begin {tikzcd}
+    {\mathbf {DL}^{\mathrm {op}}} & \mathbf {Top}_{\mathbb  D}
+    \arrow [""{name=0, anchor=center, inner sep=0}, "\mathrm {Spec}"', curve={height=18pt}, from=1-1, to=1-2]
+    \arrow [""{name=1, anchor=center, inner sep=0}, "\Gamma "', curve={height=18pt}, from=1-2, to=1-1]
+    \arrow ["\dashv "{anchor=center, rotate=-90}, draw=none, from=1, to=0]
+  \end {tikzcd}
+  ]]></fr:resource-source></fr:resource></html:figure>
+
+  identifying <fr:tex display="inline"><![CDATA[\mathbf {DL}^{\mathrm {op}}]]></fr:tex> as a reflective subcategory of <fr:tex display="inline"><![CDATA[\mathbf {Top}_{\mathbb {D}}]]></fr:tex>.
+</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>8</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <html:p>Let <fr:tex display="inline"><![CDATA[(X,\mathcal {O}_{X})]]></fr:tex> be a locally distributed space and <fr:tex display="inline"><![CDATA[D]]></fr:tex> a distributive lattice. Given
+  <fr:tex display="block"><![CDATA[ f_{\sharp } : D \to  \Gamma \mathcal {O}_{X}, ]]></fr:tex>
+  we construct a morphism of locally distributed spaces
+  <fr:tex display="block"><![CDATA[ (f,f^{\sharp }) : (X,\mathcal {O}_{X}) \to  (\operatorname {Spec} D,\mathcal {O}_{D}). ]]></fr:tex>
+  The map <fr:tex display="inline"><![CDATA[f : X \to  \operatorname {Spec} D]]></fr:tex> can be constructed as follows,
+  
+  <html:figure><fr:resource hash="d817c86ccffec2d8ec4dedbbbc038c86"><fr:resource-content><html:img src="/d817c86ccffec2d8ec4dedbbbc038c86.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[\usepackage {tikz-cd}\usepackage {quiver}]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+    \begin {tikzcd}
+      D \ar [dr, dashed, "f^{-1}"'] \ar [r, "f_{\sharp }"] & \Gamma \mathcal  O_X \ar [d, "=1"] \\ 
+      & \Gamma \Omega _X
+    \end {tikzcd}
+  ]]></fr:resource-source></fr:resource></html:figure>
+
+  Since <fr:tex display="inline"><![CDATA[\mathcal {O}_{X}]]></fr:tex> is local, by <fr:link href="/idem-comm-E2I8/" title="Equivalent formulation of locality" uri="https://charloced.github.io/idem-comm-E2I8/" display-uri="idem-comm-E2I8" type="local">Remark <fr:contextual-number uri="https://charloced.github.io/idem-comm-E2I8/" display-uri="idem-comm-E2I8" /></fr:link> the composite is a distributive lattice morphism, thus produces a continuous function <fr:tex display="inline"><![CDATA[f : X \to  \operatorname {Spec} D]]></fr:tex> by <fr:link href="/idem-comm-WKAD/" title="Spectra as classifying spaces" uri="https://charloced.github.io/idem-comm-WKAD/" display-uri="idem-comm-WKAD" type="local">Proposition <fr:contextual-number uri="https://charloced.github.io/idem-comm-WKAD/" display-uri="idem-comm-WKAD" /></fr:link>. Concretely, for any <fr:tex display="inline"><![CDATA[x\in  X]]></fr:tex> we have
+  <fr:tex display="block"><![CDATA[ fx = \{p\in  D\mid x \models  f_{\sharp }(p)\}. ]]></fr:tex>
+  In other words, <fr:tex display="inline"><![CDATA[D/fx]]></fr:tex> is the <fr:link href="/idem-comm-V39C/" title="Orthogonal factorisation: (pro-open, t-conservative)" uri="https://charloced.github.io/idem-comm-V39C/" display-uri="idem-comm-V39C" type="local">(pro-open,t-conservative)</fr:link> factorisation of <fr:tex display="inline"><![CDATA[D \to  \Gamma \mathcal {O}_{X} \to  \mathcal {O}_{X,x}]]></fr:tex>
+  
+  <html:figure><fr:resource hash="4745fb6bb6986271af12e34940950bc2"><fr:resource-content><html:img src="/4745fb6bb6986271af12e34940950bc2.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[\usepackage {tikz-cd}\usepackage {quiver}]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+    \begin {tikzcd}
+      D \ar [d, two heads] \ar [r, "f_{\sharp }"] & \Gamma \mathcal  O_{X} \ar [d] \\ 
+      D/fx \ar [r] & \mathcal {O}_{X,x}
+    \end {tikzcd}
+  ]]></fr:resource-source></fr:resource></html:figure>
+
+  Here <fr:tex display="inline"><![CDATA[D/fx]]></fr:tex> is local since <fr:tex display="inline"><![CDATA[\mathcal {O}_{X,x}]]></fr:tex> by assumption is local and <fr:tex display="inline"><![CDATA[D/fx \to  \mathcal {O}_{X,x}]]></fr:tex> is t-conservative. Hence by <fr:link href="/idem-comm-EV8L/" title="Quotient of prime filters are local" uri="https://charloced.github.io/idem-comm-EV8L/" display-uri="idem-comm-EV8L" type="local">Proposition <fr:contextual-number uri="https://charloced.github.io/idem-comm-EV8L/" display-uri="idem-comm-EV8L" /></fr:link> <fr:tex display="inline"><![CDATA[fx]]></fr:tex> is indeed a prime filter.</html:p>
+
+  <html:p>We then construct a morphism of distributive lattices <fr:tex display="inline"><![CDATA[f^{\sharp } : f^*\mathcal {O}_{D} \to  \mathcal {O}_{X}]]></fr:tex>. Equivalently, this can be described as a compatible family of maps
+  <fr:tex display="block"><![CDATA[ f_{\sharp } : \mathcal {O}_{D}(p) \cong  D/p \to  \mathcal {O}_{X}(f^{-1} p). ]]></fr:tex>
+  Compatibility means the following diagramme commutes,
+  
+  <html:figure><fr:resource hash="723c9e3a0aef2be62e869675f204d485"><fr:resource-content><html:img src="/723c9e3a0aef2be62e869675f204d485.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[\usepackage {tikz-cd}\usepackage {quiver}]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+  \begin {tikzcd}
+    D \ar [d, two heads] \ar [r, "f_\sharp "] & \mathcal  O_{X}(X) \ar [d, "(-)|_{f^{-1} p}"] \\
+    D/p \ar [r, "f_\sharp "'] & \mathcal {O}_{X}(f^{^{-1}} p)
+  \end {tikzcd}
+  ]]></fr:resource-source></fr:resource></html:figure>
+
+  It then suffices to show that <fr:tex display="inline"><![CDATA[f_{\sharp }(p)|_{f^{-1}(p)} = 1]]></fr:tex>. This holds, since by construction <fr:tex display="inline"><![CDATA[f^{-1}(p)]]></fr:tex> is the subspace <fr:tex display="inline"><![CDATA[\{x\mid x \models  f_{\sharp }(p)\}]]></fr:tex>. This being a <html:em>local</html:em> morphism follows immediately from the factorisation defining <fr:tex display="inline"><![CDATA[fx]]></fr:tex>.</html:p>
+
+  <html:p>On the other hand, we need to show that for any morphism between locally distributed spaces <fr:tex display="inline"><![CDATA[(f,f^{\sharp }) : (X,\mathcal {O}_{X}) \to  (\operatorname {Spec} D,\mathcal {O}_{D})]]></fr:tex>, it is determined by <fr:tex display="inline"><![CDATA[f_{\sharp } : D \to  \Gamma \mathcal {O}_{X}]]></fr:tex>. Fistly, since <fr:tex display="inline"><![CDATA[D\twoheadrightarrow  D/p]]></fr:tex> is a localisation, all the morphisms <fr:tex display="inline"><![CDATA[f_{\sharp } : D/p \to  _{\sharp } X(f^{-1} p)]]></fr:tex> are already determined by <fr:tex display="inline"><![CDATA[f_{\sharp } : D \to  \Gamma \mathcal {O}_{X}]]></fr:tex>. Hence, it suffices to show that <fr:tex display="inline"><![CDATA[f]]></fr:tex> is also determined by <fr:tex display="inline"><![CDATA[f_{\sharp } : D \to  \Gamma \mathcal {O}_{X}]]></fr:tex>. The key of course is the requirement that <fr:tex display="inline"><![CDATA[f^{\sharp }]]></fr:tex> is t-conservative. By the Kripke-Joyal semantics, this means that for any <fr:tex display="inline"><![CDATA[x\in  X]]></fr:tex>, the induced map on stalk <fr:tex display="inline"><![CDATA[D/fx \to  \mathcal {O}_{X,x}]]></fr:tex> must be t-conservative. This uniquely determines <fr:tex display="inline"><![CDATA[fx]]></fr:tex> since <fr:tex display="inline"><![CDATA[\mathcal {O}_{X,x}]]></fr:tex> by construction is local, and has a unique prime filter. This then determines <fr:tex display="inline"><![CDATA[fx]]></fr:tex> by looking at the preimage <fr:tex display="inline"><![CDATA[D \to  \Gamma \mathcal {O}_{X} \to  \mathcal {O}_{X,x}]]></fr:tex>.</html:p>
+</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+            </fr:tree>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>8</fr:day>
+            </fr:date>
+            <fr:uri>https://charloced.github.io/schm-V16H/</fr:uri>
+            <fr:display-uri>schm-V16H</fr:display-uri>
+            <fr:route>/schm-V16H/</fr:route>
+            <fr:title text="Locally distributed space">Locally distributed space</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  A <html:em>locally distributed space</html:em> is a pair <fr:tex display="inline"><![CDATA[(X,\mathcal {O}_{X})]]></fr:tex>, where <fr:tex display="inline"><![CDATA[X]]></fr:tex> is a topological space and <fr:tex display="inline"><![CDATA[\mathcal {O}_{X}]]></fr:tex> is a sheaf of local distributive lattice on <fr:tex display="inline"><![CDATA[X]]></fr:tex>.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

@@ -1,7 +1,0 @@
-\date{2025-06-07}
-\taxon{Definition}
-\title{T-conservative maps}
-
-\p{
-  A map #{f : D \to E} between distributive lattices is \em{t-conservative} iff it reflect truth, i.e. #{f(p) = 1} implies #{p = 1} for all #{p\in D}.
-}

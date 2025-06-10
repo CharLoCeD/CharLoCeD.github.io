@@ -1,7 +1,0 @@
-\date{2025-06-09T16:47:57Z}
-\taxon{Definition}
-\title{Quasi-compact and quasi-separated schemes}
-
-\p{
-  We say a [scheme](schm-86OJ) is \em{quasi-separated} if its underlying topological space is [quasi-separated](topl-GW93). We say it is \em{quasi-compact} if its underlying space is \em{compact}. The two conditions are often combined together and written as \em{qcqs}.
-}

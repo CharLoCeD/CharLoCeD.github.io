@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/">
+  <fr:frontmatter>
+    <fr:authors />
+    <fr:date>
+      <fr:year>2025</fr:year>
+      <fr:month>6</fr:month>
+      <fr:day>8</fr:day>
+    </fr:date>
+    <fr:uri>https://charloced.github.io/schm-OMYR/</fr:uri>
+    <fr:display-uri>schm-OMYR</fr:display-uri>
+    <fr:route>/schm-OMYR/</fr:route>
+    <fr:title text="Quasi-closed immersion">Quasi-closed immersion</fr:title>
+    <fr:taxon>Definition</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <html:p>
+  A map of <fr:link href="/schm-V16H/" title="Locally distributed space" uri="https://charloced.github.io/schm-V16H/" display-uri="schm-V16H" type="local">locally distributed spaces</fr:link> <fr:tex display="inline"><![CDATA[f : X \to  Y]]></fr:tex> is a <html:em>quasi-closed immersion</html:em> if 
+  <html:ol><html:li><fr:tex display="inline"><![CDATA[f]]></fr:tex> is a homeomorphism of <fr:tex display="inline"><![CDATA[X]]></fr:tex> onto a closed subspace of <fr:tex display="inline"><![CDATA[Y]]></fr:tex>; </html:li> 
+    <html:li><fr:tex display="inline"><![CDATA[f_{\sharp } : \mathcal {O}_{Y} \twoheadrightarrow  f_*\mathcal {O}_{X} \cong  \mathcal {I}/\mathcal {O}_{Y}]]></fr:tex> for some sheaf of ideals <fr:tex display="inline"><![CDATA[\mathcal {I}]]></fr:tex> of <fr:tex display="inline"><![CDATA[\mathcal {O}_{Y}]]></fr:tex>. </html:li></html:ol></html:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/lingyuan/" title="Lingyuan Ye" uri="https://charloced.github.io/lingyuan/" display-uri="lingyuan" type="local">Lingyuan Ye</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>8</fr:day>
+            </fr:date>
+            <fr:uri>https://charloced.github.io/schm-RAWC/</fr:uri>
+            <fr:display-uri>schm-RAWC</fr:display-uri>
+            <fr:route>/schm-RAWC/</fr:route>
+            <fr:title text="Quasi-coherent ideals and closed immersion">Quasi-coherent ideals and closed immersion</fr:title>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>8</fr:day>
+                </fr:date>
+                <fr:uri>https://charloced.github.io/schm-OMYR/</fr:uri>
+                <fr:display-uri>schm-OMYR</fr:display-uri>
+                <fr:route>/schm-OMYR/</fr:route>
+                <fr:title text="Quasi-closed immersion">Quasi-closed immersion</fr:title>
+                <fr:taxon>Definition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+  A map of <fr:link href="/schm-V16H/" title="Locally distributed space" uri="https://charloced.github.io/schm-V16H/" display-uri="schm-V16H" type="local">locally distributed spaces</fr:link> <fr:tex display="inline"><![CDATA[f : X \to  Y]]></fr:tex> is a <html:em>quasi-closed immersion</html:em> if 
+  <html:ol><html:li><fr:tex display="inline"><![CDATA[f]]></fr:tex> is a homeomorphism of <fr:tex display="inline"><![CDATA[X]]></fr:tex> onto a closed subspace of <fr:tex display="inline"><![CDATA[Y]]></fr:tex>; </html:li> 
+    <html:li><fr:tex display="inline"><![CDATA[f_{\sharp } : \mathcal {O}_{Y} \twoheadrightarrow  f_*\mathcal {O}_{X} \cong  \mathcal {I}/\mathcal {O}_{Y}]]></fr:tex> for some sheaf of ideals <fr:tex display="inline"><![CDATA[\mathcal {I}]]></fr:tex> of <fr:tex display="inline"><![CDATA[\mathcal {O}_{Y}]]></fr:tex>. </html:li></html:ol></html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>8</fr:day>
+                </fr:date>
+                <fr:uri>https://charloced.github.io/schm-5KCL/</fr:uri>
+                <fr:display-uri>schm-5KCL</fr:display-uri>
+                <fr:route>/schm-5KCL/</fr:route>
+                <fr:title text="Sheaf of ideals generate quasi-closed immersions">Sheaf of ideals generate quasi-closed immersions</fr:title>
+                <fr:taxon>Construction</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+  Let <fr:tex display="inline"><![CDATA[X]]></fr:tex> be a <fr:link href="/schm-V16H/" title="Locally distributed space" uri="https://charloced.github.io/schm-V16H/" display-uri="schm-V16H" type="local">locally distributed space</fr:link>, and <fr:tex display="inline"><![CDATA[\mathcal {I}]]></fr:tex> a sheaf of ideal of <fr:tex display="inline"><![CDATA[\mathcal {O}_{X}]]></fr:tex>. We define the subset of <fr:tex display="inline"><![CDATA[X]]></fr:tex>
+  <fr:tex display="block"><![CDATA[ C_{\mathcal {I}} := \{x \in  X\mid 1 \not \in  \mathcal {I}_x\} ]]></fr:tex>
+  Equivalently, <fr:tex display="inline"><![CDATA[x\in  C_{\mathcal {I}}]]></fr:tex> iff the stalk <fr:tex display="inline"><![CDATA[(\mathcal {I}/\mathcal {O}_{X})_x]]></fr:tex> of the quotient distributive lattice at <fr:tex display="inline"><![CDATA[x]]></fr:tex> is non-trivial. This is a closed set, since if <fr:tex display="inline"><![CDATA[0 = 1]]></fr:tex> in <fr:tex display="inline"><![CDATA[(\mathcal {I}/\mathcal {O}_{X})_x]]></fr:tex>, then <fr:tex display="inline"><![CDATA[0=1]]></fr:tex> in an open neighbourhood of <fr:tex display="inline"><![CDATA[x]]></fr:tex>. 
+</html:p>
+                <html:p>
+  Now let <fr:tex display="inline"><![CDATA[i : C_{\mathcal {I}} \hookrightarrow  X]]></fr:tex> be the closed inclusion. From general topos theory, we know the direct image
+  <fr:tex display="block"><![CDATA[ i_* : \mathrm {Sh}(C_{\mathcal {I}}) \to  \mathrm {Sh}(X) ]]></fr:tex>
+  is <html:em>fully faithful</html:em>, whose essentially image consists of those sheaves <fr:tex display="inline"><![CDATA[\mathcal {F}]]></fr:tex> where <fr:tex display="inline"><![CDATA[\mathcal {F}_x \cong  1]]></fr:tex> for all <fr:tex display="inline"><![CDATA[x\in \overline {C_{\mathcal {I}}}]]></fr:tex> (see e.g. <fr:link href="/topl-6LIP/" title="Reflector for closed subtopoi" uri="https://charloced.github.io/topl-6LIP/" display-uri="topl-6LIP" type="local">Construction <fr:contextual-number uri="https://charloced.github.io/topl-6LIP/" display-uri="topl-6LIP" /></fr:link>). This is in particular true for the quotient sheaf <fr:tex display="inline"><![CDATA[\mathcal {I}/\mathcal {O}_{X}]]></fr:tex>, since for any <fr:tex display="inline"><![CDATA[x\in \overline {C_{\mathcal {I}}}]]></fr:tex>, by <fr:link href="/schm-9YD5/" title="Closed quotient commutes with taking stalks" uri="https://charloced.github.io/schm-9YD5/" display-uri="schm-9YD5" type="local">Lemma <fr:contextual-number uri="https://charloced.github.io/schm-9YD5/" display-uri="schm-9YD5" /></fr:link> we have 
+  <fr:tex display="block"><![CDATA[ (\mathcal {I}/\mathcal {O}_{X})_x \cong  \mathcal {I}_x/\mathcal {O}_{X,x} ]]></fr:tex>
+  and by definition for any <fr:tex display="inline"><![CDATA[x\in  C_{\mathcal {I}}]]></fr:tex>, we know <fr:tex display="inline"><![CDATA[\mathcal {I}_x/\mathcal {O}_{X,x}]]></fr:tex> is the trivial distributive lattice. Hence, there is an essentially unique sheaf of distributive lattices <fr:tex display="inline"><![CDATA[\mathcal {O}_{C_{\mathcal {I}}}]]></fr:tex> where <fr:tex display="inline"><![CDATA[i_*\mathcal {O}_{C_{\mathcal {I}}} \cong  \mathcal {I}/\mathcal {O}_{X}]]></fr:tex>. 
+</html:p>
+                <html:p>
+  Furthermore, for any <fr:tex display="inline"><![CDATA[x\in  C_{\mathcal {I}}]]></fr:tex>, the map <fr:tex display="inline"><![CDATA[i^*\mathcal {O}_{X} \to  \mathcal {O}_{C_{\mathcal {I}}}]]></fr:tex> on stalk over <fr:tex display="inline"><![CDATA[x]]></fr:tex> is given by the quotient 
+  <fr:tex display="block"><![CDATA[ \mathcal {O}_{X,x} \twoheadrightarrow  \mathcal {I_x}/\mathcal {O}_{X,x} ]]></fr:tex>
+  By construction this is a closed quotient of a local distributive lattice where the quotient is non-trivial. Hence, it is a morphism of locally distributed spaces, and we get a quasi-closed immersion
+  <fr:tex display="block"><![CDATA[ C_{\mathcal {I}} \hookrightarrow  X ]]></fr:tex></html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>9</fr:day>
+                </fr:date>
+                <fr:uri>https://charloced.github.io/schm-7QL9/</fr:uri>
+                <fr:display-uri>schm-7QL9</fr:display-uri>
+                <fr:route>/schm-7QL9/</fr:route>
+                <fr:title text="Exotic quasi-closed immersion">Exotic quasi-closed immersion</fr:title>
+                <fr:taxon>Example</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+  Consider the affine scheme <fr:tex display="inline"><![CDATA[\operatorname {Spec} 2[x]]]></fr:tex> mentioned in <fr:link href="/schm-R3J8/" title="Affine schemes of free distributive lattices" uri="https://charloced.github.io/schm-R3J8/" display-uri="schm-R3J8" type="local">Example <fr:contextual-number uri="https://charloced.github.io/schm-R3J8/" display-uri="schm-R3J8" /></fr:link>. Note that sheaf on <fr:tex display="inline"><![CDATA[\operatorname {Spec} 2[x]]]></fr:tex> are simply presheaves on the Sierpinski space <fr:tex display="inline"><![CDATA[2 = \{0 < 1\}]]></fr:tex>. Hence, we have a sheaf of ideal <fr:tex display="inline"><![CDATA[\mathcal {I}]]></fr:tex> of <fr:tex display="inline"><![CDATA[\mathcal {O}_{2[x]}]]></fr:tex> as follows, which corresponds to 
+  
+  <html:figure><fr:resource hash="ae07dc22f5e335a63b2ea31c591ba5d0"><fr:resource-content><html:img src="/ae07dc22f5e335a63b2ea31c591ba5d0.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[\usepackage {tikz-cd}\usepackage {quiver}]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+    \begin {tikzcd}
+      {\mathcal  I(\{0,1\}) = 0 \cong  \mathcal  I_0} & {2[x]} \\
+      {\mathcal  I(\{1\}) = 2 \cong  \mathcal  I_1} & 2
+      \arrow [tail, from=1-1, to=1-2]
+      \arrow [tail, from=1-1, to=2-1]
+      \arrow ["{x=1}", from=1-2, to=2-2]
+      \arrow [from=2-1, to=2-2]
+    \end {tikzcd}
+  ]]></fr:resource-source></fr:resource></html:figure>
+
+  According to <fr:link href="/schm-5KCL/" title="Sheaf of ideals generate quasi-closed immersions" uri="https://charloced.github.io/schm-5KCL/" display-uri="schm-5KCL" type="local">Construction <fr:contextual-number uri="https://charloced.github.io/schm-5KCL/" display-uri="schm-5KCL" /></fr:link>, the closed subspace is given by <fr:tex display="inline"><![CDATA[C_{\mathcal {I}} = \{0\}]]></fr:tex>, where the structural sheaf given by 
+  <fr:tex display="block"><![CDATA[ \mathcal {O}_{C_{\mathcal {I}},0} \cong  0/2[x] \cong  2[x]. ]]></fr:tex>
+  This way, we get a <fr:link href="/schm-OMYR/" title="Quasi-closed immersion" uri="https://charloced.github.io/schm-OMYR/" display-uri="schm-OMYR" type="local">quasi-closed immersion</fr:link> <fr:tex display="inline"><![CDATA[C_{\mathcal {I}} \hookrightarrow  \operatorname {Spec} 2[x]]]></fr:tex>, where now <fr:tex display="inline"><![CDATA[C_{\mathcal {I}}]]></fr:tex> is <html:em>not</html:em> a scheme.
+</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <html:p>
+  Given <fr:link href="/schm-7QL9/" title="Exotic quasi-closed immersion" uri="https://charloced.github.io/schm-7QL9/" display-uri="schm-7QL9" type="local">Example <fr:contextual-number uri="https://charloced.github.io/schm-7QL9/" display-uri="schm-7QL9" /></fr:link>, we would like a notion of sheaf of ideals, under which the closed subscheme associated to it under <fr:link href="/schm-5KCL/" title="Sheaf of ideals generate quasi-closed immersions" uri="https://charloced.github.io/schm-5KCL/" display-uri="schm-5KCL" type="local">Construction <fr:contextual-number uri="https://charloced.github.io/schm-5KCL/" display-uri="schm-5KCL" /></fr:link> will always be a scheme. For this we first consider the case for affine schemes. Our guiding principle is again the bijection in <fr:link href="/idem-comm-HLDT/" title="Frame of opens of spectra" uri="https://charloced.github.io/idem-comm-HLDT/" display-uri="idem-comm-HLDT" type="local">Proposition <fr:contextual-number uri="https://charloced.github.io/idem-comm-HLDT/" display-uri="idem-comm-HLDT" /></fr:link>.
+</html:p>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>9</fr:day>
+                </fr:date>
+                <fr:uri>https://charloced.github.io/schm-MIV5/</fr:uri>
+                <fr:display-uri>schm-MIV5</fr:display-uri>
+                <fr:route>/schm-MIV5/</fr:route>
+                <fr:title text="Quasi-coherent ideals for affine schemes">Quasi-coherent ideals for affine schemes</fr:title>
+                <fr:taxon>Construction</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+  Let <fr:tex display="inline"><![CDATA[I]]></fr:tex> be an ideal of a distributive lattice <fr:tex display="inline"><![CDATA[D]]></fr:tex>. We construct a sheaf of ideal <fr:tex display="inline"><![CDATA[\widetilde {I}]]></fr:tex> on <fr:tex display="inline"><![CDATA[\operatorname {Spec} D]]></fr:tex> as follows: For any <fr:tex display="inline"><![CDATA[a\in  D]]></fr:tex>, we define 
+  <fr:tex display="block"><![CDATA[ \widetilde {I}(a) := a \wedge  I. ]]></fr:tex>
+  Evidently, <fr:tex display="inline"><![CDATA[a \wedge  I \subseteq  D/a]]></fr:tex> is an ideal for all <fr:tex display="inline"><![CDATA[a\in  D]]></fr:tex>. This is a sheaf of ideals of <fr:tex display="inline"><![CDATA[\mathcal {O}_{D}]]></fr:tex> by the same proof as <fr:link href="/schm-ZBG1/" title="Structural sheaf is a sheaf for Zariski topology" uri="https://charloced.github.io/schm-ZBG1/" display-uri="schm-ZBG1" type="local">proposition <fr:contextual-number uri="https://charloced.github.io/schm-ZBG1/" display-uri="schm-ZBG1" /></fr:link>.
+</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>9</fr:day>
+                </fr:date>
+                <fr:uri>https://charloced.github.io/schm-TCWT/</fr:uri>
+                <fr:display-uri>schm-TCWT</fr:display-uri>
+                <fr:route>/schm-TCWT/</fr:route>
+                <fr:title text="Quasi-coherent ideal">Quasi-coherent ideal</fr:title>
+                <fr:taxon>Definition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+  For a scheme <fr:tex display="inline"><![CDATA[X]]></fr:tex>, we say an ideal <fr:tex display="inline"><![CDATA[\mathcal {I}]]></fr:tex> of <fr:tex display="inline"><![CDATA[\mathcal {O}_{X}]]></fr:tex> is quasi-coherent if for any affine open <fr:tex display="inline"><![CDATA[\operatorname {Spec} A]]></fr:tex> of <fr:tex display="inline"><![CDATA[X]]></fr:tex>, <fr:tex display="inline"><![CDATA[\mathcal {I}|_{\operatorname {Spec} A} = \widetilde {I}]]></fr:tex> for some ideal <fr:tex display="inline"><![CDATA[I]]></fr:tex> of <fr:tex display="inline"><![CDATA[A]]></fr:tex>. We will write the poset of quasi-coherent ideals of <fr:tex display="inline"><![CDATA[X]]></fr:tex> as <fr:tex display="inline"><![CDATA[\mathrm {Idl}_Q(X)]]></fr:tex>.
+</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>9</fr:day>
+                </fr:date>
+                <fr:uri>https://charloced.github.io/schm-2CQ4/</fr:uri>
+                <fr:display-uri>schm-2CQ4</fr:display-uri>
+                <fr:route>/schm-2CQ4/</fr:route>
+                <fr:title text="Local criteria for quasi-coherent ideals">Local criteria for quasi-coherent ideals</fr:title>
+                <fr:taxon>Proposition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter><html:p>
+  Let <fr:tex display="inline"><![CDATA[X]]></fr:tex> be a <fr:link href="/schm-86OJ/" title="Scheme" uri="https://charloced.github.io/schm-86OJ/" display-uri="schm-86OJ" type="local">scheme</fr:link>, and <fr:tex display="inline"><![CDATA[\mathcal {I}]]></fr:tex> an ideal of <fr:tex display="inline"><![CDATA[\mathcal {O}_{X}]]></fr:tex>. <fr:tex display="inline"><![CDATA[\mathcal {I}]]></fr:tex> is quasi-coherent iff for all affine open <fr:tex display="inline"><![CDATA[\operatorname {Spec} A]]></fr:tex> of <fr:tex display="inline"><![CDATA[X]]></fr:tex> and <fr:tex display="inline"><![CDATA[a\in  A]]></fr:tex>, the canonical factorisation
+  
+  <html:figure><fr:resource hash="43630480b02c4c3a9cdbc42434ba4fb6"><fr:resource-content><html:img src="/43630480b02c4c3a9cdbc42434ba4fb6.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[\usepackage {tikz-cd}\usepackage {quiver}]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+    \begin {tikzcd}
+      {\mathcal  I(\mathrm {Spec} A)} \\
+      {a \wedge  \mathcal  I(\mathrm {Spec}A)} & {\mathcal  I(\mathrm {Spec}A/a)}
+      \arrow [two heads, from=1-1, to=2-1]
+      \arrow [from=1-1, to=2-2]
+      \arrow [from=2-1, to=2-2]
+    \end {tikzcd}
+  ]]></fr:resource-source></fr:resource></html:figure>
+
+  induces an equivalence <fr:tex display="inline"><![CDATA[a \wedge  \mathcal {I}(\operatorname {Spec} A) = \mathcal {I}(\operatorname {Spec} A/a)]]></fr:tex>.
+</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>9</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  This is evident, since the condition exactly expresses that on each affine open <fr:tex display="inline"><![CDATA[\operatorname {Spec} A]]></fr:tex>, <fr:tex display="inline"><![CDATA[\mathcal {I}|_{\operatorname {Spec} A} = \widetilde {\mathcal {I}(\operatorname {Spec} A)}]]></fr:tex>.
+</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+            </fr:tree>
+            <html:p>
+  This way, we first have a generalisation for the results in <fr:link href="/idem-comm-HLDT/" title="Frame of opens of spectra" uri="https://charloced.github.io/idem-comm-HLDT/" display-uri="idem-comm-HLDT" type="local">Proposition <fr:contextual-number uri="https://charloced.github.io/idem-comm-HLDT/" display-uri="idem-comm-HLDT" /></fr:link>.
+</html:p>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>9</fr:day>
+                </fr:date>
+                <fr:uri>https://charloced.github.io/schm-EREC/</fr:uri>
+                <fr:display-uri>schm-EREC</fr:display-uri>
+                <fr:route>/schm-EREC/</fr:route>
+                <fr:title text="Frame of opens of a general scheme">Frame of opens of a general scheme</fr:title>
+                <fr:taxon>Proposition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter><html:p>
+  For a <fr:link href="/schm-86OJ/" title="Scheme" uri="https://charloced.github.io/schm-86OJ/" display-uri="schm-86OJ" type="local">scheme</fr:link> <fr:tex display="inline"><![CDATA[X]]></fr:tex>, there is a bijective correspondence between its frame of opens and <fr:link href="/schm-TCWT/" title="Quasi-coherent ideal" uri="https://charloced.github.io/schm-TCWT/" display-uri="schm-TCWT" type="local">quasi-coherent ideals</fr:link> <fr:tex display="inline"><![CDATA[\mathrm {Idl}_Q(X)]]></fr:tex> of <fr:tex display="inline"><![CDATA[X]]></fr:tex>.
+</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>9</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <html:p>
+    Again we prove a dual equivalence between <fr:tex display="inline"><![CDATA[\mathrm {Idl}_Q(X)]]></fr:tex> and closed subsets of <fr:tex display="inline"><![CDATA[X]]></fr:tex>. For any (quasi-coherent) ideal <fr:tex display="inline"><![CDATA[\mathcal {I}]]></fr:tex> of <fr:tex display="inline"><![CDATA[\mathcal {O}_{X}]]></fr:tex>, <fr:link href="/schm-5KCL/" title="Sheaf of ideals generate quasi-closed immersions" uri="https://charloced.github.io/schm-5KCL/" display-uri="schm-5KCL" type="local">Construction <fr:contextual-number uri="https://charloced.github.io/schm-5KCL/" display-uri="schm-5KCL" /></fr:link> gives us a closed subset <fr:tex display="inline"><![CDATA[C_{\mathcal {I}}]]></fr:tex> already. Now for a closed subset <fr:tex display="inline"><![CDATA[Y]]></fr:tex> of <fr:tex display="inline"><![CDATA[X]]></fr:tex>, we construct an ideal <fr:tex display="inline"><![CDATA[\mathcal {I}_Y]]></fr:tex> such that for any open <fr:tex display="inline"><![CDATA[U]]></fr:tex> of <fr:tex display="inline"><![CDATA[X]]></fr:tex>,
+    <fr:tex display="block"><![CDATA[ \mathcal {I}_Y(U) := \{a\in \mathcal {O}_{X}(U)\mid \forall  y \in  Y \cap  U.\  y \not \models  a\}.  ]]></fr:tex>
+    This ideal is quasi-coherent, because if <fr:tex display="inline"><![CDATA[U]]></fr:tex> is affine open <fr:tex display="inline"><![CDATA[\operatorname {Spec} A]]></fr:tex>, then the intersection <fr:tex display="inline"><![CDATA[Y \cap  \operatorname {Spec} A]]></fr:tex>, in the notation of <fr:link href="/idem-comm-HLDT/" title="Frame of opens of spectra" uri="https://charloced.github.io/idem-comm-HLDT/" display-uri="idem-comm-HLDT" type="local">Proposition <fr:contextual-number uri="https://charloced.github.io/idem-comm-HLDT/" display-uri="idem-comm-HLDT" /></fr:link>, is the closed set <fr:tex display="inline"><![CDATA[C_I]]></fr:tex> for some ideal <fr:tex display="inline"><![CDATA[I]]></fr:tex> of <fr:tex display="inline"><![CDATA[A]]></fr:tex>. For any <fr:tex display="inline"><![CDATA[a\in  A]]></fr:tex>, 
+    <fr:tex display="block"><![CDATA[ \mathcal {I}_{Y}(\operatorname {Spec} A/a) = \{b\in  A/a\mid \forall  y \in  C_I.\  y \not \models  b\} = a \wedge  I. ]]></fr:tex>
+    By <fr:link href="/schm-2CQ4/" title="Local criteria for quasi-coherent ideals" uri="https://charloced.github.io/schm-2CQ4/" display-uri="schm-2CQ4" type="local">Proposition <fr:contextual-number uri="https://charloced.github.io/schm-2CQ4/" display-uri="schm-2CQ4" /></fr:link> this means <fr:tex display="inline"><![CDATA[\mathcal {I}_Y]]></fr:tex> is quasi-coherent.
+  </html:p>
+
+  <html:p>
+    If we now start from a closed set <fr:tex display="inline"><![CDATA[Y]]></fr:tex>, for any <fr:tex display="inline"><![CDATA[x\in  X]]></fr:tex> we have
+    <fr:tex display="block"><![CDATA[ 
+      \begin {align*}
+        x\in  C_{\mathcal {I}_Y} 
+        &\Leftrightarrow  1 \not \in  \mathcal {I}_{Y,x} \\ 
+        &\Leftrightarrow  \forall  U\text {open}\ni  x.\, 1 \not \in  \mathcal {I}_Y(U) \\ 
+        &\Leftrightarrow  \forall  U\text {open}\ni  x.\, Y \cap  U \neq  \emptyset  \\ 
+        &\Leftrightarrow  x \in  Y
+      \end {align*}
+    ]]></fr:tex>
+    The third equivalence holds since by construction, 
+    <fr:tex display="block"><![CDATA[ 1 \in  \mathcal {I}_Y(U) \Leftrightarrow  \forall  y \in  Y \cap  U.\  y \not \models  1 \Leftrightarrow  Y \cap  U = \emptyset . ]]></fr:tex>
+    The final equivalence holds since <fr:tex display="inline"><![CDATA[Y]]></fr:tex> is closed.
+  </html:p>
+
+  <html:p>
+    Now if we start from a quasi-coherent ideal <fr:tex display="inline"><![CDATA[\mathcal {I}]]></fr:tex>, to show <fr:tex display="inline"><![CDATA[\mathcal {I} = \mathcal {I}_{C_{\mathcal {I}}}]]></fr:tex>, it suffices to show this on an affine open cover. For any affine open <fr:tex display="inline"><![CDATA[\operatorname {Spec} A]]></fr:tex> of <fr:tex display="inline"><![CDATA[X]]></fr:tex>, since <fr:tex display="inline"><![CDATA[C_{\mathcal {I}} \cap  \operatorname {Spec} A]]></fr:tex> is closed in <fr:tex display="inline"><![CDATA[\operatorname {Spec} A]]></fr:tex>, it corresponds to <fr:tex display="inline"><![CDATA[C_I]]></fr:tex> for an ideal <fr:tex display="inline"><![CDATA[I]]></fr:tex> of <fr:tex display="inline"><![CDATA[A]]></fr:tex>. Since <fr:tex display="inline"><![CDATA[\mathcal {I}]]></fr:tex> is quasi-coherent, we must have <fr:tex display="inline"><![CDATA[\mathcal {I}(\operatorname {Spec} A) = \widetilde {I}]]></fr:tex>. Hence,
+    <fr:tex display="block"><![CDATA[ \mathcal {I}_{C_{\mathcal {I}}}(\operatorname {Spec} A) = \{a \in  A\mid \forall  y \in  C_{\mathcal {I}} \cap  \operatorname {Spec} A.\  y \not \models  a\} = I = \mathcal {I}(\operatorname {Spec} A). ]]></fr:tex>
+    This shows <fr:tex display="inline"><![CDATA[\mathcal {I}_{C_{\mathcal {I}}} = \mathcal {I}]]></fr:tex>.
+  </html:p>
+</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+            </fr:tree>
+            <html:p>
+  At the end, we show that <fr:link href="/schm-5KCL/" title="Sheaf of ideals generate quasi-closed immersions" uri="https://charloced.github.io/schm-5KCL/" display-uri="schm-5KCL" type="local">Construction <fr:contextual-number uri="https://charloced.github.io/schm-5KCL/" display-uri="schm-5KCL" /></fr:link> when applied to quasi-coherent ideals of schemes always produces a scheme.
+</html:p>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>9</fr:day>
+                </fr:date>
+                <fr:uri>https://charloced.github.io/schm-JBRX/</fr:uri>
+                <fr:display-uri>schm-JBRX</fr:display-uri>
+                <fr:route>/schm-JBRX/</fr:route>
+                <fr:title text="Quasi-coherent ideals generate closed subschemes">Quasi-coherent ideals generate closed subschemes</fr:title>
+                <fr:taxon>Proposition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter><html:p>
+  Let <fr:tex display="inline"><![CDATA[X]]></fr:tex> be a <fr:link href="/schm-86OJ/" title="Scheme" uri="https://charloced.github.io/schm-86OJ/" display-uri="schm-86OJ" type="local">scheme</fr:link> and let <fr:tex display="inline"><![CDATA[\mathcal {I}]]></fr:tex> be a <fr:link href="/schm-TCWT/" title="Quasi-coherent ideal" uri="https://charloced.github.io/schm-TCWT/" display-uri="schm-TCWT" type="local">quasi-coherent</fr:link> of <fr:tex display="inline"><![CDATA[\mathcal {O}_{X}]]></fr:tex>. Then the <fr:link href="/schm-OMYR/" title="Quasi-closed immersion" uri="https://charloced.github.io/schm-OMYR/" display-uri="schm-OMYR" type="local">closed immersion</fr:link> <fr:tex display="inline"><![CDATA[C_{\mathcal {I}} \hookrightarrow  X]]></fr:tex> produced by <fr:link href="/schm-5KCL/" title="Sheaf of ideals generate quasi-closed immersions" uri="https://charloced.github.io/schm-5KCL/" display-uri="schm-5KCL" type="local">Construction <fr:contextual-number uri="https://charloced.github.io/schm-5KCL/" display-uri="schm-5KCL" /></fr:link> makes <fr:tex display="inline"><![CDATA[C_{\mathcal {I}}]]></fr:tex> a closed subscheme of <fr:tex display="inline"><![CDATA[X]]></fr:tex>.
+</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>9</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  The case when <fr:tex display="inline"><![CDATA[X]]></fr:tex> is affine is clear. It is easy to see that when <fr:tex display="inline"><![CDATA[X = \operatorname {Spec} A]]></fr:tex> and <fr:tex display="inline"><![CDATA[\mathcal {I} = \widetilde {I}]]></fr:tex> for some ideal <fr:tex display="inline"><![CDATA[I]]></fr:tex> of <fr:tex display="inline"><![CDATA[A]]></fr:tex>, the closed immersion <fr:tex display="inline"><![CDATA[C_{\mathcal {I}} \hookrightarrow  \operatorname {Spec} A]]></fr:tex> is exactly <fr:tex display="inline"><![CDATA[\operatorname {Spec} I/A \hookrightarrow  \operatorname {Spec} A]]></fr:tex> induced by <fr:tex display="inline"><![CDATA[A \twoheadrightarrow  I/A]]></fr:tex> (cf. <fr:link href="/idem-comm-FMRA/" title="Closed subspace of closed quotient" uri="https://charloced.github.io/idem-comm-FMRA/" display-uri="idem-comm-FMRA" type="local">Remark <fr:contextual-number uri="https://charloced.github.io/idem-comm-FMRA/" display-uri="idem-comm-FMRA" /></fr:link>). The case for general schemes is then evident from this.
+</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+            </fr:tree>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>9</fr:day>
+            </fr:date>
+            <fr:uri>https://charloced.github.io/schm-FH0V/</fr:uri>
+            <fr:display-uri>schm-FH0V</fr:display-uri>
+            <fr:route>/schm-FH0V/</fr:route>
+            <fr:title text="Closed immersion">Closed immersion</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  A <fr:link href="/schm-OMYR/" title="Quasi-closed immersion" uri="https://charloced.github.io/schm-OMYR/" display-uri="schm-OMYR" type="local">quasi-closed immersion</fr:link> <fr:tex display="inline"><![CDATA[f : X \to  Y]]></fr:tex> is a <html:em>closed immersion</html:em> if the ideal sheaf <fr:tex display="inline"><![CDATA[\mathcal {I}]]></fr:tex> with <fr:tex display="inline"><![CDATA[\mathcal {O}_{Y} \twoheadrightarrow  f_*\mathcal {O}_{X} \cong  \mathcal {I}/\mathcal {O}_{Y}]]></fr:tex> is <fr:link href="/schm-TCWT/" title="Quasi-coherent ideal" uri="https://charloced.github.io/schm-TCWT/" display-uri="schm-TCWT" type="local">quasi-coherent</fr:link> on <fr:tex display="inline"><![CDATA[Y]]></fr:tex>.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>9</fr:day>
+            </fr:date>
+            <fr:uri>https://charloced.github.io/schm-7QL9/</fr:uri>
+            <fr:display-uri>schm-7QL9</fr:display-uri>
+            <fr:route>/schm-7QL9/</fr:route>
+            <fr:title text="Exotic quasi-closed immersion">Exotic quasi-closed immersion</fr:title>
+            <fr:taxon>Example</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  Consider the affine scheme <fr:tex display="inline"><![CDATA[\operatorname {Spec} 2[x]]]></fr:tex> mentioned in <fr:link href="/schm-R3J8/" title="Affine schemes of free distributive lattices" uri="https://charloced.github.io/schm-R3J8/" display-uri="schm-R3J8" type="local">Example <fr:contextual-number uri="https://charloced.github.io/schm-R3J8/" display-uri="schm-R3J8" /></fr:link>. Note that sheaf on <fr:tex display="inline"><![CDATA[\operatorname {Spec} 2[x]]]></fr:tex> are simply presheaves on the Sierpinski space <fr:tex display="inline"><![CDATA[2 = \{0 < 1\}]]></fr:tex>. Hence, we have a sheaf of ideal <fr:tex display="inline"><![CDATA[\mathcal {I}]]></fr:tex> of <fr:tex display="inline"><![CDATA[\mathcal {O}_{2[x]}]]></fr:tex> as follows, which corresponds to 
+  
+  <html:figure><fr:resource hash="ae07dc22f5e335a63b2ea31c591ba5d0"><fr:resource-content><html:img src="/ae07dc22f5e335a63b2ea31c591ba5d0.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[\usepackage {tikz-cd}\usepackage {quiver}]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+    \begin {tikzcd}
+      {\mathcal  I(\{0,1\}) = 0 \cong  \mathcal  I_0} & {2[x]} \\
+      {\mathcal  I(\{1\}) = 2 \cong  \mathcal  I_1} & 2
+      \arrow [tail, from=1-1, to=1-2]
+      \arrow [tail, from=1-1, to=2-1]
+      \arrow ["{x=1}", from=1-2, to=2-2]
+      \arrow [from=2-1, to=2-2]
+    \end {tikzcd}
+  ]]></fr:resource-source></fr:resource></html:figure>
+
+  According to <fr:link href="/schm-5KCL/" title="Sheaf of ideals generate quasi-closed immersions" uri="https://charloced.github.io/schm-5KCL/" display-uri="schm-5KCL" type="local">Construction <fr:contextual-number uri="https://charloced.github.io/schm-5KCL/" display-uri="schm-5KCL" /></fr:link>, the closed subspace is given by <fr:tex display="inline"><![CDATA[C_{\mathcal {I}} = \{0\}]]></fr:tex>, where the structural sheaf given by 
+  <fr:tex display="block"><![CDATA[ \mathcal {O}_{C_{\mathcal {I}},0} \cong  0/2[x] \cong  2[x]. ]]></fr:tex>
+  This way, we get a <fr:link href="/schm-OMYR/" title="Quasi-closed immersion" uri="https://charloced.github.io/schm-OMYR/" display-uri="schm-OMYR" type="local">quasi-closed immersion</fr:link> <fr:tex display="inline"><![CDATA[C_{\mathcal {I}} \hookrightarrow  \operatorname {Spec} 2[x]]]></fr:tex>, where now <fr:tex display="inline"><![CDATA[C_{\mathcal {I}}]]></fr:tex> is <html:em>not</html:em> a scheme.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>9</fr:day>
+            </fr:date>
+            <fr:uri>https://charloced.github.io/schm-JBRX/</fr:uri>
+            <fr:display-uri>schm-JBRX</fr:display-uri>
+            <fr:route>/schm-JBRX/</fr:route>
+            <fr:title text="Quasi-coherent ideals generate closed subschemes">Quasi-coherent ideals generate closed subschemes</fr:title>
+            <fr:taxon>Proposition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>
+  Let <fr:tex display="inline"><![CDATA[X]]></fr:tex> be a <fr:link href="/schm-86OJ/" title="Scheme" uri="https://charloced.github.io/schm-86OJ/" display-uri="schm-86OJ" type="local">scheme</fr:link> and let <fr:tex display="inline"><![CDATA[\mathcal {I}]]></fr:tex> be a <fr:link href="/schm-TCWT/" title="Quasi-coherent ideal" uri="https://charloced.github.io/schm-TCWT/" display-uri="schm-TCWT" type="local">quasi-coherent</fr:link> of <fr:tex display="inline"><![CDATA[\mathcal {O}_{X}]]></fr:tex>. Then the <fr:link href="/schm-OMYR/" title="Quasi-closed immersion" uri="https://charloced.github.io/schm-OMYR/" display-uri="schm-OMYR" type="local">closed immersion</fr:link> <fr:tex display="inline"><![CDATA[C_{\mathcal {I}} \hookrightarrow  X]]></fr:tex> produced by <fr:link href="/schm-5KCL/" title="Sheaf of ideals generate quasi-closed immersions" uri="https://charloced.github.io/schm-5KCL/" display-uri="schm-5KCL" type="local">Construction <fr:contextual-number uri="https://charloced.github.io/schm-5KCL/" display-uri="schm-5KCL" /></fr:link> makes <fr:tex display="inline"><![CDATA[C_{\mathcal {I}}]]></fr:tex> a closed subscheme of <fr:tex display="inline"><![CDATA[X]]></fr:tex>.
+</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>9</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  The case when <fr:tex display="inline"><![CDATA[X]]></fr:tex> is affine is clear. It is easy to see that when <fr:tex display="inline"><![CDATA[X = \operatorname {Spec} A]]></fr:tex> and <fr:tex display="inline"><![CDATA[\mathcal {I} = \widetilde {I}]]></fr:tex> for some ideal <fr:tex display="inline"><![CDATA[I]]></fr:tex> of <fr:tex display="inline"><![CDATA[A]]></fr:tex>, the closed immersion <fr:tex display="inline"><![CDATA[C_{\mathcal {I}} \hookrightarrow  \operatorname {Spec} A]]></fr:tex> is exactly <fr:tex display="inline"><![CDATA[\operatorname {Spec} I/A \hookrightarrow  \operatorname {Spec} A]]></fr:tex> induced by <fr:tex display="inline"><![CDATA[A \twoheadrightarrow  I/A]]></fr:tex> (cf. <fr:link href="/idem-comm-FMRA/" title="Closed subspace of closed quotient" uri="https://charloced.github.io/idem-comm-FMRA/" display-uri="idem-comm-FMRA" type="local">Remark <fr:contextual-number uri="https://charloced.github.io/idem-comm-FMRA/" display-uri="idem-comm-FMRA" /></fr:link>). The case for general schemes is then evident from this.
+</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>8</fr:day>
+            </fr:date>
+            <fr:uri>https://charloced.github.io/schm-V16H/</fr:uri>
+            <fr:display-uri>schm-V16H</fr:display-uri>
+            <fr:route>/schm-V16H/</fr:route>
+            <fr:title text="Locally distributed space">Locally distributed space</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  A <html:em>locally distributed space</html:em> is a pair <fr:tex display="inline"><![CDATA[(X,\mathcal {O}_{X})]]></fr:tex>, where <fr:tex display="inline"><![CDATA[X]]></fr:tex> is a topological space and <fr:tex display="inline"><![CDATA[\mathcal {O}_{X}]]></fr:tex> is a sheaf of local distributive lattice on <fr:tex display="inline"><![CDATA[X]]></fr:tex>.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

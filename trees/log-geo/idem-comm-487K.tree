@@ -1,8 +1,0 @@
-\date{2025-06-09T16:13:45Z}
-\taxon{Definition}
-\title{Integral distributive lattices}
-\import{macro}
-
-\p{
-  A distributive lattice #{D} is \em{integral} if #{D\op} is [local](idem-comm-75C1).
-}

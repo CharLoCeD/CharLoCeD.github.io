@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/">
+  <fr:frontmatter>
+    <fr:authors />
+    <fr:date>
+      <fr:year>2025</fr:year>
+      <fr:month>6</fr:month>
+      <fr:day>7</fr:day>
+    </fr:date>
+    <fr:uri>https://charloced.github.io/idem-comm-EV8L/</fr:uri>
+    <fr:display-uri>idem-comm-EV8L</fr:display-uri>
+    <fr:route>/idem-comm-EV8L/</fr:route>
+    <fr:title text="Quotient of prime filters are local">Quotient of prime filters are local</fr:title>
+    <fr:taxon>Proposition</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter><html:p>
+  For any filter <fr:tex display="inline"><![CDATA[F]]></fr:tex> on a distributive lattice <fr:tex display="inline"><![CDATA[D]]></fr:tex>: <fr:tex display="inline"><![CDATA[D/F]]></fr:tex> is <fr:link href="/idem-comm-75C1/" title="Local distributive lattice" uri="https://charloced.github.io/idem-comm-75C1/" display-uri="idem-comm-75C1" type="local">local</fr:link> iff <fr:tex display="inline"><![CDATA[F]]></fr:tex> is prime; <fr:tex display="inline"><![CDATA[D/F]]></fr:tex> is <fr:tex display="inline"><![CDATA[2]]></fr:tex> iff <fr:tex display="inline"><![CDATA[F]]></fr:tex> is maximal.
+</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>7</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  By <fr:link href="/idem-comm-W57Q/" title="Prime ideals of pro-open quotient" uri="https://charloced.github.io/idem-comm-W57Q/" display-uri="idem-comm-W57Q" type="local">Proposition <fr:contextual-number uri="https://charloced.github.io/idem-comm-W57Q/" display-uri="idem-comm-W57Q" /></fr:link>, the inverse image of the quotient <fr:tex display="inline"><![CDATA[f : D \twoheadrightarrow  D/F]]></fr:tex> gives a one-to-one correspondence between prime filters in <fr:tex display="inline"><![CDATA[D/F]]></fr:tex> and prime filters containing <fr:tex display="inline"><![CDATA[F]]></fr:tex>. This way, <fr:tex display="inline"><![CDATA[D/F]]></fr:tex> is local iff <fr:tex display="inline"><![CDATA[\{1\}]]></fr:tex> is prime, in which case <fr:tex display="inline"><![CDATA[F]]></fr:tex> must be prime. The case for maximality follows from the fact that <fr:tex display="inline"><![CDATA[2]]></fr:tex> is the only distributive lattice with only one prime filter.
+</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/lingyuan/" title="Lingyuan Ye" uri="https://charloced.github.io/lingyuan/" display-uri="lingyuan" type="local">Lingyuan Ye</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>7</fr:day>
+            </fr:date>
+            <fr:uri>https://charloced.github.io/idem-comm-IHKN/</fr:uri>
+            <fr:display-uri>idem-comm-IHKN</fr:display-uri>
+            <fr:route>/idem-comm-IHKN/</fr:route>
+            <fr:title text="Local algebra">Local algebra</fr:title>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>7</fr:day>
+                </fr:date>
+                <fr:uri>https://charloced.github.io/idem-comm-75C1/</fr:uri>
+                <fr:display-uri>idem-comm-75C1</fr:display-uri>
+                <fr:route>/idem-comm-75C1/</fr:route>
+                <fr:title text="Local distributive lattice">Local distributive lattice</fr:title>
+                <fr:taxon>Definition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p><fr:tex display="inline"><![CDATA[D]]></fr:tex> is a <html:em>local</html:em> distributive lattice if (1) <fr:tex display="inline"><![CDATA[0 \neq  1]]></fr:tex> in <fr:tex display="inline"><![CDATA[D]]></fr:tex>; (2) for any <fr:tex display="inline"><![CDATA[a,b]]></fr:tex> in <fr:tex display="inline"><![CDATA[D]]></fr:tex>, <fr:tex display="inline"><![CDATA[a \vee  b = 1]]></fr:tex> iff <fr:tex display="inline"><![CDATA[a = 1]]></fr:tex> or <fr:tex display="inline"><![CDATA[b = 1]]></fr:tex>.
+</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>7</fr:day>
+                </fr:date>
+                <fr:uri>https://charloced.github.io/idem-comm-E2I8/</fr:uri>
+                <fr:display-uri>idem-comm-E2I8</fr:display-uri>
+                <fr:route>/idem-comm-E2I8/</fr:route>
+                <fr:title text="Equivalent formulation of locality">Equivalent formulation of locality</fr:title>
+                <fr:taxon>Remark</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+  The following are equivalent for a distributive lattice <fr:tex display="inline"><![CDATA[D]]></fr:tex>:
+  <html:ol><html:li><fr:tex display="inline"><![CDATA[D]]></fr:tex> is <fr:link href="/idem-comm-75C1/" title="Local distributive lattice" uri="https://charloced.github.io/idem-comm-75C1/" display-uri="idem-comm-75C1" type="local">local</fr:link>.</html:li>
+    <html:li>The map <fr:tex display="inline"><![CDATA[(-)=1 : D \to  2]]></fr:tex> is a distributive lattice homomorphism.</html:li>
+    <html:li>There is a unique maximal ideal of <fr:tex display="inline"><![CDATA[D]]></fr:tex>.</html:li>
+    <html:li>There is a unique minimal filter of <fr:tex display="inline"><![CDATA[D]]></fr:tex>.</html:li></html:ol></html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>7</fr:day>
+                </fr:date>
+                <fr:uri>https://charloced.github.io/idem-comm-4UND/</fr:uri>
+                <fr:display-uri>idem-comm-4UND</fr:display-uri>
+                <fr:route>/idem-comm-4UND/</fr:route>
+                <fr:title text="Linear distributive lattices are local">Linear distributive lattices are local</fr:title>
+                <fr:taxon>Example</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+  Any bounded <html:em>linear</html:em> order is a distributive lattice, in fact a Heyting algebra. All non-trivial bounded linear orders are local.
+</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>7</fr:day>
+                </fr:date>
+                <fr:uri>https://charloced.github.io/idem-comm-EV8L/</fr:uri>
+                <fr:display-uri>idem-comm-EV8L</fr:display-uri>
+                <fr:route>/idem-comm-EV8L/</fr:route>
+                <fr:title text="Quotient of prime filters are local">Quotient of prime filters are local</fr:title>
+                <fr:taxon>Proposition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter><html:p>
+  For any filter <fr:tex display="inline"><![CDATA[F]]></fr:tex> on a distributive lattice <fr:tex display="inline"><![CDATA[D]]></fr:tex>: <fr:tex display="inline"><![CDATA[D/F]]></fr:tex> is <fr:link href="/idem-comm-75C1/" title="Local distributive lattice" uri="https://charloced.github.io/idem-comm-75C1/" display-uri="idem-comm-75C1" type="local">local</fr:link> iff <fr:tex display="inline"><![CDATA[F]]></fr:tex> is prime; <fr:tex display="inline"><![CDATA[D/F]]></fr:tex> is <fr:tex display="inline"><![CDATA[2]]></fr:tex> iff <fr:tex display="inline"><![CDATA[F]]></fr:tex> is maximal.
+</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>7</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  By <fr:link href="/idem-comm-W57Q/" title="Prime ideals of pro-open quotient" uri="https://charloced.github.io/idem-comm-W57Q/" display-uri="idem-comm-W57Q" type="local">Proposition <fr:contextual-number uri="https://charloced.github.io/idem-comm-W57Q/" display-uri="idem-comm-W57Q" /></fr:link>, the inverse image of the quotient <fr:tex display="inline"><![CDATA[f : D \twoheadrightarrow  D/F]]></fr:tex> gives a one-to-one correspondence between prime filters in <fr:tex display="inline"><![CDATA[D/F]]></fr:tex> and prime filters containing <fr:tex display="inline"><![CDATA[F]]></fr:tex>. This way, <fr:tex display="inline"><![CDATA[D/F]]></fr:tex> is local iff <fr:tex display="inline"><![CDATA[\{1\}]]></fr:tex> is prime, in which case <fr:tex display="inline"><![CDATA[F]]></fr:tex> must be prime. The case for maximality follows from the fact that <fr:tex display="inline"><![CDATA[2]]></fr:tex> is the only distributive lattice with only one prime filter.
+</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>7</fr:day>
+                </fr:date>
+                <fr:uri>https://charloced.github.io/idem-comm-E7E2/</fr:uri>
+                <fr:display-uri>idem-comm-E7E2</fr:display-uri>
+                <fr:route>/idem-comm-E7E2/</fr:route>
+                <fr:title text="Boolean algebras only have maximal ideals">Boolean algebras only have maximal ideals</fr:title>
+                <fr:taxon>Remark</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+  By <fr:link href="/idem-comm-EV8L/" title="Quotient of prime filters are local" uri="https://charloced.github.io/idem-comm-EV8L/" display-uri="idem-comm-EV8L" type="local">Proposition <fr:contextual-number uri="https://charloced.github.io/idem-comm-EV8L/" display-uri="idem-comm-EV8L" /></fr:link> a distributive lattice <fr:tex display="inline"><![CDATA[D]]></fr:tex> is a <html:em>Boolean algebra</html:em> iff all prime ideals of <fr:tex display="inline"><![CDATA[D]]></fr:tex> are maximal.
+</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>8</fr:day>
+            </fr:date>
+            <fr:uri>https://charloced.github.io/schm-B6QO/</fr:uri>
+            <fr:display-uri>schm-B6QO</fr:display-uri>
+            <fr:route>/schm-B6QO/</fr:route>
+            <fr:title text="Stalk for structural sheaf">Stalk for structural sheaf</fr:title>
+            <fr:taxon>Remark</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  If <fr:tex display="inline"><![CDATA[\mathcal {O}_{D}]]></fr:tex> is a sheaf, then at each prime filter <fr:tex display="inline"><![CDATA[x\in \operatorname {Spec} D]]></fr:tex>, the stalk of <fr:tex display="inline"><![CDATA[\mathcal {O}_{D}]]></fr:tex> at <fr:tex display="inline"><![CDATA[x]]></fr:tex> is given by
+  <fr:tex display="block"><![CDATA[ \mathcal {O}_{D,x} \cong  \operatorname {colim}_{p\in  x}D/p \cong  D/x. ]]></fr:tex>
+  As a distributive lattice this is <fr:link href="/idem-comm-75C1/" title="Local distributive lattice" uri="https://charloced.github.io/idem-comm-75C1/" display-uri="idem-comm-75C1" type="local">local</fr:link> by <fr:link href="/idem-comm-EV8L/" title="Quotient of prime filters are local" uri="https://charloced.github.io/idem-comm-EV8L/" display-uri="idem-comm-EV8L" type="local">Proposition <fr:contextual-number uri="https://charloced.github.io/idem-comm-EV8L/" display-uri="idem-comm-EV8L" /></fr:link>.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>8</fr:day>
+            </fr:date>
+            <fr:uri>https://charloced.github.io/schm-X3M9/</fr:uri>
+            <fr:display-uri>schm-X3M9</fr:display-uri>
+            <fr:route>/schm-X3M9/</fr:route>
+            <fr:title text="Universal property of spectra">Universal property of spectra</fr:title>
+            <fr:taxon>Theorem</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p><fr:tex display="inline"><![CDATA[\operatorname {Spec}]]></fr:tex> is the right adjoint to the global section functor
+  
+  <html:figure><fr:resource hash="c3eb1b796da263a65ba30c0cfc277738"><fr:resource-content><html:img src="/c3eb1b796da263a65ba30c0cfc277738.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[\usepackage {tikz-cd}\usepackage {quiver}]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+  \begin {tikzcd}
+    {\mathbf {DL}^{\mathrm {op}}} & \mathbf {Top}_{\mathbb  D}
+    \arrow [""{name=0, anchor=center, inner sep=0}, "\mathrm {Spec}"', curve={height=18pt}, from=1-1, to=1-2]
+    \arrow [""{name=1, anchor=center, inner sep=0}, "\Gamma "', curve={height=18pt}, from=1-2, to=1-1]
+    \arrow ["\dashv "{anchor=center, rotate=-90}, draw=none, from=1, to=0]
+  \end {tikzcd}
+  ]]></fr:resource-source></fr:resource></html:figure>
+
+  identifying <fr:tex display="inline"><![CDATA[\mathbf {DL}^{\mathrm {op}}]]></fr:tex> as a reflective subcategory of <fr:tex display="inline"><![CDATA[\mathbf {Top}_{\mathbb {D}}]]></fr:tex>.
+</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>8</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <html:p>Let <fr:tex display="inline"><![CDATA[(X,\mathcal {O}_{X})]]></fr:tex> be a locally distributed space and <fr:tex display="inline"><![CDATA[D]]></fr:tex> a distributive lattice. Given
+  <fr:tex display="block"><![CDATA[ f_{\sharp } : D \to  \Gamma \mathcal {O}_{X}, ]]></fr:tex>
+  we construct a morphism of locally distributed spaces
+  <fr:tex display="block"><![CDATA[ (f,f^{\sharp }) : (X,\mathcal {O}_{X}) \to  (\operatorname {Spec} D,\mathcal {O}_{D}). ]]></fr:tex>
+  The map <fr:tex display="inline"><![CDATA[f : X \to  \operatorname {Spec} D]]></fr:tex> can be constructed as follows,
+  
+  <html:figure><fr:resource hash="d817c86ccffec2d8ec4dedbbbc038c86"><fr:resource-content><html:img src="/d817c86ccffec2d8ec4dedbbbc038c86.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[\usepackage {tikz-cd}\usepackage {quiver}]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+    \begin {tikzcd}
+      D \ar [dr, dashed, "f^{-1}"'] \ar [r, "f_{\sharp }"] & \Gamma \mathcal  O_X \ar [d, "=1"] \\ 
+      & \Gamma \Omega _X
+    \end {tikzcd}
+  ]]></fr:resource-source></fr:resource></html:figure>
+
+  Since <fr:tex display="inline"><![CDATA[\mathcal {O}_{X}]]></fr:tex> is local, by <fr:link href="/idem-comm-E2I8/" title="Equivalent formulation of locality" uri="https://charloced.github.io/idem-comm-E2I8/" display-uri="idem-comm-E2I8" type="local">Remark <fr:contextual-number uri="https://charloced.github.io/idem-comm-E2I8/" display-uri="idem-comm-E2I8" /></fr:link> the composite is a distributive lattice morphism, thus produces a continuous function <fr:tex display="inline"><![CDATA[f : X \to  \operatorname {Spec} D]]></fr:tex> by <fr:link href="/idem-comm-WKAD/" title="Spectra as classifying spaces" uri="https://charloced.github.io/idem-comm-WKAD/" display-uri="idem-comm-WKAD" type="local">Proposition <fr:contextual-number uri="https://charloced.github.io/idem-comm-WKAD/" display-uri="idem-comm-WKAD" /></fr:link>. Concretely, for any <fr:tex display="inline"><![CDATA[x\in  X]]></fr:tex> we have
+  <fr:tex display="block"><![CDATA[ fx = \{p\in  D\mid x \models  f_{\sharp }(p)\}. ]]></fr:tex>
+  In other words, <fr:tex display="inline"><![CDATA[D/fx]]></fr:tex> is the <fr:link href="/idem-comm-V39C/" title="Orthogonal factorisation: (pro-open, t-conservative)" uri="https://charloced.github.io/idem-comm-V39C/" display-uri="idem-comm-V39C" type="local">(pro-open,t-conservative)</fr:link> factorisation of <fr:tex display="inline"><![CDATA[D \to  \Gamma \mathcal {O}_{X} \to  \mathcal {O}_{X,x}]]></fr:tex>
+  
+  <html:figure><fr:resource hash="4745fb6bb6986271af12e34940950bc2"><fr:resource-content><html:img src="/4745fb6bb6986271af12e34940950bc2.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[\usepackage {tikz-cd}\usepackage {quiver}]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+    \begin {tikzcd}
+      D \ar [d, two heads] \ar [r, "f_{\sharp }"] & \Gamma \mathcal  O_{X} \ar [d] \\ 
+      D/fx \ar [r] & \mathcal {O}_{X,x}
+    \end {tikzcd}
+  ]]></fr:resource-source></fr:resource></html:figure>
+
+  Here <fr:tex display="inline"><![CDATA[D/fx]]></fr:tex> is local since <fr:tex display="inline"><![CDATA[\mathcal {O}_{X,x}]]></fr:tex> by assumption is local and <fr:tex display="inline"><![CDATA[D/fx \to  \mathcal {O}_{X,x}]]></fr:tex> is t-conservative. Hence by <fr:link href="/idem-comm-EV8L/" title="Quotient of prime filters are local" uri="https://charloced.github.io/idem-comm-EV8L/" display-uri="idem-comm-EV8L" type="local">Proposition <fr:contextual-number uri="https://charloced.github.io/idem-comm-EV8L/" display-uri="idem-comm-EV8L" /></fr:link> <fr:tex display="inline"><![CDATA[fx]]></fr:tex> is indeed a prime filter.</html:p>
+
+  <html:p>We then construct a morphism of distributive lattices <fr:tex display="inline"><![CDATA[f^{\sharp } : f^*\mathcal {O}_{D} \to  \mathcal {O}_{X}]]></fr:tex>. Equivalently, this can be described as a compatible family of maps
+  <fr:tex display="block"><![CDATA[ f_{\sharp } : \mathcal {O}_{D}(p) \cong  D/p \to  \mathcal {O}_{X}(f^{-1} p). ]]></fr:tex>
+  Compatibility means the following diagramme commutes,
+  
+  <html:figure><fr:resource hash="723c9e3a0aef2be62e869675f204d485"><fr:resource-content><html:img src="/723c9e3a0aef2be62e869675f204d485.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[\usepackage {tikz-cd}\usepackage {quiver}]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+  \begin {tikzcd}
+    D \ar [d, two heads] \ar [r, "f_\sharp "] & \mathcal  O_{X}(X) \ar [d, "(-)|_{f^{-1} p}"] \\
+    D/p \ar [r, "f_\sharp "'] & \mathcal {O}_{X}(f^{^{-1}} p)
+  \end {tikzcd}
+  ]]></fr:resource-source></fr:resource></html:figure>
+
+  It then suffices to show that <fr:tex display="inline"><![CDATA[f_{\sharp }(p)|_{f^{-1}(p)} = 1]]></fr:tex>. This holds, since by construction <fr:tex display="inline"><![CDATA[f^{-1}(p)]]></fr:tex> is the subspace <fr:tex display="inline"><![CDATA[\{x\mid x \models  f_{\sharp }(p)\}]]></fr:tex>. This being a <html:em>local</html:em> morphism follows immediately from the factorisation defining <fr:tex display="inline"><![CDATA[fx]]></fr:tex>.</html:p>
+
+  <html:p>On the other hand, we need to show that for any morphism between locally distributed spaces <fr:tex display="inline"><![CDATA[(f,f^{\sharp }) : (X,\mathcal {O}_{X}) \to  (\operatorname {Spec} D,\mathcal {O}_{D})]]></fr:tex>, it is determined by <fr:tex display="inline"><![CDATA[f_{\sharp } : D \to  \Gamma \mathcal {O}_{X}]]></fr:tex>. Fistly, since <fr:tex display="inline"><![CDATA[D\twoheadrightarrow  D/p]]></fr:tex> is a localisation, all the morphisms <fr:tex display="inline"><![CDATA[f_{\sharp } : D/p \to  _{\sharp } X(f^{-1} p)]]></fr:tex> are already determined by <fr:tex display="inline"><![CDATA[f_{\sharp } : D \to  \Gamma \mathcal {O}_{X}]]></fr:tex>. Hence, it suffices to show that <fr:tex display="inline"><![CDATA[f]]></fr:tex> is also determined by <fr:tex display="inline"><![CDATA[f_{\sharp } : D \to  \Gamma \mathcal {O}_{X}]]></fr:tex>. The key of course is the requirement that <fr:tex display="inline"><![CDATA[f^{\sharp }]]></fr:tex> is t-conservative. By the Kripke-Joyal semantics, this means that for any <fr:tex display="inline"><![CDATA[x\in  X]]></fr:tex>, the induced map on stalk <fr:tex display="inline"><![CDATA[D/fx \to  \mathcal {O}_{X,x}]]></fr:tex> must be t-conservative. This uniquely determines <fr:tex display="inline"><![CDATA[fx]]></fr:tex> since <fr:tex display="inline"><![CDATA[\mathcal {O}_{X,x}]]></fr:tex> by construction is local, and has a unique prime filter. This then determines <fr:tex display="inline"><![CDATA[fx]]></fr:tex> by looking at the preimage <fr:tex display="inline"><![CDATA[D \to  \Gamma \mathcal {O}_{X} \to  \mathcal {O}_{X,x}]]></fr:tex>.</html:p>
+</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>7</fr:day>
+            </fr:date>
+            <fr:uri>https://charloced.github.io/idem-comm-E7E2/</fr:uri>
+            <fr:display-uri>idem-comm-E7E2</fr:display-uri>
+            <fr:route>/idem-comm-E7E2/</fr:route>
+            <fr:title text="Boolean algebras only have maximal ideals">Boolean algebras only have maximal ideals</fr:title>
+            <fr:taxon>Remark</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  By <fr:link href="/idem-comm-EV8L/" title="Quotient of prime filters are local" uri="https://charloced.github.io/idem-comm-EV8L/" display-uri="idem-comm-EV8L" type="local">Proposition <fr:contextual-number uri="https://charloced.github.io/idem-comm-EV8L/" display-uri="idem-comm-EV8L" /></fr:link> a distributive lattice <fr:tex display="inline"><![CDATA[D]]></fr:tex> is a <html:em>Boolean algebra</html:em> iff all prime ideals of <fr:tex display="inline"><![CDATA[D]]></fr:tex> are maximal.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>7</fr:day>
+            </fr:date>
+            <fr:uri>https://charloced.github.io/idem-comm-75C1/</fr:uri>
+            <fr:display-uri>idem-comm-75C1</fr:display-uri>
+            <fr:route>/idem-comm-75C1/</fr:route>
+            <fr:title text="Local distributive lattice">Local distributive lattice</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p><fr:tex display="inline"><![CDATA[D]]></fr:tex> is a <html:em>local</html:em> distributive lattice if (1) <fr:tex display="inline"><![CDATA[0 \neq  1]]></fr:tex> in <fr:tex display="inline"><![CDATA[D]]></fr:tex>; (2) for any <fr:tex display="inline"><![CDATA[a,b]]></fr:tex> in <fr:tex display="inline"><![CDATA[D]]></fr:tex>, <fr:tex display="inline"><![CDATA[a \vee  b = 1]]></fr:tex> iff <fr:tex display="inline"><![CDATA[a = 1]]></fr:tex> or <fr:tex display="inline"><![CDATA[b = 1]]></fr:tex>.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>7</fr:day>
+            </fr:date>
+            <fr:uri>https://charloced.github.io/idem-comm-W57Q/</fr:uri>
+            <fr:display-uri>idem-comm-W57Q</fr:display-uri>
+            <fr:route>/idem-comm-W57Q/</fr:route>
+            <fr:title text="Prime ideals of pro-open quotient">Prime ideals of pro-open quotient</fr:title>
+            <fr:taxon>Proposition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>
+  For a distributive lattice <fr:tex display="inline"><![CDATA[D]]></fr:tex> the pro-open quotient <fr:tex display="inline"><![CDATA[q: D \twoheadrightarrow  D/F]]></fr:tex>, induce a bijection between prime filters in <fr:tex display="inline"><![CDATA[D/F]]></fr:tex> and those in <fr:tex display="inline"><![CDATA[D]]></fr:tex> containing <fr:tex display="inline"><![CDATA[F]]></fr:tex>.
+</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>7</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <html:p>
+    It suffices to show that any prime filter <fr:tex display="inline"><![CDATA[P]]></fr:tex> in <fr:tex display="inline"><![CDATA[D]]></fr:tex> containing <fr:tex display="inline"><![CDATA[F]]></fr:tex> is mapped by <fr:tex display="inline"><![CDATA[q]]></fr:tex> to a prime filter <fr:tex display="inline"><![CDATA[q[P]]]></fr:tex> in <fr:tex display="inline"><![CDATA[D/F]]></fr:tex>, and <fr:tex display="inline"><![CDATA[q^{-1} q[P] = P]]></fr:tex>. Now <fr:tex display="inline"><![CDATA[q[P]]]></fr:tex> is evidently a filter. Suppose now we have <fr:tex display="inline"><![CDATA[x,y\in  D/F]]></fr:tex> with <fr:tex display="inline"><![CDATA[x\vee  y = q(p)]]></fr:tex> with <fr:tex display="inline"><![CDATA[p\in  P]]></fr:tex>. Pick <fr:tex display="inline"><![CDATA[a,b]]></fr:tex> with <fr:tex display="inline"><![CDATA[q(a) = x]]></fr:tex> and <fr:tex display="inline"><![CDATA[q(b) = y]]></fr:tex>, this means that we have <fr:tex display="inline"><![CDATA[u \in  F]]></fr:tex> with <fr:tex display="inline"><![CDATA[(a \vee  b) \wedge  u = p \wedge  u \in  P]]></fr:tex>. Since <fr:tex display="inline"><![CDATA[P]]></fr:tex> is prime, it follows that <fr:tex display="inline"><![CDATA[a \wedge  u \in  P]]></fr:tex> or <fr:tex display="inline"><![CDATA[b \wedge  u \in  P]]></fr:tex>, which implies <fr:tex display="inline"><![CDATA[x \in  q[P]]]></fr:tex> or <fr:tex display="inline"><![CDATA[y\in  q[P]]]></fr:tex>. Hence, <fr:tex display="inline"><![CDATA[q[P]]]></fr:tex> is prime. 
+  </html:p>
+  <html:p>
+    Now suppose <fr:tex display="inline"><![CDATA[q(a) \in  q[P]]]></fr:tex>, i.e. <fr:tex display="inline"><![CDATA[a \sim _F p]]></fr:tex> for some <fr:tex display="inline"><![CDATA[p\in  P]]></fr:tex>. From <fr:link href="/idem-comm-OBAP/" title="Congruence for pro-open quotients" uri="https://charloced.github.io/idem-comm-OBAP/" display-uri="idem-comm-OBAP" type="local">Lemma <fr:contextual-number uri="https://charloced.github.io/idem-comm-OBAP/" display-uri="idem-comm-OBAP" /></fr:link> we know that <fr:tex display="inline"><![CDATA[a \wedge  u = p \wedge  u]]></fr:tex> for some <fr:tex display="inline"><![CDATA[u\in  F]]></fr:tex>. Hence, <fr:tex display="inline"><![CDATA[a \wedge  u \in  P]]></fr:tex>, and by upward closeness, <fr:tex display="inline"><![CDATA[a\in  P]]></fr:tex> as well. 
+  </html:p>
+</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

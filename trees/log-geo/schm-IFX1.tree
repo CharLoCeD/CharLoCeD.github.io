@@ -1,8 +1,0 @@
-\date{2025-06-08}
-\taxon{Definition}
-\title{Affine scheme}
-\import{macro}
-
-\p{
-  We will denote the objects of #{\TopD} that lies in the image of #{\spec} as \em{affine schemes}.
-}

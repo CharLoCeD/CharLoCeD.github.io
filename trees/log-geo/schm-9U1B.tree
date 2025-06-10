@@ -1,8 +1,0 @@
-\date{2025-06-09T15:52:20Z}
-\taxon{Definition}
-\title{Integral schemes}
-\import{macro}
-
-\p{
-  A [scheme](schm-86OJ) #{X} is \em{integral}, if it is non-empty, and for every non-empty affine open #{\spec A} of #{X}, #{A} is [integral](idem-comm-487K).
-}

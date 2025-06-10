@@ -1,7 +1,0 @@
-\date{2025-06-08}
-\taxon{Definition}
-\title{Retrocompact subspaces}
-
-\p{
-  We say a subspace #{Y} of #{X} is \em{retrocompact}, if the inclusion #{Y \to X} is \em{compact}.
-}

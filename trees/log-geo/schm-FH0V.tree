@@ -1,8 +1,0 @@
-\date{2025-06-09}
-\taxon{Definition}
-\title{Closed immersion}
-\import{macro}
-
-\p{
-  A [quasi-closed immersion](schm-OMYR) #{f : X \to Y} is a \em{closed immersion} if the ideal sheaf #{\mc{I}} with #{\rg{Y} \surj f_*\rg{X} \cong \mc{I}/\rg{Y}} is [quasi-coherent](schm-TCWT) on #{Y}.
-}

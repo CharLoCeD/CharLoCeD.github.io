@@ -1,8 +1,0 @@
-\date{2025-06-08}
-\taxon{Example}
-\title{Lattices of cofinite subsets are Noetherian}
-
-\p{
-  For any set #{X}, we can construct a Noetherian distributive lattice #{\wp^{\omega}_{\bot}(X)} of cofinite subsets of #{X} with the bottom element #{\emptyset} adjointed. This lattice is evidently Noetherian. In fact, the distributive lattice #{\mathbb{P}} in \ref{idem-comm-14GL} is isomorphic to #{\wp^{\omega}_{\bot}(P)} where #{P} is the set of primes.
-}
-

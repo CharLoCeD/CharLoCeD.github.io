@@ -1,7 +1,0 @@
-\date{2025-06-08}
-\taxon{Definition}
-\title{Quasi-separated spaces}
-
-\p{
-  A topological space #{X} is \em{quasi-separated} if compact opens are closed under intersections.
-}

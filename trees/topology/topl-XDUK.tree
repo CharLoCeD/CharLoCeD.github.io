@@ -1,7 +1,0 @@
-\date{2025-06-09}
-\author{lingyuan}
-\title{Closed subtopoi}
-\import{macro}
-
-\transclude{topl-R1F1}
-\transclude{topl-6LIP}

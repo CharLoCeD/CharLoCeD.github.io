@@ -1,8 +1,0 @@
-\date{2025-06-08}
-\taxon{Definition}
-\title{Locally distributed space}
-\import{macro}
-
-\p{
-  A \em{locally distributed space} is a pair #{(X,\rg{X})}, where #{X} is a topological space and #{\rg{X}} is a sheaf of local distributive lattice on #{X}.
-}

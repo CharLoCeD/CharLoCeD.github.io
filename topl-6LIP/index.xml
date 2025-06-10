@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/">
+  <fr:frontmatter>
+    <fr:authors />
+    <fr:date>
+      <fr:year>2025</fr:year>
+      <fr:month>6</fr:month>
+      <fr:day>9</fr:day>
+    </fr:date>
+    <fr:uri>https://charloced.github.io/topl-6LIP/</fr:uri>
+    <fr:display-uri>topl-6LIP</fr:display-uri>
+    <fr:route>/topl-6LIP/</fr:route>
+    <fr:title text="Reflector for closed subtopoi">Reflector for closed subtopoi</fr:title>
+    <fr:taxon>Construction</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <html:p>
+  Let <fr:tex display="inline"><![CDATA[c_\varphi ]]></fr:tex> be the <fr:link href="/topl-R1F1/" title="Lawvere-Tierney topology for closed subtopoi" uri="https://charloced.github.io/topl-R1F1/" display-uri="topl-R1F1" type="local">closed Lawvere-Tierney operator</fr:link> associated with a subterminal <fr:tex display="inline"><![CDATA[\varphi ]]></fr:tex> of a topos <fr:tex display="inline"><![CDATA[\mathcal {X}]]></fr:tex>. This way, a subobject <fr:tex display="inline"><![CDATA[U \rightarrowtail  Y]]></fr:tex> is <html:em>dense</html:em> iff the following holds in <fr:tex display="inline"><![CDATA[\mathcal {X}]]></fr:tex>,
+  <fr:tex display="block"><![CDATA[ \forall  y \in  Y.\  \varphi  \vee  y \in  U. ]]></fr:tex>
+  This induces a <html:em>closed monad</html:em> on <fr:tex display="inline"><![CDATA[\mathcal {X}]]></fr:tex>
+  <fr:tex display="block"><![CDATA[ \Diamond _\varphi  : \mathcal {X} \to  \mathcal {X} ]]></fr:tex>
+  where for any <fr:tex display="inline"><![CDATA[X\in \mathcal {X}]]></fr:tex>, <fr:tex display="inline"><![CDATA[\Diamond _\varphi  X]]></fr:tex> is the following pushout,
+  
+  <html:figure><fr:resource hash="e06cb087e7cc6790de259d8bb02c40cd"><fr:resource-content><html:img src="/e06cb087e7cc6790de259d8bb02c40cd.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[\usepackage {tikz-cd}\usepackage {quiver}]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+    \begin {tikzcd}
+      X \times  \varphi  \ar [r] \ar [d] & \varphi  \ar [d] \\ 
+      X \ar [r] & \Diamond _\varphi  X 
+      \arrow ["\lrcorner "{anchor = center, pos = 0.125, rotate=180}, draw = none, from=2-2, to=1-1]
+    \end {tikzcd}
+  ]]></fr:resource-source></fr:resource></html:figure>
+
+  It turns out that <fr:tex display="inline"><![CDATA[X]]></fr:tex> is closed for this monad iff <fr:tex display="inline"><![CDATA[X^\varphi  \cong  1]]></fr:tex>.
+</html:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/lingyuan/" title="Lingyuan Ye" uri="https://charloced.github.io/lingyuan/" display-uri="lingyuan" type="local">Lingyuan Ye</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>9</fr:day>
+            </fr:date>
+            <fr:uri>https://charloced.github.io/topl-XDUK/</fr:uri>
+            <fr:display-uri>topl-XDUK</fr:display-uri>
+            <fr:route>/topl-XDUK/</fr:route>
+            <fr:title text="Closed subtopoi">Closed subtopoi</fr:title>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>9</fr:day>
+                </fr:date>
+                <fr:uri>https://charloced.github.io/topl-R1F1/</fr:uri>
+                <fr:display-uri>topl-R1F1</fr:display-uri>
+                <fr:route>/topl-R1F1/</fr:route>
+                <fr:title text="Lawvere-Tierney topology for closed subtopoi">Lawvere-Tierney topology for closed subtopoi</fr:title>
+                <fr:taxon>Definition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+  Let <fr:tex display="inline"><![CDATA[\mathcal {X}]]></fr:tex> be a topos, and <fr:tex display="inline"><![CDATA[\varphi ]]></fr:tex> a subterminal object. The <html:em>closed subtopos</html:em> associated with <fr:tex display="inline"><![CDATA[\varphi ]]></fr:tex> has the Lawvere-Tierney operator as 
+  <fr:tex display="block"><![CDATA[ c_{\varphi } = (-) \vee  \varphi  : \Omega  \to  \Omega . ]]></fr:tex></html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>9</fr:day>
+                </fr:date>
+                <fr:uri>https://charloced.github.io/topl-6LIP/</fr:uri>
+                <fr:display-uri>topl-6LIP</fr:display-uri>
+                <fr:route>/topl-6LIP/</fr:route>
+                <fr:title text="Reflector for closed subtopoi">Reflector for closed subtopoi</fr:title>
+                <fr:taxon>Construction</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+  Let <fr:tex display="inline"><![CDATA[c_\varphi ]]></fr:tex> be the <fr:link href="/topl-R1F1/" title="Lawvere-Tierney topology for closed subtopoi" uri="https://charloced.github.io/topl-R1F1/" display-uri="topl-R1F1" type="local">closed Lawvere-Tierney operator</fr:link> associated with a subterminal <fr:tex display="inline"><![CDATA[\varphi ]]></fr:tex> of a topos <fr:tex display="inline"><![CDATA[\mathcal {X}]]></fr:tex>. This way, a subobject <fr:tex display="inline"><![CDATA[U \rightarrowtail  Y]]></fr:tex> is <html:em>dense</html:em> iff the following holds in <fr:tex display="inline"><![CDATA[\mathcal {X}]]></fr:tex>,
+  <fr:tex display="block"><![CDATA[ \forall  y \in  Y.\  \varphi  \vee  y \in  U. ]]></fr:tex>
+  This induces a <html:em>closed monad</html:em> on <fr:tex display="inline"><![CDATA[\mathcal {X}]]></fr:tex>
+  <fr:tex display="block"><![CDATA[ \Diamond _\varphi  : \mathcal {X} \to  \mathcal {X} ]]></fr:tex>
+  where for any <fr:tex display="inline"><![CDATA[X\in \mathcal {X}]]></fr:tex>, <fr:tex display="inline"><![CDATA[\Diamond _\varphi  X]]></fr:tex> is the following pushout,
+  
+  <html:figure><fr:resource hash="e06cb087e7cc6790de259d8bb02c40cd"><fr:resource-content><html:img src="/e06cb087e7cc6790de259d8bb02c40cd.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[\usepackage {tikz-cd}\usepackage {quiver}]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+    \begin {tikzcd}
+      X \times  \varphi  \ar [r] \ar [d] & \varphi  \ar [d] \\ 
+      X \ar [r] & \Diamond _\varphi  X 
+      \arrow ["\lrcorner "{anchor = center, pos = 0.125, rotate=180}, draw = none, from=2-2, to=1-1]
+    \end {tikzcd}
+  ]]></fr:resource-source></fr:resource></html:figure>
+
+  It turns out that <fr:tex display="inline"><![CDATA[X]]></fr:tex> is closed for this monad iff <fr:tex display="inline"><![CDATA[X^\varphi  \cong  1]]></fr:tex>.
+</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>8</fr:day>
+            </fr:date>
+            <fr:uri>https://charloced.github.io/schm-5KCL/</fr:uri>
+            <fr:display-uri>schm-5KCL</fr:display-uri>
+            <fr:route>/schm-5KCL/</fr:route>
+            <fr:title text="Sheaf of ideals generate quasi-closed immersions">Sheaf of ideals generate quasi-closed immersions</fr:title>
+            <fr:taxon>Construction</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  Let <fr:tex display="inline"><![CDATA[X]]></fr:tex> be a <fr:link href="/schm-V16H/" title="Locally distributed space" uri="https://charloced.github.io/schm-V16H/" display-uri="schm-V16H" type="local">locally distributed space</fr:link>, and <fr:tex display="inline"><![CDATA[\mathcal {I}]]></fr:tex> a sheaf of ideal of <fr:tex display="inline"><![CDATA[\mathcal {O}_{X}]]></fr:tex>. We define the subset of <fr:tex display="inline"><![CDATA[X]]></fr:tex>
+  <fr:tex display="block"><![CDATA[ C_{\mathcal {I}} := \{x \in  X\mid 1 \not \in  \mathcal {I}_x\} ]]></fr:tex>
+  Equivalently, <fr:tex display="inline"><![CDATA[x\in  C_{\mathcal {I}}]]></fr:tex> iff the stalk <fr:tex display="inline"><![CDATA[(\mathcal {I}/\mathcal {O}_{X})_x]]></fr:tex> of the quotient distributive lattice at <fr:tex display="inline"><![CDATA[x]]></fr:tex> is non-trivial. This is a closed set, since if <fr:tex display="inline"><![CDATA[0 = 1]]></fr:tex> in <fr:tex display="inline"><![CDATA[(\mathcal {I}/\mathcal {O}_{X})_x]]></fr:tex>, then <fr:tex display="inline"><![CDATA[0=1]]></fr:tex> in an open neighbourhood of <fr:tex display="inline"><![CDATA[x]]></fr:tex>. 
+</html:p>
+            <html:p>
+  Now let <fr:tex display="inline"><![CDATA[i : C_{\mathcal {I}} \hookrightarrow  X]]></fr:tex> be the closed inclusion. From general topos theory, we know the direct image
+  <fr:tex display="block"><![CDATA[ i_* : \mathrm {Sh}(C_{\mathcal {I}}) \to  \mathrm {Sh}(X) ]]></fr:tex>
+  is <html:em>fully faithful</html:em>, whose essentially image consists of those sheaves <fr:tex display="inline"><![CDATA[\mathcal {F}]]></fr:tex> where <fr:tex display="inline"><![CDATA[\mathcal {F}_x \cong  1]]></fr:tex> for all <fr:tex display="inline"><![CDATA[x\in \overline {C_{\mathcal {I}}}]]></fr:tex> (see e.g. <fr:link href="/topl-6LIP/" title="Reflector for closed subtopoi" uri="https://charloced.github.io/topl-6LIP/" display-uri="topl-6LIP" type="local">Construction <fr:contextual-number uri="https://charloced.github.io/topl-6LIP/" display-uri="topl-6LIP" /></fr:link>). This is in particular true for the quotient sheaf <fr:tex display="inline"><![CDATA[\mathcal {I}/\mathcal {O}_{X}]]></fr:tex>, since for any <fr:tex display="inline"><![CDATA[x\in \overline {C_{\mathcal {I}}}]]></fr:tex>, by <fr:link href="/schm-9YD5/" title="Closed quotient commutes with taking stalks" uri="https://charloced.github.io/schm-9YD5/" display-uri="schm-9YD5" type="local">Lemma <fr:contextual-number uri="https://charloced.github.io/schm-9YD5/" display-uri="schm-9YD5" /></fr:link> we have 
+  <fr:tex display="block"><![CDATA[ (\mathcal {I}/\mathcal {O}_{X})_x \cong  \mathcal {I}_x/\mathcal {O}_{X,x} ]]></fr:tex>
+  and by definition for any <fr:tex display="inline"><![CDATA[x\in  C_{\mathcal {I}}]]></fr:tex>, we know <fr:tex display="inline"><![CDATA[\mathcal {I}_x/\mathcal {O}_{X,x}]]></fr:tex> is the trivial distributive lattice. Hence, there is an essentially unique sheaf of distributive lattices <fr:tex display="inline"><![CDATA[\mathcal {O}_{C_{\mathcal {I}}}]]></fr:tex> where <fr:tex display="inline"><![CDATA[i_*\mathcal {O}_{C_{\mathcal {I}}} \cong  \mathcal {I}/\mathcal {O}_{X}]]></fr:tex>. 
+</html:p>
+            <html:p>
+  Furthermore, for any <fr:tex display="inline"><![CDATA[x\in  C_{\mathcal {I}}]]></fr:tex>, the map <fr:tex display="inline"><![CDATA[i^*\mathcal {O}_{X} \to  \mathcal {O}_{C_{\mathcal {I}}}]]></fr:tex> on stalk over <fr:tex display="inline"><![CDATA[x]]></fr:tex> is given by the quotient 
+  <fr:tex display="block"><![CDATA[ \mathcal {O}_{X,x} \twoheadrightarrow  \mathcal {I_x}/\mathcal {O}_{X,x} ]]></fr:tex>
+  By construction this is a closed quotient of a local distributive lattice where the quotient is non-trivial. Hence, it is a morphism of locally distributed spaces, and we get a quasi-closed immersion
+  <fr:tex display="block"><![CDATA[ C_{\mathcal {I}} \hookrightarrow  X ]]></fr:tex></html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>9</fr:day>
+            </fr:date>
+            <fr:uri>https://charloced.github.io/topl-R1F1/</fr:uri>
+            <fr:display-uri>topl-R1F1</fr:display-uri>
+            <fr:route>/topl-R1F1/</fr:route>
+            <fr:title text="Lawvere-Tierney topology for closed subtopoi">Lawvere-Tierney topology for closed subtopoi</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  Let <fr:tex display="inline"><![CDATA[\mathcal {X}]]></fr:tex> be a topos, and <fr:tex display="inline"><![CDATA[\varphi ]]></fr:tex> a subterminal object. The <html:em>closed subtopos</html:em> associated with <fr:tex display="inline"><![CDATA[\varphi ]]></fr:tex> has the Lawvere-Tierney operator as 
+  <fr:tex display="block"><![CDATA[ c_{\varphi } = (-) \vee  \varphi  : \Omega  \to  \Omega . ]]></fr:tex></html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/">
+  <fr:frontmatter>
+    <fr:authors />
+    <fr:date>
+      <fr:year>2025</fr:year>
+      <fr:month>6</fr:month>
+      <fr:day>8</fr:day>
+    </fr:date>
+    <fr:uri>https://charloced.github.io/idem-comm-XNIE/</fr:uri>
+    <fr:display-uri>idem-comm-XNIE</fr:display-uri>
+    <fr:route>/idem-comm-XNIE/</fr:route>
+    <fr:title text="Constructible sets compute Booleanisation">Constructible sets compute Booleanisation</fr:title>
+    <fr:taxon>Proposition</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter><html:p>
+  For a distributive lattice <fr:tex display="inline"><![CDATA[D]]></fr:tex>, the poset of constructible subsets of <fr:tex display="inline"><![CDATA[\operatorname {Spec} D]]></fr:tex> is isomorphic to the Booleanisation of <fr:tex display="inline"><![CDATA[D]]></fr:tex>, i.e. the free Boolean algebra associated to <fr:tex display="inline"><![CDATA[D]]></fr:tex>. In particular, the <fr:link href="/topl-F1KS/" title="Constructible topology" uri="https://charloced.github.io/topl-F1KS/" display-uri="topl-F1KS" type="local">constructible topology</fr:link> on <fr:tex display="inline"><![CDATA[\operatorname {Spec} D]]></fr:tex> is the Priestley topology.
+</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>8</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  This is evident from construction.
+</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/lingyuan/" title="Lingyuan Ye" uri="https://charloced.github.io/lingyuan/" display-uri="lingyuan" type="local">Lingyuan Ye</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>8</fr:day>
+            </fr:date>
+            <fr:uri>https://charloced.github.io/idem-comm-VFO1/</fr:uri>
+            <fr:display-uri>idem-comm-VFO1</fr:display-uri>
+            <fr:route>/idem-comm-VFO1/</fr:route>
+            <fr:title text="Constructible topology of spectra">Constructible topology of spectra</fr:title>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>8</fr:day>
+                </fr:date>
+                <fr:uri>https://charloced.github.io/idem-comm-CJ99/</fr:uri>
+                <fr:display-uri>idem-comm-CJ99</fr:display-uri>
+                <fr:route>/idem-comm-CJ99/</fr:route>
+                <fr:title text="Retrocompact subsets in spectra">Retrocompact subsets in spectra</fr:title>
+                <fr:taxon>Lemma</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter><html:p>
+  An open subset <fr:tex display="inline"><![CDATA[X]]></fr:tex> of <fr:tex display="inline"><![CDATA[\operatorname {Spec} D]]></fr:tex> is <fr:link href="/topl-DMH2/" title="Retrocompact subspaces" uri="https://charloced.github.io/topl-DMH2/" display-uri="topl-DMH2" type="local">retrocompact</fr:link> iff it is compact. 
+</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>8</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  This is just due to the fact that spectra are also <fr:link href="/topl-GW93/" title="Quasi-separated spaces" uri="https://charloced.github.io/topl-GW93/" display-uri="topl-GW93" type="local">quasi-separated</fr:link>.
+</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>8</fr:day>
+                </fr:date>
+                <fr:uri>https://charloced.github.io/idem-comm-ZPKE/</fr:uri>
+                <fr:display-uri>idem-comm-ZPKE</fr:display-uri>
+                <fr:route>/idem-comm-ZPKE/</fr:route>
+                <fr:title text="Constructible sets of spectra">Constructible sets of spectra</fr:title>
+                <fr:taxon>Lemma</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter><html:p>
+  The <fr:link href="/topl-F1KS/" title="Constructible topology" uri="https://charloced.github.io/topl-F1KS/" display-uri="topl-F1KS" type="local">constructible sets</fr:link> on <fr:tex display="inline"><![CDATA[\operatorname {Spec} D]]></fr:tex> are finite unions of subsets of the form <fr:tex display="inline"><![CDATA[O_a \cap  C_b]]></fr:tex> for <fr:tex display="inline"><![CDATA[a,b \in  D]]></fr:tex>.
+</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>8</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  This is a direct consequence of <fr:link href="/idem-comm-CJ99/" title="Retrocompact subsets in spectra" uri="https://charloced.github.io/idem-comm-CJ99/" display-uri="idem-comm-CJ99" type="local">Lemma <fr:contextual-number uri="https://charloced.github.io/idem-comm-CJ99/" display-uri="idem-comm-CJ99" /></fr:link>, and that all compact opens are of the form <fr:tex display="inline"><![CDATA[O_a]]></fr:tex> for some <fr:tex display="inline"><![CDATA[a\in  D]]></fr:tex>, with its complement being <fr:tex display="inline"><![CDATA[C_a]]></fr:tex>.
+</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>8</fr:day>
+                </fr:date>
+                <fr:uri>https://charloced.github.io/idem-comm-80H1/</fr:uri>
+                <fr:display-uri>idem-comm-80H1</fr:display-uri>
+                <fr:route>/idem-comm-80H1/</fr:route>
+                <fr:title text="Finitely presented quotient induce constructible subsets">Finitely presented quotient induce constructible subsets</fr:title>
+                <fr:taxon>Example</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+  Let <fr:tex display="inline"><![CDATA[\{a_i\}_{i\in  I},\{b_i\}_{i\in  I} \in  D]]></fr:tex> be two finite lists of elements. The finitely presented quotient <fr:tex display="inline"><![CDATA[D \twoheadrightarrow  D/\langle a_i,b_i\rangle _{i\in  I}]]></fr:tex> induces a subset <fr:tex display="inline"><![CDATA[\operatorname {Spec} D/\langle a_i,b_i\rangle ]]></fr:tex> of <fr:tex display="inline"><![CDATA[\operatorname {Spec} D]]></fr:tex>. By definition, for any <fr:tex display="inline"><![CDATA[x\in \operatorname {Spec} D]]></fr:tex>,
+  <fr:tex display="block"><![CDATA[ x \in  \operatorname {Spec} D/\langle a_i,b_i\rangle  \Leftrightarrow  \forall  i \in  I.\  x \not \models  a_i \vee  x \models  b_i, ]]></fr:tex>
+  which means that 
+  <fr:tex display="block"><![CDATA[ \operatorname {Spec} D/\langle a_i,b_i\rangle  = \bigcap _{i\in  I} C_{a_i} \cup  O_{b_i}. ]]></fr:tex>
+  This way, <fr:tex display="inline"><![CDATA[\operatorname {Spec} D/\langle a_i,b_i\rangle ]]></fr:tex> will be constructible in <fr:tex display="inline"><![CDATA[\operatorname {Spec} D]]></fr:tex>.
+</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>8</fr:day>
+                </fr:date>
+                <fr:uri>https://charloced.github.io/idem-comm-XNIE/</fr:uri>
+                <fr:display-uri>idem-comm-XNIE</fr:display-uri>
+                <fr:route>/idem-comm-XNIE/</fr:route>
+                <fr:title text="Constructible sets compute Booleanisation">Constructible sets compute Booleanisation</fr:title>
+                <fr:taxon>Proposition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter><html:p>
+  For a distributive lattice <fr:tex display="inline"><![CDATA[D]]></fr:tex>, the poset of constructible subsets of <fr:tex display="inline"><![CDATA[\operatorname {Spec} D]]></fr:tex> is isomorphic to the Booleanisation of <fr:tex display="inline"><![CDATA[D]]></fr:tex>, i.e. the free Boolean algebra associated to <fr:tex display="inline"><![CDATA[D]]></fr:tex>. In particular, the <fr:link href="/topl-F1KS/" title="Constructible topology" uri="https://charloced.github.io/topl-F1KS/" display-uri="topl-F1KS" type="local">constructible topology</fr:link> on <fr:tex display="inline"><![CDATA[\operatorname {Spec} D]]></fr:tex> is the Priestley topology.
+</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>8</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  This is evident from construction.
+</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>8</fr:day>
+                </fr:date>
+                <fr:uri>https://charloced.github.io/idem-comm-Y25U/</fr:uri>
+                <fr:display-uri>idem-comm-Y25U</fr:display-uri>
+                <fr:route>/idem-comm-Y25U/</fr:route>
+                <fr:title text="Finitely presented quotients preserve constructible sets">Finitely presented quotients preserve constructible sets</fr:title>
+                <fr:taxon>Lemma</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter><html:p>
+  For a finite lists of elements <fr:tex display="inline"><![CDATA[a_i,b_i]]></fr:tex> in <fr:tex display="inline"><![CDATA[D]]></fr:tex>, the inclusion <fr:tex display="inline"><![CDATA[\operatorname {Spec} D/\langle a_i,b_i\rangle  \rightarrowtail  \operatorname {Spec} D]]></fr:tex> <fr:link href="/topl-XT5Y/" title="Maps preserving constructible sets" uri="https://charloced.github.io/topl-XT5Y/" display-uri="topl-XT5Y" type="local">preserves constructible sets</fr:link>.
+</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>8</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  This is because the quotient <fr:tex display="inline"><![CDATA[D \twoheadrightarrow  D/\langle a_i,b_i\rangle ]]></fr:tex> is surjective, hence any constructible set in <fr:tex display="inline"><![CDATA[D/\langle a_i,b_i\rangle ]]></fr:tex> is the intersection of <fr:tex display="inline"><![CDATA[\operatorname {Spec} D/\langle a_i,b_i\rangle ]]></fr:tex> with a constructible set in <fr:tex display="inline"><![CDATA[\operatorname {Spec} D]]></fr:tex>. However, since <fr:tex display="inline"><![CDATA[\operatorname {Spec} D/\langle a_i,b_i\rangle ]]></fr:tex> is itself constructible by <fr:link href="/idem-comm-80H1/" title="Finitely presented quotient induce constructible subsets" uri="https://charloced.github.io/idem-comm-80H1/" display-uri="idem-comm-80H1" type="local">Example <fr:contextual-number uri="https://charloced.github.io/idem-comm-80H1/" display-uri="idem-comm-80H1" /></fr:link>, it follows that the intersection is constructible in <fr:tex display="inline"><![CDATA[\operatorname {Spec} D]]></fr:tex>.
+</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>8</fr:day>
+                </fr:date>
+                <fr:uri>https://charloced.github.io/idem-comm-21XO/</fr:uri>
+                <fr:display-uri>idem-comm-21XO</fr:display-uri>
+                <fr:route>/idem-comm-21XO/</fr:route>
+                <fr:title text="Polynomial projections preserve constructible sets">Polynomial projections preserve constructible sets</fr:title>
+                <fr:taxon>Lemma</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter><html:p>
+  The map <fr:tex display="inline"><![CDATA[\operatorname {Spec} D[x] \to  \operatorname {Spec} D]]></fr:tex> takes a standard open to a standard open; similarly for standard closed sets. This in particular implies it <fr:link href="/topl-XT5Y/" title="Maps preserving constructible sets" uri="https://charloced.github.io/topl-XT5Y/" display-uri="topl-XT5Y" type="local">preserves constructible subsets</fr:link>.
+</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>8</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  A point in <fr:tex display="inline"><![CDATA[\operatorname {Spec} D[x]]]></fr:tex> can be identified as a pair <fr:tex display="inline"><![CDATA[(i,x)]]></fr:tex> where <fr:tex display="inline"><![CDATA[i \in  \{0,1\}]]></fr:tex> and <fr:tex display="inline"><![CDATA[x \in  \operatorname {Spec} D]]></fr:tex>. This way, given any <fr:tex display="inline"><![CDATA[x\in \operatorname {Spec} D]]></fr:tex> and polynomial <fr:tex display="inline"><![CDATA[p\in  D[x]]]></fr:tex> with <fr:tex display="inline"><![CDATA[p = p_0 \vee  x \wedge  p_1]]></fr:tex>, we have
+  <fr:tex display="block"><![CDATA[ x \in  \operatorname {img}(O_p) \Leftrightarrow  (i,x) \in  O_p \Leftrightarrow  x\in  O_{p_i}. ]]></fr:tex>
+  In particular, this means that 
+  <fr:tex display="block"><![CDATA[ \operatorname {img}(O_p) = O_{p_0} \cup  O_{p_1} = O_{p_1}. ]]></fr:tex>
+  Completely similarly, we have 
+  <fr:tex display="block"><![CDATA[ \operatorname {img}(C_p) = C_{p_0} \cup  C_{p_1} = C_{p_0}. ]]></fr:tex>
+</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>8</fr:day>
+                </fr:date>
+                <fr:uri>https://charloced.github.io/idem-comm-RYZ5/</fr:uri>
+                <fr:display-uri>idem-comm-RYZ5</fr:display-uri>
+                <fr:route>/idem-comm-RYZ5/</fr:route>
+                <fr:title text="Chevalley's theorem">Chevalley's theorem</fr:title>
+                <fr:taxon>Theorem</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter><html:p>
+  Suppose <fr:tex display="inline"><![CDATA[D \to  E]]></fr:tex> is finitely presented. Then <fr:tex display="inline"><![CDATA[\operatorname {Spec} E \to  \operatorname {Spec} D]]></fr:tex> takes a constructible set to a constructible set.
+</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>8</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <fr:tex display="inline"><![CDATA[E]]></fr:tex> will be of the form <fr:tex display="inline"><![CDATA[D[x_1,\cdots ,x_n]/\langle p_i,q_i\rangle ]]></fr:tex>. We may factor <fr:tex display="inline"><![CDATA[D \to  E]]></fr:tex> as
+  <fr:tex display="block"><![CDATA[ D \to  D[x_1] \to  \cdots  \to  D[x_1,\cdots ,x_n] \to  D[x_1,\cdots ,x_n]/\langle p_i,q_i\rangle , ]]></fr:tex>
+  where each map preserves constructible sets by <fr:link href="/idem-comm-21XO/" title="Polynomial projections preserve constructible sets" uri="https://charloced.github.io/idem-comm-21XO/" display-uri="idem-comm-21XO" type="local">Lemma <fr:contextual-number uri="https://charloced.github.io/idem-comm-21XO/" display-uri="idem-comm-21XO" /></fr:link> and <fr:link href="/idem-comm-Y25U/" title="Finitely presented quotients preserve constructible sets" uri="https://charloced.github.io/idem-comm-Y25U/" display-uri="idem-comm-Y25U" type="local">Lemma <fr:contextual-number uri="https://charloced.github.io/idem-comm-Y25U/" display-uri="idem-comm-Y25U" /></fr:link>.
+</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>8</fr:day>
+                </fr:date>
+                <fr:uri>https://charloced.github.io/idem-comm-UARZ/</fr:uri>
+                <fr:display-uri>idem-comm-UARZ</fr:display-uri>
+                <fr:route>/idem-comm-UARZ/</fr:route>
+                <fr:title text="Left adjoint for Booleanisation">Left adjoint for Booleanisation</fr:title>
+                <fr:taxon>Remark</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+  Algebraically, under <fr:link href="/idem-comm-XNIE/" title="Constructible sets compute Booleanisation" uri="https://charloced.github.io/idem-comm-XNIE/" display-uri="idem-comm-XNIE" type="local">Proposition <fr:contextual-number uri="https://charloced.github.io/idem-comm-XNIE/" display-uri="idem-comm-XNIE" /></fr:link>, <fr:link href="/idem-comm-RYZ5/" title="Chevalley's theorem" uri="https://charloced.github.io/idem-comm-RYZ5/" display-uri="idem-comm-RYZ5" type="local">Theorem <fr:contextual-number uri="https://charloced.github.io/idem-comm-RYZ5/" display-uri="idem-comm-RYZ5" /></fr:link> means that for any finitely presented morphism <fr:tex display="inline"><![CDATA[D \to  E]]></fr:tex>, its Booleanisation <fr:tex display="inline"><![CDATA[\lambda  D \to  \lambda  E]]></fr:tex> has a <html:em>left adjoint</html:em>,
+  
+  <html:figure><fr:resource hash="ec2968fd7d17f367d6503861fc3e1631"><fr:resource-content><html:img src="/ec2968fd7d17f367d6503861fc3e1631.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[\usepackage {tikz-cd}\usepackage {quiver}]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+  \begin {tikzcd}
+    D & E \\
+    {\lambda  D} & {\lambda  E}
+    \arrow [from=1-1, to=1-2]
+    \arrow [tail, from=1-1, to=2-1]
+    \arrow [tail, from=1-2, to=2-2]
+    \arrow [""{name=0, anchor=center, inner sep=0}, from=2-1, to=2-2]
+    \arrow [""{name=1, anchor=center, inner sep=0}, curve={height=15pt}, from=2-2, to=2-1]
+    \arrow ["\dashv "{anchor=center, rotate=-90}, draw=none, from=1, to=0]
+  \end {tikzcd}
+  ]]></fr:resource-source></fr:resource></html:figure>
+
+  given by taking the image of the constructible subset along <fr:tex display="inline"><![CDATA[\operatorname {Spec} E \to  \operatorname {Spec} D]]></fr:tex>. Furthermore, since image of a map preserves binary intersections and unions, the left adjoint also preserves them. Hence, it will be a distributive lattice morphism, except the possibility that it does not preserve the top element.
+</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>8</fr:day>
+            </fr:date>
+            <fr:uri>https://charloced.github.io/idem-comm-UARZ/</fr:uri>
+            <fr:display-uri>idem-comm-UARZ</fr:display-uri>
+            <fr:route>/idem-comm-UARZ/</fr:route>
+            <fr:title text="Left adjoint for Booleanisation">Left adjoint for Booleanisation</fr:title>
+            <fr:taxon>Remark</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  Algebraically, under <fr:link href="/idem-comm-XNIE/" title="Constructible sets compute Booleanisation" uri="https://charloced.github.io/idem-comm-XNIE/" display-uri="idem-comm-XNIE" type="local">Proposition <fr:contextual-number uri="https://charloced.github.io/idem-comm-XNIE/" display-uri="idem-comm-XNIE" /></fr:link>, <fr:link href="/idem-comm-RYZ5/" title="Chevalley's theorem" uri="https://charloced.github.io/idem-comm-RYZ5/" display-uri="idem-comm-RYZ5" type="local">Theorem <fr:contextual-number uri="https://charloced.github.io/idem-comm-RYZ5/" display-uri="idem-comm-RYZ5" /></fr:link> means that for any finitely presented morphism <fr:tex display="inline"><![CDATA[D \to  E]]></fr:tex>, its Booleanisation <fr:tex display="inline"><![CDATA[\lambda  D \to  \lambda  E]]></fr:tex> has a <html:em>left adjoint</html:em>,
+  
+  <html:figure><fr:resource hash="ec2968fd7d17f367d6503861fc3e1631"><fr:resource-content><html:img src="/ec2968fd7d17f367d6503861fc3e1631.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[\usepackage {tikz-cd}\usepackage {quiver}]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+  \begin {tikzcd}
+    D & E \\
+    {\lambda  D} & {\lambda  E}
+    \arrow [from=1-1, to=1-2]
+    \arrow [tail, from=1-1, to=2-1]
+    \arrow [tail, from=1-2, to=2-2]
+    \arrow [""{name=0, anchor=center, inner sep=0}, from=2-1, to=2-2]
+    \arrow [""{name=1, anchor=center, inner sep=0}, curve={height=15pt}, from=2-2, to=2-1]
+    \arrow ["\dashv "{anchor=center, rotate=-90}, draw=none, from=1, to=0]
+  \end {tikzcd}
+  ]]></fr:resource-source></fr:resource></html:figure>
+
+  given by taking the image of the constructible subset along <fr:tex display="inline"><![CDATA[\operatorname {Spec} E \to  \operatorname {Spec} D]]></fr:tex>. Furthermore, since image of a map preserves binary intersections and unions, the left adjoint also preserves them. Hence, it will be a distributive lattice morphism, except the possibility that it does not preserve the top element.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>8</fr:day>
+            </fr:date>
+            <fr:uri>https://charloced.github.io/topl-F1KS/</fr:uri>
+            <fr:display-uri>topl-F1KS</fr:display-uri>
+            <fr:route>/topl-F1KS/</fr:route>
+            <fr:title text="Constructible topology">Constructible topology</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  We say a subset <fr:tex display="inline"><![CDATA[Y]]></fr:tex> of <fr:tex display="inline"><![CDATA[X]]></fr:tex> is <html:em>constructible</html:em>, if it is a finite union of subsets of the form <fr:tex display="inline"><![CDATA[U \cap  \overline {V}]]></fr:tex>, where <fr:tex display="inline"><![CDATA[U,V]]></fr:tex> are <fr:link href="/topl-DMH2/" title="Retrocompact subspaces" uri="https://charloced.github.io/topl-DMH2/" display-uri="topl-DMH2" type="local">retrocompact</fr:link>. The <html:em>constructible topology</html:em> on <fr:tex display="inline"><![CDATA[X]]></fr:tex> is the one obtained by taking the constructible subsets as a basis.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

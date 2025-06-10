@@ -1,8 +1,0 @@
-\date{2025-06-08}
-\taxon{Example}
-\title{Open subschemes and open immersion}
-\import{macro}
-
-\p{
-  Let #{X} be a scheme, #{U} an open subset of #{X}. Then #{(U,\rg{X}|_U)} is again a scheme. There is a canonical inclusion #{U \hook X}. Morphisms of this form are called \em{open immersion}.
-}
