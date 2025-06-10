@@ -1,0 +1,7 @@
+\date{2025-06-08}
+\taxon{Definition}
+\title{Constructible topology}
+
+\p{
+  We say a subset #{Y} of #{X} is \em{constructible}, if it is a finite union of subsets of the form #{U \cap \overline{V}}, where #{U,V} are [retrocompact](topl-DMH2). The \em{constructible topology} on #{X} is the one obtained by taking the constructible subsets as a basis.
+}

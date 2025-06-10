@@ -1,0 +1,7 @@
+\date{2025-06-07}
+\taxon{Example}
+\title{Linear distributive lattices are local}
+
+\p{
+  Any bounded \em{linear} order is a distributive lattice, in fact a Heyting algebra. All non-trivial bounded linear orders are local.
+}

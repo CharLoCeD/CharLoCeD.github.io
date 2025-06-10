@@ -1,0 +1,10 @@
+\date{2025-06-08}
+\taxon{Definition}
+\title{P-morphism and q-morphism between posets}
+\import{macro}
+
+\p{
+  We say a map #{f : P \to Q} between two posets is a \em{p-morphism}, if 
+  ##{ \fa{p}{P}\fa{q}{Q} fp \le q \nt \ex{p'}{P} p \le p' \wedge fp' = q. }
+  A map #{f : P \to Q} is a \em{q-morphism} if #{f\op : P\op \to Q\op} is a p-map.
+}

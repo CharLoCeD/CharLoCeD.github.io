@@ -1,0 +1,7 @@
+\date{2025-06-08}
+\taxon{Example}
+\title{Finite schemes are affine}
+
+\p{
+  As a corollary of \ref{schm-80MC}, if a scheme #{X} is finite, then it is affine, since finite sober spaces are all spectral.
+}

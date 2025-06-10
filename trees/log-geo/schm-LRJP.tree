@@ -1,0 +1,41 @@
+\date{2025-06-08}
+\taxon{Example}
+\title{The Rieger-Nishimura scheme}
+\import{macro}
+
+\p{
+  Let #{\mbb{H}[x]} be the free Heyting algebra with one generator. The spectrum #{\spec\mbb{H}[x]} as a topological space is the Rieger-Nishimura laddar,
+  \tikzpic{
+  \begin{tikzcd}
+    \bullet && \bullet \\
+    \bullet && \bullet \\
+    \bullet && \bullet \\
+    \bullet && \bullet \\
+    \vdots && \vdots \\
+    & \bullet
+    \arrow[from=2-1, to=1-1]
+    \arrow[from=2-1, to=1-3]
+    \arrow[from=2-3, to=1-3]
+    \arrow[from=3-1, to=2-1]
+    \arrow[from=3-1, to=2-3]
+    \arrow[from=3-3, to=1-1]
+    \arrow[from=3-3, to=2-3]
+    \arrow[from=4-1, to=3-1]
+    \arrow[from=4-1, to=3-3]
+    \arrow[from=4-3, to=2-1]
+    \arrow[from=4-3, to=3-3]
+    \arrow[from=5-1, to=4-1]
+    \arrow[from=5-1, to=4-3]
+    \arrow[from=5-3, to=3-1]
+    \arrow[from=5-3, to=4-3]
+    \arrow[from=6-2, to=5-1]
+    \arrow[from=6-2, to=5-3]
+  \end{tikzcd}
+  }
+  It has a unique non-standard [open subscheme](schm-8ES8), which we denote as #{\spec\mbb{H}[x]_+ = \spec\mbb{H}[x]-\set{\bot}}, where #{\bot} is the generic point of #{\spec\mbb{H}[x]}. The open subscheme #{\spec\mbb{H}[x]} is \em{not compact}, hence it is not affine.
+}
+\p{
+  In fact, we can compute the global section of #{\spec\mbb{H}[x]_+}. Under \ref{idem-comm-HLDT}, it as an open subset corresponds to the maximal ideal #{M = \mbb{H}[x]-\set{1}}. This way under \ref{schm-5L35},
+  ##{ \Gamma\rg{\spec\mbb{H}[x]_+} \cong \mbb{H}[x]_M \cong \mbb{H}[x]. }
+  The final isomorphism is an easy exercise. This means the open immersion #{\spec\mbb{H}[x]_+ \hook \spec\mbb{H}[x]} induces an isomorphism on global section. 
+}

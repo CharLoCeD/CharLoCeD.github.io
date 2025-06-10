@@ -1,0 +1,6 @@
+\date{2025-06-07}
+\taxon{Remark}
+\title{t-conservativity coincide with injectivity for Heyting algebras}
+\p{
+  However, a Heyting algebra morphism #{f : H \to E} is [t-conservative](idem-comm-QQEF) iff it is \em{injective}.
+}

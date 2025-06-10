@@ -1,0 +1,10 @@
+\date{2025-06-08}
+\taxon{Remark}
+\title{Stalk for structural sheaf}
+\import{macro}
+
+\p{
+  If #{\rg{D}} is a sheaf, then at each prime filter #{x\in\spec D}, the stalk of #{\rg{D}} at #{x} is given by
+  ##{ \rg{D,x} \cong \ct_{p\in x}D/p \cong D/x. }
+  As a distributive lattice this is [local](idem-comm-75C1) by \ref{idem-comm-EV8L}.
+}

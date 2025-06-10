@@ -1,0 +1,10 @@
+\title{Pro-open quotients}
+\taxon{definition}
+\author{lingyuan}
+\date{2025-06-07}
+
+\import{macro}
+
+\p{
+  The \em{pro-open} quotient of a distributive lattice #{D} is a a quotient of the form #{D \surj D/F} for some filter #{F} of #{D}.
+}

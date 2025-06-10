@@ -1,0 +1,8 @@
+\date{2025-06-08}
+\taxon{Remark}
+\title{Affine schemes are determined by topology}
+\import{macro}
+
+\p{
+  Since #{\spec : \mb{DL}\op \to \mb{Spec}} is an \em{equivalence}, affine schemes are determined by their underlying topological spaces.
+}

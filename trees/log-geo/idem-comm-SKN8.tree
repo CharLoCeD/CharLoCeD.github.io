@@ -1,0 +1,11 @@
+\date{2025-06-07}
+\taxon{Proposition}
+\title{Closure properties of Noetherian distributive lattices}
+\import{macro}
+
+\p{
+  Noetherian distributive lattices are closed under finite limits, quotients, and polynomials. The latter means if #{D} is Noetherian, then so is #{D[x]}.
+}
+\proof{
+  Closure under finite limits and quotients are evident from \ref{idem-comm-G598}. For the polynomial #{D[x]}, it is well-known that #{D[x] \cong D \cv D} is isomorphic to the order on #{D}, which is thus also Noetherian.
+}

@@ -1,0 +1,7 @@
+\date{2025-06-07}
+\taxon{Definition}
+\title{Local distributive lattice}
+
+\p{
+  #{D} is a \em{local} distributive lattice if (1) #{0 \neq 1} in #{D}; (2) for any #{a,b} in #{D}, #{a \vee b = 1} iff #{a = 1} or #{b = 1}.
+}

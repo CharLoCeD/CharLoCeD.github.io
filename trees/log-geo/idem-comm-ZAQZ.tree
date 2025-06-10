@@ -1,0 +1,8 @@
+\date{2025-06-07}
+\taxon{Definition}
+\title{Prime spectrum of a distributive lattice}
+\import{macro}
+
+\p{
+  For any distributive lattice #{D}, we use #{\spec D} to denote the poset of prime filters of #{D}. Equivalently, this is the poset of \em{models} of #{D}.
+}

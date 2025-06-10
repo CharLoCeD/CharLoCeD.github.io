@@ -1,0 +1,12 @@
+\date{2025-06-08}
+\taxon{Definition}
+\title{Morphisms of locally distributed spaces}
+\import{macro}
+
+\p{
+  A morphism #{f : (X,\rg{X}) \to (Y,\rg{Y})} between [locally distributed spaces](schm-V16H) is a continuous function
+  ##{ f : X \to Y, }
+  together with a \em{local} morphism
+  ##{ f\up : f^*\rg{Y} \to \rg{X}. }
+  Here #{f\up} is local iff it is \em{t-conservative}. The category of locally distributed spaces will be denoted as #{\TopD}.
+}

@@ -1,0 +1,10 @@
+\date{2025-06-08}
+\taxon{Example}
+\title{Coproducts of schemes}
+\import{macro}
+
+\p{
+  The disjoint union #{X \cong \coprod_{i\in I}X_i} of arbitrary schemes is again a scheme. The structural sheaf on an open #{U} is given by
+  ##{ \rg{X}(U) \cong \prod_{i\in I}\rg{X_i}(U \cap X_i). }
+  They are indeed the coproducts in #{\mb{Sch}_{\mbb{D}}}.
+}

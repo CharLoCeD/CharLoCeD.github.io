@@ -1,0 +1,11 @@
+\date{2025-06-09}
+\taxon{Proposition}
+\title{Quasi-coherent ideals generate closed subschemes}
+\import{macro}
+
+\p{
+  Let #{X} be a [scheme](schm-86OJ) and let #{\mc{I}} be a [quasi-coherent](schm-TCWT) of #{\rg{X}}. Then the [closed immersion](schm-OMYR) #{C_{\mc{I}} \hook X} produced by \ref{schm-5KCL} makes #{C_{\mc{I}}} a closed subscheme of #{X}.
+}
+\proof{
+  The case when #{X} is affine is clear. It is easy to see that when #{X = \spec A} and #{\mc{I} = \qsi{I}} for some ideal #{I} of #{A}, the closed immersion #{C_{\mc{I}} \hook \spec A} is exactly #{\spec I/A \hook \spec A} induced by #{A \surj I/A} (cf. \ref{idem-comm-FMRA}). The case for general schemes is then evident from this.
+}

@@ -1,0 +1,31 @@
+\date{2025-06-07}
+\taxon{Theorem}
+\title{Spectra are spectral spaces}
+\import{macro}
+
+\p{
+  For any distributive lattice #{D}, #{\spec D} is [spectral](topl-VV9N). This gives us a functor
+  ##{ \spec : \mb{DL}\op \to \mb{Spec} }
+  from distributive lattices to spectral spaces.
+}
+\proof{
+  \p{
+    Notice that we have a homeomorphism
+    ##{ O_p \cong \spec D/p, }
+    where #{O_p} is viewed as an open subspace of #{\spec D}. Hence, we only need to show #{\spec D} is compact and sober for all #{D}. Let #{C_p} be the complement of #{O_p} for any #{p\in D}, and suppose we have
+    ##{ \bigcap_{i\in I}C_{p_i} = \emptyset. }
+    This means that the family #{\set{p_i}_{i\in I}} is inconsistent, thus by compactness, finitely many of them is already inconsistent. Thus #{\spec D} is compact, and compact opens in #{\spec D} are all of the form #{O_p} for some #{p\in D}.
+  }
+  \p{
+    To show #{\spec D} is [sober](topl-FII1), by \ref{idem-comm-W1VU} any irreducible closed set #{C_I} corresponds to some prime ideal #{I}. This way, let #{x\in\spec D} be the complement of #{I}. We now have #{C_I = \ov{\set{x}}}, because
+    ##{ x \not\in O_p \eff x \in C_p \eff x \not\models p \eff p \in I. }
+    Thus we indeed have #{C_I = \bigcap_{p\in I}C_p = \bigcap_{x\not\in O_p}C_p = \ov{\set{x}}}.
+  }
+  \p{
+    Finally to show a map #{f : D \to E} induces a continuous map
+    ##{ \spec f : \spec E \to \spec D, }
+    it suffices to note that, set-theoretically, #{\spec fx = f\inv x}, which is a prime filter in #{D}. Now we have 
+    ##{ (\spec f)\inv(O_a) = O_{fa} }
+    for any #{a \in D}, hence this is a spectral map.
+  }
+}

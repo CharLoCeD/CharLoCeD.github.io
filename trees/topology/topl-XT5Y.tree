@@ -1,0 +1,7 @@
+\date{2025-06-08}
+\taxon{Definition}
+\title{Maps preserving constructible sets}
+
+\p{
+  We say a map #{Y \to X} \em{preserves [constructible sets](topl-F1KS)} if the image of a constructible subsets of #{Y} is again constructible.
+}

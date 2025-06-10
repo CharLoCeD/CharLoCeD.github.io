@@ -1,0 +1,8 @@
+\date{2025-06-09}
+\taxon{Definition}
+\title{Quasi-coherent ideal}
+\import{macro}
+
+\p{
+  For a scheme #{X}, we say an ideal #{\mc{I}} of #{\rg{X}} is quasi-coherent if for any affine open #{\spec A} of #{X}, #{\mc{I}|_{\spec A} = \qsi{I}} for some ideal #{I} of #{A}. We will write the poset of quasi-coherent ideals of #{X} as #{\mr{Idl}_Q(X)}.
+}

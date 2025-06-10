@@ -1,0 +1,12 @@
+\date{2025-06-08}
+\taxon{Example}
+\title{Affine scheme for natural numbers under division}
+\import{macro}
+
+\p{
+  For the distributive lattice #{\mbb{N}} given in \ref{idem-comm-WV5M}, recall its prime spectral corresponds to prime power #{p^k}, and #{0}. The corresponding prime filter #{F_{p^k}} is the set of numbers \em{not} containing #{p^k} as a factor, and #{F_0} is the set of positive numbers. This way, we have
+  ##{ \rg{\N,p^k} \cong \N /F_{p^k} \cong \set{0 < \cdots < p^{k+2} < p^{k+1} < p^{k} < 1} \cong \ov{\omega}\op. }
+  consisting of the infinite descending sequence of powers of #{p}, and
+  ##{ \rg{\N,0} \cong \N /F_{0} \cong 2. }
+  Notice that all the stalks are \em{linear}. Since linearity is a \em{geometric condition}, it follows that #{\rg{\N}} is a \em{linear distributive lattice} over #{\spec\N}. However, #{\N} is by no means linear.
+}

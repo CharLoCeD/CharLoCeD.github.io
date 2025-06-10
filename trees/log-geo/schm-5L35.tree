@@ -1,0 +1,26 @@
+\date{2025-06-08}
+\taxon{Proposition}
+\title{Structural sheaf on a general open}
+\import{macro}
+
+\p{
+  For any distributive lattice #{D}, we use #{I} to denote the open set #{O_I} via \ref{idem-comm-HLDT}. Then #{\rg{D}(I) \cong D_I}.
+}
+\proof{
+  By the sheaf condition, #{\rg{D}(I)} is the following equaliser,
+  \tikzpic{
+    \begin{tikzcd}
+      \mathcal O_{D}(I) \ar[r, tail] & \prod_{p\in I} D/p \ar[r, shift left] \ar[r, shift right] & \prod_{p,q\in I} D/p\wedge q
+    \end{tikzcd}
+  }
+  Hence, an element #{u\in\rg{D}(I)} is exactly a function #{u : I \to D} such that
+  \ol{
+    \li{#{u(i) \le i} for all #{i\in I};}
+    \li{#{u(i) \wedge j = u(i \wedge j)} for all #{i,j\in I}.}
+  }
+  This gives an #{I}-element, since for any #{a\in D},
+  ##{ u(i \wedge a) = u(i \wedge i \wedge a) = u(i) \wedge i \wedge a = u(i) \wedge a. }
+  On the other hand, it suffices to show an #{I}-element is always contractive. But this is easy, since
+  ##{ u(i) = u(i \wedge i) = u(i) \wedge i. }
+  Hence, #{\rg{D}(I)} is the set of all #{I}-elements of #{D}.
+}

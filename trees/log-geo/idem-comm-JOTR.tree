@@ -1,0 +1,7 @@
+\date{2025-06-07}
+\taxon{Definition}
+\title{Noetherian distributive lattice}
+
+\p{
+  A distributive lattice is \em{Noetherian} if it satisfies the equivalent conditions in \ref{idem-comm-G598}.
+}

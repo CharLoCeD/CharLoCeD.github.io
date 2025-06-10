@@ -1,0 +1,8 @@
+\date{2025-06-08}
+\taxon{Definition}
+\title{P-maps and q-maps}
+\import{macro}
+
+\p{
+  We say a map #{D \to E} between distributive lattices is a \em{p-map/q-map}, if the induced map #{\spec E \to \spec D} is a [p-morphism/q-morphism](idem-comm-H042).
+}

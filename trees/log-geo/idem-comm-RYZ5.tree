@@ -1,0 +1,13 @@
+\date{2025-06-08}
+\taxon{Theorem}
+\title{Chevalley's theorem}
+\import{macro}
+
+\p{
+  Suppose #{D \to E} is finitely presented. Then #{\spec E \to \spec D} takes a constructible set to a constructible set.
+}
+\proof{
+  #{E} will be of the form #{D[x_1,\cdots,x_n]/\pair{p_i}{q_i}}. We may factor #{D \to E} as
+  ##{ D \to D[x_1] \to \cdots \to D[x_1,\cdots,x_n] \to D[x_1,\cdots,x_n]/\pair{p_i}{q_i}, }
+  where each map preserves constructible sets by \ref{idem-comm-21XO} and \ref{idem-comm-Y25U}.
+}

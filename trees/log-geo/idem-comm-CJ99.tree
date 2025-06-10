@@ -1,0 +1,11 @@
+\date{2025-06-08}
+\taxon{Lemma}
+\title{Retrocompact subsets in spectra}
+\import{macro}
+
+\p{
+  An open subset #{X} of #{\spec D} is [retrocompact](topl-DMH2) iff it is compact. 
+}
+\proof{
+  This is just due to the fact that spectra are also [quasi-separated](topl-GW93).
+}

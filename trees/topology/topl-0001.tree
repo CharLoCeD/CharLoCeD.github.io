@@ -1,0 +1,7 @@
+\date{2025-06-07}
+\taxon{Definition}
+\title{Irreducible space}
+
+\p{
+  A topological space #{X} is \em{irreducible} if it is not the union of two proper closed subspaces. More generally, we can talk about when a subset of #{X} is irreducible.
+}

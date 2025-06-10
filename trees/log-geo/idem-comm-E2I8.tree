@@ -1,0 +1,13 @@
+\date{2025-06-07}
+\taxon{Remark}
+\title{Equivalent formulation of locality}
+
+\p{
+  The following are equivalent for a distributive lattice #{D}:
+  \ol{
+    \li{#{D} is [local](idem-comm-75C1).}
+    \li{The map #{(-)=1 : D \to 2} is a distributive lattice homomorphism.}
+    \li{There is a unique maximal ideal of #{D}.}
+    \li{There is a unique minimal filter of #{D}.}
+  }
+}

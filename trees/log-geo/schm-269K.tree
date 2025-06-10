@@ -1,0 +1,7 @@
+\date{2025-06-08}
+\taxon{Remark}
+\title{Topology of a general scheme}
+
+\p{
+  It is well-known that if #{X} is a [scheme](schm-86OJ), then as a topological space it is [sober](topl-FII1) and \em{locally compact}. However, it may fail to be [quasi-separated](topl-GW93) or compact.
+}

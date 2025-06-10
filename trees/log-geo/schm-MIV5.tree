@@ -1,0 +1,10 @@
+\date{2025-06-09}
+\taxon{Construction}
+\title{Quasi-coherent ideals for affine schemes}
+\import{macro}
+
+\p{
+  Let #{I} be an ideal of a distributive lattice #{D}. We construct a sheaf of ideal #{\qsi{I}} on #{\spec D} as follows: For any #{a\in D}, we define 
+  ##{ \qsi{I}(a) := a \wedge I. }
+  Evidently, #{a \wedge I \subseteq D/a} is an ideal for all #{a\in D}. This is a sheaf of ideals of #{\rg{D}} by the same proof as \ref{schm-ZBG1}.
+}

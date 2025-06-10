@@ -1,0 +1,22 @@
+\date{2025-06-07}
+\taxon{Lemma}
+\title{Equivalent Noetherian condition}
+\import{macro}
+
+\p{
+  For a distributive lattice #{D} the following are equivalent:
+  \ol{
+    \li{Every ascending chain of ideals is stationary.}
+    \li{Every ascending chain of elements is stationary.}
+    \li{Every decreasing chain of filters is stationary.}
+  }
+  Similarly for the dual statements.
+}
+\proof{
+  (1), (3) #{\nt} (2) is evident: Any ascending chain of elements #{p_0 \le p_1 \le \cdots} induces an ascending chain of principle ideals and a decreasing chain of principle filters. For (2) #{\nt} (1), suppose otherwise we have a strictly ascending chain of ideals #{I_0 \subset I_1 \subset \cdots}. Then we can choose a strictly ascending chain of elements:
+  \ul{
+    \li{Take #{p_0} to be an element in #{I_0}.}
+    \li{Suppose we have already constructed #{p_n\in I_n}. Now let #{r_n} be an element in #{I_{n+1}\backslash I_n}. Take #{p_{n+1}} to be #{p_n \vee r_n}. This way, #{p_{n+1} \in I_{n+1}}, and #{p_{n+1}\not\in I_n} since #{r_n\not\in I_n}. It follows that #{p_n < p_{n+1}}.}
+  }
+  (2) #{\nt} (3) is completely similar.
+}

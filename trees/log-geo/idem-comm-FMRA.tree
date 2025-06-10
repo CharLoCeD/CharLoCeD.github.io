@@ -1,0 +1,10 @@
+\date{2025-06-07}
+\title{Closed subspace of closed quotient}
+\taxon{Remark}
+\import{macro}
+
+\p{
+  Dually, for an ideal #{I}, let us write the quotient obtained by taking all elements in #{I} to #{0} as #{D \surj \spec I/D}. By the dual form of \ref{idem-comm-W57Q}, again we have a natural subspace #{\spec I/D \subseteq \spec D}, which can be seen as 
+  ##{ \spec I/D = \scomp{x\in\spec D}{\fa{a}{I} x \not\models a} = \bigcap_{a\in I}C_a = C_I. }
+  Thus, #{\spec I/D} will indeed be \em{closed} in #{\spec D}, hence we refer to quotients of the form #{I/D} as \em{closed quotients}. This also implies that a subspace of #{\spec D} is closed iff it is downward closed.
+}

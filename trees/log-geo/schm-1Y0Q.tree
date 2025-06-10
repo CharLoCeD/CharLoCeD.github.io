@@ -1,0 +1,10 @@
+\date{2025-06-08}
+\taxon{Definition}
+\title{Partial element of a distributive lattice}
+\import{macro}
+
+\p{
+  For a distributive lattice #{D} and an ideal #{I}, an \em{#{I}-element} of #{D} is a function #{u : I \to D} satisfying for any #{i\in I} and #{a\in D},
+  ##{ u(i \wedge a) = u(i) \wedge a. }
+  The set of #{I}-elements of #{D} will be denoted as #{D_I}.
+}

@@ -1,0 +1,7 @@
+\date{2025-06-07}
+\taxon{Definition}
+\title{Sober spaces}
+
+\p{
+  A topological space #{X} is \em{sober} if every [irreducible](topl-0001) closed subset is the closure of a \em{unique} point.
+}

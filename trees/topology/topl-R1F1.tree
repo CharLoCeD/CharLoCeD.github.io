@@ -1,0 +1,9 @@
+\date{2025-06-09}
+\title{Lawvere-Tierney topology for closed subtopoi}
+\taxon{Definition}
+\import{macro}
+
+\p{
+  Let #{\mc{X}} be a topos, and #{\varphi} a subterminal object. The \em{closed subtopos} associated with #{\varphi} has the Lawvere-Tierney operator as 
+  ##{ c_{\varphi} = (-) \vee \varphi : \Omega \to \Omega. }
+}

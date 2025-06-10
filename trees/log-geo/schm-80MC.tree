@@ -1,0 +1,11 @@
+\date{2025-06-08}
+\taxon{Theorem}
+\title{A scheme is affine iff it is spectral}
+\import{macro}
+
+\p{
+  A scheme #{X} is affine iff its underlying topological space is [spectral](topl-VV9N), i.e. iff it is \em{compact} and [quasi-separated](topl-GW93).
+}
+\proof{
+  Let #{X} be a scheme whose underlying topological space is spectral. Let #{D} be the distributive lattice of compact open subsets of #{X}. Let #{\set{U_i}_{i\in I}} be a finite family of affine open covers of #{X}. For any #{U_i}, since #{U_i} is affine, and affine schemes are determined by their underlying topological space (see \ref{schm-1I73}), we must have #{\rg{U_i} \cong D_i} where #{D_i} is the principle quotient of #{D} corresponding to the compact open #{U_i}. This way, #{\rg{X}} and #{\rg{D}} agree on this open cover, which implies that #{\rg{X} \cong \rg{D}}.
+}

@@ -1,0 +1,25 @@
+\date{2025-06-08}
+\taxon{Theorem}
+\title{Characterisation of p-maps}
+\import{macro}
+
+\p{
+  For a map #{f : D \to E} the following are equivalent:
+  \ol{
+    \li{#{f} is a p-map;}
+    \li{For any #{x\in\spec E}, the induced map #{\dv x \to \dv fx} is surjective;}
+    \li{For any #{x\in\spec E}, it restricts to an injection at stalks,
+    \tikzpic{
+      \begin{tikzcd}
+        D \ar[r, "f"] \ar[d, two heads] & E \ar[d, two heads] \\ 
+        D/f^{-1}(x) \ar[r, tail] & E/x
+      \end{tikzcd}
+    }
+    }
+  }
+}
+\proof{
+  The equivalence (1) #{\eff} (2) is by definition. The equivalence (2) #{\eff} (3) is obtained by the observation that the localisation #{E \surj E/x} exactly induces the inclusion
+  ##{ \spec E/x = \scomp{y\in\spec E}{x \le y} = \dv x \subseteq \spec E. }
+  Thus, the map #{\dv x \to \dv fx} is induced by the induced map #{D/fx \to E/x}, and it is surjective iff this is an injection by \ref{idem-comm-59IF}.
+}

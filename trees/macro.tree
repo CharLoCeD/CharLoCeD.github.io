@@ -1,0 +1,55 @@
+\import{latex-preamble}
+
+\def\mc[x]{\mathcal{\x}}
+\def\mr[x]{\mathrm{\x}}
+\def\mb[x]{\mathbf{\x}}
+\def\ms[x]{\mathsf{\x}}
+\def\mbb[x]{\mathbb{\x}}
+\def\ms[x]{\mathsf{\x}}
+
+\def\N{\mbb{N}}
+\def\TopD{\mb{Top}_{\mathbb{D}}}
+\def\sh{\mr{Sh}}
+\def\psh{\mr{Psh}}
+
+\def\surj{\twoheadrightarrow}
+\def\inj{\rightarrowtail}
+\def\hook{\hookrightarrow}
+\def\eff{\Leftrightarrow}
+\def\inv{^{-1}}
+\def\op{^{\mr{op}}}
+\def\nt{\Rightarrow}
+\def\qsi[x]{\widetilde{\x}}
+\def\cv{\downarrow}
+\def\dv{\uparrow}
+\def\ov[x]{\overline{\x}}
+\def\rg[x]{\mc{O}_{\x}}
+\def\set[x]{\{\x\}}
+\def\scomp[x][y]{\set{\x\mid\y}}
+\def\pair[x][y]{\langle\x,\y\rangle}
+\def\ex[x][y]{\exists \x \in \y.\ }
+\def\fa[x][y]{\forall \x \in \y.\ }
+\def\sub{\mr{Sub}}
+\def\im{\operatorname{img}}
+\def\spec{\operatorname{Spec}}
+\def\ct{\operatorname{colim}}
+\def\up{^{\sharp}}
+\def\dn{_{\sharp}}
+
+\def\proof[body]{
+ \scope{
+   \put\transclude/toc{false}
+   \subtree{
+     \taxon{Proof}
+     \body
+   }
+ }
+}
+
+\def\tikzpic[~body]{
+  \figure{
+    \tex{\usepackage{tikz-cd}\usepackage{quiver}}{\body{}}
+  }
+}
+
+

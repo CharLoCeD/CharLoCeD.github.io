@@ -1,0 +1,15 @@
+\date{2025-06-07}
+\taxon{Proposition}
+\title{Spectra as classifying spaces}
+\import{macro}
+
+\p{
+  The space #{\spec D} classifies the prime filters of #{D} in the following sense: For any topos #{\mc{X}}, we have
+  ##{ \mb{Topoi}(\mc{X},\spec D) \simeq \mb{DL}(D,\sub_{\mc{X}}(1)). }
+}
+
+\proof{
+  By \ref{idem-comm-HLDT} #{\spec D} as a frame is the coherent locale #{\mr{Idl}(D)} of #{D}. Thus we indeed have
+  ##{ \mb{Topoi}(\mc{X},\spec D) \simeq \mb{Frm}(\mr{Idl}(D),\sub_{\mc{X}}(1)) \simeq \mb{DL}(D,\sub_{\mc{X}}(1)). }
+  In particular, when #{\mc{X}} is two-valued, these are prime filters of #{D}.
+}

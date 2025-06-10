@@ -1,0 +1,13 @@
+\date{2025-06-07}
+\author{lingyuan}
+\title{Congruence for pro-open quotients}
+\taxon{Lemma}
+\import{macro}
+
+\p{
+  Let #{F} be a filter of a distributive lattice #{D}. Then the congruence for the [[idem-comm-0002]] #{D \surj F} is given as follows:
+  ##{x \sim_F y \eff \ex{u}{F} x \wedge u = y \wedge u}
+}
+\proof{
+  \p{This is evident.}
+}

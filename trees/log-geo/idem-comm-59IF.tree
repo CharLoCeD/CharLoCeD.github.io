@@ -1,0 +1,15 @@
+\date{2025-06-07}
+\title{Set-level duality between spectra and algebra}
+\taxon{Proposition}
+\import{macro}
+
+\p{
+  For any map #{f : D \to E} between distributive lattices:
+  \ol{
+    \li{#{f} is injective iff #{\spec E \surj \spec D} is surjective.}
+    \li{#{f} is surjective iff #{\spec E \subseteq \spec D} is a full subposet.}
+  }
+}
+\proof{
+  The first statement is an easy consequence of completeness. For the second statement, since #{\spec} takes regular epis in \strong{DL} to regular monos in \strong{Pos}, thus the only if direction holds. For the if direction, take a map #{f : D \to E}, we can factor it as a surjection #{q : D \surj E'} followed by an injection #{i : E' \inj E}. This induces a factorisation on posets #{q : \spec E' \to \spec D}, a regular mono, and #{i : \spec E \to \spec E'}, which is surjective by (1). Hence, if the composite #{iq} is a regular mono, so is #{i}, which implies #{i} is an isomorphism. This way, #{f} must be a quotient.
+}

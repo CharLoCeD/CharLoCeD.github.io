@@ -1,0 +1,27 @@
+\date{2025-06-08}
+\title{Quasi-coherent ideals and closed immersion}
+\author{lingyuan}
+
+\transclude{schm-OMYR}
+\transclude{schm-5KCL}
+\transclude{schm-7QL9}
+
+\p{
+  Given \ref{schm-7QL9}, we would like a notion of sheaf of ideals, under which the closed subscheme associated to it under \ref{schm-5KCL} will always be a scheme. For this we first consider the case for affine schemes. Our guiding principle is again the bijection in \ref{idem-comm-HLDT}.
+}
+
+\transclude{schm-MIV5}
+\transclude{schm-TCWT}
+\transclude{schm-2CQ4}
+
+\p{
+  This way, we first have a generalisation for the results in \ref{idem-comm-HLDT}.
+}
+
+\transclude{schm-EREC}
+
+\p{
+  At the end, we show that \ref{schm-5KCL} when applied to quasi-coherent ideals of schemes always produces a scheme.
+}
+
+\transclude{schm-JBRX}

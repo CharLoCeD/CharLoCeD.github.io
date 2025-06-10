@@ -1,0 +1,8 @@
+\date{2025-06-08}
+\taxon{Definition}
+\title{Scheme}
+\import{macro}
+
+\p{
+  A [locally distributed space](schm-V16H) #{(X,\rg{X})} is a \em{scheme}, if for any #{x\in X} there is an open neighbourhood #{U} of #{x}, such that #{(U,\rg{X}|_U)} is an [affine scheme](schm-IFX1). The full subcategory of schemes will be denoted as #{\mb{Sch}_{\mbb{D}}}.
+}

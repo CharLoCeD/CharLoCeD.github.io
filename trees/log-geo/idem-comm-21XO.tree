@@ -1,0 +1,16 @@
+\date{2025-06-08}
+\taxon{Lemma}
+\title{Polynomial projections preserve constructible sets}
+\import{macro}
+
+\p{
+  The map #{\spec D[x] \to \spec D} takes a standard open to a standard open; similarly for standard closed sets. This in particular implies it [preserves constructible subsets](topl-XT5Y).
+}
+\proof{
+  A point in #{\spec D[x]} can be identified as a pair #{(i,x)} where #{i \in \set{0,1}} and #{x \in \spec D}. This way, given any #{x\in\spec D} and polynomial #{p\in D[x]} with #{p = p_0 \vee x \wedge p_1}, we have
+  ##{ x \in \im(O_p) \eff (i,x) \in O_p \eff x\in O_{p_i}. }
+  In particular, this means that 
+  ##{ \im(O_p) = O_{p_0} \cup O_{p_1} = O_{p_1}. }
+  Completely similarly, we have 
+  ##{ \im(C_p) = C_{p_0} \cup C_{p_1} = C_{p_0}. }
+}

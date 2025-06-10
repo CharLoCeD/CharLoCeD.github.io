@@ -1,0 +1,7 @@
+\date{2025-06-07}
+\taxon{Remark}
+\title{Boolean algebras only have maximal ideals}
+
+\p{
+  By \ref{idem-comm-EV8L} a distributive lattice #{D} is a \em{Boolean algebra} iff all prime ideals of #{D} are maximal.
+}

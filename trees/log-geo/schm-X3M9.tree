@@ -1,0 +1,54 @@
+\date{2025-06-08}
+\taxon{Theorem}
+\title{Universal property of spectra}
+\import{macro}
+
+\p{
+  #{\spec} is the right adjoint to the global section functor
+  \tikzpic{
+  \begin{tikzcd}
+    {\mathbf{DL}\op} & \mathbf{Top}_{\mathbb D}
+    \arrow[""{name=0, anchor=center, inner sep=0}, "\mathrm{Spec}"', curve={height=18pt}, from=1-1, to=1-2]
+    \arrow[""{name=1, anchor=center, inner sep=0}, "\Gamma"', curve={height=18pt}, from=1-2, to=1-1]
+    \arrow["\dashv"{anchor=center, rotate=-90}, draw=none, from=1, to=0]
+  \end{tikzcd}
+  }
+  identifying #{\mb{DL}\op} as a reflective subcategory of #{\TopD}.
+}
+
+\proof{
+  \p{Let #{(X,\rg{X})} be a locally distributed space and #{D} a distributive lattice. Given
+  ##{ f\dn : D \to \Gamma\rg{X}, }
+  we construct a morphism of locally distributed spaces
+  ##{ (f,f\up) : (X,\rg{X}) \to (\spec D,\rg{D}). }
+  The map #{f : X \to \spec D} can be constructed as follows,
+  \tikzpic{
+    \begin{tikzcd}
+      D \ar[dr, dashed, "f\inv"'] \ar[r, "f\dn"] & \Gamma\mathcal O_X \ar[d, "=1"] \\ 
+      & \Gamma\Omega_X
+    \end{tikzcd}
+  }
+  Since #{\rg{X}} is local, by \ref{idem-comm-E2I8} the composite is a distributive lattice morphism, thus produces a continuous function #{f : X \to \spec D} by \ref{idem-comm-WKAD}. Concretely, for any #{x\in X} we have
+  ##{ fx = \scomp{p\in D}{x \models f\dn(p)}. }
+  In other words, #{D/fx} is the [(pro-open,t-conservative)](idem-comm-V39C) factorisation of #{D \to \Gamma\rg{X} \to \rg{X,x}}
+  \tikzpic{
+    \begin{tikzcd}
+      D \ar[d, two heads] \ar[r, "f\dn"] & \Gamma\mathcal O_{X} \ar[d] \\ 
+      D/fx \ar[r] & \rg{X,x}
+    \end{tikzcd}
+  }
+  Here #{D/fx} is local since #{\rg{X,x}} by assumption is local and #{D/fx \to \rg{X,x}} is t-conservative. Hence by \ref{idem-comm-EV8L} #{fx} is indeed a prime filter.}
+
+  \p{We then construct a morphism of distributive lattices #{f\up : f^*\rg{D} \to \rg{X}}. Equivalently, this can be described as a compatible family of maps
+  ##{ f\dn : \rg{D}(p) \cong D/p \to \rg{X}(f\inv p). }
+  Compatibility means the following diagramme commutes,
+  \tikzpic{
+  \begin{tikzcd}
+    D \ar[d, two heads] \ar[r, "f_\sharp"] & \mathcal O_{X}(X) \ar[d, "(-)|_{f^{-1} p}"] \\
+    D/p \ar[r, "f_\sharp"'] & \rg{X}(f^{\inv} p)
+  \end{tikzcd}
+  }
+  It then suffices to show that #{f\dn(p)|_{f\inv(p)} = 1}. This holds, since by construction #{f\inv(p)} is the subspace #{\scomp{x}{x \models f\dn(p)}}. This being a \em{local} morphism follows immediately from the factorisation defining #{fx}.}
+
+  \p{On the other hand, we need to show that for any morphism between locally distributed spaces #{(f,f\up) : (X,\rg{X}) \to (\spec D,\rg{D})}, it is determined by #{f\dn : D \to \Gamma\rg{X}}. Fistly, since #{D\surj D/p} is a localisation, all the morphisms #{f\dn : D/p \to \dn X(f\inv p)} are already determined by #{f\dn : D \to \Gamma\rg{X}}. Hence, it suffices to show that #{f} is also determined by #{f\dn : D \to \Gamma\rg{X}}. The key of course is the requirement that #{f\up} is t-conservative. By the Kripke-Joyal semantics, this means that for any #{x\in X}, the induced map on stalk #{D/fx \to \rg{X,x}} must be t-conservative. This uniquely determines #{fx} since #{\rg{X,x}} by construction is local, and has a unique prime filter. This then determines #{fx} by looking at the preimage #{D \to \Gamma\rg{X} \to \rg{X,x}}.}
+}

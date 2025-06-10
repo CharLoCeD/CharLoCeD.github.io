@@ -1,0 +1,12 @@
+\date{2025-06-08}
+\taxon{Example}
+\title{Finitely presented quotient induce constructible subsets}
+\import{macro}
+
+\p{
+  Let #{\set{a_i}_{i\in I},\set{b_i}_{i\in I} \in D} be two finite lists of elements. The finitely presented quotient #{D \surj D/\pair{a_i}{b_i}_{i\in I}} induces a subset #{\spec D/\pair{a_i}{b_i}} of #{\spec D}. By definition, for any #{x\in\spec D},
+  ##{ x \in \spec D/\pair{a_i}{b_i} \eff \fa{i}{I} x \not\models a_i \vee x \models b_i, }
+  which means that 
+  ##{ \spec D/\pair{a_i}{b_i} = \bigcap_{i\in I} C_{a_i} \cup O_{b_i}. }
+  This way, #{\spec D/\pair{a_i}{b_i}} will be constructible in #{\spec D}.
+}

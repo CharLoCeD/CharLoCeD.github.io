@@ -1,0 +1,29 @@
+\date{2025-06-08}
+\taxon{Theorem}
+\title{Affine glueing of affine schemes}
+\import{macro}
+
+\p{
+  If we glue two affine schemes #{X,Y} together along some standard opens #{U \subseteq X} and #{V \subseteq Y} with #{U \cong V}, then the union #{X \cup Y} is again affine.
+}
+\proof{
+  Suppose #{X \cong \spec D} and #{Y \cong \spec E} with #{U = p} and #{V = q} for some #{p\in D} and #{q\in E}, with an isomorphism #{u : D/p \cong E/q}. This way, the global section #{A} of #{X \cup Y} by the sheaf condition is given by the following pullback,
+  \tikzpic{
+    \begin{tikzcd}
+      A \ar[r, "f"] \ar[d, "g"'] \ar[dr, "\lrcorner"{anchor = center, pos = 0.125}, draw = none] & D \ar[d] \\ 
+      E \ar[r] & E/q \cong D/p
+    \end{tikzcd}
+  }
+  We show that the map #{f : A \to D} is isomorphic to #{A \to A/(q,1)}. First since by construction #{f(q,1) = 1}, there is a factorisation
+  \tikzpic{
+    \begin{tikzcd}
+      A \ar[r, "f"] \ar[d, two heads] & D \\ 
+      A/(q,1) \ar[ur, dashed, "f"']
+    \end{tikzcd}
+  }
+  #{f : A/(q,1) \to D} must be surjective: For any #{d\in D}, along the isomorphism #{u D/p \cong E/q} we know that #{(u(d\wedge p),d) \in A}, whose image under #{f} is #{d}. On the other hand, it must also be injective: For any #{(e,d),(e',d')\in A/(q,1)}, suppose #{d = d'}. By construction, we must then have #{ud = e} and #{ud' = e'}, which implies #{e = e'}. Hence, #{(e,d) = (e',d')} in #{A/(q,1)}. Similarly, #{g : A \to E} will be isomorphic to #{A \to A/(1,p)}.
+
+  This way, by \ref{schm-X3M9} we get a canonical function
+  ##{ X \cup Y \to \spec A }
+  We show this is an isomorphism. It suffices to show it is a homeomorphism of topological spaces, because the sheaves are glued together. But this is the same as stating prime filters in #{A} are either prime filters in #{D} or #{E}, modulo the identification. This follows from \ref{idem-comm-W57Q}.
+}

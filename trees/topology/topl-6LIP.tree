@@ -1,0 +1,20 @@
+\date{2025-06-09}
+\taxon{Construction}
+\title{Reflector for closed subtopoi}
+\import{macro}
+
+\p{
+  Let #{c_\varphi} be the [closed Lawvere-Tierney operator](topl-R1F1) associated with a subterminal #{\varphi} of a topos #{\mc{X}}. This way, a subobject #{U \inj Y} is \em{dense} iff the following holds in #{\mc{X}},
+  ##{ \fa{y}{Y} \varphi \vee y \in U. }
+  This induces a \em{closed monad} on #{\mc{X}}
+  ##{ \Diamond_\varphi : \mc{X} \to \mc{X} }
+  where for any #{X\in\mc{X}}, #{\Diamond_\varphi X} is the following pushout,
+  \tikzpic{
+    \begin{tikzcd}
+      X \times \varphi \ar[r] \ar[d] & \varphi \ar[d] \\ 
+      X \ar[r] & \Diamond_\varphi X 
+      \arrow["\lrcorner"{anchor = center, pos = 0.125, rotate=180}, draw = none, from=2-2, to=1-1]
+    \end{tikzcd}
+  }
+  It turns out that #{X} is closed for this monad iff #{X^\varphi \cong 1}.
+}
