@@ -149,42 +149,126 @@
               </fr:frontmatter>
               <fr:mainmatter>
                 <html:p>
-  Let <fr:tex display="inline"><![CDATA[\mathbb {H}[x]]]></fr:tex> be the free Heyting algebra with one generator. The spectrum <fr:tex display="inline"><![CDATA[\operatorname {Spec}\mathbb {H}[x]]]></fr:tex> as a topological space is the Rieger-Nishimura laddar,
+  Let <fr:tex display="inline"><![CDATA[\mathbb {H}[x]]]></fr:tex> be the free Heyting algebra with one generator, usually called the <html:em>Rieger-Nishmura algebra</html:em>, as shown on the left below. The spectrum <fr:tex display="inline"><![CDATA[\operatorname {Spec}\mathbb {H}[x]]]></fr:tex> as a topological space is the <html:em>Rieger-Nishimura laddar</html:em> shown to the right,
   
-  <html:figure><fr:resource hash="60df66fe9011fe0e2aa3524d84c026e9"><fr:resource-content><html:img src="/60df66fe9011fe0e2aa3524d84c026e9.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[\usepackage {tikz-cd}\usepackage {quiver}]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+  <html:figure><fr:resource hash="6faf3893422775666ab676b68ada0727"><fr:resource-content><html:img src="/6faf3893422775666ab676b68ada0727.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[\usepackage {tikz-cd}\usepackage {quiver}]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
   \begin {tikzcd}
-    \bullet  && \bullet  \\
-    \bullet  && \bullet  \\
-    \bullet  && \bullet  \\
-    \bullet  && \bullet  \\
-    \vdots  && \vdots  \\
-    & \bullet 
-    \arrow [from=2-1, to=1-1]
-    \arrow [from=2-1, to=1-3]
-    \arrow [from=2-3, to=1-3]
-    \arrow [from=3-1, to=2-1]
-    \arrow [from=3-1, to=2-3]
-    \arrow [from=3-3, to=1-1]
-    \arrow [from=3-3, to=2-3]
+    & {\mathbb {H}[x]} && {\mathrm {Spec}\,\mathbb {H}[x]} \\
+    & 1 && \bullet  & \bullet  \\
+    \vdots  & \vdots  && \bullet  & \bullet  \\
+    {\neg \neg  x \to  x} & {\neg  x \vee  \neg \neg  x} && \bullet  & \bullet  \\
+    {x \vee  \neg  x} & {\neg \neg  x} && \bullet  & \bullet  \\
+    {\neg  x} & x && \vdots  & \vdots  \\
+    0 &&& \bot 
+    \arrow [from=3-1, to=2-2]
+    \arrow [from=3-2, to=2-2]
+    \arrow [from=3-4, to=2-4]
+    \arrow [from=3-4, to=2-5]
+    \arrow [from=3-5, to=2-5]
     \arrow [from=4-1, to=3-1]
-    \arrow [from=4-1, to=3-3]
-    \arrow [from=4-3, to=2-1]
-    \arrow [from=4-3, to=3-3]
+    \arrow [from=4-2, to=3-1]
+    \arrow [from=4-2, to=3-2]
+    \arrow [from=4-4, to=3-4]
+    \arrow [from=4-4, to=3-5]
+    \arrow [from=4-5, to=2-4]
+    \arrow [from=4-5, to=3-5]
     \arrow [from=5-1, to=4-1]
-    \arrow [from=5-1, to=4-3]
-    \arrow [from=5-3, to=3-1]
-    \arrow [from=5-3, to=4-3]
+    \arrow [from=5-1, to=4-2]
+    \arrow [from=5-2, to=4-2]
+    \arrow [from=5-4, to=4-4]
+    \arrow [from=5-4, to=4-5]
+    \arrow [from=5-5, to=3-4]
+    \arrow [from=5-5, to=4-5]
+    \arrow [from=6-1, to=5-1]
     \arrow [from=6-2, to=5-1]
-    \arrow [from=6-2, to=5-3]
+    \arrow [from=6-2, to=5-2]
+    \arrow [from=6-4, to=5-4]
+    \arrow [from=6-4, to=5-5]
+    \arrow [from=6-5, to=4-4]
+    \arrow [from=6-5, to=5-5]
+    \arrow [from=7-1, to=6-1]
+    \arrow [from=7-1, to=6-2]
+    \arrow [from=7-4, to=6-4]
+    \arrow [from=7-4, to=6-5]
   \end {tikzcd}
   ]]></fr:resource-source></fr:resource></html:figure>
 
-  It has a unique non-standard <fr:link href="/schm-8ES8/" title="Open subschemes and open immersion" uri="https://charloced.github.io/schm-8ES8/" display-uri="schm-8ES8" type="local">open subscheme</fr:link>, which we denote as <fr:tex display="inline"><![CDATA[\operatorname {Spec}\mathbb {H}[x]_+ = \operatorname {Spec}\mathbb {H}[x]-\{\bot \}]]></fr:tex>, where <fr:tex display="inline"><![CDATA[\bot ]]></fr:tex> is the generic point of <fr:tex display="inline"><![CDATA[\operatorname {Spec}\mathbb {H}[x]]]></fr:tex>. The open subscheme <fr:tex display="inline"><![CDATA[\operatorname {Spec}\mathbb {H}[x]]]></fr:tex> is <html:em>not compact</html:em>, hence it is not affine.
+  <fr:tex display="inline"><![CDATA[\operatorname {Spec}\mathbb {H}[x]]]></fr:tex> has a unique non-standard <fr:link href="/schm-8ES8/" title="Open subschemes and open immersion" uri="https://charloced.github.io/schm-8ES8/" display-uri="schm-8ES8" type="local">open subscheme</fr:link>, which we denote as <fr:tex display="inline"><![CDATA[\operatorname {Spec}\mathbb {H}[x]_+ = \operatorname {Spec}\mathbb {H}[x]-\{\bot \}]]></fr:tex>, where <fr:tex display="inline"><![CDATA[\bot ]]></fr:tex> is the generic point of <fr:tex display="inline"><![CDATA[\operatorname {Spec}\mathbb {H}[x]]]></fr:tex>. The open subscheme <fr:tex display="inline"><![CDATA[\operatorname {Spec}\mathbb {H}[x]_+]]></fr:tex> is <html:em>not compact</html:em>, hence it is not affine.
 </html:p>
                 <html:p>
   In fact, we can compute the global section of <fr:tex display="inline"><![CDATA[\operatorname {Spec}\mathbb {H}[x]_+]]></fr:tex>. Under <fr:link href="/idem-comm-HLDT/" title="Frame of opens of spectra" uri="https://charloced.github.io/idem-comm-HLDT/" display-uri="idem-comm-HLDT" type="local">Proposition <fr:contextual-number uri="https://charloced.github.io/idem-comm-HLDT/" display-uri="idem-comm-HLDT" /></fr:link>, it as an open subset corresponds to the maximal ideal <fr:tex display="inline"><![CDATA[M = \mathbb {H}[x]-\{1\}]]></fr:tex>. This way under <fr:link href="/schm-5L35/" title="Structural sheaf on a general open" uri="https://charloced.github.io/schm-5L35/" display-uri="schm-5L35" type="local">Proposition <fr:contextual-number uri="https://charloced.github.io/schm-5L35/" display-uri="schm-5L35" /></fr:link>,
   <fr:tex display="block"><![CDATA[ \Gamma \mathcal {O}_{\operatorname {Spec}\mathbb {H}[x]_+} \cong  \mathbb {H}[x]_M \cong  \mathbb {H}[x]. ]]></fr:tex>
   The final isomorphism is an easy exercise. This means the open immersion <fr:tex display="inline"><![CDATA[\operatorname {Spec}\mathbb {H}[x]_+ \hookrightarrow  \operatorname {Spec}\mathbb {H}[x]]]></fr:tex> induces an isomorphism on global section. 
+</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>10</fr:day>
+                </fr:date>
+                <fr:uri>https://charloced.github.io/schm-DK1B/</fr:uri>
+                <fr:display-uri>schm-DK1B</fr:display-uri>
+                <fr:route>/schm-DK1B/</fr:route>
+                <fr:title text="The dual Rieger-Nishimura scheme">The dual Rieger-Nishimura scheme</fr:title>
+                <fr:taxon>Example</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+  Let <fr:tex display="inline"><![CDATA[\mathbb {S}[x]]]></fr:tex> be the free <html:em>coHeyting algebra</html:em> with one generator. By duality, since free distributive lattices are self-dual <fr:tex display="inline"><![CDATA[2[x]^{\mathrm {op}} \cong  2[x]]]></fr:tex>, we in fact have
+  <fr:tex display="block"><![CDATA[ \mathbb {S}[x] \cong  \mathbb {H}[x]^{\mathrm {op}}, ]]></fr:tex>
+  where <fr:tex display="inline"><![CDATA[\mathbb {H}[x]]]></fr:tex> is the <fr:link href="/schm-LRJP/" title="The Rieger-Nishimura scheme" uri="https://charloced.github.io/schm-LRJP/" display-uri="schm-LRJP" type="local">Rieger-Nishimura</fr:link> algebra. This way, we can compute <fr:tex display="inline"><![CDATA[\mathbb {S}[x]]]></fr:tex> and <fr:tex display="inline"><![CDATA[\operatorname {Spec}\mathbb {S}[x]]]></fr:tex> as below,
+  
+  <html:figure><fr:resource hash="d87a97748771c56fd782821194b49f10"><fr:resource-content><html:img src="/d87a97748771c56fd782821194b49f10.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[\usepackage {tikz-cd}\usepackage {quiver}]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+    \begin {tikzcd}
+      & {\mathbb {S}[x]} & {\mathrm {Spec}\,\mathbb {S}[x]} \\
+      1 &&& \top  \\
+      {1\backslash  x} & x & \vdots  & \vdots  \\
+      {x \wedge  (1\backslash  x)} & {1\backslash  (1\backslash  x)} & \bullet  & \bullet  \\
+      {x\backslash  (1\backslash  (1\backslash  x))} & {1\backslash  x \wedge  1\backslash  (1\backslash  x)} & \bullet  & \bullet  \\
+      \vdots  & \vdots  & \bullet  & \bullet  \\
+      & 0 & \bullet  & \bullet 
+      \arrow [from=3-1, to=2-1]
+      \arrow [from=3-2, to=2-1]
+      \arrow [from=3-3, to=2-4]
+      \arrow [from=3-4, to=2-4]
+      \arrow [from=4-1, to=3-1]
+      \arrow [from=4-1, to=3-2]
+      \arrow [from=4-2, to=3-2]
+      \arrow [from=4-3, to=3-3]
+      \arrow [from=4-3, to=3-4]
+      \arrow [from=4-4, to=3-4]
+      \arrow [from=5-1, to=4-1]
+      \arrow [from=5-2, to=4-1]
+      \arrow [from=5-2, to=4-2]
+      \arrow [from=5-3, to=4-3]
+      \arrow [from=5-3, to=4-4]
+      \arrow [from=5-4, to=3-3]
+      \arrow [from=5-4, to=4-4]
+      \arrow [from=6-1, to=5-1]
+      \arrow [from=6-1, to=5-2]
+      \arrow [from=6-2, to=5-2]
+      \arrow [from=6-3, to=5-3]
+      \arrow [from=6-3, to=5-4]
+      \arrow [from=6-4, to=4-3]
+      \arrow [from=6-4, to=5-4]
+      \arrow [from=7-2, to=6-1]
+      \arrow [from=7-2, to=6-2]
+      \arrow [from=7-3, to=6-3]
+      \arrow [from=7-3, to=6-4]
+      \arrow [from=7-4, to=5-3]
+      \arrow [from=7-4, to=6-4]
+    \end {tikzcd}
+  ]]></fr:resource-source></fr:resource></html:figure>
+
+  <fr:tex display="inline"><![CDATA[\operatorname {Spec}\mathbb {S}[x]]]></fr:tex> is the union of two standard opens
+  <fr:tex display="block"><![CDATA[\operatorname {Spec}\mathbb {S}[x] = \operatorname {Spec}\mathbb {S}[x]/ x \cup  \operatorname {Spec}\mathbb {S}[x]/ (1\backslash  x)]]></fr:tex>
+  However, the interesting thing here is that their intersection is isomorphic to the total space again
+  <fr:tex display="block"><![CDATA[ \operatorname {Spec}\mathbb {S}[x]/x \cap  \operatorname {Spec}\mathbb {S}[x]/(1\backslash  x) = \operatorname {Spec}\mathbb {S}[x]/(x \wedge  (1\backslash  x)) \cong  \operatorname {Spec}\mathbb {S}[x]. ]]></fr:tex>
+  This seems to hint at a <html:em>coinductive</html:em> feature of <fr:tex display="inline"><![CDATA[\mathbb {S}[x]]]></fr:tex>.
 </html:p>
               </fr:mainmatter>
             </fr:tree>
@@ -243,6 +327,211 @@
         <fr:title text="Backlinks">Backlinks</fr:title>
       </fr:frontmatter>
       <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>11</fr:day>
+            </fr:date>
+            <fr:uri>https://charloced.github.io/schm-IPGI/</fr:uri>
+            <fr:display-uri>schm-IPGI</fr:display-uri>
+            <fr:route>/schm-IPGI/</fr:route>
+            <fr:title text="Stalk local implies affine local">Stalk local implies affine local</fr:title>
+            <fr:taxon>Lemma</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>
+  If <fr:tex display="inline"><![CDATA[P]]></fr:tex> is a <fr:link href="/schm-HE7H/" title="Stalk local properties" uri="https://charloced.github.io/schm-HE7H/" display-uri="schm-HE7H" type="local">stalk local</fr:link> property, then for any <fr:link href="/schm-86OJ/" title="Scheme" uri="https://charloced.github.io/schm-86OJ/" display-uri="schm-86OJ" type="local">scheme</fr:link> <fr:tex display="inline"><![CDATA[X]]></fr:tex>, the property of affine open <fr:tex display="inline"><![CDATA[\operatorname {Spec} A]]></fr:tex> with <fr:tex display="inline"><![CDATA[A]]></fr:tex> satisfying <fr:tex display="inline"><![CDATA[P]]></fr:tex> is <fr:link href="/schm-C6GR/" title="Affine local properties" uri="https://charloced.github.io/schm-C6GR/" display-uri="schm-C6GR" type="local">affine local</fr:link>.
+</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>11</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  This is trivial.
+</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>11</fr:day>
+            </fr:date>
+            <fr:uri>https://charloced.github.io/schm-MWRT/</fr:uri>
+            <fr:display-uri>schm-MWRT</fr:display-uri>
+            <fr:route>/schm-MWRT/</fr:route>
+            <fr:title text="Affine scheme at a stalk">Affine scheme at a stalk</fr:title>
+            <fr:taxon>Lemma</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>
+  Let <fr:tex display="inline"><![CDATA[X]]></fr:tex> be a <fr:link href="/schm-86OJ/" title="Scheme" uri="https://charloced.github.io/schm-86OJ/" display-uri="schm-86OJ" type="local">scheme</fr:link> and <fr:tex display="inline"><![CDATA[x\in  X]]></fr:tex>. Then <fr:tex display="inline"><![CDATA[\operatorname {Spec}{\mathcal {O}_{X,x}}]]></fr:tex> as a topological space is the subspace <fr:tex display="inline"><![CDATA[\uparrow  x]]></fr:tex> of <fr:tex display="inline"><![CDATA[X]]></fr:tex>. Furthermore, this gives us a map
+  <fr:tex display="block"><![CDATA[ \operatorname {Spec}{\mathcal {O}_{X,x}} \to  X. ]]></fr:tex></html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>11</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  Let <fr:tex display="inline"><![CDATA[\operatorname {Spec} A]]></fr:tex> be an affine open of <fr:tex display="inline"><![CDATA[x]]></fr:tex>. Then <fr:tex display="inline"><![CDATA[x]]></fr:tex> as a prime filter of <fr:tex display="inline"><![CDATA[A]]></fr:tex> (cf. <fr:link href="/schm-B6QO/" title="Stalk for structural sheaf" uri="https://charloced.github.io/schm-B6QO/" display-uri="schm-B6QO" type="local">Remark <fr:contextual-number uri="https://charloced.github.io/schm-B6QO/" display-uri="schm-B6QO" /></fr:link>),
+  <fr:tex display="block"><![CDATA[ \mathcal {O}_{X,x} \cong  A/x. ]]></fr:tex>
+  This way, the quotient <fr:tex display="inline"><![CDATA[A \twoheadrightarrow  A/x]]></fr:tex> induces the inclusion <fr:tex display="inline"><![CDATA[\operatorname {Spec}{\mathcal {O}_{X,x}} \to  \operatorname {Spec} A \subseteq  X]]></fr:tex>. Verifying this does not depend on the specific choice of the affine open <fr:tex display="inline"><![CDATA[\operatorname {Spec} A]]></fr:tex> is routine.
+</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>11</fr:day>
+            </fr:date>
+            <fr:uri>https://charloced.github.io/schm-Q0A2/</fr:uri>
+            <fr:display-uri>schm-Q0A2</fr:display-uri>
+            <fr:route>/schm-Q0A2/</fr:route>
+            <fr:title text="Morphisms of local spectra into a scheme">Morphisms of local spectra into a scheme</fr:title>
+            <fr:taxon>Proposition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>
+  Let <fr:tex display="inline"><![CDATA[A]]></fr:tex> be <fr:link href="/idem-comm-75C1/" title="Local distributive lattice" uri="https://charloced.github.io/idem-comm-75C1/" display-uri="idem-comm-75C1" type="local">local</fr:link>, and <fr:tex display="inline"><![CDATA[X]]></fr:tex> a <fr:link href="/schm-86OJ/" title="Scheme" uri="https://charloced.github.io/schm-86OJ/" display-uri="schm-86OJ" type="local">scheme</fr:link>. A map <fr:tex display="inline"><![CDATA[f : \operatorname {Spec} A \to  X]]></fr:tex> always factors through the inclusion <fr:tex display="inline"><![CDATA[\operatorname {Spec}{\mathcal {O}_{X,x}} \to  X]]></fr:tex> specified in <fr:link href="/schm-MWRT/" title="Affine scheme at a stalk" uri="https://charloced.github.io/schm-MWRT/" display-uri="schm-MWRT" type="local">Lemma <fr:contextual-number uri="https://charloced.github.io/schm-MWRT/" display-uri="schm-MWRT" /></fr:link>, where <fr:tex display="inline"><![CDATA[x = f(\bot )]]></fr:tex> for the <fr:link href="/idem-comm-S892/" title="Prime spectra of local and integral distributive lattices" uri="https://charloced.github.io/idem-comm-S892/" display-uri="idem-comm-S892" type="local">root</fr:link> in <fr:tex display="inline"><![CDATA[\operatorname {Spec} A]]></fr:tex>,
+  
+  <html:figure><fr:resource hash="51b4ab336e52fc582b78fc7e64af7fa6"><fr:resource-content><html:img src="/51b4ab336e52fc582b78fc7e64af7fa6.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[\usepackage {tikz-cd}\usepackage {quiver}]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+    \begin {tikzcd}
+      {\mathrm {Spec}\,A} & {\mathrm {Spec}\,\mathcal  O_{X,x}} \\
+      & X
+      \arrow [dashed, from=1-1, to=1-2]
+      \arrow ["f"', from=1-1, to=2-2]
+      \arrow [from=1-2, to=2-2]
+    \end {tikzcd}
+  ]]></fr:resource-source></fr:resource></html:figure>
+
+  In particular, <fr:tex display="inline"><![CDATA[\operatorname {Spec} A \to  \operatorname {Spec}\mathcal {O}_{X,x}]]></fr:tex> preserves the root, or in other words <fr:tex display="inline"><![CDATA[\mathcal {O}_{X,x} \to  A]]></fr:tex> is <fr:link href="/idem-comm-QQEF/" title="T-conservative and f-conservative maps" uri="https://charloced.github.io/idem-comm-QQEF/" display-uri="idem-comm-QQEF" type="local">t-conservative</fr:link>.
+</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>11</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  On the level of set, <fr:tex display="inline"><![CDATA[\operatorname {Spec} A]]></fr:tex> evidently factors through <fr:tex display="inline"><![CDATA[\operatorname {Spec}{\mathcal {O}_{X,x}}]]></fr:tex> since as shown in <fr:link href="/schm-MWRT/" title="Affine scheme at a stalk" uri="https://charloced.github.io/schm-MWRT/" display-uri="schm-MWRT" type="local">Lemma <fr:contextual-number uri="https://charloced.github.io/schm-MWRT/" display-uri="schm-MWRT" /></fr:link> the latter is <fr:tex display="inline"><![CDATA[\uparrow {x} = \uparrow {f(\bot )}]]></fr:tex>, and <fr:tex display="inline"><![CDATA[f]]></fr:tex> as a continuous map is in particular monotone. Then since at the level of stalks we have a t-conservative map
+  <fr:tex display="block"><![CDATA[ f^{\sharp }_\bot  : \mathcal {O}_{X,x} \to  \mathcal {O}_{A,\bot } \cong  A, ]]></fr:tex>
+  this induces a map <fr:tex display="inline"><![CDATA[\operatorname {Spec} A \to  \operatorname {Spec}\mathcal {O}_{X,x}]]></fr:tex> which indeed when post-composed with the inclusion <fr:tex display="inline"><![CDATA[\operatorname {Spec}\mathcal {O}_{X,x} \to  X]]></fr:tex> gives us <fr:tex display="inline"><![CDATA[X]]></fr:tex>. This can be seen easily when <fr:tex display="inline"><![CDATA[X]]></fr:tex> is affine, and the general case is trivial from the proof of <fr:link href="/schm-MWRT/" title="Affine scheme at a stalk" uri="https://charloced.github.io/schm-MWRT/" display-uri="schm-MWRT" type="local">Lemma <fr:contextual-number uri="https://charloced.github.io/schm-MWRT/" display-uri="schm-MWRT" /></fr:link>.
+</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>11</fr:day>
+            </fr:date>
+            <fr:uri>https://charloced.github.io/schm-S9SD/</fr:uri>
+            <fr:display-uri>schm-S9SD</fr:display-uri>
+            <fr:route>/schm-S9SD/</fr:route>
+            <fr:title text="Fibre products of schemes are topological">Fibre products of schemes are topological</fr:title>
+            <fr:taxon>Theorem</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>
+  Let <fr:tex display="inline"><![CDATA[X,Y,S]]></fr:tex> be <fr:link href="/schm-86OJ/" title="Scheme" uri="https://charloced.github.io/schm-86OJ/" display-uri="schm-86OJ" type="local">schemes</fr:link> with morphisms <fr:tex display="inline"><![CDATA[f : X \to  S]]></fr:tex> and <fr:tex display="inline"><![CDATA[g : Y \to  S]]></fr:tex>. Then the pullback <fr:tex display="inline"><![CDATA[X \times _S Y]]></fr:tex> exists in the category of schemes, and its underlying topological space is the pullback in the category of topological spaces.
+</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>11</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <html:p>
+    The existence of the fibre products follows from the usual gluing argument for schemes, and reduces to the fibre products of affine schemes. For affine schemes, the fibre products are computed by the spectrum of <fr:link href="/idem-comm-A6ON/" title="Pushouts of algebras are tensor products" uri="https://charloced.github.io/idem-comm-A6ON/" display-uri="idem-comm-A6ON" type="local">pushouts</fr:link>, because we have seen from <fr:link href="/schm-X3M9/" title="Universal property of spectra" uri="https://charloced.github.io/schm-X3M9/" display-uri="schm-X3M9" type="local">Theorem <fr:contextual-number uri="https://charloced.github.io/schm-X3M9/" display-uri="schm-X3M9" /></fr:link> <fr:tex display="inline"><![CDATA[\operatorname {Spec}]]></fr:tex> is a right adjoint.
+  </html:p>
+  <html:p />
+</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>11</fr:day>
+            </fr:date>
+            <fr:uri>https://charloced.github.io/schm-BH0E/</fr:uri>
+            <fr:display-uri>schm-BH0E</fr:display-uri>
+            <fr:route>/schm-BH0E/</fr:route>
+            <fr:title text="Quasi-compact morphisms">Quasi-compact morphisms</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  More generally, we say a morphism <fr:tex display="inline"><![CDATA[f : Y \to  X]]></fr:tex> of <fr:link href="/schm-86OJ/" title="Scheme" uri="https://charloced.github.io/schm-86OJ/" display-uri="schm-86OJ" type="local">schemes</fr:link> is <html:em>quasi-compact</html:em>, if the underlying continuous map is <fr:link href="/topl-9BKS/" title="Quasi-compact continuous maps" uri="https://charloced.github.io/topl-9BKS/" display-uri="topl-9BKS" type="local">quasi-compact</fr:link>.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>11</fr:day>
+            </fr:date>
+            <fr:uri>https://charloced.github.io/schm-WURZ/</fr:uri>
+            <fr:display-uri>schm-WURZ</fr:display-uri>
+            <fr:route>/schm-WURZ/</fr:route>
+            <fr:title text="Affine local on the target">Affine local on the target</fr:title>
+            <fr:taxon>Example</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  Let <fr:tex display="inline"><![CDATA[P]]></fr:tex> be a property of <html:em>morphisms</html:em> of <fr:link href="/schm-86OJ/" title="Scheme" uri="https://charloced.github.io/schm-86OJ/" display-uri="schm-86OJ" type="local">schemes</fr:link>. Then we say <fr:tex display="inline"><![CDATA[P]]></fr:tex> is <html:em>affine local on the target</html:em>, if for any <fr:tex display="inline"><![CDATA[f : Y \to  X]]></fr:tex>, the property on affine opens <fr:tex display="inline"><![CDATA[\operatorname {Spec} A]]></fr:tex> of <fr:tex display="inline"><![CDATA[X]]></fr:tex> where the restriction <fr:tex display="inline"><![CDATA[f^{-1}(\operatorname {Spec} A) \to  \operatorname {Spec} A]]></fr:tex> satisfies <fr:tex display="inline"><![CDATA[P]]></fr:tex> is <fr:link href="/schm-C6GR/" title="Affine local properties" uri="https://charloced.github.io/schm-C6GR/" display-uri="schm-C6GR" type="local">affine local</fr:link>.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>11</fr:day>
+            </fr:date>
+            <fr:uri>https://charloced.github.io/schm-4MZL/</fr:uri>
+            <fr:display-uri>schm-4MZL</fr:display-uri>
+            <fr:route>/schm-4MZL/</fr:route>
+            <fr:title text="Affine commutation">Affine commutation</fr:title>
+            <fr:taxon>Lemma</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>
+  Let <fr:tex display="inline"><![CDATA[X]]></fr:tex> be a <fr:link href="/schm-86OJ/" title="Scheme" uri="https://charloced.github.io/schm-86OJ/" display-uri="schm-86OJ" type="local">scheme</fr:link> and let <fr:tex display="inline"><![CDATA[P]]></fr:tex> be an <fr:link href="/schm-C6GR/" title="Affine local properties" uri="https://charloced.github.io/schm-C6GR/" display-uri="schm-C6GR" type="local">affine local</fr:link> property on <fr:tex display="inline"><![CDATA[X]]></fr:tex>. If there exists an affine open cover <fr:tex display="inline"><![CDATA[\{\operatorname {Spec} A_i\}_{i\in  I}]]></fr:tex> of <fr:tex display="inline"><![CDATA[X]]></fr:tex> with each <fr:tex display="inline"><![CDATA[\operatorname {Spec} A_i]]></fr:tex> satisfying <fr:tex display="inline"><![CDATA[P]]></fr:tex>, then any affine open of <fr:tex display="inline"><![CDATA[X]]></fr:tex> satisfies <fr:tex display="inline"><![CDATA[P]]></fr:tex>.
+</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>11</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  Suppose we have an arbitrary affine open <fr:tex display="inline"><![CDATA[\operatorname {Spec} D]]></fr:tex> of <fr:tex display="inline"><![CDATA[X]]></fr:tex>. Since <fr:tex display="inline"><![CDATA[\operatorname {Spec} D]]></fr:tex> is quasi-compact, we can cover <fr:tex display="inline"><![CDATA[\operatorname {Spec} D]]></fr:tex> by finitely many <fr:tex display="inline"><![CDATA[\operatorname {Spec} A_i]]></fr:tex> with each <fr:tex display="inline"><![CDATA[\operatorname {Spec} A_i]]></fr:tex> satisfying <fr:tex display="inline"><![CDATA[P]]></fr:tex>. Since standard opens of <fr:tex display="inline"><![CDATA[\operatorname {Spec} D]]></fr:tex> form a basis, we can choose a generating family <fr:tex display="inline"><![CDATA[\{d_j\}_{j\in  J}]]></fr:tex> in <fr:tex display="inline"><![CDATA[D]]></fr:tex> with <fr:tex display="inline"><![CDATA[\bigvee _{j\in  J}d_j = 1]]></fr:tex>, and each <fr:tex display="inline"><![CDATA[\operatorname {Spec} D/d_j]]></fr:tex> is contained in some <fr:tex display="inline"><![CDATA[\operatorname {Spec} A_i]]></fr:tex>. But since <fr:tex display="inline"><![CDATA[\operatorname {Spec} D/d_j]]></fr:tex> is open compact in <fr:tex display="inline"><![CDATA[\operatorname {Spec} A_i]]></fr:tex>, it can be identified as some <fr:tex display="inline"><![CDATA[\operatorname {Spec} A_i/a_j]]></fr:tex> for some <fr:tex display="inline"><![CDATA[a_j]]></fr:tex> in <fr:tex display="inline"><![CDATA[A_i]]></fr:tex>. By assumption of <fr:tex display="inline"><![CDATA[P]]></fr:tex> being affine local, each <fr:tex display="inline"><![CDATA[\operatorname {Spec} D/d_i]]></fr:tex> satisfies <fr:tex display="inline"><![CDATA[P]]></fr:tex>, hence <fr:tex display="inline"><![CDATA[\operatorname {Spec} D]]></fr:tex> satisfies <fr:tex display="inline"><![CDATA[P]]></fr:tex>.
+</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>11</fr:day>
+            </fr:date>
+            <fr:uri>https://charloced.github.io/schm-C6GR/</fr:uri>
+            <fr:display-uri>schm-C6GR</fr:display-uri>
+            <fr:route>/schm-C6GR/</fr:route>
+            <fr:title text="Affine local properties">Affine local properties</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  Let <fr:tex display="inline"><![CDATA[X]]></fr:tex> be an arbitrary <fr:link href="/schm-86OJ/" title="Scheme" uri="https://charloced.github.io/schm-86OJ/" display-uri="schm-86OJ" type="local">scheme</fr:link>. Let <fr:tex display="inline"><![CDATA[P]]></fr:tex> be a property of affine opens of <fr:tex display="inline"><![CDATA[X]]></fr:tex>. We say <fr:tex display="inline"><![CDATA[P]]></fr:tex> is <html:em>affine local</html:em>, if 
+  <html:ol><html:li> for any <fr:tex display="inline"><![CDATA[\operatorname {Spec} A]]></fr:tex> satisfying <fr:tex display="inline"><![CDATA[P]]></fr:tex>, so is <fr:tex display="inline"><![CDATA[\operatorname {Spec} A/a \subseteq  \operatorname {Spec} A]]></fr:tex> for any <fr:tex display="inline"><![CDATA[a\in  A]]></fr:tex>. </html:li>
+    <html:li> if there exists finitely many <fr:tex display="inline"><![CDATA[a_i]]></fr:tex> of <fr:tex display="inline"><![CDATA[A]]></fr:tex> with <fr:tex display="inline"><![CDATA[\bigvee _{i}a_i = 1]]></fr:tex> where each <fr:tex display="inline"><![CDATA[\operatorname {Spec} A_i]]></fr:tex> satisfies <fr:tex display="inline"><![CDATA[P]]></fr:tex>, then the union <fr:tex display="inline"><![CDATA[\operatorname {Spec} A = \bigcup _{i}\operatorname {Spec} A_i]]></fr:tex> also satisfies <fr:tex display="inline"><![CDATA[P]]></fr:tex>. </html:li></html:ol></html:p>
+          </fr:mainmatter>
+        </fr:tree>
         <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
           <fr:frontmatter>
             <fr:authors />

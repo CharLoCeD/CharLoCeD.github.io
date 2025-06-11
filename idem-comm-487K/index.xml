@@ -46,6 +46,54 @@
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>6</fr:month>
+              <fr:day>11</fr:day>
+            </fr:date>
+            <fr:uri>https://charloced.github.io/idem-comm-S892/</fr:uri>
+            <fr:display-uri>idem-comm-S892</fr:display-uri>
+            <fr:route>/idem-comm-S892/</fr:route>
+            <fr:title text="Prime spectra of local and integral distributive lattices">Prime spectra of local and integral distributive lattices</fr:title>
+            <fr:taxon>Example</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  Let <fr:tex display="inline"><![CDATA[A]]></fr:tex> be <fr:link href="/idem-comm-75C1/" title="Local distributive lattice" uri="https://charloced.github.io/idem-comm-75C1/" display-uri="idem-comm-75C1" type="local">local</fr:link>. Then since <fr:tex display="inline"><![CDATA[\operatorname {Spec} A]]></fr:tex> has a minimal filter <fr:tex display="inline"><![CDATA[\{1\}]]></fr:tex>, <fr:tex display="inline"><![CDATA[\operatorname {Spec} A]]></fr:tex> has a <html:em>root</html:em>, which we denote as <fr:tex display="inline"><![CDATA[\bot ]]></fr:tex>. Dually, if <fr:tex display="inline"><![CDATA[A]]></fr:tex> is <fr:link href="/idem-comm-487K/" title="Integral distributive lattices" uri="https://charloced.github.io/idem-comm-487K/" display-uri="idem-comm-487K" type="local">integral</fr:link>, then <fr:tex display="inline"><![CDATA[\operatorname {Spec} A]]></fr:tex> has a focal point, which we usually denote as <fr:tex display="inline"><![CDATA[\top ]]></fr:tex>.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>10</fr:day>
+            </fr:date>
+            <fr:uri>https://charloced.github.io/schm-9OAH/</fr:uri>
+            <fr:display-uri>schm-9OAH</fr:display-uri>
+            <fr:route>/schm-9OAH/</fr:route>
+            <fr:title text="Irreducible and non-irreducible affine schemes">Irreducible and non-irreducible affine schemes</fr:title>
+            <fr:taxon>Example</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p><fr:link href="/schm-R3J8/" title="Affine schemes of free distributive lattices" uri="https://charloced.github.io/schm-R3J8/" display-uri="schm-R3J8" type="local">Affine schemes of free distributive lattices</fr:link> are always <fr:link href="/schm-HKT4/" title="Irreducible schemes" uri="https://charloced.github.io/schm-HKT4/" display-uri="schm-HKT4" type="local">irreducible</fr:link>, since free distributive lattices are always <fr:link href="/idem-comm-487K/" title="Integral distributive lattices" uri="https://charloced.github.io/idem-comm-487K/" display-uri="idem-comm-487K" type="local">integral</fr:link>.
+</html:p>
+            <html:p>
+  On the other hand, Boolean algebras, except <fr:tex display="inline"><![CDATA[2]]></fr:tex>, are all not integral, hence their affine schemes are never irreducible --- in fact, since they are Stone spaces, they are totally disconnected. 
+</html:p>
+            <html:p>
+  In contrast, there exist non-initial integral Heyting algebras (e.g. non-trivial linear Heyting algebras are integral). However, free Heyting algebras, except <fr:tex display="inline"><![CDATA[2]]></fr:tex>, are not integral, but they will be <html:em><fr:link href="/idem-comm-75C1/" title="Local distributive lattice" uri="https://charloced.github.io/idem-comm-75C1/" display-uri="idem-comm-75C1" type="local">local</fr:link></html:em>. For instance, the spectrum <fr:tex display="inline"><![CDATA[\operatorname {Spec}\mathbb {H}[x]]]></fr:tex> in <fr:link href="/schm-LRJP/" title="The Rieger-Nishimura scheme" uri="https://charloced.github.io/schm-LRJP/" display-uri="schm-LRJP" type="local">Example <fr:contextual-number uri="https://charloced.github.io/schm-LRJP/" display-uri="schm-LRJP" /></fr:link> has two irreducible components, corresponding to the two maximal points.
+</html:p>
+            <html:p>
+  Dually, free <html:em>coHeyting algebras</html:em> will be integral. For instance, the <fr:link href="/schm-DK1B/" title="The dual Rieger-Nishimura scheme" uri="https://charloced.github.io/schm-DK1B/" display-uri="schm-DK1B" type="local">dual Rieger-Nishimura scheme</fr:link> <fr:tex display="inline"><![CDATA[\operatorname {Spec}\mathbb {S}[x]]]></fr:tex> is irreducible. This can be also directly seen since it has a generic point.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
               <fr:day>10</fr:day>
             </fr:date>
             <fr:uri>https://charloced.github.io/schm-7GOV/</fr:uri>
@@ -59,7 +107,7 @@
   If <fr:tex display="inline"><![CDATA[X]]></fr:tex> is an <fr:link href="/schm-9U1B/" title="Integral schemes" uri="https://charloced.github.io/schm-9U1B/" display-uri="schm-9U1B" type="local">integral scheme</fr:link>, then for any <fr:tex display="inline"><![CDATA[x\in  X]]></fr:tex>, the stalk <fr:tex display="inline"><![CDATA[\mathcal {O}_{X,x}]]></fr:tex> will be <fr:link href="/idem-comm-487K/" title="Integral distributive lattices" uri="https://charloced.github.io/idem-comm-487K/" display-uri="idem-comm-487K" type="local">integral</fr:link>. This is because integral distributive lattices are closed under filtered colimits. 
 </html:p>
             <html:p>
-  However, the converse is <html:em>not</html:em> true though. The simplest counterexample is the affine scheme <fr:tex display="inline"><![CDATA[2]]></fr:tex> on the discrete space. It has integral schemes, since both stalks are the initial distributive lattice <fr:tex display="inline"><![CDATA[2]]></fr:tex>, which are integral. But this affine scheme fails to be integral since its global section is <fr:tex display="inline"><![CDATA[2 \times  2 \cong  \mathbb {B}[x]]]></fr:tex>, which is not integral. Hence, being integral is <html:em>not</html:em> a local property.
+  However, the converse is <html:em>not</html:em> true though. The simplest counterexample is the affine scheme <fr:tex display="inline"><![CDATA[2]]></fr:tex> on the discrete space. It has integral schemes, since both stalks are the initial distributive lattice <fr:tex display="inline"><![CDATA[2]]></fr:tex>, which are integral. But this affine scheme fails to be integral since its global section is <fr:tex display="inline"><![CDATA[2 \times  2 \cong  \mathbb {B}[x]]]></fr:tex>, which is not integral. Hence, being integral is <html:em>not</html:em> an <fr:link href="/schm-C6GR/" title="Affine local properties" uri="https://charloced.github.io/schm-C6GR/" display-uri="schm-C6GR" type="local">affine local</fr:link> property.
 </html:p>
           </fr:mainmatter>
         </fr:tree>
@@ -135,6 +183,28 @@
           <fr:mainmatter>
             <html:p>
   A <fr:link href="/schm-86OJ/" title="Scheme" uri="https://charloced.github.io/schm-86OJ/" display-uri="schm-86OJ" type="local">scheme</fr:link> <fr:tex display="inline"><![CDATA[X]]></fr:tex> is <html:em>integral</html:em>, if it is non-empty, and for every non-empty open <fr:tex display="inline"><![CDATA[U]]></fr:tex> of <fr:tex display="inline"><![CDATA[X]]></fr:tex>, <fr:tex display="inline"><![CDATA[\mathcal {O}_{X}(U)]]></fr:tex> is <fr:link href="/idem-comm-487K/" title="Integral distributive lattices" uri="https://charloced.github.io/idem-comm-487K/" display-uri="idem-comm-487K" type="local">integral</fr:link>.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>7</fr:day>
+            </fr:date>
+            <fr:uri>https://charloced.github.io/idem-comm-ZATP/</fr:uri>
+            <fr:display-uri>idem-comm-ZATP</fr:display-uri>
+            <fr:route>/idem-comm-ZATP/</fr:route>
+            <fr:title text="Prime spectra of free distributive lattices">Prime spectra of free distributive lattices</fr:title>
+            <fr:taxon>Example</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  For any poset <fr:tex display="inline"><![CDATA[I]]></fr:tex>, it generates a free distributive lattice <fr:tex display="inline"><![CDATA[2[I]]]></fr:tex>. When <fr:tex display="inline"><![CDATA[I]]></fr:tex> is finite <fr:tex display="inline"><![CDATA[2[I]]]></fr:tex> is a Heyting algebra, but it will never be Boolean expect when <fr:tex display="inline"><![CDATA[I]]></fr:tex> is empty. The spectrum
+  <fr:tex display="block"><![CDATA[ \operatorname {Spec} 2[I] \cong  \mathbf {Pos}(I,2) \cong  \mathcal {U}(I), ]]></fr:tex>
+  is the upward closed subsets of <fr:tex display="inline"><![CDATA[I]]></fr:tex>. Since free distributive lattices are always <fr:link href="/idem-comm-75C1/" title="Local distributive lattice" uri="https://charloced.github.io/idem-comm-75C1/" display-uri="idem-comm-75C1" type="local">local</fr:link> and <fr:link href="/idem-comm-487K/" title="Integral distributive lattices" uri="https://charloced.github.io/idem-comm-487K/" display-uri="idem-comm-487K" type="local">integral</fr:link>, <fr:tex display="inline"><![CDATA[\operatorname {Spec} 2[I]]]></fr:tex> has both a root <fr:tex display="inline"><![CDATA[\bot ]]></fr:tex> and a focal point <fr:tex display="inline"><![CDATA[\top ]]></fr:tex>.
 </html:p>
           </fr:mainmatter>
         </fr:tree>

@@ -230,7 +230,7 @@
                 <fr:taxon>Theorem</fr:taxon>
               </fr:frontmatter>
               <fr:mainmatter><html:p>
-  Suppose <fr:tex display="inline"><![CDATA[D \to  E]]></fr:tex> is finitely presented. Then <fr:tex display="inline"><![CDATA[\operatorname {Spec} E \to  \operatorname {Spec} D]]></fr:tex> takes a constructible set to a constructible set.
+  Suppose <fr:tex display="inline"><![CDATA[D \to  E]]></fr:tex> is finitely presented. Then <fr:tex display="inline"><![CDATA[\operatorname {Spec} E \to  \operatorname {Spec} D]]></fr:tex> <fr:link href="/topl-XT5Y/" title="Maps preserving constructible sets" uri="https://charloced.github.io/topl-XT5Y/" display-uri="topl-XT5Y" type="local">preserves constructible sets</fr:link>.
 </html:p>
  
    
@@ -253,7 +253,7 @@
                 <fr:uri>https://charloced.github.io/idem-comm-UARZ/</fr:uri>
                 <fr:display-uri>idem-comm-UARZ</fr:display-uri>
                 <fr:route>/idem-comm-UARZ/</fr:route>
-                <fr:title text="Left adjoint for Booleanisation">Left adjoint for Booleanisation</fr:title>
+                <fr:title text="Left uniform interpolation for classical logic">Left uniform interpolation for classical logic</fr:title>
                 <fr:taxon>Remark</fr:taxon>
               </fr:frontmatter>
               <fr:mainmatter>
@@ -273,7 +273,10 @@
   \end {tikzcd}
   ]]></fr:resource-source></fr:resource></html:figure>
 
-  given by taking the image of the constructible subset along <fr:tex display="inline"><![CDATA[\operatorname {Spec} E \to  \operatorname {Spec} D]]></fr:tex>. Furthermore, since image of a map preserves binary intersections and unions, the left adjoint also preserves them. Hence, it will be a distributive lattice morphism, except the possibility that it does not preserve the top element.
+  given by taking the image of the constructible subset along <fr:tex display="inline"><![CDATA[\operatorname {Spec} E \to  \operatorname {Spec} D]]></fr:tex>.
+</html:p>
+                <html:p>
+  Furthermore, since image of a map preserves binary intersections and unions, the left adjoint also preserves them. Hence, it will be a distributive lattice morphism, except the possibility that it does not preserve the top element. If <fr:tex display="inline"><![CDATA[D \rightarrowtail  E]]></fr:tex> is <html:em>injective</html:em>, then the left adjoint <fr:tex display="inline"><![CDATA[\lambda  E \to  \lambda  D]]></fr:tex> will be a distributive lattice morphism by <fr:link href="/idem-comm-59IF/" title="Set-level duality between spectra and algebra" uri="https://charloced.github.io/idem-comm-59IF/" display-uri="idem-comm-59IF" type="local">Proposition <fr:contextual-number uri="https://charloced.github.io/idem-comm-59IF/" display-uri="idem-comm-59IF" /></fr:link>. This is the usual case for second-order quantifier elimination for classical propositional logic.
 </html:p>
               </fr:mainmatter>
             </fr:tree>
@@ -302,7 +305,7 @@
             <fr:taxon>Theorem</fr:taxon>
           </fr:frontmatter>
           <fr:mainmatter><html:p>
-  Suppose <fr:tex display="inline"><![CDATA[D \to  E]]></fr:tex> is finitely presented. Then <fr:tex display="inline"><![CDATA[\operatorname {Spec} E \to  \operatorname {Spec} D]]></fr:tex> takes a constructible set to a constructible set.
+  Suppose <fr:tex display="inline"><![CDATA[D \to  E]]></fr:tex> is finitely presented. Then <fr:tex display="inline"><![CDATA[\operatorname {Spec} E \to  \operatorname {Spec} D]]></fr:tex> <fr:link href="/topl-XT5Y/" title="Maps preserving constructible sets" uri="https://charloced.github.io/topl-XT5Y/" display-uri="topl-XT5Y" type="local">preserves constructible sets</fr:link>.
 </html:p>
  
    

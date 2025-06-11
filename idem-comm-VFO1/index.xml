@@ -187,7 +187,7 @@
         <fr:taxon>Theorem</fr:taxon>
       </fr:frontmatter>
       <fr:mainmatter><html:p>
-  Suppose <fr:tex display="inline"><![CDATA[D \to  E]]></fr:tex> is finitely presented. Then <fr:tex display="inline"><![CDATA[\operatorname {Spec} E \to  \operatorname {Spec} D]]></fr:tex> takes a constructible set to a constructible set.
+  Suppose <fr:tex display="inline"><![CDATA[D \to  E]]></fr:tex> is finitely presented. Then <fr:tex display="inline"><![CDATA[\operatorname {Spec} E \to  \operatorname {Spec} D]]></fr:tex> <fr:link href="/topl-XT5Y/" title="Maps preserving constructible sets" uri="https://charloced.github.io/topl-XT5Y/" display-uri="topl-XT5Y" type="local">preserves constructible sets</fr:link>.
 </html:p>
  
    
@@ -210,7 +210,7 @@
         <fr:uri>https://charloced.github.io/idem-comm-UARZ/</fr:uri>
         <fr:display-uri>idem-comm-UARZ</fr:display-uri>
         <fr:route>/idem-comm-UARZ/</fr:route>
-        <fr:title text="Left adjoint for Booleanisation">Left adjoint for Booleanisation</fr:title>
+        <fr:title text="Left uniform interpolation for classical logic">Left uniform interpolation for classical logic</fr:title>
         <fr:taxon>Remark</fr:taxon>
       </fr:frontmatter>
       <fr:mainmatter>
@@ -230,7 +230,10 @@
   \end {tikzcd}
   ]]></fr:resource-source></fr:resource></html:figure>
 
-  given by taking the image of the constructible subset along <fr:tex display="inline"><![CDATA[\operatorname {Spec} E \to  \operatorname {Spec} D]]></fr:tex>. Furthermore, since image of a map preserves binary intersections and unions, the left adjoint also preserves them. Hence, it will be a distributive lattice morphism, except the possibility that it does not preserve the top element.
+  given by taking the image of the constructible subset along <fr:tex display="inline"><![CDATA[\operatorname {Spec} E \to  \operatorname {Spec} D]]></fr:tex>.
+</html:p>
+        <html:p>
+  Furthermore, since image of a map preserves binary intersections and unions, the left adjoint also preserves them. Hence, it will be a distributive lattice morphism, except the possibility that it does not preserve the top element. If <fr:tex display="inline"><![CDATA[D \rightarrowtail  E]]></fr:tex> is <html:em>injective</html:em>, then the left adjoint <fr:tex display="inline"><![CDATA[\lambda  E \to  \lambda  D]]></fr:tex> will be a distributive lattice morphism by <fr:link href="/idem-comm-59IF/" title="Set-level duality between spectra and algebra" uri="https://charloced.github.io/idem-comm-59IF/" display-uri="idem-comm-59IF" type="local">Proposition <fr:contextual-number uri="https://charloced.github.io/idem-comm-59IF/" display-uri="idem-comm-59IF" /></fr:link>. This is the usual case for second-order quantifier elimination for classical propositional logic.
 </html:p>
       </fr:mainmatter>
     </fr:tree>
@@ -970,6 +973,26 @@
                     <fr:date>
                       <fr:year>2025</fr:year>
                       <fr:month>6</fr:month>
+                      <fr:day>11</fr:day>
+                    </fr:date>
+                    <fr:uri>https://charloced.github.io/idem-comm-S892/</fr:uri>
+                    <fr:display-uri>idem-comm-S892</fr:display-uri>
+                    <fr:route>/idem-comm-S892/</fr:route>
+                    <fr:title text="Prime spectra of local and integral distributive lattices">Prime spectra of local and integral distributive lattices</fr:title>
+                    <fr:taxon>Example</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p>
+  Let <fr:tex display="inline"><![CDATA[A]]></fr:tex> be <fr:link href="/idem-comm-75C1/" title="Local distributive lattice" uri="https://charloced.github.io/idem-comm-75C1/" display-uri="idem-comm-75C1" type="local">local</fr:link>. Then since <fr:tex display="inline"><![CDATA[\operatorname {Spec} A]]></fr:tex> has a minimal filter <fr:tex display="inline"><![CDATA[\{1\}]]></fr:tex>, <fr:tex display="inline"><![CDATA[\operatorname {Spec} A]]></fr:tex> has a <html:em>root</html:em>, which we denote as <fr:tex display="inline"><![CDATA[\bot ]]></fr:tex>. Dually, if <fr:tex display="inline"><![CDATA[A]]></fr:tex> is <fr:link href="/idem-comm-487K/" title="Integral distributive lattices" uri="https://charloced.github.io/idem-comm-487K/" display-uri="idem-comm-487K" type="local">integral</fr:link>, then <fr:tex display="inline"><![CDATA[\operatorname {Spec} A]]></fr:tex> has a focal point, which we usually denote as <fr:tex display="inline"><![CDATA[\top ]]></fr:tex>.
+</html:p>
+                  </fr:mainmatter>
+                </fr:tree>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors />
+                    <fr:date>
+                      <fr:year>2025</fr:year>
+                      <fr:month>6</fr:month>
                       <fr:day>7</fr:day>
                     </fr:date>
                     <fr:uri>https://charloced.github.io/idem-comm-ZATP/</fr:uri>
@@ -982,7 +1005,7 @@
                     <html:p>
   For any poset <fr:tex display="inline"><![CDATA[I]]></fr:tex>, it generates a free distributive lattice <fr:tex display="inline"><![CDATA[2[I]]]></fr:tex>. When <fr:tex display="inline"><![CDATA[I]]></fr:tex> is finite <fr:tex display="inline"><![CDATA[2[I]]]></fr:tex> is a Heyting algebra, but it will never be Boolean expect when <fr:tex display="inline"><![CDATA[I]]></fr:tex> is empty. The spectrum
   <fr:tex display="block"><![CDATA[ \operatorname {Spec} 2[I] \cong  \mathbf {Pos}(I,2) \cong  \mathcal {U}(I), ]]></fr:tex>
-  is the upward closed subsets of <fr:tex display="inline"><![CDATA[I]]></fr:tex>. 
+  is the upward closed subsets of <fr:tex display="inline"><![CDATA[I]]></fr:tex>. Since free distributive lattices are always <fr:link href="/idem-comm-75C1/" title="Local distributive lattice" uri="https://charloced.github.io/idem-comm-75C1/" display-uri="idem-comm-75C1" type="local">local</fr:link> and <fr:link href="/idem-comm-487K/" title="Integral distributive lattices" uri="https://charloced.github.io/idem-comm-487K/" display-uri="idem-comm-487K" type="local">integral</fr:link>, <fr:tex display="inline"><![CDATA[\operatorname {Spec} 2[I]]]></fr:tex> has both a root <fr:tex display="inline"><![CDATA[\bot ]]></fr:tex> and a focal point <fr:tex display="inline"><![CDATA[\top ]]></fr:tex>.
 </html:p>
                   </fr:mainmatter>
                 </fr:tree>
@@ -1029,13 +1052,13 @@
   For instance, for the poset <fr:tex display="inline"><![CDATA[\overline {\omega }]]></fr:tex>, its spectral space is simply <fr:tex display="inline"><![CDATA[\overline {\omega }^{\mathrm {op}}]]></fr:tex> with the Alexandroff topology,
   
   
-  <html:figure><fr:resource hash="cd94a92757930b493ba04cb20dd705ac"><fr:resource-content><html:img src="/cd94a92757930b493ba04cb20dd705ac.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[\usepackage {tikz-cd}\usepackage {quiver}]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+  <html:figure><fr:resource hash="f9e7ca13f9b2b691bff4553216820f02"><fr:resource-content><html:img src="/f9e7ca13f9b2b691bff4553216820f02.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[\usepackage {tikz-cd}\usepackage {quiver}]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
   \begin {tikzcd}
     {\overline {\omega }} && {\mathrm {Spec}\ \overline {\omega }} \\
-    \bullet  && \bullet  \\
+    \bullet  && \top  \\
     \vdots  && \bullet  \\
     \bullet  && \vdots  \\
-    \bullet  && \bullet 
+    \bullet  && \bot 
     \arrow [from=3-1, to=2-1]
     \arrow [from=3-3, to=2-3]
     \arrow [from=4-1, to=3-1]
@@ -1542,7 +1565,7 @@
                     <fr:taxon>Theorem</fr:taxon>
                   </fr:frontmatter>
                   <fr:mainmatter><html:p>
-  Suppose <fr:tex display="inline"><![CDATA[D \to  E]]></fr:tex> is finitely presented. Then <fr:tex display="inline"><![CDATA[\operatorname {Spec} E \to  \operatorname {Spec} D]]></fr:tex> takes a constructible set to a constructible set.
+  Suppose <fr:tex display="inline"><![CDATA[D \to  E]]></fr:tex> is finitely presented. Then <fr:tex display="inline"><![CDATA[\operatorname {Spec} E \to  \operatorname {Spec} D]]></fr:tex> <fr:link href="/topl-XT5Y/" title="Maps preserving constructible sets" uri="https://charloced.github.io/topl-XT5Y/" display-uri="topl-XT5Y" type="local">preserves constructible sets</fr:link>.
 </html:p>
  
    
@@ -1565,7 +1588,7 @@
                     <fr:uri>https://charloced.github.io/idem-comm-UARZ/</fr:uri>
                     <fr:display-uri>idem-comm-UARZ</fr:display-uri>
                     <fr:route>/idem-comm-UARZ/</fr:route>
-                    <fr:title text="Left adjoint for Booleanisation">Left adjoint for Booleanisation</fr:title>
+                    <fr:title text="Left uniform interpolation for classical logic">Left uniform interpolation for classical logic</fr:title>
                     <fr:taxon>Remark</fr:taxon>
                   </fr:frontmatter>
                   <fr:mainmatter>
@@ -1585,7 +1608,10 @@
   \end {tikzcd}
   ]]></fr:resource-source></fr:resource></html:figure>
 
-  given by taking the image of the constructible subset along <fr:tex display="inline"><![CDATA[\operatorname {Spec} E \to  \operatorname {Spec} D]]></fr:tex>. Furthermore, since image of a map preserves binary intersections and unions, the left adjoint also preserves them. Hence, it will be a distributive lattice morphism, except the possibility that it does not preserve the top element.
+  given by taking the image of the constructible subset along <fr:tex display="inline"><![CDATA[\operatorname {Spec} E \to  \operatorname {Spec} D]]></fr:tex>.
+</html:p>
+                    <html:p>
+  Furthermore, since image of a map preserves binary intersections and unions, the left adjoint also preserves them. Hence, it will be a distributive lattice morphism, except the possibility that it does not preserve the top element. If <fr:tex display="inline"><![CDATA[D \rightarrowtail  E]]></fr:tex> is <html:em>injective</html:em>, then the left adjoint <fr:tex display="inline"><![CDATA[\lambda  E \to  \lambda  D]]></fr:tex> will be a distributive lattice morphism by <fr:link href="/idem-comm-59IF/" title="Set-level duality between spectra and algebra" uri="https://charloced.github.io/idem-comm-59IF/" display-uri="idem-comm-59IF" type="local">Proposition <fr:contextual-number uri="https://charloced.github.io/idem-comm-59IF/" display-uri="idem-comm-59IF" /></fr:link>. This is the usual case for second-order quantifier elimination for classical propositional logic.
 </html:p>
                   </fr:mainmatter>
                 </fr:tree>
@@ -1772,6 +1798,97 @@
   The equivalence (1) <fr:tex display="inline"><![CDATA[\Leftrightarrow ]]></fr:tex> (2) is by definition. The equivalence (2) <fr:tex display="inline"><![CDATA[\Leftrightarrow ]]></fr:tex> (3) is obtained by the observation that the localisation <fr:tex display="inline"><![CDATA[E \twoheadrightarrow  E/x]]></fr:tex> exactly induces the inclusion
   <fr:tex display="block"><![CDATA[ \operatorname {Spec} E/x = \{y\in \operatorname {Spec} E\mid x \le  y\} = \uparrow  x \subseteq  \operatorname {Spec} E. ]]></fr:tex>
   Thus, the map <fr:tex display="inline"><![CDATA[\uparrow  x \to  \uparrow  fx]]></fr:tex> is induced by the induced map <fr:tex display="inline"><![CDATA[D/fx \to  E/x]]></fr:tex>, and it is surjective iff this is an injection by <fr:link href="/idem-comm-59IF/" title="Set-level duality between spectra and algebra" uri="https://charloced.github.io/idem-comm-59IF/" display-uri="idem-comm-59IF" type="local">Proposition <fr:contextual-number uri="https://charloced.github.io/idem-comm-59IF/" display-uri="idem-comm-59IF" /></fr:link>.
+</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+                </fr:tree>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/lingyuan/" title="Lingyuan Ye" uri="https://charloced.github.io/lingyuan/" display-uri="lingyuan" type="local">Lingyuan Ye</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>11</fr:day>
+                </fr:date>
+                <fr:uri>https://charloced.github.io/idem-comm-A967/</fr:uri>
+                <fr:display-uri>idem-comm-A967</fr:display-uri>
+                <fr:route>/idem-comm-A967/</fr:route>
+                <fr:title text="Colimits of algebras">Colimits of algebras</fr:title>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors />
+                    <fr:date>
+                      <fr:year>2025</fr:year>
+                      <fr:month>6</fr:month>
+                      <fr:day>11</fr:day>
+                    </fr:date>
+                    <fr:uri>https://charloced.github.io/idem-comm-SG6C/</fr:uri>
+                    <fr:display-uri>idem-comm-SG6C</fr:display-uri>
+                    <fr:route>/idem-comm-SG6C/</fr:route>
+                    <fr:title text="Tensor products of distributive lattices">Tensor products of distributive lattices</fr:title>
+                    <fr:taxon>Construction</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p>
+  Let <fr:tex display="inline"><![CDATA[A,B]]></fr:tex> be two <fr:tex display="inline"><![CDATA[D]]></fr:tex>-algebras, i.e. with maps <fr:tex display="inline"><![CDATA[D \to  A]]></fr:tex> and <fr:tex display="inline"><![CDATA[D \to  B]]></fr:tex>. The <html:em>tensor product</html:em> over <fr:tex display="inline"><![CDATA[D]]></fr:tex>, denoted as <fr:tex display="inline"><![CDATA[A \otimes _D B]]></fr:tex>, is generated by <fr:tex display="inline"><![CDATA[a \otimes  b]]></fr:tex> for any <fr:tex display="inline"><![CDATA[a\in  A]]></fr:tex> and <fr:tex display="inline"><![CDATA[b \in  B]]></fr:tex>, subject to:
+  <html:ol><html:li>The congruence specifies joins are bilinear in each variable,
+    <fr:tex display="block"><![CDATA[ a \otimes  0 \sim  0 \sim  0 \otimes  b ]]></fr:tex>
+    and that 
+    <fr:tex display="block"><![CDATA[ (a \vee  a') \otimes  b \sim  a \otimes  b \vee  a' \otimes  b, \quad  a \otimes  (b \vee  b') \sim  a \otimes  b \vee  a \otimes  b'. ]]></fr:tex></html:li>
+    <html:li>The meets are pointwise,
+    <fr:tex display="block"><![CDATA[ a \otimes  b \wedge  a' \otimes  b' \sim  aa' \otimes  bb'. ]]></fr:tex></html:li>
+    <html:li>This tensor is distributive for <fr:tex display="inline"><![CDATA[D]]></fr:tex>,
+    <fr:tex display="block"><![CDATA[ ad \otimes  b \sim  a \otimes  db. ]]></fr:tex></html:li></html:ol></html:p>
+                    <html:p>
+  We also have two inclusions <fr:tex display="inline"><![CDATA[A \to  A \otimes _D B]]></fr:tex> and <fr:tex display="inline"><![CDATA[B \to  A \otimes _DB]]></fr:tex>, sending <fr:tex display="inline"><![CDATA[a\in  A,b\in  B]]></fr:tex> to 
+  <fr:tex display="block"><![CDATA[ a \mapsto  a \otimes  1, \quad  b \mapsto  1 \otimes  b. ]]></fr:tex>
+  It is easy to verify these are distributive lattice morphisms.
+</html:p>
+                  </fr:mainmatter>
+                </fr:tree>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors />
+                    <fr:date>
+                      <fr:year>2025</fr:year>
+                      <fr:month>6</fr:month>
+                      <fr:day>11</fr:day>
+                    </fr:date>
+                    <fr:uri>https://charloced.github.io/idem-comm-A6ON/</fr:uri>
+                    <fr:display-uri>idem-comm-A6ON</fr:display-uri>
+                    <fr:route>/idem-comm-A6ON/</fr:route>
+                    <fr:title text="Pushouts of algebras are tensor products">Pushouts of algebras are tensor products</fr:title>
+                    <fr:taxon>Proposition</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter><html:p>
+  Let <fr:tex display="inline"><![CDATA[A,B]]></fr:tex> be two <fr:tex display="inline"><![CDATA[D]]></fr:tex>-algebras. Then the <fr:link href="/idem-comm-SG6C/" title="Tensor products of distributive lattices" uri="https://charloced.github.io/idem-comm-SG6C/" display-uri="idem-comm-SG6C" type="local">tensor product</fr:link> <fr:tex display="inline"><![CDATA[A \otimes _D B]]></fr:tex> is the pushout in <html:strong>DL</html:strong>:
+  
+  <html:figure><fr:resource hash="9b3f00e1f4661f9bb4dd724a5da45f3d"><fr:resource-content><html:img src="/9b3f00e1f4661f9bb4dd724a5da45f3d.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[\usepackage {tikz-cd}\usepackage {quiver}]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+    \begin {tikzcd}
+      D \ar [r, "f"] \ar [d, "g"'] & A \ar [d] \\ 
+      B \ar [r] & A \otimes _D B
+      \arrow [{"\lrcorner "{anchor = center, pos = 0.125, rotate=180}, draw = none, from=2-2, to=1-1}]
+    \end {tikzcd}
+  ]]></fr:resource-source></fr:resource></html:figure></html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>11</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  Given <fr:tex display="inline"><![CDATA[u : A \to  C]]></fr:tex> and <fr:tex display="inline"><![CDATA[v : B \to  C]]></fr:tex> with <fr:tex display="inline"><![CDATA[uf = vg]]></fr:tex>, we construct a map 
+  <fr:tex display="block"><![CDATA[ [u,v] : A \otimes _D B \to  C ]]></fr:tex>
+  by sending a generator <fr:tex display="inline"><![CDATA[a \otimes  b]]></fr:tex> to <fr:tex display="inline"><![CDATA[ua \wedge  vb]]></fr:tex>. We need to show this respects the congruence of the <fr:link href="/idem-comm-SG6C/" title="Tensor products of distributive lattices" uri="https://charloced.github.io/idem-comm-SG6C/" display-uri="idem-comm-SG6C" type="local">tensor product</fr:link>:
+  <html:ol><html:li><fr:tex display="inline"><![CDATA[[u,v](a \otimes  0) = ua \wedge  v0 = 0 = [u,v]]]></fr:tex>, and similarly for <fr:tex display="inline"><![CDATA[0 \otimes  b]]></fr:tex>. </html:li>
+    <html:li><fr:tex display="inline"><![CDATA[[u,v](a \vee  a' \otimes  b) = u(a \vee  a') \wedge  vb = (ua \wedge  vb) \vee  (ua' \wedge  vb) = [u,v](a \otimes  b \vee  a' \otimes  b)]]></fr:tex>, and similarly for <fr:tex display="inline"><![CDATA[a \otimes  b\vee  b']]></fr:tex>.</html:li>
+    <html:li><fr:tex display="inline"><![CDATA[[u,v][aa' \otimes  bb'] = u(aa') \wedge  v(bb') = ua \wedge  ua' \wedge  vb \wedge  vb' = [u,v](a\otimes  b \wedge  a' \otimes  b')]]></fr:tex>. </html:li>
+    <html:li><fr:tex display="inline"><![CDATA[[u,v](ad \otimes  b) = ua \wedge  ufd \wedge  vb = ua \wedge  vgd \wedge  vb = [u,v](a \otimes  db)]]></fr:tex>. </html:li></html:ol>
+  Hence, the map <fr:tex display="inline"><![CDATA[[u,v]]]></fr:tex> is well-defined, and in fact uniquely determined by the two inclusions <fr:tex display="inline"><![CDATA[A \to  A \otimes _DB]]></fr:tex> and <fr:tex display="inline"><![CDATA[B \to  A \otimes _DB]]></fr:tex>.
 </fr:mainmatter></fr:tree>
  
 </fr:mainmatter>

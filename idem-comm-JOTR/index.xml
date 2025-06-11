@@ -318,7 +318,79 @@
         <fr:authors />
         <fr:title text="Backlinks">Backlinks</fr:title>
       </fr:frontmatter>
-      <fr:mainmatter />
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>10</fr:day>
+            </fr:date>
+            <fr:uri>https://charloced.github.io/schm-8QSS/</fr:uri>
+            <fr:display-uri>schm-8QSS</fr:display-uri>
+            <fr:route>/schm-8QSS/</fr:route>
+            <fr:title text="Noetherian schemes have Noetherian underlying topological spaces">Noetherian schemes have Noetherian underlying topological spaces</fr:title>
+            <fr:taxon>Lemma</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>
+  If <fr:tex display="inline"><![CDATA[X]]></fr:tex> is a Noetherian scheme, then its underlying topological space is <fr:link href="/topl-AWX1/" title="Noetherian topological spaces" uri="https://charloced.github.io/topl-AWX1/" display-uri="topl-AWX1" type="local">Noetherian</fr:link>.
+</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>10</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  It suffices to observe that <fr:tex display="inline"><![CDATA[A]]></fr:tex> is a <fr:link href="/idem-comm-JOTR/" title="Noetherian distributive lattice" uri="https://charloced.github.io/idem-comm-JOTR/" display-uri="idem-comm-JOTR" type="local">Noetherian distributive lattice</fr:link> iff <fr:tex display="inline"><![CDATA[\operatorname {Spec} A]]></fr:tex> is a Noetherian topological space. This holds by <fr:link href="/idem-comm-HLDT/" title="Frame of opens of spectra" uri="https://charloced.github.io/idem-comm-HLDT/" display-uri="idem-comm-HLDT" type="local">Proposition <fr:contextual-number uri="https://charloced.github.io/idem-comm-HLDT/" display-uri="idem-comm-HLDT" /></fr:link> that closed subsets of <fr:tex display="inline"><![CDATA[\operatorname {Spec} A]]></fr:tex> are dually isomorphic to ideals of <fr:tex display="inline"><![CDATA[A]]></fr:tex>. Then it suffices to observe a finite union of Noetherian topological spaces is again Noetherian.
+</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>10</fr:day>
+            </fr:date>
+            <fr:uri>https://charloced.github.io/schm-A6LH/</fr:uri>
+            <fr:display-uri>schm-A6LH</fr:display-uri>
+            <fr:route>/schm-A6LH/</fr:route>
+            <fr:title text="Noetherian and non-Noetherian affine schemes">Noetherian and non-Noetherian affine schemes</fr:title>
+            <fr:taxon>Example</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  By definition, an <fr:link href="/schm-IFX1/" title="Affine scheme" uri="https://charloced.github.io/schm-IFX1/" display-uri="schm-IFX1" type="local">affine scheme</fr:link> <fr:tex display="inline"><![CDATA[\operatorname {Spec} A]]></fr:tex> is Noetherian iff <fr:tex display="inline"><![CDATA[A]]></fr:tex> is <fr:link href="/idem-comm-JOTR/" title="Noetherian distributive lattice" uri="https://charloced.github.io/idem-comm-JOTR/" display-uri="idem-comm-JOTR" type="local">Noetherian</fr:link>.
+</html:p>
+            <html:p>
+  From <fr:link href="/schm-LRJP/" title="The Rieger-Nishimura scheme" uri="https://charloced.github.io/schm-LRJP/" display-uri="schm-LRJP" type="local">Example <fr:contextual-number uri="https://charloced.github.io/schm-LRJP/" display-uri="schm-LRJP" /></fr:link>, <fr:tex display="inline"><![CDATA[\operatorname {Spec}\mathbb {H}[x]]]></fr:tex> is <html:em>not</html:em> Noetherian, since <fr:tex display="inline"><![CDATA[\mathbb {H}[x]]]></fr:tex> has infinite ascending elements. In fact, it is <html:em>not</html:em> locally Noetherian either, due to the existance of the focal point <fr:tex display="inline"><![CDATA[\bot ]]></fr:tex> of <fr:tex display="inline"><![CDATA[\operatorname {Spec}\mathbb {H}[x]]]></fr:tex>, whose only open neighbourhood is the entire space. However, the open subscheme <fr:tex display="inline"><![CDATA[\operatorname {Spec}\mathbb {H}[x]_+]]></fr:tex> of <fr:tex display="inline"><![CDATA[\operatorname {Spec}\mathbb {H}[x]]]></fr:tex> described in <fr:link href="/schm-LRJP/" title="The Rieger-Nishimura scheme" uri="https://charloced.github.io/schm-LRJP/" display-uri="schm-LRJP" type="local">Example <fr:contextual-number uri="https://charloced.github.io/schm-LRJP/" display-uri="schm-LRJP" /></fr:link> is locally Noetherian.
+</html:p>
+            <html:p>
+  Dually, from <fr:link href="/schm-DK1B/" title="The dual Rieger-Nishimura scheme" uri="https://charloced.github.io/schm-DK1B/" display-uri="schm-DK1B" type="local">Example <fr:contextual-number uri="https://charloced.github.io/schm-DK1B/" display-uri="schm-DK1B" /></fr:link> we know <fr:tex display="inline"><![CDATA[\mathbb {S}[x]]]></fr:tex> <html:em>is</html:em> Noetherian, hence <fr:tex display="inline"><![CDATA[\operatorname {Spec}\mathbb {S}[x]]]></fr:tex> is Noetherian.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>10</fr:day>
+            </fr:date>
+            <fr:uri>https://charloced.github.io/schm-P1M1/</fr:uri>
+            <fr:display-uri>schm-P1M1</fr:display-uri>
+            <fr:route>/schm-P1M1/</fr:route>
+            <fr:title text="Noetherian and locally Noetherian schemes">Noetherian and locally Noetherian schemes</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  We say a scheme <fr:tex display="inline"><![CDATA[X]]></fr:tex> is <html:em>locally Noetherian</html:em>, if it can be covered by affine subspaces <fr:tex display="inline"><![CDATA[\operatorname {Spec} A_i]]></fr:tex> with each <fr:tex display="inline"><![CDATA[A_i]]></fr:tex> <fr:link href="/idem-comm-JOTR/" title="Noetherian distributive lattice" uri="https://charloced.github.io/idem-comm-JOTR/" display-uri="idem-comm-JOTR" type="local">Noetherian</fr:link>. We say <fr:tex display="inline"><![CDATA[X]]></fr:tex> is <html:em>Noetherian</html:em> if it is furthermore <fr:link href="/schm-H9PK/" title="Quasi-compact and quasi-separated schemes" uri="https://charloced.github.io/schm-H9PK/" display-uri="schm-H9PK" type="local">quasi-compact</fr:link>.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
     </fr:tree>
     <fr:tree show-metadata="false" hidden-when-empty="true">
       <fr:frontmatter>

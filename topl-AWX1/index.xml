@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/">
+  <fr:frontmatter>
+    <fr:authors />
+    <fr:date>
+      <fr:year>2025</fr:year>
+      <fr:month>6</fr:month>
+      <fr:day>10</fr:day>
+    </fr:date>
+    <fr:uri>https://charloced.github.io/topl-AWX1/</fr:uri>
+    <fr:display-uri>topl-AWX1</fr:display-uri>
+    <fr:route>/topl-AWX1/</fr:route>
+    <fr:title text="Noetherian topological spaces">Noetherian topological spaces</fr:title>
+    <fr:taxon>Definition</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <html:p>
+  A topoloigcal space <fr:tex display="inline"><![CDATA[X]]></fr:tex> is <html:em>Noetherian</html:em> if it has no infinite strictly decreasing closed spaces.
+</html:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>11</fr:day>
+            </fr:date>
+            <fr:uri>https://charloced.github.io/topl-00Q1/</fr:uri>
+            <fr:display-uri>topl-00Q1</fr:display-uri>
+            <fr:route>/topl-00Q1/</fr:route>
+            <fr:title text="Noetherian topological spaces have compact opens">Noetherian topological spaces have compact opens</fr:title>
+            <fr:taxon>Lemma</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>
+  A topological space <fr:tex display="inline"><![CDATA[X]]></fr:tex> is <fr:link href="/topl-AWX1/" title="Noetherian topological spaces" uri="https://charloced.github.io/topl-AWX1/" display-uri="topl-AWX1" type="local">Noetherian</fr:link> iff every open subset of <fr:tex display="inline"><![CDATA[X]]></fr:tex> is compact.
+</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>11</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <html:p>
+    If we have an infinite open cover <fr:tex display="inline"><![CDATA[\bigcup _{i\in  I}V_I]]></fr:tex> of an open set <fr:tex display="inline"><![CDATA[U]]></fr:tex> in <fr:tex display="inline"><![CDATA[X]]></fr:tex> which does not have a finite subcover, then we may take a well-order on <fr:tex display="inline"><![CDATA[I]]></fr:tex> and define an infinite ascending sequence
+    <fr:tex display="block"><![CDATA[ V_0 \subseteq  V_0 \cup  V_1 \subseteq  \cdots  \bigcup _{\alpha  < i} V_{\alpha } \subseteq  \cdots  ]]></fr:tex>
+    This sequence cannot be stationary, otherwise <fr:tex display="inline"><![CDATA[U]]></fr:tex> will have a finite subcover. Hence, taking the complements induces an infinite descending sequence of closed sets.
+  </html:p>
+  <html:p>
+    On the other hand, if every open of <fr:tex display="inline"><![CDATA[X]]></fr:tex> is compact, then for any infinite descending sequence of closed sets <fr:tex display="inline"><![CDATA[C_0 \supseteq  C_1 \supseteq  \cdots ]]></fr:tex>, we take their intersection <fr:tex display="inline"><![CDATA[\bigcap _{n}C_n]]></fr:tex>. This is a closed set, hence its complement is a compact open. This implies there exists some finite <fr:tex display="inline"><![CDATA[N]]></fr:tex> that <fr:tex display="inline"><![CDATA[\bigcap _{n\le  N}C_n = \bigcap _{n}C_n]]></fr:tex>, which implies this sequence is stationary.
+  </html:p>
+</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>10</fr:day>
+            </fr:date>
+            <fr:uri>https://charloced.github.io/schm-8QSS/</fr:uri>
+            <fr:display-uri>schm-8QSS</fr:display-uri>
+            <fr:route>/schm-8QSS/</fr:route>
+            <fr:title text="Noetherian schemes have Noetherian underlying topological spaces">Noetherian schemes have Noetherian underlying topological spaces</fr:title>
+            <fr:taxon>Lemma</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>
+  If <fr:tex display="inline"><![CDATA[X]]></fr:tex> is a Noetherian scheme, then its underlying topological space is <fr:link href="/topl-AWX1/" title="Noetherian topological spaces" uri="https://charloced.github.io/topl-AWX1/" display-uri="topl-AWX1" type="local">Noetherian</fr:link>.
+</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>10</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  It suffices to observe that <fr:tex display="inline"><![CDATA[A]]></fr:tex> is a <fr:link href="/idem-comm-JOTR/" title="Noetherian distributive lattice" uri="https://charloced.github.io/idem-comm-JOTR/" display-uri="idem-comm-JOTR" type="local">Noetherian distributive lattice</fr:link> iff <fr:tex display="inline"><![CDATA[\operatorname {Spec} A]]></fr:tex> is a Noetherian topological space. This holds by <fr:link href="/idem-comm-HLDT/" title="Frame of opens of spectra" uri="https://charloced.github.io/idem-comm-HLDT/" display-uri="idem-comm-HLDT" type="local">Proposition <fr:contextual-number uri="https://charloced.github.io/idem-comm-HLDT/" display-uri="idem-comm-HLDT" /></fr:link> that closed subsets of <fr:tex display="inline"><![CDATA[\operatorname {Spec} A]]></fr:tex> are dually isomorphic to ideals of <fr:tex display="inline"><![CDATA[A]]></fr:tex>. Then it suffices to observe a finite union of Noetherian topological spaces is again Noetherian.
+</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

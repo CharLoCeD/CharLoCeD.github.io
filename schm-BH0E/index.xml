@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/">
+  <fr:frontmatter>
+    <fr:authors />
+    <fr:date>
+      <fr:year>2025</fr:year>
+      <fr:month>6</fr:month>
+      <fr:day>11</fr:day>
+    </fr:date>
+    <fr:uri>https://charloced.github.io/schm-BH0E/</fr:uri>
+    <fr:display-uri>schm-BH0E</fr:display-uri>
+    <fr:route>/schm-BH0E/</fr:route>
+    <fr:title text="Quasi-compact morphisms">Quasi-compact morphisms</fr:title>
+    <fr:taxon>Definition</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <html:p>
+  More generally, we say a morphism <fr:tex display="inline"><![CDATA[f : Y \to  X]]></fr:tex> of <fr:link href="/schm-86OJ/" title="Scheme" uri="https://charloced.github.io/schm-86OJ/" display-uri="schm-86OJ" type="local">schemes</fr:link> is <html:em>quasi-compact</html:em>, if the underlying continuous map is <fr:link href="/topl-9BKS/" title="Quasi-compact continuous maps" uri="https://charloced.github.io/topl-9BKS/" display-uri="topl-9BKS" type="local">quasi-compact</fr:link>.
+</html:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/lingyuan/" title="Lingyuan Ye" uri="https://charloced.github.io/lingyuan/" display-uri="lingyuan" type="local">Lingyuan Ye</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>10</fr:day>
+            </fr:date>
+            <fr:uri>https://charloced.github.io/schm-DEM8/</fr:uri>
+            <fr:display-uri>schm-DEM8</fr:display-uri>
+            <fr:route>/schm-DEM8/</fr:route>
+            <fr:title text="Quasi-compact and quasi-separated schemes">Quasi-compact and quasi-separated schemes</fr:title>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>9</fr:day>
+                </fr:date>
+                <fr:uri>https://charloced.github.io/schm-H9PK/</fr:uri>
+                <fr:display-uri>schm-H9PK</fr:display-uri>
+                <fr:route>/schm-H9PK/</fr:route>
+                <fr:title text="Quasi-compact and quasi-separated schemes">Quasi-compact and quasi-separated schemes</fr:title>
+                <fr:taxon>Definition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+  We say a <fr:link href="/schm-86OJ/" title="Scheme" uri="https://charloced.github.io/schm-86OJ/" display-uri="schm-86OJ" type="local">scheme</fr:link> is <html:em>quasi-separated</html:em> if its underlying topological space is <fr:link href="/topl-GW93/" title="Quasi-separated spaces" uri="https://charloced.github.io/topl-GW93/" display-uri="topl-GW93" type="local">quasi-separated</fr:link>. We say it is <html:em>quasi-compact</html:em> if its underlying space is <html:em>compact</html:em>. The two conditions are often combined together and written as <html:em>qcqs</html:em>.
+</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>11</fr:day>
+                </fr:date>
+                <fr:uri>https://charloced.github.io/schm-BH0E/</fr:uri>
+                <fr:display-uri>schm-BH0E</fr:display-uri>
+                <fr:route>/schm-BH0E/</fr:route>
+                <fr:title text="Quasi-compact morphisms">Quasi-compact morphisms</fr:title>
+                <fr:taxon>Definition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+  More generally, we say a morphism <fr:tex display="inline"><![CDATA[f : Y \to  X]]></fr:tex> of <fr:link href="/schm-86OJ/" title="Scheme" uri="https://charloced.github.io/schm-86OJ/" display-uri="schm-86OJ" type="local">schemes</fr:link> is <html:em>quasi-compact</html:em>, if the underlying continuous map is <fr:link href="/topl-9BKS/" title="Quasi-compact continuous maps" uri="https://charloced.github.io/topl-9BKS/" display-uri="topl-9BKS" type="local">quasi-compact</fr:link>.
+</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>10</fr:day>
+                </fr:date>
+                <fr:uri>https://charloced.github.io/schm-Z7SH/</fr:uri>
+                <fr:display-uri>schm-Z7SH</fr:display-uri>
+                <fr:route>/schm-Z7SH/</fr:route>
+                <fr:title text="A quasi-separated but not quasi-compact scheme">A quasi-separated but not quasi-compact scheme</fr:title>
+                <fr:taxon>Example</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+  Note the scheme <fr:tex display="inline"><![CDATA[\operatorname {Spec}\mathbb {H}[x]_+]]></fr:tex> from <fr:link href="/schm-LRJP/" title="The Rieger-Nishimura scheme" uri="https://charloced.github.io/schm-LRJP/" display-uri="schm-LRJP" type="local">Example <fr:contextual-number uri="https://charloced.github.io/schm-LRJP/" display-uri="schm-LRJP" /></fr:link> is <fr:link href="/schm-H9PK/" title="Quasi-compact and quasi-separated schemes" uri="https://charloced.github.io/schm-H9PK/" display-uri="schm-H9PK" type="local">quasi-separated</fr:link> but not <fr:link href="/schm-H9PK/" title="Quasi-compact and quasi-separated schemes" uri="https://charloced.github.io/schm-H9PK/" display-uri="schm-H9PK" type="local">quasi-compact</fr:link>.
+</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>11</fr:day>
+                </fr:date>
+                <fr:uri>https://charloced.github.io/schm-LAYT/</fr:uri>
+                <fr:display-uri>schm-LAYT</fr:display-uri>
+                <fr:route>/schm-LAYT/</fr:route>
+                <fr:title text="Quasi-compact and quasi-separated are affine local">Quasi-compact and quasi-separated are affine local</fr:title>
+                <fr:taxon>Remark</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+  Both quasi-compact and quasi-separated are trivially <fr:link href="/schm-C6GR/" title="Affine local properties" uri="https://charloced.github.io/schm-C6GR/" display-uri="schm-C6GR" type="local">affine local</fr:link> properties because all affine schemes are qcqs.
+</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>11</fr:day>
+            </fr:date>
+            <fr:uri>https://charloced.github.io/topl-9BKS/</fr:uri>
+            <fr:display-uri>topl-9BKS</fr:display-uri>
+            <fr:route>/topl-9BKS/</fr:route>
+            <fr:title text="Quasi-compact continuous maps">Quasi-compact continuous maps</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  We say a continuous map <fr:tex display="inline"><![CDATA[f : Y \to  X]]></fr:tex> between topological spaces is <html:em>quasi-compact</html:em> if the inverse image of <fr:tex display="inline"><![CDATA[f]]></fr:tex> preserves compact opens. This is mainly useful when <fr:tex display="inline"><![CDATA[X,Y]]></fr:tex> are both <fr:link href="/topl-VV9N/" title="Spectral spaces" uri="https://charloced.github.io/topl-VV9N/" display-uri="topl-VV9N" type="local">spectral</fr:link>.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>8</fr:day>
+            </fr:date>
+            <fr:uri>https://charloced.github.io/schm-86OJ/</fr:uri>
+            <fr:display-uri>schm-86OJ</fr:display-uri>
+            <fr:route>/schm-86OJ/</fr:route>
+            <fr:title text="Scheme">Scheme</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  A <fr:link href="/schm-V16H/" title="Locally distributed space" uri="https://charloced.github.io/schm-V16H/" display-uri="schm-V16H" type="local">locally distributed space</fr:link> <fr:tex display="inline"><![CDATA[(X,\mathcal {O}_{X})]]></fr:tex> is a <html:em>scheme</html:em>, if for any <fr:tex display="inline"><![CDATA[x\in  X]]></fr:tex> there is an open neighbourhood <fr:tex display="inline"><![CDATA[U]]></fr:tex> of <fr:tex display="inline"><![CDATA[x]]></fr:tex>, such that <fr:tex display="inline"><![CDATA[(U,\mathcal {O}_{X}|_U)]]></fr:tex> is an <fr:link href="/schm-IFX1/" title="Affine scheme" uri="https://charloced.github.io/schm-IFX1/" display-uri="schm-IFX1" type="local">affine scheme</fr:link>. The full subcategory of schemes will be denoted as <fr:tex display="inline"><![CDATA[\mathbf {Sch}_{\mathbb {D}}]]></fr:tex>.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

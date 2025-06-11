@@ -345,6 +345,26 @@
                 <fr:date>
                   <fr:year>2025</fr:year>
                   <fr:month>6</fr:month>
+                  <fr:day>11</fr:day>
+                </fr:date>
+                <fr:uri>https://charloced.github.io/idem-comm-S892/</fr:uri>
+                <fr:display-uri>idem-comm-S892</fr:display-uri>
+                <fr:route>/idem-comm-S892/</fr:route>
+                <fr:title text="Prime spectra of local and integral distributive lattices">Prime spectra of local and integral distributive lattices</fr:title>
+                <fr:taxon>Example</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+  Let <fr:tex display="inline"><![CDATA[A]]></fr:tex> be <fr:link href="/idem-comm-75C1/" title="Local distributive lattice" uri="https://charloced.github.io/idem-comm-75C1/" display-uri="idem-comm-75C1" type="local">local</fr:link>. Then since <fr:tex display="inline"><![CDATA[\operatorname {Spec} A]]></fr:tex> has a minimal filter <fr:tex display="inline"><![CDATA[\{1\}]]></fr:tex>, <fr:tex display="inline"><![CDATA[\operatorname {Spec} A]]></fr:tex> has a <html:em>root</html:em>, which we denote as <fr:tex display="inline"><![CDATA[\bot ]]></fr:tex>. Dually, if <fr:tex display="inline"><![CDATA[A]]></fr:tex> is <fr:link href="/idem-comm-487K/" title="Integral distributive lattices" uri="https://charloced.github.io/idem-comm-487K/" display-uri="idem-comm-487K" type="local">integral</fr:link>, then <fr:tex display="inline"><![CDATA[\operatorname {Spec} A]]></fr:tex> has a focal point, which we usually denote as <fr:tex display="inline"><![CDATA[\top ]]></fr:tex>.
+</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>6</fr:month>
                   <fr:day>7</fr:day>
                 </fr:date>
                 <fr:uri>https://charloced.github.io/idem-comm-ZATP/</fr:uri>
@@ -357,7 +377,7 @@
                 <html:p>
   For any poset <fr:tex display="inline"><![CDATA[I]]></fr:tex>, it generates a free distributive lattice <fr:tex display="inline"><![CDATA[2[I]]]></fr:tex>. When <fr:tex display="inline"><![CDATA[I]]></fr:tex> is finite <fr:tex display="inline"><![CDATA[2[I]]]></fr:tex> is a Heyting algebra, but it will never be Boolean expect when <fr:tex display="inline"><![CDATA[I]]></fr:tex> is empty. The spectrum
   <fr:tex display="block"><![CDATA[ \operatorname {Spec} 2[I] \cong  \mathbf {Pos}(I,2) \cong  \mathcal {U}(I), ]]></fr:tex>
-  is the upward closed subsets of <fr:tex display="inline"><![CDATA[I]]></fr:tex>. 
+  is the upward closed subsets of <fr:tex display="inline"><![CDATA[I]]></fr:tex>. Since free distributive lattices are always <fr:link href="/idem-comm-75C1/" title="Local distributive lattice" uri="https://charloced.github.io/idem-comm-75C1/" display-uri="idem-comm-75C1" type="local">local</fr:link> and <fr:link href="/idem-comm-487K/" title="Integral distributive lattices" uri="https://charloced.github.io/idem-comm-487K/" display-uri="idem-comm-487K" type="local">integral</fr:link>, <fr:tex display="inline"><![CDATA[\operatorname {Spec} 2[I]]]></fr:tex> has both a root <fr:tex display="inline"><![CDATA[\bot ]]></fr:tex> and a focal point <fr:tex display="inline"><![CDATA[\top ]]></fr:tex>.
 </html:p>
               </fr:mainmatter>
             </fr:tree>
@@ -404,13 +424,13 @@
   For instance, for the poset <fr:tex display="inline"><![CDATA[\overline {\omega }]]></fr:tex>, its spectral space is simply <fr:tex display="inline"><![CDATA[\overline {\omega }^{\mathrm {op}}]]></fr:tex> with the Alexandroff topology,
   
   
-  <html:figure><fr:resource hash="cd94a92757930b493ba04cb20dd705ac"><fr:resource-content><html:img src="/cd94a92757930b493ba04cb20dd705ac.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[\usepackage {tikz-cd}\usepackage {quiver}]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+  <html:figure><fr:resource hash="f9e7ca13f9b2b691bff4553216820f02"><fr:resource-content><html:img src="/f9e7ca13f9b2b691bff4553216820f02.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[\usepackage {tikz-cd}\usepackage {quiver}]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
   \begin {tikzcd}
     {\overline {\omega }} && {\mathrm {Spec}\ \overline {\omega }} \\
-    \bullet  && \bullet  \\
+    \bullet  && \top  \\
     \vdots  && \bullet  \\
     \bullet  && \vdots  \\
-    \bullet  && \bullet 
+    \bullet  && \bot 
     \arrow [from=3-1, to=2-1]
     \arrow [from=3-3, to=2-3]
     \arrow [from=4-1, to=3-1]
@@ -459,7 +479,28 @@
         <fr:authors />
         <fr:title text="Backlinks">Backlinks</fr:title>
       </fr:frontmatter>
-      <fr:mainmatter />
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>11</fr:day>
+            </fr:date>
+            <fr:uri>https://charloced.github.io/schm-HE7H/</fr:uri>
+            <fr:display-uri>schm-HE7H</fr:display-uri>
+            <fr:route>/schm-HE7H/</fr:route>
+            <fr:title text="Stalk local properties">Stalk local properties</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  We say a property of distributive lattices is <html:em>stalk local</html:em>, if for any <fr:tex display="inline"><![CDATA[A]]></fr:tex>, <fr:tex display="inline"><![CDATA[A]]></fr:tex> satisfies <fr:tex display="inline"><![CDATA[P]]></fr:tex> iff for all <fr:tex display="inline"><![CDATA[x\in \operatorname {Spec} A]]></fr:tex> in the <fr:link href="/idem-comm-ZAQZ/" title="Prime spectrum of a distributive lattice" uri="https://charloced.github.io/idem-comm-ZAQZ/" display-uri="idem-comm-ZAQZ" type="local">prime spectrum</fr:link>, <fr:tex display="inline"><![CDATA[A/x]]></fr:tex> satisfies <fr:tex display="inline"><![CDATA[P]]></fr:tex>.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
     </fr:tree>
     <fr:tree show-metadata="false" hidden-when-empty="true">
       <fr:frontmatter>

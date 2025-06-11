@@ -351,6 +351,26 @@
                 <fr:date>
                   <fr:year>2025</fr:year>
                   <fr:month>6</fr:month>
+                  <fr:day>11</fr:day>
+                </fr:date>
+                <fr:uri>https://charloced.github.io/idem-comm-S892/</fr:uri>
+                <fr:display-uri>idem-comm-S892</fr:display-uri>
+                <fr:route>/idem-comm-S892/</fr:route>
+                <fr:title text="Prime spectra of local and integral distributive lattices">Prime spectra of local and integral distributive lattices</fr:title>
+                <fr:taxon>Example</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+  Let <fr:tex display="inline"><![CDATA[A]]></fr:tex> be <fr:link href="/idem-comm-75C1/" title="Local distributive lattice" uri="https://charloced.github.io/idem-comm-75C1/" display-uri="idem-comm-75C1" type="local">local</fr:link>. Then since <fr:tex display="inline"><![CDATA[\operatorname {Spec} A]]></fr:tex> has a minimal filter <fr:tex display="inline"><![CDATA[\{1\}]]></fr:tex>, <fr:tex display="inline"><![CDATA[\operatorname {Spec} A]]></fr:tex> has a <html:em>root</html:em>, which we denote as <fr:tex display="inline"><![CDATA[\bot ]]></fr:tex>. Dually, if <fr:tex display="inline"><![CDATA[A]]></fr:tex> is <fr:link href="/idem-comm-487K/" title="Integral distributive lattices" uri="https://charloced.github.io/idem-comm-487K/" display-uri="idem-comm-487K" type="local">integral</fr:link>, then <fr:tex display="inline"><![CDATA[\operatorname {Spec} A]]></fr:tex> has a focal point, which we usually denote as <fr:tex display="inline"><![CDATA[\top ]]></fr:tex>.
+</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>6</fr:month>
                   <fr:day>7</fr:day>
                 </fr:date>
                 <fr:uri>https://charloced.github.io/idem-comm-ZATP/</fr:uri>
@@ -363,7 +383,7 @@
                 <html:p>
   For any poset <fr:tex display="inline"><![CDATA[I]]></fr:tex>, it generates a free distributive lattice <fr:tex display="inline"><![CDATA[2[I]]]></fr:tex>. When <fr:tex display="inline"><![CDATA[I]]></fr:tex> is finite <fr:tex display="inline"><![CDATA[2[I]]]></fr:tex> is a Heyting algebra, but it will never be Boolean expect when <fr:tex display="inline"><![CDATA[I]]></fr:tex> is empty. The spectrum
   <fr:tex display="block"><![CDATA[ \operatorname {Spec} 2[I] \cong  \mathbf {Pos}(I,2) \cong  \mathcal {U}(I), ]]></fr:tex>
-  is the upward closed subsets of <fr:tex display="inline"><![CDATA[I]]></fr:tex>. 
+  is the upward closed subsets of <fr:tex display="inline"><![CDATA[I]]></fr:tex>. Since free distributive lattices are always <fr:link href="/idem-comm-75C1/" title="Local distributive lattice" uri="https://charloced.github.io/idem-comm-75C1/" display-uri="idem-comm-75C1" type="local">local</fr:link> and <fr:link href="/idem-comm-487K/" title="Integral distributive lattices" uri="https://charloced.github.io/idem-comm-487K/" display-uri="idem-comm-487K" type="local">integral</fr:link>, <fr:tex display="inline"><![CDATA[\operatorname {Spec} 2[I]]]></fr:tex> has both a root <fr:tex display="inline"><![CDATA[\bot ]]></fr:tex> and a focal point <fr:tex display="inline"><![CDATA[\top ]]></fr:tex>.
 </html:p>
               </fr:mainmatter>
             </fr:tree>
@@ -410,13 +430,13 @@
   For instance, for the poset <fr:tex display="inline"><![CDATA[\overline {\omega }]]></fr:tex>, its spectral space is simply <fr:tex display="inline"><![CDATA[\overline {\omega }^{\mathrm {op}}]]></fr:tex> with the Alexandroff topology,
   
   
-  <html:figure><fr:resource hash="cd94a92757930b493ba04cb20dd705ac"><fr:resource-content><html:img src="/cd94a92757930b493ba04cb20dd705ac.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[\usepackage {tikz-cd}\usepackage {quiver}]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+  <html:figure><fr:resource hash="f9e7ca13f9b2b691bff4553216820f02"><fr:resource-content><html:img src="/f9e7ca13f9b2b691bff4553216820f02.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[\usepackage {tikz-cd}\usepackage {quiver}]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
   \begin {tikzcd}
     {\overline {\omega }} && {\mathrm {Spec}\ \overline {\omega }} \\
-    \bullet  && \bullet  \\
+    \bullet  && \top  \\
     \vdots  && \bullet  \\
     \bullet  && \vdots  \\
-    \bullet  && \bullet 
+    \bullet  && \bot 
     \arrow [from=3-1, to=2-1]
     \arrow [from=3-3, to=2-3]
     \arrow [from=4-1, to=3-1]
@@ -501,6 +521,44 @@
 </fr:mainmatter></fr:tree>
  
 </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>8</fr:day>
+            </fr:date>
+            <fr:uri>https://charloced.github.io/idem-comm-UARZ/</fr:uri>
+            <fr:display-uri>idem-comm-UARZ</fr:display-uri>
+            <fr:route>/idem-comm-UARZ/</fr:route>
+            <fr:title text="Left uniform interpolation for classical logic">Left uniform interpolation for classical logic</fr:title>
+            <fr:taxon>Remark</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  Algebraically, under <fr:link href="/idem-comm-XNIE/" title="Constructible sets compute Booleanisation" uri="https://charloced.github.io/idem-comm-XNIE/" display-uri="idem-comm-XNIE" type="local">Proposition <fr:contextual-number uri="https://charloced.github.io/idem-comm-XNIE/" display-uri="idem-comm-XNIE" /></fr:link>, <fr:link href="/idem-comm-RYZ5/" title="Chevalley's theorem" uri="https://charloced.github.io/idem-comm-RYZ5/" display-uri="idem-comm-RYZ5" type="local">Theorem <fr:contextual-number uri="https://charloced.github.io/idem-comm-RYZ5/" display-uri="idem-comm-RYZ5" /></fr:link> means that for any finitely presented morphism <fr:tex display="inline"><![CDATA[D \to  E]]></fr:tex>, its Booleanisation <fr:tex display="inline"><![CDATA[\lambda  D \to  \lambda  E]]></fr:tex> has a <html:em>left adjoint</html:em>,
+  
+  <html:figure><fr:resource hash="ec2968fd7d17f367d6503861fc3e1631"><fr:resource-content><html:img src="/ec2968fd7d17f367d6503861fc3e1631.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[\usepackage {tikz-cd}\usepackage {quiver}]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+  \begin {tikzcd}
+    D & E \\
+    {\lambda  D} & {\lambda  E}
+    \arrow [from=1-1, to=1-2]
+    \arrow [tail, from=1-1, to=2-1]
+    \arrow [tail, from=1-2, to=2-2]
+    \arrow [""{name=0, anchor=center, inner sep=0}, from=2-1, to=2-2]
+    \arrow [""{name=1, anchor=center, inner sep=0}, curve={height=15pt}, from=2-2, to=2-1]
+    \arrow ["\dashv "{anchor=center, rotate=-90}, draw=none, from=1, to=0]
+  \end {tikzcd}
+  ]]></fr:resource-source></fr:resource></html:figure>
+
+  given by taking the image of the constructible subset along <fr:tex display="inline"><![CDATA[\operatorname {Spec} E \to  \operatorname {Spec} D]]></fr:tex>.
+</html:p>
+            <html:p>
+  Furthermore, since image of a map preserves binary intersections and unions, the left adjoint also preserves them. Hence, it will be a distributive lattice morphism, except the possibility that it does not preserve the top element. If <fr:tex display="inline"><![CDATA[D \rightarrowtail  E]]></fr:tex> is <html:em>injective</html:em>, then the left adjoint <fr:tex display="inline"><![CDATA[\lambda  E \to  \lambda  D]]></fr:tex> will be a distributive lattice morphism by <fr:link href="/idem-comm-59IF/" title="Set-level duality between spectra and algebra" uri="https://charloced.github.io/idem-comm-59IF/" display-uri="idem-comm-59IF" type="local">Proposition <fr:contextual-number uri="https://charloced.github.io/idem-comm-59IF/" display-uri="idem-comm-59IF" /></fr:link>. This is the usual case for second-order quantifier elimination for classical propositional logic.
+</html:p>
+          </fr:mainmatter>
         </fr:tree>
       </fr:mainmatter>
     </fr:tree>

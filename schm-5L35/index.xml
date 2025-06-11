@@ -294,37 +294,51 @@
           </fr:frontmatter>
           <fr:mainmatter>
             <html:p>
-  Let <fr:tex display="inline"><![CDATA[\mathbb {H}[x]]]></fr:tex> be the free Heyting algebra with one generator. The spectrum <fr:tex display="inline"><![CDATA[\operatorname {Spec}\mathbb {H}[x]]]></fr:tex> as a topological space is the Rieger-Nishimura laddar,
+  Let <fr:tex display="inline"><![CDATA[\mathbb {H}[x]]]></fr:tex> be the free Heyting algebra with one generator, usually called the <html:em>Rieger-Nishmura algebra</html:em>, as shown on the left below. The spectrum <fr:tex display="inline"><![CDATA[\operatorname {Spec}\mathbb {H}[x]]]></fr:tex> as a topological space is the <html:em>Rieger-Nishimura laddar</html:em> shown to the right,
   
-  <html:figure><fr:resource hash="60df66fe9011fe0e2aa3524d84c026e9"><fr:resource-content><html:img src="/60df66fe9011fe0e2aa3524d84c026e9.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[\usepackage {tikz-cd}\usepackage {quiver}]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+  <html:figure><fr:resource hash="6faf3893422775666ab676b68ada0727"><fr:resource-content><html:img src="/6faf3893422775666ab676b68ada0727.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[\usepackage {tikz-cd}\usepackage {quiver}]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
   \begin {tikzcd}
-    \bullet  && \bullet  \\
-    \bullet  && \bullet  \\
-    \bullet  && \bullet  \\
-    \bullet  && \bullet  \\
-    \vdots  && \vdots  \\
-    & \bullet 
-    \arrow [from=2-1, to=1-1]
-    \arrow [from=2-1, to=1-3]
-    \arrow [from=2-3, to=1-3]
-    \arrow [from=3-1, to=2-1]
-    \arrow [from=3-1, to=2-3]
-    \arrow [from=3-3, to=1-1]
-    \arrow [from=3-3, to=2-3]
+    & {\mathbb {H}[x]} && {\mathrm {Spec}\,\mathbb {H}[x]} \\
+    & 1 && \bullet  & \bullet  \\
+    \vdots  & \vdots  && \bullet  & \bullet  \\
+    {\neg \neg  x \to  x} & {\neg  x \vee  \neg \neg  x} && \bullet  & \bullet  \\
+    {x \vee  \neg  x} & {\neg \neg  x} && \bullet  & \bullet  \\
+    {\neg  x} & x && \vdots  & \vdots  \\
+    0 &&& \bot 
+    \arrow [from=3-1, to=2-2]
+    \arrow [from=3-2, to=2-2]
+    \arrow [from=3-4, to=2-4]
+    \arrow [from=3-4, to=2-5]
+    \arrow [from=3-5, to=2-5]
     \arrow [from=4-1, to=3-1]
-    \arrow [from=4-1, to=3-3]
-    \arrow [from=4-3, to=2-1]
-    \arrow [from=4-3, to=3-3]
+    \arrow [from=4-2, to=3-1]
+    \arrow [from=4-2, to=3-2]
+    \arrow [from=4-4, to=3-4]
+    \arrow [from=4-4, to=3-5]
+    \arrow [from=4-5, to=2-4]
+    \arrow [from=4-5, to=3-5]
     \arrow [from=5-1, to=4-1]
-    \arrow [from=5-1, to=4-3]
-    \arrow [from=5-3, to=3-1]
-    \arrow [from=5-3, to=4-3]
+    \arrow [from=5-1, to=4-2]
+    \arrow [from=5-2, to=4-2]
+    \arrow [from=5-4, to=4-4]
+    \arrow [from=5-4, to=4-5]
+    \arrow [from=5-5, to=3-4]
+    \arrow [from=5-5, to=4-5]
+    \arrow [from=6-1, to=5-1]
     \arrow [from=6-2, to=5-1]
-    \arrow [from=6-2, to=5-3]
+    \arrow [from=6-2, to=5-2]
+    \arrow [from=6-4, to=5-4]
+    \arrow [from=6-4, to=5-5]
+    \arrow [from=6-5, to=4-4]
+    \arrow [from=6-5, to=5-5]
+    \arrow [from=7-1, to=6-1]
+    \arrow [from=7-1, to=6-2]
+    \arrow [from=7-4, to=6-4]
+    \arrow [from=7-4, to=6-5]
   \end {tikzcd}
   ]]></fr:resource-source></fr:resource></html:figure>
 
-  It has a unique non-standard <fr:link href="/schm-8ES8/" title="Open subschemes and open immersion" uri="https://charloced.github.io/schm-8ES8/" display-uri="schm-8ES8" type="local">open subscheme</fr:link>, which we denote as <fr:tex display="inline"><![CDATA[\operatorname {Spec}\mathbb {H}[x]_+ = \operatorname {Spec}\mathbb {H}[x]-\{\bot \}]]></fr:tex>, where <fr:tex display="inline"><![CDATA[\bot ]]></fr:tex> is the generic point of <fr:tex display="inline"><![CDATA[\operatorname {Spec}\mathbb {H}[x]]]></fr:tex>. The open subscheme <fr:tex display="inline"><![CDATA[\operatorname {Spec}\mathbb {H}[x]]]></fr:tex> is <html:em>not compact</html:em>, hence it is not affine.
+  <fr:tex display="inline"><![CDATA[\operatorname {Spec}\mathbb {H}[x]]]></fr:tex> has a unique non-standard <fr:link href="/schm-8ES8/" title="Open subschemes and open immersion" uri="https://charloced.github.io/schm-8ES8/" display-uri="schm-8ES8" type="local">open subscheme</fr:link>, which we denote as <fr:tex display="inline"><![CDATA[\operatorname {Spec}\mathbb {H}[x]_+ = \operatorname {Spec}\mathbb {H}[x]-\{\bot \}]]></fr:tex>, where <fr:tex display="inline"><![CDATA[\bot ]]></fr:tex> is the generic point of <fr:tex display="inline"><![CDATA[\operatorname {Spec}\mathbb {H}[x]]]></fr:tex>. The open subscheme <fr:tex display="inline"><![CDATA[\operatorname {Spec}\mathbb {H}[x]_+]]></fr:tex> is <html:em>not compact</html:em>, hence it is not affine.
 </html:p>
             <html:p>
   In fact, we can compute the global section of <fr:tex display="inline"><![CDATA[\operatorname {Spec}\mathbb {H}[x]_+]]></fr:tex>. Under <fr:link href="/idem-comm-HLDT/" title="Frame of opens of spectra" uri="https://charloced.github.io/idem-comm-HLDT/" display-uri="idem-comm-HLDT" type="local">Proposition <fr:contextual-number uri="https://charloced.github.io/idem-comm-HLDT/" display-uri="idem-comm-HLDT" /></fr:link>, it as an open subset corresponds to the maximal ideal <fr:tex display="inline"><![CDATA[M = \mathbb {H}[x]-\{1\}]]></fr:tex>. This way under <fr:link href="/schm-5L35/" title="Structural sheaf on a general open" uri="https://charloced.github.io/schm-5L35/" display-uri="schm-5L35" type="local">Proposition <fr:contextual-number uri="https://charloced.github.io/schm-5L35/" display-uri="schm-5L35" /></fr:link>,

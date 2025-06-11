@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/">
+  <fr:frontmatter>
+    <fr:authors />
+    <fr:date>
+      <fr:year>2025</fr:year>
+      <fr:month>6</fr:month>
+      <fr:day>11</fr:day>
+    </fr:date>
+    <fr:uri>https://charloced.github.io/idem-comm-A6ON/</fr:uri>
+    <fr:display-uri>idem-comm-A6ON</fr:display-uri>
+    <fr:route>/idem-comm-A6ON/</fr:route>
+    <fr:title text="Pushouts of algebras are tensor products">Pushouts of algebras are tensor products</fr:title>
+    <fr:taxon>Proposition</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter><html:p>
+  Let <fr:tex display="inline"><![CDATA[A,B]]></fr:tex> be two <fr:tex display="inline"><![CDATA[D]]></fr:tex>-algebras. Then the <fr:link href="/idem-comm-SG6C/" title="Tensor products of distributive lattices" uri="https://charloced.github.io/idem-comm-SG6C/" display-uri="idem-comm-SG6C" type="local">tensor product</fr:link> <fr:tex display="inline"><![CDATA[A \otimes _D B]]></fr:tex> is the pushout in <html:strong>DL</html:strong>:
+  
+  <html:figure><fr:resource hash="9b3f00e1f4661f9bb4dd724a5da45f3d"><fr:resource-content><html:img src="/9b3f00e1f4661f9bb4dd724a5da45f3d.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[\usepackage {tikz-cd}\usepackage {quiver}]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+    \begin {tikzcd}
+      D \ar [r, "f"] \ar [d, "g"'] & A \ar [d] \\ 
+      B \ar [r] & A \otimes _D B
+      \arrow [{"\lrcorner "{anchor = center, pos = 0.125, rotate=180}, draw = none, from=2-2, to=1-1}]
+    \end {tikzcd}
+  ]]></fr:resource-source></fr:resource></html:figure></html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>11</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  Given <fr:tex display="inline"><![CDATA[u : A \to  C]]></fr:tex> and <fr:tex display="inline"><![CDATA[v : B \to  C]]></fr:tex> with <fr:tex display="inline"><![CDATA[uf = vg]]></fr:tex>, we construct a map 
+  <fr:tex display="block"><![CDATA[ [u,v] : A \otimes _D B \to  C ]]></fr:tex>
+  by sending a generator <fr:tex display="inline"><![CDATA[a \otimes  b]]></fr:tex> to <fr:tex display="inline"><![CDATA[ua \wedge  vb]]></fr:tex>. We need to show this respects the congruence of the <fr:link href="/idem-comm-SG6C/" title="Tensor products of distributive lattices" uri="https://charloced.github.io/idem-comm-SG6C/" display-uri="idem-comm-SG6C" type="local">tensor product</fr:link>:
+  <html:ol><html:li><fr:tex display="inline"><![CDATA[[u,v](a \otimes  0) = ua \wedge  v0 = 0 = [u,v]]]></fr:tex>, and similarly for <fr:tex display="inline"><![CDATA[0 \otimes  b]]></fr:tex>. </html:li>
+    <html:li><fr:tex display="inline"><![CDATA[[u,v](a \vee  a' \otimes  b) = u(a \vee  a') \wedge  vb = (ua \wedge  vb) \vee  (ua' \wedge  vb) = [u,v](a \otimes  b \vee  a' \otimes  b)]]></fr:tex>, and similarly for <fr:tex display="inline"><![CDATA[a \otimes  b\vee  b']]></fr:tex>.</html:li>
+    <html:li><fr:tex display="inline"><![CDATA[[u,v][aa' \otimes  bb'] = u(aa') \wedge  v(bb') = ua \wedge  ua' \wedge  vb \wedge  vb' = [u,v](a\otimes  b \wedge  a' \otimes  b')]]></fr:tex>. </html:li>
+    <html:li><fr:tex display="inline"><![CDATA[[u,v](ad \otimes  b) = ua \wedge  ufd \wedge  vb = ua \wedge  vgd \wedge  vb = [u,v](a \otimes  db)]]></fr:tex>. </html:li></html:ol>
+  Hence, the map <fr:tex display="inline"><![CDATA[[u,v]]]></fr:tex> is well-defined, and in fact uniquely determined by the two inclusions <fr:tex display="inline"><![CDATA[A \to  A \otimes _DB]]></fr:tex> and <fr:tex display="inline"><![CDATA[B \to  A \otimes _DB]]></fr:tex>.
+</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/lingyuan/" title="Lingyuan Ye" uri="https://charloced.github.io/lingyuan/" display-uri="lingyuan" type="local">Lingyuan Ye</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>11</fr:day>
+            </fr:date>
+            <fr:uri>https://charloced.github.io/idem-comm-A967/</fr:uri>
+            <fr:display-uri>idem-comm-A967</fr:display-uri>
+            <fr:route>/idem-comm-A967/</fr:route>
+            <fr:title text="Colimits of algebras">Colimits of algebras</fr:title>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>11</fr:day>
+                </fr:date>
+                <fr:uri>https://charloced.github.io/idem-comm-SG6C/</fr:uri>
+                <fr:display-uri>idem-comm-SG6C</fr:display-uri>
+                <fr:route>/idem-comm-SG6C/</fr:route>
+                <fr:title text="Tensor products of distributive lattices">Tensor products of distributive lattices</fr:title>
+                <fr:taxon>Construction</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+  Let <fr:tex display="inline"><![CDATA[A,B]]></fr:tex> be two <fr:tex display="inline"><![CDATA[D]]></fr:tex>-algebras, i.e. with maps <fr:tex display="inline"><![CDATA[D \to  A]]></fr:tex> and <fr:tex display="inline"><![CDATA[D \to  B]]></fr:tex>. The <html:em>tensor product</html:em> over <fr:tex display="inline"><![CDATA[D]]></fr:tex>, denoted as <fr:tex display="inline"><![CDATA[A \otimes _D B]]></fr:tex>, is generated by <fr:tex display="inline"><![CDATA[a \otimes  b]]></fr:tex> for any <fr:tex display="inline"><![CDATA[a\in  A]]></fr:tex> and <fr:tex display="inline"><![CDATA[b \in  B]]></fr:tex>, subject to:
+  <html:ol><html:li>The congruence specifies joins are bilinear in each variable,
+    <fr:tex display="block"><![CDATA[ a \otimes  0 \sim  0 \sim  0 \otimes  b ]]></fr:tex>
+    and that 
+    <fr:tex display="block"><![CDATA[ (a \vee  a') \otimes  b \sim  a \otimes  b \vee  a' \otimes  b, \quad  a \otimes  (b \vee  b') \sim  a \otimes  b \vee  a \otimes  b'. ]]></fr:tex></html:li>
+    <html:li>The meets are pointwise,
+    <fr:tex display="block"><![CDATA[ a \otimes  b \wedge  a' \otimes  b' \sim  aa' \otimes  bb'. ]]></fr:tex></html:li>
+    <html:li>This tensor is distributive for <fr:tex display="inline"><![CDATA[D]]></fr:tex>,
+    <fr:tex display="block"><![CDATA[ ad \otimes  b \sim  a \otimes  db. ]]></fr:tex></html:li></html:ol></html:p>
+                <html:p>
+  We also have two inclusions <fr:tex display="inline"><![CDATA[A \to  A \otimes _D B]]></fr:tex> and <fr:tex display="inline"><![CDATA[B \to  A \otimes _DB]]></fr:tex>, sending <fr:tex display="inline"><![CDATA[a\in  A,b\in  B]]></fr:tex> to 
+  <fr:tex display="block"><![CDATA[ a \mapsto  a \otimes  1, \quad  b \mapsto  1 \otimes  b. ]]></fr:tex>
+  It is easy to verify these are distributive lattice morphisms.
+</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>11</fr:day>
+                </fr:date>
+                <fr:uri>https://charloced.github.io/idem-comm-A6ON/</fr:uri>
+                <fr:display-uri>idem-comm-A6ON</fr:display-uri>
+                <fr:route>/idem-comm-A6ON/</fr:route>
+                <fr:title text="Pushouts of algebras are tensor products">Pushouts of algebras are tensor products</fr:title>
+                <fr:taxon>Proposition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter><html:p>
+  Let <fr:tex display="inline"><![CDATA[A,B]]></fr:tex> be two <fr:tex display="inline"><![CDATA[D]]></fr:tex>-algebras. Then the <fr:link href="/idem-comm-SG6C/" title="Tensor products of distributive lattices" uri="https://charloced.github.io/idem-comm-SG6C/" display-uri="idem-comm-SG6C" type="local">tensor product</fr:link> <fr:tex display="inline"><![CDATA[A \otimes _D B]]></fr:tex> is the pushout in <html:strong>DL</html:strong>:
+  
+  <html:figure><fr:resource hash="9b3f00e1f4661f9bb4dd724a5da45f3d"><fr:resource-content><html:img src="/9b3f00e1f4661f9bb4dd724a5da45f3d.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[\usepackage {tikz-cd}\usepackage {quiver}]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+    \begin {tikzcd}
+      D \ar [r, "f"] \ar [d, "g"'] & A \ar [d] \\ 
+      B \ar [r] & A \otimes _D B
+      \arrow [{"\lrcorner "{anchor = center, pos = 0.125, rotate=180}, draw = none, from=2-2, to=1-1}]
+    \end {tikzcd}
+  ]]></fr:resource-source></fr:resource></html:figure></html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>11</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  Given <fr:tex display="inline"><![CDATA[u : A \to  C]]></fr:tex> and <fr:tex display="inline"><![CDATA[v : B \to  C]]></fr:tex> with <fr:tex display="inline"><![CDATA[uf = vg]]></fr:tex>, we construct a map 
+  <fr:tex display="block"><![CDATA[ [u,v] : A \otimes _D B \to  C ]]></fr:tex>
+  by sending a generator <fr:tex display="inline"><![CDATA[a \otimes  b]]></fr:tex> to <fr:tex display="inline"><![CDATA[ua \wedge  vb]]></fr:tex>. We need to show this respects the congruence of the <fr:link href="/idem-comm-SG6C/" title="Tensor products of distributive lattices" uri="https://charloced.github.io/idem-comm-SG6C/" display-uri="idem-comm-SG6C" type="local">tensor product</fr:link>:
+  <html:ol><html:li><fr:tex display="inline"><![CDATA[[u,v](a \otimes  0) = ua \wedge  v0 = 0 = [u,v]]]></fr:tex>, and similarly for <fr:tex display="inline"><![CDATA[0 \otimes  b]]></fr:tex>. </html:li>
+    <html:li><fr:tex display="inline"><![CDATA[[u,v](a \vee  a' \otimes  b) = u(a \vee  a') \wedge  vb = (ua \wedge  vb) \vee  (ua' \wedge  vb) = [u,v](a \otimes  b \vee  a' \otimes  b)]]></fr:tex>, and similarly for <fr:tex display="inline"><![CDATA[a \otimes  b\vee  b']]></fr:tex>.</html:li>
+    <html:li><fr:tex display="inline"><![CDATA[[u,v][aa' \otimes  bb'] = u(aa') \wedge  v(bb') = ua \wedge  ua' \wedge  vb \wedge  vb' = [u,v](a\otimes  b \wedge  a' \otimes  b')]]></fr:tex>. </html:li>
+    <html:li><fr:tex display="inline"><![CDATA[[u,v](ad \otimes  b) = ua \wedge  ufd \wedge  vb = ua \wedge  vgd \wedge  vb = [u,v](a \otimes  db)]]></fr:tex>. </html:li></html:ol>
+  Hence, the map <fr:tex display="inline"><![CDATA[[u,v]]]></fr:tex> is well-defined, and in fact uniquely determined by the two inclusions <fr:tex display="inline"><![CDATA[A \to  A \otimes _DB]]></fr:tex> and <fr:tex display="inline"><![CDATA[B \to  A \otimes _DB]]></fr:tex>.
+</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+            </fr:tree>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>11</fr:day>
+            </fr:date>
+            <fr:uri>https://charloced.github.io/schm-S9SD/</fr:uri>
+            <fr:display-uri>schm-S9SD</fr:display-uri>
+            <fr:route>/schm-S9SD/</fr:route>
+            <fr:title text="Fibre products of schemes are topological">Fibre products of schemes are topological</fr:title>
+            <fr:taxon>Theorem</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>
+  Let <fr:tex display="inline"><![CDATA[X,Y,S]]></fr:tex> be <fr:link href="/schm-86OJ/" title="Scheme" uri="https://charloced.github.io/schm-86OJ/" display-uri="schm-86OJ" type="local">schemes</fr:link> with morphisms <fr:tex display="inline"><![CDATA[f : X \to  S]]></fr:tex> and <fr:tex display="inline"><![CDATA[g : Y \to  S]]></fr:tex>. Then the pullback <fr:tex display="inline"><![CDATA[X \times _S Y]]></fr:tex> exists in the category of schemes, and its underlying topological space is the pullback in the category of topological spaces.
+</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>11</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <html:p>
+    The existence of the fibre products follows from the usual gluing argument for schemes, and reduces to the fibre products of affine schemes. For affine schemes, the fibre products are computed by the spectrum of <fr:link href="/idem-comm-A6ON/" title="Pushouts of algebras are tensor products" uri="https://charloced.github.io/idem-comm-A6ON/" display-uri="idem-comm-A6ON" type="local">pushouts</fr:link>, because we have seen from <fr:link href="/schm-X3M9/" title="Universal property of spectra" uri="https://charloced.github.io/schm-X3M9/" display-uri="schm-X3M9" type="local">Theorem <fr:contextual-number uri="https://charloced.github.io/schm-X3M9/" display-uri="schm-X3M9" /></fr:link> <fr:tex display="inline"><![CDATA[\operatorname {Spec}]]></fr:tex> is a right adjoint.
+  </html:p>
+  <html:p />
+</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>11</fr:day>
+            </fr:date>
+            <fr:uri>https://charloced.github.io/idem-comm-SG6C/</fr:uri>
+            <fr:display-uri>idem-comm-SG6C</fr:display-uri>
+            <fr:route>/idem-comm-SG6C/</fr:route>
+            <fr:title text="Tensor products of distributive lattices">Tensor products of distributive lattices</fr:title>
+            <fr:taxon>Construction</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  Let <fr:tex display="inline"><![CDATA[A,B]]></fr:tex> be two <fr:tex display="inline"><![CDATA[D]]></fr:tex>-algebras, i.e. with maps <fr:tex display="inline"><![CDATA[D \to  A]]></fr:tex> and <fr:tex display="inline"><![CDATA[D \to  B]]></fr:tex>. The <html:em>tensor product</html:em> over <fr:tex display="inline"><![CDATA[D]]></fr:tex>, denoted as <fr:tex display="inline"><![CDATA[A \otimes _D B]]></fr:tex>, is generated by <fr:tex display="inline"><![CDATA[a \otimes  b]]></fr:tex> for any <fr:tex display="inline"><![CDATA[a\in  A]]></fr:tex> and <fr:tex display="inline"><![CDATA[b \in  B]]></fr:tex>, subject to:
+  <html:ol><html:li>The congruence specifies joins are bilinear in each variable,
+    <fr:tex display="block"><![CDATA[ a \otimes  0 \sim  0 \sim  0 \otimes  b ]]></fr:tex>
+    and that 
+    <fr:tex display="block"><![CDATA[ (a \vee  a') \otimes  b \sim  a \otimes  b \vee  a' \otimes  b, \quad  a \otimes  (b \vee  b') \sim  a \otimes  b \vee  a \otimes  b'. ]]></fr:tex></html:li>
+    <html:li>The meets are pointwise,
+    <fr:tex display="block"><![CDATA[ a \otimes  b \wedge  a' \otimes  b' \sim  aa' \otimes  bb'. ]]></fr:tex></html:li>
+    <html:li>This tensor is distributive for <fr:tex display="inline"><![CDATA[D]]></fr:tex>,
+    <fr:tex display="block"><![CDATA[ ad \otimes  b \sim  a \otimes  db. ]]></fr:tex></html:li></html:ol></html:p>
+            <html:p>
+  We also have two inclusions <fr:tex display="inline"><![CDATA[A \to  A \otimes _D B]]></fr:tex> and <fr:tex display="inline"><![CDATA[B \to  A \otimes _DB]]></fr:tex>, sending <fr:tex display="inline"><![CDATA[a\in  A,b\in  B]]></fr:tex> to 
+  <fr:tex display="block"><![CDATA[ a \mapsto  a \otimes  1, \quad  b \mapsto  1 \otimes  b. ]]></fr:tex>
+  It is easy to verify these are distributive lattice morphisms.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

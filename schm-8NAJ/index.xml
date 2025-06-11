@@ -284,13 +284,13 @@
   For instance, for the poset <fr:tex display="inline"><![CDATA[\overline {\omega }]]></fr:tex>, its spectral space is simply <fr:tex display="inline"><![CDATA[\overline {\omega }^{\mathrm {op}}]]></fr:tex> with the Alexandroff topology,
   
   
-  <html:figure><fr:resource hash="cd94a92757930b493ba04cb20dd705ac"><fr:resource-content><html:img src="/cd94a92757930b493ba04cb20dd705ac.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[\usepackage {tikz-cd}\usepackage {quiver}]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+  <html:figure><fr:resource hash="f9e7ca13f9b2b691bff4553216820f02"><fr:resource-content><html:img src="/f9e7ca13f9b2b691bff4553216820f02.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[\usepackage {tikz-cd}\usepackage {quiver}]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
   \begin {tikzcd}
     {\overline {\omega }} && {\mathrm {Spec}\ \overline {\omega }} \\
-    \bullet  && \bullet  \\
+    \bullet  && \top  \\
     \vdots  && \bullet  \\
     \bullet  && \vdots  \\
-    \bullet  && \bullet 
+    \bullet  && \bot 
     \arrow [from=3-1, to=2-1]
     \arrow [from=3-3, to=2-3]
     \arrow [from=4-1, to=3-1]

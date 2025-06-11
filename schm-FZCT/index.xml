@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/">
+  <fr:frontmatter>
+    <fr:authors />
+    <fr:date>
+      <fr:year>2025</fr:year>
+      <fr:month>6</fr:month>
+      <fr:day>11</fr:day>
+    </fr:date>
+    <fr:uri>https://charloced.github.io/schm-FZCT/</fr:uri>
+    <fr:display-uri>schm-FZCT</fr:display-uri>
+    <fr:route>/schm-FZCT/</fr:route>
+    <fr:title text="Heyting and Boolean schemes">Heyting and Boolean schemes</fr:title>
+    <fr:taxon>Definition</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <html:p>
+  We say a scheme <fr:tex display="inline"><![CDATA[X]]></fr:tex> is <html:em>Heyting/Boolean</html:em> if there is an affine open cover <fr:tex display="inline"><![CDATA[\{\operatorname {Spec} A_i\}_{i\in  I}]]></fr:tex> of <fr:tex display="inline"><![CDATA[X]]></fr:tex> where each <fr:tex display="inline"><![CDATA[A_i]]></fr:tex> is Heyting/Boolean. Equivalently by <fr:link href="/schm-LL5B/" title="Being Heyting/Boolean is affine local" uri="https://charloced.github.io/schm-LL5B/" display-uri="schm-LL5B" type="local">Lemma <fr:contextual-number uri="https://charloced.github.io/schm-LL5B/" display-uri="schm-LL5B" /></fr:link>, this means all affine open of <fr:tex display="inline"><![CDATA[X]]></fr:tex> will be Heyting/Boolean.
+</html:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/lingyuan/" title="Lingyuan Ye" uri="https://charloced.github.io/lingyuan/" display-uri="lingyuan" type="local">Lingyuan Ye</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>11</fr:day>
+            </fr:date>
+            <fr:uri>https://charloced.github.io/schm-V62C/</fr:uri>
+            <fr:display-uri>schm-V62C</fr:display-uri>
+            <fr:route>/schm-V62C/</fr:route>
+            <fr:title text="Heyting conditions">Heyting conditions</fr:title>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>11</fr:day>
+                </fr:date>
+                <fr:uri>https://charloced.github.io/schm-LL5B/</fr:uri>
+                <fr:display-uri>schm-LL5B</fr:display-uri>
+                <fr:route>/schm-LL5B/</fr:route>
+                <fr:title text="Being Heyting/Boolean is affine local">Being Heyting/Boolean is affine local</fr:title>
+                <fr:taxon>Lemma</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter><html:p>
+  The property of an affine open <fr:tex display="inline"><![CDATA[\operatorname {Spec} A]]></fr:tex> of <fr:tex display="inline"><![CDATA[X]]></fr:tex> that <fr:tex display="inline"><![CDATA[A]]></fr:tex> is a <html:em>Heyting algebra</html:em> or a <html:em>Boolean algebra</html:em> is <fr:link href="/schm-C6GR/" title="Affine local properties" uri="https://charloced.github.io/schm-C6GR/" display-uri="schm-C6GR" type="local">affine local</fr:link>.
+</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>11</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <html:p> Evidently if <fr:tex display="inline"><![CDATA[A]]></fr:tex> is a Heyting algebra then so is <fr:tex display="inline"><![CDATA[A/a]]></fr:tex> for any <fr:tex display="inline"><![CDATA[a\in  A]]></fr:tex>.</html:p> 
+
+  <html:p>
+    Now suppose we have <fr:tex display="inline"><![CDATA[\bigvee _{i\in  I}a_i = 1]]></fr:tex> with each <fr:tex display="inline"><![CDATA[A_i := A/a_i]]></fr:tex> a Heyting algebra. We will write abbreviate the localisation <fr:tex display="inline"><![CDATA[A \twoheadrightarrow  A/a_i]]></fr:tex> simply as <fr:tex display="inline"><![CDATA[(-)_i := a_i \wedge  (-)]]></fr:tex>. For any <fr:tex display="inline"><![CDATA[x,y \in  A]]></fr:tex>, we define
+    <fr:tex display="block"><![CDATA[ x \to  y := \bigvee _{i\in  I} x_i \to _i y_i, ]]></fr:tex>
+    where <fr:tex display="inline"><![CDATA[\to _i]]></fr:tex> is the Heyting implication in <fr:tex display="inline"><![CDATA[A_i]]></fr:tex>. This is evidently monotone on <fr:tex display="inline"><![CDATA[y]]></fr:tex>. Hence, to show <fr:tex display="inline"><![CDATA[x \to  (-)]]></fr:tex> is the right adjoint of <fr:tex display="inline"><![CDATA[x \wedge  -]]></fr:tex>, it suffices to give the unit and counit. 
+  </html:p>
+
+  <html:p>
+    For <fr:tex display="inline"><![CDATA[y\in  A]]></fr:tex>, the counit requires
+    <fr:tex display="block"><![CDATA[ x \wedge  (x \to  y) \le  y. ]]></fr:tex>
+    Notice that by construction,
+    <fr:tex display="block"><![CDATA[ x_i \to _i y_i \le  a_i. ]]></fr:tex>
+    This way, using the counit of each <fr:tex display="inline"><![CDATA[\to _i]]></fr:tex>, we have
+    <fr:tex display="block"><![CDATA[ 
+      \begin {align*}
+        x \wedge  (x_i \to _i y_i) 
+        &= x \wedge  a_i \wedge  (x_i \to _i y_i) \\
+        &= x_i \wedge  (x_i \to _i y_i) \\
+        &\le  x_i \wedge  y_i
+      \end {align*}
+    ]]></fr:tex>
+    It follows that
+    <fr:tex display="block"><![CDATA[ x \wedge  (x \to  y) = \bigvee _{i\in  I} x \wedge  (x_i \to _i y_i) \le  \bigvee _{i\in  I}x_i \wedge  y_i \le  y. ]]></fr:tex></html:p>
+  <html:p>
+    For the unit, it requires
+    <fr:tex display="block"><![CDATA[ y \le  x \to  (x \wedge  y). ]]></fr:tex>
+    By construction, using the unit for each <fr:tex display="inline"><![CDATA[\to _i]]></fr:tex>, we have
+    <fr:tex display="block"><![CDATA[
+      \begin {align*}
+        y 
+        &= \bigvee _{i\in  I} y_i \\ 
+        &\le  \bigvee _{i\in  I} x_i \to _i (x_i \wedge  y_i) \\ 
+        &= x \to  (x \wedge  y)
+      \end {align*}
+    ]]></fr:tex></html:p>
+  <html:p>
+    The case for Boolean algebras is trivial.
+  </html:p>
+</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>11</fr:day>
+                </fr:date>
+                <fr:uri>https://charloced.github.io/schm-FZCT/</fr:uri>
+                <fr:display-uri>schm-FZCT</fr:display-uri>
+                <fr:route>/schm-FZCT/</fr:route>
+                <fr:title text="Heyting and Boolean schemes">Heyting and Boolean schemes</fr:title>
+                <fr:taxon>Definition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+  We say a scheme <fr:tex display="inline"><![CDATA[X]]></fr:tex> is <html:em>Heyting/Boolean</html:em> if there is an affine open cover <fr:tex display="inline"><![CDATA[\{\operatorname {Spec} A_i\}_{i\in  I}]]></fr:tex> of <fr:tex display="inline"><![CDATA[X]]></fr:tex> where each <fr:tex display="inline"><![CDATA[A_i]]></fr:tex> is Heyting/Boolean. Equivalently by <fr:link href="/schm-LL5B/" title="Being Heyting/Boolean is affine local" uri="https://charloced.github.io/schm-LL5B/" display-uri="schm-LL5B" type="local">Lemma <fr:contextual-number uri="https://charloced.github.io/schm-LL5B/" display-uri="schm-LL5B" /></fr:link>, this means all affine open of <fr:tex display="inline"><![CDATA[X]]></fr:tex> will be Heyting/Boolean.
+</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>11</fr:day>
+                </fr:date>
+                <fr:uri>https://charloced.github.io/schm-O5GA/</fr:uri>
+                <fr:display-uri>schm-O5GA</fr:display-uri>
+                <fr:route>/schm-O5GA/</fr:route>
+                <fr:title text="Internal characterisation of being Heyting">Internal characterisation of being Heyting</fr:title>
+                <fr:taxon>Proposition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter><html:p>
+  A scheme <fr:tex display="inline"><![CDATA[X]]></fr:tex> is <fr:link href="/schm-FZCT/" title="Heyting and Boolean schemes" uri="https://charloced.github.io/schm-FZCT/" display-uri="schm-FZCT" type="local">Heyting/Boolean</fr:link> iff <fr:tex display="inline"><![CDATA[\mathcal {O}_{X}]]></fr:tex> is internally a Heyting/Boolean algebra.
+</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>11</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <html:p>
+    If <fr:tex display="inline"><![CDATA[\mathcal {O}_{X}]]></fr:tex> is a Heyting algebra, then we have an explicit morphism
+    <fr:tex display="block"><![CDATA[ (-) \to  (-) : \mathcal {O}_{X}^{\mathrm {op}} \times  \mathcal {O}_{X} \to  \mathcal {O}_{X} ]]></fr:tex>
+    over <fr:tex display="inline"><![CDATA[X]]></fr:tex>. This induces an implication operator on each affine open <fr:tex display="inline"><![CDATA[\operatorname {Spec} A]]></fr:tex> of <fr:tex display="inline"><![CDATA[X]]></fr:tex>, which must be the implication operator, since when we have a function symbol, being the implication operator is an equational property. This implies <fr:tex display="inline"><![CDATA[X]]></fr:tex> must be Heyting.
+  </html:p>
+  <html:p>
+    On the other hand, if <fr:tex display="inline"><![CDATA[X]]></fr:tex> is Heyting, then for any affine open <fr:tex display="inline"><![CDATA[\operatorname {Spec} A]]></fr:tex> there is a Heyting implication
+    <fr:tex display="block"><![CDATA[ (-) \to _A (-) : \mathcal {O}_{X}(\operatorname {Spec} A)^{\mathrm {op}} \times  \mathcal {O}_{X}(\operatorname {Spec} A) \cong  A^{\mathrm {op}} \times  A \to  A \cong  \mathcal {O}_{X}(\operatorname {Spec} A) ]]></fr:tex>
+    Furthermore, they must agree on intersections because the implication is uniquely determined. This way all the local implications glue together to provide an implication for <fr:tex display="inline"><![CDATA[\mathcal {O}_{X}]]></fr:tex>, and it will be the internal Heyting implication by the Kripke-Joyal semantics.
+  </html:p>
+</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>11</fr:day>
+                </fr:date>
+                <fr:uri>https://charloced.github.io/schm-VYJD/</fr:uri>
+                <fr:display-uri>schm-VYJD</fr:display-uri>
+                <fr:route>/schm-VYJD/</fr:route>
+                <fr:title text="Can being Heyting checked on stalks?">Can being Heyting checked on stalks?</fr:title>
+                <fr:taxon>Remark</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+  We know from <fr:link href="/schm-LL5B/" title="Being Heyting/Boolean is affine local" uri="https://charloced.github.io/schm-LL5B/" display-uri="schm-LL5B" type="local">Lemma <fr:contextual-number uri="https://charloced.github.io/schm-LL5B/" display-uri="schm-LL5B" /></fr:link> that being Heyting is affine local. Furthermore, if <fr:tex display="inline"><![CDATA[X]]></fr:tex> is a <fr:link href="/schm-FZCT/" title="Heyting and Boolean schemes" uri="https://charloced.github.io/schm-FZCT/" display-uri="schm-FZCT" type="local">Heyting scheme</fr:link>, then evidently for any <fr:tex display="inline"><![CDATA[x\in  X]]></fr:tex>, the stalk <fr:tex display="inline"><![CDATA[\mathcal {O}_{X,x}]]></fr:tex> is a local Heyting algebra. However, is the converse true, i.e. is being Heyting a <fr:link href="/schm-HE7H/" title="Stalk local properties" uri="https://charloced.github.io/schm-HE7H/" display-uri="schm-HE7H" type="local">stalk local</fr:link> property?
+</html:p>
+                <html:p>
+  The related question for Boolean algebras is positive, since being Boolean is <html:em>geometric</html:em>, i.e. for a sheaf of distributive lattice <fr:tex display="inline"><![CDATA[\mathcal {O}_{X}]]></fr:tex> over <fr:tex display="inline"><![CDATA[X]]></fr:tex>, it is Boolean iff it satisfies the following geometric sequent,
+  <fr:tex display="block"><![CDATA[ \top  \vdash _{x\in \mathcal {O}_{X}} \exists  y \in  \mathcal {O}_{X}.\  (x \wedge  y = 0) \wedge  (x \vee  y = 1) ]]></fr:tex>
+  However, it seems to be quite hard to come up with a geometric description of being Heyting. This ultimately reduces to an <fr:link href="/idem-comm-I4FM/" title="A criteria of being Heyting" uri="https://charloced.github.io/idem-comm-I4FM/" display-uri="idem-comm-I4FM" type="local">algebraic problem</fr:link>.
+</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>11</fr:day>
+            </fr:date>
+            <fr:uri>https://charloced.github.io/schm-O5GA/</fr:uri>
+            <fr:display-uri>schm-O5GA</fr:display-uri>
+            <fr:route>/schm-O5GA/</fr:route>
+            <fr:title text="Internal characterisation of being Heyting">Internal characterisation of being Heyting</fr:title>
+            <fr:taxon>Proposition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>
+  A scheme <fr:tex display="inline"><![CDATA[X]]></fr:tex> is <fr:link href="/schm-FZCT/" title="Heyting and Boolean schemes" uri="https://charloced.github.io/schm-FZCT/" display-uri="schm-FZCT" type="local">Heyting/Boolean</fr:link> iff <fr:tex display="inline"><![CDATA[\mathcal {O}_{X}]]></fr:tex> is internally a Heyting/Boolean algebra.
+</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>11</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <html:p>
+    If <fr:tex display="inline"><![CDATA[\mathcal {O}_{X}]]></fr:tex> is a Heyting algebra, then we have an explicit morphism
+    <fr:tex display="block"><![CDATA[ (-) \to  (-) : \mathcal {O}_{X}^{\mathrm {op}} \times  \mathcal {O}_{X} \to  \mathcal {O}_{X} ]]></fr:tex>
+    over <fr:tex display="inline"><![CDATA[X]]></fr:tex>. This induces an implication operator on each affine open <fr:tex display="inline"><![CDATA[\operatorname {Spec} A]]></fr:tex> of <fr:tex display="inline"><![CDATA[X]]></fr:tex>, which must be the implication operator, since when we have a function symbol, being the implication operator is an equational property. This implies <fr:tex display="inline"><![CDATA[X]]></fr:tex> must be Heyting.
+  </html:p>
+  <html:p>
+    On the other hand, if <fr:tex display="inline"><![CDATA[X]]></fr:tex> is Heyting, then for any affine open <fr:tex display="inline"><![CDATA[\operatorname {Spec} A]]></fr:tex> there is a Heyting implication
+    <fr:tex display="block"><![CDATA[ (-) \to _A (-) : \mathcal {O}_{X}(\operatorname {Spec} A)^{\mathrm {op}} \times  \mathcal {O}_{X}(\operatorname {Spec} A) \cong  A^{\mathrm {op}} \times  A \to  A \cong  \mathcal {O}_{X}(\operatorname {Spec} A) ]]></fr:tex>
+    Furthermore, they must agree on intersections because the implication is uniquely determined. This way all the local implications glue together to provide an implication for <fr:tex display="inline"><![CDATA[\mathcal {O}_{X}]]></fr:tex>, and it will be the internal Heyting implication by the Kripke-Joyal semantics.
+  </html:p>
+</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>11</fr:day>
+            </fr:date>
+            <fr:uri>https://charloced.github.io/schm-VYJD/</fr:uri>
+            <fr:display-uri>schm-VYJD</fr:display-uri>
+            <fr:route>/schm-VYJD/</fr:route>
+            <fr:title text="Can being Heyting checked on stalks?">Can being Heyting checked on stalks?</fr:title>
+            <fr:taxon>Remark</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  We know from <fr:link href="/schm-LL5B/" title="Being Heyting/Boolean is affine local" uri="https://charloced.github.io/schm-LL5B/" display-uri="schm-LL5B" type="local">Lemma <fr:contextual-number uri="https://charloced.github.io/schm-LL5B/" display-uri="schm-LL5B" /></fr:link> that being Heyting is affine local. Furthermore, if <fr:tex display="inline"><![CDATA[X]]></fr:tex> is a <fr:link href="/schm-FZCT/" title="Heyting and Boolean schemes" uri="https://charloced.github.io/schm-FZCT/" display-uri="schm-FZCT" type="local">Heyting scheme</fr:link>, then evidently for any <fr:tex display="inline"><![CDATA[x\in  X]]></fr:tex>, the stalk <fr:tex display="inline"><![CDATA[\mathcal {O}_{X,x}]]></fr:tex> is a local Heyting algebra. However, is the converse true, i.e. is being Heyting a <fr:link href="/schm-HE7H/" title="Stalk local properties" uri="https://charloced.github.io/schm-HE7H/" display-uri="schm-HE7H" type="local">stalk local</fr:link> property?
+</html:p>
+            <html:p>
+  The related question for Boolean algebras is positive, since being Boolean is <html:em>geometric</html:em>, i.e. for a sheaf of distributive lattice <fr:tex display="inline"><![CDATA[\mathcal {O}_{X}]]></fr:tex> over <fr:tex display="inline"><![CDATA[X]]></fr:tex>, it is Boolean iff it satisfies the following geometric sequent,
+  <fr:tex display="block"><![CDATA[ \top  \vdash _{x\in \mathcal {O}_{X}} \exists  y \in  \mathcal {O}_{X}.\  (x \wedge  y = 0) \wedge  (x \vee  y = 1) ]]></fr:tex>
+  However, it seems to be quite hard to come up with a geometric description of being Heyting. This ultimately reduces to an <fr:link href="/idem-comm-I4FM/" title="A criteria of being Heyting" uri="https://charloced.github.io/idem-comm-I4FM/" display-uri="idem-comm-I4FM" type="local">algebraic problem</fr:link>.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>11</fr:day>
+            </fr:date>
+            <fr:uri>https://charloced.github.io/schm-LL5B/</fr:uri>
+            <fr:display-uri>schm-LL5B</fr:display-uri>
+            <fr:route>/schm-LL5B/</fr:route>
+            <fr:title text="Being Heyting/Boolean is affine local">Being Heyting/Boolean is affine local</fr:title>
+            <fr:taxon>Lemma</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>
+  The property of an affine open <fr:tex display="inline"><![CDATA[\operatorname {Spec} A]]></fr:tex> of <fr:tex display="inline"><![CDATA[X]]></fr:tex> that <fr:tex display="inline"><![CDATA[A]]></fr:tex> is a <html:em>Heyting algebra</html:em> or a <html:em>Boolean algebra</html:em> is <fr:link href="/schm-C6GR/" title="Affine local properties" uri="https://charloced.github.io/schm-C6GR/" display-uri="schm-C6GR" type="local">affine local</fr:link>.
+</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>11</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <html:p> Evidently if <fr:tex display="inline"><![CDATA[A]]></fr:tex> is a Heyting algebra then so is <fr:tex display="inline"><![CDATA[A/a]]></fr:tex> for any <fr:tex display="inline"><![CDATA[a\in  A]]></fr:tex>.</html:p> 
+
+  <html:p>
+    Now suppose we have <fr:tex display="inline"><![CDATA[\bigvee _{i\in  I}a_i = 1]]></fr:tex> with each <fr:tex display="inline"><![CDATA[A_i := A/a_i]]></fr:tex> a Heyting algebra. We will write abbreviate the localisation <fr:tex display="inline"><![CDATA[A \twoheadrightarrow  A/a_i]]></fr:tex> simply as <fr:tex display="inline"><![CDATA[(-)_i := a_i \wedge  (-)]]></fr:tex>. For any <fr:tex display="inline"><![CDATA[x,y \in  A]]></fr:tex>, we define
+    <fr:tex display="block"><![CDATA[ x \to  y := \bigvee _{i\in  I} x_i \to _i y_i, ]]></fr:tex>
+    where <fr:tex display="inline"><![CDATA[\to _i]]></fr:tex> is the Heyting implication in <fr:tex display="inline"><![CDATA[A_i]]></fr:tex>. This is evidently monotone on <fr:tex display="inline"><![CDATA[y]]></fr:tex>. Hence, to show <fr:tex display="inline"><![CDATA[x \to  (-)]]></fr:tex> is the right adjoint of <fr:tex display="inline"><![CDATA[x \wedge  -]]></fr:tex>, it suffices to give the unit and counit. 
+  </html:p>
+
+  <html:p>
+    For <fr:tex display="inline"><![CDATA[y\in  A]]></fr:tex>, the counit requires
+    <fr:tex display="block"><![CDATA[ x \wedge  (x \to  y) \le  y. ]]></fr:tex>
+    Notice that by construction,
+    <fr:tex display="block"><![CDATA[ x_i \to _i y_i \le  a_i. ]]></fr:tex>
+    This way, using the counit of each <fr:tex display="inline"><![CDATA[\to _i]]></fr:tex>, we have
+    <fr:tex display="block"><![CDATA[ 
+      \begin {align*}
+        x \wedge  (x_i \to _i y_i) 
+        &= x \wedge  a_i \wedge  (x_i \to _i y_i) \\
+        &= x_i \wedge  (x_i \to _i y_i) \\
+        &\le  x_i \wedge  y_i
+      \end {align*}
+    ]]></fr:tex>
+    It follows that
+    <fr:tex display="block"><![CDATA[ x \wedge  (x \to  y) = \bigvee _{i\in  I} x \wedge  (x_i \to _i y_i) \le  \bigvee _{i\in  I}x_i \wedge  y_i \le  y. ]]></fr:tex></html:p>
+  <html:p>
+    For the unit, it requires
+    <fr:tex display="block"><![CDATA[ y \le  x \to  (x \wedge  y). ]]></fr:tex>
+    By construction, using the unit for each <fr:tex display="inline"><![CDATA[\to _i]]></fr:tex>, we have
+    <fr:tex display="block"><![CDATA[
+      \begin {align*}
+        y 
+        &= \bigvee _{i\in  I} y_i \\ 
+        &\le  \bigvee _{i\in  I} x_i \to _i (x_i \wedge  y_i) \\ 
+        &= x \to  (x \wedge  y)
+      \end {align*}
+    ]]></fr:tex></html:p>
+  <html:p>
+    The case for Boolean algebras is trivial.
+  </html:p>
+</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

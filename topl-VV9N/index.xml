@@ -51,6 +51,26 @@
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>6</fr:month>
+              <fr:day>11</fr:day>
+            </fr:date>
+            <fr:uri>https://charloced.github.io/topl-9BKS/</fr:uri>
+            <fr:display-uri>topl-9BKS</fr:display-uri>
+            <fr:route>/topl-9BKS/</fr:route>
+            <fr:title text="Quasi-compact continuous maps">Quasi-compact continuous maps</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  We say a continuous map <fr:tex display="inline"><![CDATA[f : Y \to  X]]></fr:tex> between topological spaces is <html:em>quasi-compact</html:em> if the inverse image of <fr:tex display="inline"><![CDATA[f]]></fr:tex> preserves compact opens. This is mainly useful when <fr:tex display="inline"><![CDATA[X,Y]]></fr:tex> are both <fr:link href="/topl-VV9N/" title="Spectral spaces" uri="https://charloced.github.io/topl-VV9N/" display-uri="topl-VV9N" type="local">spectral</fr:link>.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
               <fr:day>8</fr:day>
             </fr:date>
             <fr:uri>https://charloced.github.io/schm-80MC/</fr:uri>

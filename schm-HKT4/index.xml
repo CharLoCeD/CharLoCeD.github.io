@@ -96,8 +96,36 @@
  
 </fr:mainmatter>
             </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>10</fr:day>
+                </fr:date>
+                <fr:uri>https://charloced.github.io/schm-9OAH/</fr:uri>
+                <fr:display-uri>schm-9OAH</fr:display-uri>
+                <fr:route>/schm-9OAH/</fr:route>
+                <fr:title text="Irreducible and non-irreducible affine schemes">Irreducible and non-irreducible affine schemes</fr:title>
+                <fr:taxon>Example</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p><fr:link href="/schm-R3J8/" title="Affine schemes of free distributive lattices" uri="https://charloced.github.io/schm-R3J8/" display-uri="schm-R3J8" type="local">Affine schemes of free distributive lattices</fr:link> are always <fr:link href="/schm-HKT4/" title="Irreducible schemes" uri="https://charloced.github.io/schm-HKT4/" display-uri="schm-HKT4" type="local">irreducible</fr:link>, since free distributive lattices are always <fr:link href="/idem-comm-487K/" title="Integral distributive lattices" uri="https://charloced.github.io/idem-comm-487K/" display-uri="idem-comm-487K" type="local">integral</fr:link>.
+</html:p>
+                <html:p>
+  On the other hand, Boolean algebras, except <fr:tex display="inline"><![CDATA[2]]></fr:tex>, are all not integral, hence their affine schemes are never irreducible --- in fact, since they are Stone spaces, they are totally disconnected. 
+</html:p>
+                <html:p>
+  In contrast, there exist non-initial integral Heyting algebras (e.g. non-trivial linear Heyting algebras are integral). However, free Heyting algebras, except <fr:tex display="inline"><![CDATA[2]]></fr:tex>, are not integral, but they will be <html:em><fr:link href="/idem-comm-75C1/" title="Local distributive lattice" uri="https://charloced.github.io/idem-comm-75C1/" display-uri="idem-comm-75C1" type="local">local</fr:link></html:em>. For instance, the spectrum <fr:tex display="inline"><![CDATA[\operatorname {Spec}\mathbb {H}[x]]]></fr:tex> in <fr:link href="/schm-LRJP/" title="The Rieger-Nishimura scheme" uri="https://charloced.github.io/schm-LRJP/" display-uri="schm-LRJP" type="local">Example <fr:contextual-number uri="https://charloced.github.io/schm-LRJP/" display-uri="schm-LRJP" /></fr:link> has two irreducible components, corresponding to the two maximal points.
+</html:p>
+                <html:p>
+  Dually, free <html:em>coHeyting algebras</html:em> will be integral. For instance, the <fr:link href="/schm-DK1B/" title="The dual Rieger-Nishimura scheme" uri="https://charloced.github.io/schm-DK1B/" display-uri="schm-DK1B" type="local">dual Rieger-Nishimura scheme</fr:link> <fr:tex display="inline"><![CDATA[\operatorname {Spec}\mathbb {S}[x]]]></fr:tex> is irreducible. This can be also directly seen since it has a generic point.
+</html:p>
+              </fr:mainmatter>
+            </fr:tree>
             <html:p>
-  In fact, the statement can be made stronger.
+  In fact, the statement in <fr:link href="/schm-WXH9/" title="Irreducible affine schemes have integral global section" uri="https://charloced.github.io/schm-WXH9/" display-uri="schm-WXH9" type="local">Lemma <fr:contextual-number uri="https://charloced.github.io/schm-WXH9/" display-uri="schm-WXH9" /></fr:link> can be made stronger.
 </html:p>
             <fr:tree show-metadata="false">
               <fr:frontmatter>
@@ -138,7 +166,7 @@
   If <fr:tex display="inline"><![CDATA[X]]></fr:tex> is an <fr:link href="/schm-9U1B/" title="Integral schemes" uri="https://charloced.github.io/schm-9U1B/" display-uri="schm-9U1B" type="local">integral scheme</fr:link>, then for any <fr:tex display="inline"><![CDATA[x\in  X]]></fr:tex>, the stalk <fr:tex display="inline"><![CDATA[\mathcal {O}_{X,x}]]></fr:tex> will be <fr:link href="/idem-comm-487K/" title="Integral distributive lattices" uri="https://charloced.github.io/idem-comm-487K/" display-uri="idem-comm-487K" type="local">integral</fr:link>. This is because integral distributive lattices are closed under filtered colimits. 
 </html:p>
                 <html:p>
-  However, the converse is <html:em>not</html:em> true though. The simplest counterexample is the affine scheme <fr:tex display="inline"><![CDATA[2]]></fr:tex> on the discrete space. It has integral schemes, since both stalks are the initial distributive lattice <fr:tex display="inline"><![CDATA[2]]></fr:tex>, which are integral. But this affine scheme fails to be integral since its global section is <fr:tex display="inline"><![CDATA[2 \times  2 \cong  \mathbb {B}[x]]]></fr:tex>, which is not integral. Hence, being integral is <html:em>not</html:em> a local property.
+  However, the converse is <html:em>not</html:em> true though. The simplest counterexample is the affine scheme <fr:tex display="inline"><![CDATA[2]]></fr:tex> on the discrete space. It has integral schemes, since both stalks are the initial distributive lattice <fr:tex display="inline"><![CDATA[2]]></fr:tex>, which are integral. But this affine scheme fails to be integral since its global section is <fr:tex display="inline"><![CDATA[2 \times  2 \cong  \mathbb {B}[x]]]></fr:tex>, which is not integral. Hence, being integral is <html:em>not</html:em> an <fr:link href="/schm-C6GR/" title="Affine local properties" uri="https://charloced.github.io/schm-C6GR/" display-uri="schm-C6GR" type="local">affine local</fr:link> property.
 </html:p>
               </fr:mainmatter>
             </fr:tree>
@@ -236,6 +264,34 @@
         <fr:title text="Backlinks">Backlinks</fr:title>
       </fr:frontmatter>
       <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>10</fr:day>
+            </fr:date>
+            <fr:uri>https://charloced.github.io/schm-9OAH/</fr:uri>
+            <fr:display-uri>schm-9OAH</fr:display-uri>
+            <fr:route>/schm-9OAH/</fr:route>
+            <fr:title text="Irreducible and non-irreducible affine schemes">Irreducible and non-irreducible affine schemes</fr:title>
+            <fr:taxon>Example</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p><fr:link href="/schm-R3J8/" title="Affine schemes of free distributive lattices" uri="https://charloced.github.io/schm-R3J8/" display-uri="schm-R3J8" type="local">Affine schemes of free distributive lattices</fr:link> are always <fr:link href="/schm-HKT4/" title="Irreducible schemes" uri="https://charloced.github.io/schm-HKT4/" display-uri="schm-HKT4" type="local">irreducible</fr:link>, since free distributive lattices are always <fr:link href="/idem-comm-487K/" title="Integral distributive lattices" uri="https://charloced.github.io/idem-comm-487K/" display-uri="idem-comm-487K" type="local">integral</fr:link>.
+</html:p>
+            <html:p>
+  On the other hand, Boolean algebras, except <fr:tex display="inline"><![CDATA[2]]></fr:tex>, are all not integral, hence their affine schemes are never irreducible --- in fact, since they are Stone spaces, they are totally disconnected. 
+</html:p>
+            <html:p>
+  In contrast, there exist non-initial integral Heyting algebras (e.g. non-trivial linear Heyting algebras are integral). However, free Heyting algebras, except <fr:tex display="inline"><![CDATA[2]]></fr:tex>, are not integral, but they will be <html:em><fr:link href="/idem-comm-75C1/" title="Local distributive lattice" uri="https://charloced.github.io/idem-comm-75C1/" display-uri="idem-comm-75C1" type="local">local</fr:link></html:em>. For instance, the spectrum <fr:tex display="inline"><![CDATA[\operatorname {Spec}\mathbb {H}[x]]]></fr:tex> in <fr:link href="/schm-LRJP/" title="The Rieger-Nishimura scheme" uri="https://charloced.github.io/schm-LRJP/" display-uri="schm-LRJP" type="local">Example <fr:contextual-number uri="https://charloced.github.io/schm-LRJP/" display-uri="schm-LRJP" /></fr:link> has two irreducible components, corresponding to the two maximal points.
+</html:p>
+            <html:p>
+  Dually, free <html:em>coHeyting algebras</html:em> will be integral. For instance, the <fr:link href="/schm-DK1B/" title="The dual Rieger-Nishimura scheme" uri="https://charloced.github.io/schm-DK1B/" display-uri="schm-DK1B" type="local">dual Rieger-Nishimura scheme</fr:link> <fr:tex display="inline"><![CDATA[\operatorname {Spec}\mathbb {S}[x]]]></fr:tex> is irreducible. This can be also directly seen since it has a generic point.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
         <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
           <fr:frontmatter>
             <fr:authors />
