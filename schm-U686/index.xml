@@ -62,6 +62,31 @@
                 <fr:date>
                   <fr:year>2025</fr:year>
                   <fr:month>6</fr:month>
+                  <fr:day>11</fr:day>
+                </fr:date>
+                <fr:uri>https://charloced.github.io/schm-KSRJ/</fr:uri>
+                <fr:display-uri>schm-KSRJ</fr:display-uri>
+                <fr:route>/schm-KSRJ/</fr:route>
+                <fr:title text="Noetherian condition is affine local">Noetherian condition is affine local</fr:title>
+                <fr:taxon>Lemma</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter><html:p>
+  Being <fr:link href="/schm-P1M1/" title="Noetherian and locally Noetherian schemes" uri="https://charloced.github.io/schm-P1M1/" display-uri="schm-P1M1" type="local">Noetherian</fr:link> is an <fr:link href="/schm-C6GR/" title="Affine local properties" uri="https://charloced.github.io/schm-C6GR/" display-uri="schm-C6GR" type="local">affine local</fr:link> property.
+</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>11</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  Since Noetherian distributive lattices are closed under quotients, the first condition of affine local is trivial. Now suppose we have <fr:tex display="inline"><![CDATA[\bigvee _{i\in  I}a_i = 1]]></fr:tex> with each <fr:tex display="inline"><![CDATA[A/a_i]]></fr:tex> Noetherian. Any finite ascending sequence in <fr:tex display="inline"><![CDATA[A]]></fr:tex> induces inifinite ascending sequences in <fr:tex display="inline"><![CDATA[A_i]]></fr:tex>, which must be stationary by assumption. Since the family <fr:tex display="inline"><![CDATA[\{A_i\}_{i\in  I}]]></fr:tex> is finite, they must have a common upper bound where all sequences being stationary. This implies the original sequence must be stationary, hence <fr:tex display="inline"><![CDATA[A]]></fr:tex> is Noetherian.
+</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>6</fr:month>
                   <fr:day>10</fr:day>
                 </fr:date>
                 <fr:uri>https://charloced.github.io/schm-P1M1/</fr:uri>
@@ -72,7 +97,7 @@
               </fr:frontmatter>
               <fr:mainmatter>
                 <html:p>
-  We say a scheme <fr:tex display="inline"><![CDATA[X]]></fr:tex> is <html:em>locally Noetherian</html:em>, if it can be covered by affine subspaces <fr:tex display="inline"><![CDATA[\operatorname {Spec} A_i]]></fr:tex> with each <fr:tex display="inline"><![CDATA[A_i]]></fr:tex> <fr:link href="/idem-comm-JOTR/" title="Noetherian distributive lattice" uri="https://charloced.github.io/idem-comm-JOTR/" display-uri="idem-comm-JOTR" type="local">Noetherian</fr:link>. We say <fr:tex display="inline"><![CDATA[X]]></fr:tex> is <html:em>Noetherian</html:em> if it is furthermore <fr:link href="/schm-H9PK/" title="Quasi-compact and quasi-separated schemes" uri="https://charloced.github.io/schm-H9PK/" display-uri="schm-H9PK" type="local">quasi-compact</fr:link>.
+  We say a scheme <fr:tex display="inline"><![CDATA[X]]></fr:tex> is <html:em>locally Noetherian</html:em>, if it can be covered by affine subspaces <fr:tex display="inline"><![CDATA[\operatorname {Spec} A_i]]></fr:tex> with each <fr:tex display="inline"><![CDATA[A_i]]></fr:tex> <fr:link href="/idem-comm-JOTR/" title="Noetherian distributive lattice" uri="https://charloced.github.io/idem-comm-JOTR/" display-uri="idem-comm-JOTR" type="local">Noetherian</fr:link>. Equivalently by <fr:link href="/schm-KSRJ/" title="Noetherian condition is affine local" uri="https://charloced.github.io/schm-KSRJ/" display-uri="schm-KSRJ" type="local">Lemma <fr:contextual-number uri="https://charloced.github.io/schm-KSRJ/" display-uri="schm-KSRJ" /></fr:link>, every affine open is Noetherian. We say <fr:tex display="inline"><![CDATA[X]]></fr:tex> is <html:em>Noetherian</html:em> if it is furthermore <fr:link href="/schm-H9PK/" title="Quasi-compact and quasi-separated schemes" uri="https://charloced.github.io/schm-H9PK/" display-uri="schm-H9PK" type="local">quasi-compact</fr:link>.
 </html:p>
               </fr:mainmatter>
             </fr:tree>
@@ -101,31 +126,6 @@
   Dually, from <fr:link href="/schm-DK1B/" title="The dual Rieger-Nishimura scheme" uri="https://charloced.github.io/schm-DK1B/" display-uri="schm-DK1B" type="local">Example <fr:contextual-number uri="https://charloced.github.io/schm-DK1B/" display-uri="schm-DK1B" /></fr:link> we know <fr:tex display="inline"><![CDATA[\mathbb {S}[x]]]></fr:tex> <html:em>is</html:em> Noetherian, hence <fr:tex display="inline"><![CDATA[\operatorname {Spec}\mathbb {S}[x]]]></fr:tex> is Noetherian.
 </html:p>
               </fr:mainmatter>
-            </fr:tree>
-            <fr:tree show-metadata="false">
-              <fr:frontmatter>
-                <fr:authors />
-                <fr:date>
-                  <fr:year>2025</fr:year>
-                  <fr:month>6</fr:month>
-                  <fr:day>11</fr:day>
-                </fr:date>
-                <fr:uri>https://charloced.github.io/schm-KSRJ/</fr:uri>
-                <fr:display-uri>schm-KSRJ</fr:display-uri>
-                <fr:route>/schm-KSRJ/</fr:route>
-                <fr:title text="Noetherian condition is affine local">Noetherian condition is affine local</fr:title>
-                <fr:taxon>Lemma</fr:taxon>
-              </fr:frontmatter>
-              <fr:mainmatter><html:p>
-  Being <fr:link href="/schm-P1M1/" title="Noetherian and locally Noetherian schemes" uri="https://charloced.github.io/schm-P1M1/" display-uri="schm-P1M1" type="local">Noetherian</fr:link> is an <fr:link href="/schm-C6GR/" title="Affine local properties" uri="https://charloced.github.io/schm-C6GR/" display-uri="schm-C6GR" type="local">affine local</fr:link> property.
-</html:p>
- 
-   
-   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>11</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
-  Since Noetherian distributive lattices are closed under quotients, the first condition of affine local is trivial. Now suppose we have <fr:tex display="inline"><![CDATA[\bigvee _{i\in  I}a_i = 1]]></fr:tex> with each <fr:tex display="inline"><![CDATA[A/a_i]]></fr:tex> Noetherian. Any finite ascending sequence in <fr:tex display="inline"><![CDATA[A]]></fr:tex> induces inifinite ascending sequences in <fr:tex display="inline"><![CDATA[A_i]]></fr:tex>, which must be stationary by assumption. Since the family <fr:tex display="inline"><![CDATA[\{A_i\}_{i\in  I}]]></fr:tex> is finite, they must have a common upper bound where all sequences being stationary. This implies the original sequence must be stationary, hence <fr:tex display="inline"><![CDATA[A]]></fr:tex> is Noetherian.
-</fr:mainmatter></fr:tree>
- 
-</fr:mainmatter>
             </fr:tree>
             <fr:tree show-metadata="false">
               <fr:frontmatter>
@@ -292,7 +292,7 @@
           </fr:frontmatter>
           <fr:mainmatter>
             <html:p>
-  We say a scheme <fr:tex display="inline"><![CDATA[X]]></fr:tex> is <html:em>locally Noetherian</html:em>, if it can be covered by affine subspaces <fr:tex display="inline"><![CDATA[\operatorname {Spec} A_i]]></fr:tex> with each <fr:tex display="inline"><![CDATA[A_i]]></fr:tex> <fr:link href="/idem-comm-JOTR/" title="Noetherian distributive lattice" uri="https://charloced.github.io/idem-comm-JOTR/" display-uri="idem-comm-JOTR" type="local">Noetherian</fr:link>. We say <fr:tex display="inline"><![CDATA[X]]></fr:tex> is <html:em>Noetherian</html:em> if it is furthermore <fr:link href="/schm-H9PK/" title="Quasi-compact and quasi-separated schemes" uri="https://charloced.github.io/schm-H9PK/" display-uri="schm-H9PK" type="local">quasi-compact</fr:link>.
+  We say a scheme <fr:tex display="inline"><![CDATA[X]]></fr:tex> is <html:em>locally Noetherian</html:em>, if it can be covered by affine subspaces <fr:tex display="inline"><![CDATA[\operatorname {Spec} A_i]]></fr:tex> with each <fr:tex display="inline"><![CDATA[A_i]]></fr:tex> <fr:link href="/idem-comm-JOTR/" title="Noetherian distributive lattice" uri="https://charloced.github.io/idem-comm-JOTR/" display-uri="idem-comm-JOTR" type="local">Noetherian</fr:link>. Equivalently by <fr:link href="/schm-KSRJ/" title="Noetherian condition is affine local" uri="https://charloced.github.io/schm-KSRJ/" display-uri="schm-KSRJ" type="local">Lemma <fr:contextual-number uri="https://charloced.github.io/schm-KSRJ/" display-uri="schm-KSRJ" /></fr:link>, every affine open is Noetherian. We say <fr:tex display="inline"><![CDATA[X]]></fr:tex> is <html:em>Noetherian</html:em> if it is furthermore <fr:link href="/schm-H9PK/" title="Quasi-compact and quasi-separated schemes" uri="https://charloced.github.io/schm-H9PK/" display-uri="schm-H9PK" type="local">quasi-compact</fr:link>.
 </html:p>
           </fr:mainmatter>
         </fr:tree>

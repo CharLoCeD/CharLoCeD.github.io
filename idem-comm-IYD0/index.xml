@@ -163,6 +163,28 @@
                 <fr:date>
                   <fr:year>2025</fr:year>
                   <fr:month>6</fr:month>
+                  <fr:day>12</fr:day>
+                </fr:date>
+                <fr:uri>https://charloced.github.io/idem-comm-G90Z/</fr:uri>
+                <fr:display-uri>idem-comm-G90Z</fr:display-uri>
+                <fr:route>/idem-comm-G90Z/</fr:route>
+                <fr:title text="Every Noetherian distributive lattice is Heyting">Every Noetherian distributive lattice is Heyting</fr:title>
+                <fr:taxon>Remark</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+  Let <fr:tex display="inline"><![CDATA[D]]></fr:tex> be a distributive lattice, and let <fr:tex display="inline"><![CDATA[a,b\in  D]]></fr:tex>. Consider the ideal
+  <fr:tex display="block"><![CDATA[ I_{a \to  b} := \{c\in  D\mid a \wedge  c \le  b\} ]]></fr:tex>
+  Now the Heyting implication <fr:tex display="inline"><![CDATA[a \to  b]]></fr:tex> exists in <fr:tex display="inline"><![CDATA[D]]></fr:tex> iff <fr:tex display="inline"><![CDATA[I_{a \to  b}]]></fr:tex> is <html:em>principle</html:em>. Thus, given <fr:link href="/idem-comm-ITAZ/" title="Noetherian distributive lattices are exactly principle ideal domains" uri="https://charloced.github.io/idem-comm-ITAZ/" display-uri="idem-comm-ITAZ" type="local">Proposition <fr:contextual-number uri="https://charloced.github.io/idem-comm-ITAZ/" display-uri="idem-comm-ITAZ" /></fr:link>, every Noetherian distributive lattice is a Heyting algebra.
+</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>6</fr:month>
                   <fr:day>8</fr:day>
                 </fr:date>
                 <fr:uri>https://charloced.github.io/idem-comm-65DL/</fr:uri>
@@ -202,7 +224,7 @@
   <fr:tex display="block"><![CDATA[ n \le  m \Leftrightarrow  m \mid  n. ]]></fr:tex>
   In this lattice, we have
   <fr:tex display="block"><![CDATA[ n \wedge  m = \mathrm {lcm}(m,n), \quad  n \vee  m = \mathrm {gcd}(n,m). ]]></fr:tex>
-  Also, the top element is <fr:tex display="inline"><![CDATA[1]]></fr:tex>, and the bottom element is 0. <fr:tex display="inline"><![CDATA[\mathbb {N}]]></fr:tex> is in fact a <html:em>Heyting algebra</html:em>. 
+  Also, the top element is <fr:tex display="inline"><![CDATA[1]]></fr:tex>, and the bottom element is 0. By <fr:link href="/idem-comm-G90Z/" title="Every Noetherian distributive lattice is Heyting" uri="https://charloced.github.io/idem-comm-G90Z/" display-uri="idem-comm-G90Z" type="local">Remark <fr:contextual-number uri="https://charloced.github.io/idem-comm-G90Z/" display-uri="idem-comm-G90Z" /></fr:link>, <fr:tex display="inline"><![CDATA[\mathbb {N}]]></fr:tex> is in fact a <html:em>Heyting algebra</html:em>. 
 </html:p>
                 <html:p> 
   It is then easy to see <fr:tex display="inline"><![CDATA[\mathbb {N}]]></fr:tex> is <html:em>Noetherian</html:em>. Hence, by <fr:link href="/idem-comm-65DL/" title="Prime ideals in Noetherian distributive lattices" uri="https://charloced.github.io/idem-comm-65DL/" display-uri="idem-comm-65DL" type="local">Theorem <fr:contextual-number uri="https://charloced.github.io/idem-comm-65DL/" display-uri="idem-comm-65DL" /></fr:link> prime ideals in <fr:tex display="inline"><![CDATA[\mathbb {N}]]></fr:tex> are exactly meet-irreducible elements. According to this we can compute the spectrum of <fr:tex display="inline"><![CDATA[\mathbb {N}]]></fr:tex> as below
@@ -267,7 +289,7 @@
                 <fr:taxon>Example</fr:taxon>
               </fr:frontmatter>
               <fr:mainmatter>
-                <html:p><fr:tex display="inline"><![CDATA[\mathbb {N}]]></fr:tex> also contains a sub distributive lattice <fr:tex display="inline"><![CDATA[\mathbb {P}]]></fr:tex>, consisting of those numbers which does not contain a higher power of prime factor. By <fr:link href="/idem-comm-SKN8/" title="Closure properties of Noetherian distributive lattices" uri="https://charloced.github.io/idem-comm-SKN8/" display-uri="idem-comm-SKN8" type="local">Proposition <fr:contextual-number uri="https://charloced.github.io/idem-comm-SKN8/" display-uri="idem-comm-SKN8" /></fr:link> <fr:tex display="inline"><![CDATA[\mathbb {P}]]></fr:tex> is again Noetherian, and in fact a Heyting algebra again. The spectrum of <fr:tex display="inline"><![CDATA[\mathbb {P}]]></fr:tex> is obtained by throwing out all the higher powers of primes in the spectrum of <fr:tex display="inline"><![CDATA[\mathbb {N}]]></fr:tex>,
+                <html:p><fr:tex display="inline"><![CDATA[\mathbb {N}]]></fr:tex> also contains a sub distributive lattice <fr:tex display="inline"><![CDATA[\mathbb {P}]]></fr:tex>, consisting of those numbers which does not contain a higher power of prime factor. By <fr:link href="/idem-comm-SKN8/" title="Closure properties of Noetherian distributive lattices" uri="https://charloced.github.io/idem-comm-SKN8/" display-uri="idem-comm-SKN8" type="local">Proposition <fr:contextual-number uri="https://charloced.github.io/idem-comm-SKN8/" display-uri="idem-comm-SKN8" /></fr:link> <fr:tex display="inline"><![CDATA[\mathbb {P}]]></fr:tex> is again Noetherian, hence by <fr:link href="/idem-comm-G90Z/" title="Every Noetherian distributive lattice is Heyting" uri="https://charloced.github.io/idem-comm-G90Z/" display-uri="idem-comm-G90Z" type="local">Remark <fr:contextual-number uri="https://charloced.github.io/idem-comm-G90Z/" display-uri="idem-comm-G90Z" /></fr:link> a Heyting algebra as well. The spectrum of <fr:tex display="inline"><![CDATA[\mathbb {P}]]></fr:tex> is obtained by throwing out all the higher powers of primes in the spectrum of <fr:tex display="inline"><![CDATA[\mathbb {N}]]></fr:tex>,
   
   <html:figure><fr:resource hash="7cf5777f200754368e8726d72a8ecf57"><fr:resource-content><html:img src="/7cf5777f200754368e8726d72a8ecf57.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[\usepackage {tikz-cd}\usepackage {quiver}]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
     \begin {tikzpicture}[scale=0.8]
@@ -341,7 +363,7 @@
             <fr:taxon>Example</fr:taxon>
           </fr:frontmatter>
           <fr:mainmatter>
-            <html:p><fr:tex display="inline"><![CDATA[\mathbb {N}]]></fr:tex> also contains a sub distributive lattice <fr:tex display="inline"><![CDATA[\mathbb {P}]]></fr:tex>, consisting of those numbers which does not contain a higher power of prime factor. By <fr:link href="/idem-comm-SKN8/" title="Closure properties of Noetherian distributive lattices" uri="https://charloced.github.io/idem-comm-SKN8/" display-uri="idem-comm-SKN8" type="local">Proposition <fr:contextual-number uri="https://charloced.github.io/idem-comm-SKN8/" display-uri="idem-comm-SKN8" /></fr:link> <fr:tex display="inline"><![CDATA[\mathbb {P}]]></fr:tex> is again Noetherian, and in fact a Heyting algebra again. The spectrum of <fr:tex display="inline"><![CDATA[\mathbb {P}]]></fr:tex> is obtained by throwing out all the higher powers of primes in the spectrum of <fr:tex display="inline"><![CDATA[\mathbb {N}]]></fr:tex>,
+            <html:p><fr:tex display="inline"><![CDATA[\mathbb {N}]]></fr:tex> also contains a sub distributive lattice <fr:tex display="inline"><![CDATA[\mathbb {P}]]></fr:tex>, consisting of those numbers which does not contain a higher power of prime factor. By <fr:link href="/idem-comm-SKN8/" title="Closure properties of Noetherian distributive lattices" uri="https://charloced.github.io/idem-comm-SKN8/" display-uri="idem-comm-SKN8" type="local">Proposition <fr:contextual-number uri="https://charloced.github.io/idem-comm-SKN8/" display-uri="idem-comm-SKN8" /></fr:link> <fr:tex display="inline"><![CDATA[\mathbb {P}]]></fr:tex> is again Noetherian, hence by <fr:link href="/idem-comm-G90Z/" title="Every Noetherian distributive lattice is Heyting" uri="https://charloced.github.io/idem-comm-G90Z/" display-uri="idem-comm-G90Z" type="local">Remark <fr:contextual-number uri="https://charloced.github.io/idem-comm-G90Z/" display-uri="idem-comm-G90Z" /></fr:link> a Heyting algebra as well. The spectrum of <fr:tex display="inline"><![CDATA[\mathbb {P}]]></fr:tex> is obtained by throwing out all the higher powers of primes in the spectrum of <fr:tex display="inline"><![CDATA[\mathbb {N}]]></fr:tex>,
   
   <html:figure><fr:resource hash="7cf5777f200754368e8726d72a8ecf57"><fr:resource-content><html:img src="/7cf5777f200754368e8726d72a8ecf57.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[\usepackage {tikz-cd}\usepackage {quiver}]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
     \begin {tikzpicture}[scale=0.8]

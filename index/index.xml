@@ -1049,6 +1049,28 @@
                         <fr:date>
                           <fr:year>2025</fr:year>
                           <fr:month>6</fr:month>
+                          <fr:day>12</fr:day>
+                        </fr:date>
+                        <fr:uri>https://charloced.github.io/idem-comm-G90Z/</fr:uri>
+                        <fr:display-uri>idem-comm-G90Z</fr:display-uri>
+                        <fr:route>/idem-comm-G90Z/</fr:route>
+                        <fr:title text="Every Noetherian distributive lattice is Heyting">Every Noetherian distributive lattice is Heyting</fr:title>
+                        <fr:taxon>Remark</fr:taxon>
+                      </fr:frontmatter>
+                      <fr:mainmatter>
+                        <html:p>
+  Let <fr:tex display="inline"><![CDATA[D]]></fr:tex> be a distributive lattice, and let <fr:tex display="inline"><![CDATA[a,b\in  D]]></fr:tex>. Consider the ideal
+  <fr:tex display="block"><![CDATA[ I_{a \to  b} := \{c\in  D\mid a \wedge  c \le  b\} ]]></fr:tex>
+  Now the Heyting implication <fr:tex display="inline"><![CDATA[a \to  b]]></fr:tex> exists in <fr:tex display="inline"><![CDATA[D]]></fr:tex> iff <fr:tex display="inline"><![CDATA[I_{a \to  b}]]></fr:tex> is <html:em>principle</html:em>. Thus, given <fr:link href="/idem-comm-ITAZ/" title="Noetherian distributive lattices are exactly principle ideal domains" uri="https://charloced.github.io/idem-comm-ITAZ/" display-uri="idem-comm-ITAZ" type="local">Proposition <fr:contextual-number uri="https://charloced.github.io/idem-comm-ITAZ/" display-uri="idem-comm-ITAZ" /></fr:link>, every Noetherian distributive lattice is a Heyting algebra.
+</html:p>
+                      </fr:mainmatter>
+                    </fr:tree>
+                    <fr:tree show-metadata="false">
+                      <fr:frontmatter>
+                        <fr:authors />
+                        <fr:date>
+                          <fr:year>2025</fr:year>
+                          <fr:month>6</fr:month>
                           <fr:day>8</fr:day>
                         </fr:date>
                         <fr:uri>https://charloced.github.io/idem-comm-65DL/</fr:uri>
@@ -1088,7 +1110,7 @@
   <fr:tex display="block"><![CDATA[ n \le  m \Leftrightarrow  m \mid  n. ]]></fr:tex>
   In this lattice, we have
   <fr:tex display="block"><![CDATA[ n \wedge  m = \mathrm {lcm}(m,n), \quad  n \vee  m = \mathrm {gcd}(n,m). ]]></fr:tex>
-  Also, the top element is <fr:tex display="inline"><![CDATA[1]]></fr:tex>, and the bottom element is 0. <fr:tex display="inline"><![CDATA[\mathbb {N}]]></fr:tex> is in fact a <html:em>Heyting algebra</html:em>. 
+  Also, the top element is <fr:tex display="inline"><![CDATA[1]]></fr:tex>, and the bottom element is 0. By <fr:link href="/idem-comm-G90Z/" title="Every Noetherian distributive lattice is Heyting" uri="https://charloced.github.io/idem-comm-G90Z/" display-uri="idem-comm-G90Z" type="local">Remark <fr:contextual-number uri="https://charloced.github.io/idem-comm-G90Z/" display-uri="idem-comm-G90Z" /></fr:link>, <fr:tex display="inline"><![CDATA[\mathbb {N}]]></fr:tex> is in fact a <html:em>Heyting algebra</html:em>. 
 </html:p>
                         <html:p> 
   It is then easy to see <fr:tex display="inline"><![CDATA[\mathbb {N}]]></fr:tex> is <html:em>Noetherian</html:em>. Hence, by <fr:link href="/idem-comm-65DL/" title="Prime ideals in Noetherian distributive lattices" uri="https://charloced.github.io/idem-comm-65DL/" display-uri="idem-comm-65DL" type="local">Theorem <fr:contextual-number uri="https://charloced.github.io/idem-comm-65DL/" display-uri="idem-comm-65DL" /></fr:link> prime ideals in <fr:tex display="inline"><![CDATA[\mathbb {N}]]></fr:tex> are exactly meet-irreducible elements. According to this we can compute the spectrum of <fr:tex display="inline"><![CDATA[\mathbb {N}]]></fr:tex> as below
@@ -1153,7 +1175,7 @@
                         <fr:taxon>Example</fr:taxon>
                       </fr:frontmatter>
                       <fr:mainmatter>
-                        <html:p><fr:tex display="inline"><![CDATA[\mathbb {N}]]></fr:tex> also contains a sub distributive lattice <fr:tex display="inline"><![CDATA[\mathbb {P}]]></fr:tex>, consisting of those numbers which does not contain a higher power of prime factor. By <fr:link href="/idem-comm-SKN8/" title="Closure properties of Noetherian distributive lattices" uri="https://charloced.github.io/idem-comm-SKN8/" display-uri="idem-comm-SKN8" type="local">Proposition <fr:contextual-number uri="https://charloced.github.io/idem-comm-SKN8/" display-uri="idem-comm-SKN8" /></fr:link> <fr:tex display="inline"><![CDATA[\mathbb {P}]]></fr:tex> is again Noetherian, and in fact a Heyting algebra again. The spectrum of <fr:tex display="inline"><![CDATA[\mathbb {P}]]></fr:tex> is obtained by throwing out all the higher powers of primes in the spectrum of <fr:tex display="inline"><![CDATA[\mathbb {N}]]></fr:tex>,
+                        <html:p><fr:tex display="inline"><![CDATA[\mathbb {N}]]></fr:tex> also contains a sub distributive lattice <fr:tex display="inline"><![CDATA[\mathbb {P}]]></fr:tex>, consisting of those numbers which does not contain a higher power of prime factor. By <fr:link href="/idem-comm-SKN8/" title="Closure properties of Noetherian distributive lattices" uri="https://charloced.github.io/idem-comm-SKN8/" display-uri="idem-comm-SKN8" type="local">Proposition <fr:contextual-number uri="https://charloced.github.io/idem-comm-SKN8/" display-uri="idem-comm-SKN8" /></fr:link> <fr:tex display="inline"><![CDATA[\mathbb {P}]]></fr:tex> is again Noetherian, hence by <fr:link href="/idem-comm-G90Z/" title="Every Noetherian distributive lattice is Heyting" uri="https://charloced.github.io/idem-comm-G90Z/" display-uri="idem-comm-G90Z" type="local">Remark <fr:contextual-number uri="https://charloced.github.io/idem-comm-G90Z/" display-uri="idem-comm-G90Z" /></fr:link> a Heyting algebra as well. The spectrum of <fr:tex display="inline"><![CDATA[\mathbb {P}]]></fr:tex> is obtained by throwing out all the higher powers of primes in the spectrum of <fr:tex display="inline"><![CDATA[\mathbb {N}]]></fr:tex>,
   
   <html:figure><fr:resource hash="7cf5777f200754368e8726d72a8ecf57"><fr:resource-content><html:img src="/7cf5777f200754368e8726d72a8ecf57.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[\usepackage {tikz-cd}\usepackage {quiver}]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
     \begin {tikzpicture}[scale=0.8]
@@ -1350,11 +1372,11 @@
                         <fr:uri>https://charloced.github.io/idem-comm-21XO/</fr:uri>
                         <fr:display-uri>idem-comm-21XO</fr:display-uri>
                         <fr:route>/idem-comm-21XO/</fr:route>
-                        <fr:title text="Polynomial projections preserve constructible sets">Polynomial projections preserve constructible sets</fr:title>
+                        <fr:title text="Polynomial projections are open, closed, and constructible">Polynomial projections are open, closed, and constructible</fr:title>
                         <fr:taxon>Lemma</fr:taxon>
                       </fr:frontmatter>
                       <fr:mainmatter><html:p>
-  The map <fr:tex display="inline"><![CDATA[\operatorname {Spec} D[x] \to  \operatorname {Spec} D]]></fr:tex> takes a standard open to a standard open; similarly for standard closed sets. This in particular implies it <fr:link href="/topl-XT5Y/" title="Maps preserving constructible sets" uri="https://charloced.github.io/topl-XT5Y/" display-uri="topl-XT5Y" type="local">preserves constructible subsets</fr:link>.
+  The map <fr:tex display="inline"><![CDATA[\operatorname {Spec} D[x] \to  \operatorname {Spec} D]]></fr:tex> takes a standard open to a standard open; similarly for standard closed sets. This in particular implies it is both open and closed, and <fr:link href="/topl-XT5Y/" title="Maps preserving constructible sets" uri="https://charloced.github.io/topl-XT5Y/" display-uri="topl-XT5Y" type="local">preserves constructible subsets</fr:link>.
 </html:p>
  
    
@@ -1391,7 +1413,7 @@
    <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>8</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
   <fr:tex display="inline"><![CDATA[E]]></fr:tex> will be of the form <fr:tex display="inline"><![CDATA[D[x_1,\cdots ,x_n]/\langle p_i,q_i\rangle ]]></fr:tex>. We may factor <fr:tex display="inline"><![CDATA[D \to  E]]></fr:tex> as
   <fr:tex display="block"><![CDATA[ D \to  D[x_1] \to  \cdots  \to  D[x_1,\cdots ,x_n] \to  D[x_1,\cdots ,x_n]/\langle p_i,q_i\rangle , ]]></fr:tex>
-  where each map preserves constructible sets by <fr:link href="/idem-comm-21XO/" title="Polynomial projections preserve constructible sets" uri="https://charloced.github.io/idem-comm-21XO/" display-uri="idem-comm-21XO" type="local">Lemma <fr:contextual-number uri="https://charloced.github.io/idem-comm-21XO/" display-uri="idem-comm-21XO" /></fr:link> and <fr:link href="/idem-comm-Y25U/" title="Finitely presented quotients preserve constructible sets" uri="https://charloced.github.io/idem-comm-Y25U/" display-uri="idem-comm-Y25U" type="local">Lemma <fr:contextual-number uri="https://charloced.github.io/idem-comm-Y25U/" display-uri="idem-comm-Y25U" /></fr:link>.
+  where each map preserves constructible sets by <fr:link href="/idem-comm-21XO/" title="Polynomial projections are open, closed, and constructible" uri="https://charloced.github.io/idem-comm-21XO/" display-uri="idem-comm-21XO" type="local">Lemma <fr:contextual-number uri="https://charloced.github.io/idem-comm-21XO/" display-uri="idem-comm-21XO" /></fr:link> and <fr:link href="/idem-comm-Y25U/" title="Finitely presented quotients preserve constructible sets" uri="https://charloced.github.io/idem-comm-Y25U/" display-uri="idem-comm-Y25U" type="local">Lemma <fr:contextual-number uri="https://charloced.github.io/idem-comm-Y25U/" display-uri="idem-comm-Y25U" /></fr:link>.
 </fr:mainmatter></fr:tree>
  
 </fr:mainmatter>
@@ -2746,167 +2768,149 @@
                     <fr:date>
                       <fr:year>2025</fr:year>
                       <fr:month>6</fr:month>
-                      <fr:day>9</fr:day>
+                      <fr:day>10</fr:day>
                     </fr:date>
-                    <fr:uri>https://charloced.github.io/schm-SJIX/</fr:uri>
-                    <fr:display-uri>schm-SJIX</fr:display-uri>
-                    <fr:route>/schm-SJIX/</fr:route>
-                    <fr:title text="Topological properties of schemes">Topological properties of schemes</fr:title>
+                    <fr:uri>https://charloced.github.io/schm-DEM8/</fr:uri>
+                    <fr:display-uri>schm-DEM8</fr:display-uri>
+                    <fr:route>/schm-DEM8/</fr:route>
+                    <fr:title text="Quasi-compact and quasi-separated schemes">Quasi-compact and quasi-separated schemes</fr:title>
                   </fr:frontmatter>
                   <fr:mainmatter>
                     <fr:tree show-metadata="false">
                       <fr:frontmatter>
-                        <fr:authors>
-                          <fr:author>
-                            <fr:link href="/lingyuan/" title="Lingyuan Ye" uri="https://charloced.github.io/lingyuan/" display-uri="lingyuan" type="local">Lingyuan Ye</fr:link>
-                          </fr:author>
-                        </fr:authors>
+                        <fr:authors />
                         <fr:date>
                           <fr:year>2025</fr:year>
                           <fr:month>6</fr:month>
-                          <fr:day>10</fr:day>
+                          <fr:day>9</fr:day>
                         </fr:date>
-                        <fr:uri>https://charloced.github.io/schm-DEM8/</fr:uri>
-                        <fr:display-uri>schm-DEM8</fr:display-uri>
-                        <fr:route>/schm-DEM8/</fr:route>
+                        <fr:uri>https://charloced.github.io/schm-H9PK/</fr:uri>
+                        <fr:display-uri>schm-H9PK</fr:display-uri>
+                        <fr:route>/schm-H9PK/</fr:route>
                         <fr:title text="Quasi-compact and quasi-separated schemes">Quasi-compact and quasi-separated schemes</fr:title>
+                        <fr:taxon>Definition</fr:taxon>
                       </fr:frontmatter>
                       <fr:mainmatter>
-                        <fr:tree show-metadata="false">
-                          <fr:frontmatter>
-                            <fr:authors />
-                            <fr:date>
-                              <fr:year>2025</fr:year>
-                              <fr:month>6</fr:month>
-                              <fr:day>9</fr:day>
-                            </fr:date>
-                            <fr:uri>https://charloced.github.io/schm-H9PK/</fr:uri>
-                            <fr:display-uri>schm-H9PK</fr:display-uri>
-                            <fr:route>/schm-H9PK/</fr:route>
-                            <fr:title text="Quasi-compact and quasi-separated schemes">Quasi-compact and quasi-separated schemes</fr:title>
-                            <fr:taxon>Definition</fr:taxon>
-                          </fr:frontmatter>
-                          <fr:mainmatter>
-                            <html:p>
+                        <html:p>
   We say a <fr:link href="/schm-86OJ/" title="Scheme" uri="https://charloced.github.io/schm-86OJ/" display-uri="schm-86OJ" type="local">scheme</fr:link> is <html:em>quasi-separated</html:em> if its underlying topological space is <fr:link href="/topl-GW93/" title="Quasi-separated spaces" uri="https://charloced.github.io/topl-GW93/" display-uri="topl-GW93" type="local">quasi-separated</fr:link>. We say it is <html:em>quasi-compact</html:em> if its underlying space is <html:em>compact</html:em>. The two conditions are often combined together and written as <html:em>qcqs</html:em>.
 </html:p>
-                          </fr:mainmatter>
-                        </fr:tree>
-                        <fr:tree show-metadata="false">
-                          <fr:frontmatter>
-                            <fr:authors />
-                            <fr:date>
-                              <fr:year>2025</fr:year>
-                              <fr:month>6</fr:month>
-                              <fr:day>11</fr:day>
-                            </fr:date>
-                            <fr:uri>https://charloced.github.io/schm-BH0E/</fr:uri>
-                            <fr:display-uri>schm-BH0E</fr:display-uri>
-                            <fr:route>/schm-BH0E/</fr:route>
-                            <fr:title text="Quasi-compact morphisms">Quasi-compact morphisms</fr:title>
-                            <fr:taxon>Definition</fr:taxon>
-                          </fr:frontmatter>
-                          <fr:mainmatter>
-                            <html:p>
-  More generally, we say a morphism <fr:tex display="inline"><![CDATA[f : Y \to  X]]></fr:tex> of <fr:link href="/schm-86OJ/" title="Scheme" uri="https://charloced.github.io/schm-86OJ/" display-uri="schm-86OJ" type="local">schemes</fr:link> is <html:em>quasi-compact</html:em>, if the underlying continuous map is <fr:link href="/topl-9BKS/" title="Quasi-compact continuous maps" uri="https://charloced.github.io/topl-9BKS/" display-uri="topl-9BKS" type="local">quasi-compact</fr:link>.
-</html:p>
-                          </fr:mainmatter>
-                        </fr:tree>
-                        <fr:tree show-metadata="false">
-                          <fr:frontmatter>
-                            <fr:authors />
-                            <fr:date>
-                              <fr:year>2025</fr:year>
-                              <fr:month>6</fr:month>
-                              <fr:day>10</fr:day>
-                            </fr:date>
-                            <fr:uri>https://charloced.github.io/schm-Z7SH/</fr:uri>
-                            <fr:display-uri>schm-Z7SH</fr:display-uri>
-                            <fr:route>/schm-Z7SH/</fr:route>
-                            <fr:title text="A quasi-separated but not quasi-compact scheme">A quasi-separated but not quasi-compact scheme</fr:title>
-                            <fr:taxon>Example</fr:taxon>
-                          </fr:frontmatter>
-                          <fr:mainmatter>
-                            <html:p>
-  Note the scheme <fr:tex display="inline"><![CDATA[\operatorname {Spec}\mathbb {H}[x]_+]]></fr:tex> from <fr:link href="/schm-LRJP/" title="The Rieger-Nishimura scheme" uri="https://charloced.github.io/schm-LRJP/" display-uri="schm-LRJP" type="local">Example <fr:contextual-number uri="https://charloced.github.io/schm-LRJP/" display-uri="schm-LRJP" /></fr:link> is <fr:link href="/schm-H9PK/" title="Quasi-compact and quasi-separated schemes" uri="https://charloced.github.io/schm-H9PK/" display-uri="schm-H9PK" type="local">quasi-separated</fr:link> but not <fr:link href="/schm-H9PK/" title="Quasi-compact and quasi-separated schemes" uri="https://charloced.github.io/schm-H9PK/" display-uri="schm-H9PK" type="local">quasi-compact</fr:link>.
-</html:p>
-                          </fr:mainmatter>
-                        </fr:tree>
-                        <fr:tree show-metadata="false">
-                          <fr:frontmatter>
-                            <fr:authors />
-                            <fr:date>
-                              <fr:year>2025</fr:year>
-                              <fr:month>6</fr:month>
-                              <fr:day>11</fr:day>
-                            </fr:date>
-                            <fr:uri>https://charloced.github.io/schm-LAYT/</fr:uri>
-                            <fr:display-uri>schm-LAYT</fr:display-uri>
-                            <fr:route>/schm-LAYT/</fr:route>
-                            <fr:title text="Quasi-compact and quasi-separated are affine local">Quasi-compact and quasi-separated are affine local</fr:title>
-                            <fr:taxon>Remark</fr:taxon>
-                          </fr:frontmatter>
-                          <fr:mainmatter>
-                            <html:p>
-  Both quasi-compact and quasi-separated are trivially <fr:link href="/schm-C6GR/" title="Affine local properties" uri="https://charloced.github.io/schm-C6GR/" display-uri="schm-C6GR" type="local">affine local</fr:link> properties because all affine schemes are qcqs.
-</html:p>
-                          </fr:mainmatter>
-                        </fr:tree>
                       </fr:mainmatter>
                     </fr:tree>
                     <fr:tree show-metadata="false">
                       <fr:frontmatter>
-                        <fr:authors>
-                          <fr:author>
-                            <fr:link href="/lingyuan/" title="Lingyuan Ye" uri="https://charloced.github.io/lingyuan/" display-uri="lingyuan" type="local">Lingyuan Ye</fr:link>
-                          </fr:author>
-                        </fr:authors>
+                        <fr:authors />
+                        <fr:date>
+                          <fr:year>2025</fr:year>
+                          <fr:month>6</fr:month>
+                          <fr:day>11</fr:day>
+                        </fr:date>
+                        <fr:uri>https://charloced.github.io/schm-BH0E/</fr:uri>
+                        <fr:display-uri>schm-BH0E</fr:display-uri>
+                        <fr:route>/schm-BH0E/</fr:route>
+                        <fr:title text="Quasi-compact morphisms">Quasi-compact morphisms</fr:title>
+                        <fr:taxon>Definition</fr:taxon>
+                      </fr:frontmatter>
+                      <fr:mainmatter>
+                        <html:p>
+  More generally, we say a morphism <fr:tex display="inline"><![CDATA[f : Y \to  X]]></fr:tex> of <fr:link href="/schm-86OJ/" title="Scheme" uri="https://charloced.github.io/schm-86OJ/" display-uri="schm-86OJ" type="local">schemes</fr:link> is <html:em>quasi-compact</html:em>, if the underlying continuous map is <fr:link href="/topl-9BKS/" title="Quasi-compact continuous maps" uri="https://charloced.github.io/topl-9BKS/" display-uri="topl-9BKS" type="local">quasi-compact</fr:link>.
+</html:p>
+                      </fr:mainmatter>
+                    </fr:tree>
+                    <fr:tree show-metadata="false">
+                      <fr:frontmatter>
+                        <fr:authors />
                         <fr:date>
                           <fr:year>2025</fr:year>
                           <fr:month>6</fr:month>
                           <fr:day>10</fr:day>
                         </fr:date>
-                        <fr:uri>https://charloced.github.io/schm-BVF7/</fr:uri>
-                        <fr:display-uri>schm-BVF7</fr:display-uri>
-                        <fr:route>/schm-BVF7/</fr:route>
-                        <fr:title text="Irreducibility and integraility">Irreducibility and integraility</fr:title>
+                        <fr:uri>https://charloced.github.io/schm-Z7SH/</fr:uri>
+                        <fr:display-uri>schm-Z7SH</fr:display-uri>
+                        <fr:route>/schm-Z7SH/</fr:route>
+                        <fr:title text="A quasi-separated but not quasi-compact scheme">A quasi-separated but not quasi-compact scheme</fr:title>
+                        <fr:taxon>Example</fr:taxon>
                       </fr:frontmatter>
                       <fr:mainmatter>
-                        <fr:tree show-metadata="false">
-                          <fr:frontmatter>
-                            <fr:authors />
-                            <fr:date>
-                              <fr:year>2025</fr:year>
-                              <fr:month>6</fr:month>
-                              <fr:day>10</fr:day>
-                            </fr:date>
-                            <fr:uri>https://charloced.github.io/schm-HKT4/</fr:uri>
-                            <fr:display-uri>schm-HKT4</fr:display-uri>
-                            <fr:route>/schm-HKT4/</fr:route>
-                            <fr:title text="Irreducible schemes">Irreducible schemes</fr:title>
-                            <fr:taxon>Definition</fr:taxon>
-                          </fr:frontmatter>
-                          <fr:mainmatter>
-                            <html:p>
+                        <html:p>
+  Note the scheme <fr:tex display="inline"><![CDATA[\operatorname {Spec}\mathbb {H}[x]_+]]></fr:tex> from <fr:link href="/schm-LRJP/" title="The Rieger-Nishimura scheme" uri="https://charloced.github.io/schm-LRJP/" display-uri="schm-LRJP" type="local">Example <fr:contextual-number uri="https://charloced.github.io/schm-LRJP/" display-uri="schm-LRJP" /></fr:link> is <fr:link href="/schm-H9PK/" title="Quasi-compact and quasi-separated schemes" uri="https://charloced.github.io/schm-H9PK/" display-uri="schm-H9PK" type="local">quasi-separated</fr:link> but not <fr:link href="/schm-H9PK/" title="Quasi-compact and quasi-separated schemes" uri="https://charloced.github.io/schm-H9PK/" display-uri="schm-H9PK" type="local">quasi-compact</fr:link>.
+</html:p>
+                      </fr:mainmatter>
+                    </fr:tree>
+                    <fr:tree show-metadata="false">
+                      <fr:frontmatter>
+                        <fr:authors />
+                        <fr:date>
+                          <fr:year>2025</fr:year>
+                          <fr:month>6</fr:month>
+                          <fr:day>11</fr:day>
+                        </fr:date>
+                        <fr:uri>https://charloced.github.io/schm-LAYT/</fr:uri>
+                        <fr:display-uri>schm-LAYT</fr:display-uri>
+                        <fr:route>/schm-LAYT/</fr:route>
+                        <fr:title text="Quasi-compact and quasi-separated are affine local">Quasi-compact and quasi-separated are affine local</fr:title>
+                        <fr:taxon>Remark</fr:taxon>
+                      </fr:frontmatter>
+                      <fr:mainmatter>
+                        <html:p>
+  Both quasi-compact and quasi-separated are trivially <fr:link href="/schm-C6GR/" title="Affine local properties" uri="https://charloced.github.io/schm-C6GR/" display-uri="schm-C6GR" type="local">affine local</fr:link> properties because all affine schemes are qcqs.
+</html:p>
+                      </fr:mainmatter>
+                    </fr:tree>
+                  </fr:mainmatter>
+                </fr:tree>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors>
+                      <fr:author>
+                        <fr:link href="/lingyuan/" title="Lingyuan Ye" uri="https://charloced.github.io/lingyuan/" display-uri="lingyuan" type="local">Lingyuan Ye</fr:link>
+                      </fr:author>
+                    </fr:authors>
+                    <fr:date>
+                      <fr:year>2025</fr:year>
+                      <fr:month>6</fr:month>
+                      <fr:day>10</fr:day>
+                    </fr:date>
+                    <fr:uri>https://charloced.github.io/schm-BVF7/</fr:uri>
+                    <fr:display-uri>schm-BVF7</fr:display-uri>
+                    <fr:route>/schm-BVF7/</fr:route>
+                    <fr:title text="Irreducibility and integraility">Irreducibility and integraility</fr:title>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <fr:tree show-metadata="false">
+                      <fr:frontmatter>
+                        <fr:authors />
+                        <fr:date>
+                          <fr:year>2025</fr:year>
+                          <fr:month>6</fr:month>
+                          <fr:day>10</fr:day>
+                        </fr:date>
+                        <fr:uri>https://charloced.github.io/schm-HKT4/</fr:uri>
+                        <fr:display-uri>schm-HKT4</fr:display-uri>
+                        <fr:route>/schm-HKT4/</fr:route>
+                        <fr:title text="Irreducible schemes">Irreducible schemes</fr:title>
+                        <fr:taxon>Definition</fr:taxon>
+                      </fr:frontmatter>
+                      <fr:mainmatter>
+                        <html:p>
   We say a <fr:link href="/schm-86OJ/" title="Scheme" uri="https://charloced.github.io/schm-86OJ/" display-uri="schm-86OJ" type="local">scheme</fr:link> is <html:em>irreducible</html:em> if its underlying topological space is <fr:link href="/topl-0001/" title="Irreducible space" uri="https://charloced.github.io/topl-0001/" display-uri="topl-0001" type="local">irreducible</fr:link>.
 </html:p>
-                          </fr:mainmatter>
-                        </fr:tree>
-                        <fr:tree show-metadata="false">
-                          <fr:frontmatter>
-                            <fr:authors />
-                            <fr:date>
-                              <fr:year>2025</fr:year>
-                              <fr:month>6</fr:month>
-                              <fr:day>10</fr:day>
-                            </fr:date>
-                            <fr:uri>https://charloced.github.io/schm-WXH9/</fr:uri>
-                            <fr:display-uri>schm-WXH9</fr:display-uri>
-                            <fr:route>/schm-WXH9/</fr:route>
-                            <fr:title text="Irreducible affine schemes have integral global section">Irreducible affine schemes have integral global section</fr:title>
-                            <fr:taxon>Lemma</fr:taxon>
-                          </fr:frontmatter>
-                          <fr:mainmatter><html:p>
+                      </fr:mainmatter>
+                    </fr:tree>
+                    <fr:tree show-metadata="false">
+                      <fr:frontmatter>
+                        <fr:authors />
+                        <fr:date>
+                          <fr:year>2025</fr:year>
+                          <fr:month>6</fr:month>
+                          <fr:day>10</fr:day>
+                        </fr:date>
+                        <fr:uri>https://charloced.github.io/schm-WXH9/</fr:uri>
+                        <fr:display-uri>schm-WXH9</fr:display-uri>
+                        <fr:route>/schm-WXH9/</fr:route>
+                        <fr:title text="Irreducible affine schemes have integral global section">Irreducible affine schemes have integral global section</fr:title>
+                        <fr:taxon>Lemma</fr:taxon>
+                      </fr:frontmatter>
+                      <fr:mainmatter><html:p>
   For an <fr:link href="/schm-IFX1/" title="Affine scheme" uri="https://charloced.github.io/schm-IFX1/" display-uri="schm-IFX1" type="local">affine scheme</fr:link> <fr:tex display="inline"><![CDATA[\operatorname {Spec} A]]></fr:tex>, it is <fr:link href="/schm-HKT4/" title="Irreducible schemes" uri="https://charloced.github.io/schm-HKT4/" display-uri="schm-HKT4" type="local">irreducible</fr:link> iff <fr:tex display="inline"><![CDATA[A]]></fr:tex> is <fr:link href="/idem-comm-487K/" title="Integral distributive lattices" uri="https://charloced.github.io/idem-comm-487K/" display-uri="idem-comm-487K" type="local">integral</fr:link>.
 </html:p>
  
@@ -2916,96 +2920,96 @@
 </fr:mainmatter></fr:tree>
  
 </fr:mainmatter>
-                        </fr:tree>
-                        <fr:tree show-metadata="false">
-                          <fr:frontmatter>
-                            <fr:authors />
-                            <fr:date>
-                              <fr:year>2025</fr:year>
-                              <fr:month>6</fr:month>
-                              <fr:day>10</fr:day>
-                            </fr:date>
-                            <fr:uri>https://charloced.github.io/schm-9OAH/</fr:uri>
-                            <fr:display-uri>schm-9OAH</fr:display-uri>
-                            <fr:route>/schm-9OAH/</fr:route>
-                            <fr:title text="Irreducible and non-irreducible affine schemes">Irreducible and non-irreducible affine schemes</fr:title>
-                            <fr:taxon>Example</fr:taxon>
-                          </fr:frontmatter>
-                          <fr:mainmatter>
-                            <html:p><fr:link href="/schm-R3J8/" title="Affine schemes of free distributive lattices" uri="https://charloced.github.io/schm-R3J8/" display-uri="schm-R3J8" type="local">Affine schemes of free distributive lattices</fr:link> are always <fr:link href="/schm-HKT4/" title="Irreducible schemes" uri="https://charloced.github.io/schm-HKT4/" display-uri="schm-HKT4" type="local">irreducible</fr:link>, since free distributive lattices are always <fr:link href="/idem-comm-487K/" title="Integral distributive lattices" uri="https://charloced.github.io/idem-comm-487K/" display-uri="idem-comm-487K" type="local">integral</fr:link>.
+                    </fr:tree>
+                    <fr:tree show-metadata="false">
+                      <fr:frontmatter>
+                        <fr:authors />
+                        <fr:date>
+                          <fr:year>2025</fr:year>
+                          <fr:month>6</fr:month>
+                          <fr:day>10</fr:day>
+                        </fr:date>
+                        <fr:uri>https://charloced.github.io/schm-9OAH/</fr:uri>
+                        <fr:display-uri>schm-9OAH</fr:display-uri>
+                        <fr:route>/schm-9OAH/</fr:route>
+                        <fr:title text="Irreducible and non-irreducible affine schemes">Irreducible and non-irreducible affine schemes</fr:title>
+                        <fr:taxon>Example</fr:taxon>
+                      </fr:frontmatter>
+                      <fr:mainmatter>
+                        <html:p><fr:link href="/schm-R3J8/" title="Affine schemes of free distributive lattices" uri="https://charloced.github.io/schm-R3J8/" display-uri="schm-R3J8" type="local">Affine schemes of free distributive lattices</fr:link> are always <fr:link href="/schm-HKT4/" title="Irreducible schemes" uri="https://charloced.github.io/schm-HKT4/" display-uri="schm-HKT4" type="local">irreducible</fr:link>, since free distributive lattices are always <fr:link href="/idem-comm-487K/" title="Integral distributive lattices" uri="https://charloced.github.io/idem-comm-487K/" display-uri="idem-comm-487K" type="local">integral</fr:link>.
 </html:p>
-                            <html:p>
+                        <html:p>
   On the other hand, Boolean algebras, except <fr:tex display="inline"><![CDATA[2]]></fr:tex>, are all not integral, hence their affine schemes are never irreducible --- in fact, since they are Stone spaces, they are totally disconnected. 
 </html:p>
-                            <html:p>
+                        <html:p>
   In contrast, there exist non-initial integral Heyting algebras (e.g. non-trivial linear Heyting algebras are integral). However, free Heyting algebras, except <fr:tex display="inline"><![CDATA[2]]></fr:tex>, are not integral, but they will be <html:em><fr:link href="/idem-comm-75C1/" title="Local distributive lattice" uri="https://charloced.github.io/idem-comm-75C1/" display-uri="idem-comm-75C1" type="local">local</fr:link></html:em>. For instance, the spectrum <fr:tex display="inline"><![CDATA[\operatorname {Spec}\mathbb {H}[x]]]></fr:tex> in <fr:link href="/schm-LRJP/" title="The Rieger-Nishimura scheme" uri="https://charloced.github.io/schm-LRJP/" display-uri="schm-LRJP" type="local">Example <fr:contextual-number uri="https://charloced.github.io/schm-LRJP/" display-uri="schm-LRJP" /></fr:link> has two irreducible components, corresponding to the two maximal points.
 </html:p>
-                            <html:p>
+                        <html:p>
   Dually, free <html:em>coHeyting algebras</html:em> will be integral. For instance, the <fr:link href="/schm-DK1B/" title="The dual Rieger-Nishimura scheme" uri="https://charloced.github.io/schm-DK1B/" display-uri="schm-DK1B" type="local">dual Rieger-Nishimura scheme</fr:link> <fr:tex display="inline"><![CDATA[\operatorname {Spec}\mathbb {S}[x]]]></fr:tex> is irreducible. This can be also directly seen since it has a generic point.
 </html:p>
-                          </fr:mainmatter>
-                        </fr:tree>
-                        <html:p>
+                      </fr:mainmatter>
+                    </fr:tree>
+                    <html:p>
   In fact, the statement in <fr:link href="/schm-WXH9/" title="Irreducible affine schemes have integral global section" uri="https://charloced.github.io/schm-WXH9/" display-uri="schm-WXH9" type="local">Lemma <fr:contextual-number uri="https://charloced.github.io/schm-WXH9/" display-uri="schm-WXH9" /></fr:link> can be made stronger.
 </html:p>
-                        <fr:tree show-metadata="false">
-                          <fr:frontmatter>
-                            <fr:authors />
-                            <fr:date>
-                              <fr:year>2025</fr:year>
-                              <fr:month>6</fr:month>
-                              <fr:day>9</fr:day>
-                            </fr:date>
-                            <fr:uri>https://charloced.github.io/schm-9U1B/</fr:uri>
-                            <fr:display-uri>schm-9U1B</fr:display-uri>
-                            <fr:route>/schm-9U1B/</fr:route>
-                            <fr:title text="Integral schemes">Integral schemes</fr:title>
-                            <fr:taxon>Definition</fr:taxon>
-                          </fr:frontmatter>
-                          <fr:mainmatter>
-                            <html:p>
+                    <fr:tree show-metadata="false">
+                      <fr:frontmatter>
+                        <fr:authors />
+                        <fr:date>
+                          <fr:year>2025</fr:year>
+                          <fr:month>6</fr:month>
+                          <fr:day>9</fr:day>
+                        </fr:date>
+                        <fr:uri>https://charloced.github.io/schm-9U1B/</fr:uri>
+                        <fr:display-uri>schm-9U1B</fr:display-uri>
+                        <fr:route>/schm-9U1B/</fr:route>
+                        <fr:title text="Integral schemes">Integral schemes</fr:title>
+                        <fr:taxon>Definition</fr:taxon>
+                      </fr:frontmatter>
+                      <fr:mainmatter>
+                        <html:p>
   A <fr:link href="/schm-86OJ/" title="Scheme" uri="https://charloced.github.io/schm-86OJ/" display-uri="schm-86OJ" type="local">scheme</fr:link> <fr:tex display="inline"><![CDATA[X]]></fr:tex> is <html:em>integral</html:em>, if it is non-empty, and for every non-empty open <fr:tex display="inline"><![CDATA[U]]></fr:tex> of <fr:tex display="inline"><![CDATA[X]]></fr:tex>, <fr:tex display="inline"><![CDATA[\mathcal {O}_{X}(U)]]></fr:tex> is <fr:link href="/idem-comm-487K/" title="Integral distributive lattices" uri="https://charloced.github.io/idem-comm-487K/" display-uri="idem-comm-487K" type="local">integral</fr:link>.
 </html:p>
-                          </fr:mainmatter>
-                        </fr:tree>
-                        <fr:tree show-metadata="false">
-                          <fr:frontmatter>
-                            <fr:authors />
-                            <fr:date>
-                              <fr:year>2025</fr:year>
-                              <fr:month>6</fr:month>
-                              <fr:day>10</fr:day>
-                            </fr:date>
-                            <fr:uri>https://charloced.github.io/schm-7GOV/</fr:uri>
-                            <fr:display-uri>schm-7GOV</fr:display-uri>
-                            <fr:route>/schm-7GOV/</fr:route>
-                            <fr:title text="Integral schemes have integral stalks">Integral schemes have integral stalks</fr:title>
-                            <fr:taxon>Remark</fr:taxon>
-                          </fr:frontmatter>
-                          <fr:mainmatter>
-                            <html:p>
+                      </fr:mainmatter>
+                    </fr:tree>
+                    <fr:tree show-metadata="false">
+                      <fr:frontmatter>
+                        <fr:authors />
+                        <fr:date>
+                          <fr:year>2025</fr:year>
+                          <fr:month>6</fr:month>
+                          <fr:day>10</fr:day>
+                        </fr:date>
+                        <fr:uri>https://charloced.github.io/schm-7GOV/</fr:uri>
+                        <fr:display-uri>schm-7GOV</fr:display-uri>
+                        <fr:route>/schm-7GOV/</fr:route>
+                        <fr:title text="Integral schemes have integral stalks">Integral schemes have integral stalks</fr:title>
+                        <fr:taxon>Remark</fr:taxon>
+                      </fr:frontmatter>
+                      <fr:mainmatter>
+                        <html:p>
   If <fr:tex display="inline"><![CDATA[X]]></fr:tex> is an <fr:link href="/schm-9U1B/" title="Integral schemes" uri="https://charloced.github.io/schm-9U1B/" display-uri="schm-9U1B" type="local">integral scheme</fr:link>, then for any <fr:tex display="inline"><![CDATA[x\in  X]]></fr:tex>, the stalk <fr:tex display="inline"><![CDATA[\mathcal {O}_{X,x}]]></fr:tex> will be <fr:link href="/idem-comm-487K/" title="Integral distributive lattices" uri="https://charloced.github.io/idem-comm-487K/" display-uri="idem-comm-487K" type="local">integral</fr:link>. This is because integral distributive lattices are closed under filtered colimits. 
 </html:p>
-                            <html:p>
+                        <html:p>
   However, the converse is <html:em>not</html:em> true though. The simplest counterexample is the affine scheme <fr:tex display="inline"><![CDATA[2]]></fr:tex> on the discrete space. It has integral schemes, since both stalks are the initial distributive lattice <fr:tex display="inline"><![CDATA[2]]></fr:tex>, which are integral. But this affine scheme fails to be integral since its global section is <fr:tex display="inline"><![CDATA[2 \times  2 \cong  \mathbb {B}[x]]]></fr:tex>, which is not integral. Hence, being integral is <html:em>not</html:em> an <fr:link href="/schm-C6GR/" title="Affine local properties" uri="https://charloced.github.io/schm-C6GR/" display-uri="schm-C6GR" type="local">affine local</fr:link> property.
 </html:p>
-                          </fr:mainmatter>
-                        </fr:tree>
-                        <fr:tree show-metadata="false">
-                          <fr:frontmatter>
-                            <fr:authors />
-                            <fr:date>
-                              <fr:year>2025</fr:year>
-                              <fr:month>6</fr:month>
-                              <fr:day>10</fr:day>
-                            </fr:date>
-                            <fr:uri>https://charloced.github.io/schm-OYHY/</fr:uri>
-                            <fr:display-uri>schm-OYHY</fr:display-uri>
-                            <fr:route>/schm-OYHY/</fr:route>
-                            <fr:title text="Affine schemes of integral distributive lattices are integral">Affine schemes of integral distributive lattices are integral</fr:title>
-                            <fr:taxon>Lemma</fr:taxon>
-                          </fr:frontmatter>
-                          <fr:mainmatter><html:p><fr:tex display="inline"><![CDATA[D]]></fr:tex> is <fr:link href="/idem-comm-487K/" title="Integral distributive lattices" uri="https://charloced.github.io/idem-comm-487K/" display-uri="idem-comm-487K" type="local">integral</fr:link> iff <fr:tex display="inline"><![CDATA[\operatorname {Spec} D]]></fr:tex> is <fr:link href="/schm-9U1B/" title="Integral schemes" uri="https://charloced.github.io/schm-9U1B/" display-uri="schm-9U1B" type="local">integral</fr:link>.
+                      </fr:mainmatter>
+                    </fr:tree>
+                    <fr:tree show-metadata="false">
+                      <fr:frontmatter>
+                        <fr:authors />
+                        <fr:date>
+                          <fr:year>2025</fr:year>
+                          <fr:month>6</fr:month>
+                          <fr:day>10</fr:day>
+                        </fr:date>
+                        <fr:uri>https://charloced.github.io/schm-OYHY/</fr:uri>
+                        <fr:display-uri>schm-OYHY</fr:display-uri>
+                        <fr:route>/schm-OYHY/</fr:route>
+                        <fr:title text="Affine schemes of integral distributive lattices are integral">Affine schemes of integral distributive lattices are integral</fr:title>
+                        <fr:taxon>Lemma</fr:taxon>
+                      </fr:frontmatter>
+                      <fr:mainmatter><html:p><fr:tex display="inline"><![CDATA[D]]></fr:tex> is <fr:link href="/idem-comm-487K/" title="Integral distributive lattices" uri="https://charloced.github.io/idem-comm-487K/" display-uri="idem-comm-487K" type="local">integral</fr:link> iff <fr:tex display="inline"><![CDATA[\operatorname {Spec} D]]></fr:tex> is <fr:link href="/schm-9U1B/" title="Integral schemes" uri="https://charloced.github.io/schm-9U1B/" display-uri="schm-9U1B" type="local">integral</fr:link>.
 </html:p>
  
    
@@ -3020,22 +3024,22 @@
 </fr:mainmatter></fr:tree>
  
 </fr:mainmatter>
-                        </fr:tree>
-                        <fr:tree show-metadata="false">
-                          <fr:frontmatter>
-                            <fr:authors />
-                            <fr:date>
-                              <fr:year>2025</fr:year>
-                              <fr:month>6</fr:month>
-                              <fr:day>10</fr:day>
-                            </fr:date>
-                            <fr:uri>https://charloced.github.io/schm-ISYJ/</fr:uri>
-                            <fr:display-uri>schm-ISYJ</fr:display-uri>
-                            <fr:route>/schm-ISYJ/</fr:route>
-                            <fr:title text="Structural sheaves of integral affine schemes have f-conservative transition maps">Structural sheaves of integral affine schemes have f-conservative transition maps</fr:title>
-                            <fr:taxon>Lemma</fr:taxon>
-                          </fr:frontmatter>
-                          <fr:mainmatter><html:p>
+                    </fr:tree>
+                    <fr:tree show-metadata="false">
+                      <fr:frontmatter>
+                        <fr:authors />
+                        <fr:date>
+                          <fr:year>2025</fr:year>
+                          <fr:month>6</fr:month>
+                          <fr:day>10</fr:day>
+                        </fr:date>
+                        <fr:uri>https://charloced.github.io/schm-ISYJ/</fr:uri>
+                        <fr:display-uri>schm-ISYJ</fr:display-uri>
+                        <fr:route>/schm-ISYJ/</fr:route>
+                        <fr:title text="Structural sheaves of integral affine schemes have f-conservative transition maps">Structural sheaves of integral affine schemes have f-conservative transition maps</fr:title>
+                        <fr:taxon>Lemma</fr:taxon>
+                      </fr:frontmatter>
+                      <fr:mainmatter><html:p>
   For an integral affine scheme <fr:tex display="inline"><![CDATA[\operatorname {Spec} D]]></fr:tex>, for two non-trivial ideals <fr:tex display="inline"><![CDATA[J \subseteq  I]]></fr:tex>, the restriction map (cf. <fr:link href="/schm-5L35/" title="Structural sheaf on a general open" uri="https://charloced.github.io/schm-5L35/" display-uri="schm-5L35" type="local">Proposition <fr:contextual-number uri="https://charloced.github.io/schm-5L35/" display-uri="schm-5L35" /></fr:link>) <fr:tex display="inline"><![CDATA[D_I \to  D_J]]></fr:tex> is <fr:link href="/idem-comm-QQEF/" title="T-conservative and f-conservative maps" uri="https://charloced.github.io/idem-comm-QQEF/" display-uri="idem-comm-QQEF" type="local">f-conservative</fr:link>.
 </html:p>
  
@@ -3047,22 +3051,22 @@
 </fr:mainmatter></fr:tree>
  
 </fr:mainmatter>
-                        </fr:tree>
-                        <fr:tree show-metadata="false">
-                          <fr:frontmatter>
-                            <fr:authors />
-                            <fr:date>
-                              <fr:year>2025</fr:year>
-                              <fr:month>6</fr:month>
-                              <fr:day>9</fr:day>
-                            </fr:date>
-                            <fr:uri>https://charloced.github.io/schm-7J9T/</fr:uri>
-                            <fr:display-uri>schm-7J9T</fr:display-uri>
-                            <fr:route>/schm-7J9T/</fr:route>
-                            <fr:title text="A scheme is integral iff it is irreducible">A scheme is integral iff it is irreducible</fr:title>
-                            <fr:taxon>Theorem</fr:taxon>
-                          </fr:frontmatter>
-                          <fr:mainmatter><html:p>
+                    </fr:tree>
+                    <fr:tree show-metadata="false">
+                      <fr:frontmatter>
+                        <fr:authors />
+                        <fr:date>
+                          <fr:year>2025</fr:year>
+                          <fr:month>6</fr:month>
+                          <fr:day>9</fr:day>
+                        </fr:date>
+                        <fr:uri>https://charloced.github.io/schm-7J9T/</fr:uri>
+                        <fr:display-uri>schm-7J9T</fr:display-uri>
+                        <fr:route>/schm-7J9T/</fr:route>
+                        <fr:title text="A scheme is integral iff it is irreducible">A scheme is integral iff it is irreducible</fr:title>
+                        <fr:taxon>Theorem</fr:taxon>
+                      </fr:frontmatter>
+                      <fr:mainmatter><html:p>
   A scheme <fr:tex display="inline"><![CDATA[X]]></fr:tex> is <fr:link href="/schm-9U1B/" title="Integral schemes" uri="https://charloced.github.io/schm-9U1B/" display-uri="schm-9U1B" type="local">integral</fr:link> iff it is <fr:link href="/schm-HKT4/" title="Irreducible schemes" uri="https://charloced.github.io/schm-HKT4/" display-uri="schm-HKT4" type="local">irreducible</fr:link>.
 </html:p>
  
@@ -3074,88 +3078,42 @@
 </fr:mainmatter></fr:tree>
  
 </fr:mainmatter>
-                        </fr:tree>
-                      </fr:mainmatter>
                     </fr:tree>
+                  </fr:mainmatter>
+                </fr:tree>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors>
+                      <fr:author>
+                        <fr:link href="/lingyuan/" title="Lingyuan Ye" uri="https://charloced.github.io/lingyuan/" display-uri="lingyuan" type="local">Lingyuan Ye</fr:link>
+                      </fr:author>
+                    </fr:authors>
+                    <fr:date>
+                      <fr:year>2025</fr:year>
+                      <fr:month>6</fr:month>
+                      <fr:day>10</fr:day>
+                    </fr:date>
+                    <fr:uri>https://charloced.github.io/schm-JM8V/</fr:uri>
+                    <fr:display-uri>schm-JM8V</fr:display-uri>
+                    <fr:route>/schm-JM8V/</fr:route>
+                    <fr:title text="Noetherian conditions for schemes">Noetherian conditions for schemes</fr:title>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
                     <fr:tree show-metadata="false">
                       <fr:frontmatter>
-                        <fr:authors>
-                          <fr:author>
-                            <fr:link href="/lingyuan/" title="Lingyuan Ye" uri="https://charloced.github.io/lingyuan/" display-uri="lingyuan" type="local">Lingyuan Ye</fr:link>
-                          </fr:author>
-                        </fr:authors>
+                        <fr:authors />
                         <fr:date>
                           <fr:year>2025</fr:year>
                           <fr:month>6</fr:month>
-                          <fr:day>10</fr:day>
+                          <fr:day>11</fr:day>
                         </fr:date>
-                        <fr:uri>https://charloced.github.io/schm-JM8V/</fr:uri>
-                        <fr:display-uri>schm-JM8V</fr:display-uri>
-                        <fr:route>/schm-JM8V/</fr:route>
-                        <fr:title text="Noetherian conditions for schemes">Noetherian conditions for schemes</fr:title>
+                        <fr:uri>https://charloced.github.io/schm-KSRJ/</fr:uri>
+                        <fr:display-uri>schm-KSRJ</fr:display-uri>
+                        <fr:route>/schm-KSRJ/</fr:route>
+                        <fr:title text="Noetherian condition is affine local">Noetherian condition is affine local</fr:title>
+                        <fr:taxon>Lemma</fr:taxon>
                       </fr:frontmatter>
-                      <fr:mainmatter>
-                        <fr:tree show-metadata="false">
-                          <fr:frontmatter>
-                            <fr:authors />
-                            <fr:date>
-                              <fr:year>2025</fr:year>
-                              <fr:month>6</fr:month>
-                              <fr:day>10</fr:day>
-                            </fr:date>
-                            <fr:uri>https://charloced.github.io/schm-P1M1/</fr:uri>
-                            <fr:display-uri>schm-P1M1</fr:display-uri>
-                            <fr:route>/schm-P1M1/</fr:route>
-                            <fr:title text="Noetherian and locally Noetherian schemes">Noetherian and locally Noetherian schemes</fr:title>
-                            <fr:taxon>Definition</fr:taxon>
-                          </fr:frontmatter>
-                          <fr:mainmatter>
-                            <html:p>
-  We say a scheme <fr:tex display="inline"><![CDATA[X]]></fr:tex> is <html:em>locally Noetherian</html:em>, if it can be covered by affine subspaces <fr:tex display="inline"><![CDATA[\operatorname {Spec} A_i]]></fr:tex> with each <fr:tex display="inline"><![CDATA[A_i]]></fr:tex> <fr:link href="/idem-comm-JOTR/" title="Noetherian distributive lattice" uri="https://charloced.github.io/idem-comm-JOTR/" display-uri="idem-comm-JOTR" type="local">Noetherian</fr:link>. We say <fr:tex display="inline"><![CDATA[X]]></fr:tex> is <html:em>Noetherian</html:em> if it is furthermore <fr:link href="/schm-H9PK/" title="Quasi-compact and quasi-separated schemes" uri="https://charloced.github.io/schm-H9PK/" display-uri="schm-H9PK" type="local">quasi-compact</fr:link>.
-</html:p>
-                          </fr:mainmatter>
-                        </fr:tree>
-                        <fr:tree show-metadata="false">
-                          <fr:frontmatter>
-                            <fr:authors />
-                            <fr:date>
-                              <fr:year>2025</fr:year>
-                              <fr:month>6</fr:month>
-                              <fr:day>10</fr:day>
-                            </fr:date>
-                            <fr:uri>https://charloced.github.io/schm-A6LH/</fr:uri>
-                            <fr:display-uri>schm-A6LH</fr:display-uri>
-                            <fr:route>/schm-A6LH/</fr:route>
-                            <fr:title text="Noetherian and non-Noetherian affine schemes">Noetherian and non-Noetherian affine schemes</fr:title>
-                            <fr:taxon>Example</fr:taxon>
-                          </fr:frontmatter>
-                          <fr:mainmatter>
-                            <html:p>
-  By definition, an <fr:link href="/schm-IFX1/" title="Affine scheme" uri="https://charloced.github.io/schm-IFX1/" display-uri="schm-IFX1" type="local">affine scheme</fr:link> <fr:tex display="inline"><![CDATA[\operatorname {Spec} A]]></fr:tex> is Noetherian iff <fr:tex display="inline"><![CDATA[A]]></fr:tex> is <fr:link href="/idem-comm-JOTR/" title="Noetherian distributive lattice" uri="https://charloced.github.io/idem-comm-JOTR/" display-uri="idem-comm-JOTR" type="local">Noetherian</fr:link>.
-</html:p>
-                            <html:p>
-  From <fr:link href="/schm-LRJP/" title="The Rieger-Nishimura scheme" uri="https://charloced.github.io/schm-LRJP/" display-uri="schm-LRJP" type="local">Example <fr:contextual-number uri="https://charloced.github.io/schm-LRJP/" display-uri="schm-LRJP" /></fr:link>, <fr:tex display="inline"><![CDATA[\operatorname {Spec}\mathbb {H}[x]]]></fr:tex> is <html:em>not</html:em> Noetherian, since <fr:tex display="inline"><![CDATA[\mathbb {H}[x]]]></fr:tex> has infinite ascending elements. In fact, it is <html:em>not</html:em> locally Noetherian either, due to the existance of the focal point <fr:tex display="inline"><![CDATA[\bot ]]></fr:tex> of <fr:tex display="inline"><![CDATA[\operatorname {Spec}\mathbb {H}[x]]]></fr:tex>, whose only open neighbourhood is the entire space. However, the open subscheme <fr:tex display="inline"><![CDATA[\operatorname {Spec}\mathbb {H}[x]_+]]></fr:tex> of <fr:tex display="inline"><![CDATA[\operatorname {Spec}\mathbb {H}[x]]]></fr:tex> described in <fr:link href="/schm-LRJP/" title="The Rieger-Nishimura scheme" uri="https://charloced.github.io/schm-LRJP/" display-uri="schm-LRJP" type="local">Example <fr:contextual-number uri="https://charloced.github.io/schm-LRJP/" display-uri="schm-LRJP" /></fr:link> is locally Noetherian.
-</html:p>
-                            <html:p>
-  Dually, from <fr:link href="/schm-DK1B/" title="The dual Rieger-Nishimura scheme" uri="https://charloced.github.io/schm-DK1B/" display-uri="schm-DK1B" type="local">Example <fr:contextual-number uri="https://charloced.github.io/schm-DK1B/" display-uri="schm-DK1B" /></fr:link> we know <fr:tex display="inline"><![CDATA[\mathbb {S}[x]]]></fr:tex> <html:em>is</html:em> Noetherian, hence <fr:tex display="inline"><![CDATA[\operatorname {Spec}\mathbb {S}[x]]]></fr:tex> is Noetherian.
-</html:p>
-                          </fr:mainmatter>
-                        </fr:tree>
-                        <fr:tree show-metadata="false">
-                          <fr:frontmatter>
-                            <fr:authors />
-                            <fr:date>
-                              <fr:year>2025</fr:year>
-                              <fr:month>6</fr:month>
-                              <fr:day>11</fr:day>
-                            </fr:date>
-                            <fr:uri>https://charloced.github.io/schm-KSRJ/</fr:uri>
-                            <fr:display-uri>schm-KSRJ</fr:display-uri>
-                            <fr:route>/schm-KSRJ/</fr:route>
-                            <fr:title text="Noetherian condition is affine local">Noetherian condition is affine local</fr:title>
-                            <fr:taxon>Lemma</fr:taxon>
-                          </fr:frontmatter>
-                          <fr:mainmatter><html:p>
+                      <fr:mainmatter><html:p>
   Being <fr:link href="/schm-P1M1/" title="Noetherian and locally Noetherian schemes" uri="https://charloced.github.io/schm-P1M1/" display-uri="schm-P1M1" type="local">Noetherian</fr:link> is an <fr:link href="/schm-C6GR/" title="Affine local properties" uri="https://charloced.github.io/schm-C6GR/" display-uri="schm-C6GR" type="local">affine local</fr:link> property.
 </html:p>
  
@@ -3165,22 +3123,68 @@
 </fr:mainmatter></fr:tree>
  
 </fr:mainmatter>
-                        </fr:tree>
-                        <fr:tree show-metadata="false">
-                          <fr:frontmatter>
-                            <fr:authors />
-                            <fr:date>
-                              <fr:year>2025</fr:year>
-                              <fr:month>6</fr:month>
-                              <fr:day>10</fr:day>
-                            </fr:date>
-                            <fr:uri>https://charloced.github.io/schm-8QSS/</fr:uri>
-                            <fr:display-uri>schm-8QSS</fr:display-uri>
-                            <fr:route>/schm-8QSS/</fr:route>
-                            <fr:title text="Noetherian schemes have Noetherian underlying topological spaces">Noetherian schemes have Noetherian underlying topological spaces</fr:title>
-                            <fr:taxon>Lemma</fr:taxon>
-                          </fr:frontmatter>
-                          <fr:mainmatter><html:p>
+                    </fr:tree>
+                    <fr:tree show-metadata="false">
+                      <fr:frontmatter>
+                        <fr:authors />
+                        <fr:date>
+                          <fr:year>2025</fr:year>
+                          <fr:month>6</fr:month>
+                          <fr:day>10</fr:day>
+                        </fr:date>
+                        <fr:uri>https://charloced.github.io/schm-P1M1/</fr:uri>
+                        <fr:display-uri>schm-P1M1</fr:display-uri>
+                        <fr:route>/schm-P1M1/</fr:route>
+                        <fr:title text="Noetherian and locally Noetherian schemes">Noetherian and locally Noetherian schemes</fr:title>
+                        <fr:taxon>Definition</fr:taxon>
+                      </fr:frontmatter>
+                      <fr:mainmatter>
+                        <html:p>
+  We say a scheme <fr:tex display="inline"><![CDATA[X]]></fr:tex> is <html:em>locally Noetherian</html:em>, if it can be covered by affine subspaces <fr:tex display="inline"><![CDATA[\operatorname {Spec} A_i]]></fr:tex> with each <fr:tex display="inline"><![CDATA[A_i]]></fr:tex> <fr:link href="/idem-comm-JOTR/" title="Noetherian distributive lattice" uri="https://charloced.github.io/idem-comm-JOTR/" display-uri="idem-comm-JOTR" type="local">Noetherian</fr:link>. Equivalently by <fr:link href="/schm-KSRJ/" title="Noetherian condition is affine local" uri="https://charloced.github.io/schm-KSRJ/" display-uri="schm-KSRJ" type="local">Lemma <fr:contextual-number uri="https://charloced.github.io/schm-KSRJ/" display-uri="schm-KSRJ" /></fr:link>, every affine open is Noetherian. We say <fr:tex display="inline"><![CDATA[X]]></fr:tex> is <html:em>Noetherian</html:em> if it is furthermore <fr:link href="/schm-H9PK/" title="Quasi-compact and quasi-separated schemes" uri="https://charloced.github.io/schm-H9PK/" display-uri="schm-H9PK" type="local">quasi-compact</fr:link>.
+</html:p>
+                      </fr:mainmatter>
+                    </fr:tree>
+                    <fr:tree show-metadata="false">
+                      <fr:frontmatter>
+                        <fr:authors />
+                        <fr:date>
+                          <fr:year>2025</fr:year>
+                          <fr:month>6</fr:month>
+                          <fr:day>10</fr:day>
+                        </fr:date>
+                        <fr:uri>https://charloced.github.io/schm-A6LH/</fr:uri>
+                        <fr:display-uri>schm-A6LH</fr:display-uri>
+                        <fr:route>/schm-A6LH/</fr:route>
+                        <fr:title text="Noetherian and non-Noetherian affine schemes">Noetherian and non-Noetherian affine schemes</fr:title>
+                        <fr:taxon>Example</fr:taxon>
+                      </fr:frontmatter>
+                      <fr:mainmatter>
+                        <html:p>
+  By definition, an <fr:link href="/schm-IFX1/" title="Affine scheme" uri="https://charloced.github.io/schm-IFX1/" display-uri="schm-IFX1" type="local">affine scheme</fr:link> <fr:tex display="inline"><![CDATA[\operatorname {Spec} A]]></fr:tex> is Noetherian iff <fr:tex display="inline"><![CDATA[A]]></fr:tex> is <fr:link href="/idem-comm-JOTR/" title="Noetherian distributive lattice" uri="https://charloced.github.io/idem-comm-JOTR/" display-uri="idem-comm-JOTR" type="local">Noetherian</fr:link>.
+</html:p>
+                        <html:p>
+  From <fr:link href="/schm-LRJP/" title="The Rieger-Nishimura scheme" uri="https://charloced.github.io/schm-LRJP/" display-uri="schm-LRJP" type="local">Example <fr:contextual-number uri="https://charloced.github.io/schm-LRJP/" display-uri="schm-LRJP" /></fr:link>, <fr:tex display="inline"><![CDATA[\operatorname {Spec}\mathbb {H}[x]]]></fr:tex> is <html:em>not</html:em> Noetherian, since <fr:tex display="inline"><![CDATA[\mathbb {H}[x]]]></fr:tex> has infinite ascending elements. In fact, it is <html:em>not</html:em> locally Noetherian either, due to the existance of the focal point <fr:tex display="inline"><![CDATA[\bot ]]></fr:tex> of <fr:tex display="inline"><![CDATA[\operatorname {Spec}\mathbb {H}[x]]]></fr:tex>, whose only open neighbourhood is the entire space. However, the open subscheme <fr:tex display="inline"><![CDATA[\operatorname {Spec}\mathbb {H}[x]_+]]></fr:tex> of <fr:tex display="inline"><![CDATA[\operatorname {Spec}\mathbb {H}[x]]]></fr:tex> described in <fr:link href="/schm-LRJP/" title="The Rieger-Nishimura scheme" uri="https://charloced.github.io/schm-LRJP/" display-uri="schm-LRJP" type="local">Example <fr:contextual-number uri="https://charloced.github.io/schm-LRJP/" display-uri="schm-LRJP" /></fr:link> is locally Noetherian.
+</html:p>
+                        <html:p>
+  Dually, from <fr:link href="/schm-DK1B/" title="The dual Rieger-Nishimura scheme" uri="https://charloced.github.io/schm-DK1B/" display-uri="schm-DK1B" type="local">Example <fr:contextual-number uri="https://charloced.github.io/schm-DK1B/" display-uri="schm-DK1B" /></fr:link> we know <fr:tex display="inline"><![CDATA[\mathbb {S}[x]]]></fr:tex> <html:em>is</html:em> Noetherian, hence <fr:tex display="inline"><![CDATA[\operatorname {Spec}\mathbb {S}[x]]]></fr:tex> is Noetherian.
+</html:p>
+                      </fr:mainmatter>
+                    </fr:tree>
+                    <fr:tree show-metadata="false">
+                      <fr:frontmatter>
+                        <fr:authors />
+                        <fr:date>
+                          <fr:year>2025</fr:year>
+                          <fr:month>6</fr:month>
+                          <fr:day>10</fr:day>
+                        </fr:date>
+                        <fr:uri>https://charloced.github.io/schm-8QSS/</fr:uri>
+                        <fr:display-uri>schm-8QSS</fr:display-uri>
+                        <fr:route>/schm-8QSS/</fr:route>
+                        <fr:title text="Noetherian schemes have Noetherian underlying topological spaces">Noetherian schemes have Noetherian underlying topological spaces</fr:title>
+                        <fr:taxon>Lemma</fr:taxon>
+                      </fr:frontmatter>
+                      <fr:mainmatter><html:p>
   If <fr:tex display="inline"><![CDATA[X]]></fr:tex> is a Noetherian scheme, then its underlying topological space is <fr:link href="/topl-AWX1/" title="Noetherian topological spaces" uri="https://charloced.github.io/topl-AWX1/" display-uri="topl-AWX1" type="local">Noetherian</fr:link>.
 </html:p>
  
@@ -3190,22 +3194,22 @@
 </fr:mainmatter></fr:tree>
  
 </fr:mainmatter>
-                        </fr:tree>
-                        <fr:tree show-metadata="false">
-                          <fr:frontmatter>
-                            <fr:authors />
-                            <fr:date>
-                              <fr:year>2025</fr:year>
-                              <fr:month>6</fr:month>
-                              <fr:day>11</fr:day>
-                            </fr:date>
-                            <fr:uri>https://charloced.github.io/schm-U686/</fr:uri>
-                            <fr:display-uri>schm-U686</fr:display-uri>
-                            <fr:route>/schm-U686/</fr:route>
-                            <fr:title text="Locally Noetherian schemes are quasi-separated">Locally Noetherian schemes are quasi-separated</fr:title>
-                            <fr:taxon>Lemma</fr:taxon>
-                          </fr:frontmatter>
-                          <fr:mainmatter><html:p>
+                    </fr:tree>
+                    <fr:tree show-metadata="false">
+                      <fr:frontmatter>
+                        <fr:authors />
+                        <fr:date>
+                          <fr:year>2025</fr:year>
+                          <fr:month>6</fr:month>
+                          <fr:day>11</fr:day>
+                        </fr:date>
+                        <fr:uri>https://charloced.github.io/schm-U686/</fr:uri>
+                        <fr:display-uri>schm-U686</fr:display-uri>
+                        <fr:route>/schm-U686/</fr:route>
+                        <fr:title text="Locally Noetherian schemes are quasi-separated">Locally Noetherian schemes are quasi-separated</fr:title>
+                        <fr:taxon>Lemma</fr:taxon>
+                      </fr:frontmatter>
+                      <fr:mainmatter><html:p>
   A <fr:link href="/schm-P1M1/" title="Noetherian and locally Noetherian schemes" uri="https://charloced.github.io/schm-P1M1/" display-uri="schm-P1M1" type="local">locally Noetherian</fr:link> scheme is <fr:link href="/schm-H9PK/" title="Quasi-compact and quasi-separated schemes" uri="https://charloced.github.io/schm-H9PK/" display-uri="schm-H9PK" type="local">quasi-separated</fr:link>.
 </html:p>
  
@@ -3215,42 +3219,42 @@
 </fr:mainmatter></fr:tree>
  
 </fr:mainmatter>
-                        </fr:tree>
-                      </fr:mainmatter>
                     </fr:tree>
+                  </fr:mainmatter>
+                </fr:tree>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors>
+                      <fr:author>
+                        <fr:link href="/lingyuan/" title="Lingyuan Ye" uri="https://charloced.github.io/lingyuan/" display-uri="lingyuan" type="local">Lingyuan Ye</fr:link>
+                      </fr:author>
+                    </fr:authors>
+                    <fr:date>
+                      <fr:year>2025</fr:year>
+                      <fr:month>6</fr:month>
+                      <fr:day>11</fr:day>
+                    </fr:date>
+                    <fr:uri>https://charloced.github.io/schm-V62C/</fr:uri>
+                    <fr:display-uri>schm-V62C</fr:display-uri>
+                    <fr:route>/schm-V62C/</fr:route>
+                    <fr:title text="Heyting conditions">Heyting conditions</fr:title>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
                     <fr:tree show-metadata="false">
                       <fr:frontmatter>
-                        <fr:authors>
-                          <fr:author>
-                            <fr:link href="/lingyuan/" title="Lingyuan Ye" uri="https://charloced.github.io/lingyuan/" display-uri="lingyuan" type="local">Lingyuan Ye</fr:link>
-                          </fr:author>
-                        </fr:authors>
+                        <fr:authors />
                         <fr:date>
                           <fr:year>2025</fr:year>
                           <fr:month>6</fr:month>
                           <fr:day>11</fr:day>
                         </fr:date>
-                        <fr:uri>https://charloced.github.io/schm-V62C/</fr:uri>
-                        <fr:display-uri>schm-V62C</fr:display-uri>
-                        <fr:route>/schm-V62C/</fr:route>
-                        <fr:title text="Heyting conditions">Heyting conditions</fr:title>
+                        <fr:uri>https://charloced.github.io/schm-LL5B/</fr:uri>
+                        <fr:display-uri>schm-LL5B</fr:display-uri>
+                        <fr:route>/schm-LL5B/</fr:route>
+                        <fr:title text="Being Heyting/Boolean is affine local">Being Heyting/Boolean is affine local</fr:title>
+                        <fr:taxon>Lemma</fr:taxon>
                       </fr:frontmatter>
-                      <fr:mainmatter>
-                        <fr:tree show-metadata="false">
-                          <fr:frontmatter>
-                            <fr:authors />
-                            <fr:date>
-                              <fr:year>2025</fr:year>
-                              <fr:month>6</fr:month>
-                              <fr:day>11</fr:day>
-                            </fr:date>
-                            <fr:uri>https://charloced.github.io/schm-LL5B/</fr:uri>
-                            <fr:display-uri>schm-LL5B</fr:display-uri>
-                            <fr:route>/schm-LL5B/</fr:route>
-                            <fr:title text="Being Heyting/Boolean is affine local">Being Heyting/Boolean is affine local</fr:title>
-                            <fr:taxon>Lemma</fr:taxon>
-                          </fr:frontmatter>
-                          <fr:mainmatter><html:p>
+                      <fr:mainmatter><html:p>
   The property of an affine open <fr:tex display="inline"><![CDATA[\operatorname {Spec} A]]></fr:tex> of <fr:tex display="inline"><![CDATA[X]]></fr:tex> that <fr:tex display="inline"><![CDATA[A]]></fr:tex> is a <html:em>Heyting algebra</html:em> or a <html:em>Boolean algebra</html:em> is <fr:link href="/schm-C6GR/" title="Affine local properties" uri="https://charloced.github.io/schm-C6GR/" display-uri="schm-C6GR" type="local">affine local</fr:link>.
 </html:p>
  
@@ -3298,42 +3302,62 @@
 </fr:mainmatter></fr:tree>
  
 </fr:mainmatter>
-                        </fr:tree>
-                        <fr:tree show-metadata="false">
-                          <fr:frontmatter>
-                            <fr:authors />
-                            <fr:date>
-                              <fr:year>2025</fr:year>
-                              <fr:month>6</fr:month>
-                              <fr:day>11</fr:day>
-                            </fr:date>
-                            <fr:uri>https://charloced.github.io/schm-FZCT/</fr:uri>
-                            <fr:display-uri>schm-FZCT</fr:display-uri>
-                            <fr:route>/schm-FZCT/</fr:route>
-                            <fr:title text="Heyting and Boolean schemes">Heyting and Boolean schemes</fr:title>
-                            <fr:taxon>Definition</fr:taxon>
-                          </fr:frontmatter>
-                          <fr:mainmatter>
-                            <html:p>
+                    </fr:tree>
+                    <fr:tree show-metadata="false">
+                      <fr:frontmatter>
+                        <fr:authors />
+                        <fr:date>
+                          <fr:year>2025</fr:year>
+                          <fr:month>6</fr:month>
+                          <fr:day>11</fr:day>
+                        </fr:date>
+                        <fr:uri>https://charloced.github.io/schm-FZCT/</fr:uri>
+                        <fr:display-uri>schm-FZCT</fr:display-uri>
+                        <fr:route>/schm-FZCT/</fr:route>
+                        <fr:title text="Heyting and Boolean schemes">Heyting and Boolean schemes</fr:title>
+                        <fr:taxon>Definition</fr:taxon>
+                      </fr:frontmatter>
+                      <fr:mainmatter>
+                        <html:p>
   We say a scheme <fr:tex display="inline"><![CDATA[X]]></fr:tex> is <html:em>Heyting/Boolean</html:em> if there is an affine open cover <fr:tex display="inline"><![CDATA[\{\operatorname {Spec} A_i\}_{i\in  I}]]></fr:tex> of <fr:tex display="inline"><![CDATA[X]]></fr:tex> where each <fr:tex display="inline"><![CDATA[A_i]]></fr:tex> is Heyting/Boolean. Equivalently by <fr:link href="/schm-LL5B/" title="Being Heyting/Boolean is affine local" uri="https://charloced.github.io/schm-LL5B/" display-uri="schm-LL5B" type="local">Lemma <fr:contextual-number uri="https://charloced.github.io/schm-LL5B/" display-uri="schm-LL5B" /></fr:link>, this means all affine open of <fr:tex display="inline"><![CDATA[X]]></fr:tex> will be Heyting/Boolean.
 </html:p>
-                          </fr:mainmatter>
-                        </fr:tree>
-                        <fr:tree show-metadata="false">
-                          <fr:frontmatter>
-                            <fr:authors />
-                            <fr:date>
-                              <fr:year>2025</fr:year>
-                              <fr:month>6</fr:month>
-                              <fr:day>11</fr:day>
-                            </fr:date>
-                            <fr:uri>https://charloced.github.io/schm-O5GA/</fr:uri>
-                            <fr:display-uri>schm-O5GA</fr:display-uri>
-                            <fr:route>/schm-O5GA/</fr:route>
-                            <fr:title text="Internal characterisation of being Heyting">Internal characterisation of being Heyting</fr:title>
-                            <fr:taxon>Proposition</fr:taxon>
-                          </fr:frontmatter>
-                          <fr:mainmatter><html:p>
+                      </fr:mainmatter>
+                    </fr:tree>
+                    <fr:tree show-metadata="false">
+                      <fr:frontmatter>
+                        <fr:authors />
+                        <fr:date>
+                          <fr:year>2025</fr:year>
+                          <fr:month>6</fr:month>
+                          <fr:day>12</fr:day>
+                        </fr:date>
+                        <fr:uri>https://charloced.github.io/schm-N3T6/</fr:uri>
+                        <fr:display-uri>schm-N3T6</fr:display-uri>
+                        <fr:route>/schm-N3T6/</fr:route>
+                        <fr:title text="Locally Noetherian schemes are Heyting">Locally Noetherian schemes are Heyting</fr:title>
+                        <fr:taxon>Example</fr:taxon>
+                      </fr:frontmatter>
+                      <fr:mainmatter>
+                        <html:p>
+  By <fr:link href="/idem-comm-G90Z/" title="Every Noetherian distributive lattice is Heyting" uri="https://charloced.github.io/idem-comm-G90Z/" display-uri="idem-comm-G90Z" type="local">Remark <fr:contextual-number uri="https://charloced.github.io/idem-comm-G90Z/" display-uri="idem-comm-G90Z" /></fr:link>, any <fr:link href="/schm-P1M1/" title="Noetherian and locally Noetherian schemes" uri="https://charloced.github.io/schm-P1M1/" display-uri="schm-P1M1" type="local">locally Noetherian</fr:link> scheme is <fr:link href="/schm-FZCT/" title="Heyting and Boolean schemes" uri="https://charloced.github.io/schm-FZCT/" display-uri="schm-FZCT" type="local">Heyting</fr:link>.
+</html:p>
+                      </fr:mainmatter>
+                    </fr:tree>
+                    <fr:tree show-metadata="false">
+                      <fr:frontmatter>
+                        <fr:authors />
+                        <fr:date>
+                          <fr:year>2025</fr:year>
+                          <fr:month>6</fr:month>
+                          <fr:day>11</fr:day>
+                        </fr:date>
+                        <fr:uri>https://charloced.github.io/schm-O5GA/</fr:uri>
+                        <fr:display-uri>schm-O5GA</fr:display-uri>
+                        <fr:route>/schm-O5GA/</fr:route>
+                        <fr:title text="Internal characterisation of being Heyting">Internal characterisation of being Heyting</fr:title>
+                        <fr:taxon>Proposition</fr:taxon>
+                      </fr:frontmatter>
+                      <fr:mainmatter><html:p>
   A scheme <fr:tex display="inline"><![CDATA[X]]></fr:tex> is <fr:link href="/schm-FZCT/" title="Heyting and Boolean schemes" uri="https://charloced.github.io/schm-FZCT/" display-uri="schm-FZCT" type="local">Heyting/Boolean</fr:link> iff <fr:tex display="inline"><![CDATA[\mathcal {O}_{X}]]></fr:tex> is internally a Heyting/Boolean algebra.
 </html:p>
  
@@ -3352,35 +3376,52 @@
 </fr:mainmatter></fr:tree>
  
 </fr:mainmatter>
-                        </fr:tree>
-                        <fr:tree show-metadata="false">
-                          <fr:frontmatter>
-                            <fr:authors />
-                            <fr:date>
-                              <fr:year>2025</fr:year>
-                              <fr:month>6</fr:month>
-                              <fr:day>11</fr:day>
-                            </fr:date>
-                            <fr:uri>https://charloced.github.io/schm-VYJD/</fr:uri>
-                            <fr:display-uri>schm-VYJD</fr:display-uri>
-                            <fr:route>/schm-VYJD/</fr:route>
-                            <fr:title text="Can being Heyting checked on stalks?">Can being Heyting checked on stalks?</fr:title>
-                            <fr:taxon>Remark</fr:taxon>
-                          </fr:frontmatter>
-                          <fr:mainmatter>
-                            <html:p>
+                    </fr:tree>
+                    <fr:tree show-metadata="false">
+                      <fr:frontmatter>
+                        <fr:authors />
+                        <fr:date>
+                          <fr:year>2025</fr:year>
+                          <fr:month>6</fr:month>
+                          <fr:day>11</fr:day>
+                        </fr:date>
+                        <fr:uri>https://charloced.github.io/schm-VYJD/</fr:uri>
+                        <fr:display-uri>schm-VYJD</fr:display-uri>
+                        <fr:route>/schm-VYJD/</fr:route>
+                        <fr:title text="Can being Heyting checked on stalks?">Can being Heyting checked on stalks?</fr:title>
+                        <fr:taxon>Remark</fr:taxon>
+                      </fr:frontmatter>
+                      <fr:mainmatter>
+                        <html:p>
   We know from <fr:link href="/schm-LL5B/" title="Being Heyting/Boolean is affine local" uri="https://charloced.github.io/schm-LL5B/" display-uri="schm-LL5B" type="local">Lemma <fr:contextual-number uri="https://charloced.github.io/schm-LL5B/" display-uri="schm-LL5B" /></fr:link> that being Heyting is affine local. Furthermore, if <fr:tex display="inline"><![CDATA[X]]></fr:tex> is a <fr:link href="/schm-FZCT/" title="Heyting and Boolean schemes" uri="https://charloced.github.io/schm-FZCT/" display-uri="schm-FZCT" type="local">Heyting scheme</fr:link>, then evidently for any <fr:tex display="inline"><![CDATA[x\in  X]]></fr:tex>, the stalk <fr:tex display="inline"><![CDATA[\mathcal {O}_{X,x}]]></fr:tex> is a local Heyting algebra. However, is the converse true, i.e. is being Heyting a <fr:link href="/schm-HE7H/" title="Stalk local properties" uri="https://charloced.github.io/schm-HE7H/" display-uri="schm-HE7H" type="local">stalk local</fr:link> property?
 </html:p>
-                            <html:p>
-  The related question for Boolean algebras is positive, since being Boolean is <html:em>geometric</html:em>, i.e. for a sheaf of distributive lattice <fr:tex display="inline"><![CDATA[\mathcal {O}_{X}]]></fr:tex> over <fr:tex display="inline"><![CDATA[X]]></fr:tex>, it is Boolean iff it satisfies the following geometric sequent,
-  <fr:tex display="block"><![CDATA[ \top  \vdash _{x\in \mathcal {O}_{X}} \exists  y \in  \mathcal {O}_{X}.\  (x \wedge  y = 0) \wedge  (x \vee  y = 1) ]]></fr:tex>
-  However, it seems to be quite hard to come up with a geometric description of being Heyting. This ultimately reduces to an <fr:link href="/idem-comm-I4FM/" title="A criteria of being Heyting" uri="https://charloced.github.io/idem-comm-I4FM/" display-uri="idem-comm-I4FM" type="local">algebraic problem</fr:link>.
+                        <html:p>
+  The related question for Boolean algebras is positive. Note from <fr:link href="/schm-O5GA/" title="Internal characterisation of being Heyting" uri="https://charloced.github.io/schm-O5GA/" display-uri="schm-O5GA" type="local">Proposition <fr:contextual-number uri="https://charloced.github.io/schm-O5GA/" display-uri="schm-O5GA" /></fr:link> that <fr:tex display="inline"><![CDATA[X]]></fr:tex> is Boolean iff <fr:tex display="inline"><![CDATA[\mathcal {O}_{X}]]></fr:tex> is a Boolean algebra. Then it suffices to note that being Boolean is <html:em>geometric</html:em>, i.e. for a sheaf of distributive lattice <fr:tex display="inline"><![CDATA[\mathcal {O}_{X}]]></fr:tex> over <fr:tex display="inline"><![CDATA[X]]></fr:tex>, it is Boolean iff it satisfies the following geometric sequent,
+  <fr:tex display="block"><![CDATA[ \forall  x \in  \mathcal {O}_{X}.\  \exists  y \in  \mathcal {O}_{X}.\  (x \wedge  y = 0) \wedge  (x \vee  y = 1) ]]></fr:tex>
+  However, it seems to be quite hard to come up with a geometric description of being Heyting. This ultimately reduces to an <fr:link href="/idem-comm-I4FM/" title="A criteria of being Heyting algebras" uri="https://charloced.github.io/idem-comm-I4FM/" display-uri="idem-comm-I4FM" type="local">algebraic problem</fr:link>.
 </html:p>
-                          </fr:mainmatter>
-                        </fr:tree>
                       </fr:mainmatter>
                     </fr:tree>
                   </fr:mainmatter>
+                </fr:tree>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors>
+                      <fr:author>
+                        <fr:link href="/lingyuan/" title="Lingyuan Ye" uri="https://charloced.github.io/lingyuan/" display-uri="lingyuan" type="local">Lingyuan Ye</fr:link>
+                      </fr:author>
+                    </fr:authors>
+                    <fr:date>
+                      <fr:year>2025</fr:year>
+                      <fr:month>6</fr:month>
+                      <fr:day>9</fr:day>
+                    </fr:date>
+                    <fr:uri>https://charloced.github.io/schm-SJIX/</fr:uri>
+                    <fr:display-uri>schm-SJIX</fr:display-uri>
+                    <fr:route>/schm-SJIX/</fr:route>
+                    <fr:title text="Finite type conditions">Finite type conditions</fr:title>
+                  </fr:frontmatter>
+                  <fr:mainmatter />
                 </fr:tree>
               </fr:mainmatter>
             </fr:tree>

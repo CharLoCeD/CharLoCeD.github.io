@@ -6,24 +6,21 @@
     <fr:date>
       <fr:year>2025</fr:year>
       <fr:month>6</fr:month>
-      <fr:day>8</fr:day>
+      <fr:day>12</fr:day>
     </fr:date>
-    <fr:uri>https://charloced.github.io/idem-comm-65DL/</fr:uri>
-    <fr:display-uri>idem-comm-65DL</fr:display-uri>
-    <fr:route>/idem-comm-65DL/</fr:route>
-    <fr:title text="Prime ideals in Noetherian distributive lattices">Prime ideals in Noetherian distributive lattices</fr:title>
-    <fr:taxon>Theorem</fr:taxon>
+    <fr:uri>https://charloced.github.io/idem-comm-G90Z/</fr:uri>
+    <fr:display-uri>idem-comm-G90Z</fr:display-uri>
+    <fr:route>/idem-comm-G90Z/</fr:route>
+    <fr:title text="Every Noetherian distributive lattice is Heyting">Every Noetherian distributive lattice is Heyting</fr:title>
+    <fr:taxon>Remark</fr:taxon>
   </fr:frontmatter>
-  <fr:mainmatter><html:p>
-  In a Noetherian distributive lattice <fr:tex display="inline"><![CDATA[D]]></fr:tex>, prime ideals are in bijection with meet-irreducible elements, and any element is a finite intersection of them.
+  <fr:mainmatter>
+    <html:p>
+  Let <fr:tex display="inline"><![CDATA[D]]></fr:tex> be a distributive lattice, and let <fr:tex display="inline"><![CDATA[a,b\in  D]]></fr:tex>. Consider the ideal
+  <fr:tex display="block"><![CDATA[ I_{a \to  b} := \{c\in  D\mid a \wedge  c \le  b\} ]]></fr:tex>
+  Now the Heyting implication <fr:tex display="inline"><![CDATA[a \to  b]]></fr:tex> exists in <fr:tex display="inline"><![CDATA[D]]></fr:tex> iff <fr:tex display="inline"><![CDATA[I_{a \to  b}]]></fr:tex> is <html:em>principle</html:em>. Thus, given <fr:link href="/idem-comm-ITAZ/" title="Noetherian distributive lattices are exactly principle ideal domains" uri="https://charloced.github.io/idem-comm-ITAZ/" display-uri="idem-comm-ITAZ" type="local">Proposition <fr:contextual-number uri="https://charloced.github.io/idem-comm-ITAZ/" display-uri="idem-comm-ITAZ" /></fr:link>, every Noetherian distributive lattice is a Heyting algebra.
 </html:p>
- 
-   
-   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>8</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
-  We first show every ideal <fr:tex display="inline"><![CDATA[I]]></fr:tex> in <fr:tex display="inline"><![CDATA[D]]></fr:tex> is a finite intersection of prime ideals. Suppose there is a counterexample. Then the set <fr:tex display="inline"><![CDATA[\Sigma ]]></fr:tex> of all such ideals are non-empty. By <fr:tex display="inline"><![CDATA[D]]></fr:tex> being Noetherian, <fr:tex display="inline"><![CDATA[\Sigma ]]></fr:tex> has a maximal element <fr:tex display="inline"><![CDATA[I]]></fr:tex>. Since <fr:tex display="inline"><![CDATA[I]]></fr:tex> itself cannot be prime, we can find <fr:tex display="inline"><![CDATA[x,y\not \in  I]]></fr:tex> with <fr:tex display="inline"><![CDATA[x \wedge  y \in  I]]></fr:tex>. This way, <fr:tex display="inline"><![CDATA[x \vee  I]]></fr:tex> and <fr:tex display="inline"><![CDATA[y \vee  I]]></fr:tex> are proper extensions of <fr:tex display="inline"><![CDATA[I]]></fr:tex> with <fr:tex display="inline"><![CDATA[(x \vee  I) \cap  (y \vee  I) = (x \wedge  y) \vee  I = I]]></fr:tex>. Since <fr:tex display="inline"><![CDATA[I]]></fr:tex> is maximal in <fr:tex display="inline"><![CDATA[\Sigma ]]></fr:tex>, both <fr:tex display="inline"><![CDATA[x \vee  I]]></fr:tex> and <fr:tex display="inline"><![CDATA[y \vee  I]]></fr:tex> has a prime factorisation, which actually implies <fr:tex display="inline"><![CDATA[(x \vee  I) \cap  (y \vee  I) = I]]></fr:tex> also has one, contradictory. Thus, <fr:tex display="inline"><![CDATA[\Sigma ]]></fr:tex> must be empty. Now the claim follows from <fr:link href="/idem-comm-ITAZ/" title="Noetherian distributive lattices are exactly principle ideal domains" uri="https://charloced.github.io/idem-comm-ITAZ/" display-uri="idem-comm-ITAZ" type="local">Proposition <fr:contextual-number uri="https://charloced.github.io/idem-comm-ITAZ/" display-uri="idem-comm-ITAZ" /></fr:link>.
-</fr:mainmatter></fr:tree>
- 
-</fr:mainmatter>
+  </fr:mainmatter>
   <fr:backmatter>
     <fr:tree show-metadata="false" hidden-when-empty="true">
       <fr:frontmatter>
@@ -352,6 +349,26 @@
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>6</fr:month>
+              <fr:day>12</fr:day>
+            </fr:date>
+            <fr:uri>https://charloced.github.io/schm-N3T6/</fr:uri>
+            <fr:display-uri>schm-N3T6</fr:display-uri>
+            <fr:route>/schm-N3T6/</fr:route>
+            <fr:title text="Locally Noetherian schemes are Heyting">Locally Noetherian schemes are Heyting</fr:title>
+            <fr:taxon>Example</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  By <fr:link href="/idem-comm-G90Z/" title="Every Noetherian distributive lattice is Heyting" uri="https://charloced.github.io/idem-comm-G90Z/" display-uri="idem-comm-G90Z" type="local">Remark <fr:contextual-number uri="https://charloced.github.io/idem-comm-G90Z/" display-uri="idem-comm-G90Z" /></fr:link>, any <fr:link href="/schm-P1M1/" title="Noetherian and locally Noetherian schemes" uri="https://charloced.github.io/schm-P1M1/" display-uri="schm-P1M1" type="local">locally Noetherian</fr:link> scheme is <fr:link href="/schm-FZCT/" title="Heyting and Boolean schemes" uri="https://charloced.github.io/schm-FZCT/" display-uri="schm-FZCT" type="local">Heyting</fr:link>.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
               <fr:day>7</fr:day>
             </fr:date>
             <fr:uri>https://charloced.github.io/idem-comm-WV5M/</fr:uri>
@@ -413,6 +430,43 @@
   Since each natural number only contains finitely many prime factors, it is easier to describe the closed sets,
   <fr:tex display="block"><![CDATA[ C_n = \{p^k\mid p^k \mid  n\} = \downarrow  p_1^{k_1} \cup  \cdots  \cup  \downarrow  p_m^{k_m}, ]]></fr:tex>
   where <fr:tex display="inline"><![CDATA[n = p_1^{k_1} \cdots  p_m^{k_m}]]></fr:tex> is the prime factorisation of <fr:tex display="inline"><![CDATA[n]]></fr:tex>. 
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>7</fr:day>
+            </fr:date>
+            <fr:uri>https://charloced.github.io/idem-comm-14GL/</fr:uri>
+            <fr:display-uri>idem-comm-14GL</fr:display-uri>
+            <fr:route>/idem-comm-14GL/</fr:route>
+            <fr:title text="Prime spectrum of primes under division">Prime spectrum of primes under division</fr:title>
+            <fr:taxon>Example</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p><fr:tex display="inline"><![CDATA[\mathbb {N}]]></fr:tex> also contains a sub distributive lattice <fr:tex display="inline"><![CDATA[\mathbb {P}]]></fr:tex>, consisting of those numbers which does not contain a higher power of prime factor. By <fr:link href="/idem-comm-SKN8/" title="Closure properties of Noetherian distributive lattices" uri="https://charloced.github.io/idem-comm-SKN8/" display-uri="idem-comm-SKN8" type="local">Proposition <fr:contextual-number uri="https://charloced.github.io/idem-comm-SKN8/" display-uri="idem-comm-SKN8" /></fr:link> <fr:tex display="inline"><![CDATA[\mathbb {P}]]></fr:tex> is again Noetherian, hence by <fr:link href="/idem-comm-G90Z/" title="Every Noetherian distributive lattice is Heyting" uri="https://charloced.github.io/idem-comm-G90Z/" display-uri="idem-comm-G90Z" type="local">Remark <fr:contextual-number uri="https://charloced.github.io/idem-comm-G90Z/" display-uri="idem-comm-G90Z" /></fr:link> a Heyting algebra as well. The spectrum of <fr:tex display="inline"><![CDATA[\mathbb {P}]]></fr:tex> is obtained by throwing out all the higher powers of primes in the spectrum of <fr:tex display="inline"><![CDATA[\mathbb {N}]]></fr:tex>,
+  
+  <html:figure><fr:resource hash="7cf5777f200754368e8726d72a8ecf57"><fr:resource-content><html:img src="/7cf5777f200754368e8726d72a8ecf57.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[\usepackage {tikz-cd}\usepackage {quiver}]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+    \begin {tikzpicture}[scale=0.8]
+      \node  (2) at (0,0) {2};
+      \node  (3) at (1,0) {3};
+      \node  (5) at (2,0) {5};
+      \node  (p) at (3,0) {$\cdots $};
+
+      \node  (0) at (1.5,1) {0};
+
+      \path [->] (2) edge (0);
+      \path [->] (3) edge (0);
+      \path [->] (5) edge (0);
+      \path [->] (p) edge (0);
+    \end {tikzpicture}
+  ]]></fr:resource-source></fr:resource></html:figure>
+
+  <fr:tex display="inline"><![CDATA[\operatorname {Spec}\mathbb {P}]]></fr:tex> is homeomorphic to the usual ring spectrum <fr:tex display="inline"><![CDATA[\operatorname {Spec}\mathbb {Z}]]></fr:tex>, which is the one point compatification of the discrete space of natural numbers.
 </html:p>
           </fr:mainmatter>
         </fr:tree>

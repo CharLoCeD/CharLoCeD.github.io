@@ -283,7 +283,7 @@
   <fr:tex display="block"><![CDATA[ n \le  m \Leftrightarrow  m \mid  n. ]]></fr:tex>
   In this lattice, we have
   <fr:tex display="block"><![CDATA[ n \wedge  m = \mathrm {lcm}(m,n), \quad  n \vee  m = \mathrm {gcd}(n,m). ]]></fr:tex>
-  Also, the top element is <fr:tex display="inline"><![CDATA[1]]></fr:tex>, and the bottom element is 0. <fr:tex display="inline"><![CDATA[\mathbb {N}]]></fr:tex> is in fact a <html:em>Heyting algebra</html:em>. 
+  Also, the top element is <fr:tex display="inline"><![CDATA[1]]></fr:tex>, and the bottom element is 0. By <fr:link href="/idem-comm-G90Z/" title="Every Noetherian distributive lattice is Heyting" uri="https://charloced.github.io/idem-comm-G90Z/" display-uri="idem-comm-G90Z" type="local">Remark <fr:contextual-number uri="https://charloced.github.io/idem-comm-G90Z/" display-uri="idem-comm-G90Z" /></fr:link>, <fr:tex display="inline"><![CDATA[\mathbb {N}]]></fr:tex> is in fact a <html:em>Heyting algebra</html:em>. 
 </html:p>
             <html:p> 
   It is then easy to see <fr:tex display="inline"><![CDATA[\mathbb {N}]]></fr:tex> is <html:em>Noetherian</html:em>. Hence, by <fr:link href="/idem-comm-65DL/" title="Prime ideals in Noetherian distributive lattices" uri="https://charloced.github.io/idem-comm-65DL/" display-uri="idem-comm-65DL" type="local">Theorem <fr:contextual-number uri="https://charloced.github.io/idem-comm-65DL/" display-uri="idem-comm-65DL" /></fr:link> prime ideals in <fr:tex display="inline"><![CDATA[\mathbb {N}]]></fr:tex> are exactly meet-irreducible elements. According to this we can compute the spectrum of <fr:tex display="inline"><![CDATA[\mathbb {N}]]></fr:tex> as below

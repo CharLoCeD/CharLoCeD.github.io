@@ -125,12 +125,149 @@
               <fr:month>6</fr:month>
               <fr:day>9</fr:day>
             </fr:date>
-            <fr:uri>https://charloced.github.io/schm-SJIX/</fr:uri>
-            <fr:display-uri>schm-SJIX</fr:display-uri>
-            <fr:route>/schm-SJIX/</fr:route>
-            <fr:title text="Topological properties of schemes">Topological properties of schemes</fr:title>
+            <fr:uri>https://charloced.github.io/schm-T8FG/</fr:uri>
+            <fr:display-uri>schm-T8FG</fr:display-uri>
+            <fr:route>/schm-T8FG/</fr:route>
+            <fr:title text="Properties of schemes">Properties of schemes</fr:title>
           </fr:frontmatter>
           <fr:mainmatter>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>11</fr:day>
+                </fr:date>
+                <fr:uri>https://charloced.github.io/schm-C6GR/</fr:uri>
+                <fr:display-uri>schm-C6GR</fr:display-uri>
+                <fr:route>/schm-C6GR/</fr:route>
+                <fr:title text="Affine local properties">Affine local properties</fr:title>
+                <fr:taxon>Definition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+  Let <fr:tex display="inline"><![CDATA[X]]></fr:tex> be an arbitrary <fr:link href="/schm-86OJ/" title="Scheme" uri="https://charloced.github.io/schm-86OJ/" display-uri="schm-86OJ" type="local">scheme</fr:link>. Let <fr:tex display="inline"><![CDATA[P]]></fr:tex> be a property of affine opens of <fr:tex display="inline"><![CDATA[X]]></fr:tex>. We say <fr:tex display="inline"><![CDATA[P]]></fr:tex> is <html:em>affine local</html:em>, if 
+  <html:ol><html:li> for any <fr:tex display="inline"><![CDATA[\operatorname {Spec} A]]></fr:tex> satisfying <fr:tex display="inline"><![CDATA[P]]></fr:tex>, so is <fr:tex display="inline"><![CDATA[\operatorname {Spec} A/a \subseteq  \operatorname {Spec} A]]></fr:tex> for any <fr:tex display="inline"><![CDATA[a\in  A]]></fr:tex>. </html:li>
+    <html:li> if there exists finitely many <fr:tex display="inline"><![CDATA[a_i]]></fr:tex> of <fr:tex display="inline"><![CDATA[A]]></fr:tex> with <fr:tex display="inline"><![CDATA[\bigvee _{i}a_i = 1]]></fr:tex> where each <fr:tex display="inline"><![CDATA[\operatorname {Spec} A_i]]></fr:tex> satisfies <fr:tex display="inline"><![CDATA[P]]></fr:tex>, then the union <fr:tex display="inline"><![CDATA[\operatorname {Spec} A = \bigcup _{i}\operatorname {Spec} A_i]]></fr:tex> also satisfies <fr:tex display="inline"><![CDATA[P]]></fr:tex>. </html:li></html:ol></html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>11</fr:day>
+                </fr:date>
+                <fr:uri>https://charloced.github.io/schm-4MZL/</fr:uri>
+                <fr:display-uri>schm-4MZL</fr:display-uri>
+                <fr:route>/schm-4MZL/</fr:route>
+                <fr:title text="Affine commutation">Affine commutation</fr:title>
+                <fr:taxon>Lemma</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter><html:p>
+  Let <fr:tex display="inline"><![CDATA[X]]></fr:tex> be a <fr:link href="/schm-86OJ/" title="Scheme" uri="https://charloced.github.io/schm-86OJ/" display-uri="schm-86OJ" type="local">scheme</fr:link> and let <fr:tex display="inline"><![CDATA[P]]></fr:tex> be an <fr:link href="/schm-C6GR/" title="Affine local properties" uri="https://charloced.github.io/schm-C6GR/" display-uri="schm-C6GR" type="local">affine local</fr:link> property on <fr:tex display="inline"><![CDATA[X]]></fr:tex>. If there exists an affine open cover <fr:tex display="inline"><![CDATA[\{\operatorname {Spec} A_i\}_{i\in  I}]]></fr:tex> of <fr:tex display="inline"><![CDATA[X]]></fr:tex> with each <fr:tex display="inline"><![CDATA[\operatorname {Spec} A_i]]></fr:tex> satisfying <fr:tex display="inline"><![CDATA[P]]></fr:tex>, then any affine open of <fr:tex display="inline"><![CDATA[X]]></fr:tex> satisfies <fr:tex display="inline"><![CDATA[P]]></fr:tex>.
+</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>11</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  Suppose we have an arbitrary affine open <fr:tex display="inline"><![CDATA[\operatorname {Spec} D]]></fr:tex> of <fr:tex display="inline"><![CDATA[X]]></fr:tex>. Since <fr:tex display="inline"><![CDATA[\operatorname {Spec} D]]></fr:tex> is quasi-compact, we can cover <fr:tex display="inline"><![CDATA[\operatorname {Spec} D]]></fr:tex> by finitely many <fr:tex display="inline"><![CDATA[\operatorname {Spec} A_i]]></fr:tex> with each <fr:tex display="inline"><![CDATA[\operatorname {Spec} A_i]]></fr:tex> satisfying <fr:tex display="inline"><![CDATA[P]]></fr:tex>. Since standard opens of <fr:tex display="inline"><![CDATA[\operatorname {Spec} D]]></fr:tex> form a basis, we can choose a generating family <fr:tex display="inline"><![CDATA[\{d_j\}_{j\in  J}]]></fr:tex> in <fr:tex display="inline"><![CDATA[D]]></fr:tex> with <fr:tex display="inline"><![CDATA[\bigvee _{j\in  J}d_j = 1]]></fr:tex>, and each <fr:tex display="inline"><![CDATA[\operatorname {Spec} D/d_j]]></fr:tex> is contained in some <fr:tex display="inline"><![CDATA[\operatorname {Spec} A_i]]></fr:tex>. But since <fr:tex display="inline"><![CDATA[\operatorname {Spec} D/d_j]]></fr:tex> is open compact in <fr:tex display="inline"><![CDATA[\operatorname {Spec} A_i]]></fr:tex>, it can be identified as some <fr:tex display="inline"><![CDATA[\operatorname {Spec} A_i/a_j]]></fr:tex> for some <fr:tex display="inline"><![CDATA[a_j]]></fr:tex> in <fr:tex display="inline"><![CDATA[A_i]]></fr:tex>. By assumption of <fr:tex display="inline"><![CDATA[P]]></fr:tex> being affine local, each <fr:tex display="inline"><![CDATA[\operatorname {Spec} D/d_i]]></fr:tex> satisfies <fr:tex display="inline"><![CDATA[P]]></fr:tex>, hence <fr:tex display="inline"><![CDATA[\operatorname {Spec} D]]></fr:tex> satisfies <fr:tex display="inline"><![CDATA[P]]></fr:tex>.
+</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+            </fr:tree>
+            <html:p>
+  The affine commutation lemma has a wide range of applications, because we can view properties of morphisms of schemes and sheaves on schemes as affine local properties:
+</html:p>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>11</fr:day>
+                </fr:date>
+                <fr:uri>https://charloced.github.io/schm-WURZ/</fr:uri>
+                <fr:display-uri>schm-WURZ</fr:display-uri>
+                <fr:route>/schm-WURZ/</fr:route>
+                <fr:title text="Affine local on the target">Affine local on the target</fr:title>
+                <fr:taxon>Example</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+  Let <fr:tex display="inline"><![CDATA[P]]></fr:tex> be a property of <html:em>morphisms</html:em> of <fr:link href="/schm-86OJ/" title="Scheme" uri="https://charloced.github.io/schm-86OJ/" display-uri="schm-86OJ" type="local">schemes</fr:link>. Then we say <fr:tex display="inline"><![CDATA[P]]></fr:tex> is <html:em>affine local on the target</html:em>, if for any <fr:tex display="inline"><![CDATA[f : Y \to  X]]></fr:tex>, the property on affine opens <fr:tex display="inline"><![CDATA[\operatorname {Spec} A]]></fr:tex> of <fr:tex display="inline"><![CDATA[X]]></fr:tex> where the restriction <fr:tex display="inline"><![CDATA[f^{-1}(\operatorname {Spec} A) \to  \operatorname {Spec} A]]></fr:tex> satisfies <fr:tex display="inline"><![CDATA[P]]></fr:tex> is <fr:link href="/schm-C6GR/" title="Affine local properties" uri="https://charloced.github.io/schm-C6GR/" display-uri="schm-C6GR" type="local">affine local</fr:link>.
+</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>11</fr:day>
+                </fr:date>
+                <fr:uri>https://charloced.github.io/schm-27GR/</fr:uri>
+                <fr:display-uri>schm-27GR</fr:display-uri>
+                <fr:route>/schm-27GR/</fr:route>
+                <fr:title text="Affine local for sheaves">Affine local for sheaves</fr:title>
+                <fr:taxon>Example</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+  Let <fr:tex display="inline"><![CDATA[P]]></fr:tex> be a property of sheaves on <fr:tex display="inline"><![CDATA[X]]></fr:tex>. Then we say <fr:tex display="inline"><![CDATA[P]]></fr:tex> is <html:em>affine local</html:em>, if for any sheaf <fr:tex display="inline"><![CDATA[\mathcal {F}]]></fr:tex> on <fr:tex display="inline"><![CDATA[X]]></fr:tex>, the property on affine opens <fr:tex display="inline"><![CDATA[\operatorname {Spec} A]]></fr:tex> of <fr:tex display="inline"><![CDATA[X]]></fr:tex> where the restriction <fr:tex display="inline"><![CDATA[\mathcal {F}_{\operatorname {Spec} A}]]></fr:tex> satisfies <fr:tex display="inline"><![CDATA[P]]></fr:tex> is <fr:link href="/schm-C6GR/" title="Affine local properties" uri="https://charloced.github.io/schm-C6GR/" display-uri="schm-C6GR" type="local">affine local</fr:link>.
+</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <html:p>
+  A stronger local condition is <html:em>stalk local</html:em>:
+</html:p>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>11</fr:day>
+                </fr:date>
+                <fr:uri>https://charloced.github.io/schm-HE7H/</fr:uri>
+                <fr:display-uri>schm-HE7H</fr:display-uri>
+                <fr:route>/schm-HE7H/</fr:route>
+                <fr:title text="Stalk local properties">Stalk local properties</fr:title>
+                <fr:taxon>Definition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+  We say a property of distributive lattices is <html:em>stalk local</html:em>, if for any <fr:tex display="inline"><![CDATA[A]]></fr:tex>, <fr:tex display="inline"><![CDATA[A]]></fr:tex> satisfies <fr:tex display="inline"><![CDATA[P]]></fr:tex> iff for all <fr:tex display="inline"><![CDATA[x\in \operatorname {Spec} A]]></fr:tex> in the <fr:link href="/idem-comm-ZAQZ/" title="Prime spectrum of a distributive lattice" uri="https://charloced.github.io/idem-comm-ZAQZ/" display-uri="idem-comm-ZAQZ" type="local">prime spectrum</fr:link>, <fr:tex display="inline"><![CDATA[A/x]]></fr:tex> satisfies <fr:tex display="inline"><![CDATA[P]]></fr:tex>.
+</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>11</fr:day>
+                </fr:date>
+                <fr:uri>https://charloced.github.io/schm-IPGI/</fr:uri>
+                <fr:display-uri>schm-IPGI</fr:display-uri>
+                <fr:route>/schm-IPGI/</fr:route>
+                <fr:title text="Stalk local implies affine local">Stalk local implies affine local</fr:title>
+                <fr:taxon>Lemma</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter><html:p>
+  If <fr:tex display="inline"><![CDATA[P]]></fr:tex> is a <fr:link href="/schm-HE7H/" title="Stalk local properties" uri="https://charloced.github.io/schm-HE7H/" display-uri="schm-HE7H" type="local">stalk local</fr:link> property, then for any <fr:link href="/schm-86OJ/" title="Scheme" uri="https://charloced.github.io/schm-86OJ/" display-uri="schm-86OJ" type="local">scheme</fr:link> <fr:tex display="inline"><![CDATA[X]]></fr:tex>, the property of affine open <fr:tex display="inline"><![CDATA[\operatorname {Spec} A]]></fr:tex> with <fr:tex display="inline"><![CDATA[A]]></fr:tex> satisfying <fr:tex display="inline"><![CDATA[P]]></fr:tex> is <fr:link href="/schm-C6GR/" title="Affine local properties" uri="https://charloced.github.io/schm-C6GR/" display-uri="schm-C6GR" type="local">affine local</fr:link>.
+</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>11</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  This is trivial.
+</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+            </fr:tree>
             <fr:tree show-metadata="false">
               <fr:frontmatter>
                 <fr:authors>
@@ -478,6 +615,31 @@
                     <fr:date>
                       <fr:year>2025</fr:year>
                       <fr:month>6</fr:month>
+                      <fr:day>11</fr:day>
+                    </fr:date>
+                    <fr:uri>https://charloced.github.io/schm-KSRJ/</fr:uri>
+                    <fr:display-uri>schm-KSRJ</fr:display-uri>
+                    <fr:route>/schm-KSRJ/</fr:route>
+                    <fr:title text="Noetherian condition is affine local">Noetherian condition is affine local</fr:title>
+                    <fr:taxon>Lemma</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter><html:p>
+  Being <fr:link href="/schm-P1M1/" title="Noetherian and locally Noetherian schemes" uri="https://charloced.github.io/schm-P1M1/" display-uri="schm-P1M1" type="local">Noetherian</fr:link> is an <fr:link href="/schm-C6GR/" title="Affine local properties" uri="https://charloced.github.io/schm-C6GR/" display-uri="schm-C6GR" type="local">affine local</fr:link> property.
+</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>11</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  Since Noetherian distributive lattices are closed under quotients, the first condition of affine local is trivial. Now suppose we have <fr:tex display="inline"><![CDATA[\bigvee _{i\in  I}a_i = 1]]></fr:tex> with each <fr:tex display="inline"><![CDATA[A/a_i]]></fr:tex> Noetherian. Any finite ascending sequence in <fr:tex display="inline"><![CDATA[A]]></fr:tex> induces inifinite ascending sequences in <fr:tex display="inline"><![CDATA[A_i]]></fr:tex>, which must be stationary by assumption. Since the family <fr:tex display="inline"><![CDATA[\{A_i\}_{i\in  I}]]></fr:tex> is finite, they must have a common upper bound where all sequences being stationary. This implies the original sequence must be stationary, hence <fr:tex display="inline"><![CDATA[A]]></fr:tex> is Noetherian.
+</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+                </fr:tree>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors />
+                    <fr:date>
+                      <fr:year>2025</fr:year>
+                      <fr:month>6</fr:month>
                       <fr:day>10</fr:day>
                     </fr:date>
                     <fr:uri>https://charloced.github.io/schm-P1M1/</fr:uri>
@@ -488,7 +650,7 @@
                   </fr:frontmatter>
                   <fr:mainmatter>
                     <html:p>
-  We say a scheme <fr:tex display="inline"><![CDATA[X]]></fr:tex> is <html:em>locally Noetherian</html:em>, if it can be covered by affine subspaces <fr:tex display="inline"><![CDATA[\operatorname {Spec} A_i]]></fr:tex> with each <fr:tex display="inline"><![CDATA[A_i]]></fr:tex> <fr:link href="/idem-comm-JOTR/" title="Noetherian distributive lattice" uri="https://charloced.github.io/idem-comm-JOTR/" display-uri="idem-comm-JOTR" type="local">Noetherian</fr:link>. We say <fr:tex display="inline"><![CDATA[X]]></fr:tex> is <html:em>Noetherian</html:em> if it is furthermore <fr:link href="/schm-H9PK/" title="Quasi-compact and quasi-separated schemes" uri="https://charloced.github.io/schm-H9PK/" display-uri="schm-H9PK" type="local">quasi-compact</fr:link>.
+  We say a scheme <fr:tex display="inline"><![CDATA[X]]></fr:tex> is <html:em>locally Noetherian</html:em>, if it can be covered by affine subspaces <fr:tex display="inline"><![CDATA[\operatorname {Spec} A_i]]></fr:tex> with each <fr:tex display="inline"><![CDATA[A_i]]></fr:tex> <fr:link href="/idem-comm-JOTR/" title="Noetherian distributive lattice" uri="https://charloced.github.io/idem-comm-JOTR/" display-uri="idem-comm-JOTR" type="local">Noetherian</fr:link>. Equivalently by <fr:link href="/schm-KSRJ/" title="Noetherian condition is affine local" uri="https://charloced.github.io/schm-KSRJ/" display-uri="schm-KSRJ" type="local">Lemma <fr:contextual-number uri="https://charloced.github.io/schm-KSRJ/" display-uri="schm-KSRJ" /></fr:link>, every affine open is Noetherian. We say <fr:tex display="inline"><![CDATA[X]]></fr:tex> is <html:em>Noetherian</html:em> if it is furthermore <fr:link href="/schm-H9PK/" title="Quasi-compact and quasi-separated schemes" uri="https://charloced.github.io/schm-H9PK/" display-uri="schm-H9PK" type="local">quasi-compact</fr:link>.
 </html:p>
                   </fr:mainmatter>
                 </fr:tree>
@@ -517,31 +679,6 @@
   Dually, from <fr:link href="/schm-DK1B/" title="The dual Rieger-Nishimura scheme" uri="https://charloced.github.io/schm-DK1B/" display-uri="schm-DK1B" type="local">Example <fr:contextual-number uri="https://charloced.github.io/schm-DK1B/" display-uri="schm-DK1B" /></fr:link> we know <fr:tex display="inline"><![CDATA[\mathbb {S}[x]]]></fr:tex> <html:em>is</html:em> Noetherian, hence <fr:tex display="inline"><![CDATA[\operatorname {Spec}\mathbb {S}[x]]]></fr:tex> is Noetherian.
 </html:p>
                   </fr:mainmatter>
-                </fr:tree>
-                <fr:tree show-metadata="false">
-                  <fr:frontmatter>
-                    <fr:authors />
-                    <fr:date>
-                      <fr:year>2025</fr:year>
-                      <fr:month>6</fr:month>
-                      <fr:day>11</fr:day>
-                    </fr:date>
-                    <fr:uri>https://charloced.github.io/schm-KSRJ/</fr:uri>
-                    <fr:display-uri>schm-KSRJ</fr:display-uri>
-                    <fr:route>/schm-KSRJ/</fr:route>
-                    <fr:title text="Noetherian condition is affine local">Noetherian condition is affine local</fr:title>
-                    <fr:taxon>Lemma</fr:taxon>
-                  </fr:frontmatter>
-                  <fr:mainmatter><html:p>
-  Being <fr:link href="/schm-P1M1/" title="Noetherian and locally Noetherian schemes" uri="https://charloced.github.io/schm-P1M1/" display-uri="schm-P1M1" type="local">Noetherian</fr:link> is an <fr:link href="/schm-C6GR/" title="Affine local properties" uri="https://charloced.github.io/schm-C6GR/" display-uri="schm-C6GR" type="local">affine local</fr:link> property.
-</html:p>
- 
-   
-   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>11</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
-  Since Noetherian distributive lattices are closed under quotients, the first condition of affine local is trivial. Now suppose we have <fr:tex display="inline"><![CDATA[\bigvee _{i\in  I}a_i = 1]]></fr:tex> with each <fr:tex display="inline"><![CDATA[A/a_i]]></fr:tex> Noetherian. Any finite ascending sequence in <fr:tex display="inline"><![CDATA[A]]></fr:tex> induces inifinite ascending sequences in <fr:tex display="inline"><![CDATA[A_i]]></fr:tex>, which must be stationary by assumption. Since the family <fr:tex display="inline"><![CDATA[\{A_i\}_{i\in  I}]]></fr:tex> is finite, they must have a common upper bound where all sequences being stationary. This implies the original sequence must be stationary, hence <fr:tex display="inline"><![CDATA[A]]></fr:tex> is Noetherian.
-</fr:mainmatter></fr:tree>
- 
-</fr:mainmatter>
                 </fr:tree>
                 <fr:tree show-metadata="false">
                   <fr:frontmatter>
@@ -702,6 +839,26 @@
                     <fr:date>
                       <fr:year>2025</fr:year>
                       <fr:month>6</fr:month>
+                      <fr:day>12</fr:day>
+                    </fr:date>
+                    <fr:uri>https://charloced.github.io/schm-N3T6/</fr:uri>
+                    <fr:display-uri>schm-N3T6</fr:display-uri>
+                    <fr:route>/schm-N3T6/</fr:route>
+                    <fr:title text="Locally Noetherian schemes are Heyting">Locally Noetherian schemes are Heyting</fr:title>
+                    <fr:taxon>Example</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p>
+  By <fr:link href="/idem-comm-G90Z/" title="Every Noetherian distributive lattice is Heyting" uri="https://charloced.github.io/idem-comm-G90Z/" display-uri="idem-comm-G90Z" type="local">Remark <fr:contextual-number uri="https://charloced.github.io/idem-comm-G90Z/" display-uri="idem-comm-G90Z" /></fr:link>, any <fr:link href="/schm-P1M1/" title="Noetherian and locally Noetherian schemes" uri="https://charloced.github.io/schm-P1M1/" display-uri="schm-P1M1" type="local">locally Noetherian</fr:link> scheme is <fr:link href="/schm-FZCT/" title="Heyting and Boolean schemes" uri="https://charloced.github.io/schm-FZCT/" display-uri="schm-FZCT" type="local">Heyting</fr:link>.
+</html:p>
+                  </fr:mainmatter>
+                </fr:tree>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors />
+                    <fr:date>
+                      <fr:year>2025</fr:year>
+                      <fr:month>6</fr:month>
                       <fr:day>11</fr:day>
                     </fr:date>
                     <fr:uri>https://charloced.github.io/schm-O5GA/</fr:uri>
@@ -749,13 +906,32 @@
   We know from <fr:link href="/schm-LL5B/" title="Being Heyting/Boolean is affine local" uri="https://charloced.github.io/schm-LL5B/" display-uri="schm-LL5B" type="local">Lemma <fr:contextual-number uri="https://charloced.github.io/schm-LL5B/" display-uri="schm-LL5B" /></fr:link> that being Heyting is affine local. Furthermore, if <fr:tex display="inline"><![CDATA[X]]></fr:tex> is a <fr:link href="/schm-FZCT/" title="Heyting and Boolean schemes" uri="https://charloced.github.io/schm-FZCT/" display-uri="schm-FZCT" type="local">Heyting scheme</fr:link>, then evidently for any <fr:tex display="inline"><![CDATA[x\in  X]]></fr:tex>, the stalk <fr:tex display="inline"><![CDATA[\mathcal {O}_{X,x}]]></fr:tex> is a local Heyting algebra. However, is the converse true, i.e. is being Heyting a <fr:link href="/schm-HE7H/" title="Stalk local properties" uri="https://charloced.github.io/schm-HE7H/" display-uri="schm-HE7H" type="local">stalk local</fr:link> property?
 </html:p>
                     <html:p>
-  The related question for Boolean algebras is positive, since being Boolean is <html:em>geometric</html:em>, i.e. for a sheaf of distributive lattice <fr:tex display="inline"><![CDATA[\mathcal {O}_{X}]]></fr:tex> over <fr:tex display="inline"><![CDATA[X]]></fr:tex>, it is Boolean iff it satisfies the following geometric sequent,
-  <fr:tex display="block"><![CDATA[ \top  \vdash _{x\in \mathcal {O}_{X}} \exists  y \in  \mathcal {O}_{X}.\  (x \wedge  y = 0) \wedge  (x \vee  y = 1) ]]></fr:tex>
-  However, it seems to be quite hard to come up with a geometric description of being Heyting. This ultimately reduces to an <fr:link href="/idem-comm-I4FM/" title="A criteria of being Heyting" uri="https://charloced.github.io/idem-comm-I4FM/" display-uri="idem-comm-I4FM" type="local">algebraic problem</fr:link>.
+  The related question for Boolean algebras is positive. Note from <fr:link href="/schm-O5GA/" title="Internal characterisation of being Heyting" uri="https://charloced.github.io/schm-O5GA/" display-uri="schm-O5GA" type="local">Proposition <fr:contextual-number uri="https://charloced.github.io/schm-O5GA/" display-uri="schm-O5GA" /></fr:link> that <fr:tex display="inline"><![CDATA[X]]></fr:tex> is Boolean iff <fr:tex display="inline"><![CDATA[\mathcal {O}_{X}]]></fr:tex> is a Boolean algebra. Then it suffices to note that being Boolean is <html:em>geometric</html:em>, i.e. for a sheaf of distributive lattice <fr:tex display="inline"><![CDATA[\mathcal {O}_{X}]]></fr:tex> over <fr:tex display="inline"><![CDATA[X]]></fr:tex>, it is Boolean iff it satisfies the following geometric sequent,
+  <fr:tex display="block"><![CDATA[ \forall  x \in  \mathcal {O}_{X}.\  \exists  y \in  \mathcal {O}_{X}.\  (x \wedge  y = 0) \wedge  (x \vee  y = 1) ]]></fr:tex>
+  However, it seems to be quite hard to come up with a geometric description of being Heyting. This ultimately reduces to an <fr:link href="/idem-comm-I4FM/" title="A criteria of being Heyting algebras" uri="https://charloced.github.io/idem-comm-I4FM/" display-uri="idem-comm-I4FM" type="local">algebraic problem</fr:link>.
 </html:p>
                   </fr:mainmatter>
                 </fr:tree>
               </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/lingyuan/" title="Lingyuan Ye" uri="https://charloced.github.io/lingyuan/" display-uri="lingyuan" type="local">Lingyuan Ye</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>9</fr:day>
+                </fr:date>
+                <fr:uri>https://charloced.github.io/schm-SJIX/</fr:uri>
+                <fr:display-uri>schm-SJIX</fr:display-uri>
+                <fr:route>/schm-SJIX/</fr:route>
+                <fr:title text="Finite type conditions">Finite type conditions</fr:title>
+              </fr:frontmatter>
+              <fr:mainmatter />
             </fr:tree>
           </fr:mainmatter>
         </fr:tree>

@@ -11,11 +11,11 @@
     <fr:uri>https://charloced.github.io/idem-comm-21XO/</fr:uri>
     <fr:display-uri>idem-comm-21XO</fr:display-uri>
     <fr:route>/idem-comm-21XO/</fr:route>
-    <fr:title text="Polynomial projections preserve constructible sets">Polynomial projections preserve constructible sets</fr:title>
+    <fr:title text="Polynomial projections are open, closed, and constructible">Polynomial projections are open, closed, and constructible</fr:title>
     <fr:taxon>Lemma</fr:taxon>
   </fr:frontmatter>
   <fr:mainmatter><html:p>
-  The map <fr:tex display="inline"><![CDATA[\operatorname {Spec} D[x] \to  \operatorname {Spec} D]]></fr:tex> takes a standard open to a standard open; similarly for standard closed sets. This in particular implies it <fr:link href="/topl-XT5Y/" title="Maps preserving constructible sets" uri="https://charloced.github.io/topl-XT5Y/" display-uri="topl-XT5Y" type="local">preserves constructible subsets</fr:link>.
+  The map <fr:tex display="inline"><![CDATA[\operatorname {Spec} D[x] \to  \operatorname {Spec} D]]></fr:tex> takes a standard open to a standard open; similarly for standard closed sets. This in particular implies it is both open and closed, and <fr:link href="/topl-XT5Y/" title="Maps preserving constructible sets" uri="https://charloced.github.io/topl-XT5Y/" display-uri="topl-XT5Y" type="local">preserves constructible subsets</fr:link>.
 </html:p>
  
    
@@ -196,11 +196,11 @@
                 <fr:uri>https://charloced.github.io/idem-comm-21XO/</fr:uri>
                 <fr:display-uri>idem-comm-21XO</fr:display-uri>
                 <fr:route>/idem-comm-21XO/</fr:route>
-                <fr:title text="Polynomial projections preserve constructible sets">Polynomial projections preserve constructible sets</fr:title>
+                <fr:title text="Polynomial projections are open, closed, and constructible">Polynomial projections are open, closed, and constructible</fr:title>
                 <fr:taxon>Lemma</fr:taxon>
               </fr:frontmatter>
               <fr:mainmatter><html:p>
-  The map <fr:tex display="inline"><![CDATA[\operatorname {Spec} D[x] \to  \operatorname {Spec} D]]></fr:tex> takes a standard open to a standard open; similarly for standard closed sets. This in particular implies it <fr:link href="/topl-XT5Y/" title="Maps preserving constructible sets" uri="https://charloced.github.io/topl-XT5Y/" display-uri="topl-XT5Y" type="local">preserves constructible subsets</fr:link>.
+  The map <fr:tex display="inline"><![CDATA[\operatorname {Spec} D[x] \to  \operatorname {Spec} D]]></fr:tex> takes a standard open to a standard open; similarly for standard closed sets. This in particular implies it is both open and closed, and <fr:link href="/topl-XT5Y/" title="Maps preserving constructible sets" uri="https://charloced.github.io/topl-XT5Y/" display-uri="topl-XT5Y" type="local">preserves constructible subsets</fr:link>.
 </html:p>
  
    
@@ -237,7 +237,7 @@
    <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>8</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
   <fr:tex display="inline"><![CDATA[E]]></fr:tex> will be of the form <fr:tex display="inline"><![CDATA[D[x_1,\cdots ,x_n]/\langle p_i,q_i\rangle ]]></fr:tex>. We may factor <fr:tex display="inline"><![CDATA[D \to  E]]></fr:tex> as
   <fr:tex display="block"><![CDATA[ D \to  D[x_1] \to  \cdots  \to  D[x_1,\cdots ,x_n] \to  D[x_1,\cdots ,x_n]/\langle p_i,q_i\rangle , ]]></fr:tex>
-  where each map preserves constructible sets by <fr:link href="/idem-comm-21XO/" title="Polynomial projections preserve constructible sets" uri="https://charloced.github.io/idem-comm-21XO/" display-uri="idem-comm-21XO" type="local">Lemma <fr:contextual-number uri="https://charloced.github.io/idem-comm-21XO/" display-uri="idem-comm-21XO" /></fr:link> and <fr:link href="/idem-comm-Y25U/" title="Finitely presented quotients preserve constructible sets" uri="https://charloced.github.io/idem-comm-Y25U/" display-uri="idem-comm-Y25U" type="local">Lemma <fr:contextual-number uri="https://charloced.github.io/idem-comm-Y25U/" display-uri="idem-comm-Y25U" /></fr:link>.
+  where each map preserves constructible sets by <fr:link href="/idem-comm-21XO/" title="Polynomial projections are open, closed, and constructible" uri="https://charloced.github.io/idem-comm-21XO/" display-uri="idem-comm-21XO" type="local">Lemma <fr:contextual-number uri="https://charloced.github.io/idem-comm-21XO/" display-uri="idem-comm-21XO" /></fr:link> and <fr:link href="/idem-comm-Y25U/" title="Finitely presented quotients preserve constructible sets" uri="https://charloced.github.io/idem-comm-Y25U/" display-uri="idem-comm-Y25U" type="local">Lemma <fr:contextual-number uri="https://charloced.github.io/idem-comm-Y25U/" display-uri="idem-comm-Y25U" /></fr:link>.
 </fr:mainmatter></fr:tree>
  
 </fr:mainmatter>
@@ -312,7 +312,7 @@
    <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>8</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
   <fr:tex display="inline"><![CDATA[E]]></fr:tex> will be of the form <fr:tex display="inline"><![CDATA[D[x_1,\cdots ,x_n]/\langle p_i,q_i\rangle ]]></fr:tex>. We may factor <fr:tex display="inline"><![CDATA[D \to  E]]></fr:tex> as
   <fr:tex display="block"><![CDATA[ D \to  D[x_1] \to  \cdots  \to  D[x_1,\cdots ,x_n] \to  D[x_1,\cdots ,x_n]/\langle p_i,q_i\rangle , ]]></fr:tex>
-  where each map preserves constructible sets by <fr:link href="/idem-comm-21XO/" title="Polynomial projections preserve constructible sets" uri="https://charloced.github.io/idem-comm-21XO/" display-uri="idem-comm-21XO" type="local">Lemma <fr:contextual-number uri="https://charloced.github.io/idem-comm-21XO/" display-uri="idem-comm-21XO" /></fr:link> and <fr:link href="/idem-comm-Y25U/" title="Finitely presented quotients preserve constructible sets" uri="https://charloced.github.io/idem-comm-Y25U/" display-uri="idem-comm-Y25U" type="local">Lemma <fr:contextual-number uri="https://charloced.github.io/idem-comm-Y25U/" display-uri="idem-comm-Y25U" /></fr:link>.
+  where each map preserves constructible sets by <fr:link href="/idem-comm-21XO/" title="Polynomial projections are open, closed, and constructible" uri="https://charloced.github.io/idem-comm-21XO/" display-uri="idem-comm-21XO" type="local">Lemma <fr:contextual-number uri="https://charloced.github.io/idem-comm-21XO/" display-uri="idem-comm-21XO" /></fr:link> and <fr:link href="/idem-comm-Y25U/" title="Finitely presented quotients preserve constructible sets" uri="https://charloced.github.io/idem-comm-Y25U/" display-uri="idem-comm-Y25U" type="local">Lemma <fr:contextual-number uri="https://charloced.github.io/idem-comm-Y25U/" display-uri="idem-comm-Y25U" /></fr:link>.
 </fr:mainmatter></fr:tree>
  
 </fr:mainmatter>
