@@ -325,6 +325,26 @@
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>6</fr:month>
+              <fr:day>9</fr:day>
+            </fr:date>
+            <fr:uri>https://charloced.github.io/idem-comm-487K/</fr:uri>
+            <fr:display-uri>idem-comm-487K</fr:display-uri>
+            <fr:route>/idem-comm-487K/</fr:route>
+            <fr:title text="Integral distributive lattices">Integral distributive lattices</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  A distributive lattice <fr:tex display="inline"><![CDATA[D]]></fr:tex> is <html:em>integral</html:em> if <fr:tex display="inline"><![CDATA[D^{\mathrm {op}}]]></fr:tex> is <fr:link href="/idem-comm-75C1/" title="Local distributive lattice" uri="https://charloced.github.io/idem-comm-75C1/" display-uri="idem-comm-75C1" type="local">local</fr:link>.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
               <fr:day>7</fr:day>
             </fr:date>
             <fr:uri>https://charloced.github.io/idem-comm-E2I8/</fr:uri>
@@ -1547,7 +1567,7 @@
             <fr:uri>https://charloced.github.io/idem-comm-SZN6/</fr:uri>
             <fr:display-uri>idem-comm-SZN6</fr:display-uri>
             <fr:route>/idem-comm-SZN6/</fr:route>
-            <fr:title text="Characterisation of p-maps">Characterisation of p-maps</fr:title>
+            <fr:title text="Characterisation of p-maps and q-maps">Characterisation of p-maps and q-maps</fr:title>
             <fr:taxon>Theorem</fr:taxon>
           </fr:frontmatter>
           <fr:mainmatter><html:p>
@@ -1561,13 +1581,54 @@
         D \ar [r, "f"] \ar [d, two heads] & E \ar [d, two heads] \\ 
         D/f^{-1}(x) \ar [r, tail] & E/x
       \end {tikzcd}
-    ]]></fr:resource-source></fr:resource></html:figure></html:li></html:ol></html:p>
+    ]]></fr:resource-source></fr:resource></html:figure></html:li></html:ol>
+  The dual case for q-maps are clear.
+</html:p>
  
    
    <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>8</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
-  The equivalence (1) <fr:tex display="inline"><![CDATA[\Leftrightarrow ]]></fr:tex> (2) is by definition. The equivalence (2) <fr:tex display="inline"><![CDATA[\Leftrightarrow ]]></fr:tex> (3) is obtained by the observation that the localisation <fr:tex display="inline"><![CDATA[E \twoheadrightarrow  E/x]]></fr:tex> exactly induces the inclusion
+  The equivalence (1) <fr:tex display="inline"><![CDATA[\Leftrightarrow ]]></fr:tex> (2) is by definition. The equivalence (2) <fr:tex display="inline"><![CDATA[\Leftrightarrow ]]></fr:tex> (3) is obtained by the observation that the localisation <fr:tex display="inline"><![CDATA[E \twoheadrightarrow  E/x]]></fr:tex> exactly induces the inclusion (cf. <fr:link href="/schm-MWRT/" title="Affine scheme at a stalk" uri="https://charloced.github.io/schm-MWRT/" display-uri="schm-MWRT" type="local">Lemma <fr:contextual-number uri="https://charloced.github.io/schm-MWRT/" display-uri="schm-MWRT" /></fr:link>)
   <fr:tex display="block"><![CDATA[ \operatorname {Spec} E/x = \{y\in \operatorname {Spec} E\mid x \le  y\} = \uparrow  x \subseteq  \operatorname {Spec} E. ]]></fr:tex>
   Thus, the map <fr:tex display="inline"><![CDATA[\uparrow  x \to  \uparrow  fx]]></fr:tex> is induced by the induced map <fr:tex display="inline"><![CDATA[D/fx \to  E/x]]></fr:tex>, and it is surjective iff this is an injection by <fr:link href="/idem-comm-59IF/" title="Set-level duality between spectra and algebra" uri="https://charloced.github.io/idem-comm-59IF/" display-uri="idem-comm-59IF" type="local">Proposition <fr:contextual-number uri="https://charloced.github.io/idem-comm-59IF/" display-uri="idem-comm-59IF" /></fr:link>.
+</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>13</fr:day>
+            </fr:date>
+            <fr:uri>https://charloced.github.io/idem-comm-8GDH/</fr:uri>
+            <fr:display-uri>idem-comm-8GDH</fr:display-uri>
+            <fr:route>/idem-comm-8GDH/</fr:route>
+            <fr:title text="P-maps and q-maps between (co)Heyting algebras">P-maps and q-maps between (co)Heyting algebras</fr:title>
+            <fr:taxon>Proposition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>
+  For a map <fr:tex display="inline"><![CDATA[f : D \to  E]]></fr:tex> between <html:em>Heyting algebras</html:em>, <fr:tex display="inline"><![CDATA[f]]></fr:tex> is a <fr:link href="/idem-comm-SQ5X/" title="P-maps and q-maps" uri="https://charloced.github.io/idem-comm-SQ5X/" display-uri="idem-comm-SQ5X" type="local">p-map</fr:link> iff it is a Heyting algebra morphism, i.e. it preserves the implication. Dually the case for q-maps and coHeyting algebras is clear.
+</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>13</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <html:p>
+    Suppose <fr:tex display="inline"><![CDATA[f : D \to  E]]></fr:tex> is a Heyting algebra morphism between two Heyting algebras. For any <fr:tex display="inline"><![CDATA[x\in \operatorname {Spec} E]]></fr:tex>, consider the following factorisation,
+    
+  <html:figure><fr:resource hash="509b8bfd58d5525f5e2dbc9ba6f17b76"><fr:resource-content><html:img src="/509b8bfd58d5525f5e2dbc9ba6f17b76.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[\usepackage {tikz-cd}\usepackage {quiver}]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+      \begin {tikzcd}
+        D \ar [r, "f"] \ar [d, two heads] & E \ar [d, two heads] \\ 
+        D/f^{-1}(x) \ar [r] & E/x
+      \end {tikzcd}
+    ]]></fr:resource-source></fr:resource></html:figure>
+
+    By <fr:link href="/idem-comm-SZN6/" title="Characterisation of p-maps and q-maps" uri="https://charloced.github.io/idem-comm-SZN6/" display-uri="idem-comm-SZN6" type="local">Theorem <fr:contextual-number uri="https://charloced.github.io/idem-comm-SZN6/" display-uri="idem-comm-SZN6" /></fr:link>, it suffices to show <fr:tex display="inline"><![CDATA[D/f^{-1}(x) \to  E/x]]></fr:tex> is injective. By <fr:link href="/idem-comm-XNUV/" title="t-conservativity coincide with injectivity for Heyting algebras" uri="https://charloced.github.io/idem-comm-XNUV/" display-uri="idem-comm-XNUV" type="local">Remark <fr:contextual-number uri="https://charloced.github.io/idem-comm-XNUV/" display-uri="idem-comm-XNUV" /></fr:link> it suffices to show it is t-conservative. But this is true by the <fr:link href="/idem-comm-V39C/" title="Orthogonal factorisation: (pro-open, t-conservative)" uri="https://charloced.github.io/idem-comm-V39C/" display-uri="idem-comm-V39C" type="local">factorisation</fr:link>.
+  </html:p>
+  <html:p>
+    On the other hand, suppose we have a p-map <fr:tex display="inline"><![CDATA[f : D \to  E]]></fr:tex> between two Heyting algebras. For any <fr:tex display="inline"><![CDATA[a,b\in  D]]></fr:tex>, we already know <fr:tex display="inline"><![CDATA[f(a \to  b) \le  fa \to  fb]]></fr:tex>, hence it suffices to show the converse. Suppose we have a model <fr:tex display="inline"><![CDATA[x\in \operatorname {Spec} E]]></fr:tex> such that <fr:tex display="inline"><![CDATA[x \models  fa \to  fb]]></fr:tex>. This means <fr:tex display="inline"><![CDATA[fa \to  fb =_x 1]]></fr:tex> in <fr:tex display="inline"><![CDATA[E/x]]></fr:tex>, which means <fr:tex display="inline"><![CDATA[fa \le _x fb]]></fr:tex> in <fr:tex display="inline"><![CDATA[E/x]]></fr:tex>. Now since <fr:tex display="inline"><![CDATA[D/f^{-1}(x) \rightarrowtail  E/x]]></fr:tex> is injective, it follows <fr:tex display="inline"><![CDATA[a \le _{f^{-1}(x)} b]]></fr:tex> in <fr:tex display="inline"><![CDATA[D/f^{-1}(x)]]></fr:tex>, which implies <fr:tex display="inline"><![CDATA[f^{-1}(x) \models  a \to  b]]></fr:tex>, or in other words <fr:tex display="inline"><![CDATA[x \models  f(a \to  b)]]></fr:tex>. Hence, by completeness this implies <fr:tex display="inline"><![CDATA[f(a \to  b) = fa \to  fb]]></fr:tex>, i.e. <fr:tex display="inline"><![CDATA[f]]></fr:tex> is a Heyting algebra morphism.
+  </html:p>
 </fr:mainmatter></fr:tree>
  
 </fr:mainmatter>
@@ -2017,6 +2078,26 @@
                       </fr:frontmatter>
                       <fr:mainmatter>
                         <html:p><fr:tex display="inline"><![CDATA[D]]></fr:tex> is a <html:em>local</html:em> distributive lattice if (1) <fr:tex display="inline"><![CDATA[0 \neq  1]]></fr:tex> in <fr:tex display="inline"><![CDATA[D]]></fr:tex>; (2) for any <fr:tex display="inline"><![CDATA[a,b]]></fr:tex> in <fr:tex display="inline"><![CDATA[D]]></fr:tex>, <fr:tex display="inline"><![CDATA[a \vee  b = 1]]></fr:tex> iff <fr:tex display="inline"><![CDATA[a = 1]]></fr:tex> or <fr:tex display="inline"><![CDATA[b = 1]]></fr:tex>.
+</html:p>
+                      </fr:mainmatter>
+                    </fr:tree>
+                    <fr:tree show-metadata="false">
+                      <fr:frontmatter>
+                        <fr:authors />
+                        <fr:date>
+                          <fr:year>2025</fr:year>
+                          <fr:month>6</fr:month>
+                          <fr:day>9</fr:day>
+                        </fr:date>
+                        <fr:uri>https://charloced.github.io/idem-comm-487K/</fr:uri>
+                        <fr:display-uri>idem-comm-487K</fr:display-uri>
+                        <fr:route>/idem-comm-487K/</fr:route>
+                        <fr:title text="Integral distributive lattices">Integral distributive lattices</fr:title>
+                        <fr:taxon>Definition</fr:taxon>
+                      </fr:frontmatter>
+                      <fr:mainmatter>
+                        <html:p>
+  A distributive lattice <fr:tex display="inline"><![CDATA[D]]></fr:tex> is <html:em>integral</html:em> if <fr:tex display="inline"><![CDATA[D^{\mathrm {op}}]]></fr:tex> is <fr:link href="/idem-comm-75C1/" title="Local distributive lattice" uri="https://charloced.github.io/idem-comm-75C1/" display-uri="idem-comm-75C1" type="local">local</fr:link>.
 </html:p>
                       </fr:mainmatter>
                     </fr:tree>
@@ -3248,7 +3329,7 @@
                         <fr:uri>https://charloced.github.io/idem-comm-SZN6/</fr:uri>
                         <fr:display-uri>idem-comm-SZN6</fr:display-uri>
                         <fr:route>/idem-comm-SZN6/</fr:route>
-                        <fr:title text="Characterisation of p-maps">Characterisation of p-maps</fr:title>
+                        <fr:title text="Characterisation of p-maps and q-maps">Characterisation of p-maps and q-maps</fr:title>
                         <fr:taxon>Theorem</fr:taxon>
                       </fr:frontmatter>
                       <fr:mainmatter><html:p>
@@ -3262,13 +3343,54 @@
         D \ar [r, "f"] \ar [d, two heads] & E \ar [d, two heads] \\ 
         D/f^{-1}(x) \ar [r, tail] & E/x
       \end {tikzcd}
-    ]]></fr:resource-source></fr:resource></html:figure></html:li></html:ol></html:p>
+    ]]></fr:resource-source></fr:resource></html:figure></html:li></html:ol>
+  The dual case for q-maps are clear.
+</html:p>
  
    
    <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>8</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
-  The equivalence (1) <fr:tex display="inline"><![CDATA[\Leftrightarrow ]]></fr:tex> (2) is by definition. The equivalence (2) <fr:tex display="inline"><![CDATA[\Leftrightarrow ]]></fr:tex> (3) is obtained by the observation that the localisation <fr:tex display="inline"><![CDATA[E \twoheadrightarrow  E/x]]></fr:tex> exactly induces the inclusion
+  The equivalence (1) <fr:tex display="inline"><![CDATA[\Leftrightarrow ]]></fr:tex> (2) is by definition. The equivalence (2) <fr:tex display="inline"><![CDATA[\Leftrightarrow ]]></fr:tex> (3) is obtained by the observation that the localisation <fr:tex display="inline"><![CDATA[E \twoheadrightarrow  E/x]]></fr:tex> exactly induces the inclusion (cf. <fr:link href="/schm-MWRT/" title="Affine scheme at a stalk" uri="https://charloced.github.io/schm-MWRT/" display-uri="schm-MWRT" type="local">Lemma <fr:contextual-number uri="https://charloced.github.io/schm-MWRT/" display-uri="schm-MWRT" /></fr:link>)
   <fr:tex display="block"><![CDATA[ \operatorname {Spec} E/x = \{y\in \operatorname {Spec} E\mid x \le  y\} = \uparrow  x \subseteq  \operatorname {Spec} E. ]]></fr:tex>
   Thus, the map <fr:tex display="inline"><![CDATA[\uparrow  x \to  \uparrow  fx]]></fr:tex> is induced by the induced map <fr:tex display="inline"><![CDATA[D/fx \to  E/x]]></fr:tex>, and it is surjective iff this is an injection by <fr:link href="/idem-comm-59IF/" title="Set-level duality between spectra and algebra" uri="https://charloced.github.io/idem-comm-59IF/" display-uri="idem-comm-59IF" type="local">Proposition <fr:contextual-number uri="https://charloced.github.io/idem-comm-59IF/" display-uri="idem-comm-59IF" /></fr:link>.
+</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+                    </fr:tree>
+                    <fr:tree show-metadata="false">
+                      <fr:frontmatter>
+                        <fr:authors />
+                        <fr:date>
+                          <fr:year>2025</fr:year>
+                          <fr:month>6</fr:month>
+                          <fr:day>13</fr:day>
+                        </fr:date>
+                        <fr:uri>https://charloced.github.io/idem-comm-8GDH/</fr:uri>
+                        <fr:display-uri>idem-comm-8GDH</fr:display-uri>
+                        <fr:route>/idem-comm-8GDH/</fr:route>
+                        <fr:title text="P-maps and q-maps between (co)Heyting algebras">P-maps and q-maps between (co)Heyting algebras</fr:title>
+                        <fr:taxon>Proposition</fr:taxon>
+                      </fr:frontmatter>
+                      <fr:mainmatter><html:p>
+  For a map <fr:tex display="inline"><![CDATA[f : D \to  E]]></fr:tex> between <html:em>Heyting algebras</html:em>, <fr:tex display="inline"><![CDATA[f]]></fr:tex> is a <fr:link href="/idem-comm-SQ5X/" title="P-maps and q-maps" uri="https://charloced.github.io/idem-comm-SQ5X/" display-uri="idem-comm-SQ5X" type="local">p-map</fr:link> iff it is a Heyting algebra morphism, i.e. it preserves the implication. Dually the case for q-maps and coHeyting algebras is clear.
+</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>13</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <html:p>
+    Suppose <fr:tex display="inline"><![CDATA[f : D \to  E]]></fr:tex> is a Heyting algebra morphism between two Heyting algebras. For any <fr:tex display="inline"><![CDATA[x\in \operatorname {Spec} E]]></fr:tex>, consider the following factorisation,
+    
+  <html:figure><fr:resource hash="509b8bfd58d5525f5e2dbc9ba6f17b76"><fr:resource-content><html:img src="/509b8bfd58d5525f5e2dbc9ba6f17b76.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[\usepackage {tikz-cd}\usepackage {quiver}]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+      \begin {tikzcd}
+        D \ar [r, "f"] \ar [d, two heads] & E \ar [d, two heads] \\ 
+        D/f^{-1}(x) \ar [r] & E/x
+      \end {tikzcd}
+    ]]></fr:resource-source></fr:resource></html:figure>
+
+    By <fr:link href="/idem-comm-SZN6/" title="Characterisation of p-maps and q-maps" uri="https://charloced.github.io/idem-comm-SZN6/" display-uri="idem-comm-SZN6" type="local">Theorem <fr:contextual-number uri="https://charloced.github.io/idem-comm-SZN6/" display-uri="idem-comm-SZN6" /></fr:link>, it suffices to show <fr:tex display="inline"><![CDATA[D/f^{-1}(x) \to  E/x]]></fr:tex> is injective. By <fr:link href="/idem-comm-XNUV/" title="t-conservativity coincide with injectivity for Heyting algebras" uri="https://charloced.github.io/idem-comm-XNUV/" display-uri="idem-comm-XNUV" type="local">Remark <fr:contextual-number uri="https://charloced.github.io/idem-comm-XNUV/" display-uri="idem-comm-XNUV" /></fr:link> it suffices to show it is t-conservative. But this is true by the <fr:link href="/idem-comm-V39C/" title="Orthogonal factorisation: (pro-open, t-conservative)" uri="https://charloced.github.io/idem-comm-V39C/" display-uri="idem-comm-V39C" type="local">factorisation</fr:link>.
+  </html:p>
+  <html:p>
+    On the other hand, suppose we have a p-map <fr:tex display="inline"><![CDATA[f : D \to  E]]></fr:tex> between two Heyting algebras. For any <fr:tex display="inline"><![CDATA[a,b\in  D]]></fr:tex>, we already know <fr:tex display="inline"><![CDATA[f(a \to  b) \le  fa \to  fb]]></fr:tex>, hence it suffices to show the converse. Suppose we have a model <fr:tex display="inline"><![CDATA[x\in \operatorname {Spec} E]]></fr:tex> such that <fr:tex display="inline"><![CDATA[x \models  fa \to  fb]]></fr:tex>. This means <fr:tex display="inline"><![CDATA[fa \to  fb =_x 1]]></fr:tex> in <fr:tex display="inline"><![CDATA[E/x]]></fr:tex>, which means <fr:tex display="inline"><![CDATA[fa \le _x fb]]></fr:tex> in <fr:tex display="inline"><![CDATA[E/x]]></fr:tex>. Now since <fr:tex display="inline"><![CDATA[D/f^{-1}(x) \rightarrowtail  E/x]]></fr:tex> is injective, it follows <fr:tex display="inline"><![CDATA[a \le _{f^{-1}(x)} b]]></fr:tex> in <fr:tex display="inline"><![CDATA[D/f^{-1}(x)]]></fr:tex>, which implies <fr:tex display="inline"><![CDATA[f^{-1}(x) \models  a \to  b]]></fr:tex>, or in other words <fr:tex display="inline"><![CDATA[x \models  f(a \to  b)]]></fr:tex>. Hence, by completeness this implies <fr:tex display="inline"><![CDATA[f(a \to  b) = fa \to  fb]]></fr:tex>, i.e. <fr:tex display="inline"><![CDATA[f]]></fr:tex> is a Heyting algebra morphism.
+  </html:p>
 </fr:mainmatter></fr:tree>
  
 </fr:mainmatter>
@@ -3979,7 +4101,7 @@
                       </fr:frontmatter>
                       <fr:mainmatter>
                         <html:p>
-  A <fr:link href="/schm-V16H/" title="Locally distributed space" uri="https://charloced.github.io/schm-V16H/" display-uri="schm-V16H" type="local">locally distributed space</fr:link> <fr:tex display="inline"><![CDATA[(X,\mathcal {O}_{X})]]></fr:tex> is a <html:em>scheme</html:em>, if for any <fr:tex display="inline"><![CDATA[x\in  X]]></fr:tex> there is an open neighbourhood <fr:tex display="inline"><![CDATA[U]]></fr:tex> of <fr:tex display="inline"><![CDATA[x]]></fr:tex>, such that <fr:tex display="inline"><![CDATA[(U,\mathcal {O}_{X}|_U)]]></fr:tex> is an <fr:link href="/schm-IFX1/" title="Affine scheme" uri="https://charloced.github.io/schm-IFX1/" display-uri="schm-IFX1" type="local">affine scheme</fr:link>. The full subcategory of schemes will be denoted as <fr:tex display="inline"><![CDATA[\mathbf {Sch}_{\mathbb {D}}]]></fr:tex>.
+  A <fr:link href="/schm-V16H/" title="Locally distributed space" uri="https://charloced.github.io/schm-V16H/" display-uri="schm-V16H" type="local">locally distributed space</fr:link> <fr:tex display="inline"><![CDATA[(X,\mathcal {O}_{X})]]></fr:tex> is a <html:em>scheme</html:em>, if for any <fr:tex display="inline"><![CDATA[x\in  X]]></fr:tex> there is an open neighbourhood <fr:tex display="inline"><![CDATA[U]]></fr:tex> of <fr:tex display="inline"><![CDATA[x]]></fr:tex>, such that <fr:tex display="inline"><![CDATA[(U,\mathcal {O}_{X}|_U)]]></fr:tex> is an <fr:link href="/schm-IFX1/" title="Affine scheme" uri="https://charloced.github.io/schm-IFX1/" display-uri="schm-IFX1" type="local">affine scheme</fr:link>. The full subcategory of schemes will be denoted as <fr:tex display="inline"><![CDATA[\mathbf {Sch}]]></fr:tex>.
 </html:p>
                       </fr:mainmatter>
                     </fr:tree>
@@ -4041,7 +4163,7 @@
                         <html:p>
   The disjoint union <fr:tex display="inline"><![CDATA[X \cong  \coprod _{i\in  I}X_i]]></fr:tex> of arbitrary schemes is again a scheme. The structural sheaf on an open <fr:tex display="inline"><![CDATA[U]]></fr:tex> is given by
   <fr:tex display="block"><![CDATA[ \mathcal {O}_{X}(U) \cong  \prod _{i\in  I}\mathcal {O}_{X_i}(U \cap  X_i). ]]></fr:tex>
-  They are indeed the coproducts in <fr:tex display="inline"><![CDATA[\mathbf {Sch}_{\mathbb {D}}]]></fr:tex>.
+  They are indeed the coproducts in <fr:tex display="inline"><![CDATA[\mathbf {Sch}]]></fr:tex>.
 </html:p>
                       </fr:mainmatter>
                     </fr:tree>
@@ -4105,7 +4227,7 @@
   \end {tikzcd}
   ]]></fr:resource-source></fr:resource></html:figure>
 
-  <fr:tex display="inline"><![CDATA[\operatorname {Spec}\mathbb {H}[x]]]></fr:tex> has a unique non-standard <fr:link href="/schm-8ES8/" title="Open subschemes and open immersion" uri="https://charloced.github.io/schm-8ES8/" display-uri="schm-8ES8" type="local">open subscheme</fr:link>, which we denote as <fr:tex display="inline"><![CDATA[\operatorname {Spec}\mathbb {H}[x]_+ = \operatorname {Spec}\mathbb {H}[x]-\{\bot \}]]></fr:tex>, where <fr:tex display="inline"><![CDATA[\bot ]]></fr:tex> is the generic point of <fr:tex display="inline"><![CDATA[\operatorname {Spec}\mathbb {H}[x]]]></fr:tex>. The open subscheme <fr:tex display="inline"><![CDATA[\operatorname {Spec}\mathbb {H}[x]_+]]></fr:tex> is <html:em>not compact</html:em>, hence it is not affine.
+  <fr:tex display="inline"><![CDATA[\operatorname {Spec}\mathbb {H}[x]]]></fr:tex> has a unique non-standard <fr:link href="/schm-8ES8/" title="Open subschemes and open immersion" uri="https://charloced.github.io/schm-8ES8/" display-uri="schm-8ES8" type="local">open subscheme</fr:link>, which we denote as <fr:tex display="inline"><![CDATA[\operatorname {Spec}\mathbb {H}[x]_+ = \operatorname {Spec}\mathbb {H}[x]-\{\bot \}]]></fr:tex>, where <fr:tex display="inline"><![CDATA[\bot ]]></fr:tex> is the generic point of <fr:tex display="inline"><![CDATA[\operatorname {Spec}\mathbb {H}[x]]]></fr:tex>. The open subscheme <fr:tex display="inline"><![CDATA[\operatorname {Spec}\mathbb {H}[x]_+]]></fr:tex> is <html:em>not compact</html:em>, hence it is not affine. However, <fr:tex display="inline"><![CDATA[\operatorname {Spec}\mathbb {H}[x]_+]]></fr:tex> can be seen as arising from a more general construction on <fr:link href="/topl-Q322/" title="Image finite posets" uri="https://charloced.github.io/topl-Q322/" display-uri="topl-Q322" type="local">image finite posets</fr:link>, see <fr:link href="/schm-BP3S/" title="Schemes from image finite posets" uri="https://charloced.github.io/schm-BP3S/" display-uri="schm-BP3S" type="local">Example <fr:contextual-number uri="https://charloced.github.io/schm-BP3S/" display-uri="schm-BP3S" /></fr:link>.
 </html:p>
                         <html:p>
   In fact, we can compute the global section of <fr:tex display="inline"><![CDATA[\operatorname {Spec}\mathbb {H}[x]_+]]></fr:tex>. Under <fr:link href="/idem-comm-HLDT/" title="Frame of opens of spectra" uri="https://charloced.github.io/idem-comm-HLDT/" display-uri="idem-comm-HLDT" type="local">Proposition <fr:contextual-number uri="https://charloced.github.io/idem-comm-HLDT/" display-uri="idem-comm-HLDT" /></fr:link>, it as an open subset corresponds to the maximal ideal <fr:tex display="inline"><![CDATA[M = \mathbb {H}[x]-\{1\}]]></fr:tex>. This way under <fr:link href="/schm-5L35/" title="Structural sheaf on a general open" uri="https://charloced.github.io/schm-5L35/" display-uri="schm-5L35" type="local">Proposition <fr:contextual-number uri="https://charloced.github.io/schm-5L35/" display-uri="schm-5L35" /></fr:link>,
@@ -4190,6 +4312,41 @@
                         <fr:date>
                           <fr:year>2025</fr:year>
                           <fr:month>6</fr:month>
+                          <fr:day>13</fr:day>
+                        </fr:date>
+                        <fr:uri>https://charloced.github.io/schm-BP3S/</fr:uri>
+                        <fr:display-uri>schm-BP3S</fr:display-uri>
+                        <fr:route>/schm-BP3S/</fr:route>
+                        <fr:title text="Schemes from image finite posets">Schemes from image finite posets</fr:title>
+                        <fr:taxon>Example</fr:taxon>
+                      </fr:frontmatter>
+                      <fr:mainmatter><html:p>
+  Let <fr:tex display="inline"><![CDATA[X]]></fr:tex> be an <fr:link href="/topl-Q322/" title="Image finite posets" uri="https://charloced.github.io/topl-Q322/" display-uri="topl-Q322" type="local">image finite poset</fr:link>. Recall from <fr:link href="/topl-GIFJ/" title="Image finite posets are locally spectral" uri="https://charloced.github.io/topl-GIFJ/" display-uri="topl-GIFJ" type="local">Lemma <fr:contextual-number uri="https://charloced.github.io/topl-GIFJ/" display-uri="topl-GIFJ" /></fr:link> that as a topological space it is <fr:link href="/topl-VV9N/" title="Spectral spaces" uri="https://charloced.github.io/topl-VV9N/" display-uri="topl-VV9N" type="local">locally spectral</fr:link>. It is a <fr:link href="/schm-86OJ/" title="Scheme" uri="https://charloced.github.io/schm-86OJ/" display-uri="schm-86OJ" type="local">scheme</fr:link>.
+</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>13</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  We need to define a structural sheaf on <fr:tex display="inline"><![CDATA[X]]></fr:tex>. For any upward closed susbet <fr:tex display="inline"><![CDATA[U]]></fr:tex> of <fr:tex display="inline"><![CDATA[X]]></fr:tex>, we define 
+  <fr:tex display="block"><![CDATA[ \mathcal {O}_{X}(U) := \mathcal {U}(U), ]]></fr:tex>
+  the distributive lattice of upward closed subsets of <fr:tex display="inline"><![CDATA[U]]></fr:tex>. This is a sheaf, because if we have a union <fr:tex display="inline"><![CDATA[U = \bigcup _{i\in  I}U_i]]></fr:tex> with an element <fr:tex display="inline"><![CDATA[V_i \in  \mathcal {O}_{X}(U_i)]]></fr:tex>, which is <fr:tex display="inline"><![CDATA[V_i \subseteq  U_i]]></fr:tex> upward closed, which agrees on intersections,
+  <fr:tex display="block"><![CDATA[ V_i \cap  U_j = V_j \cap  U_i, ]]></fr:tex>
+  then there is a unique <fr:tex display="inline"><![CDATA[V \subseteq  U]]></fr:tex> given by 
+  <fr:tex display="block"><![CDATA[ V = \bigcup _{i\in  I}V_i, ]]></fr:tex>
+  such that 
+  <fr:tex display="block"><![CDATA[ V \cap  U_j = \bigcup _{i\in  I}V_i \cap  U_j = \bigcup _{i\in  I}V_j \cap  U_i = V_j \cap  \bigcup _{i\in  I}U_i = V_j \cap  U = V_j. ]]></fr:tex>
+  This is in fact a <fr:link href="/schm-V16H/" title="Locally distributed space" uri="https://charloced.github.io/schm-V16H/" display-uri="schm-V16H" type="local">locally distributed space</fr:link>, because for any <fr:tex display="inline"><![CDATA[x\in  X]]></fr:tex>,
+  <fr:tex display="block"><![CDATA[ \mathcal {O}_{X,x} \cong  \mathcal {O}_{X}(\uparrow  x) \cong  \mathcal {U}(\uparrow  x), ]]></fr:tex>
+  which is <fr:link href="/idem-comm-75C1/" title="Local distributive lattice" uri="https://charloced.github.io/idem-comm-75C1/" display-uri="idem-comm-75C1" type="local">local</fr:link> because <fr:tex display="inline"><![CDATA[\uparrow  x]]></fr:tex> has a root (cf. <fr:link href="/idem-comm-E2I8/" title="Equivalent formulation of locality" uri="https://charloced.github.io/idem-comm-E2I8/" display-uri="idem-comm-E2I8" type="local">Remark <fr:contextual-number uri="https://charloced.github.io/idem-comm-E2I8/" display-uri="idem-comm-E2I8" /></fr:link>). Finally, this is a scheme, because by construction for any <fr:tex display="inline"><![CDATA[x\in  X]]></fr:tex>, the open neighbourhood <fr:tex display="inline"><![CDATA[\uparrow  x]]></fr:tex> is affine <fr:tex display="inline"><![CDATA[(\uparrow  x,\mathcal {O}_{\uparrow  x}) \cong  \operatorname {Spec}\mathcal {U}(\uparrow  x)]]></fr:tex>.
+</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+                    </fr:tree>
+                    <fr:tree show-metadata="false">
+                      <fr:frontmatter>
+                        <fr:authors />
+                        <fr:date>
+                          <fr:year>2025</fr:year>
+                          <fr:month>6</fr:month>
                           <fr:day>8</fr:day>
                         </fr:date>
                         <fr:uri>https://charloced.github.io/schm-80MC/</fr:uri>
@@ -4226,6 +4383,70 @@
                       <fr:mainmatter>
                         <html:p>
   As a corollary of <fr:link href="/schm-80MC/" title="A scheme is affine iff it is spectral" uri="https://charloced.github.io/schm-80MC/" display-uri="schm-80MC" type="local">Theorem <fr:contextual-number uri="https://charloced.github.io/schm-80MC/" display-uri="schm-80MC" /></fr:link>, if a scheme <fr:tex display="inline"><![CDATA[X]]></fr:tex> is finite, then it is affine, since finite sober spaces are all spectral.
+</html:p>
+                      </fr:mainmatter>
+                    </fr:tree>
+                  </fr:mainmatter>
+                </fr:tree>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors>
+                      <fr:author>
+                        <fr:link href="/lingyuan/" title="Lingyuan Ye" uri="https://charloced.github.io/lingyuan/" display-uri="lingyuan" type="local">Lingyuan Ye</fr:link>
+                      </fr:author>
+                    </fr:authors>
+                    <fr:date>
+                      <fr:year>2025</fr:year>
+                      <fr:month>6</fr:month>
+                      <fr:day>13</fr:day>
+                    </fr:date>
+                    <fr:uri>https://charloced.github.io/schm-TA44/</fr:uri>
+                    <fr:display-uri>schm-TA44</fr:display-uri>
+                    <fr:route>/schm-TA44/</fr:route>
+                    <fr:title text="Representable constructions on schemes">Representable constructions on schemes</fr:title>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <fr:tree show-metadata="false">
+                      <fr:frontmatter>
+                        <fr:authors />
+                        <fr:date>
+                          <fr:year>2025</fr:year>
+                          <fr:month>6</fr:month>
+                          <fr:day>13</fr:day>
+                        </fr:date>
+                        <fr:uri>https://charloced.github.io/schm-4WI1/</fr:uri>
+                        <fr:display-uri>schm-4WI1</fr:display-uri>
+                        <fr:route>/schm-4WI1/</fr:route>
+                        <fr:title text="Points are corepresentable">Points are corepresentable</fr:title>
+                        <fr:taxon>Example</fr:taxon>
+                      </fr:frontmatter>
+                      <fr:mainmatter>
+                        <html:p>
+  Unlike algebraic geometry, the points of a scheme 
+  <fr:tex display="block"><![CDATA[ \mathsf {pt} : \mathbf {Sch} \to  \mathbf {Pos} ]]></fr:tex>
+  is corepresented by <fr:tex display="inline"><![CDATA[1 = \operatorname {Spec} 2]]></fr:tex>. The reason it lands in posets is only that <fr:tex display="inline"><![CDATA[\mathbf {Sch}]]></fr:tex> is <fr:tex display="inline"><![CDATA[\mathbf {Pos}]]></fr:tex>-enriched. In some sense <fr:tex display="inline"><![CDATA[2]]></fr:tex> is the unique distributive lattice which is a <html:em>field</html:em>.
+</html:p>
+                      </fr:mainmatter>
+                    </fr:tree>
+                    <fr:tree show-metadata="false">
+                      <fr:frontmatter>
+                        <fr:authors />
+                        <fr:date>
+                          <fr:year>2025</fr:year>
+                          <fr:month>6</fr:month>
+                          <fr:day>13</fr:day>
+                        </fr:date>
+                        <fr:uri>https://charloced.github.io/schm-TAUU/</fr:uri>
+                        <fr:display-uri>schm-TAUU</fr:display-uri>
+                        <fr:route>/schm-TAUU/</fr:route>
+                        <fr:title text="Specialisation orders are corepresentable">Specialisation orders are corepresentable</fr:title>
+                        <fr:taxon>Example</fr:taxon>
+                      </fr:frontmatter>
+                      <fr:mainmatter>
+                        <html:p>
+  There is a functor 
+  <fr:tex display="block"><![CDATA[ \mathsf {ord} : \mathbf {Sch} \to  \mathbf {Pos} ]]></fr:tex>
+  taking a scheme <fr:tex display="inline"><![CDATA[X]]></fr:tex> to the poset <fr:tex display="inline"><![CDATA[\mathsf {ord}\, X = \{x,y\in  X\mid x \le  y\}]]></fr:tex>. This functor is corepresented by <fr:tex display="inline"><![CDATA[2 \cong  \operatorname {Spec} 2[x]]]></fr:tex>, where <fr:tex display="inline"><![CDATA[2]]></fr:tex> here is the Sierpinski space.
 </html:p>
                       </fr:mainmatter>
                     </fr:tree>
@@ -5088,7 +5309,7 @@
                     <fr:uri>https://charloced.github.io/schm-WHTK/</fr:uri>
                     <fr:display-uri>schm-WHTK</fr:display-uri>
                     <fr:route>/schm-WHTK/</fr:route>
-                    <fr:title text="Points of schemes">Points of schemes</fr:title>
+                    <fr:title text="Local images of schemes">Local images of schemes</fr:title>
                   </fr:frontmatter>
                   <fr:mainmatter>
                     <fr:tree show-metadata="false">
@@ -5145,7 +5366,7 @@
     \end {tikzcd}
   ]]></fr:resource-source></fr:resource></html:figure>
 
-  In particular, <fr:tex display="inline"><![CDATA[\operatorname {Spec} A \to  \operatorname {Spec}\mathcal {O}_{X,x}]]></fr:tex> preserves the root, or in other words <fr:tex display="inline"><![CDATA[\mathcal {O}_{X,x} \to  A]]></fr:tex> is <fr:link href="/idem-comm-QQEF/" title="T-conservative and f-conservative maps" uri="https://charloced.github.io/idem-comm-QQEF/" display-uri="idem-comm-QQEF" type="local">t-conservative</fr:link>.
+  In particular, <fr:tex display="inline"><![CDATA[\operatorname {Spec} A \to  \operatorname {Spec}\mathcal {O}_{X,x}]]></fr:tex> preserves the root, or in other words <fr:tex display="inline"><![CDATA[\mathcal {O}_{X,x} \to  A]]></fr:tex> is <fr:link href="/idem-comm-QQEF/" title="T-conservative and f-conservative maps" uri="https://charloced.github.io/idem-comm-QQEF/" display-uri="idem-comm-QQEF" type="local">t-conservative</fr:link>. This means a map <fr:tex display="inline"><![CDATA[\operatorname {Spec} A \to  X]]></fr:tex> can be identified as a pair <fr:tex display="inline"><![CDATA[(x,f)]]></fr:tex> where <fr:tex display="inline"><![CDATA[x\in  X]]></fr:tex> is a point, and <fr:tex display="inline"><![CDATA[f : \mathcal {O}_{X,x} \to  A]]></fr:tex> is a t-conservative map.
 </html:p>
  
    
@@ -5198,9 +5419,14 @@
    
    <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>11</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
   <html:p>
-    The existence of the fibre products follows from the usual gluing argument for schemes, and reduces to the fibre products of affine schemes. For affine schemes, the fibre products are computed by the spectrum of <fr:link href="/idem-comm-A6ON/" title="Pushouts of algebras are tensor products" uri="https://charloced.github.io/idem-comm-A6ON/" display-uri="idem-comm-A6ON" type="local">pushouts</fr:link>, because we have seen from <fr:link href="/schm-X3M9/" title="Universal property of spectra" uri="https://charloced.github.io/schm-X3M9/" display-uri="schm-X3M9" type="local">Theorem <fr:contextual-number uri="https://charloced.github.io/schm-X3M9/" display-uri="schm-X3M9" /></fr:link> <fr:tex display="inline"><![CDATA[\operatorname {Spec}]]></fr:tex> is a right adjoint.
+    The existence of the fibre products follows from the usual gluing argument for schemes in algebraic geometry, and reduces to the fibre products of affine schemes. 
   </html:p>
-  <html:p />
+  <html:p>
+    To show the fibre products are topological, we first show this for affine schemes. In this case, the fibre products are computed by the spectrum of <fr:link href="/idem-comm-A6ON/" title="Pushouts of algebras are tensor products" uri="https://charloced.github.io/idem-comm-A6ON/" display-uri="idem-comm-A6ON" type="local">pushouts</fr:link>. The underlying set is the topological fibre products, because the points are computed by <fr:tex display="inline"><![CDATA[\mathbf {DL}(-,2)]]></fr:tex>, which takes pushouts to pullbacks. The topology also agrees due to our pushouts are concretely constructed as <fr:link href="/idem-comm-SG6C/" title="Tensor products of distributive lattices" uri="https://charloced.github.io/idem-comm-SG6C/" display-uri="idem-comm-SG6C" type="local">tensor product</fr:link>.
+  </html:p>
+  <html:p>
+    Now the general case for schemes follows from glueing.
+  </html:p>
 </fr:mainmatter></fr:tree>
  
 </fr:mainmatter>

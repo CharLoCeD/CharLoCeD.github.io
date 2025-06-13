@@ -497,7 +497,7 @@
             <fr:uri>https://charloced.github.io/idem-comm-SZN6/</fr:uri>
             <fr:display-uri>idem-comm-SZN6</fr:display-uri>
             <fr:route>/idem-comm-SZN6/</fr:route>
-            <fr:title text="Characterisation of p-maps">Characterisation of p-maps</fr:title>
+            <fr:title text="Characterisation of p-maps and q-maps">Characterisation of p-maps and q-maps</fr:title>
             <fr:taxon>Theorem</fr:taxon>
           </fr:frontmatter>
           <fr:mainmatter><html:p>
@@ -511,11 +511,13 @@
         D \ar [r, "f"] \ar [d, two heads] & E \ar [d, two heads] \\ 
         D/f^{-1}(x) \ar [r, tail] & E/x
       \end {tikzcd}
-    ]]></fr:resource-source></fr:resource></html:figure></html:li></html:ol></html:p>
+    ]]></fr:resource-source></fr:resource></html:figure></html:li></html:ol>
+  The dual case for q-maps are clear.
+</html:p>
  
    
    <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>8</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
-  The equivalence (1) <fr:tex display="inline"><![CDATA[\Leftrightarrow ]]></fr:tex> (2) is by definition. The equivalence (2) <fr:tex display="inline"><![CDATA[\Leftrightarrow ]]></fr:tex> (3) is obtained by the observation that the localisation <fr:tex display="inline"><![CDATA[E \twoheadrightarrow  E/x]]></fr:tex> exactly induces the inclusion
+  The equivalence (1) <fr:tex display="inline"><![CDATA[\Leftrightarrow ]]></fr:tex> (2) is by definition. The equivalence (2) <fr:tex display="inline"><![CDATA[\Leftrightarrow ]]></fr:tex> (3) is obtained by the observation that the localisation <fr:tex display="inline"><![CDATA[E \twoheadrightarrow  E/x]]></fr:tex> exactly induces the inclusion (cf. <fr:link href="/schm-MWRT/" title="Affine scheme at a stalk" uri="https://charloced.github.io/schm-MWRT/" display-uri="schm-MWRT" type="local">Lemma <fr:contextual-number uri="https://charloced.github.io/schm-MWRT/" display-uri="schm-MWRT" /></fr:link>)
   <fr:tex display="block"><![CDATA[ \operatorname {Spec} E/x = \{y\in \operatorname {Spec} E\mid x \le  y\} = \uparrow  x \subseteq  \operatorname {Spec} E. ]]></fr:tex>
   Thus, the map <fr:tex display="inline"><![CDATA[\uparrow  x \to  \uparrow  fx]]></fr:tex> is induced by the induced map <fr:tex display="inline"><![CDATA[D/fx \to  E/x]]></fr:tex>, and it is surjective iff this is an injection by <fr:link href="/idem-comm-59IF/" title="Set-level duality between spectra and algebra" uri="https://charloced.github.io/idem-comm-59IF/" display-uri="idem-comm-59IF" type="local">Proposition <fr:contextual-number uri="https://charloced.github.io/idem-comm-59IF/" display-uri="idem-comm-59IF" /></fr:link>.
 </fr:mainmatter></fr:tree>

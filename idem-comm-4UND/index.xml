@@ -76,6 +76,26 @@
                 <fr:date>
                   <fr:year>2025</fr:year>
                   <fr:month>6</fr:month>
+                  <fr:day>9</fr:day>
+                </fr:date>
+                <fr:uri>https://charloced.github.io/idem-comm-487K/</fr:uri>
+                <fr:display-uri>idem-comm-487K</fr:display-uri>
+                <fr:route>/idem-comm-487K/</fr:route>
+                <fr:title text="Integral distributive lattices">Integral distributive lattices</fr:title>
+                <fr:taxon>Definition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+  A distributive lattice <fr:tex display="inline"><![CDATA[D]]></fr:tex> is <html:em>integral</html:em> if <fr:tex display="inline"><![CDATA[D^{\mathrm {op}}]]></fr:tex> is <fr:link href="/idem-comm-75C1/" title="Local distributive lattice" uri="https://charloced.github.io/idem-comm-75C1/" display-uri="idem-comm-75C1" type="local">local</fr:link>.
+</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>6</fr:month>
                   <fr:day>7</fr:day>
                 </fr:date>
                 <fr:uri>https://charloced.github.io/idem-comm-E2I8/</fr:uri>

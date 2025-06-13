@@ -331,7 +331,7 @@
     \end {tikzcd}
   ]]></fr:resource-source></fr:resource></html:figure>
 
-  In particular, <fr:tex display="inline"><![CDATA[\operatorname {Spec} A \to  \operatorname {Spec}\mathcal {O}_{X,x}]]></fr:tex> preserves the root, or in other words <fr:tex display="inline"><![CDATA[\mathcal {O}_{X,x} \to  A]]></fr:tex> is <fr:link href="/idem-comm-QQEF/" title="T-conservative and f-conservative maps" uri="https://charloced.github.io/idem-comm-QQEF/" display-uri="idem-comm-QQEF" type="local">t-conservative</fr:link>.
+  In particular, <fr:tex display="inline"><![CDATA[\operatorname {Spec} A \to  \operatorname {Spec}\mathcal {O}_{X,x}]]></fr:tex> preserves the root, or in other words <fr:tex display="inline"><![CDATA[\mathcal {O}_{X,x} \to  A]]></fr:tex> is <fr:link href="/idem-comm-QQEF/" title="T-conservative and f-conservative maps" uri="https://charloced.github.io/idem-comm-QQEF/" display-uri="idem-comm-QQEF" type="local">t-conservative</fr:link>. This means a map <fr:tex display="inline"><![CDATA[\operatorname {Spec} A \to  X]]></fr:tex> can be identified as a pair <fr:tex display="inline"><![CDATA[(x,f)]]></fr:tex> where <fr:tex display="inline"><![CDATA[x\in  X]]></fr:tex> is a point, and <fr:tex display="inline"><![CDATA[f : \mathcal {O}_{X,x} \to  A]]></fr:tex> is a t-conservative map.
 </html:p>
  
    

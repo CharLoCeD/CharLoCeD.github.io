@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/">
+  <fr:frontmatter>
+    <fr:authors />
+    <fr:date>
+      <fr:year>2025</fr:year>
+      <fr:month>6</fr:month>
+      <fr:day>13</fr:day>
+    </fr:date>
+    <fr:uri>https://charloced.github.io/schm-TAUU/</fr:uri>
+    <fr:display-uri>schm-TAUU</fr:display-uri>
+    <fr:route>/schm-TAUU/</fr:route>
+    <fr:title text="Specialisation orders are corepresentable">Specialisation orders are corepresentable</fr:title>
+    <fr:taxon>Example</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <html:p>
+  There is a functor 
+  <fr:tex display="block"><![CDATA[ \mathsf {ord} : \mathbf {Sch} \to  \mathbf {Pos} ]]></fr:tex>
+  taking a scheme <fr:tex display="inline"><![CDATA[X]]></fr:tex> to the poset <fr:tex display="inline"><![CDATA[\mathsf {ord}\, X = \{x,y\in  X\mid x \le  y\}]]></fr:tex>. This functor is corepresented by <fr:tex display="inline"><![CDATA[2 \cong  \operatorname {Spec} 2[x]]]></fr:tex>, where <fr:tex display="inline"><![CDATA[2]]></fr:tex> here is the Sierpinski space.
+</html:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/lingyuan/" title="Lingyuan Ye" uri="https://charloced.github.io/lingyuan/" display-uri="lingyuan" type="local">Lingyuan Ye</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>13</fr:day>
+            </fr:date>
+            <fr:uri>https://charloced.github.io/schm-TA44/</fr:uri>
+            <fr:display-uri>schm-TA44</fr:display-uri>
+            <fr:route>/schm-TA44/</fr:route>
+            <fr:title text="Representable constructions on schemes">Representable constructions on schemes</fr:title>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>13</fr:day>
+                </fr:date>
+                <fr:uri>https://charloced.github.io/schm-4WI1/</fr:uri>
+                <fr:display-uri>schm-4WI1</fr:display-uri>
+                <fr:route>/schm-4WI1/</fr:route>
+                <fr:title text="Points are corepresentable">Points are corepresentable</fr:title>
+                <fr:taxon>Example</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+  Unlike algebraic geometry, the points of a scheme 
+  <fr:tex display="block"><![CDATA[ \mathsf {pt} : \mathbf {Sch} \to  \mathbf {Pos} ]]></fr:tex>
+  is corepresented by <fr:tex display="inline"><![CDATA[1 = \operatorname {Spec} 2]]></fr:tex>. The reason it lands in posets is only that <fr:tex display="inline"><![CDATA[\mathbf {Sch}]]></fr:tex> is <fr:tex display="inline"><![CDATA[\mathbf {Pos}]]></fr:tex>-enriched. In some sense <fr:tex display="inline"><![CDATA[2]]></fr:tex> is the unique distributive lattice which is a <html:em>field</html:em>.
+</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>13</fr:day>
+                </fr:date>
+                <fr:uri>https://charloced.github.io/schm-TAUU/</fr:uri>
+                <fr:display-uri>schm-TAUU</fr:display-uri>
+                <fr:route>/schm-TAUU/</fr:route>
+                <fr:title text="Specialisation orders are corepresentable">Specialisation orders are corepresentable</fr:title>
+                <fr:taxon>Example</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+  There is a functor 
+  <fr:tex display="block"><![CDATA[ \mathsf {ord} : \mathbf {Sch} \to  \mathbf {Pos} ]]></fr:tex>
+  taking a scheme <fr:tex display="inline"><![CDATA[X]]></fr:tex> to the poset <fr:tex display="inline"><![CDATA[\mathsf {ord}\, X = \{x,y\in  X\mid x \le  y\}]]></fr:tex>. This functor is corepresented by <fr:tex display="inline"><![CDATA[2 \cong  \operatorname {Spec} 2[x]]]></fr:tex>, where <fr:tex display="inline"><![CDATA[2]]></fr:tex> here is the Sierpinski space.
+</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

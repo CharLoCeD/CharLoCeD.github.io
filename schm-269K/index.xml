@@ -67,7 +67,7 @@
               </fr:frontmatter>
               <fr:mainmatter>
                 <html:p>
-  A <fr:link href="/schm-V16H/" title="Locally distributed space" uri="https://charloced.github.io/schm-V16H/" display-uri="schm-V16H" type="local">locally distributed space</fr:link> <fr:tex display="inline"><![CDATA[(X,\mathcal {O}_{X})]]></fr:tex> is a <html:em>scheme</html:em>, if for any <fr:tex display="inline"><![CDATA[x\in  X]]></fr:tex> there is an open neighbourhood <fr:tex display="inline"><![CDATA[U]]></fr:tex> of <fr:tex display="inline"><![CDATA[x]]></fr:tex>, such that <fr:tex display="inline"><![CDATA[(U,\mathcal {O}_{X}|_U)]]></fr:tex> is an <fr:link href="/schm-IFX1/" title="Affine scheme" uri="https://charloced.github.io/schm-IFX1/" display-uri="schm-IFX1" type="local">affine scheme</fr:link>. The full subcategory of schemes will be denoted as <fr:tex display="inline"><![CDATA[\mathbf {Sch}_{\mathbb {D}}]]></fr:tex>.
+  A <fr:link href="/schm-V16H/" title="Locally distributed space" uri="https://charloced.github.io/schm-V16H/" display-uri="schm-V16H" type="local">locally distributed space</fr:link> <fr:tex display="inline"><![CDATA[(X,\mathcal {O}_{X})]]></fr:tex> is a <html:em>scheme</html:em>, if for any <fr:tex display="inline"><![CDATA[x\in  X]]></fr:tex> there is an open neighbourhood <fr:tex display="inline"><![CDATA[U]]></fr:tex> of <fr:tex display="inline"><![CDATA[x]]></fr:tex>, such that <fr:tex display="inline"><![CDATA[(U,\mathcal {O}_{X}|_U)]]></fr:tex> is an <fr:link href="/schm-IFX1/" title="Affine scheme" uri="https://charloced.github.io/schm-IFX1/" display-uri="schm-IFX1" type="local">affine scheme</fr:link>. The full subcategory of schemes will be denoted as <fr:tex display="inline"><![CDATA[\mathbf {Sch}]]></fr:tex>.
 </html:p>
               </fr:mainmatter>
             </fr:tree>
@@ -129,7 +129,7 @@
                 <html:p>
   The disjoint union <fr:tex display="inline"><![CDATA[X \cong  \coprod _{i\in  I}X_i]]></fr:tex> of arbitrary schemes is again a scheme. The structural sheaf on an open <fr:tex display="inline"><![CDATA[U]]></fr:tex> is given by
   <fr:tex display="block"><![CDATA[ \mathcal {O}_{X}(U) \cong  \prod _{i\in  I}\mathcal {O}_{X_i}(U \cap  X_i). ]]></fr:tex>
-  They are indeed the coproducts in <fr:tex display="inline"><![CDATA[\mathbf {Sch}_{\mathbb {D}}]]></fr:tex>.
+  They are indeed the coproducts in <fr:tex display="inline"><![CDATA[\mathbf {Sch}]]></fr:tex>.
 </html:p>
               </fr:mainmatter>
             </fr:tree>
@@ -193,7 +193,7 @@
   \end {tikzcd}
   ]]></fr:resource-source></fr:resource></html:figure>
 
-  <fr:tex display="inline"><![CDATA[\operatorname {Spec}\mathbb {H}[x]]]></fr:tex> has a unique non-standard <fr:link href="/schm-8ES8/" title="Open subschemes and open immersion" uri="https://charloced.github.io/schm-8ES8/" display-uri="schm-8ES8" type="local">open subscheme</fr:link>, which we denote as <fr:tex display="inline"><![CDATA[\operatorname {Spec}\mathbb {H}[x]_+ = \operatorname {Spec}\mathbb {H}[x]-\{\bot \}]]></fr:tex>, where <fr:tex display="inline"><![CDATA[\bot ]]></fr:tex> is the generic point of <fr:tex display="inline"><![CDATA[\operatorname {Spec}\mathbb {H}[x]]]></fr:tex>. The open subscheme <fr:tex display="inline"><![CDATA[\operatorname {Spec}\mathbb {H}[x]_+]]></fr:tex> is <html:em>not compact</html:em>, hence it is not affine.
+  <fr:tex display="inline"><![CDATA[\operatorname {Spec}\mathbb {H}[x]]]></fr:tex> has a unique non-standard <fr:link href="/schm-8ES8/" title="Open subschemes and open immersion" uri="https://charloced.github.io/schm-8ES8/" display-uri="schm-8ES8" type="local">open subscheme</fr:link>, which we denote as <fr:tex display="inline"><![CDATA[\operatorname {Spec}\mathbb {H}[x]_+ = \operatorname {Spec}\mathbb {H}[x]-\{\bot \}]]></fr:tex>, where <fr:tex display="inline"><![CDATA[\bot ]]></fr:tex> is the generic point of <fr:tex display="inline"><![CDATA[\operatorname {Spec}\mathbb {H}[x]]]></fr:tex>. The open subscheme <fr:tex display="inline"><![CDATA[\operatorname {Spec}\mathbb {H}[x]_+]]></fr:tex> is <html:em>not compact</html:em>, hence it is not affine. However, <fr:tex display="inline"><![CDATA[\operatorname {Spec}\mathbb {H}[x]_+]]></fr:tex> can be seen as arising from a more general construction on <fr:link href="/topl-Q322/" title="Image finite posets" uri="https://charloced.github.io/topl-Q322/" display-uri="topl-Q322" type="local">image finite posets</fr:link>, see <fr:link href="/schm-BP3S/" title="Schemes from image finite posets" uri="https://charloced.github.io/schm-BP3S/" display-uri="schm-BP3S" type="local">Example <fr:contextual-number uri="https://charloced.github.io/schm-BP3S/" display-uri="schm-BP3S" /></fr:link>.
 </html:p>
                 <html:p>
   In fact, we can compute the global section of <fr:tex display="inline"><![CDATA[\operatorname {Spec}\mathbb {H}[x]_+]]></fr:tex>. Under <fr:link href="/idem-comm-HLDT/" title="Frame of opens of spectra" uri="https://charloced.github.io/idem-comm-HLDT/" display-uri="idem-comm-HLDT" type="local">Proposition <fr:contextual-number uri="https://charloced.github.io/idem-comm-HLDT/" display-uri="idem-comm-HLDT" /></fr:link>, it as an open subset corresponds to the maximal ideal <fr:tex display="inline"><![CDATA[M = \mathbb {H}[x]-\{1\}]]></fr:tex>. This way under <fr:link href="/schm-5L35/" title="Structural sheaf on a general open" uri="https://charloced.github.io/schm-5L35/" display-uri="schm-5L35" type="local">Proposition <fr:contextual-number uri="https://charloced.github.io/schm-5L35/" display-uri="schm-5L35" /></fr:link>,
@@ -271,6 +271,41 @@
   This seems to hint at a <html:em>coinductive</html:em> feature of <fr:tex display="inline"><![CDATA[\mathbb {S}[x]]]></fr:tex>.
 </html:p>
               </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>13</fr:day>
+                </fr:date>
+                <fr:uri>https://charloced.github.io/schm-BP3S/</fr:uri>
+                <fr:display-uri>schm-BP3S</fr:display-uri>
+                <fr:route>/schm-BP3S/</fr:route>
+                <fr:title text="Schemes from image finite posets">Schemes from image finite posets</fr:title>
+                <fr:taxon>Example</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter><html:p>
+  Let <fr:tex display="inline"><![CDATA[X]]></fr:tex> be an <fr:link href="/topl-Q322/" title="Image finite posets" uri="https://charloced.github.io/topl-Q322/" display-uri="topl-Q322" type="local">image finite poset</fr:link>. Recall from <fr:link href="/topl-GIFJ/" title="Image finite posets are locally spectral" uri="https://charloced.github.io/topl-GIFJ/" display-uri="topl-GIFJ" type="local">Lemma <fr:contextual-number uri="https://charloced.github.io/topl-GIFJ/" display-uri="topl-GIFJ" /></fr:link> that as a topological space it is <fr:link href="/topl-VV9N/" title="Spectral spaces" uri="https://charloced.github.io/topl-VV9N/" display-uri="topl-VV9N" type="local">locally spectral</fr:link>. It is a <fr:link href="/schm-86OJ/" title="Scheme" uri="https://charloced.github.io/schm-86OJ/" display-uri="schm-86OJ" type="local">scheme</fr:link>.
+</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>13</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  We need to define a structural sheaf on <fr:tex display="inline"><![CDATA[X]]></fr:tex>. For any upward closed susbet <fr:tex display="inline"><![CDATA[U]]></fr:tex> of <fr:tex display="inline"><![CDATA[X]]></fr:tex>, we define 
+  <fr:tex display="block"><![CDATA[ \mathcal {O}_{X}(U) := \mathcal {U}(U), ]]></fr:tex>
+  the distributive lattice of upward closed subsets of <fr:tex display="inline"><![CDATA[U]]></fr:tex>. This is a sheaf, because if we have a union <fr:tex display="inline"><![CDATA[U = \bigcup _{i\in  I}U_i]]></fr:tex> with an element <fr:tex display="inline"><![CDATA[V_i \in  \mathcal {O}_{X}(U_i)]]></fr:tex>, which is <fr:tex display="inline"><![CDATA[V_i \subseteq  U_i]]></fr:tex> upward closed, which agrees on intersections,
+  <fr:tex display="block"><![CDATA[ V_i \cap  U_j = V_j \cap  U_i, ]]></fr:tex>
+  then there is a unique <fr:tex display="inline"><![CDATA[V \subseteq  U]]></fr:tex> given by 
+  <fr:tex display="block"><![CDATA[ V = \bigcup _{i\in  I}V_i, ]]></fr:tex>
+  such that 
+  <fr:tex display="block"><![CDATA[ V \cap  U_j = \bigcup _{i\in  I}V_i \cap  U_j = \bigcup _{i\in  I}V_j \cap  U_i = V_j \cap  \bigcup _{i\in  I}U_i = V_j \cap  U = V_j. ]]></fr:tex>
+  This is in fact a <fr:link href="/schm-V16H/" title="Locally distributed space" uri="https://charloced.github.io/schm-V16H/" display-uri="schm-V16H" type="local">locally distributed space</fr:link>, because for any <fr:tex display="inline"><![CDATA[x\in  X]]></fr:tex>,
+  <fr:tex display="block"><![CDATA[ \mathcal {O}_{X,x} \cong  \mathcal {O}_{X}(\uparrow  x) \cong  \mathcal {U}(\uparrow  x), ]]></fr:tex>
+  which is <fr:link href="/idem-comm-75C1/" title="Local distributive lattice" uri="https://charloced.github.io/idem-comm-75C1/" display-uri="idem-comm-75C1" type="local">local</fr:link> because <fr:tex display="inline"><![CDATA[\uparrow  x]]></fr:tex> has a root (cf. <fr:link href="/idem-comm-E2I8/" title="Equivalent formulation of locality" uri="https://charloced.github.io/idem-comm-E2I8/" display-uri="idem-comm-E2I8" type="local">Remark <fr:contextual-number uri="https://charloced.github.io/idem-comm-E2I8/" display-uri="idem-comm-E2I8" /></fr:link>). Finally, this is a scheme, because by construction for any <fr:tex display="inline"><![CDATA[x\in  X]]></fr:tex>, the open neighbourhood <fr:tex display="inline"><![CDATA[\uparrow  x]]></fr:tex> is affine <fr:tex display="inline"><![CDATA[(\uparrow  x,\mathcal {O}_{\uparrow  x}) \cong  \operatorname {Spec}\mathcal {U}(\uparrow  x)]]></fr:tex>.
+</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
             </fr:tree>
             <fr:tree show-metadata="false">
               <fr:frontmatter>
@@ -370,7 +405,7 @@
           </fr:frontmatter>
           <fr:mainmatter>
             <html:p>
-  A <fr:link href="/schm-V16H/" title="Locally distributed space" uri="https://charloced.github.io/schm-V16H/" display-uri="schm-V16H" type="local">locally distributed space</fr:link> <fr:tex display="inline"><![CDATA[(X,\mathcal {O}_{X})]]></fr:tex> is a <html:em>scheme</html:em>, if for any <fr:tex display="inline"><![CDATA[x\in  X]]></fr:tex> there is an open neighbourhood <fr:tex display="inline"><![CDATA[U]]></fr:tex> of <fr:tex display="inline"><![CDATA[x]]></fr:tex>, such that <fr:tex display="inline"><![CDATA[(U,\mathcal {O}_{X}|_U)]]></fr:tex> is an <fr:link href="/schm-IFX1/" title="Affine scheme" uri="https://charloced.github.io/schm-IFX1/" display-uri="schm-IFX1" type="local">affine scheme</fr:link>. The full subcategory of schemes will be denoted as <fr:tex display="inline"><![CDATA[\mathbf {Sch}_{\mathbb {D}}]]></fr:tex>.
+  A <fr:link href="/schm-V16H/" title="Locally distributed space" uri="https://charloced.github.io/schm-V16H/" display-uri="schm-V16H" type="local">locally distributed space</fr:link> <fr:tex display="inline"><![CDATA[(X,\mathcal {O}_{X})]]></fr:tex> is a <html:em>scheme</html:em>, if for any <fr:tex display="inline"><![CDATA[x\in  X]]></fr:tex> there is an open neighbourhood <fr:tex display="inline"><![CDATA[U]]></fr:tex> of <fr:tex display="inline"><![CDATA[x]]></fr:tex>, such that <fr:tex display="inline"><![CDATA[(U,\mathcal {O}_{X}|_U)]]></fr:tex> is an <fr:link href="/schm-IFX1/" title="Affine scheme" uri="https://charloced.github.io/schm-IFX1/" display-uri="schm-IFX1" type="local">affine scheme</fr:link>. The full subcategory of schemes will be denoted as <fr:tex display="inline"><![CDATA[\mathbf {Sch}]]></fr:tex>.
 </html:p>
           </fr:mainmatter>
         </fr:tree>

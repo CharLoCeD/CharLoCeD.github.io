@@ -322,7 +322,7 @@
                 <fr:uri>https://charloced.github.io/schm-WHTK/</fr:uri>
                 <fr:display-uri>schm-WHTK</fr:display-uri>
                 <fr:route>/schm-WHTK/</fr:route>
-                <fr:title text="Points of schemes">Points of schemes</fr:title>
+                <fr:title text="Local images of schemes">Local images of schemes</fr:title>
               </fr:frontmatter>
               <fr:mainmatter>
                 <fr:tree show-metadata="false">
@@ -379,7 +379,7 @@
     \end {tikzcd}
   ]]></fr:resource-source></fr:resource></html:figure>
 
-  In particular, <fr:tex display="inline"><![CDATA[\operatorname {Spec} A \to  \operatorname {Spec}\mathcal {O}_{X,x}]]></fr:tex> preserves the root, or in other words <fr:tex display="inline"><![CDATA[\mathcal {O}_{X,x} \to  A]]></fr:tex> is <fr:link href="/idem-comm-QQEF/" title="T-conservative and f-conservative maps" uri="https://charloced.github.io/idem-comm-QQEF/" display-uri="idem-comm-QQEF" type="local">t-conservative</fr:link>.
+  In particular, <fr:tex display="inline"><![CDATA[\operatorname {Spec} A \to  \operatorname {Spec}\mathcal {O}_{X,x}]]></fr:tex> preserves the root, or in other words <fr:tex display="inline"><![CDATA[\mathcal {O}_{X,x} \to  A]]></fr:tex> is <fr:link href="/idem-comm-QQEF/" title="T-conservative and f-conservative maps" uri="https://charloced.github.io/idem-comm-QQEF/" display-uri="idem-comm-QQEF" type="local">t-conservative</fr:link>. This means a map <fr:tex display="inline"><![CDATA[\operatorname {Spec} A \to  X]]></fr:tex> can be identified as a pair <fr:tex display="inline"><![CDATA[(x,f)]]></fr:tex> where <fr:tex display="inline"><![CDATA[x\in  X]]></fr:tex> is a point, and <fr:tex display="inline"><![CDATA[f : \mathcal {O}_{X,x} \to  A]]></fr:tex> is a t-conservative map.
 </html:p>
  
    
@@ -432,9 +432,14 @@
    
    <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>11</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
   <html:p>
-    The existence of the fibre products follows from the usual gluing argument for schemes, and reduces to the fibre products of affine schemes. For affine schemes, the fibre products are computed by the spectrum of <fr:link href="/idem-comm-A6ON/" title="Pushouts of algebras are tensor products" uri="https://charloced.github.io/idem-comm-A6ON/" display-uri="idem-comm-A6ON" type="local">pushouts</fr:link>, because we have seen from <fr:link href="/schm-X3M9/" title="Universal property of spectra" uri="https://charloced.github.io/schm-X3M9/" display-uri="schm-X3M9" type="local">Theorem <fr:contextual-number uri="https://charloced.github.io/schm-X3M9/" display-uri="schm-X3M9" /></fr:link> <fr:tex display="inline"><![CDATA[\operatorname {Spec}]]></fr:tex> is a right adjoint.
+    The existence of the fibre products follows from the usual gluing argument for schemes in algebraic geometry, and reduces to the fibre products of affine schemes. 
   </html:p>
-  <html:p />
+  <html:p>
+    To show the fibre products are topological, we first show this for affine schemes. In this case, the fibre products are computed by the spectrum of <fr:link href="/idem-comm-A6ON/" title="Pushouts of algebras are tensor products" uri="https://charloced.github.io/idem-comm-A6ON/" display-uri="idem-comm-A6ON" type="local">pushouts</fr:link>. The underlying set is the topological fibre products, because the points are computed by <fr:tex display="inline"><![CDATA[\mathbf {DL}(-,2)]]></fr:tex>, which takes pushouts to pullbacks. The topology also agrees due to our pushouts are concretely constructed as <fr:link href="/idem-comm-SG6C/" title="Tensor products of distributive lattices" uri="https://charloced.github.io/idem-comm-SG6C/" display-uri="idem-comm-SG6C" type="local">tensor product</fr:link>.
+  </html:p>
+  <html:p>
+    Now the general case for schemes follows from glueing.
+  </html:p>
 </fr:mainmatter></fr:tree>
  
 </fr:mainmatter>

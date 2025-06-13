@@ -21,9 +21,14 @@
    
    <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>11</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
   <html:p>
-    The existence of the fibre products follows from the usual gluing argument for schemes, and reduces to the fibre products of affine schemes. For affine schemes, the fibre products are computed by the spectrum of <fr:link href="/idem-comm-A6ON/" title="Pushouts of algebras are tensor products" uri="https://charloced.github.io/idem-comm-A6ON/" display-uri="idem-comm-A6ON" type="local">pushouts</fr:link>, because we have seen from <fr:link href="/schm-X3M9/" title="Universal property of spectra" uri="https://charloced.github.io/schm-X3M9/" display-uri="schm-X3M9" type="local">Theorem <fr:contextual-number uri="https://charloced.github.io/schm-X3M9/" display-uri="schm-X3M9" /></fr:link> <fr:tex display="inline"><![CDATA[\operatorname {Spec}]]></fr:tex> is a right adjoint.
+    The existence of the fibre products follows from the usual gluing argument for schemes in algebraic geometry, and reduces to the fibre products of affine schemes. 
   </html:p>
-  <html:p />
+  <html:p>
+    To show the fibre products are topological, we first show this for affine schemes. In this case, the fibre products are computed by the spectrum of <fr:link href="/idem-comm-A6ON/" title="Pushouts of algebras are tensor products" uri="https://charloced.github.io/idem-comm-A6ON/" display-uri="idem-comm-A6ON" type="local">pushouts</fr:link>. The underlying set is the topological fibre products, because the points are computed by <fr:tex display="inline"><![CDATA[\mathbf {DL}(-,2)]]></fr:tex>, which takes pushouts to pullbacks. The topology also agrees due to our pushouts are concretely constructed as <fr:link href="/idem-comm-SG6C/" title="Tensor products of distributive lattices" uri="https://charloced.github.io/idem-comm-SG6C/" display-uri="idem-comm-SG6C" type="local">tensor product</fr:link>.
+  </html:p>
+  <html:p>
+    Now the general case for schemes follows from glueing.
+  </html:p>
 </fr:mainmatter></fr:tree>
  
 </fr:mainmatter>
@@ -80,9 +85,14 @@
    
    <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>11</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
   <html:p>
-    The existence of the fibre products follows from the usual gluing argument for schemes, and reduces to the fibre products of affine schemes. For affine schemes, the fibre products are computed by the spectrum of <fr:link href="/idem-comm-A6ON/" title="Pushouts of algebras are tensor products" uri="https://charloced.github.io/idem-comm-A6ON/" display-uri="idem-comm-A6ON" type="local">pushouts</fr:link>, because we have seen from <fr:link href="/schm-X3M9/" title="Universal property of spectra" uri="https://charloced.github.io/schm-X3M9/" display-uri="schm-X3M9" type="local">Theorem <fr:contextual-number uri="https://charloced.github.io/schm-X3M9/" display-uri="schm-X3M9" /></fr:link> <fr:tex display="inline"><![CDATA[\operatorname {Spec}]]></fr:tex> is a right adjoint.
+    The existence of the fibre products follows from the usual gluing argument for schemes in algebraic geometry, and reduces to the fibre products of affine schemes. 
   </html:p>
-  <html:p />
+  <html:p>
+    To show the fibre products are topological, we first show this for affine schemes. In this case, the fibre products are computed by the spectrum of <fr:link href="/idem-comm-A6ON/" title="Pushouts of algebras are tensor products" uri="https://charloced.github.io/idem-comm-A6ON/" display-uri="idem-comm-A6ON" type="local">pushouts</fr:link>. The underlying set is the topological fibre products, because the points are computed by <fr:tex display="inline"><![CDATA[\mathbf {DL}(-,2)]]></fr:tex>, which takes pushouts to pullbacks. The topology also agrees due to our pushouts are concretely constructed as <fr:link href="/idem-comm-SG6C/" title="Tensor products of distributive lattices" uri="https://charloced.github.io/idem-comm-SG6C/" display-uri="idem-comm-SG6C" type="local">tensor product</fr:link>.
+  </html:p>
+  <html:p>
+    Now the general case for schemes follows from glueing.
+  </html:p>
 </fr:mainmatter></fr:tree>
  
 </fr:mainmatter>
@@ -149,17 +159,29 @@
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>6</fr:month>
-              <fr:day>8</fr:day>
+              <fr:day>11</fr:day>
             </fr:date>
-            <fr:uri>https://charloced.github.io/schm-86OJ/</fr:uri>
-            <fr:display-uri>schm-86OJ</fr:display-uri>
-            <fr:route>/schm-86OJ/</fr:route>
-            <fr:title text="Scheme">Scheme</fr:title>
-            <fr:taxon>Definition</fr:taxon>
+            <fr:uri>https://charloced.github.io/idem-comm-SG6C/</fr:uri>
+            <fr:display-uri>idem-comm-SG6C</fr:display-uri>
+            <fr:route>/idem-comm-SG6C/</fr:route>
+            <fr:title text="Tensor products of distributive lattices">Tensor products of distributive lattices</fr:title>
+            <fr:taxon>Construction</fr:taxon>
           </fr:frontmatter>
           <fr:mainmatter>
             <html:p>
-  A <fr:link href="/schm-V16H/" title="Locally distributed space" uri="https://charloced.github.io/schm-V16H/" display-uri="schm-V16H" type="local">locally distributed space</fr:link> <fr:tex display="inline"><![CDATA[(X,\mathcal {O}_{X})]]></fr:tex> is a <html:em>scheme</html:em>, if for any <fr:tex display="inline"><![CDATA[x\in  X]]></fr:tex> there is an open neighbourhood <fr:tex display="inline"><![CDATA[U]]></fr:tex> of <fr:tex display="inline"><![CDATA[x]]></fr:tex>, such that <fr:tex display="inline"><![CDATA[(U,\mathcal {O}_{X}|_U)]]></fr:tex> is an <fr:link href="/schm-IFX1/" title="Affine scheme" uri="https://charloced.github.io/schm-IFX1/" display-uri="schm-IFX1" type="local">affine scheme</fr:link>. The full subcategory of schemes will be denoted as <fr:tex display="inline"><![CDATA[\mathbf {Sch}_{\mathbb {D}}]]></fr:tex>.
+  Let <fr:tex display="inline"><![CDATA[A,B]]></fr:tex> be two <fr:tex display="inline"><![CDATA[D]]></fr:tex>-algebras, i.e. with maps <fr:tex display="inline"><![CDATA[D \to  A]]></fr:tex> and <fr:tex display="inline"><![CDATA[D \to  B]]></fr:tex>. The <html:em>tensor product</html:em> over <fr:tex display="inline"><![CDATA[D]]></fr:tex>, denoted as <fr:tex display="inline"><![CDATA[A \otimes _D B]]></fr:tex>, is generated by <fr:tex display="inline"><![CDATA[a \otimes  b]]></fr:tex> for any <fr:tex display="inline"><![CDATA[a\in  A]]></fr:tex> and <fr:tex display="inline"><![CDATA[b \in  B]]></fr:tex>, subject to:
+  <html:ol><html:li>The congruence specifies joins are bilinear in each variable,
+    <fr:tex display="block"><![CDATA[ a \otimes  0 \sim  0 \sim  0 \otimes  b ]]></fr:tex>
+    and that 
+    <fr:tex display="block"><![CDATA[ (a \vee  a') \otimes  b \sim  a \otimes  b \vee  a' \otimes  b, \quad  a \otimes  (b \vee  b') \sim  a \otimes  b \vee  a \otimes  b'. ]]></fr:tex></html:li>
+    <html:li>The meets are pointwise,
+    <fr:tex display="block"><![CDATA[ a \otimes  b \wedge  a' \otimes  b' \sim  aa' \otimes  bb'. ]]></fr:tex></html:li>
+    <html:li>This tensor is distributive for <fr:tex display="inline"><![CDATA[D]]></fr:tex>,
+    <fr:tex display="block"><![CDATA[ ad \otimes  b \sim  a \otimes  db. ]]></fr:tex></html:li></html:ol></html:p>
+            <html:p>
+  We also have two inclusions <fr:tex display="inline"><![CDATA[A \to  A \otimes _D B]]></fr:tex> and <fr:tex display="inline"><![CDATA[B \to  A \otimes _DB]]></fr:tex>, sending <fr:tex display="inline"><![CDATA[a\in  A,b\in  B]]></fr:tex> to 
+  <fr:tex display="block"><![CDATA[ a \mapsto  a \otimes  1, \quad  b \mapsto  1 \otimes  b. ]]></fr:tex>
+  It is easy to verify these are distributive lattice morphisms.
 </html:p>
           </fr:mainmatter>
         </fr:tree>
@@ -171,71 +193,17 @@
               <fr:month>6</fr:month>
               <fr:day>8</fr:day>
             </fr:date>
-            <fr:uri>https://charloced.github.io/schm-X3M9/</fr:uri>
-            <fr:display-uri>schm-X3M9</fr:display-uri>
-            <fr:route>/schm-X3M9/</fr:route>
-            <fr:title text="Universal property of spectra">Universal property of spectra</fr:title>
-            <fr:taxon>Theorem</fr:taxon>
+            <fr:uri>https://charloced.github.io/schm-86OJ/</fr:uri>
+            <fr:display-uri>schm-86OJ</fr:display-uri>
+            <fr:route>/schm-86OJ/</fr:route>
+            <fr:title text="Scheme">Scheme</fr:title>
+            <fr:taxon>Definition</fr:taxon>
           </fr:frontmatter>
-          <fr:mainmatter><html:p><fr:tex display="inline"><![CDATA[\operatorname {Spec}]]></fr:tex> is the right adjoint to the global section functor
-  
-  <html:figure><fr:resource hash="c3eb1b796da263a65ba30c0cfc277738"><fr:resource-content><html:img src="/c3eb1b796da263a65ba30c0cfc277738.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[\usepackage {tikz-cd}\usepackage {quiver}]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
-  \begin {tikzcd}
-    {\mathbf {DL}^{\mathrm {op}}} & \mathbf {Top}_{\mathbb  D}
-    \arrow [""{name=0, anchor=center, inner sep=0}, "\mathrm {Spec}"', curve={height=18pt}, from=1-1, to=1-2]
-    \arrow [""{name=1, anchor=center, inner sep=0}, "\Gamma "', curve={height=18pt}, from=1-2, to=1-1]
-    \arrow ["\dashv "{anchor=center, rotate=-90}, draw=none, from=1, to=0]
-  \end {tikzcd}
-  ]]></fr:resource-source></fr:resource></html:figure>
-
-  identifying <fr:tex display="inline"><![CDATA[\mathbf {DL}^{\mathrm {op}}]]></fr:tex> as a reflective subcategory of <fr:tex display="inline"><![CDATA[\mathbf {Top}_{\mathbb {D}}]]></fr:tex>.
+          <fr:mainmatter>
+            <html:p>
+  A <fr:link href="/schm-V16H/" title="Locally distributed space" uri="https://charloced.github.io/schm-V16H/" display-uri="schm-V16H" type="local">locally distributed space</fr:link> <fr:tex display="inline"><![CDATA[(X,\mathcal {O}_{X})]]></fr:tex> is a <html:em>scheme</html:em>, if for any <fr:tex display="inline"><![CDATA[x\in  X]]></fr:tex> there is an open neighbourhood <fr:tex display="inline"><![CDATA[U]]></fr:tex> of <fr:tex display="inline"><![CDATA[x]]></fr:tex>, such that <fr:tex display="inline"><![CDATA[(U,\mathcal {O}_{X}|_U)]]></fr:tex> is an <fr:link href="/schm-IFX1/" title="Affine scheme" uri="https://charloced.github.io/schm-IFX1/" display-uri="schm-IFX1" type="local">affine scheme</fr:link>. The full subcategory of schemes will be denoted as <fr:tex display="inline"><![CDATA[\mathbf {Sch}]]></fr:tex>.
 </html:p>
- 
-   
-   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>8</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
-  <html:p>Let <fr:tex display="inline"><![CDATA[(X,\mathcal {O}_{X})]]></fr:tex> be a locally distributed space and <fr:tex display="inline"><![CDATA[D]]></fr:tex> a distributive lattice. Given
-  <fr:tex display="block"><![CDATA[ f_{\sharp } : D \to  \Gamma \mathcal {O}_{X}, ]]></fr:tex>
-  we construct a morphism of locally distributed spaces
-  <fr:tex display="block"><![CDATA[ (f,f^{\sharp }) : (X,\mathcal {O}_{X}) \to  (\operatorname {Spec} D,\mathcal {O}_{D}). ]]></fr:tex>
-  The map <fr:tex display="inline"><![CDATA[f : X \to  \operatorname {Spec} D]]></fr:tex> can be constructed as follows,
-  
-  <html:figure><fr:resource hash="d817c86ccffec2d8ec4dedbbbc038c86"><fr:resource-content><html:img src="/d817c86ccffec2d8ec4dedbbbc038c86.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[\usepackage {tikz-cd}\usepackage {quiver}]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
-    \begin {tikzcd}
-      D \ar [dr, dashed, "f^{-1}"'] \ar [r, "f_{\sharp }"] & \Gamma \mathcal  O_X \ar [d, "=1"] \\ 
-      & \Gamma \Omega _X
-    \end {tikzcd}
-  ]]></fr:resource-source></fr:resource></html:figure>
-
-  Since <fr:tex display="inline"><![CDATA[\mathcal {O}_{X}]]></fr:tex> is local, by <fr:link href="/idem-comm-E2I8/" title="Equivalent formulation of locality" uri="https://charloced.github.io/idem-comm-E2I8/" display-uri="idem-comm-E2I8" type="local">Remark <fr:contextual-number uri="https://charloced.github.io/idem-comm-E2I8/" display-uri="idem-comm-E2I8" /></fr:link> the composite is a distributive lattice morphism, thus produces a continuous function <fr:tex display="inline"><![CDATA[f : X \to  \operatorname {Spec} D]]></fr:tex> by <fr:link href="/idem-comm-WKAD/" title="Spectra as classifying spaces" uri="https://charloced.github.io/idem-comm-WKAD/" display-uri="idem-comm-WKAD" type="local">Proposition <fr:contextual-number uri="https://charloced.github.io/idem-comm-WKAD/" display-uri="idem-comm-WKAD" /></fr:link>. Concretely, for any <fr:tex display="inline"><![CDATA[x\in  X]]></fr:tex> we have
-  <fr:tex display="block"><![CDATA[ fx = \{p\in  D\mid x \models  f_{\sharp }(p)\}. ]]></fr:tex>
-  In other words, <fr:tex display="inline"><![CDATA[D/fx]]></fr:tex> is the <fr:link href="/idem-comm-V39C/" title="Orthogonal factorisation: (pro-open, t-conservative)" uri="https://charloced.github.io/idem-comm-V39C/" display-uri="idem-comm-V39C" type="local">(pro-open,t-conservative)</fr:link> factorisation of <fr:tex display="inline"><![CDATA[D \to  \Gamma \mathcal {O}_{X} \to  \mathcal {O}_{X,x}]]></fr:tex>
-  
-  <html:figure><fr:resource hash="4745fb6bb6986271af12e34940950bc2"><fr:resource-content><html:img src="/4745fb6bb6986271af12e34940950bc2.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[\usepackage {tikz-cd}\usepackage {quiver}]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
-    \begin {tikzcd}
-      D \ar [d, two heads] \ar [r, "f_{\sharp }"] & \Gamma \mathcal  O_{X} \ar [d] \\ 
-      D/fx \ar [r] & \mathcal {O}_{X,x}
-    \end {tikzcd}
-  ]]></fr:resource-source></fr:resource></html:figure>
-
-  Here <fr:tex display="inline"><![CDATA[D/fx]]></fr:tex> is local since <fr:tex display="inline"><![CDATA[\mathcal {O}_{X,x}]]></fr:tex> by assumption is local and <fr:tex display="inline"><![CDATA[D/fx \to  \mathcal {O}_{X,x}]]></fr:tex> is t-conservative. Hence by <fr:link href="/idem-comm-EV8L/" title="Quotient of prime filters are local" uri="https://charloced.github.io/idem-comm-EV8L/" display-uri="idem-comm-EV8L" type="local">Proposition <fr:contextual-number uri="https://charloced.github.io/idem-comm-EV8L/" display-uri="idem-comm-EV8L" /></fr:link> <fr:tex display="inline"><![CDATA[fx]]></fr:tex> is indeed a prime filter.</html:p>
-
-  <html:p>We then construct a morphism of distributive lattices <fr:tex display="inline"><![CDATA[f^{\sharp } : f^*\mathcal {O}_{D} \to  \mathcal {O}_{X}]]></fr:tex>. Equivalently, this can be described as a compatible family of maps
-  <fr:tex display="block"><![CDATA[ f_{\sharp } : \mathcal {O}_{D}(p) \cong  D/p \to  \mathcal {O}_{X}(f^{-1} p). ]]></fr:tex>
-  Compatibility means the following diagramme commutes,
-  
-  <html:figure><fr:resource hash="723c9e3a0aef2be62e869675f204d485"><fr:resource-content><html:img src="/723c9e3a0aef2be62e869675f204d485.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[\usepackage {tikz-cd}\usepackage {quiver}]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
-  \begin {tikzcd}
-    D \ar [d, two heads] \ar [r, "f_\sharp "] & \mathcal  O_{X}(X) \ar [d, "(-)|_{f^{-1} p}"] \\
-    D/p \ar [r, "f_\sharp "'] & \mathcal {O}_{X}(f^{^{-1}} p)
-  \end {tikzcd}
-  ]]></fr:resource-source></fr:resource></html:figure>
-
-  It then suffices to show that <fr:tex display="inline"><![CDATA[f_{\sharp }(p)|_{f^{-1}(p)} = 1]]></fr:tex>. This holds, since by construction <fr:tex display="inline"><![CDATA[f^{-1}(p)]]></fr:tex> is the subspace <fr:tex display="inline"><![CDATA[\{x\mid x \models  f_{\sharp }(p)\}]]></fr:tex>. This being a <html:em>local</html:em> morphism follows immediately from the factorisation defining <fr:tex display="inline"><![CDATA[fx]]></fr:tex>.</html:p>
-
-  <html:p>On the other hand, we need to show that for any morphism between locally distributed spaces <fr:tex display="inline"><![CDATA[(f,f^{\sharp }) : (X,\mathcal {O}_{X}) \to  (\operatorname {Spec} D,\mathcal {O}_{D})]]></fr:tex>, it is determined by <fr:tex display="inline"><![CDATA[f_{\sharp } : D \to  \Gamma \mathcal {O}_{X}]]></fr:tex>. Fistly, since <fr:tex display="inline"><![CDATA[D\twoheadrightarrow  D/p]]></fr:tex> is a localisation, all the morphisms <fr:tex display="inline"><![CDATA[f_{\sharp } : D/p \to  _{\sharp } X(f^{-1} p)]]></fr:tex> are already determined by <fr:tex display="inline"><![CDATA[f_{\sharp } : D \to  \Gamma \mathcal {O}_{X}]]></fr:tex>. Hence, it suffices to show that <fr:tex display="inline"><![CDATA[f]]></fr:tex> is also determined by <fr:tex display="inline"><![CDATA[f_{\sharp } : D \to  \Gamma \mathcal {O}_{X}]]></fr:tex>. The key of course is the requirement that <fr:tex display="inline"><![CDATA[f^{\sharp }]]></fr:tex> is t-conservative. By the Kripke-Joyal semantics, this means that for any <fr:tex display="inline"><![CDATA[x\in  X]]></fr:tex>, the induced map on stalk <fr:tex display="inline"><![CDATA[D/fx \to  \mathcal {O}_{X,x}]]></fr:tex> must be t-conservative. This uniquely determines <fr:tex display="inline"><![CDATA[fx]]></fr:tex> since <fr:tex display="inline"><![CDATA[\mathcal {O}_{X,x}]]></fr:tex> by construction is local, and has a unique prime filter. This then determines <fr:tex display="inline"><![CDATA[fx]]></fr:tex> by looking at the preimage <fr:tex display="inline"><![CDATA[D \to  \Gamma \mathcal {O}_{X} \to  \mathcal {O}_{X,x}]]></fr:tex>.</html:p>
-</fr:mainmatter></fr:tree>
- 
-</fr:mainmatter>
+          </fr:mainmatter>
         </fr:tree>
       </fr:mainmatter>
     </fr:tree>
