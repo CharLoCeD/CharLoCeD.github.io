@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/">
+  <fr:frontmatter>
+    <fr:authors />
+    <fr:date>
+      <fr:year>2025</fr:year>
+      <fr:month>6</fr:month>
+      <fr:day>17</fr:day>
+    </fr:date>
+    <fr:uri>https://charloced.github.io/schm-FHDX/</fr:uri>
+    <fr:display-uri>schm-FHDX</fr:display-uri>
+    <fr:route>/schm-FHDX/</fr:route>
+    <fr:title text="Separated morphisms between affine schemes">Separated morphisms between affine schemes</fr:title>
+    <fr:taxon>Proposition</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter><html:p>
+  Let <fr:tex display="inline"><![CDATA[f : \operatorname {Spec} E \to  \operatorname {Spec} D]]></fr:tex> be a morphism between <fr:link href="/schm-IFX1/" title="Affine scheme" uri="https://charloced.github.io/schm-IFX1/" display-uri="schm-IFX1" type="local">affine schemes</fr:link>. The following conditions are equivalent:
+  <html:ol><html:li><fr:tex display="inline"><![CDATA[f]]></fr:tex> is <fr:link href="/schm-0B23/" title="Quasi-separated and separated morphisms" uri="https://charloced.github.io/schm-0B23/" display-uri="schm-0B23" type="local">separated</fr:link>. </html:li>
+    <html:li> For any <fr:tex display="inline"><![CDATA[x\in \operatorname {Spec} E]]></fr:tex>, the restriction on <fr:tex display="inline"><![CDATA[f :\, \downarrow  x \to  \downarrow  fx]]></fr:tex> is injective. </html:li>
+    <html:li> The corresponding algebraic map <fr:tex display="inline"><![CDATA[D \to  E]]></fr:tex> makes <fr:tex display="inline"><![CDATA[E]]></fr:tex> a <fr:link href="/idem-comm-7K36/" title="Relative Boolean algebra" uri="https://charloced.github.io/idem-comm-7K36/" display-uri="idem-comm-7K36" type="local"><fr:tex display="inline"><![CDATA[D]]></fr:tex>-Boolean algebra</fr:link>. </html:li></html:ol></html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>17</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <html:p>
+    For (1) <fr:tex display="inline"><![CDATA[\Leftrightarrow ]]></fr:tex> (2), recall that <fr:tex display="inline"><![CDATA[f]]></fr:tex> is separated iff the diagonal <fr:tex display="inline"><![CDATA[\operatorname {Spec} E \to  \operatorname {Spec} E \times _{\operatorname {Spec} D} \operatorname {Spec} E]]></fr:tex> is closed. By <fr:link href="/idem-comm-ODLS/" title="Q-maps as closed maps" uri="https://charloced.github.io/idem-comm-ODLS/" display-uri="idem-comm-ODLS" type="local">Theorem <fr:contextual-number uri="https://charloced.github.io/idem-comm-ODLS/" display-uri="idem-comm-ODLS" /></fr:link>, this is closed iff it is a q-map. This means for any <fr:tex display="inline"><![CDATA[y\in \operatorname {Spec} E]]></fr:tex>, if both <fr:tex display="inline"><![CDATA[y_0,y_1 \le  y]]></fr:tex> with <fr:tex display="inline"><![CDATA[fy_0 = fy_1]]></fr:tex>, then <fr:tex display="inline"><![CDATA[y_0 = y_1]]></fr:tex>. This exactly says the map <fr:tex display="inline"><![CDATA[\downarrow  x \to  \downarrow  fx]]></fr:tex> is injective.
+  </html:p>
+  <html:p>
+    For (2) <fr:tex display="inline"><![CDATA[\Leftrightarrow ]]></fr:tex> (3), we know the map <fr:tex display="inline"><![CDATA[\downarrow  x \to  \downarrow  fx]]></fr:tex> dually corresponds to the map <fr:tex display="inline"><![CDATA[f^{-1}(I)/D \to  I/E]]></fr:tex>, where <fr:tex display="inline"><![CDATA[I]]></fr:tex> is the complement prime ideal of <fr:tex display="inline"><![CDATA[x]]></fr:tex>, induced as follows (cf. <fr:link href="/schm-MWRT/" title="Affine scheme at a stalk" uri="https://charloced.github.io/schm-MWRT/" display-uri="schm-MWRT" type="local">Lemma <fr:contextual-number uri="https://charloced.github.io/schm-MWRT/" display-uri="schm-MWRT" /></fr:link>),
+    
+  <html:figure><fr:resource hash="6b8a8181ea3c6a3de579e6175a59e614"><fr:resource-content><html:img src="/6b8a8181ea3c6a3de579e6175a59e614.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[\usepackage {tikz-cd}\usepackage {quiver}]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+      \begin {tikzcd}
+        D \ar [d, two heads] \ar [r] & E \ar [d, two heads] \\ 
+        f^{-1}(I)/D \ar [r] & I/E
+      \end {tikzcd}
+    ]]></fr:resource-source></fr:resource></html:figure>
+
+    Now by <fr:link href="/idem-comm-59IF/" title="Set-level duality between spectra and algebra" uri="https://charloced.github.io/idem-comm-59IF/" display-uri="idem-comm-59IF" type="local">Proposition <fr:contextual-number uri="https://charloced.github.io/idem-comm-59IF/" display-uri="idem-comm-59IF" /></fr:link>, <fr:tex display="inline"><![CDATA[\downarrow  x \to  \downarrow  fx]]></fr:tex> is injective iff the corresponding algebraic map is an epimorphism, which is exactly the definition of <fr:link href="/idem-comm-7K36/" title="Relative Boolean algebra" uri="https://charloced.github.io/idem-comm-7K36/" display-uri="idem-comm-7K36" type="local">relative Boolean algebra</fr:link>.
+  </html:p>
+</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/lingyuan/" title="Lingyuan Ye" uri="https://charloced.github.io/lingyuan/" display-uri="lingyuan" type="local">Lingyuan Ye</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>16</fr:day>
+            </fr:date>
+            <fr:uri>https://charloced.github.io/schm-A48N/</fr:uri>
+            <fr:display-uri>schm-A48N</fr:display-uri>
+            <fr:route>/schm-A48N/</fr:route>
+            <fr:title text="Separation axioms">Separation axioms</fr:title>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>16</fr:day>
+                </fr:date>
+                <fr:uri>https://charloced.github.io/schm-FEIP/</fr:uri>
+                <fr:display-uri>schm-FEIP</fr:display-uri>
+                <fr:route>/schm-FEIP/</fr:route>
+                <fr:title text="Quasi-separated schemes">Quasi-separated schemes</fr:title>
+                <fr:taxon>Definition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+  We say a <fr:link href="/schm-86OJ/" title="Scheme" uri="https://charloced.github.io/schm-86OJ/" display-uri="schm-86OJ" type="local">scheme</fr:link> is <html:em>quasi-separated</html:em> if its underlying topological space is <fr:link href="/topl-GW93/" title="Quasi-separated spaces" uri="https://charloced.github.io/topl-GW93/" display-uri="topl-GW93" type="local">quasi-separated</fr:link>. 
+</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>10</fr:day>
+                </fr:date>
+                <fr:uri>https://charloced.github.io/schm-Z7SH/</fr:uri>
+                <fr:display-uri>schm-Z7SH</fr:display-uri>
+                <fr:route>/schm-Z7SH/</fr:route>
+                <fr:title text="A quasi-separated but not quasi-compact scheme">A quasi-separated but not quasi-compact scheme</fr:title>
+                <fr:taxon>Example</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+  Note the scheme <fr:tex display="inline"><![CDATA[\operatorname {Spec}\mathbb {H}[x]_+]]></fr:tex> from <fr:link href="/schm-LRJP/" title="The Rieger-Nishimura scheme" uri="https://charloced.github.io/schm-LRJP/" display-uri="schm-LRJP" type="local">Example <fr:contextual-number uri="https://charloced.github.io/schm-LRJP/" display-uri="schm-LRJP" /></fr:link> is <fr:link href="/schm-FEIP/" title="Quasi-separated schemes" uri="https://charloced.github.io/schm-FEIP/" display-uri="schm-FEIP" type="local">quasi-separated</fr:link> but not <fr:link href="/schm-H9PK/" title="Quasi-compact schemes" uri="https://charloced.github.io/schm-H9PK/" display-uri="schm-H9PK" type="local">quasi-compact</fr:link>.
+</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>17</fr:day>
+                </fr:date>
+                <fr:uri>https://charloced.github.io/schm-0B23/</fr:uri>
+                <fr:display-uri>schm-0B23</fr:display-uri>
+                <fr:route>/schm-0B23/</fr:route>
+                <fr:title text="Quasi-separated and separated morphisms">Quasi-separated and separated morphisms</fr:title>
+                <fr:taxon>Definition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+  A map <fr:tex display="inline"><![CDATA[f : X \to  Y]]></fr:tex> between <fr:link href="/schm-86OJ/" title="Scheme" uri="https://charloced.github.io/schm-86OJ/" display-uri="schm-86OJ" type="local">schemes</fr:link> is <html:em>(quasi-)separated</html:em>, if the diagonal <fr:tex display="inline"><![CDATA[\Delta  : X \to  X \times _Y X]]></fr:tex> is a <fr:link href="/schm-FH0V/" title="Closed immersion" uri="https://charloced.github.io/schm-FH0V/" display-uri="schm-FH0V" type="local">closed immersion</fr:link> (<fr:link href="/schm-BH0E/" title="Quasi-compact morphisms" uri="https://charloced.github.io/schm-BH0E/" display-uri="schm-BH0E" type="local">quasi-compact</fr:link>).
+</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>17</fr:day>
+                </fr:date>
+                <fr:uri>https://charloced.github.io/schm-S4EV/</fr:uri>
+                <fr:display-uri>schm-S4EV</fr:display-uri>
+                <fr:route>/schm-S4EV/</fr:route>
+                <fr:title text="Quasi-separated and separated maps are affine admissible">Quasi-separated and separated maps are affine admissible</fr:title>
+                <fr:taxon>Remark</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+  From <fr:link href="/schm-LAYT/" title="Quasi-compactness is affine admissible" uri="https://charloced.github.io/schm-LAYT/" display-uri="schm-LAYT" type="local">Remark <fr:contextual-number uri="https://charloced.github.io/schm-LAYT/" display-uri="schm-LAYT" /></fr:link> and <fr:link href="/schm-3R68/" title="Closed immersions are affine admissible" uri="https://charloced.github.io/schm-3R68/" display-uri="schm-3R68" type="local">Proposition <fr:contextual-number uri="https://charloced.github.io/schm-3R68/" display-uri="schm-3R68" /></fr:link>, via <fr:link href="/schm-AOI5/" title="Diagonalisation preserves affine admissibility" uri="https://charloced.github.io/schm-AOI5/" display-uri="schm-AOI5" type="local">Lemma <fr:contextual-number uri="https://charloced.github.io/schm-AOI5/" display-uri="schm-AOI5" /></fr:link> we know that both <fr:link href="/schm-0B23/" title="Quasi-separated and separated morphisms" uri="https://charloced.github.io/schm-0B23/" display-uri="schm-0B23" type="local">quasi-separated and separated</fr:link> morphisms are <fr:link href="/schm-NAP1/" title="Affine admissible classes" uri="https://charloced.github.io/schm-NAP1/" display-uri="schm-NAP1" type="local">affine admissble</fr:link>.
+</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>17</fr:day>
+                </fr:date>
+                <fr:uri>https://charloced.github.io/schm-W1FU/</fr:uri>
+                <fr:display-uri>schm-W1FU</fr:display-uri>
+                <fr:route>/schm-W1FU/</fr:route>
+                <fr:title text="Quasi-separated and separated schemes from morphisms">Quasi-separated and separated schemes from morphisms</fr:title>
+                <fr:taxon>Remark</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+  Note that a <fr:link href="/schm-86OJ/" title="Scheme" uri="https://charloced.github.io/schm-86OJ/" display-uri="schm-86OJ" type="local">scheme</fr:link> <fr:tex display="inline"><![CDATA[X]]></fr:tex> is <fr:link href="/schm-FEIP/" title="Quasi-separated schemes" uri="https://charloced.github.io/schm-FEIP/" display-uri="schm-FEIP" type="local">quasi-separated</fr:link> iff <fr:tex display="inline"><![CDATA[X \to  1]]></fr:tex> is <fr:link href="/schm-0B23/" title="Quasi-separated and separated morphisms" uri="https://charloced.github.io/schm-0B23/" display-uri="schm-0B23" type="local">quasi-separated</fr:link>, since the diagonal <fr:tex display="inline"><![CDATA[X \to  X \times  X]]></fr:tex> is quasi-compact iff the intersection of quasi-compact opens in <fr:tex display="inline"><![CDATA[X]]></fr:tex> is again quasi-compact. Hence, we also say <fr:tex display="inline"><![CDATA[X]]></fr:tex> is <html:em>separated</html:em> if <fr:tex display="inline"><![CDATA[X \to  1]]></fr:tex> is separated.
+</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>17</fr:day>
+                </fr:date>
+                <fr:uri>https://charloced.github.io/schm-CARD/</fr:uri>
+                <fr:display-uri>schm-CARD</fr:display-uri>
+                <fr:route>/schm-CARD/</fr:route>
+                <fr:title text="Morphisms between affine schemes are quasi-separated">Morphisms between affine schemes are quasi-separated</fr:title>
+                <fr:taxon>Example</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+  Morphisms between affine schemes are <fr:link href="/schm-0B23/" title="Quasi-separated and separated morphisms" uri="https://charloced.github.io/schm-0B23/" display-uri="schm-0B23" type="local">quasi-separated</fr:link>, since their diagonals will again be morphisms between affine schemes, and all such morphisms are quasi-compact by <fr:link href="/schm-WGUQ/" title="Affine morphisms are quasi-compact" uri="https://charloced.github.io/schm-WGUQ/" display-uri="schm-WGUQ" type="local">Example <fr:contextual-number uri="https://charloced.github.io/schm-WGUQ/" display-uri="schm-WGUQ" /></fr:link>. However, unlike the case in algebraic geometry, not all maps between affine schemes are <fr:link href="/schm-0B23/" title="Quasi-separated and separated morphisms" uri="https://charloced.github.io/schm-0B23/" display-uri="schm-0B23" type="local">separated</fr:link>.
+</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>17</fr:day>
+                </fr:date>
+                <fr:uri>https://charloced.github.io/schm-FHDX/</fr:uri>
+                <fr:display-uri>schm-FHDX</fr:display-uri>
+                <fr:route>/schm-FHDX/</fr:route>
+                <fr:title text="Separated morphisms between affine schemes">Separated morphisms between affine schemes</fr:title>
+                <fr:taxon>Proposition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter><html:p>
+  Let <fr:tex display="inline"><![CDATA[f : \operatorname {Spec} E \to  \operatorname {Spec} D]]></fr:tex> be a morphism between <fr:link href="/schm-IFX1/" title="Affine scheme" uri="https://charloced.github.io/schm-IFX1/" display-uri="schm-IFX1" type="local">affine schemes</fr:link>. The following conditions are equivalent:
+  <html:ol><html:li><fr:tex display="inline"><![CDATA[f]]></fr:tex> is <fr:link href="/schm-0B23/" title="Quasi-separated and separated morphisms" uri="https://charloced.github.io/schm-0B23/" display-uri="schm-0B23" type="local">separated</fr:link>. </html:li>
+    <html:li> For any <fr:tex display="inline"><![CDATA[x\in \operatorname {Spec} E]]></fr:tex>, the restriction on <fr:tex display="inline"><![CDATA[f :\, \downarrow  x \to  \downarrow  fx]]></fr:tex> is injective. </html:li>
+    <html:li> The corresponding algebraic map <fr:tex display="inline"><![CDATA[D \to  E]]></fr:tex> makes <fr:tex display="inline"><![CDATA[E]]></fr:tex> a <fr:link href="/idem-comm-7K36/" title="Relative Boolean algebra" uri="https://charloced.github.io/idem-comm-7K36/" display-uri="idem-comm-7K36" type="local"><fr:tex display="inline"><![CDATA[D]]></fr:tex>-Boolean algebra</fr:link>. </html:li></html:ol></html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>17</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <html:p>
+    For (1) <fr:tex display="inline"><![CDATA[\Leftrightarrow ]]></fr:tex> (2), recall that <fr:tex display="inline"><![CDATA[f]]></fr:tex> is separated iff the diagonal <fr:tex display="inline"><![CDATA[\operatorname {Spec} E \to  \operatorname {Spec} E \times _{\operatorname {Spec} D} \operatorname {Spec} E]]></fr:tex> is closed. By <fr:link href="/idem-comm-ODLS/" title="Q-maps as closed maps" uri="https://charloced.github.io/idem-comm-ODLS/" display-uri="idem-comm-ODLS" type="local">Theorem <fr:contextual-number uri="https://charloced.github.io/idem-comm-ODLS/" display-uri="idem-comm-ODLS" /></fr:link>, this is closed iff it is a q-map. This means for any <fr:tex display="inline"><![CDATA[y\in \operatorname {Spec} E]]></fr:tex>, if both <fr:tex display="inline"><![CDATA[y_0,y_1 \le  y]]></fr:tex> with <fr:tex display="inline"><![CDATA[fy_0 = fy_1]]></fr:tex>, then <fr:tex display="inline"><![CDATA[y_0 = y_1]]></fr:tex>. This exactly says the map <fr:tex display="inline"><![CDATA[\downarrow  x \to  \downarrow  fx]]></fr:tex> is injective.
+  </html:p>
+  <html:p>
+    For (2) <fr:tex display="inline"><![CDATA[\Leftrightarrow ]]></fr:tex> (3), we know the map <fr:tex display="inline"><![CDATA[\downarrow  x \to  \downarrow  fx]]></fr:tex> dually corresponds to the map <fr:tex display="inline"><![CDATA[f^{-1}(I)/D \to  I/E]]></fr:tex>, where <fr:tex display="inline"><![CDATA[I]]></fr:tex> is the complement prime ideal of <fr:tex display="inline"><![CDATA[x]]></fr:tex>, induced as follows (cf. <fr:link href="/schm-MWRT/" title="Affine scheme at a stalk" uri="https://charloced.github.io/schm-MWRT/" display-uri="schm-MWRT" type="local">Lemma <fr:contextual-number uri="https://charloced.github.io/schm-MWRT/" display-uri="schm-MWRT" /></fr:link>),
+    
+  <html:figure><fr:resource hash="6b8a8181ea3c6a3de579e6175a59e614"><fr:resource-content><html:img src="/6b8a8181ea3c6a3de579e6175a59e614.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[\usepackage {tikz-cd}\usepackage {quiver}]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+      \begin {tikzcd}
+        D \ar [d, two heads] \ar [r] & E \ar [d, two heads] \\ 
+        f^{-1}(I)/D \ar [r] & I/E
+      \end {tikzcd}
+    ]]></fr:resource-source></fr:resource></html:figure>
+
+    Now by <fr:link href="/idem-comm-59IF/" title="Set-level duality between spectra and algebra" uri="https://charloced.github.io/idem-comm-59IF/" display-uri="idem-comm-59IF" type="local">Proposition <fr:contextual-number uri="https://charloced.github.io/idem-comm-59IF/" display-uri="idem-comm-59IF" /></fr:link>, <fr:tex display="inline"><![CDATA[\downarrow  x \to  \downarrow  fx]]></fr:tex> is injective iff the corresponding algebraic map is an epimorphism, which is exactly the definition of <fr:link href="/idem-comm-7K36/" title="Relative Boolean algebra" uri="https://charloced.github.io/idem-comm-7K36/" display-uri="idem-comm-7K36" type="local">relative Boolean algebra</fr:link>.
+  </html:p>
+</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>18</fr:day>
+                </fr:date>
+                <fr:uri>https://charloced.github.io/schm-IGER/</fr:uri>
+                <fr:display-uri>schm-IGER</fr:display-uri>
+                <fr:route>/schm-IGER/</fr:route>
+                <fr:title text="Separated maps between affine schemes have Stone fibres">Separated maps between affine schemes have Stone fibres</fr:title>
+                <fr:taxon>Remark</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+  Let <fr:tex display="inline"><![CDATA[f : \operatorname {Spec} E \to  \operatorname {Spec} D]]></fr:tex> be a <fr:link href="/schm-0B23/" title="Quasi-separated and separated morphisms" uri="https://charloced.github.io/schm-0B23/" display-uri="schm-0B23" type="local">separated</fr:link> map between <fr:link href="/schm-IFX1/" title="Affine scheme" uri="https://charloced.github.io/schm-IFX1/" display-uri="schm-IFX1" type="local">affine schemes</fr:link>. Then by <fr:link href="/schm-FHDX/" title="Separated morphisms between affine schemes" uri="https://charloced.github.io/schm-FHDX/" display-uri="schm-FHDX" type="local">Proposition <fr:contextual-number uri="https://charloced.github.io/schm-FHDX/" display-uri="schm-FHDX" /></fr:link>, for any <fr:tex display="inline"><![CDATA[x\in \operatorname {Spec} D]]></fr:tex> the fibre <fr:tex display="inline"><![CDATA[f^{-1}(x)]]></fr:tex> in particular is <html:em>discrete</html:em>. Since the fibre as a <fr:link href="/schm-S9SD/" title="Fibre products of schemes are topological" uri="https://charloced.github.io/schm-S9SD/" display-uri="schm-S9SD" type="local">pullback</fr:link> between affine schemes is affine, having a discrete specialisation relation implies it is a <html:em>Stone space</html:em>.
+</html:p>
+                <html:p>
+  However, this is <html:em>not</html:em> a sufficient condition. See <fr:link href="/schm-C8GC/" title="Separated and non-separated maps between affine schemes" uri="https://charloced.github.io/schm-C8GC/" display-uri="schm-C8GC" type="local">Example <fr:contextual-number uri="https://charloced.github.io/schm-C8GC/" display-uri="schm-C8GC" /></fr:link>.
+</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>18</fr:day>
+                </fr:date>
+                <fr:uri>https://charloced.github.io/schm-C8GC/</fr:uri>
+                <fr:display-uri>schm-C8GC</fr:display-uri>
+                <fr:route>/schm-C8GC/</fr:route>
+                <fr:title text="Separated and non-separated maps between affine schemes">Separated and non-separated maps between affine schemes</fr:title>
+                <fr:taxon>Example</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+  Here we discuss some examples of separated and non-separated affine schemes. For a positive example, consider the following map between finite affine schemes,
+  
+  <html:figure><fr:resource hash="953c60d335fe7e72bfd13b8501e0c752"><fr:resource-content><html:img src="/953c60d335fe7e72bfd13b8501e0c752.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[\usepackage {tikz-cd}\usepackage {quiver}]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+    \begin {tikzcd}
+      \bullet  && \bullet  & \bullet  \\
+      & \bullet  && \bullet 
+      \arrow [curve={height=-18pt}, dashed, from=1-1, to=1-4]
+      \arrow [dashed, from=1-3, to=1-4]
+      \arrow [from=2-2, to=1-1]
+      \arrow [from=2-2, to=1-3]
+      \arrow [dashed, from=2-2, to=2-4]
+      \arrow [from=2-4, to=1-4]
+    \end {tikzcd}
+  ]]></fr:resource-source></fr:resource></html:figure>
+
+  which corresponds to the distributive lattice morphism
+  <fr:tex display="block"><![CDATA[ x \mapsto  y \vee  z : 2[x] \to  y \wedge  z/2[y,z] ]]></fr:tex>
+  By the characterisation in <fr:link href="/schm-FHDX/" title="Separated morphisms between affine schemes" uri="https://charloced.github.io/schm-FHDX/" display-uri="schm-FHDX" type="local">Proposition <fr:contextual-number uri="https://charloced.github.io/schm-FHDX/" display-uri="schm-FHDX" /></fr:link>, this map is <fr:link href="/schm-0B23/" title="Quasi-separated and separated morphisms" uri="https://charloced.github.io/schm-0B23/" display-uri="schm-0B23" type="local">separated</fr:link>.
+</html:p>
+                <html:p>
+  On the other hand, the "dual" case as follows,
+  
+  <html:figure><fr:resource hash="0623c8ad4b53fba5bcbaf5a8fff98d36"><fr:resource-content><html:img src="/0623c8ad4b53fba5bcbaf5a8fff98d36.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[\usepackage {tikz-cd}\usepackage {quiver}]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+    \begin {tikzcd}
+      & \bullet  && \bullet  \\
+      \bullet  && \bullet  & \bullet 
+      \arrow [dashed, from=1-2, to=1-4]
+      \arrow [from=2-1, to=1-2]
+      \arrow [curve={height=18pt}, dashed, from=2-1, to=2-4]
+      \arrow [from=2-3, to=1-2]
+      \arrow [dashed, from=2-3, to=2-4]
+      \arrow [from=2-4, to=1-4]
+    \end {tikzcd}
+  ]]></fr:resource-source></fr:resource></html:figure>
+
+  which corresponds to the map
+  <fr:tex display="block"><![CDATA[ x \mapsto  y \wedge  z : 2[x] \to  2[y,z]/y\vee  z ]]></fr:tex>
+  is <html:em>not</html:em> separated. Though it still have Stone fibres (cf. <fr:link href="/schm-IGER/" title="Separated maps between affine schemes have Stone fibres" uri="https://charloced.github.io/schm-IGER/" display-uri="schm-IGER" type="local">Remark <fr:contextual-number uri="https://charloced.github.io/schm-IGER/" display-uri="schm-IGER" /></fr:link>).
+</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>18</fr:day>
+            </fr:date>
+            <fr:uri>https://charloced.github.io/schm-IGER/</fr:uri>
+            <fr:display-uri>schm-IGER</fr:display-uri>
+            <fr:route>/schm-IGER/</fr:route>
+            <fr:title text="Separated maps between affine schemes have Stone fibres">Separated maps between affine schemes have Stone fibres</fr:title>
+            <fr:taxon>Remark</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  Let <fr:tex display="inline"><![CDATA[f : \operatorname {Spec} E \to  \operatorname {Spec} D]]></fr:tex> be a <fr:link href="/schm-0B23/" title="Quasi-separated and separated morphisms" uri="https://charloced.github.io/schm-0B23/" display-uri="schm-0B23" type="local">separated</fr:link> map between <fr:link href="/schm-IFX1/" title="Affine scheme" uri="https://charloced.github.io/schm-IFX1/" display-uri="schm-IFX1" type="local">affine schemes</fr:link>. Then by <fr:link href="/schm-FHDX/" title="Separated morphisms between affine schemes" uri="https://charloced.github.io/schm-FHDX/" display-uri="schm-FHDX" type="local">Proposition <fr:contextual-number uri="https://charloced.github.io/schm-FHDX/" display-uri="schm-FHDX" /></fr:link>, for any <fr:tex display="inline"><![CDATA[x\in \operatorname {Spec} D]]></fr:tex> the fibre <fr:tex display="inline"><![CDATA[f^{-1}(x)]]></fr:tex> in particular is <html:em>discrete</html:em>. Since the fibre as a <fr:link href="/schm-S9SD/" title="Fibre products of schemes are topological" uri="https://charloced.github.io/schm-S9SD/" display-uri="schm-S9SD" type="local">pullback</fr:link> between affine schemes is affine, having a discrete specialisation relation implies it is a <html:em>Stone space</html:em>.
+</html:p>
+            <html:p>
+  However, this is <html:em>not</html:em> a sufficient condition. See <fr:link href="/schm-C8GC/" title="Separated and non-separated maps between affine schemes" uri="https://charloced.github.io/schm-C8GC/" display-uri="schm-C8GC" type="local">Example <fr:contextual-number uri="https://charloced.github.io/schm-C8GC/" display-uri="schm-C8GC" /></fr:link>.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>18</fr:day>
+            </fr:date>
+            <fr:uri>https://charloced.github.io/schm-C8GC/</fr:uri>
+            <fr:display-uri>schm-C8GC</fr:display-uri>
+            <fr:route>/schm-C8GC/</fr:route>
+            <fr:title text="Separated and non-separated maps between affine schemes">Separated and non-separated maps between affine schemes</fr:title>
+            <fr:taxon>Example</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  Here we discuss some examples of separated and non-separated affine schemes. For a positive example, consider the following map between finite affine schemes,
+  
+  <html:figure><fr:resource hash="953c60d335fe7e72bfd13b8501e0c752"><fr:resource-content><html:img src="/953c60d335fe7e72bfd13b8501e0c752.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[\usepackage {tikz-cd}\usepackage {quiver}]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+    \begin {tikzcd}
+      \bullet  && \bullet  & \bullet  \\
+      & \bullet  && \bullet 
+      \arrow [curve={height=-18pt}, dashed, from=1-1, to=1-4]
+      \arrow [dashed, from=1-3, to=1-4]
+      \arrow [from=2-2, to=1-1]
+      \arrow [from=2-2, to=1-3]
+      \arrow [dashed, from=2-2, to=2-4]
+      \arrow [from=2-4, to=1-4]
+    \end {tikzcd}
+  ]]></fr:resource-source></fr:resource></html:figure>
+
+  which corresponds to the distributive lattice morphism
+  <fr:tex display="block"><![CDATA[ x \mapsto  y \vee  z : 2[x] \to  y \wedge  z/2[y,z] ]]></fr:tex>
+  By the characterisation in <fr:link href="/schm-FHDX/" title="Separated morphisms between affine schemes" uri="https://charloced.github.io/schm-FHDX/" display-uri="schm-FHDX" type="local">Proposition <fr:contextual-number uri="https://charloced.github.io/schm-FHDX/" display-uri="schm-FHDX" /></fr:link>, this map is <fr:link href="/schm-0B23/" title="Quasi-separated and separated morphisms" uri="https://charloced.github.io/schm-0B23/" display-uri="schm-0B23" type="local">separated</fr:link>.
+</html:p>
+            <html:p>
+  On the other hand, the "dual" case as follows,
+  
+  <html:figure><fr:resource hash="0623c8ad4b53fba5bcbaf5a8fff98d36"><fr:resource-content><html:img src="/0623c8ad4b53fba5bcbaf5a8fff98d36.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[\usepackage {tikz-cd}\usepackage {quiver}]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+    \begin {tikzcd}
+      & \bullet  && \bullet  \\
+      \bullet  && \bullet  & \bullet 
+      \arrow [dashed, from=1-2, to=1-4]
+      \arrow [from=2-1, to=1-2]
+      \arrow [curve={height=18pt}, dashed, from=2-1, to=2-4]
+      \arrow [from=2-3, to=1-2]
+      \arrow [dashed, from=2-3, to=2-4]
+      \arrow [from=2-4, to=1-4]
+    \end {tikzcd}
+  ]]></fr:resource-source></fr:resource></html:figure>
+
+  which corresponds to the map
+  <fr:tex display="block"><![CDATA[ x \mapsto  y \wedge  z : 2[x] \to  2[y,z]/y\vee  z ]]></fr:tex>
+  is <html:em>not</html:em> separated. Though it still have Stone fibres (cf. <fr:link href="/schm-IGER/" title="Separated maps between affine schemes have Stone fibres" uri="https://charloced.github.io/schm-IGER/" display-uri="schm-IGER" type="local">Remark <fr:contextual-number uri="https://charloced.github.io/schm-IGER/" display-uri="schm-IGER" /></fr:link>).
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>18</fr:day>
+            </fr:date>
+            <fr:uri>https://charloced.github.io/idem-comm-E8MW/</fr:uri>
+            <fr:display-uri>idem-comm-E8MW</fr:display-uri>
+            <fr:route>/idem-comm-E8MW/</fr:route>
+            <fr:title text="Relative Boolean algebras are stable under base change">Relative Boolean algebras are stable under base change</fr:title>
+            <fr:taxon>Remark</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  If <fr:tex display="inline"><![CDATA[D \to  E]]></fr:tex> makes <fr:tex display="inline"><![CDATA[E]]></fr:tex> a <fr:link href="/idem-comm-7K36/" title="Relative Boolean algebra" uri="https://charloced.github.io/idem-comm-7K36/" display-uri="idem-comm-7K36" type="local"><fr:tex display="inline"><![CDATA[D]]></fr:tex>-Boolean algebra</fr:link>, then so is the pushout <fr:tex display="inline"><![CDATA[A \to  A \otimes _D E]]></fr:tex> for any <fr:tex display="inline"><![CDATA[D \to  A]]></fr:tex>. This follows from the characterisation in <fr:link href="/schm-FHDX/" title="Separated morphisms between affine schemes" uri="https://charloced.github.io/schm-FHDX/" display-uri="schm-FHDX" type="local">Proposition <fr:contextual-number uri="https://charloced.github.io/schm-FHDX/" display-uri="schm-FHDX" /></fr:link> and <fr:link href="/schm-S4EV/" title="Quasi-separated and separated maps are affine admissible" uri="https://charloced.github.io/schm-S4EV/" display-uri="schm-S4EV" type="local">Remark <fr:contextual-number uri="https://charloced.github.io/schm-S4EV/" display-uri="schm-S4EV" /></fr:link>.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>17</fr:day>
+            </fr:date>
+            <fr:uri>https://charloced.github.io/idem-comm-7K36/</fr:uri>
+            <fr:display-uri>idem-comm-7K36</fr:display-uri>
+            <fr:route>/idem-comm-7K36/</fr:route>
+            <fr:title text="Relative Boolean algebra">Relative Boolean algebra</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  Let <fr:tex display="inline"><![CDATA[E]]></fr:tex> be a <fr:tex display="inline"><![CDATA[D]]></fr:tex>-algebra. We say <fr:tex display="inline"><![CDATA[E]]></fr:tex> is a <html:em><fr:tex display="inline"><![CDATA[D]]></fr:tex>-Boolean algebra</html:em>, if for all prime ideals <fr:tex display="inline"><![CDATA[I]]></fr:tex> of <fr:tex display="inline"><![CDATA[E]]></fr:tex>, in the following <fr:link href="/idem-comm-V39C/" title="Orthogonal factorisation: (pro-open, t-conservative)" uri="https://charloced.github.io/idem-comm-V39C/" display-uri="idem-comm-V39C" type="local">factorisation</fr:link>
+  
+  <html:figure><fr:resource hash="40b524655ed757eeb57eba684f4d642c"><fr:resource-content><html:img src="/40b524655ed757eeb57eba684f4d642c.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[\usepackage {tikz-cd}\usepackage {quiver}]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+    \begin {tikzcd}
+      D \ar [d, two heads] \ar [r] & E \ar [d, two heads] \\ 
+      f^{-1}(I)/D \ar [r] & I/E
+    \end {tikzcd}
+  ]]></fr:resource-source></fr:resource></html:figure>
+
+  the factor <fr:tex display="inline"><![CDATA[f^{-1}(I)/D \to  I/E]]></fr:tex> is an <html:em><fr:link href="/idem-comm-VEWK/" title="Epimorphisms between distributive lattices" uri="https://charloced.github.io/idem-comm-VEWK/" display-uri="idem-comm-VEWK" type="local">epimorphism</fr:link></html:em>.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>17</fr:day>
+            </fr:date>
+            <fr:uri>https://charloced.github.io/schm-0B23/</fr:uri>
+            <fr:display-uri>schm-0B23</fr:display-uri>
+            <fr:route>/schm-0B23/</fr:route>
+            <fr:title text="Quasi-separated and separated morphisms">Quasi-separated and separated morphisms</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  A map <fr:tex display="inline"><![CDATA[f : X \to  Y]]></fr:tex> between <fr:link href="/schm-86OJ/" title="Scheme" uri="https://charloced.github.io/schm-86OJ/" display-uri="schm-86OJ" type="local">schemes</fr:link> is <html:em>(quasi-)separated</html:em>, if the diagonal <fr:tex display="inline"><![CDATA[\Delta  : X \to  X \times _Y X]]></fr:tex> is a <fr:link href="/schm-FH0V/" title="Closed immersion" uri="https://charloced.github.io/schm-FH0V/" display-uri="schm-FH0V" type="local">closed immersion</fr:link> (<fr:link href="/schm-BH0E/" title="Quasi-compact morphisms" uri="https://charloced.github.io/schm-BH0E/" display-uri="schm-BH0E" type="local">quasi-compact</fr:link>).
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>11</fr:day>
+            </fr:date>
+            <fr:uri>https://charloced.github.io/schm-MWRT/</fr:uri>
+            <fr:display-uri>schm-MWRT</fr:display-uri>
+            <fr:route>/schm-MWRT/</fr:route>
+            <fr:title text="Affine scheme at a stalk">Affine scheme at a stalk</fr:title>
+            <fr:taxon>Lemma</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>
+  Let <fr:tex display="inline"><![CDATA[X]]></fr:tex> be a <fr:link href="/schm-86OJ/" title="Scheme" uri="https://charloced.github.io/schm-86OJ/" display-uri="schm-86OJ" type="local">scheme</fr:link> and <fr:tex display="inline"><![CDATA[x\in  X]]></fr:tex>. Then <fr:tex display="inline"><![CDATA[\operatorname {Spec}{\mathcal {O}_{X,x}}]]></fr:tex> as a topological space is the subspace <fr:tex display="inline"><![CDATA[\uparrow  x]]></fr:tex> of <fr:tex display="inline"><![CDATA[X]]></fr:tex>. Furthermore, this gives us a map
+  <fr:tex display="block"><![CDATA[ \operatorname {Spec}{\mathcal {O}_{X,x}} \to  X. ]]></fr:tex></html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>11</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  Let <fr:tex display="inline"><![CDATA[\operatorname {Spec} A]]></fr:tex> be an affine open of <fr:tex display="inline"><![CDATA[x]]></fr:tex>. Then <fr:tex display="inline"><![CDATA[x]]></fr:tex> as a prime filter of <fr:tex display="inline"><![CDATA[A]]></fr:tex> (cf. <fr:link href="/schm-B6QO/" title="Stalk for structural sheaf" uri="https://charloced.github.io/schm-B6QO/" display-uri="schm-B6QO" type="local">Remark <fr:contextual-number uri="https://charloced.github.io/schm-B6QO/" display-uri="schm-B6QO" /></fr:link>),
+  <fr:tex display="block"><![CDATA[ \mathcal {O}_{X,x} \cong  A/x. ]]></fr:tex>
+  This way, the quotient <fr:tex display="inline"><![CDATA[A \twoheadrightarrow  A/x]]></fr:tex> induces the inclusion <fr:tex display="inline"><![CDATA[\operatorname {Spec}{\mathcal {O}_{X,x}} \to  \operatorname {Spec} A \subseteq  X]]></fr:tex>. Verifying this does not depend on the specific choice of the affine open <fr:tex display="inline"><![CDATA[\operatorname {Spec} A]]></fr:tex> is routine.
+</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>8</fr:day>
+            </fr:date>
+            <fr:uri>https://charloced.github.io/schm-IFX1/</fr:uri>
+            <fr:display-uri>schm-IFX1</fr:display-uri>
+            <fr:route>/schm-IFX1/</fr:route>
+            <fr:title text="Affine scheme">Affine scheme</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  We will denote the objects of <fr:tex display="inline"><![CDATA[\mathbf {Top}_{\mathbb {D}}]]></fr:tex> that lies in the image of <fr:tex display="inline"><![CDATA[\operatorname {Spec}]]></fr:tex> as <html:em>affine schemes</html:em>.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>8</fr:day>
+            </fr:date>
+            <fr:uri>https://charloced.github.io/idem-comm-ODLS/</fr:uri>
+            <fr:display-uri>idem-comm-ODLS</fr:display-uri>
+            <fr:route>/idem-comm-ODLS/</fr:route>
+            <fr:title text="Q-maps as closed maps">Q-maps as closed maps</fr:title>
+            <fr:taxon>Theorem</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>
+  For any <fr:tex display="inline"><![CDATA[f : D \to  E]]></fr:tex> between distributive lattices, the following are equivalent:
+  <html:ol><html:li><fr:tex display="inline"><![CDATA[f]]></fr:tex> is a <fr:link href="/idem-comm-SQ5X/" title="P-maps and q-maps" uri="https://charloced.github.io/idem-comm-SQ5X/" display-uri="idem-comm-SQ5X" type="local">q-map</fr:link>;</html:li>
+    <html:li><fr:tex display="inline"><![CDATA[\operatorname {Spec} E \to  \operatorname {Spec} D]]></fr:tex> is a closed map between topological spaces.</html:li></html:ol></html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>8</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  (2) <fr:tex display="inline"><![CDATA[\Rightarrow ]]></fr:tex> (1) is trivial. For (1) <fr:tex display="inline"><![CDATA[\Rightarrow ]]></fr:tex> (2), suppose <fr:tex display="inline"><![CDATA[f]]></fr:tex> is a q-map. For any ideal <fr:tex display="inline"><![CDATA[I]]></fr:tex> in <fr:tex display="inline"><![CDATA[E]]></fr:tex>, we show that <fr:tex display="inline"><![CDATA[f[C_I]]]></fr:tex> is closed in <fr:tex display="inline"><![CDATA[\operatorname {Spec} D]]></fr:tex>. Notice that <fr:tex display="inline"><![CDATA[D \to  E \twoheadrightarrow  I/E]]></fr:tex> by assumption is a q-map, which by <fr:link href="/idem-comm-OUFJ/" title="Closed image of a map" uri="https://charloced.github.io/idem-comm-OUFJ/" display-uri="idem-comm-OUFJ" type="local">Proposition <fr:contextual-number uri="https://charloced.github.io/idem-comm-OUFJ/" display-uri="idem-comm-OUFJ" /></fr:link> it follows that the image of <fr:tex display="inline"><![CDATA[\operatorname {Spec} I/E]]></fr:tex> in <fr:tex display="inline"><![CDATA[\operatorname {Spec} D]]></fr:tex>, which is precisely <fr:tex display="inline"><![CDATA[f[C_I]]]></fr:tex>, is closed.
+</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>7</fr:day>
+            </fr:date>
+            <fr:uri>https://charloced.github.io/idem-comm-59IF/</fr:uri>
+            <fr:display-uri>idem-comm-59IF</fr:display-uri>
+            <fr:route>/idem-comm-59IF/</fr:route>
+            <fr:title text="Set-level duality between spectra and algebra">Set-level duality between spectra and algebra</fr:title>
+            <fr:taxon>Proposition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>
+  For any map <fr:tex display="inline"><![CDATA[f : D \to  E]]></fr:tex> between distributive lattices:
+  <html:ol><html:li><fr:tex display="inline"><![CDATA[f]]></fr:tex> is injective iff <fr:tex display="inline"><![CDATA[\operatorname {Spec} E \twoheadrightarrow  \operatorname {Spec} D]]></fr:tex> is surjective.</html:li>
+    <html:li><fr:tex display="inline"><![CDATA[f]]></fr:tex> is surjective iff <fr:tex display="inline"><![CDATA[\operatorname {Spec} E \subseteq  \operatorname {Spec} D]]></fr:tex> is a full subposet.</html:li>
+    <html:li><fr:tex display="inline"><![CDATA[f]]></fr:tex> is an epimorphism iff <fr:tex display="inline"><![CDATA[\operatorname {Spec} E \to  \operatorname {Spec} D]]></fr:tex> is injective. (There is also an <fr:link href="/idem-comm-VEWK/" title="Epimorphisms between distributive lattices" uri="https://charloced.github.io/idem-comm-VEWK/" display-uri="idem-comm-VEWK" type="local">algebraic description</fr:link> of epimorphisms between distributive lattices.) </html:li></html:ol></html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>7</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <html:p>
+    (1) is an easy consequence of completeness.
+  </html:p>
+  <html:p>
+    For (2), since <fr:tex display="inline"><![CDATA[\operatorname {Spec}]]></fr:tex> takes regular epis in <html:strong>DL</html:strong> to regular monos in <html:strong>Pos</html:strong>, thus the only if direction holds. For the if direction, take a map <fr:tex display="inline"><![CDATA[f : D \to  E]]></fr:tex>, we can factor it as a surjection <fr:tex display="inline"><![CDATA[q : D \twoheadrightarrow  E']]></fr:tex> followed by an injection <fr:tex display="inline"><![CDATA[i : E' \rightarrowtail  E]]></fr:tex>. This induces a factorisation on posets <fr:tex display="inline"><![CDATA[q : \operatorname {Spec} E' \to  \operatorname {Spec} D]]></fr:tex>, a regular mono, and <fr:tex display="inline"><![CDATA[i : \operatorname {Spec} E \to  \operatorname {Spec} E']]></fr:tex>, which is surjective by (1). Hence, if the composite <fr:tex display="inline"><![CDATA[iq]]></fr:tex> is a regular mono, so is <fr:tex display="inline"><![CDATA[i]]></fr:tex>, which implies <fr:tex display="inline"><![CDATA[i]]></fr:tex> is an isomorphism. This way, <fr:tex display="inline"><![CDATA[f]]></fr:tex> must be a quotient.
+  </html:p>
+  <html:p>
+    For (3), this follows from monomorphisms of spectral spaces are exact injective ones.
+  </html:p>
+</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

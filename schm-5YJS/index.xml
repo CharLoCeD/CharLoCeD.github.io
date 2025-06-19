@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/">
+  <fr:frontmatter>
+    <fr:authors />
+    <fr:date>
+      <fr:year>2025</fr:year>
+      <fr:month>6</fr:month>
+      <fr:day>17</fr:day>
+    </fr:date>
+    <fr:uri>https://charloced.github.io/schm-5YJS/</fr:uri>
+    <fr:display-uri>schm-5YJS</fr:display-uri>
+    <fr:route>/schm-5YJS/</fr:route>
+    <fr:title text="Quasi-compact morphisms are closed under pullback">Quasi-compact morphisms are closed under pullback</fr:title>
+    <fr:taxon>Proposition</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter><html:p>
+  If <fr:tex display="inline"><![CDATA[f : X \to  Y]]></fr:tex> is a <fr:link href="/schm-BH0E/" title="Quasi-compact morphisms" uri="https://charloced.github.io/schm-BH0E/" display-uri="schm-BH0E" type="local">quasi-compact</fr:link> between schemes, then so is <fr:tex display="inline"><![CDATA[Z \times _Y X \to  Z]]></fr:tex> for all <fr:tex display="inline"><![CDATA[g : Z \to  Y]]></fr:tex>.
+</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>17</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  Let <fr:tex display="inline"><![CDATA[U]]></fr:tex> is an affine open in <fr:tex display="inline"><![CDATA[Z]]></fr:tex>. For any <fr:tex display="inline"><![CDATA[y\in  g[U]]]></fr:tex>, choose an affine open <fr:tex display="inline"><![CDATA[V_y]]></fr:tex> of <fr:tex display="inline"><![CDATA[y]]></fr:tex>. Then <fr:tex display="inline"><![CDATA[\{g^{-1}(V_y)\}_{y\in  g[U]}]]></fr:tex> covers <fr:tex display="inline"><![CDATA[U]]></fr:tex>, which means there will be a finite subcover since <fr:tex display="inline"><![CDATA[U]]></fr:tex> is compact. This way, since <fr:tex display="inline"><![CDATA[f]]></fr:tex> is quasi-compact, each <fr:tex display="inline"><![CDATA[f^{-1}(V_y)]]></fr:tex> is covered by finitely many affine opens <fr:tex display="inline"><![CDATA[\bigcup _{j_y}U_{j_y}]]></fr:tex>, which implies
+  <fr:tex display="block"><![CDATA[ (g^*f)^{-1}(U) \subseteq  U \times  \bigcup _{y,j_y}U_{j_y}, ]]></fr:tex>
+  is a finite union of affine opens, hence <fr:tex display="inline"><![CDATA[g^*f]]></fr:tex> is quasi-compact as well.
+</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/lingyuan/" title="Lingyuan Ye" uri="https://charloced.github.io/lingyuan/" display-uri="lingyuan" type="local">Lingyuan Ye</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>10</fr:day>
+            </fr:date>
+            <fr:uri>https://charloced.github.io/schm-DEM8/</fr:uri>
+            <fr:display-uri>schm-DEM8</fr:display-uri>
+            <fr:route>/schm-DEM8/</fr:route>
+            <fr:title text="Quasi-compact schemes and morphisms">Quasi-compact schemes and morphisms</fr:title>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>9</fr:day>
+                </fr:date>
+                <fr:uri>https://charloced.github.io/schm-H9PK/</fr:uri>
+                <fr:display-uri>schm-H9PK</fr:display-uri>
+                <fr:route>/schm-H9PK/</fr:route>
+                <fr:title text="Quasi-compact schemes">Quasi-compact schemes</fr:title>
+                <fr:taxon>Definition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+  We say a <fr:link href="/schm-86OJ/" title="Scheme" uri="https://charloced.github.io/schm-86OJ/" display-uri="schm-86OJ" type="local">scheme</fr:link> is <html:em>quasi-compact</html:em> if its underlying space is <html:em>compact</html:em>.
+</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>11</fr:day>
+                </fr:date>
+                <fr:uri>https://charloced.github.io/schm-BH0E/</fr:uri>
+                <fr:display-uri>schm-BH0E</fr:display-uri>
+                <fr:route>/schm-BH0E/</fr:route>
+                <fr:title text="Quasi-compact morphisms">Quasi-compact morphisms</fr:title>
+                <fr:taxon>Definition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+  More generally, we say a morphism <fr:tex display="inline"><![CDATA[f : Y \to  X]]></fr:tex> of <fr:link href="/schm-86OJ/" title="Scheme" uri="https://charloced.github.io/schm-86OJ/" display-uri="schm-86OJ" type="local">schemes</fr:link> is <html:em>quasi-compact</html:em>, if the underlying continuous map is <fr:link href="/topl-9BKS/" title="Quasi-compact continuous maps" uri="https://charloced.github.io/topl-9BKS/" display-uri="topl-9BKS" type="local">quasi-compact</fr:link>.
+</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>16</fr:day>
+                </fr:date>
+                <fr:uri>https://charloced.github.io/schm-826H/</fr:uri>
+                <fr:display-uri>schm-826H</fr:display-uri>
+                <fr:route>/schm-826H/</fr:route>
+                <fr:title text="Quasi-compact morphisms are affine local">Quasi-compact morphisms are affine local</fr:title>
+                <fr:taxon>Proposition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter><html:p>
+  A map <fr:tex display="inline"><![CDATA[f : X \to  Y]]></fr:tex> being <fr:link href="/schm-BH0E/" title="Quasi-compact morphisms" uri="https://charloced.github.io/schm-BH0E/" display-uri="schm-BH0E" type="local">quasi-compact</fr:link> is an <fr:link href="/schm-WURZ/" title="Affine local on the target" uri="https://charloced.github.io/schm-WURZ/" display-uri="schm-WURZ" type="local">affine local property on the target</fr:link>.
+</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>16</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  It suffices to show that if there is an affine open cover <fr:tex display="inline"><![CDATA[\operatorname {Spec} A_i]]></fr:tex> of <fr:tex display="inline"><![CDATA[Y]]></fr:tex> that each <fr:tex display="inline"><![CDATA[f^{-1}(\operatorname {Spec} A_i)]]></fr:tex> is quasi-compact, then <fr:tex display="inline"><![CDATA[f]]></fr:tex> is quasi-compact. This is trivial, since this implies that each <fr:tex display="inline"><![CDATA[f^{-1}(\operatorname {Spec} A_i)]]></fr:tex> is covered by finitely many affine opens in <fr:tex display="inline"><![CDATA[X]]></fr:tex>. 
+</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>17</fr:day>
+                </fr:date>
+                <fr:uri>https://charloced.github.io/schm-5YJS/</fr:uri>
+                <fr:display-uri>schm-5YJS</fr:display-uri>
+                <fr:route>/schm-5YJS/</fr:route>
+                <fr:title text="Quasi-compact morphisms are closed under pullback">Quasi-compact morphisms are closed under pullback</fr:title>
+                <fr:taxon>Proposition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter><html:p>
+  If <fr:tex display="inline"><![CDATA[f : X \to  Y]]></fr:tex> is a <fr:link href="/schm-BH0E/" title="Quasi-compact morphisms" uri="https://charloced.github.io/schm-BH0E/" display-uri="schm-BH0E" type="local">quasi-compact</fr:link> between schemes, then so is <fr:tex display="inline"><![CDATA[Z \times _Y X \to  Z]]></fr:tex> for all <fr:tex display="inline"><![CDATA[g : Z \to  Y]]></fr:tex>.
+</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>17</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  Let <fr:tex display="inline"><![CDATA[U]]></fr:tex> is an affine open in <fr:tex display="inline"><![CDATA[Z]]></fr:tex>. For any <fr:tex display="inline"><![CDATA[y\in  g[U]]]></fr:tex>, choose an affine open <fr:tex display="inline"><![CDATA[V_y]]></fr:tex> of <fr:tex display="inline"><![CDATA[y]]></fr:tex>. Then <fr:tex display="inline"><![CDATA[\{g^{-1}(V_y)\}_{y\in  g[U]}]]></fr:tex> covers <fr:tex display="inline"><![CDATA[U]]></fr:tex>, which means there will be a finite subcover since <fr:tex display="inline"><![CDATA[U]]></fr:tex> is compact. This way, since <fr:tex display="inline"><![CDATA[f]]></fr:tex> is quasi-compact, each <fr:tex display="inline"><![CDATA[f^{-1}(V_y)]]></fr:tex> is covered by finitely many affine opens <fr:tex display="inline"><![CDATA[\bigcup _{j_y}U_{j_y}]]></fr:tex>, which implies
+  <fr:tex display="block"><![CDATA[ (g^*f)^{-1}(U) \subseteq  U \times  \bigcup _{y,j_y}U_{j_y}, ]]></fr:tex>
+  is a finite union of affine opens, hence <fr:tex display="inline"><![CDATA[g^*f]]></fr:tex> is quasi-compact as well.
+</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>11</fr:day>
+                </fr:date>
+                <fr:uri>https://charloced.github.io/schm-LAYT/</fr:uri>
+                <fr:display-uri>schm-LAYT</fr:display-uri>
+                <fr:route>/schm-LAYT/</fr:route>
+                <fr:title text="Quasi-compactness is affine admissible">Quasi-compactness is affine admissible</fr:title>
+                <fr:taxon>Remark</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+  Combining <fr:link href="/schm-826H/" title="Quasi-compact morphisms are affine local" uri="https://charloced.github.io/schm-826H/" display-uri="schm-826H" type="local">Proposition <fr:contextual-number uri="https://charloced.github.io/schm-826H/" display-uri="schm-826H" /></fr:link> and <fr:link href="/schm-5YJS/" title="Quasi-compact morphisms are closed under pullback" uri="https://charloced.github.io/schm-5YJS/" display-uri="schm-5YJS" type="local">Proposition <fr:contextual-number uri="https://charloced.github.io/schm-5YJS/" display-uri="schm-5YJS" /></fr:link>, it follows that quasi-compact morphisms is an <fr:link href="/schm-NAP1/" title="Affine admissible classes" uri="https://charloced.github.io/schm-NAP1/" display-uri="schm-NAP1" type="local">affine admissible class</fr:link>, since they are trivially also closed under compositions.
+</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>16</fr:day>
+                </fr:date>
+                <fr:uri>https://charloced.github.io/schm-55VG/</fr:uri>
+                <fr:display-uri>schm-55VG</fr:display-uri>
+                <fr:route>/schm-55VG/</fr:route>
+                <fr:title text="Closed immersions are quasi-compact">Closed immersions are quasi-compact</fr:title>
+                <fr:taxon>Example</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+  Let <fr:tex display="inline"><![CDATA[X]]></fr:tex> be a scheme and <fr:tex display="inline"><![CDATA[Y]]></fr:tex> a <fr:link href="/schm-JBRX/" title="Quasi-coherent ideals generate closed subschemes" uri="https://charloced.github.io/schm-JBRX/" display-uri="schm-JBRX" type="local">closed subscheme</fr:link>. Then <fr:link href="/schm-FH0V/" title="Closed immersion" uri="https://charloced.github.io/schm-FH0V/" display-uri="schm-FH0V" type="local">closed immersion</fr:link> <fr:tex display="inline"><![CDATA[Y \subseteq  X]]></fr:tex> is <fr:link href="/schm-BH0E/" title="Quasi-compact morphisms" uri="https://charloced.github.io/schm-BH0E/" display-uri="schm-BH0E" type="local">quasi-compact</fr:link>. This follows trivially from general topology.
+</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>17</fr:day>
+                </fr:date>
+                <fr:uri>https://charloced.github.io/schm-WGUQ/</fr:uri>
+                <fr:display-uri>schm-WGUQ</fr:display-uri>
+                <fr:route>/schm-WGUQ/</fr:route>
+                <fr:title text="Affine morphisms are quasi-compact">Affine morphisms are quasi-compact</fr:title>
+                <fr:taxon>Example</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p><fr:link href="/schm-HZ25/" title="Affine morphisms" uri="https://charloced.github.io/schm-HZ25/" display-uri="schm-HZ25" type="local">Affine morphisms</fr:link> are evidently <fr:link href="/schm-BH0E/" title="Quasi-compact morphisms" uri="https://charloced.github.io/schm-BH0E/" display-uri="schm-BH0E" type="local">quasi-compact</fr:link>. In particular, morphisms between affine schemes are quasi-compact.
+</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>16</fr:day>
+            </fr:date>
+            <fr:uri>https://charloced.github.io/schm-OSC4/</fr:uri>
+            <fr:display-uri>schm-OSC4</fr:display-uri>
+            <fr:route>/schm-OSC4/</fr:route>
+            <fr:title text="Characterisation of universally closed maps between schemes">Characterisation of universally closed maps between schemes</fr:title>
+            <fr:taxon>Proposition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>
+  The following are equivalent for a map <fr:tex display="inline"><![CDATA[f : X \to  Y]]></fr:tex> between <fr:link href="/schm-86OJ/" title="Scheme" uri="https://charloced.github.io/schm-86OJ/" display-uri="schm-86OJ" type="local">schemes</fr:link>:
+  <html:ol><html:li> It is a <fr:link href="/schm-2LXR/" title="Closed and universally closed maps of schemes" uri="https://charloced.github.io/schm-2LXR/" display-uri="schm-2LXR" type="local">universally closed map between schemes</fr:link>. </html:li>
+    <html:li> It is a <fr:link href="/topl-BC42/" title="Characterisation of universally closed maps between topological spaces" uri="https://charloced.github.io/topl-BC42/" display-uri="topl-BC42" type="local">universally closed map between topological spaces</fr:link>. </html:li>
+    <html:li> It is <fr:link href="/schm-2LXR/" title="Closed and universally closed maps of schemes" uri="https://charloced.github.io/schm-2LXR/" display-uri="schm-2LXR" type="local">closed</fr:link>, and for any <fr:tex display="inline"><![CDATA[y\in  Y]]></fr:tex> the fibre <fr:tex display="inline"><![CDATA[f^{-1}(y)]]></fr:tex> is quasi-compact in <fr:tex display="inline"><![CDATA[X]]></fr:tex>. </html:li>
+    <html:li> It is <fr:link href="/schm-BH0E/" title="Quasi-compact morphisms" uri="https://charloced.github.io/schm-BH0E/" display-uri="schm-BH0E" type="local">quasi-compact</fr:link> and a <fr:link href="/idem-comm-SQ5X/" title="P-maps and q-maps" uri="https://charloced.github.io/idem-comm-SQ5X/" display-uri="idem-comm-SQ5X" type="local">q-map</fr:link>. </html:li></html:ol></html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>16</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <html:p>
+    The equivalence (2) <fr:tex display="inline"><![CDATA[\Leftrightarrow ]]></fr:tex> (3) is from <fr:link href="/topl-BC42/" title="Characterisation of universally closed maps between topological spaces" uri="https://charloced.github.io/topl-BC42/" display-uri="topl-BC42" type="local">Proposition <fr:contextual-number uri="https://charloced.github.io/topl-BC42/" display-uri="topl-BC42" /></fr:link>. (2) <fr:tex display="inline"><![CDATA[\Rightarrow ]]></fr:tex> (1) is evident.
+  </html:p>
+  <html:p>
+    To show (1) <fr:tex display="inline"><![CDATA[\Rightarrow ]]></fr:tex> (3), suppose <fr:tex display="inline"><![CDATA[f]]></fr:tex> is a universally closed map between schemes. For any <fr:tex display="inline"><![CDATA[y\in  Y]]></fr:tex>, since pullback of schemes are topological (cf. <fr:link href="/schm-S9SD/" title="Fibre products of schemes are topological" uri="https://charloced.github.io/schm-S9SD/" display-uri="schm-S9SD" type="local">Theorem <fr:contextual-number uri="https://charloced.github.io/schm-S9SD/" display-uri="schm-S9SD" /></fr:link>), it follows that <fr:tex display="inline"><![CDATA[f^{-1}(y) \to  1]]></fr:tex> must also be a universally closed map of schemes. By <fr:link href="/topl-KVQM/" title="A characterisation of compact topological spaces" uri="https://charloced.github.io/topl-KVQM/" display-uri="topl-KVQM" type="local">Proposition <fr:contextual-number uri="https://charloced.github.io/topl-KVQM/" display-uri="topl-KVQM" /></fr:link>, <fr:tex display="inline"><![CDATA[f^{-1}(y)]]></fr:tex> must be quasi-compact.
+  </html:p>
+  <html:p>
+    For (2) <fr:tex display="inline"><![CDATA[\Rightarrow ]]></fr:tex> (4), by a similar proof of <fr:link href="/topl-KVQM/" title="A characterisation of compact topological spaces" uri="https://charloced.github.io/topl-KVQM/" display-uri="topl-KVQM" type="local">Proposition <fr:contextual-number uri="https://charloced.github.io/topl-KVQM/" display-uri="topl-KVQM" /></fr:link> one can show that <fr:tex display="inline"><![CDATA[f]]></fr:tex> must be quasi-compact. It is a q-map because it is closed.
+  </html:p>
+  <html:p>
+    To show (4) <fr:tex display="inline"><![CDATA[\Rightarrow ]]></fr:tex> (1), it suffices to observe that if <fr:tex display="inline"><![CDATA[f]]></fr:tex> is quasi-compact and a q-map, then by <fr:link href="/schm-9N69/" title="Quasi-compact closed maps between schemes" uri="https://charloced.github.io/schm-9N69/" display-uri="schm-9N69" type="local">Lemma <fr:contextual-number uri="https://charloced.github.io/schm-9N69/" display-uri="schm-9N69" /></fr:link> <fr:tex display="inline"><![CDATA[f]]></fr:tex> must be closed; furthermore, both quasi-compactness (<fr:link href="/schm-5YJS/" title="Quasi-compact morphisms are closed under pullback" uri="https://charloced.github.io/schm-5YJS/" display-uri="schm-5YJS" type="local">Proposition <fr:contextual-number uri="https://charloced.github.io/schm-5YJS/" display-uri="schm-5YJS" /></fr:link>) and q-maps (<fr:link href="/idem-comm-UF37/" title="Closure properties of p-maps and q-maps" uri="https://charloced.github.io/idem-comm-UF37/" display-uri="idem-comm-UF37" type="local">Lemma <fr:contextual-number uri="https://charloced.github.io/idem-comm-UF37/" display-uri="idem-comm-UF37" /></fr:link>) are closed under pullbacks, thus such maps are universally closed.
+  </html:p>
+</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>11</fr:day>
+            </fr:date>
+            <fr:uri>https://charloced.github.io/schm-LAYT/</fr:uri>
+            <fr:display-uri>schm-LAYT</fr:display-uri>
+            <fr:route>/schm-LAYT/</fr:route>
+            <fr:title text="Quasi-compactness is affine admissible">Quasi-compactness is affine admissible</fr:title>
+            <fr:taxon>Remark</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  Combining <fr:link href="/schm-826H/" title="Quasi-compact morphisms are affine local" uri="https://charloced.github.io/schm-826H/" display-uri="schm-826H" type="local">Proposition <fr:contextual-number uri="https://charloced.github.io/schm-826H/" display-uri="schm-826H" /></fr:link> and <fr:link href="/schm-5YJS/" title="Quasi-compact morphisms are closed under pullback" uri="https://charloced.github.io/schm-5YJS/" display-uri="schm-5YJS" type="local">Proposition <fr:contextual-number uri="https://charloced.github.io/schm-5YJS/" display-uri="schm-5YJS" /></fr:link>, it follows that quasi-compact morphisms is an <fr:link href="/schm-NAP1/" title="Affine admissible classes" uri="https://charloced.github.io/schm-NAP1/" display-uri="schm-NAP1" type="local">affine admissible class</fr:link>, since they are trivially also closed under compositions.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>11</fr:day>
+            </fr:date>
+            <fr:uri>https://charloced.github.io/schm-BH0E/</fr:uri>
+            <fr:display-uri>schm-BH0E</fr:display-uri>
+            <fr:route>/schm-BH0E/</fr:route>
+            <fr:title text="Quasi-compact morphisms">Quasi-compact morphisms</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  More generally, we say a morphism <fr:tex display="inline"><![CDATA[f : Y \to  X]]></fr:tex> of <fr:link href="/schm-86OJ/" title="Scheme" uri="https://charloced.github.io/schm-86OJ/" display-uri="schm-86OJ" type="local">schemes</fr:link> is <html:em>quasi-compact</html:em>, if the underlying continuous map is <fr:link href="/topl-9BKS/" title="Quasi-compact continuous maps" uri="https://charloced.github.io/topl-9BKS/" display-uri="topl-9BKS" type="local">quasi-compact</fr:link>.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

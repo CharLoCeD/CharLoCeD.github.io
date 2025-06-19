@@ -67,7 +67,7 @@
             <fr:taxon>Lemma</fr:taxon>
           </fr:frontmatter>
           <fr:mainmatter><html:p>
-  A <fr:link href="/schm-P1M1/" title="Noetherian and locally Noetherian schemes" uri="https://charloced.github.io/schm-P1M1/" display-uri="schm-P1M1" type="local">locally Noetherian</fr:link> scheme is <fr:link href="/schm-H9PK/" title="Quasi-compact and quasi-separated schemes" uri="https://charloced.github.io/schm-H9PK/" display-uri="schm-H9PK" type="local">quasi-separated</fr:link>.
+  A <fr:link href="/schm-P1M1/" title="Noetherian and locally Noetherian schemes" uri="https://charloced.github.io/schm-P1M1/" display-uri="schm-P1M1" type="local">locally Noetherian</fr:link> scheme is <fr:link href="/schm-FEIP/" title="Quasi-separated schemes" uri="https://charloced.github.io/schm-FEIP/" display-uri="schm-FEIP" type="local">quasi-separated</fr:link>.
 </html:p>
  
    

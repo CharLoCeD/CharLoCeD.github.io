@@ -368,6 +368,166 @@
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>6</fr:month>
+              <fr:day>17</fr:day>
+            </fr:date>
+            <fr:uri>https://charloced.github.io/schm-HZ25/</fr:uri>
+            <fr:display-uri>schm-HZ25</fr:display-uri>
+            <fr:route>/schm-HZ25/</fr:route>
+            <fr:title text="Affine morphisms">Affine morphisms</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  We say a map <fr:tex display="inline"><![CDATA[f : X \to  Y]]></fr:tex> between <fr:link href="/schm-86OJ/" title="Scheme" uri="https://charloced.github.io/schm-86OJ/" display-uri="schm-86OJ" type="local">schemes</fr:link> is <html:em>affine</html:em>, if for all affine open <fr:tex display="inline"><![CDATA[\operatorname {Spec} A]]></fr:tex> of <fr:tex display="inline"><![CDATA[Y]]></fr:tex>, <fr:tex display="inline"><![CDATA[f^{-1}(\operatorname {Spec} A)]]></fr:tex> is an affine open in <fr:tex display="inline"><![CDATA[X]]></fr:tex>.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>17</fr:day>
+            </fr:date>
+            <fr:uri>https://charloced.github.io/schm-NAP1/</fr:uri>
+            <fr:display-uri>schm-NAP1</fr:display-uri>
+            <fr:route>/schm-NAP1/</fr:route>
+            <fr:title text="Affine admissible classes">Affine admissible classes</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  For a class of maps between <fr:link href="/schm-86OJ/" title="Scheme" uri="https://charloced.github.io/schm-86OJ/" display-uri="schm-86OJ" type="local">schemes</fr:link>, we say it is <html:em>affine admissible</html:em>, if 
+  <html:ol><html:li>It is closed under compositions and pullbacks;</html:li>
+    <html:li>It is <fr:link href="/schm-WURZ/" title="Affine local on the target" uri="https://charloced.github.io/schm-WURZ/" display-uri="schm-WURZ" type="local">affine local on the target</fr:link>.</html:li></html:ol></html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>17</fr:day>
+            </fr:date>
+            <fr:uri>https://charloced.github.io/schm-W1FU/</fr:uri>
+            <fr:display-uri>schm-W1FU</fr:display-uri>
+            <fr:route>/schm-W1FU/</fr:route>
+            <fr:title text="Quasi-separated and separated schemes from morphisms">Quasi-separated and separated schemes from morphisms</fr:title>
+            <fr:taxon>Remark</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  Note that a <fr:link href="/schm-86OJ/" title="Scheme" uri="https://charloced.github.io/schm-86OJ/" display-uri="schm-86OJ" type="local">scheme</fr:link> <fr:tex display="inline"><![CDATA[X]]></fr:tex> is <fr:link href="/schm-FEIP/" title="Quasi-separated schemes" uri="https://charloced.github.io/schm-FEIP/" display-uri="schm-FEIP" type="local">quasi-separated</fr:link> iff <fr:tex display="inline"><![CDATA[X \to  1]]></fr:tex> is <fr:link href="/schm-0B23/" title="Quasi-separated and separated morphisms" uri="https://charloced.github.io/schm-0B23/" display-uri="schm-0B23" type="local">quasi-separated</fr:link>, since the diagonal <fr:tex display="inline"><![CDATA[X \to  X \times  X]]></fr:tex> is quasi-compact iff the intersection of quasi-compact opens in <fr:tex display="inline"><![CDATA[X]]></fr:tex> is again quasi-compact. Hence, we also say <fr:tex display="inline"><![CDATA[X]]></fr:tex> is <html:em>separated</html:em> if <fr:tex display="inline"><![CDATA[X \to  1]]></fr:tex> is separated.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>17</fr:day>
+            </fr:date>
+            <fr:uri>https://charloced.github.io/schm-0B23/</fr:uri>
+            <fr:display-uri>schm-0B23</fr:display-uri>
+            <fr:route>/schm-0B23/</fr:route>
+            <fr:title text="Quasi-separated and separated morphisms">Quasi-separated and separated morphisms</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  A map <fr:tex display="inline"><![CDATA[f : X \to  Y]]></fr:tex> between <fr:link href="/schm-86OJ/" title="Scheme" uri="https://charloced.github.io/schm-86OJ/" display-uri="schm-86OJ" type="local">schemes</fr:link> is <html:em>(quasi-)separated</html:em>, if the diagonal <fr:tex display="inline"><![CDATA[\Delta  : X \to  X \times _Y X]]></fr:tex> is a <fr:link href="/schm-FH0V/" title="Closed immersion" uri="https://charloced.github.io/schm-FH0V/" display-uri="schm-FH0V" type="local">closed immersion</fr:link> (<fr:link href="/schm-BH0E/" title="Quasi-compact morphisms" uri="https://charloced.github.io/schm-BH0E/" display-uri="schm-BH0E" type="local">quasi-compact</fr:link>).
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>16</fr:day>
+            </fr:date>
+            <fr:uri>https://charloced.github.io/schm-FEIP/</fr:uri>
+            <fr:display-uri>schm-FEIP</fr:display-uri>
+            <fr:route>/schm-FEIP/</fr:route>
+            <fr:title text="Quasi-separated schemes">Quasi-separated schemes</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  We say a <fr:link href="/schm-86OJ/" title="Scheme" uri="https://charloced.github.io/schm-86OJ/" display-uri="schm-86OJ" type="local">scheme</fr:link> is <html:em>quasi-separated</html:em> if its underlying topological space is <fr:link href="/topl-GW93/" title="Quasi-separated spaces" uri="https://charloced.github.io/topl-GW93/" display-uri="topl-GW93" type="local">quasi-separated</fr:link>. 
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>16</fr:day>
+            </fr:date>
+            <fr:uri>https://charloced.github.io/schm-OSC4/</fr:uri>
+            <fr:display-uri>schm-OSC4</fr:display-uri>
+            <fr:route>/schm-OSC4/</fr:route>
+            <fr:title text="Characterisation of universally closed maps between schemes">Characterisation of universally closed maps between schemes</fr:title>
+            <fr:taxon>Proposition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>
+  The following are equivalent for a map <fr:tex display="inline"><![CDATA[f : X \to  Y]]></fr:tex> between <fr:link href="/schm-86OJ/" title="Scheme" uri="https://charloced.github.io/schm-86OJ/" display-uri="schm-86OJ" type="local">schemes</fr:link>:
+  <html:ol><html:li> It is a <fr:link href="/schm-2LXR/" title="Closed and universally closed maps of schemes" uri="https://charloced.github.io/schm-2LXR/" display-uri="schm-2LXR" type="local">universally closed map between schemes</fr:link>. </html:li>
+    <html:li> It is a <fr:link href="/topl-BC42/" title="Characterisation of universally closed maps between topological spaces" uri="https://charloced.github.io/topl-BC42/" display-uri="topl-BC42" type="local">universally closed map between topological spaces</fr:link>. </html:li>
+    <html:li> It is <fr:link href="/schm-2LXR/" title="Closed and universally closed maps of schemes" uri="https://charloced.github.io/schm-2LXR/" display-uri="schm-2LXR" type="local">closed</fr:link>, and for any <fr:tex display="inline"><![CDATA[y\in  Y]]></fr:tex> the fibre <fr:tex display="inline"><![CDATA[f^{-1}(y)]]></fr:tex> is quasi-compact in <fr:tex display="inline"><![CDATA[X]]></fr:tex>. </html:li>
+    <html:li> It is <fr:link href="/schm-BH0E/" title="Quasi-compact morphisms" uri="https://charloced.github.io/schm-BH0E/" display-uri="schm-BH0E" type="local">quasi-compact</fr:link> and a <fr:link href="/idem-comm-SQ5X/" title="P-maps and q-maps" uri="https://charloced.github.io/idem-comm-SQ5X/" display-uri="idem-comm-SQ5X" type="local">q-map</fr:link>. </html:li></html:ol></html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>16</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <html:p>
+    The equivalence (2) <fr:tex display="inline"><![CDATA[\Leftrightarrow ]]></fr:tex> (3) is from <fr:link href="/topl-BC42/" title="Characterisation of universally closed maps between topological spaces" uri="https://charloced.github.io/topl-BC42/" display-uri="topl-BC42" type="local">Proposition <fr:contextual-number uri="https://charloced.github.io/topl-BC42/" display-uri="topl-BC42" /></fr:link>. (2) <fr:tex display="inline"><![CDATA[\Rightarrow ]]></fr:tex> (1) is evident.
+  </html:p>
+  <html:p>
+    To show (1) <fr:tex display="inline"><![CDATA[\Rightarrow ]]></fr:tex> (3), suppose <fr:tex display="inline"><![CDATA[f]]></fr:tex> is a universally closed map between schemes. For any <fr:tex display="inline"><![CDATA[y\in  Y]]></fr:tex>, since pullback of schemes are topological (cf. <fr:link href="/schm-S9SD/" title="Fibre products of schemes are topological" uri="https://charloced.github.io/schm-S9SD/" display-uri="schm-S9SD" type="local">Theorem <fr:contextual-number uri="https://charloced.github.io/schm-S9SD/" display-uri="schm-S9SD" /></fr:link>), it follows that <fr:tex display="inline"><![CDATA[f^{-1}(y) \to  1]]></fr:tex> must also be a universally closed map of schemes. By <fr:link href="/topl-KVQM/" title="A characterisation of compact topological spaces" uri="https://charloced.github.io/topl-KVQM/" display-uri="topl-KVQM" type="local">Proposition <fr:contextual-number uri="https://charloced.github.io/topl-KVQM/" display-uri="topl-KVQM" /></fr:link>, <fr:tex display="inline"><![CDATA[f^{-1}(y)]]></fr:tex> must be quasi-compact.
+  </html:p>
+  <html:p>
+    For (2) <fr:tex display="inline"><![CDATA[\Rightarrow ]]></fr:tex> (4), by a similar proof of <fr:link href="/topl-KVQM/" title="A characterisation of compact topological spaces" uri="https://charloced.github.io/topl-KVQM/" display-uri="topl-KVQM" type="local">Proposition <fr:contextual-number uri="https://charloced.github.io/topl-KVQM/" display-uri="topl-KVQM" /></fr:link> one can show that <fr:tex display="inline"><![CDATA[f]]></fr:tex> must be quasi-compact. It is a q-map because it is closed.
+  </html:p>
+  <html:p>
+    To show (4) <fr:tex display="inline"><![CDATA[\Rightarrow ]]></fr:tex> (1), it suffices to observe that if <fr:tex display="inline"><![CDATA[f]]></fr:tex> is quasi-compact and a q-map, then by <fr:link href="/schm-9N69/" title="Quasi-compact closed maps between schemes" uri="https://charloced.github.io/schm-9N69/" display-uri="schm-9N69" type="local">Lemma <fr:contextual-number uri="https://charloced.github.io/schm-9N69/" display-uri="schm-9N69" /></fr:link> <fr:tex display="inline"><![CDATA[f]]></fr:tex> must be closed; furthermore, both quasi-compactness (<fr:link href="/schm-5YJS/" title="Quasi-compact morphisms are closed under pullback" uri="https://charloced.github.io/schm-5YJS/" display-uri="schm-5YJS" type="local">Proposition <fr:contextual-number uri="https://charloced.github.io/schm-5YJS/" display-uri="schm-5YJS" /></fr:link>) and q-maps (<fr:link href="/idem-comm-UF37/" title="Closure properties of p-maps and q-maps" uri="https://charloced.github.io/idem-comm-UF37/" display-uri="idem-comm-UF37" type="local">Lemma <fr:contextual-number uri="https://charloced.github.io/idem-comm-UF37/" display-uri="idem-comm-UF37" /></fr:link>) are closed under pullbacks, thus such maps are universally closed.
+  </html:p>
+</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>16</fr:day>
+            </fr:date>
+            <fr:uri>https://charloced.github.io/schm-2LXR/</fr:uri>
+            <fr:display-uri>schm-2LXR</fr:display-uri>
+            <fr:route>/schm-2LXR/</fr:route>
+            <fr:title text="Closed and universally closed maps of schemes">Closed and universally closed maps of schemes</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  We say a map <fr:tex display="inline"><![CDATA[f : X \to  Y]]></fr:tex> between <fr:link href="/schm-86OJ/" title="Scheme" uri="https://charloced.github.io/schm-86OJ/" display-uri="schm-86OJ" type="local">schemes</fr:link> is <html:em>closed</html:em> if as a map between topological spaces it is closed. We say it is <html:em>universally closed</html:em> if it is closed for arbitrary <fr:link href="/schm-87OR/" title="Fibre products of schemes" uri="https://charloced.github.io/schm-87OR/" display-uri="schm-87OR" type="local">pullback of schemes</fr:link>.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
               <fr:day>13</fr:day>
             </fr:date>
             <fr:uri>https://charloced.github.io/schm-BP3S/</fr:uri>
@@ -509,7 +669,7 @@
    
    <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>11</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
   <html:p>
-    The existence of the fibre products follows from the usual gluing argument for schemes in algebraic geometry, and reduces to the fibre products of affine schemes. 
+    The existence of the fibre products follows from the usual gluing argument for schemes in algebraic geometry, and reduces to the fibre products of affine schemes, which by <fr:link href="/schm-X3M9/" title="Universal property of spectra" uri="https://charloced.github.io/schm-X3M9/" display-uri="schm-X3M9" type="local">Theorem <fr:contextual-number uri="https://charloced.github.io/schm-X3M9/" display-uri="schm-X3M9" /></fr:link> are computed by spectra of <fr:link href="/idem-comm-SG6C/" title="Tensor products of distributive lattices" uri="https://charloced.github.io/idem-comm-SG6C/" display-uri="idem-comm-SG6C" type="local">tensor products</fr:link>.
   </html:p>
   <html:p>
     To show the fibre products are topological, we first show this for affine schemes. In this case, the fibre products are computed by the spectrum of <fr:link href="/idem-comm-A6ON/" title="Pushouts of algebras are tensor products" uri="https://charloced.github.io/idem-comm-A6ON/" display-uri="idem-comm-A6ON" type="local">pushouts</fr:link>. The underlying set is the topological fibre products, because the points are computed by <fr:tex display="inline"><![CDATA[\mathbf {DL}(-,2)]]></fr:tex>, which takes pushouts to pullbacks. The topology also agrees due to our pushouts are concretely constructed as <fr:link href="/idem-comm-SG6C/" title="Tensor products of distributive lattices" uri="https://charloced.github.io/idem-comm-SG6C/" display-uri="idem-comm-SG6C" type="local">tensor product</fr:link>.
@@ -638,12 +798,12 @@
             <fr:uri>https://charloced.github.io/schm-H9PK/</fr:uri>
             <fr:display-uri>schm-H9PK</fr:display-uri>
             <fr:route>/schm-H9PK/</fr:route>
-            <fr:title text="Quasi-compact and quasi-separated schemes">Quasi-compact and quasi-separated schemes</fr:title>
+            <fr:title text="Quasi-compact schemes">Quasi-compact schemes</fr:title>
             <fr:taxon>Definition</fr:taxon>
           </fr:frontmatter>
           <fr:mainmatter>
             <html:p>
-  We say a <fr:link href="/schm-86OJ/" title="Scheme" uri="https://charloced.github.io/schm-86OJ/" display-uri="schm-86OJ" type="local">scheme</fr:link> is <html:em>quasi-separated</html:em> if its underlying topological space is <fr:link href="/topl-GW93/" title="Quasi-separated spaces" uri="https://charloced.github.io/topl-GW93/" display-uri="topl-GW93" type="local">quasi-separated</fr:link>. We say it is <html:em>quasi-compact</html:em> if its underlying space is <html:em>compact</html:em>. The two conditions are often combined together and written as <html:em>qcqs</html:em>.
+  We say a <fr:link href="/schm-86OJ/" title="Scheme" uri="https://charloced.github.io/schm-86OJ/" display-uri="schm-86OJ" type="local">scheme</fr:link> is <html:em>quasi-compact</html:em> if its underlying space is <html:em>compact</html:em>.
 </html:p>
           </fr:mainmatter>
         </fr:tree>
@@ -772,7 +932,7 @@
             <fr:taxon>Proposition</fr:taxon>
           </fr:frontmatter>
           <fr:mainmatter><html:p>
-  Let <fr:tex display="inline"><![CDATA[X]]></fr:tex> be a <fr:link href="/schm-86OJ/" title="Scheme" uri="https://charloced.github.io/schm-86OJ/" display-uri="schm-86OJ" type="local">scheme</fr:link> and let <fr:tex display="inline"><![CDATA[\mathcal {I}]]></fr:tex> be a <fr:link href="/schm-TCWT/" title="Quasi-coherent ideal" uri="https://charloced.github.io/schm-TCWT/" display-uri="schm-TCWT" type="local">quasi-coherent</fr:link> of <fr:tex display="inline"><![CDATA[\mathcal {O}_{X}]]></fr:tex>. Then the <fr:link href="/schm-OMYR/" title="Quasi-closed immersion" uri="https://charloced.github.io/schm-OMYR/" display-uri="schm-OMYR" type="local">closed immersion</fr:link> <fr:tex display="inline"><![CDATA[C_{\mathcal {I}} \hookrightarrow  X]]></fr:tex> produced by <fr:link href="/schm-5KCL/" title="Sheaf of ideals generate quasi-closed immersions" uri="https://charloced.github.io/schm-5KCL/" display-uri="schm-5KCL" type="local">Construction <fr:contextual-number uri="https://charloced.github.io/schm-5KCL/" display-uri="schm-5KCL" /></fr:link> makes <fr:tex display="inline"><![CDATA[C_{\mathcal {I}}]]></fr:tex> a closed subscheme of <fr:tex display="inline"><![CDATA[X]]></fr:tex>.
+  Let <fr:tex display="inline"><![CDATA[X]]></fr:tex> be a <fr:link href="/schm-86OJ/" title="Scheme" uri="https://charloced.github.io/schm-86OJ/" display-uri="schm-86OJ" type="local">scheme</fr:link> and <fr:tex display="inline"><![CDATA[C]]></fr:tex> a closed subset of <fr:tex display="inline"><![CDATA[X]]></fr:tex>. Let <fr:tex display="inline"><![CDATA[\mathcal {I}]]></fr:tex> be the corresponding <fr:link href="/schm-TCWT/" title="Quasi-coherent ideal" uri="https://charloced.github.io/schm-TCWT/" display-uri="schm-TCWT" type="local">quasi-coherent ideal</fr:link> of <fr:tex display="inline"><![CDATA[\mathcal {O}_{X}]]></fr:tex> as shown in <fr:link href="/schm-EREC/" title="Frame of opens of a general scheme" uri="https://charloced.github.io/schm-EREC/" display-uri="schm-EREC" type="local">Proposition <fr:contextual-number uri="https://charloced.github.io/schm-EREC/" display-uri="schm-EREC" /></fr:link>. Then <fr:link href="/schm-5KCL/" title="Sheaf of ideals generate quasi-closed immersions" uri="https://charloced.github.io/schm-5KCL/" display-uri="schm-5KCL" type="local">Construction <fr:contextual-number uri="https://charloced.github.io/schm-5KCL/" display-uri="schm-5KCL" /></fr:link> makes <fr:tex display="inline"><![CDATA[C]]></fr:tex> a scheme, with a <fr:link href="/schm-OMYR/" title="Quasi-closed immersion" uri="https://charloced.github.io/schm-OMYR/" display-uri="schm-OMYR" type="local">closed immersion</fr:link> <fr:tex display="inline"><![CDATA[C \hookrightarrow  X]]></fr:tex>.
 </html:p>
  
    

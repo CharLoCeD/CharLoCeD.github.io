@@ -125,7 +125,7 @@
                 <fr:title text="Closure properties of p-maps and q-maps">Closure properties of p-maps and q-maps</fr:title>
                 <fr:taxon>Lemma</fr:taxon>
               </fr:frontmatter>
-              <fr:mainmatter><html:p><fr:link href="/idem-comm-SQ5X/" title="P-maps and q-maps" uri="https://charloced.github.io/idem-comm-SQ5X/" display-uri="idem-comm-SQ5X" type="local">P-maps/q-maps</fr:link> are closed under pushouts.
+              <fr:mainmatter><html:p><fr:link href="/idem-comm-SQ5X/" title="P-maps and q-maps" uri="https://charloced.github.io/idem-comm-SQ5X/" display-uri="idem-comm-SQ5X" type="local">P-maps/q-maps</fr:link> are closed under (transfinite) composition, pushouts, and coproducts.
 </html:p>
  
    
@@ -187,6 +187,26 @@
 </fr:mainmatter></fr:tree>
  
 </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>15</fr:day>
+                </fr:date>
+                <fr:uri>https://charloced.github.io/idem-comm-GKDM/</fr:uri>
+                <fr:display-uri>idem-comm-GKDM</fr:display-uri>
+                <fr:route>/idem-comm-GKDM/</fr:route>
+                <fr:title text="Closed maps between spectra are universally closed">Closed maps between spectra are universally closed</fr:title>
+                <fr:taxon>Remark</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+  Combined with <fr:link href="/idem-comm-UF37/" title="Closure properties of p-maps and q-maps" uri="https://charloced.github.io/idem-comm-UF37/" display-uri="idem-comm-UF37" type="local">Lemma <fr:contextual-number uri="https://charloced.github.io/idem-comm-UF37/" display-uri="idem-comm-UF37" /></fr:link>, it follows that closed maps <fr:tex display="inline"><![CDATA[\operatorname {Spec} E \to  \operatorname {Spec} D]]></fr:tex> are closed under certain pullbacks. In fact, they will be <html:em><fr:link href="/schm-2LXR/" title="Closed and universally closed maps of schemes" uri="https://charloced.github.io/schm-2LXR/" display-uri="schm-2LXR" type="local">universally closed</fr:link></html:em>.
+</html:p>
+              </fr:mainmatter>
             </fr:tree>
             <fr:tree show-metadata="false">
               <fr:frontmatter>
@@ -274,7 +294,49 @@
         <fr:authors />
         <fr:title text="Backlinks">Backlinks</fr:title>
       </fr:frontmatter>
-      <fr:mainmatter />
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>17</fr:day>
+            </fr:date>
+            <fr:uri>https://charloced.github.io/schm-FHDX/</fr:uri>
+            <fr:display-uri>schm-FHDX</fr:display-uri>
+            <fr:route>/schm-FHDX/</fr:route>
+            <fr:title text="Separated morphisms between affine schemes">Separated morphisms between affine schemes</fr:title>
+            <fr:taxon>Proposition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>
+  Let <fr:tex display="inline"><![CDATA[f : \operatorname {Spec} E \to  \operatorname {Spec} D]]></fr:tex> be a morphism between <fr:link href="/schm-IFX1/" title="Affine scheme" uri="https://charloced.github.io/schm-IFX1/" display-uri="schm-IFX1" type="local">affine schemes</fr:link>. The following conditions are equivalent:
+  <html:ol><html:li><fr:tex display="inline"><![CDATA[f]]></fr:tex> is <fr:link href="/schm-0B23/" title="Quasi-separated and separated morphisms" uri="https://charloced.github.io/schm-0B23/" display-uri="schm-0B23" type="local">separated</fr:link>. </html:li>
+    <html:li> For any <fr:tex display="inline"><![CDATA[x\in \operatorname {Spec} E]]></fr:tex>, the restriction on <fr:tex display="inline"><![CDATA[f :\, \downarrow  x \to  \downarrow  fx]]></fr:tex> is injective. </html:li>
+    <html:li> The corresponding algebraic map <fr:tex display="inline"><![CDATA[D \to  E]]></fr:tex> makes <fr:tex display="inline"><![CDATA[E]]></fr:tex> a <fr:link href="/idem-comm-7K36/" title="Relative Boolean algebra" uri="https://charloced.github.io/idem-comm-7K36/" display-uri="idem-comm-7K36" type="local"><fr:tex display="inline"><![CDATA[D]]></fr:tex>-Boolean algebra</fr:link>. </html:li></html:ol></html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>17</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <html:p>
+    For (1) <fr:tex display="inline"><![CDATA[\Leftrightarrow ]]></fr:tex> (2), recall that <fr:tex display="inline"><![CDATA[f]]></fr:tex> is separated iff the diagonal <fr:tex display="inline"><![CDATA[\operatorname {Spec} E \to  \operatorname {Spec} E \times _{\operatorname {Spec} D} \operatorname {Spec} E]]></fr:tex> is closed. By <fr:link href="/idem-comm-ODLS/" title="Q-maps as closed maps" uri="https://charloced.github.io/idem-comm-ODLS/" display-uri="idem-comm-ODLS" type="local">Theorem <fr:contextual-number uri="https://charloced.github.io/idem-comm-ODLS/" display-uri="idem-comm-ODLS" /></fr:link>, this is closed iff it is a q-map. This means for any <fr:tex display="inline"><![CDATA[y\in \operatorname {Spec} E]]></fr:tex>, if both <fr:tex display="inline"><![CDATA[y_0,y_1 \le  y]]></fr:tex> with <fr:tex display="inline"><![CDATA[fy_0 = fy_1]]></fr:tex>, then <fr:tex display="inline"><![CDATA[y_0 = y_1]]></fr:tex>. This exactly says the map <fr:tex display="inline"><![CDATA[\downarrow  x \to  \downarrow  fx]]></fr:tex> is injective.
+  </html:p>
+  <html:p>
+    For (2) <fr:tex display="inline"><![CDATA[\Leftrightarrow ]]></fr:tex> (3), we know the map <fr:tex display="inline"><![CDATA[\downarrow  x \to  \downarrow  fx]]></fr:tex> dually corresponds to the map <fr:tex display="inline"><![CDATA[f^{-1}(I)/D \to  I/E]]></fr:tex>, where <fr:tex display="inline"><![CDATA[I]]></fr:tex> is the complement prime ideal of <fr:tex display="inline"><![CDATA[x]]></fr:tex>, induced as follows (cf. <fr:link href="/schm-MWRT/" title="Affine scheme at a stalk" uri="https://charloced.github.io/schm-MWRT/" display-uri="schm-MWRT" type="local">Lemma <fr:contextual-number uri="https://charloced.github.io/schm-MWRT/" display-uri="schm-MWRT" /></fr:link>),
+    
+  <html:figure><fr:resource hash="6b8a8181ea3c6a3de579e6175a59e614"><fr:resource-content><html:img src="/6b8a8181ea3c6a3de579e6175a59e614.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[\usepackage {tikz-cd}\usepackage {quiver}]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+      \begin {tikzcd}
+        D \ar [d, two heads] \ar [r] & E \ar [d, two heads] \\ 
+        f^{-1}(I)/D \ar [r] & I/E
+      \end {tikzcd}
+    ]]></fr:resource-source></fr:resource></html:figure>
+
+    Now by <fr:link href="/idem-comm-59IF/" title="Set-level duality between spectra and algebra" uri="https://charloced.github.io/idem-comm-59IF/" display-uri="idem-comm-59IF" type="local">Proposition <fr:contextual-number uri="https://charloced.github.io/idem-comm-59IF/" display-uri="idem-comm-59IF" /></fr:link>, <fr:tex display="inline"><![CDATA[\downarrow  x \to  \downarrow  fx]]></fr:tex> is injective iff the corresponding algebraic map is an epimorphism, which is exactly the definition of <fr:link href="/idem-comm-7K36/" title="Relative Boolean algebra" uri="https://charloced.github.io/idem-comm-7K36/" display-uri="idem-comm-7K36" type="local">relative Boolean algebra</fr:link>.
+  </html:p>
+</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
     </fr:tree>
     <fr:tree show-metadata="false" hidden-when-empty="true">
       <fr:frontmatter>

@@ -119,11 +119,20 @@
               <fr:mainmatter><html:p>
   For any map <fr:tex display="inline"><![CDATA[f : D \to  E]]></fr:tex> between distributive lattices:
   <html:ol><html:li><fr:tex display="inline"><![CDATA[f]]></fr:tex> is injective iff <fr:tex display="inline"><![CDATA[\operatorname {Spec} E \twoheadrightarrow  \operatorname {Spec} D]]></fr:tex> is surjective.</html:li>
-    <html:li><fr:tex display="inline"><![CDATA[f]]></fr:tex> is surjective iff <fr:tex display="inline"><![CDATA[\operatorname {Spec} E \subseteq  \operatorname {Spec} D]]></fr:tex> is a full subposet.</html:li></html:ol></html:p>
+    <html:li><fr:tex display="inline"><![CDATA[f]]></fr:tex> is surjective iff <fr:tex display="inline"><![CDATA[\operatorname {Spec} E \subseteq  \operatorname {Spec} D]]></fr:tex> is a full subposet.</html:li>
+    <html:li><fr:tex display="inline"><![CDATA[f]]></fr:tex> is an epimorphism iff <fr:tex display="inline"><![CDATA[\operatorname {Spec} E \to  \operatorname {Spec} D]]></fr:tex> is injective. (There is also an <fr:link href="/idem-comm-VEWK/" title="Epimorphisms between distributive lattices" uri="https://charloced.github.io/idem-comm-VEWK/" display-uri="idem-comm-VEWK" type="local">algebraic description</fr:link> of epimorphisms between distributive lattices.) </html:li></html:ol></html:p>
  
    
    <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>7</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
-  The first statement is an easy consequence of completeness. For the second statement, since <fr:tex display="inline"><![CDATA[\operatorname {Spec}]]></fr:tex> takes regular epis in <html:strong>DL</html:strong> to regular monos in <html:strong>Pos</html:strong>, thus the only if direction holds. For the if direction, take a map <fr:tex display="inline"><![CDATA[f : D \to  E]]></fr:tex>, we can factor it as a surjection <fr:tex display="inline"><![CDATA[q : D \twoheadrightarrow  E']]></fr:tex> followed by an injection <fr:tex display="inline"><![CDATA[i : E' \rightarrowtail  E]]></fr:tex>. This induces a factorisation on posets <fr:tex display="inline"><![CDATA[q : \operatorname {Spec} E' \to  \operatorname {Spec} D]]></fr:tex>, a regular mono, and <fr:tex display="inline"><![CDATA[i : \operatorname {Spec} E \to  \operatorname {Spec} E']]></fr:tex>, which is surjective by (1). Hence, if the composite <fr:tex display="inline"><![CDATA[iq]]></fr:tex> is a regular mono, so is <fr:tex display="inline"><![CDATA[i]]></fr:tex>, which implies <fr:tex display="inline"><![CDATA[i]]></fr:tex> is an isomorphism. This way, <fr:tex display="inline"><![CDATA[f]]></fr:tex> must be a quotient.
+  <html:p>
+    (1) is an easy consequence of completeness.
+  </html:p>
+  <html:p>
+    For (2), since <fr:tex display="inline"><![CDATA[\operatorname {Spec}]]></fr:tex> takes regular epis in <html:strong>DL</html:strong> to regular monos in <html:strong>Pos</html:strong>, thus the only if direction holds. For the if direction, take a map <fr:tex display="inline"><![CDATA[f : D \to  E]]></fr:tex>, we can factor it as a surjection <fr:tex display="inline"><![CDATA[q : D \twoheadrightarrow  E']]></fr:tex> followed by an injection <fr:tex display="inline"><![CDATA[i : E' \rightarrowtail  E]]></fr:tex>. This induces a factorisation on posets <fr:tex display="inline"><![CDATA[q : \operatorname {Spec} E' \to  \operatorname {Spec} D]]></fr:tex>, a regular mono, and <fr:tex display="inline"><![CDATA[i : \operatorname {Spec} E \to  \operatorname {Spec} E']]></fr:tex>, which is surjective by (1). Hence, if the composite <fr:tex display="inline"><![CDATA[iq]]></fr:tex> is a regular mono, so is <fr:tex display="inline"><![CDATA[i]]></fr:tex>, which implies <fr:tex display="inline"><![CDATA[i]]></fr:tex> is an isomorphism. This way, <fr:tex display="inline"><![CDATA[f]]></fr:tex> must be a quotient.
+  </html:p>
+  <html:p>
+    For (3), this follows from monomorphisms of spectral spaces are exact injective ones.
+  </html:p>
 </fr:mainmatter></fr:tree>
  
 </fr:mainmatter>
@@ -824,6 +833,26 @@
                   <fr:month>6</fr:month>
                   <fr:day>9</fr:day>
                 </fr:date>
+                <fr:uri>https://charloced.github.io/schm-FH0V/</fr:uri>
+                <fr:display-uri>schm-FH0V</fr:display-uri>
+                <fr:route>/schm-FH0V/</fr:route>
+                <fr:title text="Closed immersion">Closed immersion</fr:title>
+                <fr:taxon>Definition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+  A <fr:link href="/schm-OMYR/" title="Quasi-closed immersion" uri="https://charloced.github.io/schm-OMYR/" display-uri="schm-OMYR" type="local">quasi-closed immersion</fr:link> <fr:tex display="inline"><![CDATA[f : X \to  Y]]></fr:tex> is a <html:em>closed immersion</html:em> if the ideal sheaf <fr:tex display="inline"><![CDATA[\mathcal {I}]]></fr:tex> with <fr:tex display="inline"><![CDATA[\mathcal {O}_{Y} \twoheadrightarrow  f_*\mathcal {O}_{X} \cong  \mathcal {I}/\mathcal {O}_{Y}]]></fr:tex> is <fr:link href="/schm-TCWT/" title="Quasi-coherent ideal" uri="https://charloced.github.io/schm-TCWT/" display-uri="schm-TCWT" type="local">quasi-coherent</fr:link> on <fr:tex display="inline"><![CDATA[Y]]></fr:tex>.
+</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>9</fr:day>
+                </fr:date>
                 <fr:uri>https://charloced.github.io/schm-JBRX/</fr:uri>
                 <fr:display-uri>schm-JBRX</fr:display-uri>
                 <fr:route>/schm-JBRX/</fr:route>
@@ -831,12 +860,42 @@
                 <fr:taxon>Proposition</fr:taxon>
               </fr:frontmatter>
               <fr:mainmatter><html:p>
-  Let <fr:tex display="inline"><![CDATA[X]]></fr:tex> be a <fr:link href="/schm-86OJ/" title="Scheme" uri="https://charloced.github.io/schm-86OJ/" display-uri="schm-86OJ" type="local">scheme</fr:link> and let <fr:tex display="inline"><![CDATA[\mathcal {I}]]></fr:tex> be a <fr:link href="/schm-TCWT/" title="Quasi-coherent ideal" uri="https://charloced.github.io/schm-TCWT/" display-uri="schm-TCWT" type="local">quasi-coherent</fr:link> of <fr:tex display="inline"><![CDATA[\mathcal {O}_{X}]]></fr:tex>. Then the <fr:link href="/schm-OMYR/" title="Quasi-closed immersion" uri="https://charloced.github.io/schm-OMYR/" display-uri="schm-OMYR" type="local">closed immersion</fr:link> <fr:tex display="inline"><![CDATA[C_{\mathcal {I}} \hookrightarrow  X]]></fr:tex> produced by <fr:link href="/schm-5KCL/" title="Sheaf of ideals generate quasi-closed immersions" uri="https://charloced.github.io/schm-5KCL/" display-uri="schm-5KCL" type="local">Construction <fr:contextual-number uri="https://charloced.github.io/schm-5KCL/" display-uri="schm-5KCL" /></fr:link> makes <fr:tex display="inline"><![CDATA[C_{\mathcal {I}}]]></fr:tex> a closed subscheme of <fr:tex display="inline"><![CDATA[X]]></fr:tex>.
+  Let <fr:tex display="inline"><![CDATA[X]]></fr:tex> be a <fr:link href="/schm-86OJ/" title="Scheme" uri="https://charloced.github.io/schm-86OJ/" display-uri="schm-86OJ" type="local">scheme</fr:link> and <fr:tex display="inline"><![CDATA[C]]></fr:tex> a closed subset of <fr:tex display="inline"><![CDATA[X]]></fr:tex>. Let <fr:tex display="inline"><![CDATA[\mathcal {I}]]></fr:tex> be the corresponding <fr:link href="/schm-TCWT/" title="Quasi-coherent ideal" uri="https://charloced.github.io/schm-TCWT/" display-uri="schm-TCWT" type="local">quasi-coherent ideal</fr:link> of <fr:tex display="inline"><![CDATA[\mathcal {O}_{X}]]></fr:tex> as shown in <fr:link href="/schm-EREC/" title="Frame of opens of a general scheme" uri="https://charloced.github.io/schm-EREC/" display-uri="schm-EREC" type="local">Proposition <fr:contextual-number uri="https://charloced.github.io/schm-EREC/" display-uri="schm-EREC" /></fr:link>. Then <fr:link href="/schm-5KCL/" title="Sheaf of ideals generate quasi-closed immersions" uri="https://charloced.github.io/schm-5KCL/" display-uri="schm-5KCL" type="local">Construction <fr:contextual-number uri="https://charloced.github.io/schm-5KCL/" display-uri="schm-5KCL" /></fr:link> makes <fr:tex display="inline"><![CDATA[C]]></fr:tex> a scheme, with a <fr:link href="/schm-OMYR/" title="Quasi-closed immersion" uri="https://charloced.github.io/schm-OMYR/" display-uri="schm-OMYR" type="local">closed immersion</fr:link> <fr:tex display="inline"><![CDATA[C \hookrightarrow  X]]></fr:tex>.
 </html:p>
  
    
    <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>9</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
   The case when <fr:tex display="inline"><![CDATA[X]]></fr:tex> is affine is clear. It is easy to see that when <fr:tex display="inline"><![CDATA[X = \operatorname {Spec} A]]></fr:tex> and <fr:tex display="inline"><![CDATA[\mathcal {I} = \widetilde {I}]]></fr:tex> for some ideal <fr:tex display="inline"><![CDATA[I]]></fr:tex> of <fr:tex display="inline"><![CDATA[A]]></fr:tex>, the closed immersion <fr:tex display="inline"><![CDATA[C_{\mathcal {I}} \hookrightarrow  \operatorname {Spec} A]]></fr:tex> is exactly <fr:tex display="inline"><![CDATA[\operatorname {Spec} I/A \hookrightarrow  \operatorname {Spec} A]]></fr:tex> induced by <fr:tex display="inline"><![CDATA[A \twoheadrightarrow  I/A]]></fr:tex> (cf. <fr:link href="/idem-comm-FMRA/" title="Closed subspace of closed quotient" uri="https://charloced.github.io/idem-comm-FMRA/" display-uri="idem-comm-FMRA" type="local">Remark <fr:contextual-number uri="https://charloced.github.io/idem-comm-FMRA/" display-uri="idem-comm-FMRA" /></fr:link>). The case for general schemes is then evident from this.
+</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>17</fr:day>
+                </fr:date>
+                <fr:uri>https://charloced.github.io/schm-3R68/</fr:uri>
+                <fr:display-uri>schm-3R68</fr:display-uri>
+                <fr:route>/schm-3R68/</fr:route>
+                <fr:title text="Closed immersions are affine admissible">Closed immersions are affine admissible</fr:title>
+                <fr:taxon>Proposition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter><html:p>
+  The class of <fr:link href="/schm-FH0V/" title="Closed immersion" uri="https://charloced.github.io/schm-FH0V/" display-uri="schm-FH0V" type="local">closed immersions</fr:link> are <fr:link href="/schm-NAP1/" title="Affine admissible classes" uri="https://charloced.github.io/schm-NAP1/" display-uri="schm-NAP1" type="local">affine admissible</fr:link>.
+</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>17</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <html:p>
+    Closed immersions are evidently closed under compositions. For pullbacks, it suffices to observe that they are <fr:link href="/schm-WURZ/" title="Affine local on the target" uri="https://charloced.github.io/schm-WURZ/" display-uri="schm-WURZ" type="local">affine local</fr:link> and closed immersions of affine schemes, which corresponds to quotients of the form <fr:tex display="inline"><![CDATA[D \twoheadrightarrow  I/D]]></fr:tex> for some ideal <fr:tex display="inline"><![CDATA[I]]></fr:tex> of <fr:tex display="inline"><![CDATA[D]]></fr:tex>, are closed under pushouts.
+  </html:p>
+  <html:p>
+    Now to show it is affine local, suppose we have a morphism of schemes <fr:tex display="inline"><![CDATA[C \to  X]]></fr:tex> where for an affine open cover <fr:tex display="inline"><![CDATA[X = \bigcup _{i}\operatorname {Spec} A_i]]></fr:tex>, the restriction <fr:tex display="inline"><![CDATA[C_i \to  \operatorname {Spec} A_i]]></fr:tex> is a closed immersion. Then <fr:tex display="inline"><![CDATA[C]]></fr:tex> must be closed in <fr:tex display="inline"><![CDATA[X]]></fr:tex>, and the ideal sheaf corresponding to <fr:tex display="inline"><![CDATA[C]]></fr:tex> must be quasi-coherent, since they are quasi-coherent on each affine open. Hence, <fr:tex display="inline"><![CDATA[C \to  X]]></fr:tex> is a closed immersion.
+  </html:p>
 </fr:mainmatter></fr:tree>
  
 </fr:mainmatter>

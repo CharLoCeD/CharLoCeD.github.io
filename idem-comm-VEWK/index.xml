@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/">
+  <fr:frontmatter>
+    <fr:authors />
+    <fr:date>
+      <fr:year>2025</fr:year>
+      <fr:month>6</fr:month>
+      <fr:day>17</fr:day>
+    </fr:date>
+    <fr:uri>https://charloced.github.io/idem-comm-VEWK/</fr:uri>
+    <fr:display-uri>idem-comm-VEWK</fr:display-uri>
+    <fr:route>/idem-comm-VEWK/</fr:route>
+    <fr:title text="Epimorphisms between distributive lattices">Epimorphisms between distributive lattices</fr:title>
+    <fr:taxon>Proposition</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter><html:p>
+  A map <fr:tex display="inline"><![CDATA[f : D \to  E]]></fr:tex> is an <html:em>epimorphism</html:em> in the category <html:strong>DL</html:strong> of distributive lattices iff all elements in <fr:tex display="inline"><![CDATA[E]]></fr:tex> are either in <fr:tex display="inline"><![CDATA[f[D]]]></fr:tex>, or are relative pseudo-complements of ones in <fr:tex display="inline"><![CDATA[D]]></fr:tex>.
+</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>17</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  This is Theorem 30 in <fr:link href="/ref-3RL5/" title="Maximal (sequentially) compact topologies" uri="https://charloced.github.io/ref-3RL5/" display-uri="ref-3RL5" type="local">Reference <fr:contextual-number uri="https://charloced.github.io/ref-3RL5/" display-uri="ref-3RL5" /></fr:link>.
+</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>17</fr:day>
+            </fr:date>
+            <fr:uri>https://charloced.github.io/ref-3RL5/</fr:uri>
+            <fr:display-uri>ref-3RL5</fr:display-uri>
+            <fr:route>/ref-3RL5/</fr:route>
+            <fr:title text="Maximal (sequentially) compact topologies">Maximal (sequentially) compact topologies</fr:title>
+            <fr:taxon>Reference</fr:taxon>
+            <fr:meta name="external">https://www.worldscientific.com/doi/10.1142/9789812702418_0013</fr:meta>
+            <fr:meta name="bibtex"><![CDATA[@incollection{kunzi2004maximal,
+  title={Maximal (sequentially) compact topologies},
+  author={K{\"u}nzi, Hans-Peter A and Zypen, Dominic Van Der},
+  booktitle={Categorical Structures And Their Applications},
+  pages={173--187},
+  year={2004},
+  publisher={World Scientific}
+}]]></fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter />
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>18</fr:day>
+            </fr:date>
+            <fr:uri>https://charloced.github.io/idem-comm-22W2/</fr:uri>
+            <fr:display-uri>idem-comm-22W2</fr:display-uri>
+            <fr:route>/idem-comm-22W2/</fr:route>
+            <fr:title text="Relative Boolean algebras over a Boolean base are simply Boolean algebras">Relative Boolean algebras over a Boolean base are simply Boolean algebras</fr:title>
+            <fr:taxon>Lemma</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  Suppose we have a <fr:link href="/idem-comm-7K36/" title="Relative Boolean algebra" uri="https://charloced.github.io/idem-comm-7K36/" display-uri="idem-comm-7K36" type="local"><fr:tex display="inline"><![CDATA[B]]></fr:tex>-Boolean algebra</fr:link> <fr:tex display="inline"><![CDATA[B \to  E]]></fr:tex> with <fr:tex display="inline"><![CDATA[B]]></fr:tex> Boolean. Then this is equivalently simply a Boolean algebra morphism <fr:tex display="inline"><![CDATA[B \to  E]]></fr:tex>. This is because by <fr:link href="/idem-comm-E7E2/" title="Boolean algebras only have maximal ideals" uri="https://charloced.github.io/idem-comm-E7E2/" display-uri="idem-comm-E7E2" type="local">Remark <fr:contextual-number uri="https://charloced.github.io/idem-comm-E7E2/" display-uri="idem-comm-E7E2" /></fr:link>, any quotient <fr:tex display="inline"><![CDATA[J/B]]></fr:tex> for a prime ideal <fr:tex display="inline"><![CDATA[J]]></fr:tex> in <fr:tex display="inline"><![CDATA[B]]></fr:tex> is isomorphic to <fr:tex display="inline"><![CDATA[2]]></fr:tex>, and a non-trivial epimorphism from <fr:tex display="inline"><![CDATA[2]]></fr:tex> must be an isomorphism (cf. <fr:link href="/idem-comm-VEWK/" title="Epimorphisms between distributive lattices" uri="https://charloced.github.io/idem-comm-VEWK/" display-uri="idem-comm-VEWK" type="local">Proposition <fr:contextual-number uri="https://charloced.github.io/idem-comm-VEWK/" display-uri="idem-comm-VEWK" /></fr:link>). This implies all prime ideals of <fr:tex display="inline"><![CDATA[E]]></fr:tex> are maximal, hence by <fr:link href="/idem-comm-E7E2/" title="Boolean algebras only have maximal ideals" uri="https://charloced.github.io/idem-comm-E7E2/" display-uri="idem-comm-E7E2" type="local">Remark <fr:contextual-number uri="https://charloced.github.io/idem-comm-E7E2/" display-uri="idem-comm-E7E2" /></fr:link> again <fr:tex display="inline"><![CDATA[E]]></fr:tex> is a Boolean algebra.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>17</fr:day>
+            </fr:date>
+            <fr:uri>https://charloced.github.io/idem-comm-7K36/</fr:uri>
+            <fr:display-uri>idem-comm-7K36</fr:display-uri>
+            <fr:route>/idem-comm-7K36/</fr:route>
+            <fr:title text="Relative Boolean algebra">Relative Boolean algebra</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  Let <fr:tex display="inline"><![CDATA[E]]></fr:tex> be a <fr:tex display="inline"><![CDATA[D]]></fr:tex>-algebra. We say <fr:tex display="inline"><![CDATA[E]]></fr:tex> is a <html:em><fr:tex display="inline"><![CDATA[D]]></fr:tex>-Boolean algebra</html:em>, if for all prime ideals <fr:tex display="inline"><![CDATA[I]]></fr:tex> of <fr:tex display="inline"><![CDATA[E]]></fr:tex>, in the following <fr:link href="/idem-comm-V39C/" title="Orthogonal factorisation: (pro-open, t-conservative)" uri="https://charloced.github.io/idem-comm-V39C/" display-uri="idem-comm-V39C" type="local">factorisation</fr:link>
+  
+  <html:figure><fr:resource hash="40b524655ed757eeb57eba684f4d642c"><fr:resource-content><html:img src="/40b524655ed757eeb57eba684f4d642c.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[\usepackage {tikz-cd}\usepackage {quiver}]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+    \begin {tikzcd}
+      D \ar [d, two heads] \ar [r] & E \ar [d, two heads] \\ 
+      f^{-1}(I)/D \ar [r] & I/E
+    \end {tikzcd}
+  ]]></fr:resource-source></fr:resource></html:figure>
+
+  the factor <fr:tex display="inline"><![CDATA[f^{-1}(I)/D \to  I/E]]></fr:tex> is an <html:em><fr:link href="/idem-comm-VEWK/" title="Epimorphisms between distributive lattices" uri="https://charloced.github.io/idem-comm-VEWK/" display-uri="idem-comm-VEWK" type="local">epimorphism</fr:link></html:em>.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>7</fr:day>
+            </fr:date>
+            <fr:uri>https://charloced.github.io/idem-comm-59IF/</fr:uri>
+            <fr:display-uri>idem-comm-59IF</fr:display-uri>
+            <fr:route>/idem-comm-59IF/</fr:route>
+            <fr:title text="Set-level duality between spectra and algebra">Set-level duality between spectra and algebra</fr:title>
+            <fr:taxon>Proposition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>
+  For any map <fr:tex display="inline"><![CDATA[f : D \to  E]]></fr:tex> between distributive lattices:
+  <html:ol><html:li><fr:tex display="inline"><![CDATA[f]]></fr:tex> is injective iff <fr:tex display="inline"><![CDATA[\operatorname {Spec} E \twoheadrightarrow  \operatorname {Spec} D]]></fr:tex> is surjective.</html:li>
+    <html:li><fr:tex display="inline"><![CDATA[f]]></fr:tex> is surjective iff <fr:tex display="inline"><![CDATA[\operatorname {Spec} E \subseteq  \operatorname {Spec} D]]></fr:tex> is a full subposet.</html:li>
+    <html:li><fr:tex display="inline"><![CDATA[f]]></fr:tex> is an epimorphism iff <fr:tex display="inline"><![CDATA[\operatorname {Spec} E \to  \operatorname {Spec} D]]></fr:tex> is injective. (There is also an <fr:link href="/idem-comm-VEWK/" title="Epimorphisms between distributive lattices" uri="https://charloced.github.io/idem-comm-VEWK/" display-uri="idem-comm-VEWK" type="local">algebraic description</fr:link> of epimorphisms between distributive lattices.) </html:li></html:ol></html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>7</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <html:p>
+    (1) is an easy consequence of completeness.
+  </html:p>
+  <html:p>
+    For (2), since <fr:tex display="inline"><![CDATA[\operatorname {Spec}]]></fr:tex> takes regular epis in <html:strong>DL</html:strong> to regular monos in <html:strong>Pos</html:strong>, thus the only if direction holds. For the if direction, take a map <fr:tex display="inline"><![CDATA[f : D \to  E]]></fr:tex>, we can factor it as a surjection <fr:tex display="inline"><![CDATA[q : D \twoheadrightarrow  E']]></fr:tex> followed by an injection <fr:tex display="inline"><![CDATA[i : E' \rightarrowtail  E]]></fr:tex>. This induces a factorisation on posets <fr:tex display="inline"><![CDATA[q : \operatorname {Spec} E' \to  \operatorname {Spec} D]]></fr:tex>, a regular mono, and <fr:tex display="inline"><![CDATA[i : \operatorname {Spec} E \to  \operatorname {Spec} E']]></fr:tex>, which is surjective by (1). Hence, if the composite <fr:tex display="inline"><![CDATA[iq]]></fr:tex> is a regular mono, so is <fr:tex display="inline"><![CDATA[i]]></fr:tex>, which implies <fr:tex display="inline"><![CDATA[i]]></fr:tex> is an isomorphism. This way, <fr:tex display="inline"><![CDATA[f]]></fr:tex> must be a quotient.
+  </html:p>
+  <html:p>
+    For (3), this follows from monomorphisms of spectral spaces are exact injective ones.
+  </html:p>
+</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

@@ -97,7 +97,7 @@
               </fr:frontmatter>
               <fr:mainmatter>
                 <html:p>
-  We say a scheme <fr:tex display="inline"><![CDATA[X]]></fr:tex> is <html:em>locally Noetherian</html:em>, if it can be covered by affine subspaces <fr:tex display="inline"><![CDATA[\operatorname {Spec} A_i]]></fr:tex> with each <fr:tex display="inline"><![CDATA[A_i]]></fr:tex> <fr:link href="/idem-comm-JOTR/" title="Noetherian distributive lattice" uri="https://charloced.github.io/idem-comm-JOTR/" display-uri="idem-comm-JOTR" type="local">Noetherian</fr:link>. Equivalently by <fr:link href="/schm-KSRJ/" title="Noetherian condition is affine local" uri="https://charloced.github.io/schm-KSRJ/" display-uri="schm-KSRJ" type="local">Lemma <fr:contextual-number uri="https://charloced.github.io/schm-KSRJ/" display-uri="schm-KSRJ" /></fr:link>, every affine open is Noetherian. We say <fr:tex display="inline"><![CDATA[X]]></fr:tex> is <html:em>Noetherian</html:em> if it is furthermore <fr:link href="/schm-H9PK/" title="Quasi-compact and quasi-separated schemes" uri="https://charloced.github.io/schm-H9PK/" display-uri="schm-H9PK" type="local">quasi-compact</fr:link>.
+  We say a scheme <fr:tex display="inline"><![CDATA[X]]></fr:tex> is <html:em>locally Noetherian</html:em>, if it can be covered by affine subspaces <fr:tex display="inline"><![CDATA[\operatorname {Spec} A_i]]></fr:tex> with each <fr:tex display="inline"><![CDATA[A_i]]></fr:tex> <fr:link href="/idem-comm-JOTR/" title="Noetherian distributive lattice" uri="https://charloced.github.io/idem-comm-JOTR/" display-uri="idem-comm-JOTR" type="local">Noetherian</fr:link>. Equivalently by <fr:link href="/schm-KSRJ/" title="Noetherian condition is affine local" uri="https://charloced.github.io/schm-KSRJ/" display-uri="schm-KSRJ" type="local">Lemma <fr:contextual-number uri="https://charloced.github.io/schm-KSRJ/" display-uri="schm-KSRJ" /></fr:link>, every affine open is Noetherian. We say <fr:tex display="inline"><![CDATA[X]]></fr:tex> is <html:em>Noetherian</html:em> if it is furthermore <fr:link href="/schm-H9PK/" title="Quasi-compact schemes" uri="https://charloced.github.io/schm-H9PK/" display-uri="schm-H9PK" type="local">quasi-compact</fr:link>.
 </html:p>
               </fr:mainmatter>
             </fr:tree>
@@ -167,7 +167,7 @@
                 <fr:taxon>Lemma</fr:taxon>
               </fr:frontmatter>
               <fr:mainmatter><html:p>
-  A <fr:link href="/schm-P1M1/" title="Noetherian and locally Noetherian schemes" uri="https://charloced.github.io/schm-P1M1/" display-uri="schm-P1M1" type="local">locally Noetherian</fr:link> scheme is <fr:link href="/schm-H9PK/" title="Quasi-compact and quasi-separated schemes" uri="https://charloced.github.io/schm-H9PK/" display-uri="schm-H9PK" type="local">quasi-separated</fr:link>.
+  A <fr:link href="/schm-P1M1/" title="Noetherian and locally Noetherian schemes" uri="https://charloced.github.io/schm-P1M1/" display-uri="schm-P1M1" type="local">locally Noetherian</fr:link> scheme is <fr:link href="/schm-FEIP/" title="Quasi-separated schemes" uri="https://charloced.github.io/schm-FEIP/" display-uri="schm-FEIP" type="local">quasi-separated</fr:link>.
 </html:p>
  
    
@@ -202,7 +202,7 @@
             <fr:taxon>Lemma</fr:taxon>
           </fr:frontmatter>
           <fr:mainmatter><html:p>
-  A <fr:link href="/schm-P1M1/" title="Noetherian and locally Noetherian schemes" uri="https://charloced.github.io/schm-P1M1/" display-uri="schm-P1M1" type="local">locally Noetherian</fr:link> scheme is <fr:link href="/schm-H9PK/" title="Quasi-compact and quasi-separated schemes" uri="https://charloced.github.io/schm-H9PK/" display-uri="schm-H9PK" type="local">quasi-separated</fr:link>.
+  A <fr:link href="/schm-P1M1/" title="Noetherian and locally Noetherian schemes" uri="https://charloced.github.io/schm-P1M1/" display-uri="schm-P1M1" type="local">locally Noetherian</fr:link> scheme is <fr:link href="/schm-FEIP/" title="Quasi-separated schemes" uri="https://charloced.github.io/schm-FEIP/" display-uri="schm-FEIP" type="local">quasi-separated</fr:link>.
 </html:p>
  
    
@@ -228,7 +228,7 @@
           </fr:frontmatter>
           <fr:mainmatter>
             <html:p>
-  We say a scheme <fr:tex display="inline"><![CDATA[X]]></fr:tex> is <html:em>locally Noetherian</html:em>, if it can be covered by affine subspaces <fr:tex display="inline"><![CDATA[\operatorname {Spec} A_i]]></fr:tex> with each <fr:tex display="inline"><![CDATA[A_i]]></fr:tex> <fr:link href="/idem-comm-JOTR/" title="Noetherian distributive lattice" uri="https://charloced.github.io/idem-comm-JOTR/" display-uri="idem-comm-JOTR" type="local">Noetherian</fr:link>. Equivalently by <fr:link href="/schm-KSRJ/" title="Noetherian condition is affine local" uri="https://charloced.github.io/schm-KSRJ/" display-uri="schm-KSRJ" type="local">Lemma <fr:contextual-number uri="https://charloced.github.io/schm-KSRJ/" display-uri="schm-KSRJ" /></fr:link>, every affine open is Noetherian. We say <fr:tex display="inline"><![CDATA[X]]></fr:tex> is <html:em>Noetherian</html:em> if it is furthermore <fr:link href="/schm-H9PK/" title="Quasi-compact and quasi-separated schemes" uri="https://charloced.github.io/schm-H9PK/" display-uri="schm-H9PK" type="local">quasi-compact</fr:link>.
+  We say a scheme <fr:tex display="inline"><![CDATA[X]]></fr:tex> is <html:em>locally Noetherian</html:em>, if it can be covered by affine subspaces <fr:tex display="inline"><![CDATA[\operatorname {Spec} A_i]]></fr:tex> with each <fr:tex display="inline"><![CDATA[A_i]]></fr:tex> <fr:link href="/idem-comm-JOTR/" title="Noetherian distributive lattice" uri="https://charloced.github.io/idem-comm-JOTR/" display-uri="idem-comm-JOTR" type="local">Noetherian</fr:link>. Equivalently by <fr:link href="/schm-KSRJ/" title="Noetherian condition is affine local" uri="https://charloced.github.io/schm-KSRJ/" display-uri="schm-KSRJ" type="local">Lemma <fr:contextual-number uri="https://charloced.github.io/schm-KSRJ/" display-uri="schm-KSRJ" /></fr:link>, every affine open is Noetherian. We say <fr:tex display="inline"><![CDATA[X]]></fr:tex> is <html:em>Noetherian</html:em> if it is furthermore <fr:link href="/schm-H9PK/" title="Quasi-compact schemes" uri="https://charloced.github.io/schm-H9PK/" display-uri="schm-H9PK" type="local">quasi-compact</fr:link>.
 </html:p>
           </fr:mainmatter>
         </fr:tree>
@@ -277,7 +277,7 @@
           </fr:frontmatter>
           <fr:mainmatter>
             <html:p>
-  We say a scheme <fr:tex display="inline"><![CDATA[X]]></fr:tex> is <html:em>locally Noetherian</html:em>, if it can be covered by affine subspaces <fr:tex display="inline"><![CDATA[\operatorname {Spec} A_i]]></fr:tex> with each <fr:tex display="inline"><![CDATA[A_i]]></fr:tex> <fr:link href="/idem-comm-JOTR/" title="Noetherian distributive lattice" uri="https://charloced.github.io/idem-comm-JOTR/" display-uri="idem-comm-JOTR" type="local">Noetherian</fr:link>. Equivalently by <fr:link href="/schm-KSRJ/" title="Noetherian condition is affine local" uri="https://charloced.github.io/schm-KSRJ/" display-uri="schm-KSRJ" type="local">Lemma <fr:contextual-number uri="https://charloced.github.io/schm-KSRJ/" display-uri="schm-KSRJ" /></fr:link>, every affine open is Noetherian. We say <fr:tex display="inline"><![CDATA[X]]></fr:tex> is <html:em>Noetherian</html:em> if it is furthermore <fr:link href="/schm-H9PK/" title="Quasi-compact and quasi-separated schemes" uri="https://charloced.github.io/schm-H9PK/" display-uri="schm-H9PK" type="local">quasi-compact</fr:link>.
+  We say a scheme <fr:tex display="inline"><![CDATA[X]]></fr:tex> is <html:em>locally Noetherian</html:em>, if it can be covered by affine subspaces <fr:tex display="inline"><![CDATA[\operatorname {Spec} A_i]]></fr:tex> with each <fr:tex display="inline"><![CDATA[A_i]]></fr:tex> <fr:link href="/idem-comm-JOTR/" title="Noetherian distributive lattice" uri="https://charloced.github.io/idem-comm-JOTR/" display-uri="idem-comm-JOTR" type="local">Noetherian</fr:link>. Equivalently by <fr:link href="/schm-KSRJ/" title="Noetherian condition is affine local" uri="https://charloced.github.io/schm-KSRJ/" display-uri="schm-KSRJ" type="local">Lemma <fr:contextual-number uri="https://charloced.github.io/schm-KSRJ/" display-uri="schm-KSRJ" /></fr:link>, every affine open is Noetherian. We say <fr:tex display="inline"><![CDATA[X]]></fr:tex> is <html:em>Noetherian</html:em> if it is furthermore <fr:link href="/schm-H9PK/" title="Quasi-compact schemes" uri="https://charloced.github.io/schm-H9PK/" display-uri="schm-H9PK" type="local">quasi-compact</fr:link>.
 </html:p>
           </fr:mainmatter>
         </fr:tree>

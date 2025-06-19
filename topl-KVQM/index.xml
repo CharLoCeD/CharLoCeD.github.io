@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/">
+  <fr:frontmatter>
+    <fr:authors />
+    <fr:date>
+      <fr:year>2025</fr:year>
+      <fr:month>6</fr:month>
+      <fr:day>16</fr:day>
+    </fr:date>
+    <fr:uri>https://charloced.github.io/topl-KVQM/</fr:uri>
+    <fr:display-uri>topl-KVQM</fr:display-uri>
+    <fr:route>/topl-KVQM/</fr:route>
+    <fr:title text="A characterisation of compact topological spaces">A characterisation of compact topological spaces</fr:title>
+    <fr:taxon>Proposition</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter><html:p>
+  For a topological space <fr:tex display="inline"><![CDATA[X]]></fr:tex> the following are equivalent: 
+  <html:ol><html:li><fr:tex display="inline"><![CDATA[X]]></fr:tex> is compact; </html:li>
+    <html:li> For all topological spaces <fr:tex display="inline"><![CDATA[Y]]></fr:tex>, the projection <fr:tex display="inline"><![CDATA[\pi _Y : X \times  Y \to  Y]]></fr:tex> is <html:em>closed</html:em>. </html:li>
+    <html:li> For all <html:em><fr:link href="/topl-VV9N/" title="Spectral spaces" uri="https://charloced.github.io/topl-VV9N/" display-uri="topl-VV9N" type="local">spectral spaces</fr:link></html:em> <fr:tex display="inline"><![CDATA[Y]]></fr:tex>, the projection <fr:tex display="inline"><![CDATA[\pi _Y : X \times  Y \to  Y]]></fr:tex> is <html:em>closed</html:em>. </html:li></html:ol></html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>16</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <html:p>
+    (1) <fr:tex display="inline"><![CDATA[\Rightarrow ]]></fr:tex> (2): Suppose <fr:tex display="inline"><![CDATA[X]]></fr:tex> is compact. Let <fr:tex display="inline"><![CDATA[C \subseteq  X \times  Y]]></fr:tex> be a closed set. Let <fr:tex display="inline"><![CDATA[y\in  Y]]></fr:tex> be an element outside <fr:tex display="inline"><![CDATA[\pi _Y[C]]]></fr:tex>. This way, <fr:tex display="inline"><![CDATA[X \times  \{y\}]]></fr:tex> is disjoint from <fr:tex display="inline"><![CDATA[C]]></fr:tex>, which implies we have <fr:tex display="inline"><![CDATA[X \times  \{y\} \subseteq  \overline {C}]]></fr:tex> for the open <fr:tex display="inline"><![CDATA[\overline {C}]]></fr:tex>. Since <fr:tex display="inline"><![CDATA[X]]></fr:tex> is quasi-compact, we can indeed find an open neighbourhood <fr:tex display="inline"><![CDATA[U]]></fr:tex> of <fr:tex display="inline"><![CDATA[y]]></fr:tex> that <fr:tex display="inline"><![CDATA[X \times  U \subseteq  \overline {C}]]></fr:tex>. This implies <fr:tex display="inline"><![CDATA[y]]></fr:tex> has an open neighbourhood <fr:tex display="inline"><![CDATA[U]]></fr:tex> disjiont from <fr:tex display="inline"><![CDATA[\pi _Y[C]]]></fr:tex>, hence <fr:tex display="inline"><![CDATA[\pi _Y[C]]]></fr:tex> is closed, and this implies <fr:tex display="inline"><![CDATA[\pi _Y]]></fr:tex> is closed.
+  </html:p>
+  <html:p>
+    (2) <fr:tex display="inline"><![CDATA[\Rightarrow ]]></fr:tex> (3) is trivial. For (3) <fr:tex display="inline"><![CDATA[\Rightarrow ]]></fr:tex> (1): Suppose <fr:tex display="inline"><![CDATA[X]]></fr:tex> is not quasi-compact. Then we can find an infinite cover <fr:tex display="inline"><![CDATA[X = \bigcup _{i\in  I}U_i]]></fr:tex> where any proper subcover will not be the total space <fr:tex display="inline"><![CDATA[X]]></fr:tex>. Consider the power set <fr:tex display="inline"><![CDATA[\wp (I)]]></fr:tex> as a spectral space <fr:tex display="inline"><![CDATA[2^I]]></fr:tex> with <fr:tex display="inline"><![CDATA[2]]></fr:tex> the Sierpinski space. In particular, for any finite subset <fr:tex display="inline"><![CDATA[K]]></fr:tex> of <fr:tex display="inline"><![CDATA[I]]></fr:tex> there is an open subset
+    <fr:tex display="block"><![CDATA[ V_K := \{J\in \wp (I)\mid K \subseteq  J\}. ]]></fr:tex>
+    Consider the following subspace <fr:tex display="inline"><![CDATA[M]]></fr:tex> of <fr:tex display="inline"><![CDATA[\wp (I) \times  X]]></fr:tex>
+    <fr:tex display="block"><![CDATA[ M := \{(J,x)\mid x \in  \bigcap _{j\in  J}\overline {U_j}\} ]]></fr:tex>
+    If <fr:tex display="inline"><![CDATA[(J,x)\not \in  M]]></fr:tex>, then <fr:tex display="inline"><![CDATA[x\in  U_j]]></fr:tex> for some <fr:tex display="inline"><![CDATA[j\in  J]]></fr:tex>. This way, <fr:tex display="inline"><![CDATA[(J,x) \in  V_{\{j\}} \times  U_j \subseteq  \overline {M}]]></fr:tex>, which implies <fr:tex display="inline"><![CDATA[M]]></fr:tex> is closed. Now by assumption, the image <fr:tex display="inline"><![CDATA[\pi [M]]]></fr:tex> in <fr:tex display="inline"><![CDATA[\wp (I)]]></fr:tex> is the subset <fr:tex display="inline"><![CDATA[\wp (I)-\{I\}]]></fr:tex>, which is <html:em>not</html:em> closed, since <fr:tex display="inline"><![CDATA[\{I\}]]></fr:tex> is not open in the product topology.
+  </html:p>
+</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>16</fr:day>
+            </fr:date>
+            <fr:uri>https://charloced.github.io/schm-OSC4/</fr:uri>
+            <fr:display-uri>schm-OSC4</fr:display-uri>
+            <fr:route>/schm-OSC4/</fr:route>
+            <fr:title text="Characterisation of universally closed maps between schemes">Characterisation of universally closed maps between schemes</fr:title>
+            <fr:taxon>Proposition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>
+  The following are equivalent for a map <fr:tex display="inline"><![CDATA[f : X \to  Y]]></fr:tex> between <fr:link href="/schm-86OJ/" title="Scheme" uri="https://charloced.github.io/schm-86OJ/" display-uri="schm-86OJ" type="local">schemes</fr:link>:
+  <html:ol><html:li> It is a <fr:link href="/schm-2LXR/" title="Closed and universally closed maps of schemes" uri="https://charloced.github.io/schm-2LXR/" display-uri="schm-2LXR" type="local">universally closed map between schemes</fr:link>. </html:li>
+    <html:li> It is a <fr:link href="/topl-BC42/" title="Characterisation of universally closed maps between topological spaces" uri="https://charloced.github.io/topl-BC42/" display-uri="topl-BC42" type="local">universally closed map between topological spaces</fr:link>. </html:li>
+    <html:li> It is <fr:link href="/schm-2LXR/" title="Closed and universally closed maps of schemes" uri="https://charloced.github.io/schm-2LXR/" display-uri="schm-2LXR" type="local">closed</fr:link>, and for any <fr:tex display="inline"><![CDATA[y\in  Y]]></fr:tex> the fibre <fr:tex display="inline"><![CDATA[f^{-1}(y)]]></fr:tex> is quasi-compact in <fr:tex display="inline"><![CDATA[X]]></fr:tex>. </html:li>
+    <html:li> It is <fr:link href="/schm-BH0E/" title="Quasi-compact morphisms" uri="https://charloced.github.io/schm-BH0E/" display-uri="schm-BH0E" type="local">quasi-compact</fr:link> and a <fr:link href="/idem-comm-SQ5X/" title="P-maps and q-maps" uri="https://charloced.github.io/idem-comm-SQ5X/" display-uri="idem-comm-SQ5X" type="local">q-map</fr:link>. </html:li></html:ol></html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>16</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <html:p>
+    The equivalence (2) <fr:tex display="inline"><![CDATA[\Leftrightarrow ]]></fr:tex> (3) is from <fr:link href="/topl-BC42/" title="Characterisation of universally closed maps between topological spaces" uri="https://charloced.github.io/topl-BC42/" display-uri="topl-BC42" type="local">Proposition <fr:contextual-number uri="https://charloced.github.io/topl-BC42/" display-uri="topl-BC42" /></fr:link>. (2) <fr:tex display="inline"><![CDATA[\Rightarrow ]]></fr:tex> (1) is evident.
+  </html:p>
+  <html:p>
+    To show (1) <fr:tex display="inline"><![CDATA[\Rightarrow ]]></fr:tex> (3), suppose <fr:tex display="inline"><![CDATA[f]]></fr:tex> is a universally closed map between schemes. For any <fr:tex display="inline"><![CDATA[y\in  Y]]></fr:tex>, since pullback of schemes are topological (cf. <fr:link href="/schm-S9SD/" title="Fibre products of schemes are topological" uri="https://charloced.github.io/schm-S9SD/" display-uri="schm-S9SD" type="local">Theorem <fr:contextual-number uri="https://charloced.github.io/schm-S9SD/" display-uri="schm-S9SD" /></fr:link>), it follows that <fr:tex display="inline"><![CDATA[f^{-1}(y) \to  1]]></fr:tex> must also be a universally closed map of schemes. By <fr:link href="/topl-KVQM/" title="A characterisation of compact topological spaces" uri="https://charloced.github.io/topl-KVQM/" display-uri="topl-KVQM" type="local">Proposition <fr:contextual-number uri="https://charloced.github.io/topl-KVQM/" display-uri="topl-KVQM" /></fr:link>, <fr:tex display="inline"><![CDATA[f^{-1}(y)]]></fr:tex> must be quasi-compact.
+  </html:p>
+  <html:p>
+    For (2) <fr:tex display="inline"><![CDATA[\Rightarrow ]]></fr:tex> (4), by a similar proof of <fr:link href="/topl-KVQM/" title="A characterisation of compact topological spaces" uri="https://charloced.github.io/topl-KVQM/" display-uri="topl-KVQM" type="local">Proposition <fr:contextual-number uri="https://charloced.github.io/topl-KVQM/" display-uri="topl-KVQM" /></fr:link> one can show that <fr:tex display="inline"><![CDATA[f]]></fr:tex> must be quasi-compact. It is a q-map because it is closed.
+  </html:p>
+  <html:p>
+    To show (4) <fr:tex display="inline"><![CDATA[\Rightarrow ]]></fr:tex> (1), it suffices to observe that if <fr:tex display="inline"><![CDATA[f]]></fr:tex> is quasi-compact and a q-map, then by <fr:link href="/schm-9N69/" title="Quasi-compact closed maps between schemes" uri="https://charloced.github.io/schm-9N69/" display-uri="schm-9N69" type="local">Lemma <fr:contextual-number uri="https://charloced.github.io/schm-9N69/" display-uri="schm-9N69" /></fr:link> <fr:tex display="inline"><![CDATA[f]]></fr:tex> must be closed; furthermore, both quasi-compactness (<fr:link href="/schm-5YJS/" title="Quasi-compact morphisms are closed under pullback" uri="https://charloced.github.io/schm-5YJS/" display-uri="schm-5YJS" type="local">Proposition <fr:contextual-number uri="https://charloced.github.io/schm-5YJS/" display-uri="schm-5YJS" /></fr:link>) and q-maps (<fr:link href="/idem-comm-UF37/" title="Closure properties of p-maps and q-maps" uri="https://charloced.github.io/idem-comm-UF37/" display-uri="idem-comm-UF37" type="local">Lemma <fr:contextual-number uri="https://charloced.github.io/idem-comm-UF37/" display-uri="idem-comm-UF37" /></fr:link>) are closed under pullbacks, thus such maps are universally closed.
+  </html:p>
+</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>7</fr:day>
+            </fr:date>
+            <fr:uri>https://charloced.github.io/topl-VV9N/</fr:uri>
+            <fr:display-uri>topl-VV9N</fr:display-uri>
+            <fr:route>/topl-VV9N/</fr:route>
+            <fr:title text="Spectral spaces">Spectral spaces</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  A topological space <fr:tex display="inline"><![CDATA[X]]></fr:tex> is <html:em>locally spectral</html:em>, if
+  <html:ol><html:li>It is <fr:link href="/topl-FII1/" title="Sober spaces" uri="https://charloced.github.io/topl-FII1/" display-uri="topl-FII1" type="local">sober</fr:link>.</html:li>
+    <html:li>It is <fr:link href="/topl-GW93/" title="Quasi-separated spaces" uri="https://charloced.github.io/topl-GW93/" display-uri="topl-GW93" type="local">quasi-separated</fr:link>.</html:li>
+    <html:li>Compact opens form a basis of <fr:tex display="inline"><![CDATA[X]]></fr:tex>.</html:li></html:ol></html:p>
+            <html:p>
+  We say <fr:tex display="inline"><![CDATA[X]]></fr:tex> is <html:em>spectral</html:em> if furthermore <fr:tex display="inline"><![CDATA[X]]></fr:tex> is compact.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

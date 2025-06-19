@@ -119,7 +119,7 @@
                 <fr:title text="Closure properties of p-maps and q-maps">Closure properties of p-maps and q-maps</fr:title>
                 <fr:taxon>Lemma</fr:taxon>
               </fr:frontmatter>
-              <fr:mainmatter><html:p><fr:link href="/idem-comm-SQ5X/" title="P-maps and q-maps" uri="https://charloced.github.io/idem-comm-SQ5X/" display-uri="idem-comm-SQ5X" type="local">P-maps/q-maps</fr:link> are closed under pushouts.
+              <fr:mainmatter><html:p><fr:link href="/idem-comm-SQ5X/" title="P-maps and q-maps" uri="https://charloced.github.io/idem-comm-SQ5X/" display-uri="idem-comm-SQ5X" type="local">P-maps/q-maps</fr:link> are closed under (transfinite) composition, pushouts, and coproducts.
 </html:p>
  
    
@@ -181,6 +181,26 @@
 </fr:mainmatter></fr:tree>
  
 </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>15</fr:day>
+                </fr:date>
+                <fr:uri>https://charloced.github.io/idem-comm-GKDM/</fr:uri>
+                <fr:display-uri>idem-comm-GKDM</fr:display-uri>
+                <fr:route>/idem-comm-GKDM/</fr:route>
+                <fr:title text="Closed maps between spectra are universally closed">Closed maps between spectra are universally closed</fr:title>
+                <fr:taxon>Remark</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+  Combined with <fr:link href="/idem-comm-UF37/" title="Closure properties of p-maps and q-maps" uri="https://charloced.github.io/idem-comm-UF37/" display-uri="idem-comm-UF37" type="local">Lemma <fr:contextual-number uri="https://charloced.github.io/idem-comm-UF37/" display-uri="idem-comm-UF37" /></fr:link>, it follows that closed maps <fr:tex display="inline"><![CDATA[\operatorname {Spec} E \to  \operatorname {Spec} D]]></fr:tex> are closed under certain pullbacks. In fact, they will be <html:em><fr:link href="/schm-2LXR/" title="Closed and universally closed maps of schemes" uri="https://charloced.github.io/schm-2LXR/" display-uri="schm-2LXR" type="local">universally closed</fr:link></html:em>.
+</html:p>
+              </fr:mainmatter>
             </fr:tree>
             <fr:tree show-metadata="false">
               <fr:frontmatter>
@@ -275,6 +295,70 @@
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>6</fr:month>
+              <fr:day>16</fr:day>
+            </fr:date>
+            <fr:uri>https://charloced.github.io/schm-9N69/</fr:uri>
+            <fr:display-uri>schm-9N69</fr:display-uri>
+            <fr:route>/schm-9N69/</fr:route>
+            <fr:title text="Quasi-compact closed maps between schemes">Quasi-compact closed maps between schemes</fr:title>
+            <fr:taxon>Lemma</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>
+  Let <fr:tex display="inline"><![CDATA[f : X \to  Y]]></fr:tex> be a <fr:link href="/schm-BH0E/" title="Quasi-compact morphisms" uri="https://charloced.github.io/schm-BH0E/" display-uri="schm-BH0E" type="local">quasi-compact</fr:link> between schemes. Then <fr:tex display="inline"><![CDATA[f]]></fr:tex> is closed iff <fr:tex display="inline"><![CDATA[f]]></fr:tex> is a <fr:link href="/idem-comm-SQ5X/" title="P-maps and q-maps" uri="https://charloced.github.io/idem-comm-SQ5X/" display-uri="idem-comm-SQ5X" type="local">q-map</fr:link>.
+</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>16</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  Any closed map must be a q-map. Hence it suffices to show the other way arround. Let <fr:tex display="inline"><![CDATA[C]]></fr:tex> be a closed subset of <fr:tex display="inline"><![CDATA[X]]></fr:tex>. Note by <fr:link href="/schm-55VG/" title="Closed immersions are quasi-compact" uri="https://charloced.github.io/schm-55VG/" display-uri="schm-55VG" type="local">Example <fr:contextual-number uri="https://charloced.github.io/schm-55VG/" display-uri="schm-55VG" /></fr:link> the inclusion <fr:tex display="inline"><![CDATA[C \hookrightarrow  X]]></fr:tex> is quasi-compact, and trivially also a q-map, it suffices to show <fr:tex display="inline"><![CDATA[f[X]]]></fr:tex> must be closed. By providing an affine open cover of <fr:tex display="inline"><![CDATA[Y]]></fr:tex>, we may assume <fr:tex display="inline"><![CDATA[Y]]></fr:tex> is affine and <fr:tex display="inline"><![CDATA[X]]></fr:tex> is quasi-compact. This way, the result follows from <fr:link href="/idem-comm-OUFJ/" title="Closed image of a map" uri="https://charloced.github.io/idem-comm-OUFJ/" display-uri="idem-comm-OUFJ" type="local">Proposition <fr:contextual-number uri="https://charloced.github.io/idem-comm-OUFJ/" display-uri="idem-comm-OUFJ" /></fr:link>.
+</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>16</fr:day>
+            </fr:date>
+            <fr:uri>https://charloced.github.io/schm-OSC4/</fr:uri>
+            <fr:display-uri>schm-OSC4</fr:display-uri>
+            <fr:route>/schm-OSC4/</fr:route>
+            <fr:title text="Characterisation of universally closed maps between schemes">Characterisation of universally closed maps between schemes</fr:title>
+            <fr:taxon>Proposition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>
+  The following are equivalent for a map <fr:tex display="inline"><![CDATA[f : X \to  Y]]></fr:tex> between <fr:link href="/schm-86OJ/" title="Scheme" uri="https://charloced.github.io/schm-86OJ/" display-uri="schm-86OJ" type="local">schemes</fr:link>:
+  <html:ol><html:li> It is a <fr:link href="/schm-2LXR/" title="Closed and universally closed maps of schemes" uri="https://charloced.github.io/schm-2LXR/" display-uri="schm-2LXR" type="local">universally closed map between schemes</fr:link>. </html:li>
+    <html:li> It is a <fr:link href="/topl-BC42/" title="Characterisation of universally closed maps between topological spaces" uri="https://charloced.github.io/topl-BC42/" display-uri="topl-BC42" type="local">universally closed map between topological spaces</fr:link>. </html:li>
+    <html:li> It is <fr:link href="/schm-2LXR/" title="Closed and universally closed maps of schemes" uri="https://charloced.github.io/schm-2LXR/" display-uri="schm-2LXR" type="local">closed</fr:link>, and for any <fr:tex display="inline"><![CDATA[y\in  Y]]></fr:tex> the fibre <fr:tex display="inline"><![CDATA[f^{-1}(y)]]></fr:tex> is quasi-compact in <fr:tex display="inline"><![CDATA[X]]></fr:tex>. </html:li>
+    <html:li> It is <fr:link href="/schm-BH0E/" title="Quasi-compact morphisms" uri="https://charloced.github.io/schm-BH0E/" display-uri="schm-BH0E" type="local">quasi-compact</fr:link> and a <fr:link href="/idem-comm-SQ5X/" title="P-maps and q-maps" uri="https://charloced.github.io/idem-comm-SQ5X/" display-uri="idem-comm-SQ5X" type="local">q-map</fr:link>. </html:li></html:ol></html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>16</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <html:p>
+    The equivalence (2) <fr:tex display="inline"><![CDATA[\Leftrightarrow ]]></fr:tex> (3) is from <fr:link href="/topl-BC42/" title="Characterisation of universally closed maps between topological spaces" uri="https://charloced.github.io/topl-BC42/" display-uri="topl-BC42" type="local">Proposition <fr:contextual-number uri="https://charloced.github.io/topl-BC42/" display-uri="topl-BC42" /></fr:link>. (2) <fr:tex display="inline"><![CDATA[\Rightarrow ]]></fr:tex> (1) is evident.
+  </html:p>
+  <html:p>
+    To show (1) <fr:tex display="inline"><![CDATA[\Rightarrow ]]></fr:tex> (3), suppose <fr:tex display="inline"><![CDATA[f]]></fr:tex> is a universally closed map between schemes. For any <fr:tex display="inline"><![CDATA[y\in  Y]]></fr:tex>, since pullback of schemes are topological (cf. <fr:link href="/schm-S9SD/" title="Fibre products of schemes are topological" uri="https://charloced.github.io/schm-S9SD/" display-uri="schm-S9SD" type="local">Theorem <fr:contextual-number uri="https://charloced.github.io/schm-S9SD/" display-uri="schm-S9SD" /></fr:link>), it follows that <fr:tex display="inline"><![CDATA[f^{-1}(y) \to  1]]></fr:tex> must also be a universally closed map of schemes. By <fr:link href="/topl-KVQM/" title="A characterisation of compact topological spaces" uri="https://charloced.github.io/topl-KVQM/" display-uri="topl-KVQM" type="local">Proposition <fr:contextual-number uri="https://charloced.github.io/topl-KVQM/" display-uri="topl-KVQM" /></fr:link>, <fr:tex display="inline"><![CDATA[f^{-1}(y)]]></fr:tex> must be quasi-compact.
+  </html:p>
+  <html:p>
+    For (2) <fr:tex display="inline"><![CDATA[\Rightarrow ]]></fr:tex> (4), by a similar proof of <fr:link href="/topl-KVQM/" title="A characterisation of compact topological spaces" uri="https://charloced.github.io/topl-KVQM/" display-uri="topl-KVQM" type="local">Proposition <fr:contextual-number uri="https://charloced.github.io/topl-KVQM/" display-uri="topl-KVQM" /></fr:link> one can show that <fr:tex display="inline"><![CDATA[f]]></fr:tex> must be quasi-compact. It is a q-map because it is closed.
+  </html:p>
+  <html:p>
+    To show (4) <fr:tex display="inline"><![CDATA[\Rightarrow ]]></fr:tex> (1), it suffices to observe that if <fr:tex display="inline"><![CDATA[f]]></fr:tex> is quasi-compact and a q-map, then by <fr:link href="/schm-9N69/" title="Quasi-compact closed maps between schemes" uri="https://charloced.github.io/schm-9N69/" display-uri="schm-9N69" type="local">Lemma <fr:contextual-number uri="https://charloced.github.io/schm-9N69/" display-uri="schm-9N69" /></fr:link> <fr:tex display="inline"><![CDATA[f]]></fr:tex> must be closed; furthermore, both quasi-compactness (<fr:link href="/schm-5YJS/" title="Quasi-compact morphisms are closed under pullback" uri="https://charloced.github.io/schm-5YJS/" display-uri="schm-5YJS" type="local">Proposition <fr:contextual-number uri="https://charloced.github.io/schm-5YJS/" display-uri="schm-5YJS" /></fr:link>) and q-maps (<fr:link href="/idem-comm-UF37/" title="Closure properties of p-maps and q-maps" uri="https://charloced.github.io/idem-comm-UF37/" display-uri="idem-comm-UF37" type="local">Lemma <fr:contextual-number uri="https://charloced.github.io/idem-comm-UF37/" display-uri="idem-comm-UF37" /></fr:link>) are closed under pullbacks, thus such maps are universally closed.
+  </html:p>
+</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
               <fr:day>13</fr:day>
             </fr:date>
             <fr:uri>https://charloced.github.io/idem-comm-8GDH/</fr:uri>
@@ -322,7 +406,7 @@
             <fr:title text="Closure properties of p-maps and q-maps">Closure properties of p-maps and q-maps</fr:title>
             <fr:taxon>Lemma</fr:taxon>
           </fr:frontmatter>
-          <fr:mainmatter><html:p><fr:link href="/idem-comm-SQ5X/" title="P-maps and q-maps" uri="https://charloced.github.io/idem-comm-SQ5X/" display-uri="idem-comm-SQ5X" type="local">P-maps/q-maps</fr:link> are closed under pushouts.
+          <fr:mainmatter><html:p><fr:link href="/idem-comm-SQ5X/" title="P-maps and q-maps" uri="https://charloced.github.io/idem-comm-SQ5X/" display-uri="idem-comm-SQ5X" type="local">P-maps/q-maps</fr:link> are closed under (transfinite) composition, pushouts, and coproducts.
 </html:p>
  
    

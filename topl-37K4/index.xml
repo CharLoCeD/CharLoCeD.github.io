@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/">
+  <fr:frontmatter>
+    <fr:authors />
+    <fr:date>
+      <fr:year>2025</fr:year>
+      <fr:month>6</fr:month>
+      <fr:day>16</fr:day>
+    </fr:date>
+    <fr:uri>https://charloced.github.io/topl-37K4/</fr:uri>
+    <fr:display-uri>topl-37K4</fr:display-uri>
+    <fr:route>/topl-37K4/</fr:route>
+    <fr:title text="Universally closed map between topological spaces">Universally closed map between topological spaces</fr:title>
+    <fr:taxon>Definition</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <html:p>
+  A continuous map <fr:tex display="inline"><![CDATA[f : X \to  Y]]></fr:tex> between topological spaces is said to be <html:em>universally closed</html:em>, if the pullback of <fr:tex display="inline"><![CDATA[f]]></fr:tex> along any continous map is closed.
+</html:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>16</fr:day>
+            </fr:date>
+            <fr:uri>https://charloced.github.io/topl-BC42/</fr:uri>
+            <fr:display-uri>topl-BC42</fr:display-uri>
+            <fr:route>/topl-BC42/</fr:route>
+            <fr:title text="Characterisation of universally closed maps between topological spaces">Characterisation of universally closed maps between topological spaces</fr:title>
+            <fr:taxon>Proposition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>
+  For a continuous map <fr:tex display="inline"><![CDATA[f : X \to  Y]]></fr:tex> between topological spaces the following are equivalent:
+  <html:ol><html:li><fr:tex display="inline"><![CDATA[f]]></fr:tex> is a <fr:link href="/topl-37K4/" title="Universally closed map between topological spaces" uri="https://charloced.github.io/topl-37K4/" display-uri="topl-37K4" type="local">universally closed map between topological spaces</fr:link>. </html:li>
+    <html:li><fr:tex display="inline"><![CDATA[f]]></fr:tex> is closed, and for any <fr:tex display="inline"><![CDATA[y\in  Y]]></fr:tex> the inverse image <fr:tex display="inline"><![CDATA[f^{-1}(y)]]></fr:tex> is compact in <fr:tex display="inline"><![CDATA[X]]></fr:tex>. </html:li></html:ol></html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>16</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  See <fr:link href="https://stacks.math.columbia.edu/tag/005R" type="external">here</fr:link> for example.
+</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

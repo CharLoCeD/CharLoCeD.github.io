@@ -17,11 +17,20 @@
   <fr:mainmatter><html:p>
   For any map <fr:tex display="inline"><![CDATA[f : D \to  E]]></fr:tex> between distributive lattices:
   <html:ol><html:li><fr:tex display="inline"><![CDATA[f]]></fr:tex> is injective iff <fr:tex display="inline"><![CDATA[\operatorname {Spec} E \twoheadrightarrow  \operatorname {Spec} D]]></fr:tex> is surjective.</html:li>
-    <html:li><fr:tex display="inline"><![CDATA[f]]></fr:tex> is surjective iff <fr:tex display="inline"><![CDATA[\operatorname {Spec} E \subseteq  \operatorname {Spec} D]]></fr:tex> is a full subposet.</html:li></html:ol></html:p>
+    <html:li><fr:tex display="inline"><![CDATA[f]]></fr:tex> is surjective iff <fr:tex display="inline"><![CDATA[\operatorname {Spec} E \subseteq  \operatorname {Spec} D]]></fr:tex> is a full subposet.</html:li>
+    <html:li><fr:tex display="inline"><![CDATA[f]]></fr:tex> is an epimorphism iff <fr:tex display="inline"><![CDATA[\operatorname {Spec} E \to  \operatorname {Spec} D]]></fr:tex> is injective. (There is also an <fr:link href="/idem-comm-VEWK/" title="Epimorphisms between distributive lattices" uri="https://charloced.github.io/idem-comm-VEWK/" display-uri="idem-comm-VEWK" type="local">algebraic description</fr:link> of epimorphisms between distributive lattices.) </html:li></html:ol></html:p>
  
    
    <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>7</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
-  The first statement is an easy consequence of completeness. For the second statement, since <fr:tex display="inline"><![CDATA[\operatorname {Spec}]]></fr:tex> takes regular epis in <html:strong>DL</html:strong> to regular monos in <html:strong>Pos</html:strong>, thus the only if direction holds. For the if direction, take a map <fr:tex display="inline"><![CDATA[f : D \to  E]]></fr:tex>, we can factor it as a surjection <fr:tex display="inline"><![CDATA[q : D \twoheadrightarrow  E']]></fr:tex> followed by an injection <fr:tex display="inline"><![CDATA[i : E' \rightarrowtail  E]]></fr:tex>. This induces a factorisation on posets <fr:tex display="inline"><![CDATA[q : \operatorname {Spec} E' \to  \operatorname {Spec} D]]></fr:tex>, a regular mono, and <fr:tex display="inline"><![CDATA[i : \operatorname {Spec} E \to  \operatorname {Spec} E']]></fr:tex>, which is surjective by (1). Hence, if the composite <fr:tex display="inline"><![CDATA[iq]]></fr:tex> is a regular mono, so is <fr:tex display="inline"><![CDATA[i]]></fr:tex>, which implies <fr:tex display="inline"><![CDATA[i]]></fr:tex> is an isomorphism. This way, <fr:tex display="inline"><![CDATA[f]]></fr:tex> must be a quotient.
+  <html:p>
+    (1) is an easy consequence of completeness.
+  </html:p>
+  <html:p>
+    For (2), since <fr:tex display="inline"><![CDATA[\operatorname {Spec}]]></fr:tex> takes regular epis in <html:strong>DL</html:strong> to regular monos in <html:strong>Pos</html:strong>, thus the only if direction holds. For the if direction, take a map <fr:tex display="inline"><![CDATA[f : D \to  E]]></fr:tex>, we can factor it as a surjection <fr:tex display="inline"><![CDATA[q : D \twoheadrightarrow  E']]></fr:tex> followed by an injection <fr:tex display="inline"><![CDATA[i : E' \rightarrowtail  E]]></fr:tex>. This induces a factorisation on posets <fr:tex display="inline"><![CDATA[q : \operatorname {Spec} E' \to  \operatorname {Spec} D]]></fr:tex>, a regular mono, and <fr:tex display="inline"><![CDATA[i : \operatorname {Spec} E \to  \operatorname {Spec} E']]></fr:tex>, which is surjective by (1). Hence, if the composite <fr:tex display="inline"><![CDATA[iq]]></fr:tex> is a regular mono, so is <fr:tex display="inline"><![CDATA[i]]></fr:tex>, which implies <fr:tex display="inline"><![CDATA[i]]></fr:tex> is an isomorphism. This way, <fr:tex display="inline"><![CDATA[f]]></fr:tex> must be a quotient.
+  </html:p>
+  <html:p>
+    For (3), this follows from monomorphisms of spectral spaces are exact injective ones.
+  </html:p>
 </fr:mainmatter></fr:tree>
  
 </fr:mainmatter>
@@ -116,11 +125,20 @@
               <fr:mainmatter><html:p>
   For any map <fr:tex display="inline"><![CDATA[f : D \to  E]]></fr:tex> between distributive lattices:
   <html:ol><html:li><fr:tex display="inline"><![CDATA[f]]></fr:tex> is injective iff <fr:tex display="inline"><![CDATA[\operatorname {Spec} E \twoheadrightarrow  \operatorname {Spec} D]]></fr:tex> is surjective.</html:li>
-    <html:li><fr:tex display="inline"><![CDATA[f]]></fr:tex> is surjective iff <fr:tex display="inline"><![CDATA[\operatorname {Spec} E \subseteq  \operatorname {Spec} D]]></fr:tex> is a full subposet.</html:li></html:ol></html:p>
+    <html:li><fr:tex display="inline"><![CDATA[f]]></fr:tex> is surjective iff <fr:tex display="inline"><![CDATA[\operatorname {Spec} E \subseteq  \operatorname {Spec} D]]></fr:tex> is a full subposet.</html:li>
+    <html:li><fr:tex display="inline"><![CDATA[f]]></fr:tex> is an epimorphism iff <fr:tex display="inline"><![CDATA[\operatorname {Spec} E \to  \operatorname {Spec} D]]></fr:tex> is injective. (There is also an <fr:link href="/idem-comm-VEWK/" title="Epimorphisms between distributive lattices" uri="https://charloced.github.io/idem-comm-VEWK/" display-uri="idem-comm-VEWK" type="local">algebraic description</fr:link> of epimorphisms between distributive lattices.) </html:li></html:ol></html:p>
  
    
    <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>7</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
-  The first statement is an easy consequence of completeness. For the second statement, since <fr:tex display="inline"><![CDATA[\operatorname {Spec}]]></fr:tex> takes regular epis in <html:strong>DL</html:strong> to regular monos in <html:strong>Pos</html:strong>, thus the only if direction holds. For the if direction, take a map <fr:tex display="inline"><![CDATA[f : D \to  E]]></fr:tex>, we can factor it as a surjection <fr:tex display="inline"><![CDATA[q : D \twoheadrightarrow  E']]></fr:tex> followed by an injection <fr:tex display="inline"><![CDATA[i : E' \rightarrowtail  E]]></fr:tex>. This induces a factorisation on posets <fr:tex display="inline"><![CDATA[q : \operatorname {Spec} E' \to  \operatorname {Spec} D]]></fr:tex>, a regular mono, and <fr:tex display="inline"><![CDATA[i : \operatorname {Spec} E \to  \operatorname {Spec} E']]></fr:tex>, which is surjective by (1). Hence, if the composite <fr:tex display="inline"><![CDATA[iq]]></fr:tex> is a regular mono, so is <fr:tex display="inline"><![CDATA[i]]></fr:tex>, which implies <fr:tex display="inline"><![CDATA[i]]></fr:tex> is an isomorphism. This way, <fr:tex display="inline"><![CDATA[f]]></fr:tex> must be a quotient.
+  <html:p>
+    (1) is an easy consequence of completeness.
+  </html:p>
+  <html:p>
+    For (2), since <fr:tex display="inline"><![CDATA[\operatorname {Spec}]]></fr:tex> takes regular epis in <html:strong>DL</html:strong> to regular monos in <html:strong>Pos</html:strong>, thus the only if direction holds. For the if direction, take a map <fr:tex display="inline"><![CDATA[f : D \to  E]]></fr:tex>, we can factor it as a surjection <fr:tex display="inline"><![CDATA[q : D \twoheadrightarrow  E']]></fr:tex> followed by an injection <fr:tex display="inline"><![CDATA[i : E' \rightarrowtail  E]]></fr:tex>. This induces a factorisation on posets <fr:tex display="inline"><![CDATA[q : \operatorname {Spec} E' \to  \operatorname {Spec} D]]></fr:tex>, a regular mono, and <fr:tex display="inline"><![CDATA[i : \operatorname {Spec} E \to  \operatorname {Spec} E']]></fr:tex>, which is surjective by (1). Hence, if the composite <fr:tex display="inline"><![CDATA[iq]]></fr:tex> is a regular mono, so is <fr:tex display="inline"><![CDATA[i]]></fr:tex>, which implies <fr:tex display="inline"><![CDATA[i]]></fr:tex> is an isomorphism. This way, <fr:tex display="inline"><![CDATA[f]]></fr:tex> must be a quotient.
+  </html:p>
+  <html:p>
+    For (3), this follows from monomorphisms of spectral spaces are exact injective ones.
+  </html:p>
 </fr:mainmatter></fr:tree>
  
 </fr:mainmatter>
@@ -492,6 +510,47 @@
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>6</fr:month>
+              <fr:day>17</fr:day>
+            </fr:date>
+            <fr:uri>https://charloced.github.io/schm-FHDX/</fr:uri>
+            <fr:display-uri>schm-FHDX</fr:display-uri>
+            <fr:route>/schm-FHDX/</fr:route>
+            <fr:title text="Separated morphisms between affine schemes">Separated morphisms between affine schemes</fr:title>
+            <fr:taxon>Proposition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>
+  Let <fr:tex display="inline"><![CDATA[f : \operatorname {Spec} E \to  \operatorname {Spec} D]]></fr:tex> be a morphism between <fr:link href="/schm-IFX1/" title="Affine scheme" uri="https://charloced.github.io/schm-IFX1/" display-uri="schm-IFX1" type="local">affine schemes</fr:link>. The following conditions are equivalent:
+  <html:ol><html:li><fr:tex display="inline"><![CDATA[f]]></fr:tex> is <fr:link href="/schm-0B23/" title="Quasi-separated and separated morphisms" uri="https://charloced.github.io/schm-0B23/" display-uri="schm-0B23" type="local">separated</fr:link>. </html:li>
+    <html:li> For any <fr:tex display="inline"><![CDATA[x\in \operatorname {Spec} E]]></fr:tex>, the restriction on <fr:tex display="inline"><![CDATA[f :\, \downarrow  x \to  \downarrow  fx]]></fr:tex> is injective. </html:li>
+    <html:li> The corresponding algebraic map <fr:tex display="inline"><![CDATA[D \to  E]]></fr:tex> makes <fr:tex display="inline"><![CDATA[E]]></fr:tex> a <fr:link href="/idem-comm-7K36/" title="Relative Boolean algebra" uri="https://charloced.github.io/idem-comm-7K36/" display-uri="idem-comm-7K36" type="local"><fr:tex display="inline"><![CDATA[D]]></fr:tex>-Boolean algebra</fr:link>. </html:li></html:ol></html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>17</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <html:p>
+    For (1) <fr:tex display="inline"><![CDATA[\Leftrightarrow ]]></fr:tex> (2), recall that <fr:tex display="inline"><![CDATA[f]]></fr:tex> is separated iff the diagonal <fr:tex display="inline"><![CDATA[\operatorname {Spec} E \to  \operatorname {Spec} E \times _{\operatorname {Spec} D} \operatorname {Spec} E]]></fr:tex> is closed. By <fr:link href="/idem-comm-ODLS/" title="Q-maps as closed maps" uri="https://charloced.github.io/idem-comm-ODLS/" display-uri="idem-comm-ODLS" type="local">Theorem <fr:contextual-number uri="https://charloced.github.io/idem-comm-ODLS/" display-uri="idem-comm-ODLS" /></fr:link>, this is closed iff it is a q-map. This means for any <fr:tex display="inline"><![CDATA[y\in \operatorname {Spec} E]]></fr:tex>, if both <fr:tex display="inline"><![CDATA[y_0,y_1 \le  y]]></fr:tex> with <fr:tex display="inline"><![CDATA[fy_0 = fy_1]]></fr:tex>, then <fr:tex display="inline"><![CDATA[y_0 = y_1]]></fr:tex>. This exactly says the map <fr:tex display="inline"><![CDATA[\downarrow  x \to  \downarrow  fx]]></fr:tex> is injective.
+  </html:p>
+  <html:p>
+    For (2) <fr:tex display="inline"><![CDATA[\Leftrightarrow ]]></fr:tex> (3), we know the map <fr:tex display="inline"><![CDATA[\downarrow  x \to  \downarrow  fx]]></fr:tex> dually corresponds to the map <fr:tex display="inline"><![CDATA[f^{-1}(I)/D \to  I/E]]></fr:tex>, where <fr:tex display="inline"><![CDATA[I]]></fr:tex> is the complement prime ideal of <fr:tex display="inline"><![CDATA[x]]></fr:tex>, induced as follows (cf. <fr:link href="/schm-MWRT/" title="Affine scheme at a stalk" uri="https://charloced.github.io/schm-MWRT/" display-uri="schm-MWRT" type="local">Lemma <fr:contextual-number uri="https://charloced.github.io/schm-MWRT/" display-uri="schm-MWRT" /></fr:link>),
+    
+  <html:figure><fr:resource hash="6b8a8181ea3c6a3de579e6175a59e614"><fr:resource-content><html:img src="/6b8a8181ea3c6a3de579e6175a59e614.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[\usepackage {tikz-cd}\usepackage {quiver}]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+      \begin {tikzcd}
+        D \ar [d, two heads] \ar [r] & E \ar [d, two heads] \\ 
+        f^{-1}(I)/D \ar [r] & I/E
+      \end {tikzcd}
+    ]]></fr:resource-source></fr:resource></html:figure>
+
+    Now by <fr:link href="/idem-comm-59IF/" title="Set-level duality between spectra and algebra" uri="https://charloced.github.io/idem-comm-59IF/" display-uri="idem-comm-59IF" type="local">Proposition <fr:contextual-number uri="https://charloced.github.io/idem-comm-59IF/" display-uri="idem-comm-59IF" /></fr:link>, <fr:tex display="inline"><![CDATA[\downarrow  x \to  \downarrow  fx]]></fr:tex> is injective iff the corresponding algebraic map is an epimorphism, which is exactly the definition of <fr:link href="/idem-comm-7K36/" title="Relative Boolean algebra" uri="https://charloced.github.io/idem-comm-7K36/" display-uri="idem-comm-7K36" type="local">relative Boolean algebra</fr:link>.
+  </html:p>
+</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
               <fr:day>8</fr:day>
             </fr:date>
             <fr:uri>https://charloced.github.io/idem-comm-SZN6/</fr:uri>
@@ -569,7 +628,33 @@
         <fr:authors />
         <fr:title text="Related">Related</fr:title>
       </fr:frontmatter>
-      <fr:mainmatter />
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>17</fr:day>
+            </fr:date>
+            <fr:uri>https://charloced.github.io/idem-comm-VEWK/</fr:uri>
+            <fr:display-uri>idem-comm-VEWK</fr:display-uri>
+            <fr:route>/idem-comm-VEWK/</fr:route>
+            <fr:title text="Epimorphisms between distributive lattices">Epimorphisms between distributive lattices</fr:title>
+            <fr:taxon>Proposition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>
+  A map <fr:tex display="inline"><![CDATA[f : D \to  E]]></fr:tex> is an <html:em>epimorphism</html:em> in the category <html:strong>DL</html:strong> of distributive lattices iff all elements in <fr:tex display="inline"><![CDATA[E]]></fr:tex> are either in <fr:tex display="inline"><![CDATA[f[D]]]></fr:tex>, or are relative pseudo-complements of ones in <fr:tex display="inline"><![CDATA[D]]></fr:tex>.
+</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>17</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  This is Theorem 30 in <fr:link href="/ref-3RL5/" title="Maximal (sequentially) compact topologies" uri="https://charloced.github.io/ref-3RL5/" display-uri="ref-3RL5" type="local">Reference <fr:contextual-number uri="https://charloced.github.io/ref-3RL5/" display-uri="ref-3RL5" /></fr:link>.
+</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
     </fr:tree>
     <fr:tree show-metadata="false" hidden-when-empty="true">
       <fr:frontmatter>

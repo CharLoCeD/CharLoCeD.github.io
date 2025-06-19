@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/">
+  <fr:frontmatter>
+    <fr:authors />
+    <fr:date>
+      <fr:year>2025</fr:year>
+      <fr:month>6</fr:month>
+      <fr:day>18</fr:day>
+    </fr:date>
+    <fr:uri>https://charloced.github.io/idem-comm-NIFX/</fr:uri>
+    <fr:display-uri>idem-comm-NIFX</fr:display-uri>
+    <fr:route>/idem-comm-NIFX/</fr:route>
+    <fr:title text="Relative Booleanisation is Boolean iff it has Stone fibres">Relative Booleanisation is Boolean iff it has Stone fibres</fr:title>
+    <fr:taxon>Proposition</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter><html:p>
+  Let <fr:tex display="inline"><![CDATA[D \to  E]]></fr:tex> be a <fr:tex display="inline"><![CDATA[D]]></fr:tex>-algebra. Let <fr:tex display="inline"><![CDATA[\lambda _DE]]></fr:tex> be the pushout of this map along the Booleanisation <fr:tex display="inline"><![CDATA[D \to  \lambda  D]]></fr:tex>. Then <fr:tex display="inline"><![CDATA[\lambda _DE]]></fr:tex> is Boolean iff for the corresponding map on spectra <fr:tex display="inline"><![CDATA[f : \operatorname {Spec} E \to  \operatorname {Spec} D]]></fr:tex>, for any <fr:tex display="inline"><![CDATA[x\in  \operatorname {Spec} D]]></fr:tex> the fibre <fr:tex display="inline"><![CDATA[f^{-1}(x)]]></fr:tex> is a Stone space.
+</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>18</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  Notice that we have the following pullback,
+  
+  <html:figure><fr:resource hash="6bbf865e00f2580d12792cffba763f2a"><fr:resource-content><html:img src="/6bbf865e00f2580d12792cffba763f2a.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[\usepackage {tikz-cd}\usepackage {quiver}]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+  \begin {tikzcd}
+    {\mathrm {Spec}\,\lambda _DE} & {\mathrm {Spec}\,\lambda  D} \\
+    {\mathrm {Spec}\,E} & {\mathrm {Spec}\,D}
+    \arrow [from=1-1, to=1-2]
+    \arrow [from=1-1, to=2-1]
+    \arrow ["\lrcorner "{anchor=center, pos=0.125}, draw=none, from=1-1, to=2-2]
+    \arrow [from=1-2, to=2-2]
+    \arrow ["f"', from=2-1, to=2-2]
+  \end {tikzcd}
+  ]]></fr:resource-source></fr:resource></html:figure>
+
+  By <fr:link href="/idem-comm-E7E2/" title="Boolean algebras only have maximal ideals" uri="https://charloced.github.io/idem-comm-E7E2/" display-uri="idem-comm-E7E2" type="local">Remark <fr:contextual-number uri="https://charloced.github.io/idem-comm-E7E2/" display-uri="idem-comm-E7E2" /></fr:link>, <fr:tex display="inline"><![CDATA[\lambda _DE]]></fr:tex> is Boolean iff <fr:tex display="inline"><![CDATA[\operatorname {Spec}\lambda _DE]]></fr:tex> is discrete. Since <fr:tex display="inline"><![CDATA[\operatorname {Spec}\lambda  D \to  \operatorname {Spec} D]]></fr:tex> is bijective on points, so is <fr:tex display="inline"><![CDATA[\operatorname {Spec}\lambda _DE \to  \operatorname {Spec} E]]></fr:tex>. Now for <fr:tex display="inline"><![CDATA[x\le  y\in \operatorname {Spec} E]]></fr:tex>, we have <fr:tex display="inline"><![CDATA[x \le  y]]></fr:tex> in <fr:tex display="inline"><![CDATA[\operatorname {Spec}\lambda _DE]]></fr:tex> iff <fr:tex display="inline"><![CDATA[fx = fy]]></fr:tex> since <fr:tex display="inline"><![CDATA[\operatorname {Spec}\lambda  D]]></fr:tex> is discrete. It follows that <fr:tex display="inline"><![CDATA[\operatorname {Spec}\lambda _DE]]></fr:tex> is discrete iff the fibres of <fr:tex display="inline"><![CDATA[f]]></fr:tex> are discrete, which makes them Stone spaces since they are spectral.
+</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/lingyuan/" title="Lingyuan Ye" uri="https://charloced.github.io/lingyuan/" display-uri="lingyuan" type="local">Lingyuan Ye</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>17</fr:day>
+            </fr:date>
+            <fr:uri>https://charloced.github.io/idem-comm-C86K/</fr:uri>
+            <fr:display-uri>idem-comm-C86K</fr:display-uri>
+            <fr:route>/idem-comm-C86K/</fr:route>
+            <fr:title text="Relative Boolean and Heyting conditions">Relative Boolean and Heyting conditions</fr:title>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>17</fr:day>
+                </fr:date>
+                <fr:uri>https://charloced.github.io/idem-comm-7K36/</fr:uri>
+                <fr:display-uri>idem-comm-7K36</fr:display-uri>
+                <fr:route>/idem-comm-7K36/</fr:route>
+                <fr:title text="Relative Boolean algebra">Relative Boolean algebra</fr:title>
+                <fr:taxon>Definition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+  Let <fr:tex display="inline"><![CDATA[E]]></fr:tex> be a <fr:tex display="inline"><![CDATA[D]]></fr:tex>-algebra. We say <fr:tex display="inline"><![CDATA[E]]></fr:tex> is a <html:em><fr:tex display="inline"><![CDATA[D]]></fr:tex>-Boolean algebra</html:em>, if for all prime ideals <fr:tex display="inline"><![CDATA[I]]></fr:tex> of <fr:tex display="inline"><![CDATA[E]]></fr:tex>, in the following <fr:link href="/idem-comm-V39C/" title="Orthogonal factorisation: (pro-open, t-conservative)" uri="https://charloced.github.io/idem-comm-V39C/" display-uri="idem-comm-V39C" type="local">factorisation</fr:link>
+  
+  <html:figure><fr:resource hash="40b524655ed757eeb57eba684f4d642c"><fr:resource-content><html:img src="/40b524655ed757eeb57eba684f4d642c.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[\usepackage {tikz-cd}\usepackage {quiver}]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+    \begin {tikzcd}
+      D \ar [d, two heads] \ar [r] & E \ar [d, two heads] \\ 
+      f^{-1}(I)/D \ar [r] & I/E
+    \end {tikzcd}
+  ]]></fr:resource-source></fr:resource></html:figure>
+
+  the factor <fr:tex display="inline"><![CDATA[f^{-1}(I)/D \to  I/E]]></fr:tex> is an <html:em><fr:link href="/idem-comm-VEWK/" title="Epimorphisms between distributive lattices" uri="https://charloced.github.io/idem-comm-VEWK/" display-uri="idem-comm-VEWK" type="local">epimorphism</fr:link></html:em>.
+</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>18</fr:day>
+                </fr:date>
+                <fr:uri>https://charloced.github.io/idem-comm-E8MW/</fr:uri>
+                <fr:display-uri>idem-comm-E8MW</fr:display-uri>
+                <fr:route>/idem-comm-E8MW/</fr:route>
+                <fr:title text="Relative Boolean algebras are stable under base change">Relative Boolean algebras are stable under base change</fr:title>
+                <fr:taxon>Remark</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+  If <fr:tex display="inline"><![CDATA[D \to  E]]></fr:tex> makes <fr:tex display="inline"><![CDATA[E]]></fr:tex> a <fr:link href="/idem-comm-7K36/" title="Relative Boolean algebra" uri="https://charloced.github.io/idem-comm-7K36/" display-uri="idem-comm-7K36" type="local"><fr:tex display="inline"><![CDATA[D]]></fr:tex>-Boolean algebra</fr:link>, then so is the pushout <fr:tex display="inline"><![CDATA[A \to  A \otimes _D E]]></fr:tex> for any <fr:tex display="inline"><![CDATA[D \to  A]]></fr:tex>. This follows from the characterisation in <fr:link href="/schm-FHDX/" title="Separated morphisms between affine schemes" uri="https://charloced.github.io/schm-FHDX/" display-uri="schm-FHDX" type="local">Proposition <fr:contextual-number uri="https://charloced.github.io/schm-FHDX/" display-uri="schm-FHDX" /></fr:link> and <fr:link href="/schm-S4EV/" title="Quasi-separated and separated maps are affine admissible" uri="https://charloced.github.io/schm-S4EV/" display-uri="schm-S4EV" type="local">Remark <fr:contextual-number uri="https://charloced.github.io/schm-S4EV/" display-uri="schm-S4EV" /></fr:link>.
+</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>18</fr:day>
+                </fr:date>
+                <fr:uri>https://charloced.github.io/idem-comm-22W2/</fr:uri>
+                <fr:display-uri>idem-comm-22W2</fr:display-uri>
+                <fr:route>/idem-comm-22W2/</fr:route>
+                <fr:title text="Relative Boolean algebras over a Boolean base are simply Boolean algebras">Relative Boolean algebras over a Boolean base are simply Boolean algebras</fr:title>
+                <fr:taxon>Lemma</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+  Suppose we have a <fr:link href="/idem-comm-7K36/" title="Relative Boolean algebra" uri="https://charloced.github.io/idem-comm-7K36/" display-uri="idem-comm-7K36" type="local"><fr:tex display="inline"><![CDATA[B]]></fr:tex>-Boolean algebra</fr:link> <fr:tex display="inline"><![CDATA[B \to  E]]></fr:tex> with <fr:tex display="inline"><![CDATA[B]]></fr:tex> Boolean. Then this is equivalently simply a Boolean algebra morphism <fr:tex display="inline"><![CDATA[B \to  E]]></fr:tex>. This is because by <fr:link href="/idem-comm-E7E2/" title="Boolean algebras only have maximal ideals" uri="https://charloced.github.io/idem-comm-E7E2/" display-uri="idem-comm-E7E2" type="local">Remark <fr:contextual-number uri="https://charloced.github.io/idem-comm-E7E2/" display-uri="idem-comm-E7E2" /></fr:link>, any quotient <fr:tex display="inline"><![CDATA[J/B]]></fr:tex> for a prime ideal <fr:tex display="inline"><![CDATA[J]]></fr:tex> in <fr:tex display="inline"><![CDATA[B]]></fr:tex> is isomorphic to <fr:tex display="inline"><![CDATA[2]]></fr:tex>, and a non-trivial epimorphism from <fr:tex display="inline"><![CDATA[2]]></fr:tex> must be an isomorphism (cf. <fr:link href="/idem-comm-VEWK/" title="Epimorphisms between distributive lattices" uri="https://charloced.github.io/idem-comm-VEWK/" display-uri="idem-comm-VEWK" type="local">Proposition <fr:contextual-number uri="https://charloced.github.io/idem-comm-VEWK/" display-uri="idem-comm-VEWK" /></fr:link>). This implies all prime ideals of <fr:tex display="inline"><![CDATA[E]]></fr:tex> are maximal, hence by <fr:link href="/idem-comm-E7E2/" title="Boolean algebras only have maximal ideals" uri="https://charloced.github.io/idem-comm-E7E2/" display-uri="idem-comm-E7E2" type="local">Remark <fr:contextual-number uri="https://charloced.github.io/idem-comm-E7E2/" display-uri="idem-comm-E7E2" /></fr:link> again <fr:tex display="inline"><![CDATA[E]]></fr:tex> is a Boolean algebra.
+</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>18</fr:day>
+                </fr:date>
+                <fr:uri>https://charloced.github.io/idem-comm-JZIS/</fr:uri>
+                <fr:display-uri>idem-comm-JZIS</fr:display-uri>
+                <fr:route>/idem-comm-JZIS/</fr:route>
+                <fr:title text="Relative Booleanisation of relative Boolean algebra is Boolean">Relative Booleanisation of relative Boolean algebra is Boolean</fr:title>
+                <fr:taxon>Remark</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+  Combining <fr:link href="/idem-comm-E8MW/" title="Relative Boolean algebras are stable under base change" uri="https://charloced.github.io/idem-comm-E8MW/" display-uri="idem-comm-E8MW" type="local">Remark <fr:contextual-number uri="https://charloced.github.io/idem-comm-E8MW/" display-uri="idem-comm-E8MW" /></fr:link> and <fr:link href="/idem-comm-22W2/" title="Relative Boolean algebras over a Boolean base are simply Boolean algebras" uri="https://charloced.github.io/idem-comm-22W2/" display-uri="idem-comm-22W2" type="local">Lemma <fr:contextual-number uri="https://charloced.github.io/idem-comm-22W2/" display-uri="idem-comm-22W2" /></fr:link>, it follows that if we have a <fr:tex display="inline"><![CDATA[D]]></fr:tex>-Boolean algebra <fr:tex display="inline"><![CDATA[D \to  E]]></fr:tex>, then the pushout along the Booleanisation <fr:tex display="inline"><![CDATA[D \to  \lambda  D]]></fr:tex>
+  
+  <html:figure><fr:resource hash="ecf5497f6ca8849911cdf2943bcba5ed"><fr:resource-content><html:img src="/ecf5497f6ca8849911cdf2943bcba5ed.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[\usepackage {tikz-cd}\usepackage {quiver}]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+    \begin {tikzcd}
+      D & E \\
+      {\lambda  D} & {\lambda _DE}
+      \arrow [from=1-1, to=1-2]
+      \arrow [from=1-1, to=2-1]
+      \arrow [from=1-2, to=2-2]
+      \arrow [from=2-1, to=2-2]
+      \arrow ["\lrcorner "{anchor=center, pos=0.125, rotate=180}, draw=none, from=2-2, to=1-1]
+    \end {tikzcd}
+  ]]></fr:resource-source></fr:resource></html:figure>
+
+  makes <fr:tex display="inline"><![CDATA[\lambda _DE]]></fr:tex> a Boolean algebra. This in particular says that for a relative Boolean algebra <fr:tex display="inline"><![CDATA[D \to  E]]></fr:tex>, if we universally add all complements coming from <fr:tex display="inline"><![CDATA[D]]></fr:tex>, then we get a Boolean algebra. Hence, in this sense the only missing Boolean negations are the ones from <fr:tex display="inline"><![CDATA[D]]></fr:tex>. However, this is <html:em>not</html:em> a sufficient condition for being a relative Boolean algebra: see <fr:link href="/idem-comm-NIFX/" title="Relative Booleanisation is Boolean iff it has Stone fibres" uri="https://charloced.github.io/idem-comm-NIFX/" display-uri="idem-comm-NIFX" type="local">Proposition <fr:contextual-number uri="https://charloced.github.io/idem-comm-NIFX/" display-uri="idem-comm-NIFX" /></fr:link> and <fr:link href="/schm-IGER/" title="Separated maps between affine schemes have Stone fibres" uri="https://charloced.github.io/schm-IGER/" display-uri="schm-IGER" type="local">Remark <fr:contextual-number uri="https://charloced.github.io/schm-IGER/" display-uri="schm-IGER" /></fr:link>.
+</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>18</fr:day>
+                </fr:date>
+                <fr:uri>https://charloced.github.io/idem-comm-NIFX/</fr:uri>
+                <fr:display-uri>idem-comm-NIFX</fr:display-uri>
+                <fr:route>/idem-comm-NIFX/</fr:route>
+                <fr:title text="Relative Booleanisation is Boolean iff it has Stone fibres">Relative Booleanisation is Boolean iff it has Stone fibres</fr:title>
+                <fr:taxon>Proposition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter><html:p>
+  Let <fr:tex display="inline"><![CDATA[D \to  E]]></fr:tex> be a <fr:tex display="inline"><![CDATA[D]]></fr:tex>-algebra. Let <fr:tex display="inline"><![CDATA[\lambda _DE]]></fr:tex> be the pushout of this map along the Booleanisation <fr:tex display="inline"><![CDATA[D \to  \lambda  D]]></fr:tex>. Then <fr:tex display="inline"><![CDATA[\lambda _DE]]></fr:tex> is Boolean iff for the corresponding map on spectra <fr:tex display="inline"><![CDATA[f : \operatorname {Spec} E \to  \operatorname {Spec} D]]></fr:tex>, for any <fr:tex display="inline"><![CDATA[x\in  \operatorname {Spec} D]]></fr:tex> the fibre <fr:tex display="inline"><![CDATA[f^{-1}(x)]]></fr:tex> is a Stone space.
+</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>18</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  Notice that we have the following pullback,
+  
+  <html:figure><fr:resource hash="6bbf865e00f2580d12792cffba763f2a"><fr:resource-content><html:img src="/6bbf865e00f2580d12792cffba763f2a.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[\usepackage {tikz-cd}\usepackage {quiver}]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+  \begin {tikzcd}
+    {\mathrm {Spec}\,\lambda _DE} & {\mathrm {Spec}\,\lambda  D} \\
+    {\mathrm {Spec}\,E} & {\mathrm {Spec}\,D}
+    \arrow [from=1-1, to=1-2]
+    \arrow [from=1-1, to=2-1]
+    \arrow ["\lrcorner "{anchor=center, pos=0.125}, draw=none, from=1-1, to=2-2]
+    \arrow [from=1-2, to=2-2]
+    \arrow ["f"', from=2-1, to=2-2]
+  \end {tikzcd}
+  ]]></fr:resource-source></fr:resource></html:figure>
+
+  By <fr:link href="/idem-comm-E7E2/" title="Boolean algebras only have maximal ideals" uri="https://charloced.github.io/idem-comm-E7E2/" display-uri="idem-comm-E7E2" type="local">Remark <fr:contextual-number uri="https://charloced.github.io/idem-comm-E7E2/" display-uri="idem-comm-E7E2" /></fr:link>, <fr:tex display="inline"><![CDATA[\lambda _DE]]></fr:tex> is Boolean iff <fr:tex display="inline"><![CDATA[\operatorname {Spec}\lambda _DE]]></fr:tex> is discrete. Since <fr:tex display="inline"><![CDATA[\operatorname {Spec}\lambda  D \to  \operatorname {Spec} D]]></fr:tex> is bijective on points, so is <fr:tex display="inline"><![CDATA[\operatorname {Spec}\lambda _DE \to  \operatorname {Spec} E]]></fr:tex>. Now for <fr:tex display="inline"><![CDATA[x\le  y\in \operatorname {Spec} E]]></fr:tex>, we have <fr:tex display="inline"><![CDATA[x \le  y]]></fr:tex> in <fr:tex display="inline"><![CDATA[\operatorname {Spec}\lambda _DE]]></fr:tex> iff <fr:tex display="inline"><![CDATA[fx = fy]]></fr:tex> since <fr:tex display="inline"><![CDATA[\operatorname {Spec}\lambda  D]]></fr:tex> is discrete. It follows that <fr:tex display="inline"><![CDATA[\operatorname {Spec}\lambda _DE]]></fr:tex> is discrete iff the fibres of <fr:tex display="inline"><![CDATA[f]]></fr:tex> are discrete, which makes them Stone spaces since they are spectral.
+</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+            </fr:tree>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>18</fr:day>
+            </fr:date>
+            <fr:uri>https://charloced.github.io/idem-comm-JZIS/</fr:uri>
+            <fr:display-uri>idem-comm-JZIS</fr:display-uri>
+            <fr:route>/idem-comm-JZIS/</fr:route>
+            <fr:title text="Relative Booleanisation of relative Boolean algebra is Boolean">Relative Booleanisation of relative Boolean algebra is Boolean</fr:title>
+            <fr:taxon>Remark</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  Combining <fr:link href="/idem-comm-E8MW/" title="Relative Boolean algebras are stable under base change" uri="https://charloced.github.io/idem-comm-E8MW/" display-uri="idem-comm-E8MW" type="local">Remark <fr:contextual-number uri="https://charloced.github.io/idem-comm-E8MW/" display-uri="idem-comm-E8MW" /></fr:link> and <fr:link href="/idem-comm-22W2/" title="Relative Boolean algebras over a Boolean base are simply Boolean algebras" uri="https://charloced.github.io/idem-comm-22W2/" display-uri="idem-comm-22W2" type="local">Lemma <fr:contextual-number uri="https://charloced.github.io/idem-comm-22W2/" display-uri="idem-comm-22W2" /></fr:link>, it follows that if we have a <fr:tex display="inline"><![CDATA[D]]></fr:tex>-Boolean algebra <fr:tex display="inline"><![CDATA[D \to  E]]></fr:tex>, then the pushout along the Booleanisation <fr:tex display="inline"><![CDATA[D \to  \lambda  D]]></fr:tex>
+  
+  <html:figure><fr:resource hash="ecf5497f6ca8849911cdf2943bcba5ed"><fr:resource-content><html:img src="/ecf5497f6ca8849911cdf2943bcba5ed.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[\usepackage {tikz-cd}\usepackage {quiver}]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+    \begin {tikzcd}
+      D & E \\
+      {\lambda  D} & {\lambda _DE}
+      \arrow [from=1-1, to=1-2]
+      \arrow [from=1-1, to=2-1]
+      \arrow [from=1-2, to=2-2]
+      \arrow [from=2-1, to=2-2]
+      \arrow ["\lrcorner "{anchor=center, pos=0.125, rotate=180}, draw=none, from=2-2, to=1-1]
+    \end {tikzcd}
+  ]]></fr:resource-source></fr:resource></html:figure>
+
+  makes <fr:tex display="inline"><![CDATA[\lambda _DE]]></fr:tex> a Boolean algebra. This in particular says that for a relative Boolean algebra <fr:tex display="inline"><![CDATA[D \to  E]]></fr:tex>, if we universally add all complements coming from <fr:tex display="inline"><![CDATA[D]]></fr:tex>, then we get a Boolean algebra. Hence, in this sense the only missing Boolean negations are the ones from <fr:tex display="inline"><![CDATA[D]]></fr:tex>. However, this is <html:em>not</html:em> a sufficient condition for being a relative Boolean algebra: see <fr:link href="/idem-comm-NIFX/" title="Relative Booleanisation is Boolean iff it has Stone fibres" uri="https://charloced.github.io/idem-comm-NIFX/" display-uri="idem-comm-NIFX" type="local">Proposition <fr:contextual-number uri="https://charloced.github.io/idem-comm-NIFX/" display-uri="idem-comm-NIFX" /></fr:link> and <fr:link href="/schm-IGER/" title="Separated maps between affine schemes have Stone fibres" uri="https://charloced.github.io/schm-IGER/" display-uri="schm-IGER" type="local">Remark <fr:contextual-number uri="https://charloced.github.io/schm-IGER/" display-uri="schm-IGER" /></fr:link>.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>7</fr:day>
+            </fr:date>
+            <fr:uri>https://charloced.github.io/idem-comm-E7E2/</fr:uri>
+            <fr:display-uri>idem-comm-E7E2</fr:display-uri>
+            <fr:route>/idem-comm-E7E2/</fr:route>
+            <fr:title text="Boolean algebras only have maximal ideals">Boolean algebras only have maximal ideals</fr:title>
+            <fr:taxon>Remark</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  By <fr:link href="/idem-comm-EV8L/" title="Quotient of prime filters are local" uri="https://charloced.github.io/idem-comm-EV8L/" display-uri="idem-comm-EV8L" type="local">Proposition <fr:contextual-number uri="https://charloced.github.io/idem-comm-EV8L/" display-uri="idem-comm-EV8L" /></fr:link> a distributive lattice <fr:tex display="inline"><![CDATA[D]]></fr:tex> is a <html:em>Boolean algebra</html:em> iff all prime ideals of <fr:tex display="inline"><![CDATA[D]]></fr:tex> are maximal.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

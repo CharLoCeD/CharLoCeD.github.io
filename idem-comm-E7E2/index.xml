@@ -187,7 +187,67 @@
         <fr:authors />
         <fr:title text="Backlinks">Backlinks</fr:title>
       </fr:frontmatter>
-      <fr:mainmatter />
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>18</fr:day>
+            </fr:date>
+            <fr:uri>https://charloced.github.io/idem-comm-NIFX/</fr:uri>
+            <fr:display-uri>idem-comm-NIFX</fr:display-uri>
+            <fr:route>/idem-comm-NIFX/</fr:route>
+            <fr:title text="Relative Booleanisation is Boolean iff it has Stone fibres">Relative Booleanisation is Boolean iff it has Stone fibres</fr:title>
+            <fr:taxon>Proposition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>
+  Let <fr:tex display="inline"><![CDATA[D \to  E]]></fr:tex> be a <fr:tex display="inline"><![CDATA[D]]></fr:tex>-algebra. Let <fr:tex display="inline"><![CDATA[\lambda _DE]]></fr:tex> be the pushout of this map along the Booleanisation <fr:tex display="inline"><![CDATA[D \to  \lambda  D]]></fr:tex>. Then <fr:tex display="inline"><![CDATA[\lambda _DE]]></fr:tex> is Boolean iff for the corresponding map on spectra <fr:tex display="inline"><![CDATA[f : \operatorname {Spec} E \to  \operatorname {Spec} D]]></fr:tex>, for any <fr:tex display="inline"><![CDATA[x\in  \operatorname {Spec} D]]></fr:tex> the fibre <fr:tex display="inline"><![CDATA[f^{-1}(x)]]></fr:tex> is a Stone space.
+</html:p>
+ 
+   
+   <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2025</fr:year><fr:month>6</fr:month><fr:day>18</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  Notice that we have the following pullback,
+  
+  <html:figure><fr:resource hash="6bbf865e00f2580d12792cffba763f2a"><fr:resource-content><html:img src="/6bbf865e00f2580d12792cffba763f2a.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[\usepackage {tikz-cd}\usepackage {quiver}]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+  \begin {tikzcd}
+    {\mathrm {Spec}\,\lambda _DE} & {\mathrm {Spec}\,\lambda  D} \\
+    {\mathrm {Spec}\,E} & {\mathrm {Spec}\,D}
+    \arrow [from=1-1, to=1-2]
+    \arrow [from=1-1, to=2-1]
+    \arrow ["\lrcorner "{anchor=center, pos=0.125}, draw=none, from=1-1, to=2-2]
+    \arrow [from=1-2, to=2-2]
+    \arrow ["f"', from=2-1, to=2-2]
+  \end {tikzcd}
+  ]]></fr:resource-source></fr:resource></html:figure>
+
+  By <fr:link href="/idem-comm-E7E2/" title="Boolean algebras only have maximal ideals" uri="https://charloced.github.io/idem-comm-E7E2/" display-uri="idem-comm-E7E2" type="local">Remark <fr:contextual-number uri="https://charloced.github.io/idem-comm-E7E2/" display-uri="idem-comm-E7E2" /></fr:link>, <fr:tex display="inline"><![CDATA[\lambda _DE]]></fr:tex> is Boolean iff <fr:tex display="inline"><![CDATA[\operatorname {Spec}\lambda _DE]]></fr:tex> is discrete. Since <fr:tex display="inline"><![CDATA[\operatorname {Spec}\lambda  D \to  \operatorname {Spec} D]]></fr:tex> is bijective on points, so is <fr:tex display="inline"><![CDATA[\operatorname {Spec}\lambda _DE \to  \operatorname {Spec} E]]></fr:tex>. Now for <fr:tex display="inline"><![CDATA[x\le  y\in \operatorname {Spec} E]]></fr:tex>, we have <fr:tex display="inline"><![CDATA[x \le  y]]></fr:tex> in <fr:tex display="inline"><![CDATA[\operatorname {Spec}\lambda _DE]]></fr:tex> iff <fr:tex display="inline"><![CDATA[fx = fy]]></fr:tex> since <fr:tex display="inline"><![CDATA[\operatorname {Spec}\lambda  D]]></fr:tex> is discrete. It follows that <fr:tex display="inline"><![CDATA[\operatorname {Spec}\lambda _DE]]></fr:tex> is discrete iff the fibres of <fr:tex display="inline"><![CDATA[f]]></fr:tex> are discrete, which makes them Stone spaces since they are spectral.
+</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>18</fr:day>
+            </fr:date>
+            <fr:uri>https://charloced.github.io/idem-comm-22W2/</fr:uri>
+            <fr:display-uri>idem-comm-22W2</fr:display-uri>
+            <fr:route>/idem-comm-22W2/</fr:route>
+            <fr:title text="Relative Boolean algebras over a Boolean base are simply Boolean algebras">Relative Boolean algebras over a Boolean base are simply Boolean algebras</fr:title>
+            <fr:taxon>Lemma</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  Suppose we have a <fr:link href="/idem-comm-7K36/" title="Relative Boolean algebra" uri="https://charloced.github.io/idem-comm-7K36/" display-uri="idem-comm-7K36" type="local"><fr:tex display="inline"><![CDATA[B]]></fr:tex>-Boolean algebra</fr:link> <fr:tex display="inline"><![CDATA[B \to  E]]></fr:tex> with <fr:tex display="inline"><![CDATA[B]]></fr:tex> Boolean. Then this is equivalently simply a Boolean algebra morphism <fr:tex display="inline"><![CDATA[B \to  E]]></fr:tex>. This is because by <fr:link href="/idem-comm-E7E2/" title="Boolean algebras only have maximal ideals" uri="https://charloced.github.io/idem-comm-E7E2/" display-uri="idem-comm-E7E2" type="local">Remark <fr:contextual-number uri="https://charloced.github.io/idem-comm-E7E2/" display-uri="idem-comm-E7E2" /></fr:link>, any quotient <fr:tex display="inline"><![CDATA[J/B]]></fr:tex> for a prime ideal <fr:tex display="inline"><![CDATA[J]]></fr:tex> in <fr:tex display="inline"><![CDATA[B]]></fr:tex> is isomorphic to <fr:tex display="inline"><![CDATA[2]]></fr:tex>, and a non-trivial epimorphism from <fr:tex display="inline"><![CDATA[2]]></fr:tex> must be an isomorphism (cf. <fr:link href="/idem-comm-VEWK/" title="Epimorphisms between distributive lattices" uri="https://charloced.github.io/idem-comm-VEWK/" display-uri="idem-comm-VEWK" type="local">Proposition <fr:contextual-number uri="https://charloced.github.io/idem-comm-VEWK/" display-uri="idem-comm-VEWK" /></fr:link>). This implies all prime ideals of <fr:tex display="inline"><![CDATA[E]]></fr:tex> are maximal, hence by <fr:link href="/idem-comm-E7E2/" title="Boolean algebras only have maximal ideals" uri="https://charloced.github.io/idem-comm-E7E2/" display-uri="idem-comm-E7E2" type="local">Remark <fr:contextual-number uri="https://charloced.github.io/idem-comm-E7E2/" display-uri="idem-comm-E7E2" /></fr:link> again <fr:tex display="inline"><![CDATA[E]]></fr:tex> is a Boolean algebra.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
     </fr:tree>
     <fr:tree show-metadata="false" hidden-when-empty="true">
       <fr:frontmatter>
