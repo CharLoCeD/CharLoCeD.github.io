@@ -16,10 +16,13 @@
   </fr:frontmatter>
   <fr:mainmatter>
     <html:p>
-  I'm Lingyuan Ye. This is my personal <fr:link href="https://www.forester-notes.org/index/index.xml" type="external">forester space</fr:link>. This is my <fr:link href="/lingyuan/" title="Lingyuan Ye" uri="https://charloced.github.io/lingyuan/" display-uri="lingyuan" type="local">bio</fr:link>.
+  I'm Lingyuan Ye. This is my personal <fr:link href="https://www.forester-notes.org/index/index.xml" type="external">forester space</fr:link>. More detailed information about me can be found in my <fr:link href="/lingyuan/" title="Lingyuan Ye" uri="https://charloced.github.io/lingyuan/" display-uri="lingyuan" type="local">bio</fr:link>.
 </html:p>
     <html:p>
-  I mainly use this to host my <fr:link href="/log-geo-0001/" title="Logical Geometry" uri="https://charloced.github.io/log-geo-0001/" display-uri="log-geo-0001" type="local">logical-geometry note</fr:link>.
+  I mainly use this to host my <fr:link href="/log-geo-0001/" title="Logical Geometry" uri="https://charloced.github.io/log-geo-0001/" display-uri="log-geo-0001" type="local">logical-geometry note</fr:link>, which is an document in a preliminary stage trying to formulate the interaction between logic and geometry, in a rising sea style. Currently it's a personal effort, and only concerns about propositional logic. But the real intension behind this is to warm up for first-order theories.
+</html:p>
+    <html:p>
+  You can navigate the whole forester via <html:code>ctrl+k</html:code> (or also <html:code>command+k</html:code> on macOS).
 </html:p>
   </fr:mainmatter>
   <fr:backmatter>
@@ -4800,7 +4803,7 @@
             <fr:meta name="position">PhD student</fr:meta>
           </fr:frontmatter>
           <fr:mainmatter>
-            <html:p>PhD student working with <fr:link href="https://www.jonmsterling.com/index/index.xml" type="external">Jon Sterling</fr:link> on topos theory, type theory, and categorical logic.</html:p>
+            <html:p>I am currently a PhD student at Cambridge working with <fr:link href="https://www.jonmsterling.com/index/index.xml" type="external">Jon Sterling</fr:link> on categorical logic, topos theory, and type theory. For more information, you can check my website on top.</html:p>
           </fr:mainmatter>
         </fr:tree>
       </fr:mainmatter>
